@@ -33,5 +33,14 @@
 
 ---
 > [!h] Example 2 (Alexander-Whitney Diagonal Approximation)
-> Let $\sigma:\Delta^n\to X$. For $0\leq p\leq n$, we define: $$\begin{aligned}\sigma\rfloor_{p}:\Delta^p\to X,\quad [v_{0}:\dots:v_{p}]\mapsto \sigma([v_{0}:\dots:v_{p}:0:\dots:0])\\_{q}\lfloor \sigma:\Delta^q\to X,\quad [v_{0}:\dots:v_{q}]\mapsto \sigma([0:\dots:0:v_{0}:\dots:v_{q}])\end{aligned}$$
-> Then, the ***Alexander-Whitney diagonal approximation*** is given by: $$\Delta^{\text{AW}}(\sigma):=\sum_{p+q=n} \sigma\rfloor_{p}\otimes{_{q}\lfloor \sigma }\in(\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(X))_{n} $$
+> Let $\sigma:\Delta^n\to X$. For $0\leq p\leq n$, we define: $$\begin{aligned}\sigma\rfloor_{p}:\Delta^p\to X,\quad [v_{0}:\dots:v_{p}]\mapsto \sigma([v_{0}:\dots:v_{p}:0:\dots:0])\\{_{q}\lfloor \sigma}:\Delta^q\to X,\quad [v_{0}:\dots:v_{q}]\mapsto \sigma([0:\dots:0:v_{0}:\dots:v_{q}])\end{aligned}$$
+> Then, it holds that for $F^k:=[e_{1},\dots,\widehat{e_{k}},\dots,e_{n}]:\Delta^n\to \Delta^{n-1}$:
+> 1. for $p+q=n$:$$F^k(\sigma\rfloor_{p})=\begin{cases}(F^k\sigma)\rfloor_{p-1}&0\leq k\leq p,1\leq p\\0&k=0,p=0\end{cases},\quad F^k({_{q}\lfloor \sigma})=\begin{cases}{_{q-1}\lfloor (F^{k+p}\sigma)}&0\leq k\leq q,1\leq q\\0&k=0,q=0\end{cases}$$
+> 2. for $s+t=n-1$ and $0\leq k\leq n$:$$(F^k\sigma)\rfloor_{s}=\begin{cases}\sigma\rfloor_{s}&0\leq s\leq k-1\\F^k(\sigma\rfloor_{s+1})&k\leq s\end{cases},\quad {_{t}\lfloor (F^{k}\sigma)}=\begin{cases}{_{t}\lfloor \sigma}&t\leq  n-1-k\\ F^{k-s}({_{t+1}\lfloor \sigma})&n-k\leq t\end{cases}$$
+> 
+> the ***Alexander-Whitney diagonal approximation*** is given by: $$\Delta^{\text{AW}}(\sigma):=\sum_{p+q=n} \sigma\rfloor_{p}\otimes{_{q}\lfloor \sigma }\in(\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(X))_{n} $$
+
+> [!proof]+
+> We have that:
+> 1. If $0\leq k\leq p, 1\leq p$ then: $$\begin{aligned}F^k(\sigma\rfloor_{p})([v_{0}:\dots:v_{p-1}])&=\sigma\rfloor_{p}([v_{0}:\dots:v_{k-1}:0:v_{k}:\dots:v_{p-1}])\\&=\sigma([v_{0}:\dots:v_{k-1}:0:v_{k}:\dots:v_{p-1}:0:\dots:0])\\&=F^k\sigma([v_{0}:\dots:v_{p-1}:0:\dots:0])\\&=(F^k\sigma)\rfloor_{p-1}[v_{0}:\dots:v_{p-1}]\end{aligned}$$Otherwise, we have: $\begin{aligned}F^0(\sigma\rfloor_{0})=0\end{aligned}$. Similarly, if $0\leq k\leq q,1\leq q$: $$\begin{aligned}F^k({_{q}\lfloor \sigma})([v_{0}:\dots:v_{p-1}])&={_{q}\lfloor\sigma}([v_{0}:\dots:v_{k-1}:0:v_{k}:\dots:v_{q-1}])\\&={\sigma}([0:\dots:0:v_{0}:\dots:v_{k-1}:0:v_{k}:\dots:v_{q-1}])\\&=F^{p+k}\sigma([0:\dots:0:v_{0}:\dots:v_{q-1}])\\&={_{q-1}\lfloor (F^{p+k}\sigma)}[v_{0}:\dots:v_{p-1}]\end{aligned}$$and $F^0({_{q}\lfloor \sigma})=0$ otherwise.
+> 2. If $0\leq s\leq k-1$, then: $$\begin{aligned}(F^k\sigma)\rfloor_{s}[v_{0}:\dots:v_{s}]&=F^k\sigma[v]\end{aligned}$$

@@ -168,6 +168,20 @@
               "icon": "lucide-file",
               "title": "Diagonal Approximation"
             }
+          },
+          {
+            "id": "6c183ad9ec089d69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "p-Simplex"
+            }
           }
         ],
         "currentTab": 6
@@ -317,12 +331,12 @@
   },
   "active": "ede1d57ea466bb8c",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "Topology/Algebraic Topology/Diagonal Approximation.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Topology/Algebraic Topology/Diagonal Approximation.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Cross Product.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Cup Product.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Algebra/Chain Complex.md",
