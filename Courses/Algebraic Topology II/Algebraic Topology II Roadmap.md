@@ -429,4 +429,17 @@
 ![[Relative Homology#^614e58]]
 
 ---
-##### 2.7.4 Commutativity of Cohomology Cross Product
+##### 2.7.4 Properties of Cohomology Cross Product
+![[Cross Product#^9c0a44]]
+
+---
+![[Cross Product#^a0f0a6]]
+![[Cross Product#^a98ef9|p]]
+
+---
+![[Cross Product#^6340c5]]
+![[Cross Product#^52f367|p]]
+![[Cross Product#^bbc4db]]
+
+---
+### 2.8 Cup Product

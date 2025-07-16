@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cross Product.md",
+                "file": "Topology/Algebraic Topology/Cup Product.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cross Product"
+              "title": "Cup Product"
             }
           }
         ],
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+                "file": "Topology/Algebraic Topology/Cup Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Topology II Roadmap"
+              "title": "Cup Product"
             }
           },
           {
@@ -134,6 +134,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "p-Simplex"
+            }
+          },
+          {
+            "id": "b5aab949f4417d2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Algebra/Chain Complex.md",
                 "mode": "preview",
                 "source": true
@@ -142,8 +156,7 @@
               "title": "Chain Complex"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -288,16 +301,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "30241b51aa0cadbc",
+  "active": "8b637d72a5b1482d",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Cross Product.md",
+    "Topology/Algebraic Topology/Cup Product.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
     "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
-    "Topology/Algebraic Topology/p-Simplex.md",
     "Algebra/Cochain Complex.md",
     "Topology/Algebraic Topology/Graded Group.md",
     "Topology/Algebraic Topology/Kronecker Pairing.md",
@@ -316,7 +330,6 @@
     "Topology/Algebraic Topology/Cellular Cohomology.md",
     "Representation Theory/Graded Algebra.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",
