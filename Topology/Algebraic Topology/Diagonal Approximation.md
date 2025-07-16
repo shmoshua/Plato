@@ -11,14 +11,15 @@
 > Let $\Delta,\Delta'$ be two diagonal approximations. Then, 
 > 1. $\Delta \sim \Delta'$, i.e. they are [[Chain Homotopy|chain homotopic]] via a chain homotopy natural w.r.t $f:X\to Y$.
 
-> [!proof]+
+> [!proof]-
 > We want to show that there exists a chain homotopy: $$D:\mathcal{S}_{*}(X)\to (\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(X))[1]$$that is natural w.r.t. $f:X\to Y$ s.t. $\partial_{\otimes}D+D\partial=\Delta-\Delta'$. 
 > 
 > We will show that using induction over $n$. 
 > 1. If $n=0$, setting $D=0$ suffices as $\Delta(x)=\Delta'(x)$ for all $x\in S_{0}(X)$.
 > 2. If $n\geq 1$, assume that $D$ is defined for all $0\leq p<n$ and topological spaces $X$ s.t. it is natural w.r.t. $f:X\to Y$ and $\partial_{\otimes}D+D\partial=\Delta-\Delta'$. 
 >    
->    Let $d_{n}:\Delta^n\to \Delta^n,x\mapsto x$ be the identity
+>    Let $d_{n}:\Delta^n\to \Delta^n,x\mapsto x$ be the identity. Then, we claim that $(\Delta-\Delta'-D\partial)(d_{n})\in (\mathcal{S}_{}(X)\otimes \mathcal{S}(X))_{n}$ is a chain. We have that: $$\partial_{\otimes }(\Delta-\Delta'-D\partial)(d_{n})=(\Delta \partial-\Delta'\partial+\Delta'\partial-\Delta \partial+D\partial^{2})(d_{n})=0$$Further, as from [[Singular Homology|Lemma 8]], $H_{n}(\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(X))=0$, we have that there exists $a_{n}\in (\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(X))_{n+1}$ s.t. $\partial_{\otimes}a_{n}=(\Delta-\Delta'-D\partial)(d_{n})$. Let $D(d_{n}):=a_{n}$. Clearly, $$\partial_{\otimes }D(d_{n})=\partial_{\otimes }a_{n}=(\Delta-\Delta'-D\partial)(d_{n})$$Now, for $\sigma\in S_{n}(X)$, we define: $$D(\sigma):=(\sigma_{c}\otimes  \sigma_{c})D(d_{n})$$Then, $D$ is well-defined and for any $f:X\to Y$:$$D(f_{c}(\sigma))=((f\circ  \sigma)_{c}\otimes  (f\circ  \sigma)_{c})D(d_{n})=(f_{c}\otimes  f_{c})(\sigma_{c}\otimes  \sigma_{c})D(d_{n})=(f_{c}\otimes  f_{c})D(\sigma)$$Lastly, $$\begin{aligned}\partial D(\sigma)&=\partial(\sigma_{c}\otimes  \sigma_{c})D(d_{n})=(\sigma_{c}\otimes  \sigma_{c})\partial D(d_{n})\\&=(\sigma_{c}\otimes  \sigma_{c})(\Delta-\Delta'-D\partial)(d_{n})\\&=(\Delta-\Delta'-D\partial)(\sigma \circ  d_{n})=(\Delta-\Delta'-D\partial)(\sigma)\end{aligned}$$
+- **Corollary**: For any two cocycles $\varphi\in S^p(X),\psi\in S^q(X)$, for any diagonal approximation $\Delta$ and $\Delta_{\Theta}$ from Example 1, $$[(\varphi \otimes \psi)\circ  \Delta]=[(\varphi \otimes \psi)\circ  \Delta_{\Theta}]=[(\varphi \times \psi)\circ  d_{c}]=[\varphi \cup \psi]=[\varphi]\cup[\psi]$$
 ---
 ##### Examples
 > [!h] Example 1 (Via Theta)
@@ -31,3 +32,6 @@
 > 3. On degree $0$, $\Delta(x)=\Theta \circ d_{c}(x)=\Theta(x,x)=x\otimes x$.
 
 ---
+> [!h] Example 2 (Alexander-Whitney Diagonal Approximation)
+> Let $\sigma:\Delta^n\to X$. For $0\leq p\leq n$, we define: $$\begin{aligned}\sigma\rfloor_{p}:\Delta^p\to X,\quad [v_{0}:\dots:v_{p}]\mapsto \sigma([v_{0}:\dots:v_{p}:0:\dots:0])\\_{q}\lfloor \sigma:\Delta^q\to X,\quad [v_{0}:\dots:v_{q}]\mapsto \sigma([0:\dots:0:v_{0}:\dots:v_{q}])\end{aligned}$$
+> Then, the ***Alexander-Whitney diagonal approximation*** is given by: $$\Delta^{\text{AW}}(\sigma):=\sum_{p+q=n} \sigma\rfloor_{p}\otimes{_{q}\lfloor \sigma }\in(\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(X))_{n} $$
