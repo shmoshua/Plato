@@ -460,3 +460,12 @@
 ![[Cup Product#^d99359]]
 
 ---
+![[Cup Product#^dfd342]]
+![[Cup Product#^bd811f|p]]
+
+---
+![[Cup Product#^ef3896]]
+![[Cup Product#^2d4dce|p]]
+
+---
+##### 2.8.1 Diagonal Approximations
