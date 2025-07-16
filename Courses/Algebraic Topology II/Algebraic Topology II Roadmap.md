@@ -469,3 +469,22 @@
 
 ---
 ##### 2.8.1 Diagonal Approximations
+![[Diagonal Approximation#^990d84]]
+
+---
+![[Diagonal Approximation#^083a85]]
+![[Diagonal Approximation#^94fafa|p]]
+
+---
+![[Diagonal Approximation#^9a6f10]]
+![[Diagonal Approximation#^f1f57c|p]]
+![[Diagonal Approximation#^dfda7e]]
+
+---
+![[Diagonal Approximation#^739c12]]
+![[Diagonal Approximation#^a8b79b|p]]
+![[Diagonal Approximation#^4d6ce1|p]]
+![[Diagonal Approximation#^b739d1]]
+
+---
+##### 2.8.2 Computing the Cup Product
