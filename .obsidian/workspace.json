@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Chain Complex.md",
+                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Chain Complex"
+              "title": "Algebraic Topology II Roadmap"
             }
           }
         ]
@@ -303,14 +303,14 @@
   },
   "active": "83ca64246e25a9b6",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Cross Product.md",
     "Topology/Algebraic Topology/Cup Product.md",
+    "Topology/Algebraic Topology/Relative Homology.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Algebra/Chain Complex.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Algebra/Ring.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Relative Homology.md",
-    "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Algebra/Cochain Complex.md",

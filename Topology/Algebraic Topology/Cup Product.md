@@ -50,8 +50,29 @@
 > For any continuous map $f:X\to Y$, $\varphi\in S^p(Y;R)$ and $\psi\in S^q(Y;R)$
 > 1. $f^c(\varphi \cup \psi)=f^c(\varphi)\cup f^c(\psi)$
 
+^71b2b0
+
 > [!proof]-
 > We have:
 > $$\begin{aligned}f^c(\varphi \cup \psi)&=f^cd^c_{Y}(\varphi \times \psi)=(d_{Y}\circ  f)^c(\varphi \times \psi)=((f\times f)\circ d_{X})^c(\varphi \times \psi)\\&=d_{X}^c((f\times f)^c(\varphi \times \psi))=d^c_{X}(f^c(\varphi)\times f^c(\psi))=f^c(\varphi)\cup f^c(\psi)\end{aligned}$$
 
-- **Corollary**: $f^{*}:H^{*}(Y;R)\to H^{*}(X;R)$ is a homomorphism of rings by [[Singular Cohomology|Unity properties]].
+^4924af
+
+- **Corollary**: $f^{*}:H^{*}(Y;R)\to H^{*}(X;R)$ is a homomorphism of rings by [[Singular Cohomology|Unity properties]]. ^d99359
+
+---
+> [!lemma] Proposition 4 (Relative Cup Product)
+> For a topological space $X$, $A\subseteq X$, and $R$ a ring, 
+> 1. the ***relative cup product*** is a cochain level map: $$\begin{aligned}\cup:S^p(X,A;R)\otimes  S^q(X;R)\to S^{p+q}(X,A;R)\\\cup:S^p(X;R)\otimes  S^q(X,A;R)\to S^{p+q}(X,A;R)\end{aligned}$$
+> 2. On cohomology level, we get:$$\begin{aligned}\cup:H^{*}(X,A;R)\otimes_{R}  H^{*}(X;R)\to H^{*}(X,A;R)\\\cup:H^{*}(X;R)\otimes_{R}  H^{*}(X,A;R)\to H^{*}(X,A;R)\end{aligned}$$
+> 3. $H^{*}(X,A;R)$ is a $H^{*}(X;R)$-[[bimodule]].
+
+> [!proof]+
+> We have that:
+> 1. Let $\varphi\in S^p(X,A;R)\cong \text{ker}(\Phi\mapsto \Phi|_{S_{p}(A)})$, i.e. $\varphi\in S^p(X;R)$ with $\varphi|_{S_{p}(A)}=0$. Then, for $i:A\to X$ the inclusion, $$i^c(\varphi \cup \psi)=i^c(\varphi)\cup i^c(\psi)=0\cup i^c(\psi)=0$$Hence, $(\varphi \cup \psi)|_{S_{p+q}(A)}=0$. Similarly, if $\psi\in S^q(X,A;R)$, then $(\varphi \cup \psi)|_{S_{p+q}(A)}=0$. This proves the statement.
+> 2. Obvious. 
+> 3. We have that: 
+> 	1. $\varphi \cup(\psi+\psi')=\varphi \cup \psi+\varphi \cup \psi'$ by definition.
+> 	2. $(\varphi +\varphi')\cup \psi=\varphi \cup \psi+\varphi'\cup \psi$ also by definition.
+> 	3. $(\varphi \cup \phi)\cup \psi=\varphi \cup (\phi \cup \psi)$ by associativity.
+> 	4. $1\cup \psi=\psi$
