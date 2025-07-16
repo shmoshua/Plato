@@ -30,7 +30,22 @@
 ![[Relative Homology#^85bd50]]
 
 ---
-> [!lemma] Proposition 1 (Commutativity and Associativity of Cohomological Cross Product)
+> [!lemma] Proposition 1 (Associativity of Homological Cross Product)
+> Let $X,Y,Z$ be topological spaces. For $a\in H_{*}(X),b\in H_{*}(Y),c\in H_{*}(Z)$, $$(a\times b)\times c=a\times(b\times c)\in H_{*}(X\times Y\times Z)$$
+
+> [!proof]+
+> We claim that two chain maps $\phi,\psi:\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)\otimes \mathcal{S}_{*}(Z)\to \mathcal{S}_{*}(X\times Y\times Z)$ s.t.
+> 1. in degree 0, $\phi(x\otimes y\otimes z)=\psi(x\otimes y\otimes z)=(x,y,z)$ for all $x\in X,y\in Y,z\in Z$.
+> 2. both are natural w.r.t. $X\to X',Y\to Y',Z\to Z'$.
+> 
+> Then, $\phi \sim \psi$. We proceed by induction over $n$ to construct a chain homotopy $D$. 
+> 
+>  - If $n=0$, as $\phi=\psi$ we can set $D=0$.
+>  - If $n\geq 1$, assume that we have $D$ for all $0\leq k< n$ for all spaces $X,Y,Z$ that is natural w.r.t. $X\to X',Y\to Y', Z\to Z'$ and $\partial_{X\times Y\times Z} D+D\partial_{\otimes}=\phi-\psi$.
+>    
+>    Then, let $d_{n}:\Delta_{6}n-$
+---
+> [!lemma] Proposition 2 (Commutativity and Associativity of Cohomological Cross Product)
 > Let $X,Y,Z$ be topological spaces. For $\alpha\in H^p(X;R),\beta\in H^q(Y;R),\gamma\in H^r(Z;R)$
 > 1. **(Graded commutativity)**: for $T:X\times Y\to Y\times X,(x,y)\mapsto(y,x)$, it holds that: $$\alpha \times\beta=(-1)^{pq}T^{*}(\beta \times\alpha)$$ 
 > 2. **Associativity**: it holds that in $H^{p+q+r}(X\times Y\times Z)$ $$(\alpha \times\beta)\times\gamma=\alpha \times(\beta \times\gamma)$$
