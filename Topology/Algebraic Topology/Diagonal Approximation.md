@@ -34,13 +34,21 @@
 ---
 > [!h] Example 2 (Alexander-Whitney Diagonal Approximation)
 > Let $\sigma:\Delta^n\to X$. For $0\leq p\leq n$, we define: $$\begin{aligned}\sigma\rfloor_{p}:\Delta^p\to X,\quad [v_{0}:\dots:v_{p}]\mapsto \sigma([v_{0}:\dots:v_{p}:0:\dots:0])\\{_{q}\lfloor \sigma}:\Delta^q\to X,\quad [v_{0}:\dots:v_{q}]\mapsto \sigma([0:\dots:0:v_{0}:\dots:v_{q}])\end{aligned}$$
-> Then, it holds that for $F^k:=[e_{1},\dots,\widehat{e_{k}},\dots,e_{n}]:\Delta^n\to \Delta^{n-1}$:
+> Then, it holds that for $F^k:=[e_{0},\dots,\widehat{e_{k}},\dots,e_{n}]:\Delta^n\to \Delta^{n-1}$:
 > 1. for $p+q=n$:$$F^k(\sigma\rfloor_{p})=\begin{cases}(F^k\sigma)\rfloor_{p-1}&0\leq k\leq p,1\leq p\\0&k=0,p=0\end{cases},\quad F^k({_{q}\lfloor \sigma})=\begin{cases}{_{q-1}\lfloor (F^{k+p}\sigma)}&0\leq k\leq q,1\leq q\\0&k=0,q=0\end{cases}$$
 > 2. for $s+t=n-1$ and $0\leq k\leq n$:$$(F^k\sigma)\rfloor_{s}=\begin{cases}\sigma\rfloor_{s}&0\leq s\leq k-1\\F^k(\sigma\rfloor_{s+1})&k\leq s\end{cases},\quad {_{t}\lfloor (F^{k}\sigma)}=\begin{cases}{_{t}\lfloor \sigma}&t\leq  n-1-k\\ F^{k-s}({_{t+1}\lfloor \sigma})&n-k\leq t\end{cases}$$
 > 
 > the ***Alexander-Whitney diagonal approximation*** is given by: $$\Delta^{\text{AW}}(\sigma):=\sum_{p+q=n} \sigma\rfloor_{p}\otimes{_{q}\lfloor \sigma }\in(\mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(X))_{n} $$
 
-> [!proof]+
+> [!proof]- Proof for Lemma 1,2.
 > We have that:
 > 1. If $0\leq k\leq p, 1\leq p$ then: $$\begin{aligned}F^k(\sigma\rfloor_{p})([v_{0}:\dots:v_{p-1}])&=\sigma\rfloor_{p}([v_{0}:\dots:v_{k-1}:0:v_{k}:\dots:v_{p-1}])\\&=\sigma([v_{0}:\dots:v_{k-1}:0:v_{k}:\dots:v_{p-1}:0:\dots:0])\\&=F^k\sigma([v_{0}:\dots:v_{p-1}:0:\dots:0])\\&=(F^k\sigma)\rfloor_{p-1}[v_{0}:\dots:v_{p-1}]\end{aligned}$$Otherwise, we have: $\begin{aligned}F^0(\sigma\rfloor_{0})=0\end{aligned}$. Similarly, if $0\leq k\leq q,1\leq q$: $$\begin{aligned}F^k({_{q}\lfloor \sigma})([v_{0}:\dots:v_{p-1}])&={_{q}\lfloor\sigma}([v_{0}:\dots:v_{k-1}:0:v_{k}:\dots:v_{q-1}])\\&={\sigma}([0:\dots:0:v_{0}:\dots:v_{k-1}:0:v_{k}:\dots:v_{q-1}])\\&=F^{p+k}\sigma([0:\dots:0:v_{0}:\dots:v_{q-1}])\\&={_{q-1}\lfloor (F^{p+k}\sigma)}[v_{0}:\dots:v_{p-1}]\end{aligned}$$and $F^0({_{q}\lfloor \sigma})=0$ otherwise.
-> 2. If $0\leq s\leq k-1$, then: $$\begin{aligned}(F^k\sigma)\rfloor_{s}[v_{0}:\dots:v_{s}]&=F^k\sigma[v]\end{aligned}$$
+> 2. If $0\leq s\leq k-1$, then: $$\begin{aligned}(F^k\sigma)\rfloor_{s}[v_{0}:\dots:v_{s}]&=F^k\sigma[v_{0}:\dots:v_{s}:0:\dots:0]\\&=\sigma[v_{0}:\dots:v_{s}:0:\dots:0]=\sigma\rfloor_{s}\end{aligned}$$Otherwise: $$\begin{aligned}(F^k\sigma)\rfloor_{s}[v_{0}:\dots:v_{s}]&=F^k\sigma[v_{0}:\dots :v_{s}:0:\dots:0]\\&=\sigma[v_{0}:\dots :v_{k-1}:0:v_{k}:\dots:v_{s}:0:\dots:0]\\&=\sigma\rfloor_{s+1}[v_{0}:\dots :v_{k-1}:0:v_{k}:\dots:v_{s}]\\&=F^k(\sigma\rfloor_{s+1})[v_{0}:\dots:v_{s}]\end{aligned}$$Similarly, if $t\leq n-1-k$, i.e. $k\leq s$, $$\begin{aligned}_{t}\lfloor(F^k\sigma)[v_{0}:\dots:v_{t}]&=F^k\sigma[0:\dots:0:v_{0}:\dots:v_{t}]\\&=\sigma[0:\dots:0:v_{0}:\dots:v_{t}]={_{t}\lfloor \sigma}[v_{0}:\dots:v_{t}]\end{aligned} $$and otherwise $$\begin{aligned}_{t}\lfloor(F^k\sigma)[v_{0}:\dots:v_{t}]&=F^k\sigma[0:\dots:0:v_{0}:\dots:v_{t}]\\&=\sigma[0:\dots:0:v_{0}:\dots:v_{k-s-1}:0:v_{k-s}:\dots:v_{t}]\\&={_{t+1}\lfloor \sigma}[v_{0}:\dots:v_{k-s-1}:0:v_{k-s}:\dots:v_{t}]\\&=F^{k-s}({_{t+1}\lfloor \sigma})[v_{0}:\dots:v_{t}]\end{aligned} $$
+
+> [!proof]+ Proof for the AW diagonal approximation
+> We have that: 
+> 1. **$\Delta^{\text{AW}}$ is natural w.r.t. maps $f:X\to Y$**. 
+>    Let $\sigma\in S_{n}(X)$. Then, $$\begin{aligned}\Delta^{\text{AW}}_{Y}\circ  f_{c}(\sigma)&=\Delta^{\text{AW}}_{Y}\circ  (f\circ \sigma)=\sum_{p+q=n}^{}(f\circ \sigma)\rfloor_{p}\otimes{_{q}\lfloor (f\circ \sigma)}\\&=\sum_{p+q=n}^{}f_{c}(\sigma\rfloor_{p})\otimes f_{c}({_{q}\lfloor  \sigma})\\&=(f_{c}\otimes  f_{c})\sum_{p+q=n}\sigma\rfloor_{p}\otimes{_{q}\lfloor \sigma }\\&=(f_{c}\otimes  f_{c})\circ  \Delta^\text{AW}_{X}(\sigma)\end{aligned}$$
+> 2. **$\Delta^\text{AW}(x)=x\otimes x$ for $x\in S_{0}(X)$** as $\Delta^{\text{AW}}(x)=x\rfloor_{0}\otimes{_{0}\lfloor x }=x\otimes x$.
+> 3. **$\Delta:=\Delta^{\text{AW}}$ is a chain map**:
+>    For $\sigma\in S_{n}(X)$, we have: $$\begin{aligned}\Delta(\partial\sigma)&=\Delta\left( \sum_{i=0}^{n} (-1)^iF^i\sigma\right)\\&=\sum_{i=0}^{n}(-1)^i\sum_{s+t=n-1}(F^i\sigma)\rfloor_{s}\otimes{_{t}\lfloor (F^i\sigma) }\\&=\sum_{i=0}^{n}(-1)^i \left( \sum_{s=0}^{i-1}\sigma\rfloor_{s}\otimes F^{i-s}(_{n-s}\lfloor \sigma) +\sum_{s=i}^{n-1}F^i(\sigma\rfloor_{s+1})\otimes {_{n-1-s}\lfloor \sigma} \right)\\&= \sum_{\begin{array}{c}1\leq j, 0\leq s\\s+j\leq n\end{array}}(-1)^{s+j}\sigma\rfloor_{s}\otimes F^{j}(_{n-s}\lfloor \sigma)+\sum_{0\leq i< p\leq n\\s+j\leq n\end{array}}^{}\end{aligned}$$
