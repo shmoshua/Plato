@@ -443,3 +443,15 @@
 
 ---
 ### 2.8 Cup Product
+![[Cup Product#^7bacb8]]
+![[Cup Product#^3d12a2]]
+
+---
+![[Cup Product#^bd6af5]]
+![[Cup Product#^044e3b|p]]
+
+---
+![[Cup Product#^8d1ccf]]
+![[Cup Product#^023205|p]]
+
+---

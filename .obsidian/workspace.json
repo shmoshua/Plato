@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Homology.md",
+                "file": "Topology/Algebraic Topology/Singular Cohomology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Homology"
+              "title": "Singular Cohomology"
             }
           },
           {
@@ -303,14 +303,15 @@
   },
   "active": "8b637d72a5b1482d",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Cross Product.md",
-    "Topology/Algebraic Topology/Cup Product.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/Cup Product.md",
+    "Topology/Algebraic Topology/Cross Product.md",
+    "Algebra/Ring.md",
     "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Relative Homology.md",
     "Algebra/Chain Complex.md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Algebraic Topology/Relative Homology.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Algebra/Cochain Complex.md",
     "Topology/Algebraic Topology/Graded Group.md",
@@ -329,7 +330,6 @@
     "Topology/Algebraic Topology/Good Pair.md",
     "Topology/Algebraic Topology/Cellular Cohomology.md",
     "Representation Theory/Graded Algebra.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",
