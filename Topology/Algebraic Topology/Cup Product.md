@@ -47,3 +47,11 @@
 
 ---
 > [!lemma] Proposition 3 (Naturality of Cup Product)
+> For any continuous map $f:X\to Y$, $\varphi\in S^p(Y;R)$ and $\psi\in S^q(Y;R)$
+> 1. $f^c(\varphi \cup \psi)=f^c(\varphi)\cup f^c(\psi)$
+
+> [!proof]-
+> We have:
+> $$\begin{aligned}f^c(\varphi \cup \psi)&=f^cd^c_{Y}(\varphi \times \psi)=(d_{Y}\circ  f)^c(\varphi \times \psi)=((f\times f)\circ d_{X})^c(\varphi \times \psi)\\&=d_{X}^c((f\times f)^c(\varphi \times \psi))=d^c_{X}(f^c(\varphi)\times f^c(\psi))=f^c(\varphi)\cup f^c(\psi)\end{aligned}$$
+
+- **Corollary**: $f^{*}:H^{*}(Y;R)\to H^{*}(X;R)$ is a homomorphism of rings by [[Singular Cohomology|Unity properties]].
