@@ -56,15 +56,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Relative Homology.md",
+                "file": "Topology/Algebraic Topology/Cross Product.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Relative Homology"
+              "title": "Cross Product"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -91,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Relative Homology.md",
+                "file": "Topology/Algebraic Topology/Cross Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Relative Homology"
+              "title": "Cross Product"
             }
           },
           {
@@ -127,7 +128,8 @@
               "title": "Singular Cohomology"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -272,12 +274,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5f1044ef9be1a1a4",
+  "active": "44bbf9d5498f4730",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Cross Product.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Algebra/Cochain Complex.md",
