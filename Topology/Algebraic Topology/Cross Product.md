@@ -31,15 +31,16 @@
 
 ---
 > [!lemma] Proposition 1 (Commutativity and Associativity of Cohomological Cross Product)
-> Let $X,Y$ be topological spaces. For $\alpha\in H^p(X;R),\beta\in H^q(Y;R)$ cocycles, 
+> Let $X,Y,Z$ be topological spaces. For $\alpha\in H^p(X;R),\beta\in H^q(Y;R),\gamma\in H^r(Z;R)$
 > 1. **(Graded commutativity)**: for $T:X\times Y\to Y\times X,(x,y)\mapsto(y,x)$, it holds that: $$\alpha \times\beta=(-1)^{pq}T^{*}(\beta \times\alpha)$$ 
+> 2. **Associativity**: it holds that in $H^{p+q+r}(X\times Y\times Z)$ $$(\alpha \times\beta)\times\gamma=\alpha \times(\beta \times\gamma)$$
 
 > [!proof]+
 > We have that:
-> 1. Fix $\Theta$ from [[Singular Homology|EZ Theorem]]. Consider the following map: $$\tau:\mathcal{S}_{*}(Y)\otimes  \mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y),\quad b\otimes  a\mapsto (-1)^{|a\mid b|}a\otimes  b$$
+> 3. Fix $\Theta$ from [[Singular Homology|EZ Theorem]]. Consider the following map: $$\tau:\mathcal{S}_{*}(Y)\otimes  \mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(Y),\quad b\otimes  a\mapsto (-1)^{|a\mid b|}a\otimes  b$$
 > 	1. **$\tau$ is a chain map**:
 > 	   For $a\in S_{p}(X)$ and $b\in S_{q}(Y)$, we have: $$\begin{aligned}\tau(\partial (b\otimes  a))&=\tau(\partial b\otimes  a+(-1)^qb\otimes  \partial a)=(-1)^{q+(p-1)q}\partial a \otimes  b+(-1)^{p(q-1)}a\otimes  \partial b\\&=(-1)^{pq}(\partial a \otimes  b+(-1)^{p}a\otimes  \partial b)\\&=(-1)^{pq}\partial(a\otimes  b)\\&=\partial \tau(b\otimes  a)\end{aligned}$$
 > 	
-> 	Consider now the composition $J:=\tau \circ \Theta_{Y,X}\circ T_{c}:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$ which is a chain map. This is natural w.r.t. $X\to X'$ and $Y\to Y'$. Further, at deg 0, we have: $$J(x,y)=\tau \circ \Theta_{Y,X}(y,x)=\tau(y\otimes  x)= x \otimes  y$$Therefore, by Eilenberg-Zilberg, $J\sim \Theta_{X,Y}$, i.e. there exists $$D:\mathcal{S}_{*}(X\times Y)\to (\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))[1]$$s.t. $\partial_{\otimes} D+D\partial_{X\times Y}=J-\Theta_{X,Y}$. Passing to cohomologies, 
+> 	Consider now the composition $J:=\tau \circ \Theta_{Y,X}\circ T_{c}:\mathcal{S}_{*}(X\times Y)\to \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y)$ which is a chain map. This is natural w.r.t. $X\to X'$ and $Y\to Y'$. Further, at deg 0, we have: $$J(x,y)=\tau \circ \Theta_{Y,X}(y,x)=\tau(y\otimes  x)= x \otimes  y$$Therefore, by Eilenberg-Zilberg, $J\sim \Theta_{X,Y}$, i.e. there exists $$D:\mathcal{S}_{*}(X\times Y)\to (\mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(Y))[1]$$s.t. $\partial_{\otimes} D+D\partial_{X\times Y}=J-\Theta_{X,Y}$. For $f\in S^p(X;R)$ and $g\in S^q(Y;R)$ cocyles, $$\begin{aligned}T^{*}([g]  \times [f])&=T^{*}([g\times f])=T^{*}([(g\otimes  f)\circ  \Theta_{Y,X}])=[(g\otimes  f)\circ \Theta_{Y,X}\circ  T_{c}]\\&=(-1)^{pq}[(f\otimes  g)\circ  \tau\circ \Theta_{Y,X}\circ  T_{c}]\end{aligned}$$as $(-1)^{pq}(f\otimes g)\tau(b\otimes a)=(f\otimes g)(a\otimes b)=(-1)^{pq}f(a) g(b)=(g\otimes f)(b\otimes a)$. Therefore, $$\begin{aligned}T^{*}([g]  \times [f])&=(-1)^{pq}[(f\otimes  g)\circ  J]\\&=(-1)^{pq}[(f\otimes  g)\circ \Theta_{X,Y}+(f\otimes  g)\circ  \partial_{\otimes }D+(f\otimes  g)\circ  D\partial_{X\times Y}]\\&=(-1)^{pq}[(f\otimes  g)\circ \Theta_{X,Y}+\underbrace{ (f\otimes  g)\circ  \partial_{\otimes } }_{ =0 }D\pm \delta_{X\times Y}((f\otimes  g)\circ  D)]\\&=(-1)^{pq}[(f\otimes  g)\circ \Theta_{X,Y}]\\&=(-1)^{pq}[f\times g]\\&=(-1)^{pq}[f]\times[g]\end{aligned}$$
 
 - **Remark**: The graded commutativity holds on the cohomology level but may not on the cochain level.
