@@ -43,7 +43,11 @@
 >  - If $n=0$, as $\phi=\psi$ we can set $D=0$.
 >  - If $n\geq 1$, assume that we have $D$ for all $0\leq k< n$ for all spaces $X,Y,Z$ that is natural w.r.t. $X\to X',Y\to Y', Z\to Z'$ and $\partial_{X\times Y\times Z} D+D\partial_{\otimes}=\phi-\psi$.
 >    
->    Then, let $d_{n}:\Delta_{6}n-$
+>    Let $I_{i}:\Delta^i\to \Delta^i\in S_{i}(\Delta^i)$ given by $x\mapsto x$. Then, we claim that for any $i+j+k=n$: $$(\phi-\psi-D\partial_{\otimes })(I_{i}\otimes  I_{j}\otimes  I_{k})\in S_{n}(\Delta^i\times \Delta^j\times \Delta^k)$$is a cycle. Indeed, $$\begin{aligned}\partial_{X\times Y\times Z}(\phi-\psi-D\partial_{\otimes })(I_{i}\otimes  I_{j}\otimes  I_{k})&=(\phi \partial_{\otimes }-\psi\partial_{\otimes }+D\partial_{\otimes }^{2}+\psi \partial_{\otimes }-\phi \partial_{\otimes })(I_{i}\otimes  I_{j}\otimes  I_{k})=0\end{aligned}$$As $\Delta^i\times\Delta^j\times\Delta^k$ is contractible, $H_{n}(\Delta^i\times\Delta^j\times\Delta^k)=0$ and there is $a\in S_{n+1}(\Delta^i\times\Delta^j\times\Delta^k)$ s.t. $\partial a=(\phi-\psi-D\partial_{\otimes})(I_{i}\otimes I_{j}\otimes I_{k})$. Let $D(I_{i}\otimes I_{j}\otimes I_{k}):= a$. Then, it holds that:$$\partial D(I_{i}\otimes  I_{j}\otimes  I_{k})=\partial a=(\phi-\psi-D\partial_{\otimes })(I_{i}\otimes  I_{j}\otimes  I_{k})$$Now, we set for $\sigma_{X}\in S_{i}(X)$, $\sigma_{Y}\in S_{j}(Y)$ and $\sigma_{Z}\in S_{k}(Z)$ we define: $$D(\sigma_{X}\otimes \sigma_{Y}\otimes  \sigma_{Z}):= (\sigma_{X}\times\sigma_{Y}\times\sigma_{Z})_{c}D(I_{i}\otimes  I_{j}\otimes  I_{k})$$
+> 	 1. **$D$ is well-defined** as $I_{i}\times I_{j}\times I_{k}$ is the identity.
+> 	 2. **$D$ is natural w.r.t. maps**:
+> 	    For $f:X\to X',g:Y\to Y', h:Z\to Z'$, we have that: $$\begin{aligned}(f\times g\times h)_{c}D(\sigma_{X}\otimes  \sigma_{Y} \otimes  \sigma_{Z})&=((f\circ  \sigma_{X})\times (g\circ  \sigma_{Y})\times (h\circ  \sigma_{Z}))_{c}D(I_{i}\otimes  I_{j}\otimes  I_{k})\end{aligned}$$$$\begin{aligned}D((f_{c}\otimes  g_{c}\otimes  h_{c})(\sigma_{X}\otimes  \sigma_{Y}\otimes  \sigma_{Z}))&=D(f_{c})\end{aligned}$$
+>    
 ---
 > [!lemma] Proposition 2 (Commutativity and Associativity of Cohomological Cross Product)
 > Let $X,Y,Z$ be topological spaces. For $\alpha\in H^p(X;R),\beta\in H^q(Y;R),\gamma\in H^r(Z;R)$
