@@ -24,11 +24,27 @@
 > 3. $(\alpha \cup \beta)\cap a=\alpha \cap(\beta \cap a)$
 > 4. $f_{*}(f^{*}\alpha \cap a)=\alpha \cap f_{*}a$
 
-> [!proof]+
-> Let $\alpha=[\varphi]$ and $\beta=[\psi]$ and $a=[c]$. Then, 
+> [!proof]-
+> Let $\alpha=[\varphi]$ and $\beta=[\psi]$ and $a=[c]$. Then, by independence of $\Delta$, we can use the AW diagonal approximation cap product identities from Example 1. Hence,
 > 1. $1\cap a=[\varepsilon]\cap[c]=[\varepsilon \cap c]=[c]=a$.
 > 2. $\varepsilon_*(\alpha \cap a)=\varepsilon_{*}([\varphi]\cap[c])=\varepsilon_{*}([\varphi \cap c])=\varepsilon(\varphi \cap c)=\varphi(c)=\braket{ \alpha , a }$.
-> 3. 
+> 3. $(\alpha \cup \beta)\cap a=([\varphi]\cup[\psi])\cap[c]=[(\varphi \cup \psi)\cap c]=[\varphi \cap(\psi \cap c)]=\alpha \cap(\beta \cap a)$.
+> 4. $f_{*}(f^{*}\alpha \cap a)=[f_{c}(f^c \varphi \cap c)]=[\varphi \cap f_{c}c]=\alpha \cap f_{*}a$.
+---
+> [!lemma] Proposition 3 (Properties of Kronecker Pairing)
+> Consider the [[Kronecker pairing]] where: $$\braket{ \cdot  , \cdot  }: H^p(X;R)\otimes _{R}H_{p}(X;R)\to R $$
+> 1. for $\alpha,\beta\in H^{*}(X;R)$ of pure degree with $\left| \alpha \right|+\left| \beta \right|=p$ and $c\in H_{p}(X;R)$ we have: $$\braket{ \alpha \cup \beta , c } =\braket{ \alpha , \beta \cap c } $$
+> 2. for all $f:X\to Y$, $\alpha\in H^p(Y;R)$ and $c\in H_{p}(X;R)$, we have: $$\braket{ f^{*}\alpha , c } =\braket{ \alpha , f_{*}c } $$
+
+^804bda
+
+> [!proof]-
+> We have that: 
+> 1. $\braket{ \alpha \cup \beta , c }=\varepsilon_{*}((\alpha \cup \beta)\cap c)=\varepsilon_{*}(\alpha \cap(\beta \cap c))=\braket{ \alpha , \beta \cap c }$.
+> 2. $\braket{ \alpha , f_{*}c }=\varepsilon_{*}^Y(\alpha \cap f_{*}c)=\varepsilon_{*}^Y(f_{*}(f^{*}\alpha \cap c))=\varepsilon_{*}^X(f^{*}\alpha \cap c)=\braket{ f^{*}\alpha , c }$.
+
+^9fad4a
+
 ---
 ##### Examples
 > [!h] Example 1 (AW Diagonal Approximation)

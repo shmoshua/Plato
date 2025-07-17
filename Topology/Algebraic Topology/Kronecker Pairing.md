@@ -21,3 +21,9 @@
 > 2. By universal property of [[tensor product]].
 
 ^917623
+
+---
+![[Cap Product#^804bda]]
+![[Cap Product#^9fad4a|p]]
+
+---
