@@ -103,7 +103,15 @@
 
 ---
 > [!lemma] Proposition 6 (Cup Product with Connecting Homomorphisms)
-> Let $X$ and $A\subseteq X$ be topological spaces. Consider the LES: $$\dots\to H^{k-1}(A;R)\overset{ \delta ^{*} }{ \to } H^k(X,A;R)\overset{ j^{*} }{ \to } H^k(X;R)\to H^k(A;R)\overset{ \delta ^{*} }{ \to } H^{k+1}(X,A;R)\to \cdots$$
+> Let $X$ and $A\subseteq X$ be topological spaces. Consider the LES: $$\dots\to H^{k-1}(A;R)\overset{ \delta ^{*} }{ \to } H^k(X,A;R)\overset{ j^{*} }{ \to } H^k(X;R)\overset{ i^{*} }{ \to } H^k(A;R)\overset{ \delta ^{*} }{ \to } H^{k+1}(X,A;R)\to \cdots$$Then, for all $\alpha\in H^{*}(A;R)$ and $\beta\in H^{*}(X;R)$ and $\gamma,\gamma'\in H^{*}(X,A;R)$:
+> 1. $\delta ^{*}(\alpha \cup i^{*}\beta)=\delta ^{*}\alpha \cup\beta$.
+> 2. $\delta ^{*}(i^{*}\beta \cup \alpha)=(-1)^\left| \beta \right|\beta \cup \delta ^{*}\alpha$
+> 3. $j^{*}(\gamma \cup\gamma')=j^{*}\gamma \cup j^{*}\gamma'$.
+> 4. $j^{*}(\beta \cup \gamma)=\beta \cup j^{*}\gamma$.
+
+> [!proof]+
+> We have: 
+> 1. Let $\varphi\in S^p(A;R)$ and $\psi\in S^q(X;R)$ s.t. $p+q=n$ be cocycles. Then, let $\overline{\varphi}\in S^p(X;R)$ be an extension of $\varphi$. We have that: $$[\varphi]\cup i^{*}[\psi]=[i^c\overline{\varphi} \cup i^c\psi]=[i^c(\overline{\varphi}\cup \psi)]$$Then, we have that for any $c\in S_{n+1}(A)$, $$\delta(\overline{\varphi} \cup \psi)(c)=(\overline{\varphi}\cup \psi)(\partial c)=\braket{ \overline{\varphi}\times \psi , d_{c}(\partial c) } $$ is Further, we have that there exists $$\begin{aligned}\delta ^{*}([\varphi]\cup i^{*}[\psi])&=\delta ^{*}[i^{c}(\overline{\varphi})\cup i^{c}(\psi)]=\delta ^{*}[i^c(\overline{\varphi}\cup \psi)]\end{aligned}$$
 
 ---
 > [!lemma] Theorem 7 (CW-Complexes)
