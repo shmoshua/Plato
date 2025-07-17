@@ -147,12 +147,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Relative Homology.md",
+                "file": "Topology/Algebraic Topology/Cross Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Relative Homology"
+              "title": "Cross Product"
             }
           },
           {
@@ -212,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -357,15 +357,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e59a8fcdeb8a9ca1",
+  "active": "ede1d57ea466bb8c",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Diagonal Approximation.md",
     "Topology/Algebraic Topology/Cap Product.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/Diagonal Approximation.md",
     "Topology/Algebraic Topology/Cup Product.md",
     "Topology/Algebraic Topology/Cross Product.md",
     "Topology/Algebraic Topology/Relative Homology.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "Topology/CW-Complex.md",
