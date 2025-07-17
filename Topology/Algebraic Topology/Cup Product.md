@@ -102,7 +102,11 @@
 ^2d4dce
 
 ---
-> [!lemma] Theorem 6 (CW-Complexes)
+> [!lemma] Proposition 6 (Cup Product with Connecting Homomorphisms)
+> Let $X$ and $A\subseteq X$ be topological spaces. Consider the LES: $$\dots\to H^{k-1}(A;R)\overset{ \delta ^{*} }{ \to } H^k(X,A;R)\overset{ j^{*} }{ \to } H^k(X;R)\to H^k(A;R)\overset{ \delta ^{*} }{ \to } H^{k+1}(X,A;R)\to \cdots$$
+
+---
+> [!lemma] Theorem 7 (CW-Complexes)
 > Let $X$ be a finite [[CW-complex]]. We view the attaching cells as $\Delta^k$ instead of $B^k$. Assume further that:
 > - the inclusion $i:\mathcal{C}^\text{cw}(X)\to \mathcal{S}_{*}(X)$ is a [[Chain Complex|chain map]] and a quasi-isomorphism.
 > - for all $0\leq k\leq \text{dim }X$ with $p+q=k$, and $\sigma:\Delta^k\to X$, $\sigma\rfloor_{p}$ and $_{q}\lfloor \sigma$ are also cells of $X$.
@@ -113,13 +117,17 @@
 > 2. $i^{*}:H^{*}(X;R)\to H^{*}_{\text{cw}}(X;R)$ is an isomorphism of rings.
 > 3. For $\Delta:=\Delta^\text{AW}$ the [[Diagonal Approximation|Alexander-Whitney diagonal approximation]], the following diagonal approximation commutes: $$\Delta^\text{cw}:\mathcal{C}^{\text{cw}}(X)\to \mathcal{C}^{\text{cw}}(X)\otimes \mathcal{C}^{\text{cw}}(X),\quad \sigma\mapsto \sum_{p+q=n}^{}\sigma\rfloor_{p}\otimes  {_{q}\lfloor \sigma} $$
 
+^0e0941
+
 > [!proof]-
 > We have that: 
 > 1. Notice that $i$ and $i\otimes i$ are injective maps. Hence, $$\Delta^\text{cw}\partial^\text{cw}+\partial^\text{cw}_{\otimes } \Delta^\text{cw} = 0 \iff (i\otimes  i)\circ (\Delta^\text{cw}\partial^\text{cw}+\partial^\text{cw}_{\otimes } \Delta^\text{cw}) = 0$$Now, $$\begin{aligned}(i\otimes  i)\circ (\Delta^\text{cw}\partial^\text{cw}+\partial^\text{cw}_{\otimes } \Delta^\text{cw})&=\Delta \circ  i\circ  \partial^\text{cw}+\partial_{\otimes }(i \otimes  i\circ  \Delta^\text{cw})\\&=\Delta \circ  i\circ  \partial^\text{cw}+\partial_{\otimes } \circ \Delta \circ  i\\&=\underbrace{ (\Delta \circ  \partial+\partial_{\otimes } \circ \Delta ) }_{ =0 }\circ  i=0\end{aligned}$$
 > 2. Follows from 1. 
 > 3. Obvious.
 
-- **Remark**: The assumption 1) is not trivial: Consider $X:=S^{2}$ with one $0$-cell, no $1$-cell and one $2$-cell. Then, $\partial ^\text{cw}\equiv 0$. However, we have that $$\partial(\text{2-cell})=c-c+c=c$$where $c$ is a constant map.
+^fa317c
+
+- **Remark**: The assumption 1) is not trivial: Consider $X:=S^{2}$ with one $0$-cell, no $1$-cell and one $2$-cell. Then, $\partial ^\text{cw}\equiv 0$. However, we have that $$\partial(\text{2-cell})=c-c+c=c$$where $c$ is a constant map. ^7576e6
 
 ---
 ##### Examples
@@ -187,9 +195,16 @@
 > 	- $\alpha \cup\beta=-\mu$.
 > 	- $\varphi \cup \psi=-U^{*}$ and $\psi \cup \varphi=-L^{*}$ for $\varphi:=a^{*}+c^{*}$ and $\psi:=b^{*}+c^{*}$, hence there is no commutativity.
 > 	- $\alpha \cup \alpha=0$ and $\beta \cup \beta=0$.
+> 7. $H^{*}(\mathbb{T}^{2};R)\cong R[\alpha,\beta] / \{ \alpha^{2}=0, \beta^{2}=0, \alpha\beta=-\beta\alpha \}$
 
-> [!proof]+
+^8c5e48
+
+> [!proof]-
 > We have that:
 > $$\begin{aligned}\braket{ \varphi \cup \psi , U } &=- \varphi(U\rfloor_{1} )\psi(_{1}\lfloor U)=-\braket{ a^{*}+c^{*} ,  a}\braket{ b^{*}+c^{*} ,  b}=-1\\\braket{ \varphi \cup \psi , L } &=-\varphi(L\rfloor_{1} )\psi(_{1}\lfloor L)=-\braket{ a^{*}+c^{*} , b }\braket{ b^{*}+c^{*} ,  a} =0\end{aligned} $$Hence, $\varphi \cup \psi=-U^{*}$. Similarly, $$\begin{aligned}\braket{ \psi \cup \varphi , U } &=- \psi(U\rfloor_{1} )\varphi(_{1}\lfloor U)=-\braket{ b^{*}+c^{*} ,  a}\braket{ a^{*}+c^{*} ,  b}=0\\\braket{ \psi \cup \varphi , L } &=- \psi(L\rfloor_{1} )\varphi(_{1}\lfloor L)=-\braket{ b^{*}+c^{*} ,  b}\braket{ a^{*}+c^{*} ,  a}=-1\end{aligned} $$Hence, $\psi \cup \varphi=-L^{*}$. Therefore, it holds that $\alpha \cup \beta=-\mu=-\beta \cup \alpha$
 > 
-> Now, $$\begin{aligned}\braket{ \varphi \cup \varphi , U } &=-\varphi(U\rfloor_{1} )\varphi(_{1}\lfloor U)=-\braket{ a^{*}+c^{*} , a } \braket{ b^{*}+c^{*} , a }=0\\\braket{ \varphi \cup \varphi , L } &=-\varphi(L\rfloor_{1} )\varphi(_{1}\lfloor L)=-\braket{ a^{*}+c^{*} , b } \braket{ b^{*}+c^{*} , a }=0\end{aligned} $$
+> Now, $$\begin{aligned}\braket{ \varphi \cup \varphi , U } &=-\varphi(U\rfloor_{1} )\varphi(_{1}\lfloor U)=-\braket{ a^{*}+c^{*} , a } \braket{ a^{*}+c^{*} , b }=0\\\braket{ \varphi \cup \varphi , L } &=-\varphi(L\rfloor_{1} )\varphi(_{1}\lfloor L)=-\braket{ a^{*}+c^{*} , b } \braket{ a^{*}+c^{*} , a }=0\end{aligned} $$Similarly $\psi \cup \psi=0$ and we have the statement.
+
+^b1e89f
+
+---

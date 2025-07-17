@@ -488,5 +488,15 @@
 
 ---
 ##### 2.8.2 Computing the Cup Product on CW-Complexes
+![[Cup Product#^0e0941]]
+![[Cup Product#^fa317c|p]]
+![[Cup Product#^7576e6]]
+
+---
+![[Cup Product#^8c5e48]]
+![[Cup Product#^b1e89f|p]]
+
+---
+### 2.9 Cap Product
 
 
