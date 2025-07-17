@@ -2,17 +2,33 @@
 
 > [!definition]
 > Let $X$ be a [[topological space]] and $R$ a [[ring]]. 
-> 1. The ***cap product*** is a map:$$\cap:S^p(X;R)\otimes_{R}  S_{n}(X)\to S_{n-p}(X),\quad  \varphi \otimes  c\mapsto ((\pi_{n-p}\otimes  \varphi)\circ  \Delta )c$$where $\Delta:\mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)\otimes_{R}\mathcal{S}_{*}(X)$ is a [[diagonal approximation]] over $R$ and the projection $\pi_{q}:\bigoplus_{j\in \mathbb{Z}}S_{j}(X)\to S_{q}(X)$.
+> 1. The ***cap product*** is a map:$$\cap:S^p(X;R)\otimes_{R}  S_{n}(X)\to S_{n-p}(X;R),\quad  \varphi \otimes  c\mapsto ((\pi_{n-p}\otimes  \varphi)\circ  \Delta )c$$where $\Delta:\mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)\otimes_{R}\mathcal{S}_{*}(X)$ is a [[diagonal approximation]] over $R$ and the projection $\pi_{q}:\bigoplus_{j\in \mathbb{Z}}S_{j}(X)\to S_{q}(X)$.
+> 2. The ***cap product on homology*** is given by: $$\cap :H^p(X;R)\otimes  H_{n}(X)\to H_{n-p}(X;R)$$
 - **Remark**: We write $\varphi \cap c=(\text{id}\otimes \varphi)\circ \Delta c$ instead as well to make it more intuitive.
+- **Remark**: $\cap$ on homology is independent of $\Delta$ by [[Diagonal Approximation|Theorem 1]].
 ---
 > [!lemma] Proposition 1 (Properties of Cap Product)
 > We have that:
 > 1. $\cap$ is natural w.r.t. maps $f:X\to Y$, i.e. $$f_{c}(f^c\varphi \cap c)=\varphi \cap f_{c}c,\quad \forall \varphi\in S^p(Y;R),c\in S_{n}(X)$$
 > 2. $\cap$ is a chain map in the sense that: $$\partial(\varphi \cap c)=\delta\varphi \cap c+(-1)^p\varphi \cap \partial c,\quad \forall \varphi\in S^p(X;R),c\in S_{n}(X)$$
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. See that: $$\begin{aligned}f_{c}(f^c\varphi \cap c)&=(f_{c} \circ (\text{id}\otimes (\varphi \circ  f_{c}))\circ \Delta )c\\&=(f_{c} \circ (\text{id}\otimes (\varphi \circ  f_{c}))\circ \Delta )c\end{aligned}$$
+> 1. See that: $$\begin{aligned}\varphi \cap f_{c}c&=(\pi_{n-p}\otimes  \varphi)\circ \Delta f_{c}c\\&=(\pi_{n-p}\otimes  \varphi)\circ (f_{c}\otimes  f_{c})\Delta c\\&=(\pi_{n-p}\circ  f_{c})\otimes  (\varphi \circ  f_{c})\Delta c\\&=f_{c}((\pi_{n-p}\otimes  f^c(\varphi))\Delta c)\\&=f_{c}(f^c\varphi \cap c)\end{aligned}$$
+> 2. We have that: $$\begin{aligned}\partial(\varphi \cap c)&=\partial((\text{id}\otimes  \varphi)\circ \Delta c)=(\partial \otimes \text{id}_{R})(\text{id}\otimes  \varphi)\circ  \Delta c\\&=(-1)^p(\text{id}\otimes  \varphi)(\partial \otimes  \text{id})\Delta c\\&=(-1)^p(\text{id}\otimes  \varphi)(\partial_{\otimes }-\text{id}\otimes  \partial)\Delta c\\&=(-1)^p(\text{id}\otimes  \varphi)\Delta \partial c+(-1)^{p+1}(\text{id}\otimes  \varphi \circ \partial)\Delta c\\&=(-1)^p(\text{id}\otimes  \varphi)\Delta \partial c+(\text{id}\otimes  \delta\varphi )\Delta c\\&=\delta \varphi \cap c+(-1)^p\varphi \cap \partial c\end{aligned}$$
+---
+> [!lemma] Proposition 2 (Properties of Homological Cap Product)
+> For $\alpha,\beta\in H^{*}(X)$ and $a\in H_{*}(X)$, 
+> 1. $1\cap a=a$
+> 2. $\varepsilon_{*}(\alpha \cap a)=\braket{ \alpha , a }$ where $\braket{ \cdot , \cdot }$ is the [[Kronecker pairing]].
+> 3. $(\alpha \cup \beta)\cap a=\alpha \cap(\beta \cap a)$
+> 4. $f_{*}(f^{*}\alpha \cap a)=\alpha \cap f_{*}a$
+
+> [!proof]+
+> Let $\alpha=[\varphi]$ and $\beta=[\psi]$ and $a=[c]$. Then, 
+> 1. $1\cap a=[\varepsilon]\cap[c]=[\varepsilon \cap c]=[c]=a$.
+> 2. $\varepsilon_*(\alpha \cap a)=\varepsilon_{*}([\varphi]\cap[c])=\varepsilon_{*}([\varphi \cap c])=\varepsilon(\varphi \cap c)=\varphi(c)=\braket{ \alpha , a }$.
+> 3. 
 ---
 ##### Examples
 > [!h] Example 1 (AW Diagonal Approximation)
