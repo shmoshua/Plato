@@ -196,23 +196,9 @@
               "icon": "lucide-file",
               "title": "CW-Complex"
             }
-          },
-          {
-            "id": "891c43ecc370ec28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Algebraic Topology I Roadmap"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -357,19 +343,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ede1d57ea466bb8c",
+  "active": "e59a8fcdeb8a9ca1",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Cup Product.md",
+    "Topology/CW-Complex.md",
+    "Topology/Algebraic Topology/Acyclic Space.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Cap Product.md",
     "Topology/Algebraic Topology/Diagonal Approximation.md",
-    "Topology/Algebraic Topology/Cup Product.md",
     "Topology/Algebraic Topology/Cross Product.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Topology/CW-Complex.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Algebra/Chain Complex.md",
     "Algebra/Ring.md",
@@ -383,7 +370,6 @@
     "Topology/Algebraic Topology/Resolution.md",
     "Algebra/Tensor Product.md",
     "Algebra/Module.md",
-    "Topology/Algebraic Topology/Acyclic Space.md",
     "Topology/Algebraic Topology/Reduced Homology.md",
     "Algebra/Group Extension.md",
     "Courses/Computational Intelligence Lab",

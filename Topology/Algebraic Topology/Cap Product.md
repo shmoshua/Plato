@@ -7,9 +7,14 @@
 ---
 ##### Examples
 > [!h] Example 1 (AW Diagonal Approximation)
-> Let $\Delta:=\Delta^\text{AW}$ be the [[Diagonal Approximation|Alexander-Whitney diagonal approximation]]. Then, for $\varphi\in S^p(X)$ and $\sigma\in S_{n}(X)$ and we have:
-> 1. $\varphi \cap \sigma=(-1)^{pq}\braket{ \varphi , {_{p}\lfloor\sigma} }\cdot\sigma\rfloor_{q}$
+> Let $\Delta:=\Delta^\text{AW}$ be the [[Diagonal Approximation|Alexander-Whitney diagonal approximation]]. Let $\varepsilon:S_{0}(X)\to R$ also be the augmentation. Then, we have:
+> 1. $\varphi \cap \sigma=(-1)^{pq}\braket{ \varphi , {_{p}\lfloor\sigma} }\cdot\sigma\rfloor_{q}$ for $\varphi\in S^p(X)$ and $\sigma\in S_{n}(X)$
+> 2.  $\varepsilon \cap c = c$.
+> 3. $\varepsilon(\varphi \cap c)=\varphi(c)$ for $\varphi\in S^p(X)$ and $c\in S_{p}(X)$
+> 4. $(\varphi \cup \psi)\cap c=\varphi \cap(\psi \cap c)$
 
 > [!proof]+
 > We have that:
 > 1. Compute that: $$\varphi \cap \sigma=(\pi_{q}\otimes  \varphi)\circ  \Delta\sigma=(\pi_{q}\otimes  \varphi)\sum_{s+t=n}\sigma\rfloor_{s}\otimes {_{t}\lfloor\sigma}=(-1)^{pq}\sigma\rfloor_{q}\cdot \braket{ \varphi , {_{p}\lfloor\sigma} } $$
+> 2. We have that: $$\varepsilon \cap c=\underbrace{ \braket{ \varepsilon , {_{0}\lfloor c} } }_{ =1 } \cdot c=c$$
+> 3. We have that: $$\varepsilon(\varphi \cap c)=\varepsilon((-1)^{pq}\braket{ \varphi , _{p}\lfloor  } )$$
