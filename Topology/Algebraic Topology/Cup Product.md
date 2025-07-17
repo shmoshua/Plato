@@ -124,43 +124,72 @@
 ---
 ##### Examples
 > [!h] Example 1 (2-Torus)
-> Let $X:=\mathbb{T}^{2}$ be a CW-complex defined as follows:
+> Let $R$ be a ring and $X:=\mathbb{T}^{2}$ be a CW-complex defined as follows:
 > ```tikz
-> 	\usepackage{tikz}
-> 	\usetikzlibrary{calc, arrows, decorations.markings}
-> 	\begin{document}
-> 	\begin{tikzpicture}[scale=1., line width=1pt,
-> 	double_arrow/.style={postaction={decorate}, decoration={markings, mark=at position 0.53 with {\arrow{>>}}}}, 
-> 	triple_arrow/.style={postaction={decorate}, decoration={markings, mark=at position 0.53 with {\arrow{>>>}}}}, 
-> 	single_arrow/.style={postaction={decorate}, decoration={markings, mark=at position 0.53 with {\arrow{>}}}}]
-> 	\tikzset{dot/.style = {shape=circle, fill,draw, inner sep=0pt, minimum size=3pt}}
-> 	\draw[single_arrow] (0,-2) -- (0,0);
-> 	\draw[single_arrow] (2,-2) -- (2,0);
-> 	\draw[double_arrow] (0,0) -- (2,0);
-> 	\draw[double_arrow] (0,-2) -- (2,-2);
-> 	\draw[triple_arrow] (0,-2) -- (2,0);
-> 	\node[dot] (da) at (0,0) {};
-> 	\node[dot] (da) at (2,-2) {};
-> 	\node[dot] (da) at (0,-2) {};
-> 	\node[dot] (da) at (2,0) {};
-> 	\node at (-0.25,0.2) {$x_{3}$};
-> 	\node at (2.25,0.2) {$x_{2}$};
-> 	\node at (-0.25,-2.2) {$x_{0}$};
-> 	\node at (2.25,-2.2) {$x_{1}$};
-> 	
-> 	\fill[pink!30, opacity=0.5] (0,-2) -- (2,0) -- (0,0) -- cycle;
-> 	\fill[purple!30, opacity=0.2] (0,-2) -- (2,0) -- (2,-2) -- cycle;
-> 	\node at (-0.3,-1) {$a$};
-> 	\node at (2.3,-1) {$a$};
-> 	\node at (1,0.3) {$b$};
-> 	\node at (1,-2.3) {$b$};
-> 	\node at (1.1,-1.3) {$c$};
-> 	\node at (0.5,-0.5) {$U$};
-> 	\node at (1.5,-1.5) {$L$};
-> 	
-> 	\node at (6,-1) {$\textbf{0-cells}:x=x_{0}=x_{1}=x_{2}=x_{3}$};
-> 	\node at (4.63,-1.5) {$\textbf{1-cells}:a,b,c$};
-> 	\node at (4.55,-2) {$\textbf{2-cells}:U,L$};
-> 	\end{tikzpicture}
-> 	\end{document}
-> 	 ```
+> \usepackage{tikz}
+> \usetikzlibrary{calc, arrows, decorations.markings}
+> \begin{document}
+> \begin{tikzpicture}[scale=1., line width=1pt,
+> double_arrow/.style={postaction={decorate}, decoration={markings, mark=at position 0.53 with {\arrow{>>}}}}, 
+> triple_arrow/.style={postaction={decorate}, decoration={markings, mark=at position 0.53 with {\arrow{>>>}}}}, 
+> single_arrow/.style={postaction={decorate}, decoration={markings, mark=at position 0.53 with {\arrow{>}}}}]
+> \tikzset{dot/.style = {shape=circle, fill,draw, inner sep=0pt, minimum size=3pt}}
+> \draw[single_arrow] (0,-2) -- (0,0);
+> \draw[single_arrow] (2,-2) -- (2,0);
+> \draw[double_arrow] (0,0) -- (2,0);
+> \draw[double_arrow] (0,-2) -- (2,-2);
+> \draw[triple_arrow] (0,-2) -- (2,0);
+> \node[dot] (da) at (0,0) {};
+> \node[dot] (da) at (2,-2) {};
+> \node[dot] (da) at (0,-2) {};
+> \node[dot] (da) at (2,0) {};
+> \node at (-0.25,0.2) {$x_{3}$};
+> \node at (2.25,0.2) {$x_{2}$};
+> \node at (-0.25,-2.2) {$x_{0}$};
+> \node at (2.25,-2.2) {$x_{1}$};
+> 
+> \fill[pink!30, opacity=0.5] (0,-2) -- (2,0) -- (0,0) -- cycle;
+> \fill[purple!30, opacity=0.2] (0,-2) -- (2,0) -- (2,-2) -- cycle;
+> \node at (-0.3,-1) {$a$};
+> \node at (2.3,-1) {$a$};
+> \node at (1,0.3) {$b$};
+> \node at (1,-2.3) {$b$};
+> \node at (1.1,-1.3) {$c$};
+> \node at (0.5,-0.5) {$U$};
+> \node at (1.5,-1.5) {$L$};
+> 
+> \node at (5.98,-0.5) {$\textbf{0-cells}:x=x_{0}=x_{1}=x_{2}=x_{3}$};
+> \node at (4.63,-1) {$\textbf{1-cells}:a,b,c$};
+> \node at (6.7,-1.5) {$\textbf{2-cells}:U:=[x_{0},x_{3},x_{2}],L:=[x_{0},x_{1},x_{2}]$};
+> \end{tikzpicture}
+> \end{document}
+>  ```
+> 
+>  Then, consider $x^{*},a^{*},b^{*},c^{*},U^{*},L^{*}$ as linear functionals forming a basis, i.e. $$\braket{ a^{*} , a } =1,\quad \braket{ a^{*} , b } =\braket{ a^{*} , c } =0$$We have that:
+>  1. the differentials are given by: 
+> 	 - $\partial x=0$ and $\partial^\text{cw}x=0$
+> 	 - $\partial a=\partial b=\partial c=0$ and $\partial^\text{cw}a=\partial^\text{cw}b=\partial^\text{cw}c=0$
+> 	 - $\partial U=b-c+a$ and $\partial^\text{cw}U=b-c+a$.
+> 	 - $\partial L=a-c+b$ and $\partial^\text{cw}L=a-c+b$
+> 2. $i:\mathcal{C}^\text{cw}(\mathbb{T}^{2})\to \mathcal{S}_{*}(\mathbb{T}^{2})$ is a chain map and a quasi-isomorphism.
+> 3. $X$ meets all the assumptions of Theorem 6.
+> 4. the cochain differentials are given by: 
+> 	- $\delta^\text{cw}(x^{*})=x^{*} \circ \partial^\text{cw}=0$ as $\partial^\text{cw}=0$ for all $\sigma\in C_{1}^\text{cw}(\mathbb{T}^{2})$.
+> 	- $\delta^\text{cw}(a^{*})=U^{*}+{L^{*}}$ as $\braket{ \delta^\text{cw}(a^{*}) ,U  }=\braket{ a^{*} , \partial^\text{cw}U }=1$ and $\braket{   \delta^\text{cw}(a^{*}) ,L  }=\braket{ a^{*} , \partial^\text{cw}L }=1$.
+> 	- $\delta^\text{cw}(b^{*})=U^{*}+{L^{*}}$ as $\braket{ \delta^\text{cw}(b^{*}) ,U  }=\braket{ b^{*} , \partial^\text{cw}U }=1$ and $\braket{   \delta^\text{cw}(b^{*}) ,L  }=\braket{ b^{*} , \partial^\text{cw}L }=1$.
+> 	- $\delta^\text{cw}(c^{*})=-U^{*}-{L^{*}}$ as $\braket{ \delta^\text{cw}(c^{*}) ,U  }=\braket{ c^{*} , \partial^\text{cw}U }=-1$, $\braket{   \delta^\text{cw}(c^{*}) ,L  }=\braket{ c^{*} , \partial^\text{cw}L }=-1$.
+> 	- $\delta^\text{cw}(U^{*})=\delta^\text{cw}(L^{*})=0$ as we don't have any 3-cell.
+> 5. Therfore, we have: 
+> 	- $H^0_{\text{cw}}(\mathbb{T}^{2})\cong R\cdot[x^{*}]$
+> 	- $H^1_{\text{cw}}(\mathbb{T}^{2})\cong R\cdot[a^{*}+c^{*}]\oplus R\cdot[b^{*}+c^{*}]$
+> 	- $H^2_{\text{cw}}(\mathbb{T}^{2})\cong R\cdot[U^{*}]$ with $[U^{*}]=-[L^{*}]$.
+> 6. If we define $1:=[x]$, $\alpha:=[a^{*}+c^{*}]$, $\beta:=[b^{*}+c^{*}]$, $\mu:=[U^{*}]=-[L^{*}]$, 
+> 	- $\alpha \cup\beta=-\mu$.
+> 	- $\varphi \cup \psi=-U^{*}$ and $\psi \cup \varphi=-L^{*}$ for $\varphi:=a^{*}+c^{*}$ and $\psi:=b^{*}+c^{*}$, hence there is no commutativity.
+> 	- $\alpha \cup \alpha=0$ and $\beta \cup \beta=0$.
+
+> [!proof]+
+> We have that:
+> $$\begin{aligned}\braket{ \varphi \cup \psi , U } &=- \varphi(U\rfloor_{1} )\psi(_{1}\lfloor U)=-\braket{ a^{*}+c^{*} ,  a}\braket{ b^{*}+c^{*} ,  b}=-1\\\braket{ \varphi \cup \psi , L } &=-\varphi(L\rfloor_{1} )\psi(_{1}\lfloor L)=-\braket{ a^{*}+c^{*} , b }\braket{ b^{*}+c^{*} ,  a} =0\end{aligned} $$Hence, $\varphi \cup \psi=-U^{*}$. Similarly, $$\begin{aligned}\braket{ \psi \cup \varphi , U } &=- \psi(U\rfloor_{1} )\varphi(_{1}\lfloor U)=-\braket{ b^{*}+c^{*} ,  a}\braket{ a^{*}+c^{*} ,  b}=0\\\braket{ \psi \cup \varphi , L } &=- \psi(L\rfloor_{1} )\varphi(_{1}\lfloor L)=-\braket{ b^{*}+c^{*} ,  b}\braket{ a^{*}+c^{*} ,  a}=-1\end{aligned} $$Hence, $\psi \cup \varphi=-L^{*}$. Therefore, it holds that $\alpha \cup \beta=-\mu=-\beta \cup \alpha$
+> 
+> Now, $$\begin{aligned}\braket{ \varphi \cup \varphi , U } &=-\varphi(U\rfloor_{1} )\varphi(_{1}\lfloor U)=-\braket{ a^{*}+c^{*} , a } \braket{ b^{*}+c^{*} , a }=0\\\braket{ \varphi \cup \varphi , L } &=-\varphi(L\rfloor_{1} )\varphi(_{1}\lfloor L)=-\braket{ a^{*}+c^{*} , b } \braket{ b^{*}+c^{*} , a }=0\end{aligned} $$
