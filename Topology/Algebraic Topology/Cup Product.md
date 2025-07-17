@@ -104,7 +104,63 @@
 ---
 > [!lemma] Theorem 6 (CW-Complexes)
 > Let $X$ be a finite [[CW-complex]]. We view the attaching cells as $\Delta^k$ instead of $B^k$. Assume further that:
-> 1. the inclusion $i:\mathcal{C}^\text{cw}(X)\to \mathcal{S}_{*}(X)$ is a [[Chain Complex|chain map]] and a quasi-isomorphism.
-> 2. ]
+> - the inclusion $i:\mathcal{C}^\text{cw}(X)\to \mathcal{S}_{*}(X)$ is a [[Chain Complex|chain map]] and a quasi-isomorphism.
+> - for all $0\leq k\leq \text{dim }X$ with $p+q=k$, and $\sigma:\Delta^k\to X$, $\sigma\rfloor_{p}$ and $_{q}\lfloor \sigma$ are also cells of $X$.
+> 
+> Let $\Delta:\mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)\otimes \mathcal{S}_{*}(X)$ be a [[diagonal approximation]]. Then, 
+> 
+> 1. If there exists $\Delta^\text{cw}:\mathcal{C}^{\text{cw}}(X)\to \mathcal{C}^{\text{cw}}(X)\otimes \mathcal{C}^{\text{cw}}(X)$ s.t. the diagram commutes:$$\begin{CD} \mathcal{C}^{\text{cw}}(X) @>\Delta^\text{cw}>>\mathcal{C}^{\text{cw}}(X)\otimes  \mathcal{C}^{\text{cw}}(X)\\ @ViVV @Vi\otimes  iVV \\\mathcal{S}_{*}(X) @>>\Delta> \mathcal{S}_{*}(X)\otimes  \mathcal{S}_{*}(X)\end{CD}$$then $\Delta^\text{cw}$ is a chain map.
+> 2. $i^{*}:H^{*}(X;R)\to H^{*}_{\text{cw}}(X;R)$ is an isomorphism of rings.
+> 3. For $\Delta:=\Delta^\text{AW}$ the [[Diagonal Approximation|Alexander-Whitney diagonal approximation]], the following diagonal approximation commutes: $$\Delta^\text{cw}:\mathcal{C}^{\text{cw}}(X)\to \mathcal{C}^{\text{cw}}(X)\otimes \mathcal{C}^{\text{cw}}(X),\quad \sigma\mapsto \sum_{p+q=n}^{}\sigma\rfloor_{p}\otimes  {_{q}\lfloor \sigma} $$
+
+> [!proof]-
+> We have that: 
+> 1. Notice that $i$ and $i\otimes i$ are injective maps. Hence, $$\Delta^\text{cw}\partial^\text{cw}+\partial^\text{cw}_{\otimes } \Delta^\text{cw} = 0 \iff (i\otimes  i)\circ (\Delta^\text{cw}\partial^\text{cw}+\partial^\text{cw}_{\otimes } \Delta^\text{cw}) = 0$$Now, $$\begin{aligned}(i\otimes  i)\circ (\Delta^\text{cw}\partial^\text{cw}+\partial^\text{cw}_{\otimes } \Delta^\text{cw})&=\Delta \circ  i\circ  \partial^\text{cw}+\partial_{\otimes }(i \otimes  i\circ  \Delta^\text{cw})\\&=\Delta \circ  i\circ  \partial^\text{cw}+\partial_{\otimes } \circ \Delta \circ  i\\&=\underbrace{ (\Delta \circ  \partial+\partial_{\otimes } \circ \Delta ) }_{ =0 }\circ  i=0\end{aligned}$$
+> 2. Follows from 1. 
+> 3. Obvious.
 
 - **Remark**: The assumption 1) is not trivial: Consider $X:=S^{2}$ with one $0$-cell, no $1$-cell and one $2$-cell. Then, $\partial ^\text{cw}\equiv 0$. However, we have that $$\partial(\text{2-cell})=c-c+c=c$$where $c$ is a constant map.
+
+---
+##### Examples
+> [!h] Example 1 (2-Torus)
+> Let $X:=\mathbb{T}^{2}$ be a CW-complex defined as follows:
+> ```tikz
+> 	\usepackage{tikz}
+> 	\usetikzlibrary{calc, arrows, decorations.markings}
+> 	\begin{document}
+> 	\begin{tikzpicture}[scale=1., line width=1pt,
+> 	double_arrow/.style={postaction={decorate}, decoration={markings, mark=at position 0.53 with {\arrow{>>}}}}, 
+> 	triple_arrow/.style={postaction={decorate}, decoration={markings, mark=at position 0.53 with {\arrow{>>>}}}}, 
+> 	single_arrow/.style={postaction={decorate}, decoration={markings, mark=at position 0.53 with {\arrow{>}}}}]
+> 	\tikzset{dot/.style = {shape=circle, fill,draw, inner sep=0pt, minimum size=3pt}}
+> 	\draw[single_arrow] (0,-2) -- (0,0);
+> 	\draw[single_arrow] (2,-2) -- (2,0);
+> 	\draw[double_arrow] (0,0) -- (2,0);
+> 	\draw[double_arrow] (0,-2) -- (2,-2);
+> 	\draw[triple_arrow] (0,-2) -- (2,0);
+> 	\node[dot] (da) at (0,0) {};
+> 	\node[dot] (da) at (2,-2) {};
+> 	\node[dot] (da) at (0,-2) {};
+> 	\node[dot] (da) at (2,0) {};
+> 	\node at (-0.25,0.2) {$x_{3}$};
+> 	\node at (2.25,0.2) {$x_{2}$};
+> 	\node at (-0.25,-2.2) {$x_{0}$};
+> 	\node at (2.25,-2.2) {$x_{1}$};
+> 	
+> 	\fill[pink!30, opacity=0.5] (0,-2) -- (2,0) -- (0,0) -- cycle;
+> 	\fill[purple!30, opacity=0.2] (0,-2) -- (2,0) -- (2,-2) -- cycle;
+> 	\node at (-0.3,-1) {$a$};
+> 	\node at (2.3,-1) {$a$};
+> 	\node at (1,0.3) {$b$};
+> 	\node at (1,-2.3) {$b$};
+> 	\node at (1.1,-1.3) {$c$};
+> 	\node at (0.5,-0.5) {$U$};
+> 	\node at (1.5,-1.5) {$L$};
+> 	
+> 	\node at (6,-1) {$\textbf{0-cells}:x=x_{0}=x_{1}=x_{2}=x_{3}$};
+> 	\node at (4.63,-1.5) {$\textbf{1-cells}:a,b,c$};
+> 	\node at (4.55,-2) {$\textbf{2-cells}:U,L$};
+> 	\end{tikzpicture}
+> 	\end{document}
+> 	 ```
