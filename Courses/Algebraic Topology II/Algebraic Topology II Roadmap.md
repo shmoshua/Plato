@@ -487,4 +487,6 @@
 ![[Diagonal Approximation#^b739d1]]
 
 ---
-##### 2.8.2 Computing the Cup Product
+##### 2.8.2 Computing the Cup Product on CW-Complexes
+
+

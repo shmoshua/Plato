@@ -102,3 +102,9 @@
 ^2d4dce
 
 ---
+> [!lemma] Theorem 6 (CW-Complexes)
+> Let $X$ be a finite [[CW-complex]]. We view the attaching cells as $\Delta^k$ instead of $B^k$. Assume further that:
+> 1. the inclusion $i:\mathcal{C}^\text{cw}(X)\to \mathcal{S}_{*}(X)$ is a [[Chain Complex|chain map]] and a quasi-isomorphism.
+> 2. ]
+
+- **Remark**: The assumption 1) is not trivial: Consider $X:=S^{2}$ with one $0$-cell, no $1$-cell and one $2$-cell. Then, $\partial ^\text{cw}\equiv 0$. However, we have that $$\partial(\text{2-cell})=c-c+c=c$$where $c$ is a constant map.
