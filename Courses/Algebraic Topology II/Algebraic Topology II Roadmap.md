@@ -468,6 +468,11 @@
 ![[Cup Product#^2d4dce|p]]
 
 ---
+![[Cup Product#^2f5cfa]]
+![[Cup Product#^b4b09c|p]]
+
+
+---
 ##### 2.8.1 Diagonal Approximations
 ![[Diagonal Approximation#^990d84]]
 
@@ -485,6 +490,7 @@
 ![[Diagonal Approximation#^a8b79b|p]]
 ![[Diagonal Approximation#^4d6ce1|p]]
 ![[Diagonal Approximation#^b739d1]]
+
 
 ---
 ##### 2.8.2 Computing the Cup Product on CW-Complexes

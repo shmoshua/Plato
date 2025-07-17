@@ -113,9 +113,16 @@
 > 3. $j^{*}(\gamma \cup\gamma')=j^{*}\gamma \cup j^{*}\gamma'$.
 > 4. $j^{*}(\beta \cup \gamma)=\beta \cup j^{*}\gamma$.
 
-> [!proof]+
+^2f5cfa
+
+> [!proof]-
 > We have: 
-> 1. Let $\varphi\in S^p(A;R)$ and $\psi\in S^q(X;R)$ s.t. $p+q=n$ be cocycles. Then, let $\overline{\varphi}\in S^p(X;R)$ be an extension of $\varphi$. We have that: $$[\varphi]\cup i^{*}[\psi]=[i^c\overline{\varphi} \cup i^c\psi]=[i^c(\overline{\varphi}\cup \psi)]$$Then, we have that for any $c\in S_{n+1}(A)$, as $\varphi,\psi$ are both cocycles, $$\delta(\overline{\varphi} \cup \psi)(c)=\delta(\varphi \cup \psi|_{S_{q}(A)})(c)=0$$ Therefore, $\delta(\overline{\varphi}\cup \psi)\in S_{n+1}(X,A;R)$. Now, $$[\delta(\overline{\varphi}\cup \psi)]=[\delta\overline{\varphi}\cup \psi+(-1)^p\overline{\varphi}\cup \delta \psi]$$
+> 1. Let $\varphi\in S^p(A;R)$ and $\psi\in S^q(X;R)$ s.t. $p+q=n$ be cocycles. Then, let $\overline{\varphi}\in S^p(X;R)$ be an extension of $\varphi$. We have that: $$[\varphi]\cup i^{*}[\psi]=[i^c\overline{\varphi} \cup i^c\psi]=[i^c(\overline{\varphi}\cup \psi)]$$Then, we have that for any $c\in S_{n+1}(A)$, as $\varphi,\psi$ are both cocycles, for any $c\in S_{n+1}(A)$$$\delta(\overline{\varphi} \cup \psi)(c)=\delta(\varphi \cup i^c(\psi))(c)=(\underbrace{ \delta\varphi }_{ =0 } \cup i^c(\psi)+(-1)^p \varphi \cup \underbrace{ \delta(i^c(\psi)) }_{ =i^c(\delta(\psi))=0 })(c)=0$$ Therefore, $\delta(\overline{\varphi}\cup \psi)\in S_{n+1}(X,A;R)$ and $$\begin{aligned}\delta ^{*}([\varphi]\cup i^{*}[\psi])&=[\delta(\overline{\varphi}\cup \psi)]\\&=[\delta\overline{\varphi}\cup \psi+(-1)^p\overline{\varphi}\cup \underbrace{ \delta \psi }_{ =0 }]=[\delta\overline{\varphi}\cup \psi]=\delta ^{*}([\varphi])\cup[\psi]\end{aligned}$$
+> 2. From 1, $$\begin{aligned}\delta ^{*}(i^{*}\beta \cup \alpha)&=(-1)^{\left| \alpha \right| \left| \beta \right| }\delta ^{*}(\alpha \cup i^{*}\beta)=(-1)^{\left| \alpha \right| \left| \beta \right| }\delta ^{*}\alpha \cup \beta=(-1)^{\left| \alpha \right| \left| \beta \right|+(\left| \alpha \right|+1)\left| \beta \right|   }\beta \cup \delta ^{*}\alpha\\&=(-1)^{\left| \beta \right| }\beta \cup \delta ^{*}\alpha\end{aligned}$$
+> 3. Let $\varphi,\psi\in S^n(X;R)$ s.t. $\varphi|_{S_{n}(A)}=\psi|_{S_{n}(A)}=0$. Then, $$j^{*}([\varphi \cup \psi])=[j^c(\varphi)\cup j^c(\psi)]=j^{*}[\varphi]\cup j^{*}[\psi]$$
+> 4. Obvious.
+
+^b4b09c
 
 ---
 > [!lemma] Theorem 7 (CW-Complexes)
