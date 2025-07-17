@@ -88,8 +88,9 @@
 > [!lemma] Proposition 5 (Cohomological Cross Product)
 > Let $R$ be a [[ring|commutative ring]] and $X,Y$ topological spaces.
 > 1. there exists a cochain map $$\times:\mathcal{S}^{*}(X;R)\otimes_{\mathbb{Z}}\mathcal{S}^{*}(Y;R)\to \mathcal{S}^{*}(X\times Y;R)$$ that is natural via maps $X\to X'$ and $Y\to Y'$.
-> 2. $\times$ induces a map $\times:S^{p}(X;R)\otimes_{R}S^{q}(Y;R)\to S^{p+q}(X\times Y;R)$.
-> 3. $\times$ induces a map in cohomology: $\times ^{*}:H^p(X;R)\otimes_{R}H^q(Y;R)\to H^{p+q}(X\times Y;R)$ which is independent of the choice of $\Theta$.
+> 2. **Leibniz rule**: $\delta_{X\times Y}(\varphi \times \psi)=\delta_{X}\varphi \times \psi+(-1)^p\varphi \times\delta_{Y}\psi$.
+> 3. $\times$ induces a map $\times:S^{p}(X;R)\otimes_{R}S^{q}(Y;R)\to S^{p+q}(X\times Y;R)$.
+> 4. $\times$ induces a map in cohomology: $\times ^{*}:H^p(X;R)\otimes_{R}H^q(Y;R)\to H^{p+q}(X\times Y;R)$ which is independent of the choice of $\Theta$.
 
 ^fe2e9a
 

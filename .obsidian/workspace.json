@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cellular Chain Complex.md",
+                "file": "Topology/Algebraic Topology/Singular Cohomology.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cellular Chain Complex"
+              "title": "Singular Cohomology"
             }
           }
         ],
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Diagonal Approximation.md",
+                "file": "Topology/Algebraic Topology/Cross Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Diagonal Approximation"
+              "title": "Cross Product"
             }
           },
           {
@@ -154,20 +154,6 @@
               },
               "icon": "lucide-file",
               "title": "Relative Homology"
-            }
-          },
-          {
-            "id": "616c471cacf460e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topology/Algebraic Topology/Singular Homology.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Singular Homology"
             }
           },
           {
@@ -373,17 +359,17 @@
   },
   "active": "1a106a718630e75a",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Diagonal Approximation.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Topology/Algebraic Topology/Cup Product.md",
-    "Topology/Algebraic Topology/Cross Product.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Topology/CW-Complex.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Cross Product.md",
+    "Topology/Algebraic Topology/Cup Product.md",
     "Topology/Algebraic Topology/Relative Homology.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
+    "Topology/Algebraic Topology/Cellular Chain Complex.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/CW-Complex.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Topology/Algebraic Topology/Diagonal Approximation.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
     "Algebra/Chain Complex.md",
     "Algebra/Ring.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",

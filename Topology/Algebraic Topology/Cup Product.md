@@ -24,6 +24,7 @@
 > 1. Notice that: $$\beta \cup \alpha=d^{*}(\beta \times\alpha)=(-1)^{pq}d^{*}T^{*}(\alpha \times\beta)=(-1)^{pq}(\underbrace{ T \circ  d }_{ =d })^{*}(\alpha \times\beta)=(-1)^{pq}(\alpha \cup \beta)$$
 > 2. We have: $$\begin{aligned}(\alpha \cup\beta)\cup\gamma&=d^{*}((\alpha \cup \beta)\times\gamma)=d^{*}(d^{*}(\alpha \times\beta)\times\gamma)=d^{*}\circ (d\times \text{id})^{*}(\alpha \times\beta \times\gamma)\\&=((d\times \text{id})\circ  d)^{*}(\alpha \times\beta \times\gamma)\\&=((\text{id}\times d)\circ  d)^{*}(\alpha \times\beta \times\gamma)\\&=d^{*}\circ (\text{id}\times d)^{*}(\alpha \times\beta \times\gamma)\\&=d^{*}(\alpha \times d^{*}(\beta \times\gamma))\\&=\alpha \cup(\beta \cup\gamma)\end{aligned}$$
 > 3. We have from [[Singular Cohomology|Unity properties]]: $$\alpha \cup 1=d^{*}(\alpha \times 1)=d^{*}(\pi_{1}^{*}(\alpha))=(\pi_{1}\circ  d)^{*}(\alpha)=\text{id}^{*}(\alpha)=\alpha$$Similarly, $$1\cup \alpha=d^{*}(1\times\alpha)=d^{*}(\pi_{2}^{*}(\alpha))=(\pi_{2}\circ d)^{*}(\alpha)=\text{id}^{*}(\alpha)=\alpha$$
+> 4. 
 
 ^044e3b
 
@@ -49,12 +50,15 @@
 > [!lemma] Proposition 3 (Naturality of Cup Product)
 > For any continuous map $f:X\to Y$, $\varphi\in S^p(Y;R)$ and $\psi\in S^q(Y;R)$
 > 1. $f^c(\varphi \cup \psi)=f^c(\varphi)\cup f^c(\psi)$
+> 2. **Leibniz rule**: $\delta(\varphi \cup \psi)=\delta\varphi \cup \psi+(-1)^p\varphi \cup \delta \psi$
 
 ^71b2b0
 
 > [!proof]-
 > We have:
+> 1. Firstly,
 > $$\begin{aligned}f^c(\varphi \cup \psi)&=f^cd^c_{Y}(\varphi \times \psi)=(d_{Y}\circ  f)^c(\varphi \times \psi)=((f\times f)\circ d_{X})^c(\varphi \times \psi)\\&=d_{X}^c((f\times f)^c(\varphi \times \psi))=d^c_{X}(f^c(\varphi)\times f^c(\psi))=f^c(\varphi)\cup f^c(\psi)\end{aligned}$$
+> 2. Now, $$\begin{aligned}\delta(\varphi \cup \psi)&=\delta(d^c(\varphi \times \psi))=d^c(\delta_{X\times X}(\varphi \times \psi))\\&=d^c(\delta_{X}\varphi \times \psi+(-1)^p\varphi \times\delta_{X}\psi)\\&=\delta_{X}\varphi \cup \psi+(-1)^p\varphi \cup \delta_{X}\psi\end{aligned}$$
 
 ^4924af
 
@@ -111,7 +115,7 @@
 
 > [!proof]+
 > We have: 
-> 1. Let $\varphi\in S^p(A;R)$ and $\psi\in S^q(X;R)$ s.t. $p+q=n$ be cocycles. Then, let $\overline{\varphi}\in S^p(X;R)$ be an extension of $\varphi$. We have that: $$[\varphi]\cup i^{*}[\psi]=[i^c\overline{\varphi} \cup i^c\psi]=[i^c(\overline{\varphi}\cup \psi)]$$Then, we have that for any $c\in S_{n+1}(A)$, $$\delta(\overline{\varphi} \cup \psi)(c)=(\overline{\varphi}\cup \psi)(\partial c)=\braket{ \overline{\varphi}\times \psi , d_{c}(\partial c) } $$ is Further, we have that there exists $$\begin{aligned}\delta ^{*}([\varphi]\cup i^{*}[\psi])&=\delta ^{*}[i^{c}(\overline{\varphi})\cup i^{c}(\psi)]=\delta ^{*}[i^c(\overline{\varphi}\cup \psi)]\end{aligned}$$
+> 1. Let $\varphi\in S^p(A;R)$ and $\psi\in S^q(X;R)$ s.t. $p+q=n$ be cocycles. Then, let $\overline{\varphi}\in S^p(X;R)$ be an extension of $\varphi$. We have that: $$[\varphi]\cup i^{*}[\psi]=[i^c\overline{\varphi} \cup i^c\psi]=[i^c(\overline{\varphi}\cup \psi)]$$Then, we have that for any $c\in S_{n+1}(A)$, as $\varphi,\psi$ are both cocycles, $$\delta(\overline{\varphi} \cup \psi)(c)=\delta(\varphi \cup \psi|_{S_{q}(A)})(c)=0$$ Therefore, $\delta(\overline{\varphi}\cup \psi)\in S_{n+1}(X,A;R)$. Now, $$[\delta(\overline{\varphi}\cup \psi)]=[\delta\overline{\varphi}\cup \psi+(-1)^p\overline{\varphi}\cup \delta \psi]$$
 
 ---
 > [!lemma] Theorem 7 (CW-Complexes)
