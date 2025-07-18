@@ -1,10 +1,15 @@
 #Definition #DifferentialGeometry 
 
 > [!definition]
-> A ***topological manifold $M$ of dimension $m$*** is a [[Topological Space]] that is:
+> A ***topological manifold $M$ of dimension $m$*** is a [[topological space]] that is:
 > 1. [[Hausdorff Space|Hausdorff]] $(T_{2})$ 
 > 2. **second countable**: the topology admits a countable base $\mathcal{B}=\{ U_{n} \}_{n}$
-> 3. **locally homeomorphic to $\mathbb{R}^m$**: every point $p\in M$ admits an open neighborhood $U\subseteq M$ s.t. $\varphi :U\to \varphi(U)\subseteq\mathbb{R}^m$ is a [[Homeomorphism]] and $\varphi(U)\subseteq \mathbb{R}^m$ is open.
+> 3. **locally homeomorphic to $\mathbb{R}^m$**: every point $p\in M$ admits an open neighborhood $U\subseteq M$ s.t. $\varphi :U\to \varphi(U)\subseteq\mathbb{R}^m$ is a [[homeomorphism]] and $\varphi(U)\subseteq \mathbb{R}^m$ is open.
+
+^01861e
+
+- **Remark**: Wlog we may assume that $\varphi(x)=0$. We can also assume that $\varphi(U)=B^n_{<r}$.
+ ^38b5cc
 - **Related definition**: In a topological manifold $M$, we have:
   1. a ***chart*** $(U,\varphi)$, i.e. a homeomorphism $\varphi:U\to\varphi(U)\subseteq \mathbb{R}^m$
 	2. the ***coordinate neighborhood*** $U$ of $\varphi$.
@@ -97,4 +102,24 @@
 > The following are topological manifolds:
 > 1. A countable discrete space $X$ is a zero-dimensional topological manifold.
 > 1. $\mathbb{R}^m$ or a non-empty open set $U\subseteq \mathbb{R}^m$ is a manifold of dimension $m$.
-> 2. $S^n:=\left\{  (x_{1},\dots,x_{n+1})\in \mathbb{R}^{n+1}:\sum_{i=1}^{n+1}x_{i}^{2}=1 \right\}$
+> 2. $S^n:=\left\{  (x_{1},\dots,x_{n+1})\in \mathbb{R}^{n+1}:\sum_{i=1}^{n+1}x_{i}^{2}=1 \right\}$ is a $n$-dimensional manifold with $2n+2$ charts.
+> 3. $\mathbb{R}\mathbb{P}^n=S^n / x\sim -x$ is a $n$-dimensional manifold as it is locally homeomorphic to $S^n$.
+> 4. $\mathbb{C}\mathbb{P}^n$ is a $2n$-dimensional manifold.
+
+
+^fdb2c0
+
+---
+> [!h] Example 2
+> Let $\pi:M'\to M$ be a [[Covering Space|covering]]. Then, TFAE:
+> 1. $M$ is a $n$-dimensional manifold.
+> 2. $M'$ is a $n$-dimensional manifold.
+
+^8b51d5
+
+- **Corollary**: the surface of genus $g$, $\Sigma_{g}$, is a 2-dimensional manifold as its universal cover is given by $\tilde{\Sigma}_{g}\cong \mathbb{H}\cong \mathbb{R}^{2}$ where $\mathbb{H}$ is the upper half complex plane. 
+---
+> [!h] Example 3
+> For an $m$-dimensional manifold $M$ and an $n$-dimensional manifold $N$, 
+> 1. $M\times N$ is a $(m+n)$-dimensional manifold.
+> 2. $\mathbb{T}^n=S^1\times\dots \times S^1$ is a $n$-dimensional manifold.

@@ -472,7 +472,8 @@
 ![[Cup Product#^b4b09c|p]]
 
 ---
-
+![[Cup Product#^8b8bdf]]
+![[Cup Product#^b15041|p]]
 
 
 ---
@@ -535,4 +536,14 @@
 ![[Cap Product#^8cc618]]
 
 ---
+### 3. Manifolds and Poincaré Duality
+![[Topological Manifold#^01861e]]
+![[Topological Manifold#^38b5cc]]
 
+---
+![[Topological Manifold#^fdb2c0]]
+
+---
+![[Topological Manifold#^8b51d5]]
+
+---

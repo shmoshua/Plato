@@ -77,9 +77,23 @@
               "icon": "lucide-file",
               "title": "Algebraic Topology II Roadmap"
             }
+          },
+          {
+            "id": "808031414260f14d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Differential Geometry/Topological Manifold.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Topological Manifold"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "d54d634cc1ba8421",
@@ -176,15 +190,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Ext.md",
+                "file": "Differential Geometry/Topological Manifold.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ext"
+              "title": "Topological Manifold"
+            }
+          },
+          {
+            "id": "152eaa3e55dac868",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "9df7847fa1ab7902",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Covering Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Covering Space"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -329,19 +368,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "83ca64246e25a9b6",
+  "active": "808031414260f14d",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Diagonal Approximation.md",
-    "Topology/Algebraic Topology/Ext.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Differential Geometry/Topological Manifold.md",
+    "Topology/Covering Space.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
+    "Topology/Algebraic Topology/Cup Product.md",
+    "Topology/Algebraic Topology/Cap Product.md",
+    "Topology/Algebraic Topology/Ext.md",
+    "Topology/Algebraic Topology/Diagonal Approximation.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Algebra/Tensor Product.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Cellular Chain Complex.md",
-    "Topology/Algebraic Topology/Cup Product.md",
     "Topology/Algebraic Topology/Kronecker Pairing.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Cap Product.md",
     "Topology/Algebraic Topology/Cross Product.md",
     "Topology/CW-Complex.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
@@ -356,8 +397,6 @@
     "Topology/Algebraic Topology/Chain Homotopy.md",
     "Algebra/Exact Sequence.md",
     "Topology/Algebraic Topology/Resolution.md",
-    "Algebra/Module.md",
-    "Topology/Algebraic Topology/Reduced Homology.md",
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",

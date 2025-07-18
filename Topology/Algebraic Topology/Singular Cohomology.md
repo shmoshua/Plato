@@ -147,3 +147,14 @@
 ^bdcafc
 
 ---
+> [!h] Example 2 (Torus)
+> We have that:
+> 1. $H^{*}(\mathbb{T}^n;R)=\Lambda_{R}[\alpha_{1},\dots,\alpha_{n}]$, the [[exterior algebra]].
+
+---
+> [!h] Example 3 (RPn)
+> We have that:
+> 1. $H^{*}(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})\cong \mathbb{Z} / 2\mathbb{Z}[\alpha] / \{ \alpha^{n+1}=0 \}$ with $H^k(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})=\mathbb{Z} / 2\mathbb{Z}(\underbrace{ \alpha \cup\dots \cup \alpha }_{ k\text{ times} })$
+> 2. $H^{*}(\mathbb{C}\mathbb{P}^n;R)\cong R[x] / \{ x^{n+1}=0 \}$ with $\left| x \right|=2$ with $H^{2k}(\mathbb{C}\mathbb{P}^n;R)\cong R(\underbrace{ x\cup\dots \cup x }_{ k\text{ times} })$
+
+---
