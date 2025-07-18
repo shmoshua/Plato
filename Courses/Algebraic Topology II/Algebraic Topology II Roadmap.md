@@ -471,6 +471,9 @@
 ![[Cup Product#^2f5cfa]]
 ![[Cup Product#^b4b09c|p]]
 
+---
+
+
 
 ---
 ##### 2.8.1 Diagonal Approximations
@@ -505,4 +508,31 @@
 ---
 ### 2.9 Cap Product
 
+
+![[Cap Product#^07fac3]]
+![[Cap Product#^1f4d09]]
+![[Cap Product#^ddfb84|p]]
+
+---
+![[Cap Product#^b27198]]
+![[Cap Product#^e03867|p]]
+
+---
+![[Cap Product#^b409bb]]
+![[Cap Product#^12807c|p]]
+
+---
+![[Cap Product#^5332a4]]
+![[Cap Product#^280046|p]]
+
+---
+![[Cap Product#^804bda]]
+![[Cap Product#^9fad4a|p]]
+
+---
+![[Cap Product#^cd66c9]]
+![[Cap Product#^6ed134|p]]
+![[Cap Product#^8cc618]]
+
+---
 

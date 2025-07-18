@@ -149,6 +149,17 @@
 - **Remark**: The assumption 1) is not trivial: Consider $X:=S^{2}$ with one $0$-cell, no $1$-cell and one $2$-cell. Then, $\partial ^\text{cw}\equiv 0$. However, we have that $$\partial(\text{2-cell})=c-c+c=c$$where $c$ is a constant map. ^7576e6
 
 ---
+> [!lemma] Theorem 8 
+> Let $X$ be a topological space with $X=U\cup V$ where $U,V$ are open and [[Acyclic Space|acyclic]].
+> 1. for all $\alpha,\beta\in H^{*}(X;R)$ with $\left| \alpha \right|,\left| \beta \right|>0$, $\alpha \cup \beta=0$.
+
+> [!proof]-
+> Let $\alpha\in H^p(X;R)$ and $\beta\in H^q(X;R)$ with $p,q\geq 1$. Consider the LES for $(X,U)$. We have: $$\dots\to H^p(X,U;R)\overset{ j^{*}_{U} }{ \to }H^p(X;R)\overset{ i^{*}_{U} }{ \to }H^p(U;R)\to H^{p+1}(X;R)\to \cdots$$Now, as $U$ is acyclic, by UCT $H^p(U;R)=0$. Hence, $\alpha\in \text{ker } i^{*}_{U}=\text{im }j^{*}_{U}$ and we have $\alpha'\in H^p(X,U;R)$ s.t. $j^{*}_{U}(\alpha')=\alpha$. 
+> 
+> Similarly, we have that there exists $\beta'\in H^q(X,V;R)$ s.t. $j^{*}_{V}(\beta')=\beta$. 
+> We now claim that $j^{*}:H^{p+q}(X , U\cup V)\to H^{p+q}(X)$ sends $\alpha'\cup \beta'$ to $\alpha \cup \beta$. If $U,V$ are open, we have a commutative diagram: $$\begin{CD}H^p(X,U)\otimes  H^q(X,V) @>\cup>> H^{p+q}(X,U\cup V)\\@Vj^{*}_{U}\otimes  j^{*}_{V}VV @VVj^{*}V\\H^p(X)\otimes  H^q(X) @>>\cup>H^{p+q}(X)\end{CD}$$ Therefore, we have that: $$\alpha \cup \beta=j^{*}(\alpha'\cup \beta')=0$$ as $H^{p+q}(X,\underbrace{ U\cup V }_{ =X };R)=0$.
+
+---
 ##### Examples
 > [!h] Example 1 (2-Torus)
 > Let $R$ be a ring and $X:=\mathbb{T}^{2}$ be a CW-complex defined as follows:
@@ -227,3 +238,11 @@
 ^b1e89f
 
 ---
+> [!h] Example 2 (Torus)
+> We have that:
+> 1. $H^{*}(\mathbb{T}^n;R)=\Lambda_{R}[\alpha_{1},\dots,\alpha_{n}]$, the [[exterior algebra]].
+
+---
+> [!h] Example 3 (RPn)
+> We have that:
+> 1. $H^{*}(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})\cong \mathbb{Z} / 2\mathbb{Z}[\alpha] / \{ \alpha^{n+1}=0 \}$ with $H^k(\mathbb{R}\mathbb{P}^n;\mathbb{Z} / 2\mathbb{Z})=\mathbb{Z} / 2\mathbb{Z}(\underbrace{ \alpha \cup\dots \cup \alpha }_{ k })$
