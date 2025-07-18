@@ -47,14 +47,21 @@
 
 ---
 > [!lemma] Proposition 4 (Relative Cap Product)
-> Let $X$, $A\subseteq X$ be topological spaces and $R$ a ring. 
+> Let $X$, $A,B\subseteq X$ be topological spaces and $R$ a ring. 
 > 1. the ***relative cap product*** is given by: $$\cap:S^p(X;R)\otimes  S_{n}(X, A;R)\to S_{n-p}(X , A;R),\quad \varphi \otimes [c]=[\varphi \cap c]$$
 > 2. From a relative chain and a relative cochain, we get: $$\cap:S^p(X,A;R)\otimes  S_{n}(X,A;R)\to S_{n-p}(X;R)$$
+> 3. We also have that: $$\cap:S^p(X,A)\otimes  (S_{n}(X) / S^{A,B}_{n}(X))\to S_{n-p}(X) / S_{n-p}(B)$$
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Let $\varphi\in S^p(X;R)$ and $c,c'\in S_{n}(X;R)$ s.t. $c'-c\in S_{n}(A)$. Then, $$\varphi \cap c'-\varphi \cap c=\varphi \cap(c'-c)\in S_{n-p}(A)$$as $\Delta:\mathcal{S}_{*}(A)\to \mathcal{S}_{*}(A)\otimes \mathcal{S}_{*}(A)$.
 > 2. Let $\varphi\in S^p(X,A;R)$. Then we define $\widehat{\varphi}:=\varphi \circ q:S_{p}(X)\to R$. Let $c\in S_{n}(X)$ and $a\in S_{n}(A)$ s.t. $c':=c+a$. Then, $$\widehat{\varphi}\cap c'=\widehat{\varphi}\cap c+\underbrace{ \widehat{\varphi}\cap a }_{ =0 }=\widehat{\varphi}\cap c$$as $\widehat{\varphi}|_{S_{*}(A)}=0$. Therefore, the map is well-defined.
+> 3. Let $\varphi\in S^p(X,A;R)$ viewed as a functional $\varphi:S^p(X)\to R$ s.t. $\varphi|_{S_{p}(A)}=0$. Let $c\in S_{n}(X)$ and $\lambda:= \lambda^A+\lambda^B\in S_{n}^{A,B}(X)$ s.t. $\lambda^A\in S_{n}(A)$ and $\lambda^B\in S_{n}(B)$. Then, $$\varphi \cap(c+\lambda)=\varphi \cap c+\underbrace{ \varphi \cap\lambda^A }_{ =0 }+\underbrace{ \varphi \cap\lambda^B }_{ \in S_{n-p}(B) }$$Therefore, $\varphi \cap(c+\lambda)$ and $\varphi \cap c$ differ by an element in $S_{n-p}(B)$. 
+- **Corollary**: The cap product induces the following maps:
+	1. $\cap:H^p(X)\otimes H_{n}(X,A)\to H_{n-p}(X,A)$.
+	2. $\cap:H^p(X,A)\otimes H_{n}(X,A)\to H_{n-p}(X)$.
+	3. $\cap :H^p(X,A)\otimes H_{n}(\mathcal{S}_{*}(X) / \mathcal{S}^{A,B}_{*}(X))\to H_{n-p}(X,B)$
+- **Remark**: If $A,B$ are open, $A\subseteq B$ or if $A$ or $B$ are open, then: $$i:\mathcal{S}^{A,B}_{*}(X)\to \mathcal{S}_{*}(A\cup B)$$is a quasi-isomorphism. In that case, $\cap:H^p(X,A)\otimes H_{n}(X,A\cup B)\to H_{n-p}(X,B)$.
 ---
 ##### Examples
 > [!h] Example 1 (AW Diagonal Approximation)
