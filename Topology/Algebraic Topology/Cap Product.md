@@ -2,8 +2,8 @@
 
 > [!definition]
 > Let $X$ be a [[topological space]] and $R$ a [[ring]]. 
-> 1. The ***cap product*** is a map:$$\cap:S^p(X;R)\otimes_{R}  S_{n}(X)\to S_{n-p}(X;R),\quad  \varphi \otimes  c\mapsto ((\pi_{n-p}\otimes  \varphi)\circ  \Delta )c$$where $\Delta:\mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)\otimes_{R}\mathcal{S}_{*}(X)$ is a [[diagonal approximation]] over $R$ and the projection $\pi_{q}:\bigoplus_{j\in \mathbb{Z}}S_{j}(X)\to S_{q}(X)$.
-> 2. The ***cap product on homology*** is given by: $$\cap :H^p(X;R)\otimes  H_{n}(X)\to H_{n-p}(X;R)$$
+> 1. The ***cap product*** is a map:$$\cap:S^p(X;R)\otimes_{R}  S_{n}(X;R)\to S_{n-p}(X;R),\quad  \varphi \otimes  c\mapsto ((\pi_{n-p}\otimes  \varphi)\circ  \Delta )c$$where $\Delta:\mathcal{S}_{*}(X)\to \mathcal{S}_{*}(X)\otimes_{R}\mathcal{S}_{*}(X)$ is a [[diagonal approximation]] over $R$ and the projection $\pi_{q}:\bigoplus_{j\in \mathbb{Z}}S_{j}(X)\to S_{q}(X)$.
+> 2. The ***cap product on homology*** is given by: $$\cap :H^p(X;R)\otimes  H_{n}(X;R)\to H_{n-p}(X;R)$$
 - **Remark**: We write $\varphi \cap c=(\text{id}\otimes \varphi)\circ \Delta c$ instead as well to make it more intuitive.
 - **Remark**: $\cap$ on homology is independent of $\Delta$ by [[Diagonal Approximation|Theorem 1]].
 ---
@@ -45,6 +45,16 @@
 
 ^9fad4a
 
+---
+> [!lemma] Proposition 4 (Relative Cap Product)
+> Let $X$, $A\subseteq X$ be topological spaces and $R$ a ring. 
+> 1. the ***relative cap product*** is given by: $$\cap:S^p(X;R)\otimes  S_{n}(X, A;R)\to S_{n-p}(X , A;R),\quad \varphi \otimes [c]=[\varphi \cap c]$$
+> 2. From a relative chain and a relative cochain, we get: $$\cap:S^p(X,A;R)\otimes  S_{n}(X,A;R)\to S_{n-p}(X;R)$$
+
+> [!proof]+
+> We have:
+> 1. Let $\varphi\in S^p(X;R)$ and $c,c'\in S_{n}(X;R)$ s.t. $c'-c\in S_{n}(A)$. Then, $$\varphi \cap c'-\varphi \cap c=\varphi \cap(c'-c)\in S_{n-p}(A)$$as $\Delta:\mathcal{S}_{*}(A)\to \mathcal{S}_{*}(A)\otimes \mathcal{S}_{*}(A)$.
+> 2. Let $\varphi\in S^p(X,A;R)$. Then we define $\widehat{\varphi}:=\varphi \circ q:S_{p}(X)\to R$. Let $c\in S_{n}(X)$ and $a\in S_{n}(A)$ s.t. $c':=c+a$. Then, $$\widehat{\varphi}\cap c'=\widehat{\varphi}\cap c+\underbrace{ \widehat{\varphi}\cap a }_{ =0 }=\widehat{\varphi}\cap c$$as $\widehat{\varphi}|_{S_{*}(A)}=0$. Therefore, the map is well-defined.
 ---
 ##### Examples
 > [!h] Example 1 (AW Diagonal Approximation)
