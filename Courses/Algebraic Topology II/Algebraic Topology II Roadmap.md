@@ -547,3 +547,18 @@
 ![[Topological Manifold#^8b51d5]]
 
 ---
+##### 3.1 Local Homology 
+![[Local Homology#^7e9800]]
+![[Local Homology#^482cae]]
+![[Local Homology#^152444|p]]
+
+---
+![[Local Homology#^78bcb9]]
+![[Local Homology#^9b61d5|p]]
+![[Local Homology#^deef52]]
+
+---
+![[Local Homology#^5ff4d7]]
+![[Local Homology#^1d4dc6|p]]
+
+---

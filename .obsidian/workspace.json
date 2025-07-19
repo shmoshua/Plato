@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "d54d634cc1ba8421",
@@ -223,7 +223,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -368,11 +368,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ede1d57ea466bb8c",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Local Homology.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Cap Product.md",
-    "Topology/Algebraic Topology/Local Homology.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Diagonal Approximation.md",
