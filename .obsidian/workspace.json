@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homology Theory"
+              "title": "Degree of Sphere Maps"
             }
           },
           {
@@ -370,15 +370,16 @@
   },
   "active": "ede1d57ea466bb8c",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Homology Theory.md",
-    "Topology/Algebraic Topology/Local Homology.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Cap Product.md",
+    "Topology/Algebraic Topology/Local Homology.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Diagonal Approximation.md",
     "Topology/Algebraic Topology/Cup Product.md",
     "Differential Geometry/Topological Manifold.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Covering Space.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Ext.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Algebra/Tensor Product.md",
@@ -396,7 +397,6 @@
     "Algebra/Cochain Complex.md",
     "Topology/Algebraic Topology/Graded Group.md",
     "Topology/Algebraic Topology/Tor.md",
-    "Topology/Algebraic Topology/Chain Homotopy.md",
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",
