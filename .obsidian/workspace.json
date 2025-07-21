@@ -214,12 +214,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Path-Connected Space.md",
+                "file": "Topology/Algebraic Topology/Homology Theory.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Path-Connected Space"
+              "title": "Homology Theory"
             }
           }
         ],
@@ -373,9 +373,10 @@
     "Topology/Algebraic Topology/Local Homology.md",
     "Differential Geometry/Orientable Double Cover.md",
     "Differential Geometry/Orientation.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Path-Connected Space.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Differential Geometry/Topological Manifold.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Differential Geometry/Orientable Manifold.md",
@@ -387,7 +388,6 @@
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Cup Product.md",
-    "Topology/Path-Connected Space.md",
     "Topology/Simply Connected Space.md",
     "Topology/Covering Space.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
