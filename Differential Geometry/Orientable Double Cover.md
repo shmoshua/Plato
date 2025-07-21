@@ -88,5 +88,17 @@
 
 ^6ed1a7
 
+> [!proof]+
+> We have that:
+> 1. Let $\Gamma_{R}$ denote all sections of the covering $\tilde{M}_{R}\to M$. Then, $\Gamma_{R}$ is an $R$-module by adding sections using fiberwise additions in $H_{n}(M|x;R)$ and multiplication by a scalar $r\in R$. Indeed, these operations preserve the continuity of the sections. 
+>    
+>    We now have the following homomorphism of $R$-modules: $$\Theta:H_{n}(M;R)\to\Gamma_{R},\quad a\mapsto (x\mapsto L_{M,x}(a))$$By Lemma 3.1 with $A:=M$, we have that $\Theta$ is an isomorphism. Let $x_{0}\in M$. Then, we have the restriction map: $$\rho:\Gamma_{R}\to H_{n}(M|x_{0};R),\quad s\mapsto s_{x_{0}}$$
+>    If $M$ is $R$-orientable, there exists an $R$-orientation $\mu\in \Gamma_{R}$ s.t. $\rho(\mu)$ is a generator and $\rho$ is surjective. However, as $M$ is path-connected we have that $\Gamma_{R}$ must be injective: Indeed, as $p:\tilde{M}_{R}\to M$ is a covering space and $\text{id}:M\to M$ is a continuous map, then as $M$ is a connected manifold, we have that any lift of $\text{id}$ is unique by [[Lift|Lemma 3]]. However, such lifts are exactly the sections. Hence, the sections are disjoint on $x_{0}$. 
+>    
+>    Now, we have that $L_{x_{0}}=\rho \circ\Theta$ which proves the statement.
+>    
+> 2. hihi.
+> 3. From Lemma 3, by taking $A:= M$.
+
 - **Corollary**: We have that: $$H_{n}(M;\mathbb{Z})\cong \begin{cases}\mathbb{Z}&\text{if }M\text{ is orientable}\\0&\text{otherwise}\end{cases}$$ ^cf0227
 ---

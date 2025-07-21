@@ -85,3 +85,10 @@
 >         
 >         Finally, $f(\tilde{g}(w))=g(w)$ and $\tilde{g}(z_{0})=y_{0}$ from above. Therefore, $\tilde{g}$ is a lift of $g$ mapping $z_{0}$ to $y_{0}$.
 ---
+> [!lemma] Lemma 3
+> Let $p:\tilde{X}\to X$ be a covering space and $f:Y\to X$ a continuous map. 
+> 1. if $f_{1},f_{2}:Y\to \tilde{X}$ are lifts of $f$ s.t. $f_{1}(y)=f_{2}(y)$ for some $y\in Y$, $f_{1}\equiv f_{2}$.
+
+> [!proof]-
+> We have that:
+> 1. Let $D:=\{ y\in Y:f_{1}(y)=f_{2}(y) \}\subseteq Y$. Then, $D$ is clopen.

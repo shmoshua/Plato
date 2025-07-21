@@ -105,6 +105,20 @@
               "icon": "lucide-file",
               "title": "Orientable Double Cover"
             }
+          },
+          {
+            "id": "665a1e4fee139d35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Lift.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lift"
+            }
           }
         ],
         "currentTab": 6
@@ -157,6 +171,20 @@
             }
           },
           {
+            "id": "152eaa3e55dac868",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Lift.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lift"
+            }
+          },
+          {
             "id": "6c183ad9ec089d69",
             "type": "leaf",
             "state": {
@@ -185,27 +213,17 @@
             }
           },
           {
-            "id": "152eaa3e55dac868",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "c817e075012fa92d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Homology Theory.md",
+                "file": "Algebra/Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Homology Theory"
+              "title": "Module"
             }
           }
         ],
@@ -354,15 +372,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8207292bb85f5852",
+  "active": "ede1d57ea466bb8c",
   "lastOpenFiles": [
     "Topology/Algebraic Topology/Fundamental Class.md",
     "Differential Geometry/Orientable Double Cover.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
+    "Topology/Lift.md",
+    "Algebra/Module.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "TIKZ.md",
     "Topology/Fundamental Group.md",
     "Differential Geometry/Orientation.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Path-Connected Space.md",
@@ -380,8 +400,6 @@
     "Topology/Topological Space.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
-    "Topology/Algebraic Topology/Cup Product.md",
-    "Topology/Simply Connected Space.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
