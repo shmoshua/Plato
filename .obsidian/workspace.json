@@ -91,9 +91,23 @@
               "icon": "lucide-file",
               "title": "Orientable Double Cover"
             }
+          },
+          {
+            "id": "8207292bb85f5852",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Covering Space.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Covering Space"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "d54d634cc1ba8421",
@@ -148,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Local Homology.md",
+                "file": "Topology/Covering Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Local Homology"
+              "title": "Covering Space"
             }
           },
           {
@@ -223,7 +237,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -368,19 +382,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ede1d57ea466bb8c",
+  "active": "8207292bb85f5852",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Local Homology.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Covering Space.md",
+    "Topology/Continuous Function.md",
     "Differential Geometry/Orientable Double Cover.md",
     "Differential Geometry/Orientation.md",
+    "Topology/Algebraic Topology/Local Homology.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Path-Connected Space.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Differential Geometry/Topological Manifold.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Differential Geometry/Orientable Manifold.md",
-    "Topology/Continuous Function.md",
     "Topology/Base of Topology.md",
     "Topology/Homeomorphism.md",
     "Topology/Compact Space.md",
@@ -389,7 +404,6 @@
     "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Cup Product.md",
     "Topology/Simply Connected Space.md",
-    "Topology/Covering Space.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Cap Product.md",
     "Topology/Algebraic Topology/Diagonal Approximation.md",

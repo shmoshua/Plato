@@ -66,6 +66,18 @@ There exists a close analogy between the two areas:
 $$\begin{array}{c|c}\text{Galois}&\text{Covering Spaces}\\ \hline K&X\\L:K&f:Y\to X\\\overline{K}\text{ algebraic closure}&f:Y\to X\text{ universal cover}\\\text{Gal}(L:K)&\pi_{1}(X,x_{0})\\H\leq \text{Gal}(L:K)\iff L^H\subseteq L&H\leq \pi_{1}(X,x_{0}) \iff f:Y/H\to X\end{array}$$
 
 ---
+> [!lemma] Lemma 5
+> Let $p:X\to Y$ be a $2:1$ covering with $Y$ path-connected. Then, 
+> 1. $X$ is path-connected if and only if there exists a loop $\gamma$ in $Y$ that lifts to a non-closed path in $X$.
+> 2. $X$ can have at most two path-connected components. 
+> 3. If $X$ has exactly two path-connected components $X:=X_{1}\sqcup X_{2}$,  $p|_{X_{i}}:X_{i}\to Y$ are homeomorphisms.
+
+> [!proof]+
+> We have:
+> 1. If $X$ is path-connected, then there is a loop that doesn't lift to a non-closed path in $X$. Conversely, suppose that $\gamma:I\to Y$ is a loop with $\gamma(0)=\gamma(1)=x_{0}\in Y$ and $\tilde{\gamma}$ is a lift of $\gamma$ with $\tilde{\gamma}(0)=x'_{0}$, and $\tilde{\gamma}(1)=x''_{0}$ with $x'_{0}\neq x_{0}''$. 
+>    
+>    Now, let $\tilde{x}\in X$ be any point. Let $x:= p(\tilde{x})$. $Y$ is path-connected, so take a path $\alpha$ in $Y$
+---
 ##### Examples
 > [!h] Example 1
 > We have:
