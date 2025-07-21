@@ -69,14 +69,10 @@
 
 ---
 > [!lemma] Theorem 4
-> Let $M^n$ be a compact manifold. For $x\in M$, consider the map: $$L_{x}:H_{n}(M;R)\to H_{n}(M|x;R)\cong R$$
+> Let $M^n$ be a compact connected manifold. For $x\in M$, consider the map: $$L_{x}:H_{n}(M;R)\to H_{n}(M|x;R)\cong R$$
 > 1. if $M$ is $R$-orientable, then $L_{x}$ is an isomorphism.
 > 2. if $M$ is not $R$-orientable, then $L_{x}$ is injective and $\text{im }L_{x}=\{ a\in R:2a = 0 \}$.
 > 3. for all $i>n$, $H_{i}(M;R)=0$.
 
 - **Corollary**: We have that: $$H_{n}(M;\mathbb{Z})\cong \begin{cases}\mathbb{Z}&\text{if }M\text{ is orientable}\\0&\text{otherwise}\end{cases}$$
 ---
-> [!lemma] Corollary 5
-> If $M^n$ is $R$-orientable manifold with $R$-orientation $\mu:M\to H_{n}(M|x;R)$, 
-> 1. there exists $a_{x}\in H_{n}(M;R)$ with $L_{x}(a_{x})=\mu_{x}$ for all $x\in M$ s.t. for a ball chart $B\subseteq M$, and $x,y\in B$ we have that $a_{x}=a_{y}$.
-> 2. if $M$ is path-connected, there exists $a\in H_{n}(M;R)$ s.t. $L_{x}(a)=\mu_{x}$ for all $x\in M$.
