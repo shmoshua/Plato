@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Tor.md",
+                "file": "Topology/Algebraic Topology/Local Homology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tor"
+              "title": "Local Homology"
             }
           },
           {
@@ -386,12 +386,12 @@
   "lastOpenFiles": [
     "Differential Geometry/Orientation.md",
     "Differential Geometry/Orientable Double Cover.md",
+    "Topology/Algebraic Topology/Local Homology.md",
     "Topology/Algebraic Topology/Tor.md",
     "Differential Geometry/Section.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Covering Space.md",
     "Topology/Continuous Function.md",
-    "Topology/Algebraic Topology/Local Homology.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Path-Connected Space.md",
     "Topology/Algebraic Topology/p-Simplex.md",
