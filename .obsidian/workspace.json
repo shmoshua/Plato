@@ -190,12 +190,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Topological Manifold.md",
+                "file": "Differential Geometry/Orientable Double Cover.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Topological Manifold"
+              "title": "Orientable Double Cover"
             }
           },
           {
@@ -223,7 +223,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -368,8 +368,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "e539d1666b8c157a",
   "lastOpenFiles": [
+    "Differential Geometry/Topological Manifold.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Local Homology.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Cap Product.md",
@@ -377,8 +379,6 @@
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Diagonal Approximation.md",
     "Topology/Algebraic Topology/Cup Product.md",
-    "Differential Geometry/Topological Manifold.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Covering Space.md",
     "Topology/Algebraic Topology/Ext.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
