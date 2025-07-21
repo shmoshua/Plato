@@ -74,11 +74,17 @@
 ---
 > [!lemma] Lemma 3
 > Let $M^n$ be a manifold and $A\subseteq M$ compact.
-> 1. if $\alpha:M\to \tilde{M}_{R}$ is a $R$-orientation, then there exists a unique $\alpha_{A}\in H_{n}(M|A;R)$ s.t. for $$L_{A,x}:H_{n}(M|A;R)\to H_{n}(M|x;R)$$given by $\text{inc}:(M,M \backslash A)\to (M, M \backslash x)$ we have $L_{A,x}(\alpha_{A})=\alpha_{x}$ for all $x\in A$.
+> 1. if $\alpha:M\to \tilde{M}_{R}$ is a section of $\tilde{M}_{R}\to M$, then there exists a unique $\alpha_{A}\in H_{n}(M|A;R)$ s.t. for $$L_{A,x}:H_{n}(M|A;R)\to H_{n}(M|x;R)$$given by $\text{inc}:(M,M \backslash A)\to (M, M \backslash x)$ we have $L_{A,x}(\alpha_{A})=\alpha_{x}$ for all $x\in A$.
 > 2. $H_{i}(M|A;R)=0$ for all $i>n$.
 
 > [!proof]+
 > From [[Singular Homology|Mayer-Vietoris 2]], we have the LES: $$\dots\to H_{k}(M|A\cup B;R)\to H_{k}(M|A;R)\oplus H_{k}(M|B;R)\to H_{k}(M|A\cap B;R)\to H_{k-1}(M|A\cup B;R)\to \cdots$$For $T\subseteq S\subseteq X$, let $L_{S,T}:H_{k}(X|S;R)\to H_{k}(X|T;R)$ given by $\text{inc}:X|S\to X|T$.
+> 1. **Claim 1**: **If Lemma holds for $A,B\subseteq M$ and $A\cap B\subseteq M$, then it holds for $A\cup B\subseteq M$.** 
+>    Firstly, we show 2. If $k>n$, then $H_{k}(M|A;R)=H_{k}(M|B;R)=0$ and $H_{k+1}(M|A\cap B;R)=0$. Hence, by the sequence above, $H_{k}(M|A\cup B;R)=0$.
+>    
+>    For 1, let $k=n$. we have the following sequence: $$0\to H_{n}(M|A\cup B;R)\xrightarrow{\Phi:=(L_{A\cup B,A},-L_{A\cup B,B})}H_{n}(M|A;R)\oplus H_{n}(M|B;R)\xrightarrow{\Psi:=L_{A,A\cap B}+L_{B,A\cap B}}BH_{n}(M|A\cap B;R)\to \cdots$$If $\alpha$ is a section of $\tilde{M}_{R}\to M$, then there exists $\alpha_{A}\in H_{n}(M|A;R)$ and $\alpha_{B}\in H_{n}(M|B;R)$ s.t. $$L_{A,x}(\alpha_{A})=\alpha_{x},\quad \forall x\in A,\quad L_{B,x}(\alpha_{B})=\alpha_{x},\quad \forall x\in B$$Consider $\alpha'_{A\cap B}:=L_{A,A\cap B}(\alpha_{A})$ and $\alpha''_{A\cap B}:=L_{B,A\cap B}(\alpha_{B})$. Then, $L_{A\cap B,x}(\alpha'_{A\cap B})=L_{A\cap B,x}(\alpha''_{A\cap B})=\alpha_{x}$ for all $x\in A\cap B$. However, as the lemma holds for $A\cap B$, we have that $\alpha_{A\cap B}$ is unique and $\alpha_{A\cap B}:=\alpha'_{A\cap B}=\alpha''_{A\cap B}$. 
+>    
+>    We have that: $$\Psi(\alpha_{A},-\alpha _{B})=\alpha_{A\cap B}-\alpha_{A\cap B}=0$$Therefore, there exists $\alpha_{A\cup B}\in H_{n}(M|A\cup B;R)$ s.t. $L_{A\cup B,A}(\alpha_{A\cup B})=\alpha_{A}$ and $L_{A\cup B,B}(\alpha_{A\cup B})=\alpha_{B}$ and for all $x\in A\cup B$, $$L_{A\cup B,x}(\alpha_{A\cup B})=\alpha_{x}$$
 ---
 > [!lemma] Theorem 4
 > Let $M^n$ be a compact connected manifold. For $x\in M$, consider the map: $$L_{x}:H_{n}(M;R)\to H_{n}(M|x;R)\cong R$$given by inclusion $\text{inc}:(M,\varnothing)\to (M, M \backslash x)$.
