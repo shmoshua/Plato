@@ -237,7 +237,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -382,10 +382,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e59a8fcdeb8a9ca1",
+  "active": "ede1d57ea466bb8c",
   "lastOpenFiles": [
-    "Differential Geometry/Orientable Double Cover.md",
     "Differential Geometry/Orientation.md",
+    "Differential Geometry/Orientable Double Cover.md",
     "Topology/Algebraic Topology/Tor.md",
     "Differential Geometry/Section.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
