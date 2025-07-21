@@ -8,7 +8,7 @@
 ^9fc8dd
 
 - **Related Definition**: The orientable double cover is endowed with the following topology: For a chart $\varphi:\mathbb{R}^n\to U\subseteq M$, let $B:=\varphi(B_{<r}(0))\subseteq U$ be a ball chart. As $H_{n}(M|B)\cong H_{n}(M|y)\cong \mathbb{Z}$ for any $y\in B$ per [[Local Homology|Proposition 2]], we can choose a generator $\mu_{B}\in H_{n}(M|B)$ and define:$$\mathcal{W}(\mu_{B}):=\{ (x,L_{x}(\mu_{B})) \}_{x\in B}\subseteq \text{O}M$$Then, the base of the topology is defined as $\{ \mathcal{W}(\mu_{B}) \}_{B,\mu_{B}}$ ^6460ba
-- **Related definition**: An ***$R$-orientation*** on $M$ is a [[section]] $\mu:M\to H_{n}(M|x;R)$ s.t. for all $x\in M$, $\mu(x)\in H_{n}(M|x;R)$ is a generator. 
+- **Related definition**: An ***$R$-orientation*** on $M$ is a [[section]] $\mu:M\to \tilde{M}_{R}$ s.t. for all $x\in M$, $\mu(x)\in H_{n}(M|x;R)$ is a generator. 
 - **Related definition**: As $H_{n}(M|x;R)\cong H_{n}(M|x)\otimes_{\mathbb{Z}}R$ from [[Tor|UCT]] as $H_{n-1}(M|x)=0$, we have: $$\tilde{M}_{r}:=\{ (x,\pm \mu_{x}\otimes  r) \}_{x\in M}\subseteq \tilde{M}_{R}$$
 	Notice that $\tilde{M}_{r}=M$ if and only if $2r=0$.
 ---
@@ -62,10 +62,14 @@
 > 1. if $M$ is orientable, then it is $R$-orientable for all ring $R$.
 > 2. $M$ is $R$-orientable if $2=0$ in $R$ even if $M$ is non-orientable. In particular, $M$ is $\mathbb{Z} / 2\mathbb{Z}$-orientable.
 
+^acf957
+
 > [!proof]-
 > We have that:
 > 1. We can take $o:x\mapsto \mu_{x}\otimes 1$.
 > 2. If $2=0$, then $\tilde{M}_{r}=M$ for all $r\in R$. 
+
+^0eb9f7
 
 ---
 > [!lemma] Theorem 4
@@ -74,5 +78,7 @@
 > 2. if $M$ is not $R$-orientable, then $L_{x}$ is injective and $\text{im }L_{x}=\{ a\in R:2a = 0 \}$.
 > 3. for all $i>n$, $H_{i}(M;R)=0$.
 
-- **Corollary**: We have that: $$H_{n}(M;\mathbb{Z})\cong \begin{cases}\mathbb{Z}&\text{if }M\text{ is orientable}\\0&\text{otherwise}\end{cases}$$
+^6ed1a7
+
+- **Corollary**: We have that: $$H_{n}(M;\mathbb{Z})\cong \begin{cases}\mathbb{Z}&\text{if }M\text{ is orientable}\\0&\text{otherwise}\end{cases}$$ ^cf0227
 ---

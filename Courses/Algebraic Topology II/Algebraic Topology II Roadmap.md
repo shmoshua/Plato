@@ -584,3 +584,24 @@
 ![[Orientable Double Cover#^9476bf|p]]
 
 ---
+![[Orientable Double Cover#^acf957]]
+![[Orientable Double Cover#^0eb9f7|p]]
+
+---
+![[Orientable Double Cover#^6ed1a7]]
+
+![[Orientable Double Cover#^cf0227]]
+
+---
+##### 3.3 Fundamental Class
+![[Fundamental Class#^5be81b]]
+
+---
+![[Fundamental Class#^28f05d]]
+![[Fundamental Class#^40b4cb|p]]
+
+---
+![[Fundamental Class#^a34de3]]
+![[Fundamental Class#^5e3b91|p]]
+
+---
