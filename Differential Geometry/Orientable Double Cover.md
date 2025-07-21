@@ -10,7 +10,7 @@
 - **Related Definition**: The orientable double cover is endowed with the following topology: For a chart $\varphi:\mathbb{R}^n\to U\subseteq M$, let $B:=\varphi(B_{<r}(0))\subseteq U$ be a ball chart. As $H_{n}(M|B)\cong H_{n}(M|y)\cong \mathbb{Z}$ for any $y\in B$ per [[Local Homology|Proposition 2]], we can choose a generator $\mu_{B}\in H_{n}(M|B)$ and define:$$\mathcal{W}(\mu_{B}):=\{ (x,L_{x}(\mu_{B})) \}_{x\in B}\subseteq \text{O}M$$Then, the base of the topology is defined as $\{ \mathcal{W}(\mu_{B}) \}_{B,\mu_{B}}$ ^6460ba
 - **Related definition**: An ***$R$-orientation*** on $M$ is a [[section]] $\mu:M\to \tilde{M}_{R}$ s.t. for all $x\in M$, $\mu(x)\in H_{n}(M|x;R)$ is a generator. 
 - **Related definition**: As $H_{n}(M|x;R)\cong H_{n}(M|x)\otimes_{\mathbb{Z}}R$ from [[Tor|UCT]] as $H_{n-1}(M|x)=0$, we have: $$\tilde{M}_{r}:=\{ (x,\pm \mu_{x}\otimes  r) \}_{x\in M}\subseteq \tilde{M}_{R}$$
-	Notice that $\tilde{M}_{r}=M$ if and only if $2r=0$.
+	Notice that if $2r=0$ then $\tilde{M}_{r}=M$ and if $2r\neq 0$ then $\tilde{M}_{r}\cong \tilde{M}$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -78,7 +78,7 @@
 > 2. $H_{i}(M|A;R)=0$ for all $i>n$.
 
 > [!proof]+
-> 
+> From [[Singular Homology|Mayer-Vietoris 2]], we have the LES: $$\dots\to H_{k}(M|A\cup B;R)\to H_{k}(M|A;R)\oplus H_{k}(M|B;R)\to H_{k}(M|A\cap B;R)\to H_{k-1}(M|A\cup B;R)\to \cdots$$For $T\subseteq S\subseteq X$, let $L_{S,T}:H_{k}(X|S;R)\to H_{k}(X|T;R)$ given by $\text{inc}:X|S\to X|T$.
 ---
 > [!lemma] Theorem 4
 > Let $M^n$ be a compact connected manifold. For $x\in M$, consider the map: $$L_{x}:H_{n}(M;R)\to H_{n}(M|x;R)\cong R$$given by inclusion $\text{inc}:(M,\varnothing)\to (M, M \backslash x)$.
@@ -88,7 +88,7 @@
 
 ^6ed1a7
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Let $\Gamma_{R}$ denote all sections of the covering $\tilde{M}_{R}\to M$. Then, $\Gamma_{R}$ is an $R$-module by adding sections using fiberwise additions in $H_{n}(M|x;R)$ and multiplication by a scalar $r\in R$. Indeed, these operations preserve the continuity of the sections. 
 >    
@@ -97,7 +97,9 @@
 >    
 >    Now, we have that $L_{x_{0}}=\rho \circ\Theta$ which proves the statement.
 >    
-> 2. hihi.
+> 2. If $M$ is not $R$-orientable, we only have that $L_{x_{0}}$ is injective from 1. Further, if $M$ is not $R$-orientable, by Proposition 3 it is also not-orientable. Assume $r\in \text{im }\rho$ where $2r\neq 0$. Then, $\tilde{M}_{r}\cong \text{O}M$ and we have a section in $\tilde{M}_{r}\cong \text{O}M$. This contradicts that $M$ is not orientable.
+>    
+>    Conversely, if $r\in R$ with $2r=0$, then $\tilde{M}_{r}=M$ and we clearly have a section. Therefore, $r\in \text{im }\rho$. 
 > 3. From Lemma 3, by taking $A:= M$.
 
 - **Corollary**: We have that: $$H_{n}(M;\mathbb{Z})\cong \begin{cases}\mathbb{Z}&\text{if }M\text{ is orientable}\\0&\text{otherwise}\end{cases}$$ ^cf0227

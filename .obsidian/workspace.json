@@ -112,12 +112,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Topology/Algebraic Topology/Singular Homology.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lift"
+              "title": "Singular Homology"
             }
           }
         ],
@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Lift.md",
+                "file": "Topology/Algebraic Topology/Singular Homology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lift"
+              "title": "Singular Homology"
             }
           },
           {
@@ -374,10 +374,11 @@
   },
   "active": "ede1d57ea466bb8c",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Fundamental Class.md",
+    "Topology/Algebraic Topology/Singular Homology.md",
     "Differential Geometry/Orientable Double Cover.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Lift.md",
+    "Topology/Algebraic Topology/Fundamental Class.md",
+    "Topology/Algebraic Topology/Homology Theory.md",
     "Algebra/Module.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "TIKZ.md",
@@ -391,7 +392,6 @@
     "Differential Geometry/Section.md",
     "Topology/Covering Space.md",
     "Topology/Continuous Function.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
     "Differential Geometry/Topological Manifold.md",
     "Differential Geometry/Orientable Manifold.md",
     "Topology/Base of Topology.md",

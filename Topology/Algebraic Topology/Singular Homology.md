@@ -224,6 +224,11 @@
 ^a3eb8e
 
 ---
+> [!lemma] Theorem 4' (Mayer-Vietoris)
+> Let $X$ be a topological space and $Y\subseteq X$. Let $Q,R\subseteq X$ and $S,T\subseteq Y$ s.t. $S\subseteq Q$ and $T\subseteq R$. Further, let $Q^\circ\cup R^\circ=X$ and $S^\circ \cup T^\circ=Y$. Then, for any abelian group $G$,
+> 1. there exists a LES: $$\begin{array}{ccccc}\cdots\to&H_{k}(Q\cap R,S\cap T;G)&\to & H_{k}(Q,S;G)\oplus H_{k}(R,T;G)&\to & H_{k}(X,Y) & \to \cdots\\&x&\mapsto&(\text{inc}_{*}(x),-\text{inc}_{*}(x))\\&&&(a,b)&\mapsto&\text{inc}_{*}(a)+\text{inc}_{*}(b)\end{array}$$
+
+---
 
 > [!lemma] Proposition 5
 > Let $\sigma_{n}:\Delta_n \to \Delta_{n} / \partial\Delta_{n}$ be the quotient map. Then,
