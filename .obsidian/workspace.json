@@ -107,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "d54d634cc1ba8421",
@@ -209,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -354,11 +354,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "808031414260f14d",
+  "active": "8207292bb85f5852",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Fundamental Class.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Differential Geometry/Orientable Double Cover.md",
-    "Topology/Algebraic Topology/Fundamental Class.md",
     "TIKZ.md",
     "Topology/Fundamental Group.md",
     "Differential Geometry/Orientation.md",
