@@ -72,8 +72,16 @@
 ^0eb9f7
 
 ---
+> [!lemma] Lemma 3
+> Let $M^n$ be a manifold and $A\subseteq M$ compact.
+> 1. if $\alpha:M\to \tilde{M}_{R}$ is a $R$-orientation, then there exists a unique $\alpha_{A}\in H_{n}(M|A;R)$ s.t. for $$L_{A,x}:H_{n}(M|A;R)\to H_{n}(M|x;R)$$given by $\text{inc}:(M,M \backslash A)\to (M, M \backslash x)$ we have $L_{A,x}(\alpha_{A})=\alpha_{x}$ for all $x\in A$.
+> 2. $H_{i}(M|A;R)=0$ for all $i>n$.
+
+> [!proof]+
+> 
+---
 > [!lemma] Theorem 4
-> Let $M^n$ be a compact connected manifold. For $x\in M$, consider the map: $$L_{x}:H_{n}(M;R)\to H_{n}(M|x;R)\cong R$$
+> Let $M^n$ be a compact connected manifold. For $x\in M$, consider the map: $$L_{x}:H_{n}(M;R)\to H_{n}(M|x;R)\cong R$$given by inclusion $\text{inc}:(M,\varnothing)\to (M, M \backslash x)$.
 > 1. if $M$ is $R$-orientable, then $L_{x}$ is an isomorphism.
 > 2. if $M$ is not $R$-orientable, then $L_{x}$ is injective and $\text{im }L_{x}=\{ a\in R:2a = 0 \}$.
 > 3. for all $i>n$, $H_{i}(M;R)=0$.
