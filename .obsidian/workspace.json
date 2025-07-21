@@ -209,21 +209,21 @@
             }
           },
           {
-            "id": "9df7847fa1ab7902",
+            "id": "c817e075012fa92d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Path-Connected Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Covering Space"
+              "title": "Path-Connected Space"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -368,8 +368,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e539d1666b8c157a",
+  "active": "c817e075012fa92d",
   "lastOpenFiles": [
+    "Topology/Simply Connected Space.md",
+    "Topology/Covering Space.md",
+    "Differential Geometry/Orientable Double Cover.md",
     "Differential Geometry/Topological Manifold.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Local Homology.md",
@@ -379,7 +382,6 @@
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Diagonal Approximation.md",
     "Topology/Algebraic Topology/Cup Product.md",
-    "Topology/Covering Space.md",
     "Topology/Algebraic Topology/Ext.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Algebra/Tensor Product.md",
@@ -395,8 +397,6 @@
     "Algebra/Ring.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Algebra/Cochain Complex.md",
-    "Topology/Algebraic Topology/Graded Group.md",
-    "Topology/Algebraic Topology/Tor.md",
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",
