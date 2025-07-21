@@ -3,10 +3,12 @@
 > [!definition]
 > Let $M^n$ be a [[Topological Manifold|manifold]]. 
 > 1. the ***orientable double cover*** is given by: $$\text{O}M:=\{ (x,\mu_{x}): x\in M,\mu_{x}\in H_{n}(M|x) \}$$where $\mu_{x}$ is a [[Local Homology|local orientation]]. The covering map is given by $p:\text{O}M\to M,(x,\mu_{x})\mapsto x$.
+> 2. the ***orientable double cover over $R$*** for a [[ring]] $R$ is given by: $$\text{O}M_{R}:=\{ (x,\alpha_{x}):x\in M, \alpha_{x}\in H_{n}(M|x;R) \}$$with a covering map $p:\text{O}M_{R}\to M$
 
 ^9fc8dd
 
 - **Related Definition**: The orientable double cover is endowed with the following topology: For a chart $\varphi:\mathbb{R}^n\to U\subseteq M$, let $B:=\varphi(B_{<r}(0))\subseteq U$ be a ball chart. As $H_{n}(M|B)\cong H_{n}(M|y)\cong \mathbb{Z}$ for any $y\in B$ per [[Local Homology|Proposition 2]], we can choose a generator $\mu_{B}\in H_{n}(M|B)$ and define:$$\mathcal{W}(\mu_{B}):=\{ (x,L_{x}(\mu_{B})) \}_{x\in B}\subseteq \text{O}M$$Then, the base of the topology is defined as $\{ \mathcal{W}(\mu_{B}) \}_{B,\mu_{B}}$ ^6460ba
+- **Related definition**: An ***$R$-orientation*** on $M$ is a [[section]] $\mu:M\to \text{O}M_{R}$ s.t. for all $x\in M$, $\mu(x)\in H_{n}(M|x;R)$ is a generator. 
 ---
 ##### Properties
 > [!lemma] Proposition 1

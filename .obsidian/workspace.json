@@ -98,12 +98,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Differential Geometry/Orientation.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Covering Space"
+              "title": "Orientation"
             }
           }
         ],
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Covering Space.md",
+                "file": "Topology/Algebraic Topology/Tor.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Covering Space"
+              "title": "Tor"
             }
           },
           {
@@ -237,7 +237,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -382,12 +382,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ede1d57ea466bb8c",
+  "active": "e59a8fcdeb8a9ca1",
   "lastOpenFiles": [
-    "Differential Geometry/Orientation.md",
     "Differential Geometry/Orientable Double Cover.md",
-    "Topology/Covering Space.md",
+    "Differential Geometry/Orientation.md",
+    "Topology/Algebraic Topology/Tor.md",
+    "Differential Geometry/Section.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Covering Space.md",
     "Topology/Continuous Function.md",
     "Topology/Algebraic Topology/Local Homology.md",
     "Topology/Algebraic Topology/Homology Theory.md",
@@ -408,8 +410,6 @@
     "Topology/Algebraic Topology/Cap Product.md",
     "Topology/Algebraic Topology/Diagonal Approximation.md",
     "Topology/Algebraic Topology/Ext.md",
-    "Algebra/Tensor Product.md",
-    "Topology/Algebraic Topology/Cellular Chain Complex.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
