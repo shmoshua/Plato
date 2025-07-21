@@ -562,3 +562,13 @@
 ![[Local Homology#^1d4dc6|p]]
 
 ---
+##### 3.2 Orientation
+![[Orientation#^507e34]]
+![[Orientation#^686bc4]]
+
+---
+![[Orientable Double Cover#^9fc8dd]]
+![[Orientable Double Cover#^6460ba]]
+
+---
+![[Orientable Double Cover^]]

@@ -1,13 +1,18 @@
-#Definition #DifferentialGeometry 
+#Definition #DifferentialGeometry #AlgebraicTopology 
 
 > [!definition]
 > We have that:
 > 1. an ***orientation*** of a $n$-dimensional $\mathbb{R}$-vector space $V$ is an equivalence class on the set of ordered bases $(E_{1},\dots,E_{n})$ of $V$ given by: $$(E_{1},\dots,E_{n})\sim(E'_{1},\dots,E'_{n})\iff \det(B)>0$$where $B$ is the change of basis matrix from $(E_{1},\dots,E_{n})$ to $(E'_{1},\dots,E'_{n})$.
-> 2. an ***orientation (double) cover*** of a [[smooth manifold]] $M$ is $\text{O}M:=\bigsqcup_{p\in M}^{}\text{O}_{p}M$ where $\text{O}_{p}M$ is the set of orientations of $\text{T}_{p}M$.
+> 2. an ***orientation*** of a [[Topological Manifold|manifold]] $M^n$ is a map $o:M\to H_{n}(M|x),x\mapsto \mu_{x}$ s.t. 
+> 	1. $\mu_{x}$ is a generator of $H_{n}(M|x)\cong \mathbb{Z}$
+> 	2. for all $x\in M$ there exists a chart $U\ni x$ and a ball chart $B\subseteq U$ s.t. $L_{y}L_{x}^{-1}(\mu_{x})=\mu_{y}$ for all $y\in B$.
 > 3. an ***orientation*** of a smooth manifold $M$ is a map $o:M\to \text{O}M$ with $o(p)\in \text{O}_{p}M$ s.t. for all $p\in M$, there exists a [[local frame]] $E_{1},\dots,E_{m}$ of $M$ over an open $U\ni p$ s.t. $$o(p)=[E_{1}(p),\dots,E_{m}(p)],\quad \forall p\in U$$
+
+^507e34
+
 - **Notation**: The orientation of an ordered basis $(E_{1},\dots,E_{n})$ is denoted as $[E_{1},\dots,E_{n}]$ and $-[E_{1},\dots,E_{n}]$ denotes the opposite orientation. 
 - **Related definition**: An ***oriented vector space*** $(V,o)$ is a vector space $V$ equipped with an orientation.
-- **Related definition**: A smooth manifold is ***orientable***, if it admits an orientation. ***Non-orientable*** otherwise. A smooth manifold $M$ equipped with an orientation $o$ is an ***oriented manifold*** $(M,o)$.
+- **Related definition**: A manifold is ***orientable***, if it admits an orientation. ***Non-orientable*** otherwise. A manifold $M$ equipped with an orientation $o$ is an ***oriented manifold*** $(M,o)$. ^686bc4
 - **Related definition**: A [[local diffeomorphism]] $f:(M,o_{M})\to(N,o_{N})$ is called:
 	1. ***orientation-preserving*** if $d_{p}f:(\text{T}_{p}M,o_{M}(p))\to(\text{T}_{f(p)}N,o_{N}(f(p)))$ is orientation-preserving for all $p\in M$.
 	2. ***orientation-reversing*** if $d_{p}f$ is orientation-reversing for all $p\in M$.

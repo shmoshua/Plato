@@ -84,16 +84,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Local Homology.md",
+                "file": "Differential Geometry/Orientable Double Cover.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Local Homology"
+              "title": "Orientable Double Cover"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "d54d634cc1ba8421",
@@ -101,17 +101,31 @@
         "dimension": 51.283547257876315,
         "children": [
           {
+            "id": "143d4125b823b540",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Algebraic Topology II Roadmap"
+            }
+          },
+          {
             "id": "83ca64246e25a9b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cup Product.md",
+                "file": "Differential Geometry/Orientation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cup Product"
+              "title": "Orientation"
             }
           },
           {
@@ -120,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Local Homology.md",
+                "file": "Differential Geometry/Orientable Double Cover.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Local Homology"
+              "title": "Orientable Double Cover"
             }
           },
           {
@@ -134,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+                "file": "Topology/Base of Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Degree of Sphere Maps"
+              "title": "Base of Topology"
             }
           },
           {
@@ -168,20 +182,6 @@
               },
               "icon": "lucide-file",
               "title": "Singular Cohomology"
-            }
-          },
-          {
-            "id": "143d4125b823b540",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Algebraic Topology II Roadmap"
             }
           },
           {
@@ -223,7 +223,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -368,20 +368,23 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c817e075012fa92d",
+  "active": "ede1d57ea466bb8c",
   "lastOpenFiles": [
+    "Differential Geometry/Orientable Double Cover.md",
+    "Topology/Base of Topology.md",
+    "Topology/Algebraic Topology/Local Homology.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
+    "Differential Geometry/Orientation.md",
+    "Topology/Algebraic Topology/Cup Product.md",
+    "Topology/Path-Connected Space.md",
     "Topology/Simply Connected Space.md",
     "Topology/Covering Space.md",
-    "Differential Geometry/Orientable Double Cover.md",
     "Differential Geometry/Topological Manifold.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Topology/Algebraic Topology/Local Homology.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Cap Product.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "Topology/Algebraic Topology/Diagonal Approximation.md",
-    "Topology/Algebraic Topology/Cup Product.md",
     "Topology/Algebraic Topology/Ext.md",
     "Topology/Algebraic Topology/Acyclic Space.md",
     "Algebra/Tensor Product.md",
@@ -393,10 +396,7 @@
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Topology/Algebraic Topology/Relative Homology.md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Algebra/Chain Complex.md",
-    "Algebra/Ring.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
-    "Algebra/Cochain Complex.md",
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",
