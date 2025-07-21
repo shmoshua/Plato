@@ -571,4 +571,16 @@
 ![[Orientable Double Cover#^6460ba]]
 
 ---
-![[Orientable Double Cover^]]
+![[Orientable Double Cover#^abbee2]]
+![[Orientable Double Cover#^8434b4|p]]
+![[Orientable Double Cover#^1adb57]]
+
+---
+![[Covering Space#^30bb77]]
+![[Covering Space#^6ef623|p]]
+
+---
+![[Orientable Double Cover#^8d5bea]]
+![[Orientable Double Cover#^9476bf|p]]
+
+---

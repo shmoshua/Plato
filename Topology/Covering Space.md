@@ -69,14 +69,21 @@ $$\begin{array}{c|c}\text{Galois}&\text{Covering Spaces}\\ \hline K&X\\L:K&f:Y\t
 > [!lemma] Lemma 5
 > Let $p:X\to Y$ be a $2:1$ covering with $Y$ path-connected. Then, 
 > 1. $X$ is path-connected if and only if there exists a loop $\gamma$ in $Y$ that lifts to a non-closed path in $X$.
-> 2. $X$ can have at most two path-connected components. 
-> 3. If $X$ has exactly two path-connected components $X:=X_{1}\sqcup X_{2}$,  $p|_{X_{i}}:X_{i}\to Y$ are homeomorphisms.
+> 2. $X$ can have at most two path-connected components. If $X$ has exactly two path-connected components $X:=X_{1}\sqcup X_{2}$,  $p|_{X_{i}}:X_{i}\to Y$ are homeomorphisms.
 
-> [!proof]+
+^30bb77
+
+> [!proof]-
 > We have:
 > 1. If $X$ is path-connected, then there is a loop that doesn't lift to a non-closed path in $X$. Conversely, suppose that $\gamma:I\to Y$ is a loop with $\gamma(0)=\gamma(1)=x_{0}\in Y$ and $\tilde{\gamma}$ is a lift of $\gamma$ with $\tilde{\gamma}(0)=x'_{0}$, and $\tilde{\gamma}(1)=x''_{0}$ with $x'_{0}\neq x_{0}''$. 
 >    
->    Now, let $\tilde{x}\in X$ be any point. Let $x:= p(\tilde{x})$. $Y$ is path-connected, so take a path $\alpha$ in $Y$
+>    Now, let $\tilde{x}\in X$ be any point. Let $x:= p(\tilde{x})$. $Y$ is path-connected, so take a path $\alpha$ in $Y$ with $\alpha(0)=x$ and $\alpha(1)=x_{0}$. By lifting $\alpha$ starting at $\tilde{x}$, we get a path from $\tilde{x}$ to either $x_{0}'$ or $x_{0}''$. But as $x_{0}'$ and $x_{0}''$ are in the same path-connected component of $X$ and thereby $\tilde{x}$ as well.
+> 2. Suppose $X$ is not path-connected. Let $X'$ be a path-connected component of $X$. For any two points $x_{1}\neq x_{2}\in X$, we have that $p(x_{1})\neq p(x_{2})$. Otherwise we have a non-closed path in $X'$ which projects to a loop in $Y$, which is a contradiction by 1. 
+>    
+>    Further, $p(X')=Y$ as for $y\in Y$, we can choose $x'_{0}\in X$
+
+^6ef623
+
 ---
 ##### Examples
 > [!h] Example 1
