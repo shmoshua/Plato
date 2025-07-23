@@ -90,7 +90,19 @@
 > 3. **Claim 3: If Lemma holds for $A\subseteq B\subseteq M$ for a ball chart $B$, then it holds for sets $A:=A_{1}\cup\dots \cup A_{m}$ with $A_{i}$ compact, contained in a ball chart.**
 >    By induction, it holds when $m=1$. Otherwise, it holds with Claim 1. 
 > 4. **Claim 4: the Lemma holds for compact $A\subseteq \mathbb{R}^n$ with $A=A_{1}\cup\dots \cup A_{m}$ for convex $A_{i}$** 
-> 	First, take $m=1$, i.e. $A$ is a compact convex set. Then, the inclusion $(\mathbb{R}^n|A)\to(\mathbb{R}^n|x)$ is a homotopy equivalence from the convexity (similar to the $S^n$ case) and $H_{n}(\mathbb{R}^n|A;R)\cong H_{n}(\mathbb{R}^n|x;R)$. 
+> 	First, take $m=1$, i.e. $A$ is a compact convex set. Then, the inclusion $(\mathbb{R}^n|A)\to(\mathbb{R}^n|x)$ is a homotopy equivalence from the convexity (similar to the $S^n$ case) and $L_{A,x}:H_{n}(\mathbb{R}^n|A;R)\cong H_{n}(\mathbb{R}^n|x;R)$. Further, for $x,y\in A$ we have that: $L_{A,x}$ and $L_{A,y}$ commute via a canonical isomorphism. This shows that for any section $\alpha$, we have an element in $H_{n}(\mathbb{R}^n|A;R)$ s.t. the Lemma holds.
+> 	
+> 	For $m\geq 2$, we can use Claim 1 and induction.
+> 5. **Claim 5: the Lemma holds for compact $A\subseteq \mathbb{R}^n$**. 
+>    Let $\alpha\in H_{i}(M|A;R)$. Let $z\in S_{i}(M|A;R)$ be a cycle s.t. $[z]=\alpha$. We can view $z$ as a chain in $S_{i}(M)$ with $C:=\text{im }\partial z\subseteq M \backslash A$. Note that $C$ is compact as a finite union of images of compact sets. Since $A,C$ are disjoint and both compact, there exists $0<\delta:=\text{dist}(A,C)$. 
+>    
+>    We can cover $A$ now with a $\delta /2$-net, i.e. $K:=B_{1}\cup\dots \cup B_{m}$ where $B_{i}$ is a closed ball of radius $<\delta / 2$ centered at a point in $A$. Then, clearly $C \subseteq M \backslash K$ and $z$ is also a cycle in $S_{i}(M|K;R)$. We can now define $\alpha_{K}:=[z]\in H_{i}(M|K;R)$ and we have that from Claim 4, $H_{i}(M|K;R)=0$ for all $i> n$. Therefore, $\alpha=L_{K,A}(\alpha_{K})=0$ and $H_{i}(M|A;R)=0$. 
+>    
+>    Now let $x\mapsto \alpha_{x}$ be a section of $\tilde{\mathbb{R}^n}_{R}$. We first show the uniqueness of $\alpha\in H_{n}(M|A;R)$. Let $L_{A,x}(\alpha)=\alpha_{x}=0$ for all $x\in A$. We first show that $\alpha_{x}=0$ for all $x\in K$. For any $x\in K$, we have from above that $L_{B_{i},x}:H_{n}(\mathbb{R}^n|B_{i};R)\to H_{n}(\mathbb{R}^n|x;R)$ is an isomorphism for all $x\in B_{i}$. Hence, $\alpha_{x}=0$ for all $x\in B_{i}$ and $\alpha_{x}=0$ for all $x\in K$.
+>    
+>    By Claim 4, we have that by uniqueness $\alpha_{K}=0$ and $\alpha=L_{K,A}(\alpha_{K})=0$.
+>    
+>    Lastly, to show the existence: 
 >    
 >    
 ---
