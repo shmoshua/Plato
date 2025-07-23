@@ -147,4 +147,9 @@
 > 1. Assume $M$ is orientable. Suppose by contradiction that $r\geq 1$. Pick $p$ prime s.t. $p|\ell_{1}$. Take $R:= \mathbb{Z} / p\mathbb{Z}$. Then, the UCT becomes: $$0\to \mathbb{Z} / p\mathbb{Z}\to \mathbb{Z} / p\mathbb{Z}\to \bigoplus _{i\in[r]}\mathbb{Z} / \text{gcd}(\ell_{i},p)\mathbb{Z}\to 0$$as $H_{n}(M)\otimes \mathbb{Z} / p\mathbb{Z}\cong \mathbb{Z}\otimes \mathbb{Z} / p\mathbb{Z}\cong \mathbb{Z}  / p\mathbb{Z}$ and as $M$ is orientable by Proposition 3 it is $\mathbb{Z} / p\mathbb{Z}$-orientable and $H_{n}(M;\mathbb{Z} / p\mathbb{Z})\cong \mathbb{Z} / p\mathbb{Z}$. For the last term, it follows from [[Tor|Lemma 5]]. 
 >    
 >    However, as $\mathbb{Z} / \text{gcd}(\ell_{1},p)\mathbb{Z}\neq 0$, we have that the UCT is not exact, which is a contradiction.
-> 2. If $M$ is not orientable, then, we claim that for all $2\leq m\in \mathbb{Z}$, we have: $$H_{n}(M; \mathbb{Z} / m\mathbb{Z})\cong\begin{cases} 0&m\text{ odd}\end{cases}$$
+> 2. If $M$ is not orientable, then, we claim that for all $2\leq m\in \mathbb{Z}$, we have: $$H_{n}(M; \mathbb{Z} / m\mathbb{Z})\cong\begin{cases} 0&m\text{ odd}\\\mathbb{Z} / 2\mathbb{Z}&m \text{ even}\end{cases}$$
+> 	Indeed, if $m$ is odd, there is no element $r\in \mathbb{Z} / m\mathbb{Z}$ s.t. $2r=0$. Hence, $\tilde{M}_{r}\cong \tilde{M}$ for all $0\neq r\in \mathbb{Z} / m\mathbb{Z}$ and $M$ is not $\mathbb{Z} / m\mathbb{Z}$-orientable. Hence, by Theorem 4, $H_{n}(M; \mathbb{Z} / m\mathbb{Z}) = 0$. 
+> 	
+> 	If $m$ is even, for $m> 2$ for the same reason $M$ is not $\mathbb{Z} / m\mathbb{Z}$-orientable. Hence, by Theorem 4, $H_{n}(M;\mathbb{Z} / m\mathbb{Z})\cong \mathbb{Z} / 2\mathbb{Z}$. If $m=2$, then $M$ is $\mathbb{Z} / 2\mathbb{Z}$-orientable and we have the statement.
+> 	
+> 	Now, if $m$ is odd, then in UCT: $$0\to \bigoplus _{i\in [r]}\mathbb{Z} / \text{gcd}(\ell_{i},m)\mathbb{Z} \to 0$$So we have that $\text{gcd}(\ell_{i},m)=1$ for all $i\in[r]$. 
