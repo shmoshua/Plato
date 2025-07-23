@@ -588,8 +588,12 @@
 ![[Orientable Double Cover#^0eb9f7|p]]
 
 ---
-![[Orientable Double Cover#^6ed1a7]]
+![[Orientable Double Cover#^fee136]]
+![[Orientable Double Cover#^981230|p]]
 
+---
+![[Orientable Double Cover#^6ed1a7]]
+![[Orientable Double Cover#^64ddf6|p]]
 ![[Orientable Double Cover#^cf0227]]
 
 ---
