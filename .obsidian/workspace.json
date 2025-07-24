@@ -121,7 +121,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       },
       {
         "id": "d54d634cc1ba8421",
@@ -372,13 +372,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ede1d57ea466bb8c",
+  "active": "8a50245839ec6204",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Fundamental Class.md",
     "Differential Geometry/Orientable Double Cover.md",
+    "Topology/Algebraic Topology/Fundamental Class.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Tor.md",
     "Algebra/Module.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Topology/Lift.md",
     "Topology/Algebraic Topology/Homology Theory.md",

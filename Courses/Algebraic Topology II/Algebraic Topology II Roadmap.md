@@ -597,6 +597,10 @@
 ![[Orientable Double Cover#^cf0227]]
 
 ---
+![[Orientable Double Cover#^b26bbc]]
+![[Orientable Double Cover#^3eaaab|p]]
+
+---
 ##### 3.3 Fundamental Class
 ![[Fundamental Class#^5be81b]]
 
@@ -609,3 +613,4 @@
 ![[Fundamental Class#^5e3b91|p]]
 
 ---
+##### 3.4 Poincaré DUalit

@@ -140,9 +140,11 @@
 > [!lemma] Corollary 5
 > Let $M^n$ be a compact connected manifold.
 > 1. if $M$ is orientable, then $H_{n-1}(M)_{\text{tors}}=0$.
-> 2. if $M$ is not orientable, then $H_{n-1}(M)_{\text{tors}}=\mathbb{Z} / 2\mathbb{Z}$.
+> 2. if $M$ is not orientable, then $H_{n-1}(M)_{\text{tors}}\cong \mathbb{Z} / 2\mathbb{Z}$.
 
-> [!proof]+
+^b26bbc
+
+> [!proof]-
 > We use the well-known fact that if $M$ is compact, $H_{i}(M)$ is finitely generated. Recall the [[Tor|UCT]]: $$0\to H_{n}(M)\otimes  R\to H_{n}(M;R)\to \text{Tor}(H_{n-1}(M),R)\to 0$$Since $H_{n-1}(M)$ is finitely generated, we have $H_{n-1}(M)_{\text{tors}}\cong \bigoplus_{i\in[r]}\mathbb{Z} / \ell_{i}\mathbb{Z}$ for $\ell_{i}\geq 2$. 
 > 1. Assume $M$ is orientable. Suppose by contradiction that $r\geq 1$. Pick $p$ prime s.t. $p|\ell_{1}$. Take $R:= \mathbb{Z} / p\mathbb{Z}$. Then, the UCT becomes: $$0\to \mathbb{Z} / p\mathbb{Z}\to \mathbb{Z} / p\mathbb{Z}\to \bigoplus _{i\in[r]}\mathbb{Z} / \text{gcd}(\ell_{i},p)\mathbb{Z}\to 0$$as $H_{n}(M)\otimes \mathbb{Z} / p\mathbb{Z}\cong \mathbb{Z}\otimes \mathbb{Z} / p\mathbb{Z}\cong \mathbb{Z}  / p\mathbb{Z}$ and as $M$ is orientable by Proposition 3 it is $\mathbb{Z} / p\mathbb{Z}$-orientable and $H_{n}(M;\mathbb{Z} / p\mathbb{Z})\cong \mathbb{Z} / p\mathbb{Z}$. For the last term, it follows from [[Tor|Lemma 5]]. 
 >    
@@ -152,4 +154,8 @@
 > 	
 > 	If $m$ is even, for $m> 2$ for the same reason $M$ is not $\mathbb{Z} / m\mathbb{Z}$-orientable. Hence, by Theorem 4, $H_{n}(M;\mathbb{Z} / m\mathbb{Z})\cong \mathbb{Z} / 2\mathbb{Z}$. If $m=2$, then $M$ is $\mathbb{Z} / 2\mathbb{Z}$-orientable and we have the statement.
 > 	
-> 	Now, if $m$ is odd, then in UCT: $$0\to \bigoplus _{i\in [r]}\mathbb{Z} / \text{gcd}(\ell_{i},m)\mathbb{Z} \to 0$$So we have that $\text{gcd}(\ell_{i},m)=1$ for all $i\in[r]$. 
+> 	Now, we have that for all odd $m$, $0\to \bigoplus _{i\in [r]}\mathbb{Z} / \text{gcd}(\ell_{i},m)\mathbb{Z} \to 0$ from the UCT. Therefore, for all $i\in[r]$, $\ell_{i}$ is coprime with every odd number, i.e. $\ell_{i}=2^{s_{i}}$ for $s_{i}\geq 1$. Now, by taking even $m$, as $H_{n}(M;\mathbb{Z})= 0$, we have that the UCT becomes: $$0\to 0 \to \mathbb{Z} / 2\mathbb{Z} \to \text{Tor}(H_{n-1}(M),\mathbb{Z} / 2\mathbb{Z})\to 0$$i.e. $\text{Tor}(H_{n-1}(M),\mathbb{Z} / 2\mathbb{Z})\cong \mathbb{Z} / 2\mathbb{Z}$. In other words, $r=1$ and $\ell_{1}=2$. This shows that $H_{n-1}(M)_{\text{tors}}\cong \mathbb{Z} / 2\mathbb{Z}$.
+
+^3eaaab
+
+---
