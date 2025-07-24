@@ -613,4 +613,4 @@
 ![[Fundamental Class#^5e3b91|p]]
 
 ---
-##### 3.4 Poincaré DUalit
+##### 3.4 Poincaré Duality
