@@ -46,3 +46,6 @@
 ^5e3b91
 
 ---
+> [!lemma] Theorem 3 (Poincaré Duality)
+> Let $M^n$ be a compact $R$-oriented manifold with fundamental class $[M]\in H_{n}(M;R)$. Then, 
+> 1. the ***Poincaré duality***, i.e. the map: $$\text{PD}: H^k(M;R)\to H_{n-k}(M;R),\quad \alpha\mapsto \alpha \cap[M]$$is an isomorphism of $R$-modules.
