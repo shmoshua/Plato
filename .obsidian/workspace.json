@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Cap Product.md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cap Product"
+              "title": "Graph Theory Roadmap"
             }
           },
           {
@@ -120,8 +120,7 @@
               "title": "Singular Homology"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -134,12 +133,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Topology II Roadmap"
+              "title": "Graph Theory Roadmap"
             }
           },
           {
@@ -226,8 +225,7 @@
               "title": "Tor"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -372,8 +370,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "808031414260f14d",
+  "active": "5f1044ef9be1a1a4",
   "lastOpenFiles": [
+    "Topology/Algebraic Topology/Cap Product.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Topology/Algebraic Topology/Fundamental Class.md",
     "Differential Geometry/Orientable Double Cover.md",
@@ -398,8 +398,6 @@
     "Topology/Homeomorphism.md",
     "Topology/Compact Space.md",
     "Topology/Topological Space.md",
-    "Topology/Algebraic Topology/Acyclic Space.md",
-    "Topology/Algebraic Topology/Degree of Sphere Maps.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
