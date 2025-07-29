@@ -123,8 +123,9 @@
 ---
 ### 3. Connectivity
 ![[k-Connected Graph#^203f06]]
-![[k-Connected Graph#^cc03cf]]
-
+![[k-Connected Graph#^02bda0]]
+![[k-Connected Graph#^ad9edc|p]]
+- **Remark**: If $G$ is $k$-connected, then there is no cut of size $\leq k-1$ 
 ---
 ![[k-Connected Graph#^4e811f]]
 ![[k-Connected Graph#^049821|p]]

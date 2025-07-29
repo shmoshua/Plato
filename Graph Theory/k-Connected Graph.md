@@ -10,11 +10,11 @@
 
 ^203f06
 
-- **Related definition**: For a connected graph $G=(V,E)$,
+- **Related definition**: For a connected graph $G=(V,E)$, ^02bda0
 	1. A ***cut vertex*** is a vertex $v\in V$ s.t. $G \backslash v$ is disconnected.
 	2. A ***bridge*** is an edge $e\in E$ s.t. $G \backslash e$ is disconnected.
 	3. For $A,B\subseteq V$, $X\subseteq V$ or $X\subseteq E$ ***separates*** $A$ and $B$ if every $AB$-path contains a vertex/an edge in $X$.
-- **Related definition**: 
+- **Related definition**:  ^ad9edc
 	1. The ***connectivity number*** $\kappa(G):=\text{max }\{ k\in \mathbb{N} :G\text{ is }k\text{-connected}\}$
 	2. The ***edge connectivity number*** $\kappa'(G):=\text{max }\{ k\in \mathbb{N} :G\text{ is }k\text{-edge-connected}\}$ ^cc03cf
 
@@ -128,7 +128,7 @@
 > [!proof]-
 > We have:
 > 1. Obvious.
-> 2. Let $V(K_{r,s})=A\sqcup B$. Assume wlog $\min \{ r,s \}=r$. Then, for any $S\in {V \choose r-1}$, there will be at least $u$.
+> 2. Let $V(K_{r,s})=A\sqcup B$. Assume wlog $\min \{ r,s \}=r$. Then, firstly, $A$ is a vertex cut of $K_{r,s}$. Hence, $\kappa(G)\leq r$. However, we also have that $G$ is $r$-connected as for any $S\in {V \choose r-1}$, there exists a single node $u\in A$.  Hence, $r\leq \kappa(G)$.
 > 3. From Proposition 1.2, $$\kappa'(G)=\min_{s\in[n-1]}s(n-s)=n-1$$
 
 ^d93829

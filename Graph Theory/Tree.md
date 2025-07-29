@@ -96,12 +96,12 @@
 
 ^fa0d83
 
-> [!proof]-
+> [!proof]+
 > We prove this by induction over $n$.
 > 1. If $n=2$, then there exists only one tree on $S$ and this is uniquely given.
 > 2. If $n\geq 3$, we know that $f(T)$ has length $n-2$ for all $f$. To show that it is a bijection, let $s_{1},\dots,s_{n-2}\in S$ be a sequence.
 >
-> Let $s^{*}$ be the smallest element in $S$ s.t. it does not appear in $s_{1},\dots,s_{n-2}$. Then, by induction there exists a unique tree $T$ on $S \backslash \{ s^{*} \}$ s.t. $f(T)=(s_{2},\dots,s_{n-2})$. Now, consider $T':=T\cup \{ s^{*}s_{1} \}$. Then, $$f(T')=(s_{1},\dots,s_{n-2})$$Hence, there exists a unique tree $T'$ on $S$ with $f(T')=(s_{1},\dots,s_{n-2})$.
+> Let $s^{*}$ be the smallest element in $S$ s.t. it does not appear in $s_{1},\dots,s_{n-2}$. Then, by induction there exists a unique tree $T$ on $S \backslash \{ s^{*} \}$ s.t. $f(T)=(s_{2},\dots,s_{n-2})$. Now, consider $T':=T\cup \{ s^{*}s_{1} \}$. Then, $$f(T')=(s_{1},\dots,s_{n-2})$$by Proposition 1 as $s^{*}$ is the leaf with the smallest label by definition. Hence, there exists a unique tree $T'$ on $S$ with $f(T')=(s_{1},\dots,s_{n-2})$.
 
 ^6c8dad
 
