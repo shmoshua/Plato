@@ -147,12 +147,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Fundamental Class.md",
+                "file": "Courses/Graph Theory/Problem Set 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Fundamental Class"
+              "title": "Problem Set 1"
             }
           },
           {
@@ -370,12 +370,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5f1044ef9be1a1a4",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
-    "Topology/Algebraic Topology/Cap Product.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Courses/Graph Theory/Problem Set 1.md",
     "Topology/Algebraic Topology/Fundamental Class.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Topology/Algebraic Topology/Cap Product.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Differential Geometry/Orientable Double Cover.md",
     "Topology/Algebraic Topology/Tor.md",
     "Algebra/Module.md",
@@ -397,7 +398,6 @@
     "Topology/Base of Topology.md",
     "Topology/Homeomorphism.md",
     "Topology/Compact Space.md",
-    "Topology/Topological Space.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
