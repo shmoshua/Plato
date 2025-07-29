@@ -69,8 +69,8 @@
   
 > [!definition]
 > Let $T$ be a [[tree]] on an ordered set $S$ of $n$ vertices. The ***Prüfer code*** $f(T)$ of $T$ is given by the following process:
-> 1. iteratively delete the leaf with the smallest label
-> 2. append the label of its neighbour to the sequence.
+> 1. iteratively delete the leaf $v$ with the smallest label
+> 2. append the label of $v$'s parent to the sequence.
 > 3. After $n-2$ iterations a single edge remains and we have produced a sequence $f(T)$ of length $n-2$.
 
 ^7e2ec4
