@@ -66,9 +66,14 @@
 > Let $G$ be a connected graph. 
 > 1. Any edge in a cycle is not a cut edge.
 
+^9e5831
+
 > [!proof]-
 > We have that:
 > 1. Let $e=\{ u,v \}\in E$ be contained in a cycle, i.e. there exists a $(u,v)$-path $P$ that does not contain $e$ s.t. $P+e$ is a cycle. Therefore, $G \backslash e$ is also connected via $P$. 
+
+^bab021
+
 ---
 > [!lemma] Theorem (Cycles in Digraphs)
 > Let $k\in \mathbb{Z}_{\geq 1}$ and $D=(V,E)$ a finite digraph with $\Delta^-$ and $\delta^+$ as the maximal in-degree and minimal out-degree. 

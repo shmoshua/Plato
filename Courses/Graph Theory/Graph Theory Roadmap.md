@@ -75,6 +75,14 @@
 ![[Path (Graph)#^0d4367|p]]
 
 ---
+- **Related definition**: An edge $e\in E$ is a ***cut edge*** if $G$ is connected and $G \backslash e$ is disconnected.
+
+---
+![[Path (Graph)#^9e5831]]
+![[Path (Graph)#^bab021|p]]
+
+
+---
 ### 2. Trees and Forests
 
 ![[Tree#^6a6272]]

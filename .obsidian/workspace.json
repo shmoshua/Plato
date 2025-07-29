@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Singular Cohomology.md",
+                "file": "Graph Theory/Tree.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Singular Cohomology"
+              "title": "Tree"
             }
           },
           {
@@ -120,7 +120,8 @@
               "title": "Singular Homology"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -147,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 1.md",
+                "file": "Graph Theory/Tree.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 1"
+              "title": "Tree"
             }
           },
           {
@@ -372,9 +373,11 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Graph Theory/Tree.md",
     "Courses/Graph Theory/Problem Set 1.md",
-    "Topology/Algebraic Topology/Fundamental Class.md",
+    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Topology/Algebraic Topology/Fundamental Class.md",
     "Topology/Algebraic Topology/Cap Product.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Differential Geometry/Orientable Double Cover.md",
@@ -386,7 +389,6 @@
     "TIKZ.md",
     "Topology/Fundamental Group.md",
     "Differential Geometry/Orientation.md",
-    "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Topology/Path-Connected Space.md",
     "Topology/Algebraic Topology/Local Homology.md",
@@ -397,7 +399,6 @@
     "Differential Geometry/Orientable Manifold.md",
     "Topology/Base of Topology.md",
     "Topology/Homeomorphism.md",
-    "Topology/Compact Space.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
