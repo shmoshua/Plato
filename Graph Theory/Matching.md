@@ -21,33 +21,91 @@
 
 > [!proof]-
 > See [[Vertex Cover]].
----
-![[Vertex Cover#^c36b60]]
 
 ---
-> [!lemma] Theorem 3 (Hall, 1929)
-> Let $H:=(A\sqcup B,E)$ be bipartite. TFAE:
-> 1. there exists a matching $M$ covering $A$. 
-> 2. for all $S\subseteq A$, $\left| S \right|\leq \left| N(S) \right|$ where $N(S):= \bigcup_{v\in S}^{}N_{v}$.
+##### Matching in bipartite graphs
+> [!lemma] Theorem 2 (Hall 1935)
+> Let $G:=(A\sqcup B,E)$ be a bipartite graph. TFAE:
+> 1. there exists a matching $M$ covering $A$.
+> 2. $\left| S \right|\leq \left| N(S) \right|$ for all $S\subseteq A$.
+
+^cbfcfe
 
 > [!proof]-
 > We have that:
-> 1. (1=>2): Obvious as $M$ covers $A$.
-> 2. (2=>1): We show this via induction on $\left| A \right|$.
-> 	1. Let $\left| A \right|=1$. If 2 holds, then for $A=\{ v \}$, we have $d(v)\geq 1$. Hence, there exists a matching $M$ covering $A$ with $\left| M \right|=1$. Conversely, if there exists a matching covering $A$, we have that $\left| N(A) \right|\geq 1$.
-> 	2. Let $\left| A \right|\geq 2$. Assume that $\left| S \right|\leq \left| N(S) \right|$ for all $S\subseteq A$.
-> 		1. If $\left| N(S) \right|\geq \left| S \right|+1$ for every non-empty $S\subsetneq A$, then pick any $u$ in $A$ and as $\left| N_{u} \right|\geq 1$, we can also pick $v\in N_{u}$. Then, define $e:=uv$ and $H':= H \backslash e=(A'\sqcup B',E')$. We then have for all $S\subseteq A'$, $$\left| N_{H'}(S) \right| \geq \left| N_{H}(S) \right| -1\geq \left| S \right| +1-1=\left| S \right| $$Hence, there exists a matching $M'$ in $H'$ covering $A'$. With $e$, this creates a matching covering $A$.
-> 		2. Otherwise, there exists a non-empty $S\subsetneq A$ s.t. $\left| N(S) \right|= \left| S \right|$. Let $R:= A \backslash S$ and $T:= B \backslash N(S)$. Then, by definition $e(S,T)=0$. We claim that $H_{1}:=H[S\sqcup N(S)]$ and $H_{2}:=H[R\sqcup T]$ satisfy 2. 
-> 		   
-> 		   For $H_{1}$, for any $S'\subseteq S$, $\left| N_{H_{1}}(S') \right|=\left| N_{H}(S') \right|\geq \left| S' \right|$. For $H_{2}$, for any $S'\subseteq R$, if $\left| N_{H_{2}}(S') \right|< \left| S' \right|$, then: $$\left| N_{H}(S\cup S') \right|=\left| N_{H}(S) \right| +\left| N_{H_{2}}(S') \right| +e(S,T)<\left| N_{H}(S') \right| +\left| S' \right| =\left| S \right| +\left| S' \right|  $$which is a contradiction as $\left| S\cup S' \right|=\left| S \right|+\left| S' \right|$.
-> 		   
-> 		   Hence, by induction we have disjoint matchings that cover $S$ and $R$ and this together covers $A$.
-> 
-> This proves the theorem.
----
-> [!lemma] Theorem (Bipartite Maximum Matching)
-> Let $G=(V,E)$ be a bipartite graph. Then, 
+> 1. (1=>2): If $M$ is such a matching, then for any $S\subseteq A$, $$\left| S \right| = \left| N(S)\cap V(M) \right|\leq \left| N(S) \right|  $$
+> 2. (2=>1): We apply induction on $\left| A \right|$.
+> 	- If $\left| A \right|=1$, then the statement is true. 
+> 	- Let $\left| A \right|\geq 2$. 
+> 		- If $\left| S \right|\leq \left| N(S) \right|-1$ for all $\varnothing\neq S\subsetneq A$ then we can pick $ab\in E$ and consider $G':= G \backslash \{ a,b \}$. Then, for every non empty $S\subseteq A \backslash \{ a \}$, we have that: $$\left| S \right| \leq \left| N(S) \right| -1=\left| N_{G'}(S) \right| $$and by IH we have a matching $M'$ in $G'$ covering $A \backslash \{ a \}$. Together with $ab$, we get a matching covering $A$.
+> 		- Otherwise, there exists a non-empty $S\subsetneq A$ s.t. $\left| S \right|=\left| N(S) \right|$. Let $A':=S$ and $B':= N(S)$. Then, $G':=G[A'\cup B']$ contains a matching covering $A'$ by induction hypothesis. We now claim that $G \backslash G'$ also satisfies the Hall's condition. For any $S\subseteq A \backslash A'$, if we have that $\left| N_{G \backslash G'}(S) \right|< \left| S \right|$ then we have that: $$\left| N_{G}(S\cup A') \right| =\left| N_{G \backslash G'}(S) \right| +\left| B' \right| <\left| S \right| +\left| A' \right| =\left| S\cup A' \right| $$which is a contradiction. Therefore, by induction again, there exists a matching covering $A \backslash A'$. Combining the two matchings, we have a matching covering $A$.
 
+^f6ad99
+
+---
+> [!lemma] Corollary 3
+> Let $G:=(A\sqcup B,E)$ be a bipartite graph. Let $k\geq 1$.
+> 1. if $\left| S \right|\leq \left| N(S) \right|+k$ for all $S\subseteq A$, then $G$ contains a matching of cardinality $\left| A \right|-k$.
+> 2. if $G$ is $k$-regular, then $G$ has a perfect matching.
+
+^d7be1f
+
+> [!proof]-
+> We have that:
+> 1. If we add $k$ new vertices to $B$ that are connected to all the vertices to $A$, then in the new graph $G'$, we have: $$\left| S \right| \leq \left| N(S) \right| +k=\left| N_{G'}(S) \right| ,\quad \forall S\subseteq A$$By Hall, we have a matching $M$ covering $A$ where at least $\left| A \right|-k$ must be edges of $G$.
+> 2. If $G$ is $k$-regular, $\left| A \right|=\left| B \right|$ as the total number of edges is $k\left| A \right|=k\left| B \right|$. Hence, it suffices to show that there exists a matching $M$ covering $A$. For every $S\subseteq A$, we have that there are $k\left| S \right|$ edges joining $S$ to $N(S)$ and these are from the $k\left| N(S) \right|$ edges incident to $N(S)$. Hence, $$k\left|  S\right|\leq k\left| N(S) \right| $$Therefore, we have the statement by Hall.
+
+^4415a5
+
+
+---
+> [!lemma] Corollary 4
+> Let $k\geq 1$. A $2k$-regular graph has a $2$-factor.
+
+^2257d4
+
+> [!proof]-
+> We may assume that $G$ is connected as we have to show it for each connected component. Let $G$ be a connected $2k$-regular graph. By [[Eulerian Trail|Theorem 2.1]] $G$ contains an Eulerian tour $T$. Let us now define a new graph $G'$ where every vertex $v\in V(G)$ is split into two vertices $v_{+},v_{-}$ in $G'$. 
+> 
+> If $v\to w\in T$, we put $v_{+}w_{-}\in G'$. Then, $G'$ is bipartite and $k$-regular, i.e. it has a perfect matching by Corollary 3.2. Collapsing $G'$ back to $G$ with the matching, we get a $2$-factor.
+
+^002a60
+
+---
+> [!lemma] Corollary 5
+> Let $A_{1},\dots,A_{n}$ be a collection of sets. A family $X:=\{ a_{1},\dots,a_{n} \}$ is a SDR if $a_{i}\in A_{i}$ and $\left|X  \right|=n$. TFAE:
+> 1. $A_{1},\dots,A_{n}$ has an SDR.
+> 2. $\left| I \right|\leq \left| \bigcup_{i\in I}^{}A_{i} \right|$for all $I\subseteq [n]$
+
+^0988a7
+
+> [!proof]-
+> We construct a bipartite graph $G$ where: $A:=[n]$ and $B:=\bigcup_{i\in I}^{}A_{i}$ s.t. $ia\in G$ if and only if $a\in A_{i}$. Then, a matching in $G$ exactly corresponds to a SDR and the Halls condition exactly comes down to $\left| I \right|\leq \left| \bigcup_{i\in I}^{}A_{i} \right|$. 
+
+^1c07c9
+
+---
+##### Matching in General Graphs
+> [!lemma] Theorem 6 (Tutte 1947)
+> Let $G=(V,E)$ be a graph. TFAE:
+> 1. $G$ has a perfect matching. 
+> 2. $q(G \backslash S)\leq \left| S \right|$ for all $S\subseteq V$ where $q(G)$ denotes the number of odd components of $G$. 
+
+> [!proof]+
+> We have that:
+> 1. (1=>2): If $G$ has a perfect matching, then for every $S\subseteq V$, every odd component has to have a matching edge to $S$. Further, such edges cover different node in $S$. Hence, $q(G \backslash S)\leq \left| S \right|$ holds.
+> 2. (2=>1): Assume that $G$ doesn't have a perfect matching. Further, assume that addition of any edge $e$ in $G$ will yield a perfect matching. 
+> 	1. **$G$ has even number of vertices**.
+> 	   Consider $S:=\varnothing$. Then, $q(G)=0$. However, a graph of odd order has at least one component of odd order. 
+> 
+>    Let $U$ be the set of vertices in $G$ that are connected to all other vertices. 
+>    
+>    - If $G \backslash U$ is a disjoin union of cliques, then there exists a perfect matching as we can matching the 
+> 	
+>    
+>    
+>    
+>    Notice that Tutte's condition is preserved by the addition of edges: For $G':= G\cup e$ we have that $q(G'\backslash S)\leq q(G\backslash S)$ for any $S\subseteq V$. Hence, we may wlog consider a simple graph $G$ s.t. $G$ meets the Tutte condition and has no perfect matching s.t. 
 ---
 ##### Matching Algorithms
 > [!lemma] Theorem 1 (MWU)

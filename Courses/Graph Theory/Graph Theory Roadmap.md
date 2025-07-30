@@ -222,6 +222,26 @@
 ![[Vertex Cover#^5c6854|p]]
 
 ---
-![[Vertex Cover#^c36b60]]
+#### 5.2 Hall's Theorem
+![[Matching#^cbfcfe]]
+![[Matching#^f6ad99|p]]
 
 ---
+![[Matching#^d7be1f]]
+![[Matching#^4415a5|p]]
+
+---
+![[Matching#^2257d4]]
+![[Matching#^002a60|p]]
+
+---
+![[Matching#^0988a7]]
+![[Matching#^1c07c9|p]]
+
+---
+![[Vertex Cover#^c720dd]]
+![[Vertex Cover#^c36b60|p]]
+
+
+---
+#### 5.3 Tutte's Theorem
