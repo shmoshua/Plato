@@ -226,7 +226,8 @@
               "title": "Tor"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -371,7 +372,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1a106a718630e75a",
+  "active": "6a82c8fa16e72294",
   "lastOpenFiles": [
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/k-Connected Graph.md",

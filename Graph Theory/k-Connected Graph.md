@@ -103,17 +103,24 @@
 
 ^45540e
 
+> [!proof]+ Proof 1 
+> Obviously, the maximum number of disjoint paths does not exceed the minimum size of a separating set, because for any collection of disjoint paths, any separating set must contain a vertex from each path. Hence, $\leq$ holds.
+> 
+> Suppose $k$ is the size of the minimum size of a $ST$-separating set. We need to show that there exist $k$ vertex disjoint $ST$-paths. We show this using induction over $\left| E \right|$.
+> 1. if $\left| E \right|=0$, then the minimal $ST$-separating set is $X:=S\cap T$ and $k=\left| S\cap T \right|$. We also have $k$ $ST$-paths.
+> 2. Assume there exists $e:=uv\in E$. If $G$ has no $k$ disjoint $ST$-paths, then neither does the contraction $G':= G / e$. By induction hypothesis, $G / e$ contains a $ST$-separator $Y$ with $\left| Y \right|,$
+
 > [!proof]+
 > Obviously, the maximum number of disjoint paths does not exceed the minimum size of a separating set, because for any collection of disjoint paths, any separating set must contain a vertex from each path. Hence, $\leq$ holds.
 > 
 > Suppose $k$ is the size of the minimum size of a $ST$-separating set. We need to show that there exist $k$ vertex disjoint $ST$-paths. We show this using induction over $\left| E \right|+\left| V \right|$.
-> 1. Let $\left| E \right|=\varnothing$. Then, the minimal $ST$-separating set is $X:=S\cap T$. This is precisely the number of vertex disjoint $ST$-paths. 
-> 2. Let $\left| V \right|+\left| E \right|> \left| V \right|$. 
+> 3. Let $\left| E \right|=\varnothing$. Then, the minimal $ST$-separating set is $X:=S\cap T$. This is precisely the number of vertex disjoint $ST$-paths. 
+> 4. Let $\left| V \right|+\left| E \right|> \left| V \right|$. 
 > 	1. Assume that $S\cap T=\varnothing$. Take arbitrary $e:=uv\in E$ and let $G':= G \backslash e$. 
 > 		1. If the minimal $ST$-separating set has still size $k$ then we can use induction.
 > 		2. If the minimal $ST$-separating set $C$ has size $\leq k-1$, then $C\cup \{ u \}$ or $C\cup \{ v \}$ is still separates $S,T$. Hence, $\left| C \right|=k-1$. 
 > 		   
-> 		   Since $C$ is a separating set for $G'$, no component of $G' \backslash C$ has elements from both $S$ and $T$. Let $V_{S},V_{T}$ be the union of components with elements from $S$ and $T$, respectively. If we add $e$ to $G' \backslash C$, then there would be a path from $S$ to $T$ as $C$ does not separate $S$ and $T$ in $G$. Hence, wlog we may assume $u\in V_{S}$ and $v\in V_{T}$. 
+> 		   Since $C$ is a separating set for $S,T$ in $G'$, no component of $G' \backslash C$ has elements from both $S$ and $T$. Let $V_{S},V_{T}$ be the union of components with elements from $S$ and $T$, respectively. If we add $e$ to $G' \backslash C$, then there would be a path from $S$ to $T$ as $C$ does not separate $S$ and $T$ in $G$. Hence, wlog we may assume $u\in V_{S}$ and $v\in V_{T}$. 
 > 		   
 > 		   Now, each $S\text{-}(C\cup \{ u \})$ separating set $B$ of $G'$ has at least size $k$, as such set is also $ST$-separating in $G$. Indeed, each $ST$-path $P$ in $G$ intersects $C\cup \{ u \}$. Let $P_{0}$ be the subpath of $P$ that goes from $S$ to the first time it touches $C\cup \{ u \}$. If $P_{0}$ ends in $C$, then $u\notin P_{0}$ and $P_{0}$ is a $S\text{-}(C\cup \{ u \})$-path in $G'$. If $P_{0}$ ends in $u$, then it is disjoint from $C$ and by above, it contains only vertices in $V_{S}$. Therefore, $v\notin P_{0}$ and again $P_{0}$ is a $S\text{-}(C\cup \{ u \})$ path in $G'$. 
 > 		   
