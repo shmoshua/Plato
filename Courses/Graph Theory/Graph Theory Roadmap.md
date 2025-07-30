@@ -147,6 +147,10 @@
 #### 3.2 Menger's Theorem
 ![[k-Connected Graph#^45540e]]
 ![[k-Connected Graph#^3f234e|p]]
+![[k-Connected Graph#^ec2611]]
+
+---
+![[Line Graph#^d19d22]]
 
 ---
 ### 4. Eulerian Tours and Hamiltonian Cycles

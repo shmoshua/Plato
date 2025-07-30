@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Graph Theory/Line Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph"
+              "title": "Line Graph"
             }
           },
           {
@@ -376,6 +376,7 @@
   "lastOpenFiles": [
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/k-Connected Graph.md",
+    "Graph Theory/Line Graph.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Tree.md",
     "Topology/Algebraic Topology/Cup Product.md",
@@ -399,7 +400,6 @@
     "Differential Geometry/Section.md",
     "Topology/Covering Space.md",
     "Topology/Continuous Function.md",
-    "Differential Geometry/Topological Manifold.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
