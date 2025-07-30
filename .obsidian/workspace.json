@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Vertex Cover.md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Vertex Cover"
+              "title": "Graph Theory Roadmap"
             }
           },
           {
@@ -357,19 +357,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "808031414260f14d",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Graph Theory/Line Graph.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/Vertex Cover.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
     "Graph Theory/Matching.md",
-    "Graph Theory/Vertex Cover.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/k-Connected Graph.md",
     "Graph Theory/Hamiltonian Path.md",
     "Topology/Algebraic Topology/Fundamental Class.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Graph Theory/Eulerian Trail.md",
     "Topology/Algebraic Topology/Singular Homology.md",
-    "Graph Theory/Line Graph.md",
     "Graph Theory/Graph.md",
     "Graph Theory/Tree.md",
     "Topology/Algebraic Topology/Cup Product.md",

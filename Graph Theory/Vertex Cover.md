@@ -58,16 +58,39 @@
 > 1. if $\left| S \right|\leq \left| N(S) \right|+k$ for all $S\subseteq A$, then $G$ contains a matching of cardinality $\left| A \right|-k$.
 > 2. if $G$ is $k$-regular, then $G$ has a perfect matching.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. If we add $k$ new vertices to $B$ that are connected to all the vertices to $A$, then in the new graph $G'$, we have: $$\left| S \right| \leq \left| N(S) \right| +k=\left| N_{G'}(S) \right| ,\quad \forall S\subseteq A$$By Hall, we have a matching $M$ covering $A$ where at least $\left| A \right|-k$ must be edges of $G$.
 > 2. If $G$ is $k$-regular, $\left| A \right|=\left| B \right|$ as the total number of edges is $k\left| A \right|=k\left| B \right|$. Hence, it suffices to show that there exists a matching $M$ covering $A$. For every $S\subseteq A$, we have that there are $k\left| S \right|$ edges joining $S$ to $N(S)$ and these are from the $k\left| N(S) \right|$ edges incident to $N(S)$. Hence, $$k\left|  S\right|\leq k\left| N(S) \right| $$Therefore, we have the statement by Hall.
 
+
+---
+> [!lemma] Corollary 4
+> Let $k\geq 1$. A $2k$-regular graph has a $2$-factor.
+
+> [!proof]-
+> We may assume that $G$ is connected as we have to show it for each connected component. Let $G$ be a connected $2k$-regular graph. By [[Eulerian Trail|Theorem 2.1]] $G$ contains an Eulerian tour $T$. Let us now define a new graph $G'$ where every vertex $v\in V(G)$ is split into two vertices $v_{+},v_{-}$ in $G'$. 
+> 
+> If $v\to w\in T$, we put $v_{+}w_{-}\in G'$. Then, $G'$ is bipartite and $k$-regular, i.e. it has a perfect matching by Corollary 3.2. Collapsing $G'$ back to $G$ with the matching, we get a $2$-factor.
+---
+> [!lemma] Corollary 5
+> Let $A_{1},\dots,A_{n}$ be a collection of sets. A family $X:=\{ a_{1},\dots,a_{n} \}$ is a SDR if $a_{i}\in A_{i}$ and $\left|X  \right|=n$. TFAE:
+> 1. $A_{1},\dots,A_{n}$ has an SDR.
+> 2. $\left| I \right|\leq \left| \bigcup_{i\in I}^{}A_{i} \right|$for all $I\subseteq [n]$
+
+> [!proof]-
+> We construct a bipartite graph $G$ where: $A:=[n]$ and $B:=\bigcup_{i\in I}^{}A_{i}$ s.t. $ia\in G$ if and only if $a\in A_{i}$. Then, a matching in $G$ exactly corresponds to a SDR and the Halls condition exactly comes down to $\left| I \right|\leq \left| \bigcup_{i\in I}^{}A_{i} \right|$. 
+
 ---
 
-> [!lemma] Theorem 3 (König)
-> Let $H$ be a [[Graph|bipartite graph]]. Then, 
-> 1. $\nu(H)=\tau(H)$
+> [!lemma] Theorem 6 (König 1931)
+> Let $G=(A\sqcup B,E)$ be a [[Graph|bipartite graph]]. Then, 
+> 1. $\nu(G)=\tau(G)$
+
+> [!proof]+
+> We already have that $\nu(G)\leq \tau(G)$ from Proposition 1. Hence it suffices to show that $\tau(G)\leq \nu(G)$. Let $U$ be a minimum vertex cover in $G$. We construct a matching of size $\left| U \right|$.
+> 
+> Let $A':= U\cap A$ and $B':=U\cap B$. Let $H,H'$ be the subgraphs induced by $A'\cup B \backslash B'$ and $A \backslash A'\cup B'$.
 
 ^c36b60
 
