@@ -123,12 +123,15 @@
 ---
 > [!lemma] Corollary 8 (Berge 1958)
 > For a graph $G$, 
-> 1. $2\nu(G)=n+\min_{S\subseteq V}(\left| S \right|-q(G \backslash S))$
+> 1. $2\nu(G)\geq n+\min_{S\subseteq V}(\left| S \right|-q(G \backslash S))$
 
-> [!proof]+
+> [!proof]-
 > Let $d(S):=q(G \backslash S)-\left| S \right|$ and let $d:=\max_{S\subseteq V}d(S)$. For $S\subseteq V$, we have that at most $\left| S \right|$ edges can match vertices from $S$ to odd components of $G \backslash S$, so every matching has at least $d(S)$ unmatched vertices. Therefore, no matching can have more than $n-d$ matched vertices. 
 > 
+> By considering $S=\varnothing$, we have that $d\geq 0$. Let $G'$ be obtained by adding a set $D$ of $d$ vertices to $G$, each of which are adjacent to every other vertex. Now, notice that for any $S\subseteq V$ $$n\equiv_{2}\left| S \right| +\left| G \backslash S \right| \equiv_{2}\left| S \right| +q(G \backslash S)\equiv_{2} d(S)$$
 > 
+> Since $d(S)$ has the same parity as $n$ for all $S$, we know that $\left| G' \right|$ is even. For $\varnothing$, $q(G')=0$ as $G'$ is even and connected via $D$. If $S'\subseteq V(G')$ is non-empty but doesn't contain all of $D$, then $G' \backslash S'$ has only one component and $1\leq \left| S' \right|$. Finally, if $D\subseteq S'$, then for $S:= S' \backslash D$, we have that $G' \backslash S'=G \backslash S$ and: $$q(G' \backslash S')=q(G \backslash S)= \left| S \right|+d(S)\leq \left| S \right| +d=\left| S' \right|  $$Hence, $G'$ satisfies the Tutte condition and there exists a perfect matching $M$ for $G'$. By deleting the vertices that match $D$, we have a matching that deletes at most $d$ vertices of $G$. 
+
 ---
 ##### Matching Algorithms
 > [!lemma] Theorem 1 (MWU)

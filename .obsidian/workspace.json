@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Differential Geometry/Orientable Double Cover.md",
+                "file": "Graph Theory/Planar Graph.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Orientable Double Cover"
+              "title": "Planar Graph"
             }
           },
           {
@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tree.md",
+                "file": "Graph Theory/Planar Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tree"
+              "title": "Planar Graph"
             }
           },
           {
@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -344,10 +344,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e8062253689b259f",
+  "active": "8207292bb85f5852",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Differential Geometry/Orientable Double Cover.md",
+    "Graph Theory/Planar Graph.md",
+    "Graph Theory/Tree.md",
     "Graph Theory/Matching.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Vertex Cover.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Discrete Mathematics/Order.md",
@@ -359,19 +362,16 @@
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Graph Theory/Eulerian Trail.md",
     "Graph Theory/Graph.md",
-    "Graph Theory/Tree.md",
     "Topology/Algebraic Topology/Cup Product.md",
     "Topology/Algebraic Topology/Cap Product.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
-    "Differential Geometry/Orientable Double Cover.md",
     "Topology/Algebraic Topology/Tor.md",
     "Algebra/Module.md",
     "Topology/Lift.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "TIKZ.md",
     "Topology/Fundamental Group.md",
-    "Differential Geometry/Orientation.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",

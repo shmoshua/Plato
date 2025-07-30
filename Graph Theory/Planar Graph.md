@@ -1,6 +1,8 @@
 #Definition #GraphTheory 
 > [!definition]
-
+> Let $G$ be a [[graph]]. 
+> 1. $G$ is ***planar*** if it has a drawing without crossings.
+- R
 - **Related definition**: For $G=(V,E)$, $\text{cr}(G)$ is the minimum number of crossing pairs of edges. ^98b3fd
 ---
 ##### Properties
