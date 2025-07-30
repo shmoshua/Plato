@@ -11,6 +11,7 @@
 	2. ***maximum*** if there is no other matching $M'$ with $\left| M' \right|> \left| M \right|$.
 	3. ***perfect*** if $\left| M \right|=\left| V(G) \right| / 2$.
 - **Related definition**: For a graph $G$, $\nu(G)$ denotes the size of maximum matching. ^cf73c8
+- **Remark**: A matching in $G$ corresponds to an independent set in the [[line graph]] $L(G)$. ^3aa979
 - **Remark**: The maximum matching problem can be written in ILP as follows: $$\begin{array}{rll}\max&\sum_{e\in E}^{}x_{e}\\\text{subject to}&\sum_{e\ni v}^{}x_{e}\leq 1 & \forall v\in V\\&x_{e}\in \{ 0,1 \}&\forall e\in E\end{array}$$
 ---
 ##### Properties

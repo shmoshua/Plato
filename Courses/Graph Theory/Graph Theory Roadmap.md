@@ -201,6 +201,7 @@
 ![[Matching#^ba7938]]
 ![[Matching#^32ed75]]
 ![[Matching#^cf73c8|p]]
+![[Matching#^3aa979|p]]
 
 ---
 ![[Matching#^ef41f6]]
@@ -211,6 +212,10 @@
 ![[Vertex Cover#^63a2ab]]
 ![[Vertex Cover#^32ed75]]
 ![[Vertex Cover#^cf73c8|p]]
+
+---
+![[Vertex Cover#^fd5d85]]
+
 
 ---
 ![[Vertex Cover#^31a060]]

@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Hamiltonian Path.md",
+                "file": "Graph Theory/Vertex Cover.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hamiltonian Path"
+              "title": "Vertex Cover"
             }
           },
           {
@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Fundamental Class.md",
+                "file": "Graph Theory/Vertex Cover.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Fundamental Class"
+              "title": "Vertex Cover"
             }
           },
           {
@@ -79,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "file": "Graph Theory/Vertex Cover.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Theory Roadmap"
+              "title": "Vertex Cover"
             }
           },
           {
@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/k-Connected Graph.md",
+                "file": "Graph Theory/Vertex Cover.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "k-Connected Graph"
+              "title": "Vertex Cover"
             }
           },
           {
@@ -357,13 +357,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "808031414260f14d",
   "lastOpenFiles": [
-    "Graph Theory/Hamiltonian Path.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Courses/Advanced Algorithms/Exercise 09.md",
+    "Graph Theory/Matching.md",
+    "Graph Theory/Vertex Cover.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Graph Theory/Eulerian Trail.md",
     "Graph Theory/k-Connected Graph.md",
+    "Graph Theory/Hamiltonian Path.md",
+    "Topology/Algebraic Topology/Fundamental Class.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Graph Theory/Eulerian Trail.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Graph Theory/Line Graph.md",
     "Graph Theory/Graph.md",
@@ -372,7 +376,6 @@
     "Topology/Algebraic Topology/Cap Product.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
-    "Topology/Algebraic Topology/Fundamental Class.md",
     "Differential Geometry/Orientable Double Cover.md",
     "Topology/Algebraic Topology/Tor.md",
     "Algebra/Module.md",
@@ -382,9 +385,6 @@
     "Topology/Fundamental Group.md",
     "Differential Geometry/Orientation.md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Topology/Path-Connected Space.md",
-    "Topology/Algebraic Topology/Local Homology.md",
-    "Differential Geometry/Section.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",

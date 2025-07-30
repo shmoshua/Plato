@@ -73,7 +73,7 @@
 > We have:
 > 1. Let $G$ be a non-Hamiltonian graph with $\delta(G)\geq n / 2$. We may assume wlog that $G$ is maximal, i.e. if we add any edge $e$ to $G$, then $G\cup e$ is Hamiltonian. 
 > 
-> 	By maximality, we have that $G$ has a Hamiltonian path $v_{1}\dots v_{n}$from $u=v_{1}$ to $v=v_{n}$. Let 
+> 	By maximality, we have that $G$ has a Hamiltonian path $v_{1}\dots v_{n}$ from $u=v_{1}$ to $v=v_{n}$. Let 
 > 	1. $S:=\{ i:(u,v_{i+1})\in E \}$ and
 > 	2. $T:=\{ i:(v,v_{i})\in E \}$. 
 >    
