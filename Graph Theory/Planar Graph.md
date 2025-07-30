@@ -2,21 +2,29 @@
 > [!definition]
 > Let $G$ be a [[graph]]. 
 > 1. $G$ is ***planar*** if it has a drawing without crossings.
-- R
+- **Related definition**: A ***plane graph*** is a particular drawing of a planar graph with no crossings. 
 - **Related definition**: For $G=(V,E)$, $\text{cr}(G)$ is the minimum number of crossing pairs of edges. ^98b3fd
 ---
 ##### Properties
 > [!lemma] Theorem 1
-> Let $G=(V,E)$ be a planar graph. Then
-> 1. $\left| E \right|\leq 3n-6$.
+> Let $G=(V,E)$ be a planar graph with $n\geq 3$. Then
+> 1. $e(G)\leq 3n-6$.
+> 2. $e(G)\leq 2n-4$ if it is triangle free.
 
 ^f8d45e
 
-> [!proof]+
-> Using [[Topology/Algebraic Topology/Euler Characteristic|Euler]], if $G$ is connected, 
+> [!proof]-
+> We have:
+> 1. First assume that $G$ is connected and has no leaves. 
+> 	1. if $e(G)=0$, then the statement trivially holds. 
+> 	2. if $e(G)\geq 1$, then as $\delta(G)\geq 2$, there exists a cycle and more than one face. Let $\{ f_{i} \}$ be the face lengths. We then have: $$2e=\sum_{i}^{}f_{i}\geq 3f$$Hence, $f\leq \frac{2}{3}e$ and plugging it back we have that: $$n-e+\frac{2}{3}e\geq 2$$and $e\leq 3n-6$. 
+> 	
+> 	Now, if $G$ is not connected, we can always add more edges and make it connected. Similarly, if $G$ has a leaf $v$, let $G':= G \backslash v$. Then, $$3(n-1)-6-e(G')=3n-6-e(G)-2$$Hence, we have that the statement holds. 
+> 2. Similarly to 1, if $G$ is triangle free, $2e\geq 4f$ and $e\leq 2n-4$. We now conclude by showing that: $$2(n-1)-4-e(G')=2n-4-e(G)-1$$
 
 ^227361
 
+- **Corollary**: A bipartite planar graph with $n\geq 3$ nodes has at most $2n-4$ edges.
 ---
 > [!lemma] Theorem 1 (Ajtai-Chvátal-Newborn-Szemerédi, Leighton)
 > For any simple graph $G=(V,E)$:
