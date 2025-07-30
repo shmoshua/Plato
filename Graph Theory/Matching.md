@@ -91,10 +91,11 @@
 > 1. $G$ has a perfect matching. 
 > 2. $q(G \backslash S)\leq \left| S \right|$ for all $S\subseteq V$ where $q(G)$ denotes the number of odd components of $G$. 
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. (1=>2): If $G$ has a perfect matching, then for every $S\subseteq V$, every odd component has to have a matching edge to $S$. Further, such edges cover different node in $S$. Hence, $q(G \backslash S)\leq \left| S \right|$ holds.
-> 2. (2=>1): Assume that $G$ doesn't have a perfect matching. Further, assume that addition of any edge $e$ in $G$ will yield a perfect matching. 
+> 2. (2=>1): Let $\mathcal{B}$ be the set of graphs on $V(G)$ that meet the Tutte condition but do not have a perfect matching. We claim that $\mathcal{B}$ is empty. Notice that Tutte's condition is preserved by the addition of edges: For $G':= G\cup e$ we have that $q(G'\backslash S)\leq q(G\backslash S)$ for any $S\subseteq V$. Hence, if $H\in \mathcal{B}$, for any $e\in E$, $H\cup e\in \mathcal{B}$ or $H\cup e$ has a perfect matching. Further if $H\cup e$ has a perfect matching then $H\cup e\cup f$ has a perfect matching as well. Therefore, if $\mathcal{B}$ is non-empty there exists $G\in \mathcal{B}$ s.t. $G\cup e$ has a perfect matching for all $e\in E$.
+>    
 > 	1. **$G$ has even number of vertices**.
 > 	   Consider $S:=\varnothing$. Then, $q(G)=0$. However, a graph of odd order has at least one component of odd order. 
 > 
@@ -108,12 +109,26 @@
 >      Let $F$ be the graph on $V(G)$ with edges that belong to exactly one of $M_{1}$ or $M_{2}$. Then, $F$ contains $xz$ and $wy$. Since every vertex has degree $1$ in $M_{1}$ or $M_{2}$, we have that in $F$ every vertex has degree $0$ or $2$. Hence, $F$ is a collection of disjoint even cycles and isolated vertices. Let $C$ be a cycle in $F$ containing $xz$. 
 >      
 >      - If $C$ doesn't contain $wy$, then taking $(M_{1} \backslash C)\cup (M_{2}\cap C)$ will give us a desired matching in $M_{1}\cup M_{2}$.
->      - If $C$ contains $wy$, we can use either $xy$ 
-> 	
->    
->    
->    
->    Notice that Tutte's condition is preserved by the addition of edges: For $G':= G\cup e$ we have that $q(G'\backslash S)\leq q(G\backslash S)$ for any $S\subseteq V$. Hence, we may wlog consider a simple graph $G$ s.t. $G$ meets the Tutte condition and has no perfect matching s.t. 
+>      - If $C$ contains $wy$, we can use either $xy$ or $zy$ to construct a perfect matching for all vertices in $C$. This gives us a perfect matching.
+
+---
+> [!lemma] Corollary 7 (Petersen 1891)
+> Every $3$-regular graph with no cut-edge has a perfect matching.
+
+> [!proof]-
+> Let $S\subseteq V(G)$. Let $H$ be a component of $G \backslash S$ with $\left| H \right|$ odd. Then, the number of edges between $S$ and $H$ cannot be $1$ as there is no cut edge. It also cannot be even as $H$ has odd number of vertices and in this case $3\left| H \right|-\text{even}=\text{odd}=2e_{G}(H)$. Therefore, there are at least three edges from $H$ to $S$. 
+> 
+> Since $G$ is $3$-regular, every vertex in $S$ is incident to at most $3$ edges between $S$ and $G \backslash S$. Therefore, $$3q(G \backslash S)\leq 3\left| S \right| $$which gives the Tutte condition.
+
+---
+> [!lemma] Corollary 8 (Berge 1958)
+> For a graph $G$, 
+> 1. $2\nu(G)=n+\min_{S\subseteq V}(\left| S \right|-q(G \backslash S))$
+
+> [!proof]+
+> Let $d(S):=q(G \backslash S)-\left| S \right|$ and let $d:=\max_{S\subseteq V}d(S)$. For $S\subseteq V$, we have that at most $\left| S \right|$ edges can match vertices from $S$ to odd components of $G \backslash S$, so every matching has at least $d(S)$ unmatched vertices. Therefore, no matching can have more than $n-d$ matched vertices. 
+> 
+> 
 ---
 ##### Matching Algorithms
 > [!lemma] Theorem 1 (MWU)
