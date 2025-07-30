@@ -55,14 +55,14 @@
 > [!proof]-
 > If $k\in \{ 0,1 \}$, then the statement is trivial. Hence, let $k\geq 2$. Let further $m:=e(G)$. 
 > 
-> Now, let $\Gamma$ be an arbitrary simple graph on $n$ vertices and $m$ edges s.t. $n\geq 2k-1$ and $m\geq (2k-3)(n-k+1)+1$. Then, we claim that $G$ has a $k$-connected subgraph.
+> Now, let $\Gamma$ be an arbitrary simple graph on $n$ vertices and $m$ edges s.t. $n\geq 2k-1$ and $m\geq (2k-3)(n-k+1)+1$. Then, we claim that $\Gamma$ has a $k$-connected subgraph.
 > 
 > If this claim holds, then we have that for our original graph $G$, i.e. $d(G)\geq 4k$. Then: $$n\geq \Delta(G)\geq d(G)\geq 4k\geq 2k-1,\quad e(G)=\frac{n}{2}d(G)\geq 2kn\geq (2k-3)(n-k+1)+1$$
 > Hence, it suffices to show the claim.
 > 
 > We show this using induction over $n$.
 > 1. Let $n=2k-1$. Then, $k=\frac{n+1}{2}$ and the number of edges is: $$m\geq (n-2)\left( \frac{n+1}{2} \right)+1=\frac{n^2-n}{2}=\frac{n(n-1)}{2}$$and $\Gamma=K_{n}$ and $\Gamma$ is $n-1=2k-2\geq k$-connected. 
-> 2. Let $n\geq 2k$. If there exists $v\in V$ s.t. $d(v)\leq 2k-2$, then $\Gamma':=\Gamma \backslash \{ v \}$. Then, $\left| V(\Gamma') \right|=n-1\geq 2k-1$ and $e(\Gamma')\geq e(\Gamma)-2k+3=(2k-3)(n-k)+1$. Hence, by induction we have a $k$-connected subgraph. 
+> 2. Let $n\geq 2k$. If there exists $v\in V$ s.t. $d(v)\leq 2k-3$, then $\Gamma':=\Gamma \backslash \{ v \}$. Then, $\left| V(\Gamma') \right|=n-1\geq 2k-1$ and $e(\Gamma')\geq e(\Gamma)-2k+3\geq(2k-3)(n-k)+1$. Hence, by induction we have a $k$-connected subgraph. 
 >    
 >    Now, assume that $\delta(\Gamma)\geq 2k-2$. 
 > 	1. If $\Gamma$ is $k$-connected, then we are done. 
