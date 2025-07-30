@@ -100,7 +100,15 @@
 > 
 >    Let $U$ be the set of vertices in $G$ that are connected to all other vertices. 
 >    
->    - If $G \backslash U$ is a disjoin union of cliques, then there exists a perfect matching as we can matching the 
+>    - If $G \backslash U$ is a disjoint union of cliques, then there exists a perfect matching as we can match every vertices in $G \backslash U$ trivially and the one node left in each odd component can be matched with $U$ by definition. Lastly, the remaining nodes in $U$ can be matched with each other as $G$ has even number of nodes. This is a contradiction.
+>    - If $G \backslash U$ is not a disjoint union of cliques, there exist two vertices in a same component that are not adjacent. We claim that on the shortest path between these two nodes, we can find a path $xyz$ where $xz\notin E$. Otherwise we have that the shortest path is $P=v_{1}\dots v_{\ell}$ where $v_{i-1}v_{i+1}\in E$ for all and $v_{1}v_{3}v_{4}\dots v_{\ell}$ is a shorter path, which is a contradiction. 
+>      
+>      Further, as $y\notin U$, there exists $w\in G \backslash U$ s.t. $wy\notin E$. Now by the maximality, let $M_{1},M_{2}$ be the perfect matching in $G\cup xz$ and $G\cup wy$. We will find a perfect matching in $M_{1}\cup M_{2}$ that doesn't contain $xz,wy$, i.e. the matching is also in $G$, which is a contradiction.
+>      
+>      Let $F$ be the graph on $V(G)$ with edges that belong to exactly one of $M_{1}$ or $M_{2}$. Then, $F$ contains $xz$ and $wy$. Since every vertex has degree $1$ in $M_{1}$ or $M_{2}$, we have that in $F$ every vertex has degree $0$ or $2$. Hence, $F$ is a collection of disjoint even cycles and isolated vertices. Let $C$ be a cycle in $F$ containing $xz$. 
+>      
+>      - If $C$ doesn't contain $wy$, then taking $(M_{1} \backslash C)\cup (M_{2}\cap C)$ will give us a desired matching in $M_{1}\cup M_{2}$.
+>      - If $C$ contains $wy$, we can use either $xy$ 
 > 	
 >    
 >    
