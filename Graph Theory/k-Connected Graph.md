@@ -108,15 +108,27 @@
 > 
 > Suppose $k$ is the size of the minimum size of a $ST$-separating set. We need to show that there exist $k$ vertex disjoint $ST$-paths. We show this using induction over $\left| E \right|$.
 > 1. if $\left| E \right|=0$, then the minimal $ST$-separating set is $X:=S\cap T$ and $k=\left| S\cap T \right|$. We also have $k$ $ST$-paths.
-> 2. Assume there exists $e:=uv\in E$. If $G$ has no $k$ disjoint $ST$-paths, then neither does the contraction $G':= G / e$. By induction hypothesis, $G / e$ contains a $ST$-separator $Y$ with $\left| Y \right|,$
+> 2. Assume there exists $e:=uv\in E$. If $G$ has no $k$ disjoint $ST$-paths, then neither does the contraction $G':= G / e$ where $v_{e}\in G'$ is the contracted vertex. By induction hypothesis, $G / e$ contains a $ST$-separator $Y$ with $\left| Y \right|< k$. We also have that $v_{e}\in Y$ as otherwise we would have $Y\subseteq V(G)$ and $Y$ is $ST$-separating. Then, $X:= (Y \backslash \{ v_{e} \})\cup \{ u,v \}$ is a $ST$-separator of exactly $k$ vertices.
+>    
+>    Now consider $G \backslash e$. Since $x,y\in X$, every $S X$-separator in $G \backslash e$ is also a $ST$-separator in $G$ and hence contains at least $k$ vertices. Hence, by induction there are $k$ disjoint $AX$-paths in $G \backslash e$ and similarly $k$ disjoint $XB$ paths. As $X$ separates $A$ from $B$, they do not meet outside of $X$ and can be thus combined into $k$ disjoint $AB$-paths.
 
 > [!proof]+
 > Obviously, the maximum number of disjoint paths does not exceed the minimum size of a separating set, because for any collection of disjoint paths, any separating set must contain a vertex from each path. Hence, $\leq$ holds.
 > 
-> Suppose $k$ is the size of the minimum size of a $ST$-separating set. We need to show that there exist $k$ vertex disjoint $ST$-paths. We show this using induction over $\left| E \right|+\left| V \right|$.
-> 3. Let $\left| E \right|=\varnothing$. Then, the minimal $ST$-separating set is $X:=S\cap T$. This is precisely the number of vertex disjoint $ST$-paths. 
-> 4. Let $\left| V \right|+\left| E \right|> \left| V \right|$. 
-> 	1. Assume that $S\cap T=\varnothing$. Take arbitrary $e:=uv\in E$ and let $G':= G \backslash e$. 
+> Suppose $k$ is the size of the minimum size of a $ST$-separating set. We need to show that there exist $k$ vertex disjoint $ST$-paths. We show this using induction over $\left| E \right|$.
+> 1. Let $\left| E \right|=0$. Then, the minimal $ST$-separating set is $X:=S\cap T$. This is precisely the number of vertex disjoint $ST$-paths. 
+> 2. Let $\left| V \right|+\left| E \right|> \left| V \right|$. 
+> 	1. Assume that $S\cap T=\varnothing$. Take arbitrary $e:=uv\in E$ and let $G':= G \backslash e$. Let $C$ be a minimal $ST$-separating set in $G'$. By induction we have that there are $\left| C \right|$ disjoint $ST$-paths. 
+> 		1. if $\left| C \right|=k$, then we are done.
+> 		2. if $\left| C \right|\leq k-1$, then we have that 
+> 		   
+> 		   then we have that $\left| C \right|=k-1$ as $C\cup \{ u \}$ separates $ST$ in $G$. 
+> 		   
+> 		   Now, let $V_{S},V_{T}$ be the union of components with elements from $S$ and $T$ in $G' \backslash C$. As $S,T$ are disjoint, we have that $V_{S}$ and $V_{T}$ are disjoint as well. Wlog we may assume that 
+> 		   Now, notice that $G' \backslash C$ 
+> 	2. 
+> 	   
+> 	   
 > 		1. If the minimal $ST$-separating set has still size $k$ then we can use induction.
 > 		2. If the minimal $ST$-separating set $C$ has size $\leq k-1$, then $C\cup \{ u \}$ or $C\cup \{ v \}$ is still separates $S,T$. Hence, $\left| C \right|=k-1$. 
 > 		   
@@ -127,7 +139,7 @@
 > 		   Hence, in both cases $P$ intersects $B$. So by induction, $G'$ contains $k$ disjoint $S\text{-}(C\cup \{ u \})$ paths. Similarly, $G'$ contains $k$ disjoint $(C\cup \{ v \})\text{-}T$-paths. 
 > 		   
 > 		   Any path in the first collection intersects any path in the second only in $C$, since otherwise $G'$ contains a $ST$-path avoiding $C$. Hence, as $\left| C \right|=k-1$, we can pairwise concatenate these paths to obtain $k-1$ disjoint $ST$-paths. Now, by connecting the two paths to $u$ and $v$ with $e$, we have $k$ disjoint $ST$-paths.
-> 	2. Let $S\cap T=:X\neq \varnothing$. Apply the induction hypothesis on $S_{0}:= S \backslash X$, $T_{0}:=T \backslash X$ and $G_{0}:=G \backslash X$. Let $k_{0}$ be the minimum separating set in $G_{0}$. Then, we obtain a $ST$-separating set in $G$ of size $k_{0}+\left| X \right|$. However, we also have $k_{0}+\left| X \right|$ vertex disjoint $ST$ paths by adding $X$ as a family of trivial paths. 
+> 	3. Let $S\cap T=:X\neq \varnothing$. Apply the induction hypothesis on $S_{0}:= S \backslash X$, $T_{0}:=T \backslash X$ and $G_{0}:=G \backslash X$. Let $k_{0}$ be the minimum separating set in $G_{0}$. Then, we obtain a $ST$-separating set in $G$ of size $k_{0}+\left| X \right|$. However, we also have $k_{0}+\left| X \right|$ vertex disjoint $ST$ paths by adding $X$ as a family of trivial paths. 
 
 ^3f234e
 
