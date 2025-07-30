@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 4.md",
+                "file": "Courses/Graph Theory/Problem Set 5.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 4"
+              "title": "Problem Set 5"
             }
           },
           {
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Planar Graph.md",
+                "file": "Graph Theory/Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Planar Graph"
+              "title": "Graph"
             }
           },
           {
@@ -346,13 +346,15 @@
   },
   "active": "6a82c8fa16e72294",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Problem Set 3.md",
+    "Courses/Graph Theory/Problem Set 4.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/Graph.md",
+    "Graph Theory/Planar Graph.md",
+    "Courses/Graph Theory/Problem Set 3.md",
     "Courses/Graph Theory/Problem Set 2.md",
     "Graph Theory/Matching.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Graph Theory/Vertex Cover.md",
-    "Graph Theory/Planar Graph.md",
     "Differential Geometry/Orientable Double Cover.md",
     "Graph Theory/Tree.md",
     "Topology/Algebraic Topology/Singular Homology.md",
@@ -364,14 +366,12 @@
     "Topology/Algebraic Topology/Fundamental Class.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Graph Theory/Eulerian Trail.md",
-    "Graph Theory/Graph.md",
     "Topology/Algebraic Topology/Cup Product.md",
     "Topology/Algebraic Topology/Cap Product.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Tor.md",
     "Algebra/Module.md",
     "Topology/Lift.md",
-    "Topology/Algebraic Topology/Homology Theory.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
