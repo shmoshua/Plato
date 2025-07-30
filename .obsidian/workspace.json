@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Vertex Cover.md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Vertex Cover"
+              "title": "Graph Theory Roadmap"
             }
           },
           {
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "file": "Courses/Graph Theory/Problem Set 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Theory Roadmap"
+              "title": "Problem Set 2"
             }
           },
           {
@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -344,14 +344,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8207292bb85f5852",
+  "active": "6a82c8fa16e72294",
   "lastOpenFiles": [
-    "Differential Geometry/Orientable Double Cover.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Courses/Graph Theory/Problem Set 2.md",
+    "Courses/Graph Theory/Problem Set 1.md",
+    "Graph Theory/Vertex Cover.md",
     "Graph Theory/Planar Graph.md",
+    "Differential Geometry/Orientable Double Cover.md",
     "Graph Theory/Tree.md",
     "Graph Theory/Matching.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Graph Theory/Vertex Cover.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Discrete Mathematics/Order.md",
     "Graph Theory/Line Graph.md",
@@ -364,14 +366,12 @@
     "Graph Theory/Graph.md",
     "Topology/Algebraic Topology/Cup Product.md",
     "Topology/Algebraic Topology/Cap Product.md",
-    "Courses/Graph Theory/Problem Set 1.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Tor.md",
     "Algebra/Module.md",
     "Topology/Lift.md",
     "Topology/Algebraic Topology/Homology Theory.md",
     "TIKZ.md",
-    "Topology/Fundamental Group.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
