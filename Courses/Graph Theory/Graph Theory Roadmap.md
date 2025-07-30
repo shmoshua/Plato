@@ -139,6 +139,16 @@
 ![[k-Connected Graph#^ab76d0|p]]
 
 ---
+#### 3.1 2-Connected Graphs
+![[k-Connected Graph#^28e12b]]
+![[k-Connected Graph#^0c50c8|p]]
+
+---
+#### 3.2 Menger's Theorem
+![[k-Connected Graph#^45540e]]
+![[k-Connected Graph#^3f234e|p]]
+
+---
 ### 4. Eulerian Tours and Hamiltonian Cycles
 
 #### 4.1 Eulerian Tours and Eulerian Trails

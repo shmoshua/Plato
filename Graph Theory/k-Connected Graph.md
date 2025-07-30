@@ -34,10 +34,10 @@
 > 1. Let $k> \delta(G)$. Then, we show that $G$ cannot be $k$-connected. Assume that $\left| V \right|>k$. Let $v$ s.t. $d(v)=\delta(G)$. Then, $k-1\geq \delta(G)$ and 
 > 	1. if $N(v)=V \backslash \{ v \}$. Then, as $d(u)\geq \delta(G)=d(v)$, we have that $G$ is a complete graph on $\delta(G)+1$ vertices and we get that $\kappa(G)\leq \delta(G)$. 
 > 	2. otherwise, there exists $w\neq v$ that is not in $N(v)$. Hence, by deleting $N(v)$, we disconnect $v$ and $w$. 
-> 2. Follows from the fact that a minimal disconnecting set is always a cut.
-> 3. Take $v$ with $d(v)=\delta(G)$. Then, we can delete all the incident edges to $v$ and we get a disconnected graph.
+> 2. We have that for any $S\subseteq V(G)$, $E(S,\overline{S})$ is a disconnecting set, hence, $\kappa'(G)\leq e(S,\overline{S})$. Conversely, let $\kappa'(G)=:k$. Then, there exists a $E'\in {E \choose k}$ s.t. $G \backslash E'$ is disconnected. Let $S$ be a connected component in $G \backslash E'$. Then, $E(S,\overline{S})\subseteq E'$. Therefore, $$e(S,\overline{S})\leq \kappa'(G)\leq \min_{S\subseteq V}e(S,\overline{S})$$
+> 3. Take $v$ with $d(v)=\delta(G)$. Then, we can delete all the incident edges to $v$ and we get a disconnected graph. Hence, $\kappa'(G)\leq \delta(G)$.
 >    
->    Let $S\subseteq V$ s.t. $\kappa'(G)=e(S,\overline{S})$ with $\left| S \right|=s$. 
+>    Let $S\subseteq V$ s.t. $\kappa'(G)=e(S,\overline{S})$ with $\left| S \right|=s$ from 2.
 > 	1. If the cut is complete, then $\kappa'(G)=s(n-s)\geq n-1$. However, obviously,  $\kappa(G)\leq n-1$. 
 > 	2. if the cut is not complete, then there exists $x\in S$ and $y\in \overline{S}$ s.t. $xy\notin E$. Let $T_{1}:= \overline{S}\cap N(x)$ and let $T_{2}:=\{ v\in S \backslash \{ x \}:N(v)\cap \overline{S}\neq \varnothing \}$.
 > 	   
@@ -78,25 +78,32 @@
 ---
 > [!lemma] Theorem 3 (Whitney, 1932)
 > Let $G=(V,E)$ be a graph with $\left| V \right|\geq 3$. TFAE:
-> 1. $G$ is $2$-connected.
+> 1. $G$ is $2$-connected, i.e. there is no cut vertex.
 > 2. for all $u,v\in V$, there exist two internally disjoint $uv$-paths.
 > 3. for all $u,v\in V$, there exists a cycle that contains $u,v$. 
+
+^28e12b
 
 > [!proof]-
 > We have that:
 > 1. (1=>2): Let $G$ be $2$-connected and fix $u,v\in V$. We show by induction on $d(u,v)$. 
 > 	1. Let $d(u,v)=1$ and $e=uv$. As $G$ is $2$-connected, $G$ is $2$-edge-connected and $G \backslash e$ is connected. Hence, there exists a $uv$-path in $G \backslash e$, i.e. there exist two internally disjoint $uv$-paths.
-> 	2. Let $d(u,v)\geq 2$. Let $w$ be vertex adjacent to $v$ in the shortest $uv$ path of length $k:= d(u,v)$. Then, $d(u,w)=k-1$ and there exist two internally disjoint $uw$-paths $Q,R$. Now, if we delete $w$, then $G \backslash w$ is still connected as $G$ is $2$-connected. 
+> 	2. Let $d(u,v)\geq 2$. Let $w$ be vertex adjacent to $v$ in the shortest $uv$ path of length $k:= d(u,v)$. Then, $d(u,w)=k-1$ and there exist two internally disjoint $uw$-paths $Q,R$. 
 > 	   
-> 	   Let $P$ be a $uv$-path in $G \backslash e$. Let $x$ be the last vertex from either $Q$ or $R$ on $P$. Wlog we may assume $x\in Q$. Now, by taking $Q':=Q|_{u\dots x}+P|_{x\dots v}$ and $R':=R+wv$ which are internally vertex disjoint by definition.
+> 	   Now, let $P$ be a $uv$-path in $G \backslash w$ which exists as $G$ is 2-connected. Let $x$ be the last vertex from either $Q$ or $R$ on $P$. Wlog we may assume $x\in Q$. Further, by definition, $x\neq w$. Now, by taking $Q':=Q|_{u\dots x}+P|_{x\dots v}$ and $R':=R+wv$ which are internally vertex disjoint by definition.
 > 2. (2=>3): The two paths form a cycle.
 > 3. (3=>1): Deletion of one vertex cannot separate $u,v\in V$ for all $u,v\in V$. 
+
+^0c50c8
+
 ---
 > [!lemma] Theorem 4 (Menger, 1927)
 > Let $G=(V,E)$ be a graph and $S,T\subseteq V(G)$.
 > 1. the maximal number of vertex disjoint $ST$-paths is the size of the minimal $ST$-separating set.
 
-> [!proof]-
+^45540e
+
+> [!proof]+
 > Obviously, the maximum number of disjoint paths does not exceed the minimum size of a separating set, because for any collection of disjoint paths, any separating set must contain a vertex from each path. Hence, $\leq$ holds.
 > 
 > Suppose $k$ is the size of the minimum size of a $ST$-separating set. We need to show that there exist $k$ vertex disjoint $ST$-paths. We show this using induction over $\left| E \right|+\left| V \right|$.
@@ -114,6 +121,8 @@
 > 		   
 > 		   Any path in the first collection intersects any path in the second only in $C$, since otherwise $G'$ contains a $ST$-path avoiding $C$. Hence, as $\left| C \right|=k-1$, we can pairwise concatenate these paths to obtain $k-1$ disjoint $ST$-paths. Now, by connecting the two paths to $u$ and $v$ with $e$, we have $k$ disjoint $ST$-paths.
 > 	2. Let $S\cap T=:X\neq \varnothing$. Apply the induction hypothesis on $S_{0}:= S \backslash X$, $T_{0}:=T \backslash X$ and $G_{0}:=G \backslash X$. Let $k_{0}$ be the minimum separating set in $G_{0}$. Then, we obtain a $ST$-separating set in $G$ of size $k_{0}+\left| X \right|$. However, we also have $k_{0}+\left| X \right|$ vertex disjoint $ST$ paths by adding $X$ as a family of trivial paths. 
+
+^3f234e
 
 ---
 ##### Examples
