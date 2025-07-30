@@ -145,19 +145,34 @@
 > 1. if $uv\notin E$, the size of the minimal $uv$ separating set that does not cross $u$ or $v$ is the maximal number of internally disjoint $uv$ paths. 
 > 2. The minimum number of edges separating $u,v$ in $G$ is equal to the maximum number of edge-disjoint $uv$ paths in $G$.
 
+^8d2396
+
 > [!proof]-
 > We have:
 > 1. Menger on $N(u),N(v)$.
 > 2. Menger on the line graph $L(G)$ with $S,T$ as edges adjacent to $u,v$ respectively.
+
+^e1a83d
+
 ---
 > [!lemma] Theorem 6 (Global Menger)
 > Let $G$ be a graph.
 > 1. $G$ is $k$-connected if and only if it contains $k$ internally disjoint paths between every two vertices $u,v$.
 > 2. $G$ is $k$-edge-connected if and only if it contains $k$ edge-disjoint paths between every two vertices $u,v$.
 
-> [!proof]+
+^8ee159
+
+> [!proof]-
 > We have that:
-> 1. (<=If $G$ contains
+> 1. (<=): If $G$ contains $k$ internally disjoint paths between any two vertices, then $\left| G \right|> k$ and $G$ cannot be separated by fewer than $k$ vertices, i.e. $G$ is $k$-connected.
+>    
+>    (=>): Let $G$ be $k$-connected. If there exists $u,v\in V$ s.t. there aren't $k$ internally disjoint $uv$-paths. If $uv\notin E$, then the size of the minimal $uv$-separating set that doesn't cross $u$ or $v$ is $\leq k-1$. However, then this separating set disconnects $G$ which is a contradiction. Hence $uv\in E$.
+>    
+>    Now, let $G':= G \backslash uv$. Then, $G'$ contains at most $k-2$ internally disjoint $uv$-paths and by Corollary 5.1, we can separate $uv$ by a set $X$ of at most $k-2$ vertices. However, as $\left| G \right|> k$, there exists a vertex $w\notin X \cup \{ u,v \}$ in $G$. Now, $X$ separates $w$ in $G'$ from either $u$ or $v$ (say, wlog from $u$). But then, $X\cup \{ v \}$ is a set of at most $k-1$ vertices separating $u$ from $w$ in $G$, contradicting the $k$-connectedness of $G$.
+> 2. Straight from Corollary 5.2
+
+^22c9c4
+
 ---
 ##### Examples
 > [!h] Example 1

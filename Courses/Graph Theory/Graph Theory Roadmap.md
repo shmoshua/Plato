@@ -153,6 +153,14 @@
 ![[Line Graph#^d19d22]]
 
 ---
+![[k-Connected Graph#^8d2396]]
+![[k-Connected Graph#^e1a83d|p]]
+
+---
+![[k-Connected Graph#^8ee159]]
+![[k-Connected Graph#^22c9c4|p]]
+
+---
 ### 4. Eulerian Tours and Hamiltonian Cycles
 
 #### 4.1 Eulerian Tours and Eulerian Trails

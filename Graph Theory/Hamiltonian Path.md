@@ -19,7 +19,7 @@
 ^7a36d1
 
 > [!proof]-
-> Let $C_{1},\dots,C_{k}$ be the components of $G \backslash S$. Imagine that we are moving along a Hamilton cycle in some order, vertex-by-vertex. We must visit each component of $G \backslash S$ at least once; when we leave $C_{i}$ for the first time, let $v_{i}$ be the subsequent vertex visited, which must be in $S$. Each $v_{i}$ must be distinct because a cycle cannot intersect itself. Hence, $S$ must have at least as many vertices as the number of connected components of $G \backslash S$.
+> Let $S\subseteq V$ and let $C_{1},\dots,C_{k}$ be the components of $G \backslash S$. Imagine that we are moving along a Hamilton cycle in some order, vertex-by-vertex. We must visit each component of $G \backslash S$ at least once; when we leave $C_{i}$ for the first time, let $v_{i}$ be the subsequent vertex visited, which must be in $S$. Each $v_{i}$ must be distinct because a cycle cannot intersect itself. Hence, $S$ must have at least as many vertices as the number of connected components of $G \backslash S$.
 
 ^e3866f
 
