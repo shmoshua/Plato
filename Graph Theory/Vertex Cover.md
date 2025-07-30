@@ -39,14 +39,38 @@
 
 ---
 > [!lemma] Theorem 2 (Hall 1935)
-> Let $G:=(A\sqcup B,E)$ be a bipartite graph.
+> Let $G:=(A\sqcup B,E)$ be a bipartite graph. TFAE:
+> 1. there exists a matching $M$ covering $A$.
+> 2. $\left| S \right|\leq \left| N(S) \right|$ for all $S\subseteq A$.
+
+> [!proof]-
+> We have that:
+> 1. (1=>2): If $M$ is such a matching, then for any $S\subseteq A$, $$\left| S \right| = \left| N(S)\cap V(M) \right|\leq \left| N(S) \right|  $$
+> 2. (2=>1): We apply induction on $\left| A \right|$.
+> 	- If $\left| A \right|=1$, then the statement is true. 
+> 	- Let $\left| A \right|\geq 2$. 
+> 		- If $\left| S \right|\leq \left| N(S) \right|-1$ for all $\varnothing\neq S\subsetneq A$ then we can pick $ab\in E$ and consider $G':= G \backslash \{ a,b \}$. Then, for every non empty $S\subseteq A \backslash \{ a \}$, we have that: $$\left| S \right| \leq \left| N(S) \right| -1=\left| N_{G'}(S) \right| $$and by IH we have a matching $M'$ in $G'$ covering $A \backslash \{ a \}$. Together with $ab$, we get a matching covering $A$.
+> 		- Otherwise, there exists a non-empty $S\subsetneq A$ s.t. $\left| S \right|=\left| N(S) \right|$. Let $A':=S$ and $B':= N(S)$. Then, $G':=G[A'\cup B']$ contains a matching covering $A'$ by induction hypothesis. We now claim that $G \backslash G'$ also satisfies the Hall's condition. For any $S\subseteq A \backslash A'$, if we have that $\left| N_{G \backslash G'}(S) \right|< \left| S \right|$ then we have that: $$\left| N_{G}(S\cup A') \right| =\left| N_{G \backslash G'}(S) \right| +\left| B' \right| <\left| S \right| +\left| A' \right| =\left| S\cup A' \right| $$which is a contradiction. Therefore, by induction again, there exists a matching covering $A \backslash A'$. Combining the two matchings, we have a matching covering $A$.
 
 ---
+> [!lemma] Corollary 3
+> Let $G:=(A\sqcup B,E)$ be a bipartite graph. Let $k\geq 1$.
+> 1. if $\left| S \right|\leq \left| N(S) \right|+k$ for all $S\subseteq A$, then $G$ contains a matching of cardinality $\left| A \right|-k$.
+> 2. if $G$ is $k$-regular, then $G$ has a perfect matching.
+
+> [!proof]+
+> We have that:
+> 1. If we add $k$ new vertices to $B$ that are connected to all the vertices to $A$, then in the new graph $G'$, we have: $$\left| S \right| \leq \left| N(S) \right| +k=\left| N_{G'}(S) \right| ,\quad \forall S\subseteq A$$By Hall, we have a matching $M$ covering $A$ where at least $\left| A \right|-k$ must be edges of $G$.
+> 2. If $G$ is $k$-regular, $\left| A \right|=\left| B \right|$ as the total number of edges is $k\left| A \right|=k\left| B \right|$. Hence, it suffices to show that there exists a matching $M$ covering $A$. For every $S\subseteq A$, we have that there are $k\left| S \right|$ edges joining $S$ to $N(S)$ and these are from the $k\left| N(S) \right|$ edges incident to $N(S)$. Hence, $$k\left|  S\right|\leq k\left| N(S) \right| $$Therefore, we have the statement by Hall.
+
+---
+
 > [!lemma] Theorem 3 (König)
 > Let $H$ be a [[Graph|bipartite graph]]. Then, 
 > 1. $\nu(H)=\tau(H)$
 
 ^c36b60
+
 
 ---
 ##### Examples
