@@ -64,6 +64,21 @@
 
 ^eac393
 
+---
+> [!lemma] Theorem 3 (Brooks 1941)
+> Let $G$ be a graph.
+> 1. If $G$ does not contain $K_{k+1}$ where $\Delta(G)\leq k$ for $k\geq 3$, $G$ is $k$-colorable.
+> 2. If $G$ is connected but not a clique or an odd cycle, $\chi(G)\leq \Delta(G)$.
+
+> [!proof]+
+> We have that:
+> 1. Suppose that $G$ is partially colored using $\leq k$ colors. Let $P:=v_{1},\dots,v_{j}$ be a yet uncolored path in $G$. Then, we may color the vertices consecutively from $v_{1}$ to $v_{j-1}$. At the moment of coloring $v_{i}$, as $v_{i+1}$ is not yet colored we have that $v_{i}$ has at most $d(v_{i})-1\leq k-1$ colored neighbors. So this procedure, $\text{PathColor}(v_{1},\dots,v_{j-1};v_{j})$ can color $v_{1},\dots,v_{j-1}$ in $k$ colors. 
+>    
+>    We now perform an induction over $n$. 
+> 	- If $n\leq k$, the statement holds trivially.
+> 	- For $n>k$, 
+> 		- If $G$ has a vertex $v$ with $d(v)< k$. Then, $G':=G \backslash v$ also doesn't contain $K_{k+1}$ and we have that $G'$ is $k$-colorable. As $d(v)<k$, $G$ is also $k$-colorable.
+> 		- Otherwise, $G$ is $k$-regular. Let $v\in V(G)$. As $K_{k+1}$ is not a subgraph of $G$, there exist $x,y\in N(v)$ s.t. $xy\notin E(G)$. Let $v_{1}:= x$, $v_{2}:=v$, $v_{3}:= y$.  
  
 ---
 > [!lemma] Proposition 1 (Shamir-Spencer, 1987)

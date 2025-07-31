@@ -292,3 +292,20 @@
 
 ---
 ![[Degenerate Graph#^3c0f00]]
+![[Degenerate Graph#^fc6ad2]]
+![[Degenerate Graph#^014b1a|p]]
+
+---
+![[Degenerate Graph#^d1084b]]
+![[Degenerate Graph#^94a402|p]]
+
+---
+![[Degenerate Graph#^8e8dc9]]
+![[Degenerate Graph#^35abc8|p]]
+![[Degenerate Graph#^fde1a9]]
+
+---
+
+
+---
+#### 7.3 Coloring Planar Graphs

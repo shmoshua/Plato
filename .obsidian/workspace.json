@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -344,13 +344,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e8062253689b259f",
+  "active": "6a82c8fa16e72294",
   "lastOpenFiles": [
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/Degenerate Graph.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Graph Theory/Graph Coloring.md",
     "Graph Theory/Matching.md",
     "Graph Theory/Graph.md",
-    "Graph Theory/Degenerate Graph.md",
-    "Graph Theory/Graph Coloring.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Graph Theory/Problem Set 5.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Graph Theory/Planar Graph.md",
@@ -368,7 +369,6 @@
     "Graph Theory/k-Connected Graph.md",
     "Graph Theory/Hamiltonian Path.md",
     "Topology/Algebraic Topology/Fundamental Class.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Graph Theory/Eulerian Trail.md",
     "Topology/Algebraic Topology/Cup Product.md",
     "Topology/Algebraic Topology/Cap Product.md",
