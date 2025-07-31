@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Planar Graph.md",
+                "file": "Courses/Graph Theory/Problem Set 5.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Planar Graph"
+              "title": "Problem Set 5"
             }
           },
           {
@@ -344,12 +344,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6a82c8fa16e72294",
+  "active": "8207292bb85f5852",
   "lastOpenFiles": [
+    "Graph Theory/Planar Graph.md",
+    "Courses/Graph Theory/Problem Set 5.md",
     "Courses/Graph Theory/Problem Set 4.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Graph.md",
-    "Graph Theory/Planar Graph.md",
     "Courses/Graph Theory/Problem Set 3.md",
     "Courses/Graph Theory/Problem Set 2.md",
     "Graph Theory/Matching.md",
@@ -371,7 +372,6 @@
     "Topology/Algebraic Topology/Singular Cohomology.md",
     "Topology/Algebraic Topology/Tor.md",
     "Algebra/Module.md",
-    "Topology/Lift.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
