@@ -323,3 +323,17 @@
 ---
 
 #### 7.4 The Art Gallery Theorem
+![[Planar Graph#^85aaad]]
+![[Planar Graph#^41a1fc|p]]
+
+---
+![[Planar Graph#^53547d]]
+![[Planar Graph#^c8dc3b|p]]
+
+---
+#### 7.5 Gallai-Roy Theorem
+![[Graph Coloring#^a4803a]]
+![[Graph Coloring#^3f1e51|p]]
+
+---
+### 8. More Coloring Results

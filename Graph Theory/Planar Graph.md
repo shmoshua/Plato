@@ -59,6 +59,8 @@
 > [!lemma] Theorem 1
 > Every polygon $P$ has a triangulation.
 
+^85aaad
+
 > [!proof]-
 > We show this via induction on the number of points $n$.
 > 1. if $n=3$, then $P$ is a triangle.
@@ -66,13 +68,25 @@
 > 	1. If the triangle $xyz$ does not contain $P$ besides $xy$ and $yz$, then $xz$ splits $P$ into a triangle and a polygon with $n-1$ points. The rest follows by induction. 
 > 	2. If the triangle $xyz$ does cross $P\cap \triangle xyz$ besides at $xy$ and $yz$, let $w$ be the point on $P$ not on $xy$ or $yz$ s.t. $d(w,xz)$ is the largest. Then, by definition $yw$ splits the polygon into two polygons of fewer points. We can conclude using induction.
 
+^41a1fc
+
 ---
 > [!lemma] Theorem 2 (Art Gallery Theorem)
 > Let $P$ be a polygon on $n$ points. Then,
 > 1. there exist $\left\lfloor n / 3\right\rfloor$ points $x_{1},\dots,x_{\ell}$ inside the polygon s.t. for every $p$ inside the polygon there exists $x_{i}$ with $px_{i}\subseteq P^\circ$.
 
-> [!proof]+
+^53547d
+
+> [!proof]-
+> From Theorem 1, we know that $P$ has a triangulation. Take this as a plane graph of a planar graph $G$. We claim that this graph is $3$-colorable.
 > 
+> For $n=3$, there is nothing to prove. For $n\geq 4$, pick two vertices $u,v$ that are connected by a diagonal. Then, we can color each subgraph split by the diagonal where we fix $c(u)=1$ and $c(v)=2$. This gives us a $3$-coloring of the whole graph via induction.
+> 
+> Now, as there are $n$ vertices, at least one color class has at most $\left\lfloor n /3\right\rfloor$ vertices. Let these be the points $x_{1},\dots,x_{\ell}$. As every triangle has a vertex of this color, every triangle is covered and so is the whole polygon.
+
+^c8dc3b
+
+ 
 ---
 > [!lemma] Theorem 1 (Ajtai-Chvátal-Newborn-Szemerédi, Leighton)
 > For any simple graph $G=(V,E)$:

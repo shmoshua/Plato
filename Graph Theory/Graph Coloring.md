@@ -95,6 +95,27 @@
 
 ^a331ec
 
+---
+> [!lemma] Theorem 4 (Gallai-Roy Theorem)
+> Let $G$ be an undirected graph.
+> 1. for any orientation $D$ of $G$, $\chi(G)\leq \ell(D)+1$ where $\ell (D)$ is the longest path length in $D$.
+> 2. there exists an orientation $D^{*}$ s.t. $\chi(G)=\ell(D^{*})+1$.
+
+^a4803a
+
+> [!proof]-
+> We have:
+> 1. Let $D$ be an orientation of $G$. Let $D'$ be a maximal acyclic subdigraph of $D$ on the same vertex set, i.e. adding any additional edge from $D$ to $D'$ would create a directed cycle, which we can construct from the empty digraph by adding edges one by one. 
+>    
+>    For each vertex $v\in V(G)$, we color $v$ s.t. $c(v):=1\ +$ the length of the longest directed path in $D'$ that ends in $v$. As $D'$ is acyclic, for every $u\to v$, the longest path in $D'$ ending in $u$ cannot contain $v$. Therefore, we have that $f(v)>f(u)$. In other words, $f$ strictly increases along each path in $D'$. We have that $c$ is a $1+\ell(D')$. 
+>    
+>    We now show that $c$ is proper. For $u\to v$ in $D'$ we have that $c(u)\neq c(v)$ from above. For $u\to v\in D$ that is not in $D'$, we have that addition of $u\to v$ creates a directed cycle. Hence, there is a directed path in $D'$ from $v$ to $u$. Hence, $c(v)\neq c(u)$. We conclude by pointing that $\ell(D')\leq \ell(D)$. 
+> 2. Let $c$ be a proper $\chi(G)$-coloring of $G$. For each edge $uv\in E(G)$, we set $u\to v$ in $D^{*}$ if and only if $c(u)<c(v)$. Since $c$ is proper, this defines an orientation. Since the labels strictly increase for every path in $D^{*}$ and we have at most $\chi(G)$ labels, we have that $\ell(D^{*})\leq \chi(G)-1$. This proves the statement with 1.
+>    
+
+^3f1e51
+
+ 
  
 ---
 > [!lemma] Proposition 1 (Shamir-Spencer, 1987)
