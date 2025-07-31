@@ -64,8 +64,7 @@
               "title": "Singular Homology"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -198,8 +197,7 @@
               "title": "Tor"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -344,12 +342,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6a82c8fa16e72294",
+  "active": "8a50245839ec6204",
   "lastOpenFiles": [
+    "Graph Theory/Graph Coloring.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Degenerate Graph.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Graph Theory/Graph Coloring.md",
     "Graph Theory/Matching.md",
     "Graph Theory/Graph.md",
     "Courses/Graph Theory/Problem Set 5.md",

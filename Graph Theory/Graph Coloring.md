@@ -70,7 +70,9 @@
 > 1. If $G$ does not contain $K_{k+1}$ where $\Delta(G)\leq k$ for $k\geq 3$, $G$ is $k$-colorable.
 > 2. If $G$ is connected but not a clique or an odd cycle, $\chi(G)\leq \Delta(G)$.
 
-> [!proof]+
+^d683c4
+
+> [!proof]-
 > We have that:
 > 1. Suppose that $G$ is partially colored using $\leq k$ colors. Let $P:=v_{1},\dots,v_{j}$ be a yet uncolored path in $G$. Then, we may color the vertices consecutively from $v_{1}$ to $v_{j-1}$. At the moment of coloring $v_{i}$, as $v_{i+1}$ is not yet colored we have that $v_{i}$ has at most $d(v_{i})-1\leq k-1$ colored neighbors. So this procedure, $\text{PathColor}(v_{1},\dots,v_{j-1};v_{j})$ can color $v_{1},\dots,v_{j-1}$ in $k$ colors. 
 >    
@@ -78,7 +80,21 @@
 > 	- If $n\leq k$, the statement holds trivially.
 > 	- For $n>k$, 
 > 		- If $G$ has a vertex $v$ with $d(v)< k$. Then, $G':=G \backslash v$ also doesn't contain $K_{k+1}$ and we have that $G'$ is $k$-colorable. As $d(v)<k$, $G$ is also $k$-colorable.
-> 		- Otherwise, $G$ is $k$-regular. Let $v\in V(G)$. As $K_{k+1}$ is not a subgraph of $G$, there exist $x,y\in N(v)$ s.t. $xy\notin E(G)$. Let $v_{1}:= x$, $v_{2}:=v$, $v_{3}:= y$.  
+> 		- Otherwise, $G$ is $k$-regular. Let $v\in V(G)$. As $K_{k+1}$ is not a subgraph of $G$, there exist $x,y\in N(v)$ s.t. $xy\notin E(G)$. Let $v_{1}:= x$, $v_{2}:=v$, $v_{3}:= y$. Let $P:=v_{1}v_{2}v_{3}\dots v_{r}$ be a maximal path, i.e. $N(v_{r})\subseteq P$.
+> 			1. If $r=n$, then $P$ contains all the vertices of $G$. Let $v_{j}$ be a neighbor of $v_{2}$ that is different from $v_{1}$ and $v_{3}$, which exists as $k\geq 3$. Then, 
+> 				1. color $v_{1},v_{3}$ with the same color.
+> 				2. $\text{PathColor}(v_{4},\dots,v_{j-1};v_{j})$
+> 				3. $\text{PathColor}(v_{n},v_{n-1},\dots,v_{j};v_{2})$
+> 				4. color $v_{2}$ which is possible as $c(v_{1})=c(v_{3})$.
+> 				
+> 				This is a $k$-coloring of $G$.
+> 			2. If $r<n$, let $v_{j}$ be the neighbor of $v_{r}$ with the smallest index. So $C=v_{j}v_{j+1}\dots v_{r}$ is a cycle in $G$. Consider $G':= G \backslash V(C)$ which can be colored by $k$ colors by induction hypothesis. If there is no edge between $G'$ and $C$, we are done by applying the induction hypothesis to $C$ again. Otherwise, let $v_{\ell}$ be the vertex with the largest index that has a neighbor $u$ in $G'$. Then, by definition $N(v_{r})\subseteq V(C)$, hence $\ell<r$. As $v_{\ell+1}$ does not have a neighbor in $G'$, we may color $c(v_{\ell+1}):=c(u)$. Now, apply $\text{PathColor}(v_{\ell+2},\dots,v_{r},v_{j},\dots,v_{\ell-1};v_{\ell})$. 
+> 			   
+> 			   Finally, we can color $v_{\ell}$ which is possible as $c(u)=c(v_{\ell+1})$.
+> 2. If $\Delta(G)=1$, then the graph can be a single edge, which is a clique. If $\Delta(G)=2$, then $G$ is a path or an even cycle, both of which are $2$-colorable. For $\Delta(G)=k\geq 3$, as $G$ is not a clique, $G$ cannot contain $K_{k+1}$. Therefore by 1, $G$ is $k$-colorable. 
+
+^a331ec
+
  
 ---
 > [!lemma] Proposition 1 (Shamir-Spencer, 1987)
