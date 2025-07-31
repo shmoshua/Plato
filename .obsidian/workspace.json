@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -330,11 +330,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6a82c8fa16e72294",
+  "active": "83ca64246e25a9b6",
   "lastOpenFiles": [
-    "Graph Theory/Graph Coloring.md",
-    "Graph Theory/Planar Graph.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/Planar Graph.md",
+    "Graph Theory/Graph Coloring.md",
     "Graph Theory/Degenerate Graph.md",
     "Graph Theory/Matching.md",
     "Topology/Algebraic Topology/Singular Homology.md",

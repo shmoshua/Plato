@@ -316,4 +316,10 @@
 ![[Degenerate Graph#^b5e633]]
 
 ---
+![[Planar Graph#^cae3cc]]
+![[Planar Graph#^daeea0|p]]
+![[Planar Graph#^f3acf4]]
 
+---
+
+#### 7.4 The Art Gallery Theorem

@@ -38,15 +38,41 @@
 > [!lemma] Theorem 2 (Heawood 1890, Five Color Theorem)
 > Every planar graph is $5$-colorable.
 
-> [!proof]+
+^cae3cc
+
+> [!proof]-
 > We show this via induction on $n$. 
 > 1. If $n\leq 5$, the statement is obvious.
 > 2. For $n>5$, let $v$ be a vertex with $d(v)\leq 5$ which exists as $\text{dg}(G)\leq 5$. Let $f$ be a proper $5$-coloring of $G \backslash v$ given by the induction. 
 > 	1. if $f$ uses $\leq 4$ colors on $N(v)$, $f$ can be extended to a $5$-coloring on $G$.
-> 	2. Suppose $f$ uses $5$ colors on $N(v)$. Fix a planar embedding of $G$ where the neighbor of $v$ are colored by $f$
-> 	3. If $d(v)<5$, then $G \backslash v$ is $5$-colorable by induction and we can extend this to a proper $5$-coloring for $G$.
-> 	4. If $d(v)=5$, 
+> 	2. Suppose $f$ uses $5$ colors on $N(v)$. Fix a planar embedding of $G$ where the neighbor of $v$ are colored by $f$ with $1,\dots,5$ in clockwise order. Let $v_{1},\dots,v_{5}$ be the corresponding neighbor vertices.
+> 	   
+> 	   For $1\leq i< j\leq 5$, let $G_{ij}$ be the subgraph of $G \backslash v$ induced by the colors $i$ and $j$. Switching the two colors in any connected component of $G_{ij}$ again gives us a proper $5$-coloring of $G \backslash v$. 
+> 		1. If there exists $i\neq j$ s.t. $v_{i},v_{j}$ are in different components in $G_{ij}$, then we can switch the two colors in the component with $v_{i}$ and $v_{i}$ will now be colored with $j$. This allows us to color $v$ with $i$. 
+> 		2. Otherwise, for all pair $i\neq j$, $v_{i},v_{j}$ are in the same component in $G_{ij}$. Let $P_{ij}$ be a path from $v_{i}$ to $v_{j}$ in $G_{ij}$. Then, $P_{ij}$ is colored alternatively by $i$ and $j$. Then, we have that in the plane graph $P_{13}$ and $P_{24}$ should intersect. As $G$ is planar, they intersect in a node which is a contradiction as $P_{13}$ is colored with $1,3$ and $P_{24}$ is colored with $2,4$. 
 
+^daeea0
+
+- **Remark (Appel-Haken 1977, Four color theorem)**: Every planar graph is $4$-colorable. ^f3acf4
+---
+##### Polygons
+> [!lemma] Theorem 1
+> Every polygon $P$ has a triangulation.
+
+> [!proof]-
+> We show this via induction on the number of points $n$.
+> 1. if $n=3$, then $P$ is a triangle.
+> 2. if $n\geq 4$, let $x,y,z$ be three consecutive vertices of $P$ s.t. the angle $xyz$ is $\leq 180$ degress in the interior. 
+> 	1. If the triangle $xyz$ does not contain $P$ besides $xy$ and $yz$, then $xz$ splits $P$ into a triangle and a polygon with $n-1$ points. The rest follows by induction. 
+> 	2. If the triangle $xyz$ does cross $P\cap \triangle xyz$ besides at $xy$ and $yz$, let $w$ be the point on $P$ not on $xy$ or $yz$ s.t. $d(w,xz)$ is the largest. Then, by definition $yw$ splits the polygon into two polygons of fewer points. We can conclude using induction.
+
+---
+> [!lemma] Theorem 2 (Art Gallery Theorem)
+> Let $P$ be a polygon on $n$ points. Then,
+> 1. there exist $\left\lfloor n / 3\right\rfloor$ points $x_{1},\dots,x_{\ell}$ inside the polygon s.t. for every $p$ inside the polygon there exists $x_{i}$ with $px_{i}\subseteq P^\circ$.
+
+> [!proof]+
+> 
 ---
 > [!lemma] Theorem 1 (Ajtai-Chvátal-Newborn-Szemerédi, Leighton)
 > For any simple graph $G=(V,E)$:
