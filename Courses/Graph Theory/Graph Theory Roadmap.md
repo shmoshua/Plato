@@ -310,6 +310,10 @@
 
 ---
 
+#### 7.3 Coloring Planar Graphs
+![[Degenerate Graph#^03cc32]]
+![[Degenerate Graph#^d44b60|p]]
+![[Degenerate Graph#^b5e633]]
 
 ---
-#### 7.3 Coloring Planar Graphs
+

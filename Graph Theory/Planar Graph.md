@@ -29,6 +29,25 @@
 
 - **Corollary**: A bipartite planar graph with $n\geq 3$ nodes has at most $2n-4$ edges. ^ec1ae0
 ---
+![[Degenerate Graph#^03cc32]]
+![[Degenerate Graph#^d44b60|p]]
+![[Degenerate Graph#^b5e633]]
+
+
+---
+> [!lemma] Theorem 2 (Heawood 1890, Five Color Theorem)
+> Every planar graph is $5$-colorable.
+
+> [!proof]+
+> We show this via induction on $n$. 
+> 1. If $n\leq 5$, the statement is obvious.
+> 2. For $n>5$, let $v$ be a vertex with $d(v)\leq 5$ which exists as $\text{dg}(G)\leq 5$. Let $f$ be a proper $5$-coloring of $G \backslash v$ given by the induction. 
+> 	1. if $f$ uses $\leq 4$ colors on $N(v)$, $f$ can be extended to a $5$-coloring on $G$.
+> 	2. Suppose $f$ uses $5$ colors on $N(v)$. Fix a planar embedding of $G$ where the neighbor of $v$ are colored by $f$
+> 	3. If $d(v)<5$, then $G \backslash v$ is $5$-colorable by induction and we can extend this to a proper $5$-coloring for $G$.
+> 	4. If $d(v)=5$, 
+
+---
 > [!lemma] Theorem 1 (Ajtai-Chvátal-Newborn-Szemerédi, Leighton)
 > For any simple graph $G=(V,E)$:
 > 1. $\text{cr}(G)\geq m-3n+6$.

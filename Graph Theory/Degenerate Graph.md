@@ -43,3 +43,19 @@
 
 - **Corollary**: $\chi(G)\leq \Delta(G)+1$. ^fde1a9
 ---
+##### Examples
+> [!h] Example 1
+> Let $G$ be a planar graph. Then, 
+> 1. $\text{dg}(G)\leq 5$.
+
+^03cc32
+
+> [!proof]-
+> We have that:
+> $$\sum_{v\in V(G)}^{}d(v)=2e(G)\leq 6n-12< 6n$$Hence, there exists a vertex of degree $\leq5$. Further, every subgraph of a planar graph is also planar. Therefore, $G$ is $5$-degenerate.
+
+^d44b60
+
+- **Corollary**: Every planar graph is $6$-colorable. ^b5e633
+
+---
