@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Graph Theory/Matching.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph"
+              "title": "Matching"
             }
           },
           {
@@ -344,17 +344,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8207292bb85f5852",
+  "active": "e8062253689b259f",
   "lastOpenFiles": [
     "Graph Theory/Matching.md",
-    "Graph Theory/Graph Coloring.md",
+    "Graph Theory/Graph.md",
     "Graph Theory/Degenerate Graph.md",
+    "Graph Theory/Graph Coloring.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Graph Theory/Problem Set 5.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Graph Theory/Planar Graph.md",
     "Courses/Graph Theory/Problem Set 4.md",
-    "Graph Theory/Graph.md",
     "Courses/Graph Theory/Problem Set 3.md",
     "Courses/Graph Theory/Problem Set 2.md",
     "Courses/Graph Theory/Problem Set 1.md",
