@@ -91,6 +91,8 @@
 > 1. $G$ has a perfect matching. 
 > 2. $q(G \backslash S)\leq \left| S \right|$ for all $S\subseteq V$ where $q(G)$ denotes the number of odd components of $G$. 
 
+^00d539
+
 > [!proof]-
 > We have that:
 > 1. (1=>2): If $G$ has a perfect matching, then for every $S\subseteq V$, every odd component has to have a matching edge to $S$. Further, such edges cover different node in $S$. Hence, $q(G \backslash S)\leq \left| S \right|$ holds.
@@ -111,19 +113,27 @@
 >      - If $C$ doesn't contain $wy$, then taking $(M_{1} \backslash C)\cup (M_{2}\cap C)$ will give us a desired matching in $M_{1}\cup M_{2}$.
 >      - If $C$ contains $wy$, we can use either $xy$ or $zy$ to construct a perfect matching for all vertices in $C$. This gives us a perfect matching.
 
+^9c3dcb
+
 ---
 > [!lemma] Corollary 7 (Petersen 1891)
 > Every $3$-regular graph with no cut-edge has a perfect matching.
+
+^267005
 
 > [!proof]-
 > Let $S\subseteq V(G)$. Let $H$ be a component of $G \backslash S$ with $\left| H \right|$ odd. Then, the number of edges between $S$ and $H$ cannot be $1$ as there is no cut edge. It also cannot be even as $H$ has odd number of vertices and in this case $3\left| H \right|-\text{even}=\text{odd}=2e_{G}(H)$. Therefore, there are at least three edges from $H$ to $S$. 
 > 
 > Since $G$ is $3$-regular, every vertex in $S$ is incident to at most $3$ edges between $S$ and $G \backslash S$. Therefore, $$3q(G \backslash S)\leq 3\left| S \right| $$which gives the Tutte condition.
 
+^0a251c
+
 ---
 > [!lemma] Corollary 8 (Berge 1958)
 > For a graph $G$, 
 > 1. $2\nu(G)\geq n+\min_{S\subseteq V}(\left| S \right|-q(G \backslash S))$
+
+^6fe048
 
 > [!proof]-
 > Let $d(S):=q(G \backslash S)-\left| S \right|$ and let $d:=\max_{S\subseteq V}d(S)$. For $S\subseteq V$, we have that at most $\left| S \right|$ edges can match vertices from $S$ to odd components of $G \backslash S$, so every matching has at least $d(S)$ unmatched vertices. Therefore, no matching can have more than $n-d$ matched vertices. 
@@ -131,6 +141,8 @@
 > By considering $S=\varnothing$, we have that $d\geq 0$. Let $G'$ be obtained by adding a set $D$ of $d$ vertices to $G$, each of which are adjacent to every other vertex. Now, notice that for any $S\subseteq V$ $$n\equiv_{2}\left| S \right| +\left| G \backslash S \right| \equiv_{2}\left| S \right| +q(G \backslash S)\equiv_{2} d(S)$$
 > 
 > Since $d(S)$ has the same parity as $n$ for all $S$, we know that $\left| G' \right|$ is even. For $\varnothing$, $q(G')=0$ as $G'$ is even and connected via $D$. If $S'\subseteq V(G')$ is non-empty but doesn't contain all of $D$, then $G' \backslash S'$ has only one component and $1\leq \left| S' \right|$. Finally, if $D\subseteq S'$, then for $S:= S' \backslash D$, we have that $G' \backslash S'=G \backslash S$ and: $$q(G' \backslash S')=q(G \backslash S)= \left| S \right|+d(S)\leq \left| S \right| +d=\left| S' \right|  $$Hence, $G'$ satisfies the Tutte condition and there exists a perfect matching $M$ for $G'$. By deleting the vertices that match $D$, we have a matching that deletes at most $d$ vertices of $G$. 
+
+^af47cc
 
 ---
 ##### Matching Algorithms

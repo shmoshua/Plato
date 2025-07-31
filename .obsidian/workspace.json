@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Matching.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Matching"
+              "title": "Graph Coloring"
             }
           },
           {
@@ -64,8 +64,7 @@
               "title": "Singular Homology"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -92,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 5.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 5"
+              "title": "Graph Coloring"
             }
           },
           {
@@ -198,8 +197,7 @@
               "title": "Tor"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -344,16 +342,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8207292bb85f5852",
+  "active": "8a50245839ec6204",
   "lastOpenFiles": [
-    "Graph Theory/Planar Graph.md",
-    "Courses/Graph Theory/Problem Set 5.md",
-    "Courses/Graph Theory/Problem Set 4.md",
+    "Graph Theory/Graph Coloring.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/Matching.md",
+    "Courses/Graph Theory/Problem Set 5.md",
+    "Topology/Algebraic Topology/Euler Characteristic.md",
+    "Graph Theory/Planar Graph.md",
+    "Courses/Graph Theory/Problem Set 4.md",
     "Graph Theory/Graph.md",
     "Courses/Graph Theory/Problem Set 3.md",
     "Courses/Graph Theory/Problem Set 2.md",
-    "Graph Theory/Matching.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Graph Theory/Vertex Cover.md",
     "Differential Geometry/Orientable Double Cover.md",
@@ -370,8 +370,6 @@
     "Topology/Algebraic Topology/Cup Product.md",
     "Topology/Algebraic Topology/Cap Product.md",
     "Topology/Algebraic Topology/Singular Cohomology.md",
-    "Topology/Algebraic Topology/Tor.md",
-    "Algebra/Module.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",

@@ -2,7 +2,10 @@
 > [!definition]
 > Let $G$ be a [[graph]]. 
 > 1. $G$ is ***planar*** if it has a drawing without crossings.
-- **Related definition**: A ***plane graph*** is a particular drawing of a planar graph with no crossings. 
+
+^49eb13
+
+- **Related definition**: A ***plane graph*** is a particular drawing of a planar graph with no crossings.  ^06ee29
 - **Related definition**: For $G=(V,E)$, $\text{cr}(G)$ is the minimum number of crossing pairs of edges. ^98b3fd
 ---
 ##### Properties
@@ -24,7 +27,7 @@
 
 ^227361
 
-- **Corollary**: A bipartite planar graph with $n\geq 3$ nodes has at most $2n-4$ edges.
+- **Corollary**: A bipartite planar graph with $n\geq 3$ nodes has at most $2n-4$ edges. ^ec1ae0
 ---
 > [!lemma] Theorem 1 (Ajtai-Chvátal-Newborn-Szemerédi, Leighton)
 > For any simple graph $G=(V,E)$:

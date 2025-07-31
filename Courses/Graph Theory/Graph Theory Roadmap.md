@@ -245,3 +245,49 @@
 
 ---
 #### 5.3 Tutte's Theorem
+![[Matching#^00d539]]
+![[Matching#^9c3dcb|p]]
+
+---
+![[Matching#^267005]]
+![[Matching#^0a251c|p]]
+
+---
+![[Matching#^6fe048]]
+![[Matching#^af47cc|p]]
+
+---
+### 6. Planar Graphs
+![[Planar Graph#^49eb13]]
+![[Planar Graph#^06ee29]]
+
+---
+![[Euler Characteristic#^43d133]]
+![[Euler Characteristic#^020d4e|p]]
+
+---
+![[Planar Graph#^f8d45e]]
+![[Planar Graph#^227361|p]]
+![[Planar Graph#^ec1ae0]]
+
+---
+### 7. Graph Colorings
+#### 7.1 Vertex Colorings
+![[Graph Coloring#^53c7b1]]
+![[Graph Coloring#^ffa3f0]]
+![[Graph Coloring#^ed777c|p]]
+![[Graph Coloring#^e0f661|p]]
+
+---
+![[Graph Coloring#^abb949]]
+
+---
+![[Graph Coloring#^8d0143]]
+![[Graph Coloring#^762596|p]]
+
+---
+#### 7.2 Greedy Coloring
+![[Graph Coloring#^3e4dc5]]
+![[Graph Coloring#^eac393|p]]
+
+---

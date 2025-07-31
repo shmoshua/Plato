@@ -4,35 +4,43 @@
 > Let $G=(V,E)$ be an [[Graph|undirected graph]]. 
 > 1. A ***proper $k$-vertex coloring*** is a map $c:V\to[k]$ s.t. for every $\{ u,v \}\in E$: $c_{u}\neq c_{v}$.
 > 2. A ***proper $k$-edge coloring*** is a map $c:E\to[k]$ s.t. for every $e,f\in E$ if $e\cap f\neq \varnothing$ then $c_{e}\neq c_{f}$.
-- **Remark**: For a finite graph on $n$ nodes, there exists a proper vertex $n$-coloring.
-- **Related definition**: The ***chromatic number*** $\chi(G)$ is given by: $$\chi(G):=\min\{  k\geq 1: \exists \text{proper vertex }k\text{-coloring on }G \}$$
+
+^53c7b1
+
+- **Remark**: For a finite graph on $n$ nodes, there exists a proper vertex $n$-coloring. ^ffa3f0
+- **Related definition**: The ***chromatic number*** $\chi(G)$ is given by: $$\chi(G):=\min\{  k\geq 1: \exists \text{proper vertex }k\text{-coloring on }G \}$$If $\chi(G)=k$ then $G$ is ***$k$-chromatic***.  ^ed777c
+- **Related definition**: A graph $G$ is ***$k$-critical*** if $\chi(G)=k$ but $\chi(H)<k$ for all proper subgraph $H\leq G$. ^e0f661
 ---
 ##### Properties
 > [!lemma] Proposition 1 (Basic Properties of Chromatic Number)
 > Let $G$ be a graph on $n$ vertices. Then, 
 > 1. $\chi(H)\leq \chi(G)$ for all $H\leq G$.
 > 2. $\chi(G)\geq \omega(G)$ where $\omega(G)$ is the [[Independence and Clique|clique number]].
-> 3. $\chi(G)\geq \left| V(G) \right| / \alpha(G)$ where $\omega(G)$ is the [[Independence and Clique|independence number]].
+> 3. $\chi(G)\geq n / \alpha(G)$ where $\alpha(G)$ is the [[Independence and Clique|independence number]].
 > 4. for any $U\subseteq V(G)$, $\chi(G)\leq \chi(G[U])+\chi(G[V \backslash U])$.
-> 5. $\chi(G_{1}\cup G_{2})\leq \chi(G_{1})\chi(G_{2})$.
+> 5. $\chi(G_{1}\cup G_{2})\leq \chi(G_{1})\chi(G_{2})$ where $V(G_{1})=V(G_{2})$.
 > 6. $\chi(G)\chi(\overline{G})\geq n$.
 > 7. $\chi(G)+\chi(\overline{G})\leq n+1$.
 > 8. $\chi(G)\leq \Delta(G)+1$
+
+^8d0143
 
 > [!proof]-
 > We have:
 > 1. Any proper coloring for $G$ restricted to $V(H)$ is a proper coloring on $H$.
 > 2. Otherwise we can color a $k$-clique with less than $k$ colors, which is a contradiction. 
-> 3. Let $c$ be a proper $\chi(G)$-coloring. Then, every color induced an independent set. Hence, there exists an independent set of size larger than $\left| V(G) \right| / \chi(G)$. This shows the statement.
+> 3. Let $c$ be a proper $\chi(G)$-coloring. Then, every color induced an independent set. Hence, there exists an independent set of size as least $n/ \chi(G)$. This shows the statement.
 > 4. For a proper $\chi(G[U])$ coloring $c$ on $G[U]$ and proper $\chi(G[V \backslash U])$ coloring $c'$ on $G[V \backslash U]$. Then, $c \oplus c'$ defines a proper coloring on $G$.
 > 5. Let $c_{1},c_{2}$ be the proper coloring for $G_{1},G_{2}$ of chromatic number. Let $c:= c_{1}\times c_{2}$. Then, for any $uv\in G_{1}\cup G_{2}$, $(c_{1}(u),c_{2}(u))\neq(c_{1}(v),c_{2}(v))$. 
 > 6. From 5.
 > 7. We show by induction over $n$. 
 > 	1. if $n=1$, then $\chi(G)+\chi(\overline{G})=2=n+1$.
 > 	2. if $n\geq 2$, take an arbitrary vertex $v\in G$ and consider $G':= G \backslash v$. Then, $$\chi(G')+\chi(\overline{G'})\leq n$$Let $k:= \chi(G')$ and $\ell:= n-k\geq \chi(\overline{G'})$. 
-> 		1. if $d(v)\leq k-1$, then $G$ is also $k$ colorable and $\chi(G)\leq k$. However, we have that $\chi(G')\leq \chi(\overline{G'})+1\leq n-k+1$. Hence, $\chi(G)+\chi(\overline{G})\leq n+1$.
-> 		2. if $d(v)\geq k$. Then, $d(v)+d_{\overline{G}}(v)=n-1$ and we have that $d_{\overline{G}}(v)\leq n-k-1\leq \ell-1$. Hence, analogously as above, we have $\chi(\overline{G})\leq \ell$ and $\chi(G)\leq \chi(G')+1\leq k+1$. This shows that $\chi(G)+\chi(\overline{G})\leq n+1$. 
+> 		1. if $d(v)\leq k-1$, then $G$ is also $k$ colorable and $\chi(G)\leq k$. However, we have that $\chi(\overline{G})\leq \chi(\overline{G'})+1\leq n-k+1$. Hence, $\chi(G)+\chi(\overline{G})\leq n+1$.
+> 		2. if $d(v)\geq k$. Then, from $d(v)+d_{\overline{G}}(v)=n-1$ we have that $d_{\overline{G}}(v)\leq n-k-1= \ell-1$. Hence, analogously as above, we have $\chi(\overline{G})\leq \ell$ and $\chi(G)\leq \chi(G')+1\leq k+1$. This shows that $\chi(G)+\chi(\overline{G})\leq n+1$. 
 > 8. Analogous to the proof in $8$. 
+
+^762596
 
 ---
 > [!lemma] Proposition 2 (Greedy Coloring)
@@ -40,13 +48,23 @@
 > \begin{algorithm} \caption{Greedy$(G)$}\begin{algorithmic}
 > \State Let $v_{1},\dots,v_{n}$ be an ordering of $V(G)$.
 > \For{$i\in[n]$}
-> \State $c(v_{i})\gets \min\{ i\in[n]: i\notin  N(v_{i})\cap \{ v_{1},\dots,v_{i-1} \} \}$
+> \State $c(v_{i})\gets \min\{ i\in[n]: i\notin  \{ c(v_{j}) \}_{j<i, v_{j}\in N(v_{i})}\}$
 \EndFor
 > \Return $c$
 \end{algorithmic}
 \end{algorithm}
 > ```
+> 
+> gives us a proper coloring of $G$.
 
+^3e4dc5
+
+> [!proof]-
+> For any edge $e=v_{i}v_{j}$ assume that $i<j$. Then, by definition $c(v_{j})=c(v_{i})$.
+
+^eac393
+
+ 
 ---
 > [!lemma] Proposition 1 (Shamir-Spencer, 1987)
 > Let $G\sim G(n,p)$, i.e. the [[Erdös-Rényi Graph]]. For any $\lambda>0$, $$\mathbb{P}(\left| \chi(G)-\mathbb{E}[\chi(G)] \right| \geq \lambda)\leq 2 \exp \left( -2\lambda^{2} / n \right) $$
@@ -154,3 +172,10 @@
 
 ---
 ##### Examples
+> [!h] Example 1
+> We have that: 
+> 1. $\chi(K_{n})=n$.
+> 2. $\chi(C_{2k})=2$.
+> 3. $\chi(C_{2k+1})=3$.
+
+^abb949

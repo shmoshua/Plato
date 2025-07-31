@@ -25,7 +25,7 @@
 ---
 > [!lemma] Theorem 2 (Euler)
 > Given any finite CW-complex structure on $S^{2}$, 
->  $$\left| I_{2} \right| -\left| I_{1} \right| -\left| I_{0} \right| =2$$
+>  $$\left| I_{2} \right| -\left| I_{1} \right| +\left| I_{0} \right| =2$$
 
 ^43d133
 
