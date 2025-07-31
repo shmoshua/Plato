@@ -291,3 +291,4 @@
 ![[Graph Coloring#^eac393|p]]
 
 ---
+![[Degenerate Graph#^3c0f00]]
