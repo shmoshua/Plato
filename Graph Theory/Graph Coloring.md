@@ -9,6 +9,7 @@
 
 - **Remark**: For a finite graph on $n$ nodes, there exists a proper vertex $n$-coloring. ^ffa3f0
 - **Related definition**: The ***chromatic number*** $\chi(G)$ is given by: $$\chi(G):=\min\{  k\geq 1: \exists \text{proper vertex }k\text{-coloring on }G \}$$If $\chi(G)=k$ then $G$ is ***$k$-chromatic***.  ^ed777c
+- **Related definition**: The ***edge chromatic number*** $\chi'(G)$ is given by: $$\chi'(G):=\min\{  k\geq 1: \exists \text{proper edge }k\text{-coloring on }G \}$$ ^ee3771
 - **Related definition**: A graph $G$ is ***$k$-critical*** if $\chi(G)=k$ but $\chi(H)<k$ for all proper subgraph $H\leq G$. ^e0f661
 ---
 ##### Properties
@@ -209,7 +210,28 @@
 > 
 > We have that $\rho(G)\geq |S_{i}| / \left| V_{i} \right|$ and $\left| V_{i} \right|\geq \left| S_{i} \right| / \rho(G)$. Therefore, $$\left| S_{i+1} \right|\leq \left| S_{i} \right| -\left| V_{i} \right| \leq\left| S_{i} \right| \left( 1-\frac{1}{\rho(G)} \right) $$By induction we have that: $$\left| S_{j} \right| \leq n\left( 1-\frac{1}{\rho(G)} \right) ^j\leq ne^{-j / \rho(G)}$$In other words, $\left| S_{j} \right|=0$ for all $j>\rho(G)\log n$ which proves the statement.
 ---
-###### Edge Coloring
+##### Edge Coloring
+> [!lemma] Proposition 1 (Edge Coloring Properties)
+> Let $G$ be a graph.
+> 1. $\Delta(G)\leq \chi'(G)\leq 2\Delta(G)-1$.
+
+^b7f423
+
+> [!proof]-
+> We have that:
+> 1. The first inequality is obvious by definition. For the second, we have that $L(G)$ has maximum degree at most $2(\Delta(G)-1)$. However, as a vertex coloring in $L(G)$ corresponds to an edge coloring in $L(G)$, we have: $$\chi'(G)=\chi(L(G))\leq \Delta(L(G))+1=2(\Delta(G)-1)+1=2\Delta(G)-1$$
+
+^b563b6
+
+---
+> [!lemma] Theorem 2 (König 1916)
+> Let $G$ be a bipartite multigraph. 
+> 1. $\chi'(G)=\Delta(G)$
+
+> [!proof]+
+> As we have $$0$k\Delta
+> From [[Matching|Corollary 3]], every regular bipartite graph has a perfect matching, even when $G$ is a multigraph. 
+---
 > [!lemma] Theorem 1 (Online Edge Coloring)
 > Consider the following algorithm:
 > ```pseudo

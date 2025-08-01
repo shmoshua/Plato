@@ -5,3 +5,5 @@
 > 1. $\{ e,f \}\in F$ if and only if $e,f$ are adjacent in $E$, i.e. $e\cap f\neq \varnothing$.
 
 ^d19d22
+
+- **Remark**: A proper vertex coloring in $L(G)$ corresponds to a proper edge coloring of $G$. ^fede6a

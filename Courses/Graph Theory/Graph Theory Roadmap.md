@@ -348,3 +348,21 @@
 
 ---
 #### 8.3 Chromatic Number and Clique Minors
+![[Minor#^62cd1d]]
+
+---
+![[Minor#^6747a7]]
+![[Minor#^85861b|p]]
+
+---
+#### 8.4 Edge Colorings
+![[Graph Coloring#^53c7b1]]
+![[Graph Coloring#^ee3771]]
+![[Line Graph#^fede6a|p]]
+
+
+---
+![[Graph Coloring#^b7f423]]
+![[Graph Coloring#^b563b6|p]]
+
+---
