@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "808031414260f14d",
+            "id": "8207292bb85f5852",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,20 +34,6 @@
               },
               "icon": "lucide-file",
               "title": "Graph Coloring"
-            }
-          },
-          {
-            "id": "8207292bb85f5852",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Degenerate Graph.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Degenerate Graph"
             }
           }
         ],
@@ -330,11 +316,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6a82c8fa16e72294",
+  "active": "8207292bb85f5852",
   "lastOpenFiles": [
     "Graph Theory/Matching.md",
     "Graph Theory/Graph Coloring.md",
+    "Graph Theory/Degenerate Graph.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/Planar Graph.md",
     "Graph Theory/Line Graph.md",
     "Graph Theory/Tournament.md",
     "Graph Theory/Vertex Cover.md",
@@ -342,8 +330,6 @@
     "Graph Theory/Minor.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Graph Theory/Girth and Circumference.md",
-    "Graph Theory/Planar Graph.md",
-    "Graph Theory/Degenerate Graph.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Graph Theory/Graph.md",
     "Courses/Graph Theory/Problem Set 5.md",

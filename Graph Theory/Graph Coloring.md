@@ -229,8 +229,10 @@
 > 1. $\chi'(G)=\Delta(G)$
 
 > [!proof]+
-> As we have $$0$k\Delta
-> From [[Matching|Corollary 3]], every regular bipartite graph has a perfect matching, even when $G$ is a multigraph. 
+> From Proposition 1, we have that $\Delta(G)\leq \chi'(G)$. So it suffices to show the other direction. 
+> 
+> Assume $\Delta(G)= k$. From [[Matching|Corollary 3]], every $k$-regular bipartite multigraph $H$ has a perfect matching. By induction, this gives us a proper $k$-edge coloring on $H$. 
+> 
 ---
 > [!lemma] Theorem 1 (Online Edge Coloring)
 > Consider the following algorithm:
