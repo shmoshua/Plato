@@ -342,3 +342,9 @@
 ![[Graph Coloring#^f0afbe|p]]
 
 ---
+#### 8.2 Large Chromatic Number and Large Girth
+![[Girth and Circumference#^4ba9e0]]
+![[Girth and Circumference#^819748|p]]
+
+---
+#### 8.3 Chromatic Number and Clique Minors
