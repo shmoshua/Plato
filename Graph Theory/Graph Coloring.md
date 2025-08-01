@@ -115,7 +115,9 @@
 
 ^3f1e51
 
- 
+---
+> [!lemma] Proposition 5 (Triangle Free Graph with Large Chromatic Number) 
+> Let $G_{k}$ be a triangle-free graph with $\chi(G_{k})=k$. Let $H_{1},\dots,H_{k}$ be $k$ copies of $G_{k}$. 
  
 ---
 > [!lemma] Proposition 1 (Shamir-Spencer, 1987)

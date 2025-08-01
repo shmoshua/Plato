@@ -50,7 +50,8 @@
               "title": "Degenerate Graph"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -91,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Graph Theory/Girth and Circumference.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tournament"
+              "title": "Girth and Circumference"
             }
           },
           {
@@ -183,7 +184,8 @@
               "title": "Tor"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -328,13 +330,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "808031414260f14d",
   "lastOpenFiles": [
-    "Graph Theory/Graph Coloring.md",
-    "Graph Theory/Tournament.md",
-    "Graph Theory/Degenerate Graph.md",
-    "Graph Theory/Planar Graph.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/Graph Coloring.md",
+    "Graph Theory/Degenerate Graph.md",
+    "Graph Theory/Girth and Circumference.md",
+    "Graph Theory/Tournament.md",
+    "Graph Theory/Planar Graph.md",
     "Graph Theory/Matching.md",
     "Topology/Algebraic Topology/Singular Homology.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
@@ -355,7 +358,6 @@
     "Graph Theory/Hamiltonian Path.md",
     "Topology/Algebraic Topology/Fundamental Class.md",
     "Graph Theory/Eulerian Trail.md",
-    "Topology/Algebraic Topology/Cup Product.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
