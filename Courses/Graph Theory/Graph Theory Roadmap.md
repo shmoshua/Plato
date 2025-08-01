@@ -338,3 +338,7 @@
 ---
 ### 8. More Coloring Results
 #### 8.1 Triangle-Free Graph with Large Chromatic Number
+![[Graph Coloring#^5fba0a]]
+![[Graph Coloring#^f0afbe|p]]
+
+---

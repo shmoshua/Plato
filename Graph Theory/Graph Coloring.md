@@ -117,7 +117,20 @@
 
 ---
 > [!lemma] Proposition 5 (Triangle Free Graph with Large Chromatic Number) 
-> Let $G_{k}$ be a triangle-free graph with $\chi(G_{k})=k$. Let $H_{1},\dots,H_{k}$ be $k$ copies of $G_{k}$. 
+> Let $G_{k}$ be a triangle-free graph with $\chi(G_{k})=k$. Let $H_{1},\dots,H_{k}$ be $k$ copies of $G_{k}$. Define: $$G_{k+1}:=H_{1}\sqcup\dots\sqcup H_{k}\sqcup (V(H_{1})\times\dots \times V(H_{k}))$$where $v_{i}(v_{1},\dots,v_{i},\dots,v_{k})\in E$ for all $v_{i}\in H_{i}$. Then, 
+> 1. $G_{k+1}$ is triangle-free and $\chi(G_{k+1})=k+1$.
+
+^5fba0a
+
+> [!proof]-
+> Firsrtly, the disjoint union $H_{1}\cup\dots \cup H_{k}$ introduces no triangles. Further, as there are no edges between $H_{i},H_{j}$ and every node $u\in V(H_{1})\times\dots \times V(H_{k})$ is connected to at most $1$ node from each $H_{i}$, we have that $G_{k+1}$ is triangle free. 
+> 
+> Now, each $H_{i}$ can be colored using $k$ colors, so by coloring the new vertices with a new color, $\chi(G_{k+1})\leq k+1$.
+> 
+> Conversely, assume that there is a proper $k$ coloring of $G_{k+1}$. However, as $\chi(H_{i})=k$ for all $i$, there exists a vertex $v_{i}\in H_{i}$ s.t. $c(v_{i})=i$. Then, $(v_{1},\dots,v_{k})$ must use a new color. This is a contradiction.
+
+^f0afbe
+
  
 ---
 > [!lemma] Proposition 1 (Shamir-Spencer, 1987)

@@ -50,8 +50,7 @@
               "title": "Degenerate Graph"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -184,8 +183,7 @@
               "title": "Tor"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -330,10 +328,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "808031414260f14d",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Graph Coloring.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Degenerate Graph.md",
     "Graph Theory/Girth and Circumference.md",
     "Graph Theory/Tournament.md",
