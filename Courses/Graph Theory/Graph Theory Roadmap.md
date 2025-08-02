@@ -366,3 +366,8 @@
 ![[Graph Coloring#^b563b6|p]]
 
 ---
+![[Graph Coloring#^41f7e8]]
+![[Graph Coloring#^a8a1c7|p]]
+
+---
+

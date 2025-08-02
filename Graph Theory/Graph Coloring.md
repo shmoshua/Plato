@@ -214,6 +214,7 @@
 > [!lemma] Proposition 1 (Edge Coloring Properties)
 > Let $G$ be a graph.
 > 1. $\Delta(G)\leq \chi'(G)\leq 2\Delta(G)-1$.
+> 2. $\Delta(G)\leq \chi'(G)\leq \Delta(G)+1$
 
 ^b7f423
 
@@ -228,11 +229,17 @@
 > Let $G$ be a bipartite multigraph. 
 > 1. $\chi'(G)=\Delta(G)$
 
-> [!proof]+
+^41f7e8
+
+> [!proof]-
 > From Proposition 1, we have that $\Delta(G)\leq \chi'(G)$. So it suffices to show the other direction. 
 > 
-> Assume $\Delta(G)= k$. From [[Matching|Corollary 3]], every $k$-regular bipartite multigraph $H$ has a perfect matching. By induction, this gives us a proper $k$-edge coloring on $H$. 
+> Assume $\Delta(G)= k$. From [[Matching|Corollary 3]], every $k$-regular bipartite multigraph $H$ has a perfect matching. By induction, this gives us a proper $k$-edge coloring on $H$. Hence if we can show that $G$ has a supergraph $H$ that is $k$-regular bipartite, we have the statement as $\chi'(G)\leq \chi'(H)\leq k$.
 > 
+> We construct such a supergraph. If $G$ does not have the same number of vertices in each partite set, add vertices to the smaller set to equalize the sizes. If the resulting $G'$ is not regular, then each partite set has a vertex with degree less than $k$. Add an edge consisting of this pair. Continue adding such edges until the graph becomes regular.
+
+^a8a1c7
+
 ---
 > [!lemma] Theorem 1 (Online Edge Coloring)
 > Consider the following algorithm:
