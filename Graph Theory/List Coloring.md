@@ -21,6 +21,8 @@
 > For $m:={2k-1 \choose k}$,
 > 1. $K_{m,m}$ is not $k$-choosable.
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. Let $K_{m,m}=(A\sqcup B, E)$. For $A,B$, let $L$
+> 1. Let $K_{m,m}=(A\sqcup B, E)$. For $A,B$, let $L(v)$ be a different $k$-element subset of $[2k-1]$ over $v\in A$. Similarly for $v\in B$. Let $c$ be a choice function. Then, 
+> 	1. If $c$ uses less than $k$ colors for $A$, then there is a $k$-element set $K\subseteq [2k-1]$ that is not used. In other words, for the vertex $v$ in $A$ with $L(v)=K$, no color was chosen, contradiction.
+> 	2. If $c$ uses at least $k$ colors for $A$, then there is a $k-$element set $K\subseteq[2k-1]$ that is used. Then, no color can be chosen for $v\in B$ with $L(v)=K$. Contradiction.
