@@ -137,6 +137,8 @@
 ^1fd061
 
 ---
+> [!lemma] Theorem 4 (Matrix-Tree Theorem)
+---
 ##### Spanning Tree
 
 > [!lemma] Theorem 4 (Boruvka)

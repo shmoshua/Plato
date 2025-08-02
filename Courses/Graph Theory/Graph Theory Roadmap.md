@@ -372,3 +372,29 @@
 ---
 
 #### 8.5 List Coloring
+![[List Coloring#^5f6b51]]
+![[List Coloring#^a18db3]]
+
+---
+![[List Coloring#^9f9f8b]]
+![[List Coloring#^f2813a|p]]
+
+---
+![[List Coloring#^5be692]]
+![[List Coloring#^b06959|p]]
+![[List Coloring#^f50ba4]]
+
+---
+![[Kernel (Graph Theory)#^026183]]
+![[Kernel (Graph Theory)#^5edd07]]
+
+---
+![[Kernel (Graph Theory)#^5a90a3]]
+![[Kernel (Graph Theory)#^0338c7|p]]
+
+---
+![[List Coloring#^3dac14]]
+![[List Coloring#^f0574e|p]]
+
+---
+### 9. The Matrix Tree Theorem

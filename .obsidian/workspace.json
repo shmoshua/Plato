@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Kernel (Graph Theory).md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Kernel (Graph Theory)"
+              "title": "Graph Theory Roadmap"
             }
           },
           {
@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Coloring.md",
+                "file": "Graph Theory/Tree.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Coloring"
+              "title": "Tree"
             }
           },
           {
@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Coloring.md",
+                "file": "Graph Theory/Tree.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Coloring"
+              "title": "Tree"
             }
           },
           {
@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -238,7 +238,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -330,13 +331,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e8062253689b259f",
+  "active": "6a82c8fa16e72294",
   "lastOpenFiles": [
+    "Graph Theory/Graph Coloring.md",
+    "Graph Theory/Tree.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Kernel (Graph Theory).md",
     "Graph Theory/List Coloring.md",
-    "Graph Theory/Graph Coloring.md",
     "Graph Theory/Matching.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Vertex Cover.md",
     "Graph Theory/Degenerate Graph.md",
     "Graph Theory/Planar Graph.md",
@@ -355,7 +357,6 @@
     "Courses/Graph Theory/Problem Set 2.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Differential Geometry/Orientable Double Cover.md",
-    "Graph Theory/Tree.md",
     "Discrete Mathematics/Order.md",
     "Courses/Advanced Algorithms/Exercise 09.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
