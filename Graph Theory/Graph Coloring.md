@@ -231,7 +231,7 @@
 > 			   Consider any $k$-edge-coloring of $G \backslash v$. Let $X_{i}\subseteq N(v)$ defined as the neighbors that are missed by color $i$. All but one neighbor has degree $k-2$ in $G \backslash v$ and one neighbor has degree $k-1$ in $G \backslash v$. Therefore, $$\sum_{i=1}^{k}\left| X_{i} \right| =2(k-1)+1$$
 > 			   Modulo switching the color classes, we may assume that $\sum_{i=1}^{k}\left| X_{i} \right|^{2}$ is minimized. We now claim that $\left| \left| X_{i} \right|-\left| X_{j} \right| \right|\leq 2$ for all $i,j$. 
 > 			   
-> 			   Indeed, let $\left| X_{i} \right|>\left| X_{j} \right|+2$. Then, consider the subgraph $H$ of $G \backslash v$ made by all edges of color $i,j$. Then, each component in $H$ is either a path or an even cycle. However, $X_{i},X_{j}$ can only land in the end nodes of a path. 
+> 			   Indeed, let $\left| X_{i} \right|>\left| X_{j} \right|+2$ for $i<j$. Then, consider the subgraph $H$ of $G \backslash v$ made by all edges of color $i,j$. Then, each component in $H$ is either a path or an even cycle. However, $X_{i},X_{j}$ can only land in the end nodes of a path. However, by assumption $\left| X_{i} \right|> \left| X_{j} \right|+2$. Hence, at least one component of $H$ has more nodes from $X_{i}$ than from $X_{j}$. Specifically, this has to be a path 
 
 ^b563b6
 
