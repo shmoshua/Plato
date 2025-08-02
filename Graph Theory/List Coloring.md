@@ -36,3 +36,8 @@
 ---
 > [!lemma] Theorem 3 (Galvin 1995)
 > $\chi'_{\ell}(K_{n,n})=n$. 
+
+> [!proof]+
+> First note that $\chi'_{\ell}(K_{n,n})\geq \chi'(K_{n,n})=n$. For the other direction, we have that $\chi'_{\ell}(K_{n,n})=\chi_{\ell}(L(K_{n,n}))$ where $L(K_{n,n})=K_{n}\times K_{n}$, the cartesian product. 
+> 
+> By [[Kernel (Graph Theory)|Proposition 1]], it suffices to show that $K_{n}\times K_{n}$ has a kernel-perfect orientation $D$ with indegree $d^-_{D}\equiv n-1$. 

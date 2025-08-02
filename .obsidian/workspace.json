@@ -40,13 +40,18 @@
             "id": "827a6e113e313d60",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/List Coloring.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "List Coloring"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -180,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -325,13 +330,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b8135ed19adb35f4",
+  "active": "e8062253689b259f",
   "lastOpenFiles": [
-    "Graph Theory/Matching.md",
-    "Graph Theory/Graph Coloring.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Kernel (Graph Theory).md",
     "Graph Theory/List Coloring.md",
+    "Graph Theory/Graph Coloring.md",
+    "Graph Theory/Matching.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Vertex Cover.md",
     "Graph Theory/Degenerate Graph.md",
     "Graph Theory/Planar Graph.md",
