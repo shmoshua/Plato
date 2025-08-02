@@ -40,4 +40,5 @@
 > [!proof]+
 > First note that $\chi'_{\ell}(K_{n,n})\geq \chi'(K_{n,n})=n$. For the other direction, we have that $\chi'_{\ell}(K_{n,n})=\chi_{\ell}(L(K_{n,n}))$ where $L(K_{n,n})=K_{n}\times K_{n}$, the cartesian product. 
 > 
-> By [[Kernel (Graph Theory)|Proposition 1]], it suffices to show that $K_{n}\times K_{n}$ has a kernel-perfect orientation $D$ with indegree $d^-_{D}\equiv n-1$. 
+> By [[Kernel (Graph Theory)|Proposition 1]], it suffices to show that $K_{n}\times K_{n}$ has a kernel-perfect orientation $D$ with indegree $d^-_{D}\equiv n-1$. Label the vertices s.t. we have: $$\begin{matrix}1&2&3&\dots&n\\2&3&\ddots &n&1\\3&\ddots&\ddots&\ddots&\vdots\\\vdots&n&\ddots&\ddots &n-2\\n&1&\dots&n-2&n-1\end{matrix}$$For each vertex $(r,s)$, we define the orientation as follows:
+> 1. in row $r$, $i\to j$ for all $i< j$.
