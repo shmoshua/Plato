@@ -218,11 +218,11 @@
 
 ^b7f423
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. The first inequality is obvious by definition. For the second, we have that $L(G)$ has maximum degree at most $2(\Delta(G)-1)$. However, as a vertex coloring in $L(G)$ corresponds to an edge coloring in $L(G)$, we have: $$\chi'(G)=\chi(L(G))\leq \Delta(L(G))+1=2(\Delta(G)-1)+1=2\Delta(G)-1$$
 > 2. We first show the following claim:
-> 	1. **Let $v\in V$ s.t. $d(u)\leq k$ for all $u\in N(v)$ and $d(u)=k$ for exactly one $u\in N(v)$. Then, if $G \backslash v$ is $k$-edge colorable then so is $G$.**
+> 	1. **Let $v\in V$ s.t. $d(u)\leq k$ for all $u\in N(v)$ and $d(u)=k$ for at most one $u\in N(v)$. Then, if $G \backslash v$ is $k$-edge colorable then so is $G$.**
 > 	   
 > 	   We prove via induction on $k$.
 > 		1. For $k=1$, it is clear as the condition implies $N(v)=\{ u \}$ and $uv$ is independent from the rest of the graph.
@@ -231,7 +231,15 @@
 > 			   Consider any $k$-edge-coloring of $G \backslash v$. Let $X_{i}\subseteq N(v)$ defined as the neighbors that are missed by color $i$. All but one neighbor has degree $k-2$ in $G \backslash v$ and one neighbor has degree $k-1$ in $G \backslash v$. Therefore, $$\sum_{i=1}^{k}\left| X_{i} \right| =2(k-1)+1$$
 > 			   Modulo switching the color classes, we may assume that $\sum_{i=1}^{k}\left| X_{i} \right|^{2}$ is minimized. We now claim that $\left| \left| X_{i} \right|-\left| X_{j} \right| \right|\leq 2$ for all $i,j$. 
 > 			   
-> 			   Indeed, let $\left| X_{i} \right|>\left| X_{j} \right|+2$ for $i<j$. Then, consider the subgraph $H$ of $G \backslash v$ made by all edges of color $i,j$. Then, each component in $H$ is either a path or an even cycle. However, $X_{i},X_{j}$ can only land in the end nodes of a path. However, by assumption $\left| X_{i} \right|> \left| X_{j} \right|+2$. Hence, at least one component of $H$ has more nodes from $X_{i}$ than from $X_{j}$. Specifically, this has to be a path 
+> 			   Indeed, let $\left| X_{i} \right|>\left| X_{j} \right|+2$ for $i<j$. Then, consider the subgraph $H$ of $G \backslash v$ made by all edges of color $i,j$. Then, each component in $H$ is either a path or an even cycle. However, $X_{i},X_{j}$ can only land in the end nodes of a path. However, by assumption $\left| X_{i} \right|> \left| X_{j} \right|+2$. Hence, at least one component of $H$ has more nodes from $X_{i}$ than from $X_{j}$. Specifically, this has to be a path starting from a node in $X_{i}$ and ending in a node not in $X_{j}$. However, changing colors $i$ and $j$ on this path reduces $\left| X_{i} \right|$ by $t$ for some $1\leq t\leq 2$ and increases $\left| X_{j} \right|$ by $t$. Then, $$(\left| X_{1} \right| -t)^{2}+(\left| X_{2} \right| +t)^{2}=\left| X_{1} \right| ^{2}+\left| X_{2} \right| ^{2}-2t(\left| X_{1} \right|-\left| X_{2} \right| -t )<\left| X_{1} \right| ^{2}+\left| X_{2} \right| ^{2}$$which contradicts the minimality. This proves the claim. 
+> 			   
+> 			   Now, it follows that there exists $\left| X_{i} \right|=1$. Otherwise, $X_{i}\in\{ 0,2 \}$ for all $i$ and this is a contradiction as $\sum_{i=1}^{k}\left| X_{i} \right|$ is odd. 
+> 			   
+> 			   Modulo switching classes we may assume now that $\left| X_{k} \right|=1$, say $X_{k}:=\{ u \}$. Let $G'$ be the graph obtained from $G$ by deleting $uv$ and deleting all edges in $G \backslash v$ of color $k$. Then, $G' \backslash v$ is $(k-1)$-edge colored. Moreover in $G '$, $v$ and its neighbors all have degree at most $k-1$, and at most one neighbor has degree $k-1$. So by induction hypothesis, $G'$ is $(k-1)$-edge colorable. Restoring the edges with color $k$ and giving $uv$ a color $k$, we have a $k$-edge coloring on $G$.
+> 	
+> 	Now, we prove the statement via induction over $n$.
+> 	-  For $n=1$, $\chi'(G)=0\leq 1$. 
+> 	- For $n\geq 2$, let $v\in V(G)$. Then, it holds that $d(u)< \Delta(G)+1$ for all neighbor $u\in N(v)$. Further, by induction, it holds that $$\chi'(G\backslash v)\leq \Delta(G \backslash v)+1\leq \Delta(G)+1$$Hence, $G \backslash v$ is $\Delta(G)+1$-edge-colorable and so is $G$ by the claim.
 
 ^b563b6
 
