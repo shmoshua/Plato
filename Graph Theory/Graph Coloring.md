@@ -211,16 +211,27 @@
 > We have that $\rho(G)\geq |S_{i}| / \left| V_{i} \right|$ and $\left| V_{i} \right|\geq \left| S_{i} \right| / \rho(G)$. Therefore, $$\left| S_{i+1} \right|\leq \left| S_{i} \right| -\left| V_{i} \right| \leq\left| S_{i} \right| \left( 1-\frac{1}{\rho(G)} \right) $$By induction we have that: $$\left| S_{j} \right| \leq n\left( 1-\frac{1}{\rho(G)} \right) ^j\leq ne^{-j / \rho(G)}$$In other words, $\left| S_{j} \right|=0$ for all $j>\rho(G)\log n$ which proves the statement.
 ---
 ##### Edge Coloring
-> [!lemma] Proposition 1 (Edge Coloring Properties)
+> [!lemma] Proposition 1 (Vizing)
 > Let $G$ be a graph.
 > 1. $\Delta(G)\leq \chi'(G)\leq 2\Delta(G)-1$.
-> 2. $\Delta(G)\leq \chi'(G)\leq \Delta(G)+1$
+> 2. $\Delta(G)\leq \chi'(G)\leq \Delta(G)+1$.
 
 ^b7f423
 
-> [!proof]-
+> [!proof]+
 > We have that:
 > 1. The first inequality is obvious by definition. For the second, we have that $L(G)$ has maximum degree at most $2(\Delta(G)-1)$. However, as a vertex coloring in $L(G)$ corresponds to an edge coloring in $L(G)$, we have: $$\chi'(G)=\chi(L(G))\leq \Delta(L(G))+1=2(\Delta(G)-1)+1=2\Delta(G)-1$$
+> 2. We first show the following claim:
+> 	1. **Let $v\in V$ s.t. $d(u)\leq k$ for all $u\in N(v)$ and $d(u)=k$ for exactly one $u\in N(v)$. Then, if $G \backslash v$ is $k$-edge colorable then so is $G$.**
+> 	   
+> 	   We prove via induction on $k$.
+> 		1. For $k=1$, it is clear as the condition implies $N(v)=\{ u \}$ and $uv$ is independent from the rest of the graph.
+> 		2. Let $k\geq 2$. We may assume wlog that $d(v)=k$ as otherwise we can add new vertices that are only connected to $v$. Further, we may assume that $d(u)=k-1$ for all $u\in N(v)$ besides one neighbor as we can keep adding vertices. 
+> 		   
+> 			   Consider any $k$-edge-coloring of $G \backslash v$. Let $X_{i}\subseteq N(v)$ defined as the neighbors that are missed by color $i$. All but one neighbor has degree $k-2$ in $G \backslash v$ and one neighbor has degree $k-1$ in $G \backslash v$. Therefore, $$\sum_{i=1}^{k}\left| X_{i} \right| =2(k-1)+1$$
+> 			   Modulo switching the color classes, we may assume that $\sum_{i=1}^{k}\left| X_{i} \right|^{2}$ is minimized. We now claim that $\left| \left| X_{i} \right|-\left| X_{j} \right| \right|\leq 2$ for all $i,j$. 
+> 			   
+> 			   Indeed, let $\left| X_{i} \right|>\left| X_{j} \right|+2$. Then, consider the subgraph $H$ of $G \backslash v$ made by all edges of color $i,j$. Then, each component in $H$ is either a path or an even cycle. However, $X_{i},X_{j}$ can only land in the end nodes of a path. 
 
 ^b563b6
 
