@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Linear Algebra/Determinant.md",
+                "file": "Graph Theory/Clique.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Determinant"
+              "title": "Clique"
             }
           },
           {
@@ -343,12 +343,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b8135ed19adb35f4",
+  "active": "6a82c8fa16e72294",
   "lastOpenFiles": [
-    "Graph Theory/Tree.md",
-    "Graph Theory/Closure (Graph Theory).md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/Clique.md",
     "Algebra/Linear Algebra/Determinant.md",
+    "Graph Theory/Closure (Graph Theory).md",
+    "Graph Theory/Tree.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Directed Acyclic Graph (DAG).md",
     "Graph Theory/Kernel (Graph Theory).md",
     "Graph Theory/Graph Matrices.md",
@@ -370,7 +371,6 @@
     "Courses/Graph Theory/Problem Set 5.md",
     "Topology/Algebraic Topology/Euler Characteristic.md",
     "Courses/Graph Theory/Problem Set 4.md",
-    "Courses/Graph Theory/Problem Set 3.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",

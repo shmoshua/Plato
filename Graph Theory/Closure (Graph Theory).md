@@ -30,15 +30,17 @@
 > Let $G$ be a graph with vertex degrees $d_{1}\leq\dots\leq d_{n}$. 
 > 1. if $i<n /2$ implies that $d_{i} > i$ or $d_{n-i}\geq n-i$, then $G$ is Hamiltonian.
 
-> [!proof]+
+> [!proof]-
 > As adding edges to form the closure does not decrease the degree sequence and from Bondy Chvatal theorem, we may assume that $G$ is closed already. 
 > 
 > We show instead that $G=K_{n}$ via contrapositive. Assume that $G\neq K_{n}$. We will show that there exists $i<n / 2$ s.t. at least $i$ vertices have degree at most $i$ and at least $n-i$ vertices have degree less than $n-i$ i.e. $d_{i}\leq i$ and $d_{n-i}<n-i$. 
 > 
 > If $G\neq K_{n}$, then among the pairs of non-adjacent pairs, we choose $u,v$ s.t. $d(u)+d(v)$ is maximal. However, as $G$ is closed, $d(u)+d(v)<n$. Wlog assume that $d(u)\leq d(v)$. Then, we have that $d(u)< n /2$. Let $i:=d(u)$.
+> 
+> By the maximality assumption, every vertex of $V \backslash v$ that is not adjacent to $v$ has degree at most $i$. However, there are at least $n-1-d(v)\geq d(u)=i$ of these vertices. Similarly, every vertex of $V \backslash u$ that is not adjacent to $u$ has degree at most $d(v)<n-d(u)=n-i$. There are $n-1-d(u)=n-1-i$ of these. Since $d(u)\leq d(v)$, we can also count $u$ as one of those vertices and have $n-i$ vertices with degree less than $n-i$. This proves the statement.
 
 
-
-Hey Igor, sorry for only getting back to you now. Thanks for the honesty and also taking the time to send the voice note. I’ve listened to it and I understand your concerns about the age gap, life stages and all the other differences you’ve felt.
-
-I appreciate the honesty and thanks for the voice note. 
+---
+> [!lemma] Theorem 4 (Chvatal-Erdös 1972)
+> Let $G\neq K_{2}$ be a graph.
+> 1. if $\kappa(G)\geq \alpha(G)$ then $G$ is Hamiltonian.
