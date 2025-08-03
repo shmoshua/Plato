@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Kernel (Graph Theory).md",
+                "file": "Graph Theory/Directed Acyclic Graph (DAG).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Kernel (Graph Theory)"
+              "title": "Directed Acyclic Graph (DAG)"
             }
           },
           {
@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -330,17 +330,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "827a6e113e313d60",
+  "active": "83ca64246e25a9b6",
   "lastOpenFiles": [
-    "Algebra/Linear Algebra/Determinant.md",
+    "Graph Theory/Kernel (Graph Theory).md",
     "Graph Theory/Directed Acyclic Graph (DAG).md",
+    "Algebra/Linear Algebra/Determinant.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Tree.md",
     "Graph Theory/Graph Matrices.md",
     "Topology/Algebraic Topology/Tor.md",
     "Graph Theory/List Coloring.md",
     "Graph Theory/Graph Coloring.md",
-    "Graph Theory/Kernel (Graph Theory).md",
     "Graph Theory/Matching.md",
     "Graph Theory/Vertex Cover.md",
     "Graph Theory/Degenerate Graph.md",
