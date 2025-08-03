@@ -138,6 +138,11 @@
 
 ---
 > [!lemma] Theorem 4 (Matrix-Tree Theorem)
+> Let $G$ be a connected graph. Let $t(G)$ be the number of spanning trees of $G$. Then, 
+> $$t(G)=\det (D-A)_{ii}$$where $M_{ii}$ is the submatrix of $M$ given by deleting the $i$-th row and column.
+
+> [!proof]+
+> We have that $BB^\top = D-A$. Further $B$ has at least $n-1$ columns as $G$ is connected. 
 ---
 ##### Spanning Tree
 
