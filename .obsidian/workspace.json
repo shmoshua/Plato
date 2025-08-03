@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/List Coloring.md",
+                "file": "Algebra/Linear Algebra/Determinant.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "List Coloring"
+              "title": "Determinant"
             }
           }
         ],
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Matrices.md",
+                "file": "Algebra/Linear Algebra/Determinant.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Matrices"
+              "title": "Determinant"
             }
           },
           {
@@ -238,8 +238,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -333,11 +332,12 @@
   },
   "active": "6a82c8fa16e72294",
   "lastOpenFiles": [
-    "Graph Theory/Graph Matrices.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Tree.md",
+    "Algebra/Linear Algebra/Determinant.md",
+    "Graph Theory/Graph Matrices.md",
     "Graph Theory/List Coloring.md",
     "Graph Theory/Graph Coloring.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Kernel (Graph Theory).md",
     "Graph Theory/Matching.md",
     "Graph Theory/Vertex Cover.md",
@@ -358,7 +358,6 @@
     "Courses/Graph Theory/Problem Set 2.md",
     "Courses/Graph Theory/Problem Set 1.md",
     "Differential Geometry/Orientable Double Cover.md",
-    "Discrete Mathematics/Order.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",

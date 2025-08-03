@@ -142,7 +142,7 @@
 > $$t(G)=\det (D-A)_{ii}$$where $M_{ii}$ is the submatrix of $M$ given by deleting the $i$-th row and column.
 
 > [!proof]+
-> We have that $BB^\top = D-A$. Further $B$ has at least $n-1$ columns as $G$ is connected. 
+> We have that $BB^\top = D-A=:M$. Further $B$ has at least $n-1$ columns as $G$ is connected. Therefore, using [[Determinant|Theorem 1]], we have that for $M_{ii}:=B_{-i}B_{-i}^\top$: $$\det M_{ii}=\sum_{N}^{}(\det N)^{2}$$where $N$ runs through all $\mathbb{R}^{n-1,n-1}$ submatrix of $B_{-i}$. 
 ---
 ##### Spanning Tree
 
