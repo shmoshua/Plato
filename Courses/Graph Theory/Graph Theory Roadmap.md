@@ -399,6 +399,12 @@
 ---
 ### 9. The Matrix Tree Theorem
 #### 9.1 Lattice Paths and Determinants
+![[Directed Acyclic Graph (DAG)#^ae6dfd]]
+![[Directed Acyclic Graph (DAG)#^fdc042|p]]
+
+---
+![[Determinant#^cdfa8e]]
+![[Determinant#^23ad94|p]]
 
 ---
 #### 9.2 The Matrix Tree Theorem
@@ -410,3 +416,4 @@
 ![[Tree#^435330|p]]
 
 ---
+### 10. More Theorems on Hamiltonicity
