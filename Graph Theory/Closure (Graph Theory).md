@@ -18,5 +18,9 @@
 > 1. $G$ is [[Hamiltonian Path|Hamiltonian]].
 > 2. $C(G)$ is Hamiltonian.
 
-> [!proof]+
-> 
+> [!proof]-
+> We have that:
+> 1. (1=>2): If $G$ is Hamiltonian then as $C(G)$ is a supergraph of $G$, it contains the Hamiltonian cycle. Hence, $C(G)$ is Hamiltonian as well.
+> 2. (2=>1): Let $G$ be a graph and $u,v$ be an edge where $d_{G}(u)+d_{G}(v)\geq n$. We show that if $G\cup uv$ is Hamiltonian then $G$ is Hamiltonian as well. As $G\cup uv$ is Hamiltonian, it has a Hamiltonian cycle and there is a Hamiltonian path from $u$ to $v$. 
+>    
+>    Let $P:=v_{1}\dots.v_{n}$ be the Hamiltonian path. Let: $S:=\{ i\in[n-1]: uv_{i+1}\in G\}$ and $T:=\{ i\in[n-1]:v_{i}v\in G \}$. Then, $$\left| S \right| +\left| T \right| =d_{G}(u)+d_{G}(v)\geq n $$and there exists $i\in S\cap T$. Therefore, we have a Hamiltonian cycle $C:=u\dots v_{i}vv_{n-1}\dots v_{i+1}u$ in $G$.
