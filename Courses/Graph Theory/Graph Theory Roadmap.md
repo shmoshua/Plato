@@ -398,3 +398,15 @@
 
 ---
 ### 9. The Matrix Tree Theorem
+#### 9.1 Lattice Paths and Determinants
+
+---
+#### 9.2 The Matrix Tree Theorem
+![[Tree#^cc4b3d]]
+![[Tree#^b01695|p]]
+
+---
+![[Tree#^5bf805]]
+![[Tree#^435330|p]]
+
+---

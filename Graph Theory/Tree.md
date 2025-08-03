@@ -136,13 +136,27 @@
 
 ^1fd061
 
+> [!proof]- Proof (Using Matrix-Tree Theorem)
+> Consider $G=K_{n}$. Then, we have that: $$D-A=\begin{bmatrix}n-1&-1&\dots&-1\\-1&n-1&&-1\\ \vdots && \ddots&\vdots \\-1&-1&\dots&n-1\end{bmatrix}$$To compute $\det(D-A)_{ii}$, $$\det(D-A)_{ii}=\det\begin{bmatrix}1&-1&\dots&-1\\1&n-1&&-1\\ \vdots && \ddots&\vdots \\1&-1&\dots&n-1\end{bmatrix}=\det\begin{bmatrix}1&0&\dots&0\\1&n&&0\\ \vdots && \ddots&\vdots \\1&0&\dots&n\end{bmatrix}=n^{n-2}$$
+
+^435330
+
 ---
 > [!lemma] Theorem 4 (Matrix-Tree Theorem)
 > Let $G$ be a connected graph. Let $t(G)$ be the number of spanning trees of $G$. Then, 
 > $$t(G)=\det (D-A)_{ii}$$where $M_{ii}$ is the submatrix of $M$ given by deleting the $i$-th row and column.
 
-> [!proof]+
-> We have that $BB^\top = D-A=:M$. Further $B$ has at least $n-1$ columns as $G$ is connected. Therefore, using [[Determinant|Theorem 1]], we have that for $M_{ii}:=B_{-i}B_{-i}^\top$: $$\det M_{ii}=\sum_{N}^{}(\det N)^{2}$$where $N$ runs through all $\mathbb{R}^{n-1,n-1}$ submatrix of $B_{-i}$. 
+^cc4b3d
+
+> [!proof]-
+> We have that $BB^\top = D-A=:M$. Further $B$ has at least $n-1$ columns as $G$ is connected. Therefore, using [[Determinant|Theorem 1]], we have that for $M_{ii}:=B_{-i}B_{-i}^\top$: $$\det(D-A)_{ii}=\det M_{ii}=\sum_{N}^{}(\det N)^{2}$$where $N$ runs through all $\mathbb{R}^{n-1,n-1}$ submatrix of $B_{-i}$. Notice that the $n-1$ columns of $N$ corresponds to a subgraph of $G$ with $n-1$ edges. It remains to show that: $$\det N=\begin{cases}\pm 1&\text{if these edges span a tree}\\0&\text{otherwise}\end{cases}$$
+> If they do not span a tree, then there exists a component that doesn't contain $i$. Then, the rows corresponding to this component add to $0$ and we have linearly dependent rows. This shows that $\det N=0$.
+> 
+> If they now span a tree, then there is $j_{1}\neq i$ of degree $1$. Let $e_{1}$ be the incident edge. Deleting $j_{1}$ and $e_{1}$ would give us a tree with $n-2$ edges. Then, there again is a leaf $j_{2}\neq i$ and the incident edge $e_{2}$. Continuing this way, we can find $j_{1:n-1}$ and $e_{1:n-1}$. Now, permute the rows and columns to bring $j_{k}$ into the $k$-th row and $e_{k}$ to the $k$-th column. As we have that $j_{k}\notin e_{l}$ for all $k<\ell$ by construction, the new matrix $N'$ is lower triangular with $\pm 1$ on the diagonal. Therefore, $\det N=\pm \det N'=\pm 1$.
+> 
+
+^b01695
+
 ---
 ##### Spanning Tree
 

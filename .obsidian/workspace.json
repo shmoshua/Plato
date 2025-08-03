@@ -42,16 +42,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Linear Algebra/Determinant.md",
+                "file": "Graph Theory/Directed Acyclic Graph (DAG).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Determinant"
+              "title": "Directed Acyclic Graph (DAG)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -176,16 +176,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/Tor.md",
+                "file": "Graph Theory/Graph Matrices.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tor"
+              "title": "Graph Matrices"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -330,12 +330,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6a82c8fa16e72294",
+  "active": "827a6e113e313d60",
   "lastOpenFiles": [
+    "Algebra/Linear Algebra/Determinant.md",
+    "Graph Theory/Directed Acyclic Graph (DAG).md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Tree.md",
-    "Algebra/Linear Algebra/Determinant.md",
     "Graph Theory/Graph Matrices.md",
+    "Topology/Algebraic Topology/Tor.md",
     "Graph Theory/List Coloring.md",
     "Graph Theory/Graph Coloring.md",
     "Graph Theory/Kernel (Graph Theory).md",
@@ -356,8 +358,6 @@
     "Courses/Graph Theory/Problem Set 4.md",
     "Courses/Graph Theory/Problem Set 3.md",
     "Courses/Graph Theory/Problem Set 2.md",
-    "Courses/Graph Theory/Problem Set 1.md",
-    "Differential Geometry/Orientable Double Cover.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
