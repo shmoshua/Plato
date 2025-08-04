@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "file": "Graph Theory/Turan Number.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Theory Roadmap"
+              "title": "Turan Number"
             }
           },
           {
@@ -63,12 +63,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combinatorics/Ramsey Number.md",
+                "file": "Graph Theory/Turan Number.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ramsey Number"
+              "title": "Turan Number"
             }
           },
           {
@@ -169,7 +169,8 @@
               "title": "Graph Matrices"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -314,9 +315,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8207292bb85f5852",
+  "active": "6a82c8fa16e72294",
   "lastOpenFiles": [
     "Combinatorics/Ramsey Number.md",
+    "Graph Theory/Turan Number.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Closure (Graph Theory).md",
     "Graph Theory/Hypergraph.md",
@@ -341,7 +343,6 @@
     "Graph Theory/Degenerate Graph.md",
     "Graph Theory/Planar Graph.md",
     "Graph Theory/Line Graph.md",
-    "Algorithms/Covering.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",

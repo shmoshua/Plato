@@ -3,13 +3,15 @@
 > [!definition]
 > We have that: 
 > 1. for $s,t\in \mathbb{Z}_{>0}$, the ***Ramsey number*** $R(s,t)$ is the smallest integer $n\geq 0$ s.t. every red-blue edge-coloring of the [[clique]] $K_{n}$ has a red clique of size $s$ or a blue clique of size $t$.
-> 2. for a graph $G$, the ***Ramsey number $R(G)$*** is the smallest integer $n$ s.t. any 2-edge-coloring of $K_{n}$ contains a monochromatic $G$. 
+> 2. for graphs $G_{1},G_{2}$, the ***Ramsey number $R(G_{1},G_{2})$*** is the smallest integer $n$ s.t. any red-blue-edge-coloring of $K_{n}$ contains a red $G_{1}$ or a blue $G_{2}$.
 
 ^bf6551
 
 - **Remark**: From the definition, if $R(s,t)\leq n$, then every 2-edge-coloring of $K_{n}$ does satisfy the property, i.e. if there exists an edge coloring of $K_{n}$ for which the property doesn't hold, then $R(s,t)>n$.  ^610a32
 - **Remark**: If $R(s,t)\leq N$, then for any graph $G$ on $N$ nodes, either $\omega(G)\geq s$ or $\alpha(G)\geq t$.
 - **Related definition**: the Ramsey number extends to $k$-colorings with $R_{k}(s_{1},\dots,s_{k})$
+- **Remark**: We have that $R(G_{1},G_{2})\leq R(\left| G_{1} \right|,\left| G_{2} \right|)$. ^9a3af2
+
 ---
 ##### Properties
 > [!lemma] Theorem 1
@@ -127,6 +129,40 @@
 
 ^788618
 
+---
+##### Ramsey Theory for Integers
+> [!lemma] Theorem 1
+> For every $k\geq 1$, there is an integer $m$ s.t. every $k$-coloring of $[m]$ has three integers $x,y,z$ of the same color s.t. $x+y=z$.
+
+^7dab71
+
+> [!proof]-
+> We claim that we can choose $m:= R_{k}(3)-1$. Let $n:=R_{k}(3)=m+1$ and $c:[m]\to [k]$ a $k$-coloring. This induces a $k$-edge-coloring on $K_{n}$ as follows: for $ij\in K_{n}$, set $c'(i,j)=c(\left| i-j \right|)$. 
+> 
+> By the definition of $R_{k}(3)$, then there is a monochromatic triangle with vertices $\{ h,i,j \}$ s.t. $1\leq h< i<j\leq n$ and $c'(h,i)=c'(i,j)=c'(j,h)$. Then, we have that $x:=i-h$, $y:=j-i$ and $z:=j-h$ gives us $x+y=z$ with $c(x)=c(y)=c(z)$. 
+
+^e32306
+
+---
+##### Graph Ramsey Numbers
+> [!lemma] Theorem 1 (Chvatal 1977)
+> Let $T$ be any $m$-vertex tree. 
+> 1. $R(T,K_{n})=(m-1)(n-1)+1$
+
+^ea67e3
+
+> [!proof]-
+> For the lower bound, let $K_{(m-1)(n-1)}$ be colored with $(n-1)$ disjoint red $K_{m-1}$ and the remaining edges blue. Then, there cannot be a red $T$. The blue edges however form an $n-1$ partite graph and cannot contain $K_{n}$.
+> 
+> For the upper bound, we proceed induction on $n$, where for $n=1$, it is trivial. Given a two coloring of $K_{(m-1)(n-1)+1}$, let $x$ be a vertex. If $x$ has more than $(m-1)(n-2)$ blue incident edges, then the corresponding neighbors either contain a red $T$ or a blue $K_{n-1}$ which with $x$ form a blue $K_{n}$. 
+> 
+> Otherwise, every vertex has at most $(m-1)(n-2)$ blue edges and at least $(m-1)$ incident edges, i.e. the red subgraph has $\delta\geq m-1$. We claim that any graph $R$ with minimum degree $m-1$ contains every $m$-vertex tree $T$. 
+> 
+> If $m\leq 1$, it is obvious. Let $T$ be a $m$-vertex tree where $m\geq 2$. Let $\ell$ be a leaf in $T$. By induction hypothesis the graph $R$ contains $T \backslash \ell$. However, as every vertex has min-degree at least $m-1$, every vertex has a neighbor in $R$ that is not in $T \backslash \ell$. Hence, we can reattach it to $T\backslash \ell$. 
+
+^e96d61
+
+---
 ##### Examples
 > [!h] Example 1 (Trivial Results)
 > We have:
