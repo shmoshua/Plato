@@ -44,3 +44,6 @@
 > [!lemma] Theorem 4 (Chvatal-Erdös 1972)
 > Let $G\neq K_{2}$ be a graph.
 > 1. if $\kappa(G)\geq \alpha(G)$ then $G$ is Hamiltonian.
+
+> [!proof]+
+> We have that $G$ is trivially true if $G$ is complete. Otherwise, we have that $\kappa(G)\geq \alpha(G)\geq 2$. We show that if $G$ has no Hamiltonian cycle, then $k:=\kappa(G)<\alpha(G)$. 

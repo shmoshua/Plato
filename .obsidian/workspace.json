@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Clique.md",
+                "file": "Graph Theory/Independence and Clique.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Clique"
+              "title": "Independence and Clique"
             }
           },
           {
@@ -345,9 +345,11 @@
   },
   "active": "6a82c8fa16e72294",
   "lastOpenFiles": [
+    "Graph Theory/Independence and Clique.md",
+    "Probability Theory/Independence.md",
     "Graph Theory/Clique.md",
-    "Algebra/Linear Algebra/Determinant.md",
     "Graph Theory/Closure (Graph Theory).md",
+    "Algebra/Linear Algebra/Determinant.md",
     "Graph Theory/Tree.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Directed Acyclic Graph (DAG).md",
@@ -369,8 +371,6 @@
     "Topology/Algebraic Topology/Singular Homology.md",
     "Graph Theory/Graph.md",
     "Courses/Graph Theory/Problem Set 5.md",
-    "Topology/Algebraic Topology/Euler Characteristic.md",
-    "Courses/Graph Theory/Problem Set 4.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
