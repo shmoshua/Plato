@@ -417,3 +417,25 @@
 
 ---
 ### 10. More Theorems on Hamiltonicity
+
+#### 10.1 Graph Closure
+![[Closure (Graph Theory)#^56af79]]
+
+---
+![[Closure (Graph Theory)#^0d8c43]]
+![[Closure (Graph Theory)#^2e374d|p]]
+
+---
+![[Closure (Graph Theory)#^654eca]]
+![[Closure (Graph Theory)#^d75485|p]]
+
+---
+![[Closure (Graph Theory)#^b0e3a6]]
+![[Closure (Graph Theory)#^070269|p]]
+
+---
+![[Closure (Graph Theory)#^3ed9fa]]
+![[Closure (Graph Theory)#^b220de|p]]
+
+---
+#### 10.2 Pósa's Lemma

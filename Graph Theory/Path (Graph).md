@@ -16,6 +16,10 @@
 - **Related Definition**: For $s,t\in V$, the ***distance*** $d_{G}(s,t)$ is the length of the shortest $(s,t)$-path in $G$. If such path doesn't exist, $d_{G}(s,t)=\infty$.
 - **Related Definition**: The ***diameter*** of a graph is $\text{diam}(G):= \max_{s,t\in V}d_{G}(s,t)$.
 - **Related Definition**: For a connected graph $G$, an edge $e\in E$ is a ***cut edge***, if $G \backslash e$ is not connected. 
+- **Related definition**: For a path $P$ and $x\in P$, $x^+,x^-$ are the vertex preceding and following $x$ on $P$, if they exist. For $X\subseteq V(P)$:
+	1. $X^+:=\{ x^+:x\in X \}$.
+	2. $X^-:=\{ x^-:x\in X \}$.
+- **Related definition**: A path $P'$ is ***rotated from $P:=v_{0}\dots v_{n}$*** if it is of the form $$P':=v_{i}v_{i-1}\dots v_{0}v_{i+1}\dots v_{n}$$A path $P'$ is ***derived from $P$*** if it is obtained by a sequence of rotations from $P$. $S(P)\subseteq V(P)$ is the set of all starting vertices of paths dervied from $P$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
@@ -75,6 +79,16 @@
 ^bab021
 
 ---
+##### Pósa's Lemma
+> [!lemma] Lemma 1
+> Let $G$ be a graph and $P:=u\dots v$ be the longest path. Let $S:=S(P)$. Then,
+> 1. $\partial S\subseteq S^-\cup S^+$ or $V(P)$ forms a cycle in $G$.
+
+> [!proof]+
+> Let $x\in S$ and $y\in N(x)$ be any neighbor. We will show that $y\in S^-\cup S\cup S^+$. 
+
+---
+##### Others
 > [!lemma] Theorem (Cycles in Digraphs)
 > Let $k\in \mathbb{Z}_{\geq 1}$ and $D=(V,E)$ a finite digraph with $\Delta^-$ and $\delta^+$ as the maximal in-degree and minimal out-degree. 
 > 1. If it holds that: $$e((\delta^++1)\Delta^-+1)\left( 1-\frac{1}{k} \right) ^{\delta^+}\leq 1$$then $D$ contains a directed cycle of length divisible by $k$.

@@ -22,6 +22,7 @@
 	3. $d(G)$ denotes the average degree of $G$, i.e. $d(G)=\frac{1}{\left| V \right|}\sum_{v\in V}^{}d(v)$ if $G$ is finite.
 - **Remark**: $\delta(G)\leq d(G)\leq\Delta(G)$
 - **Related definition**: The ***edge density*** of a graph is $\varepsilon(G):=\left| E \right| / \left| V \right|$.
+- **Related definition**: For $S\subseteq V(G)$, we have that $\partial S:=\{ v\in V(G) \backslash S: \exists y\in S, v\sim y \}$.
 ---
 ##### Properties
 > [!lemma] Proposition 1
