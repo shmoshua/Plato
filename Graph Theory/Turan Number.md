@@ -10,9 +10,27 @@
 > [!lemma] Theorem 1 (Turan 1941)
 > We have that: $$\text{ex}(n,K_{r+1})=e(T_{n,r})$$where $T_{n,r}$ is the unique graph giving the maximum. 
 
-> [!proof]+ 
+> [!proof]-
 > Let $G:=(V,E)$ be the maximizer of $\text{ex}(n,K_{r+1})$. Let $v_{m}\in V$ be the vertex of maximal degree. Let further $S:=N(v_{m})$ with $\left| S \right|=d(v_{m})=:d_{m}$. Set $T:= V \backslash S$. As $G$ contains no $K_{r+1}$ and $v_{m}$ is adjacent to every node in $S$, $S$ contains no $r$-clique. 
 > 
 > Let $H$ be another graph on $V$ where it is given from $G$ by deleting all edges in $E(T)$ and adding every possible edge between $S$ and $T$. Then, of course $H$ also doesn't contain any $K_{r+1}$. 
 > 
-> If $v\in S$, then we certainly have that $d_{H}(v)\geq d_{G}(v)$ and for $v\in T$, $$d_{H}(v)=\left| S \right| =\Delta(G)\geq d_{G}(v)$$Therefore, we infer that $e(H)\geq e(G)$ and by the maximality, there should be a maximizer of the form $H$. 
+> If $v\in S$, then we certainly have that $d_{H}(v)\geq d_{G}(v)$ and for $v\in T$, $$d_{H}(v)=\left| S \right| =\Delta(G)\geq d_{G}(v)$$Therefore, we infer that $e(H)\geq e(G)$ and by the maximality, there should be a maximizer of the form $H$. By induction, the graph induced by $S$ has as many edges as a suitable graph $K_{n_{1},\dots, n_{r-1}}$ on $S$. So $e(G)\leq e(H)\leq e(K_{n_{1},\dots,n_{r}})$ with $n_{r}:= \left| T \right|$. As $e(K_{n_{1},\dots,n_{r}})$ is maximal for $\left| n_{i}-n_{j} \right|\leq 1$, we have that $T_{n,r}$ has the maximum possible edges. 
+> 
+> The uniqueness is obvious.
+
+> [!proof]- Proof (if r|n)
+> Consider a weighting of the vertices $w:=(w_{1},\dots,w_{n})$ s.t. $w_{i}\geq 0$ for all $i$ and $\sum_{i=1}^{n}w_{i}=1$. We want to maximize: $$f(w):=\sum_{v_{i}\sim v_{j}}^{}w_{i}w_{j}$$Suppose $w$ is any weighting. Let $v_{i},v_{j}$ be non-adjacent vertices with non-zero weights. Let $s_{i},s_{j}$ be the sum of all weights adjacent to $v_{i}$ and $v_{j}$. Wlog assume $s_{i}\geq s_{j}$. Now, let's move the weight from $v_{j}$ to $v_{i}$. Then, for the new weighting $w'$, we have: $$f(w')=f(w)+w_{j}s_{i}-w_{j}s_{j}\geq f(w)$$We repeat this process until there are no pair of non-adjacent vertices of positive weights anymore. Thus we can conclude that there is an optimal weighting whose non-zero weights are concentrated on a clique, say on a $k$-clique. 
+> 
+> Now, for $w_{1}>w_{2}>0$, then we can choose $0<\varepsilon<w_{1}-w_{2}$ and change $w_{1}$ to $w_{1}-\varepsilon$ and $w_{2}$ to $w_{2}+\varepsilon$. Then, the new weighting $w'$ satisfies: $$f(w')=f(w)+\varepsilon(w_{1}-w_{2})-\varepsilon^{2}>f(w)$$and we infer that the maximal $f$ is attained if $w_{i}=1 / k$ supported on a $k$-clique. Since there are $k(k-1) / 2$ edges, we have that: $$f(w)=\frac{k(k-1)}{2}\cdot  \frac{1}{k^{2}}=\frac{1}{2}\left( 1-\frac{1}{k} \right)$$Since this expression is increasing in $k$, the best we can do is set $k:= r$ as $G$ has no $K_{r+1}$. Therefore, we get that: $$f(w)\leq \frac{1}{2}\left( 1-\frac{1}{r} \right) $$for any weighting $w$. In particular, this holds for the uniform weighting given by $w_{i}:= \frac{1}{n}$. Therefore, $$\left| E \right| =f(w^{*})n^{2}\leq \left( 1-\frac{1}{r} \right)\frac{n^{2}}{2}=e(T_{n,r})$$
+
+---
+> [!lemma] Corollary 2
+> Let $a_{1},..,a_{n}\in \mathbb{R}^d$ s.t. $\left\| a_{i} \right\|\geq 1$ for all $i\in[n]$. 
+> 1. the maximum number of pairs satisfying $\left\| a_{i}+a_{j} \right\|\leq 1$ is at most $\left\lfloor n^{2} / 4\right\rfloor$
+
+> [!proof]+
+> We have that:
+> 2. Let $G$ be a graph on $[n]$ where $i\sim j$ if and only if $\left\| a_{i}+a_{j} \right\|<1$. We show that $G$ is triangle-free. For any $i,j,k\in[n]$, $$\left\| a_{i}+a_{j} \right\| ^{2}+\left\| a_{j}+a_{k} \right\| ^{2}+\left\| a_{k}+a_{i} \right\| ^{2}=\left\| a_{i}+a_{j}+a_{k} \right\| ^{2}+\left\| a_{i} \right\| ^{2}+\left\| a_{j} \right\| ^{2}+\left\| a_{k} \right\| ^{2}\geq 3$$Hence at least one of them is at least 1. 
+>    
+>    Therefore, the maximum number is given by $$\text{ex}(n,K_{3})=e(T_{n,2})=\left\lfloor n^{2} / 4\right\rfloor $$
