@@ -5,6 +5,7 @@
 > 1. the ***Turan number*** $\text{ex}(n,H)$ of $H$ and $n$ is given by: $$\text{ex}(n,H):=\max_{\begin{array}\ \left| G \right| =n\\ H\not\leq G\end{array}}e(G)$$
 
 - **Related definition**: The graph $K_{n_{1},..,n_{r}}$ with $\left| n_{i}-n_{j} \right|\leq 1$is called the ***Turan graph*** $T_{n,r}$.
+- **Related definition**: The ***Turan density*** $\pi(H)$ is given by $\pi(H):=\lim_{ n \to \infty }\text{ex}(n,H) / {n \choose 2}$. 
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Turan 1941)
@@ -23,14 +24,19 @@
 > Consider a weighting of the vertices $w:=(w_{1},\dots,w_{n})$ s.t. $w_{i}\geq 0$ for all $i$ and $\sum_{i=1}^{n}w_{i}=1$. We want to maximize: $$f(w):=\sum_{v_{i}\sim v_{j}}^{}w_{i}w_{j}$$Suppose $w$ is any weighting. Let $v_{i},v_{j}$ be non-adjacent vertices with non-zero weights. Let $s_{i},s_{j}$ be the sum of all weights adjacent to $v_{i}$ and $v_{j}$. Wlog assume $s_{i}\geq s_{j}$. Now, let's move the weight from $v_{j}$ to $v_{i}$. Then, for the new weighting $w'$, we have: $$f(w')=f(w)+w_{j}s_{i}-w_{j}s_{j}\geq f(w)$$We repeat this process until there are no pair of non-adjacent vertices of positive weights anymore. Thus we can conclude that there is an optimal weighting whose non-zero weights are concentrated on a clique, say on a $k$-clique. 
 > 
 > Now, for $w_{1}>w_{2}>0$, then we can choose $0<\varepsilon<w_{1}-w_{2}$ and change $w_{1}$ to $w_{1}-\varepsilon$ and $w_{2}$ to $w_{2}+\varepsilon$. Then, the new weighting $w'$ satisfies: $$f(w')=f(w)+\varepsilon(w_{1}-w_{2})-\varepsilon^{2}>f(w)$$and we infer that the maximal $f$ is attained if $w_{i}=1 / k$ supported on a $k$-clique. Since there are $k(k-1) / 2$ edges, we have that: $$f(w)=\frac{k(k-1)}{2}\cdot  \frac{1}{k^{2}}=\frac{1}{2}\left( 1-\frac{1}{k} \right)$$Since this expression is increasing in $k$, the best we can do is set $k:= r$ as $G$ has no $K_{r+1}$. Therefore, we get that: $$f(w)\leq \frac{1}{2}\left( 1-\frac{1}{r} \right) $$for any weighting $w$. In particular, this holds for the uniform weighting given by $w_{i}:= \frac{1}{n}$. Therefore, $$\left| E \right| =f(w^{*})n^{2}\leq \left( 1-\frac{1}{r} \right)\frac{n^{2}}{2}=e(T_{n,r})$$
-
+- **Corollary**: We have that $\pi(K_{r})=1- \frac{1}{r-1}$. 
 ---
 > [!lemma] Corollary 2
 > Let $a_{1},..,a_{n}\in \mathbb{R}^d$ s.t. $\left\| a_{i} \right\|\geq 1$ for all $i\in[n]$. 
 > 1. the maximum number of pairs satisfying $\left\| a_{i}+a_{j} \right\|\leq 1$ is at most $\left\lfloor n^{2} / 4\right\rfloor$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 2. Let $G$ be a graph on $[n]$ where $i\sim j$ if and only if $\left\| a_{i}+a_{j} \right\|<1$. We show that $G$ is triangle-free. For any $i,j,k\in[n]$, $$\left\| a_{i}+a_{j} \right\| ^{2}+\left\| a_{j}+a_{k} \right\| ^{2}+\left\| a_{k}+a_{i} \right\| ^{2}=\left\| a_{i}+a_{j}+a_{k} \right\| ^{2}+\left\| a_{i} \right\| ^{2}+\left\| a_{j} \right\| ^{2}+\left\| a_{k} \right\| ^{2}\geq 3$$Hence at least one of them is at least 1. 
 >    
 >    Therefore, the maximum number is given by $$\text{ex}(n,K_{3})=e(T_{n,2})=\left\lfloor n^{2} / 4\right\rfloor $$
+
+---
+>[!lemma] Theorem 3 (Erdös-Stone)
+> Let $H$ be a graph of chromatic number $\chi(H)=r+1$. Then, 
+> 1. for any $\varepsilon>0$ and large enough $n$, $$\left( 1-\frac{1}{r} \right){n \choose 2}\leq \text{ex}(n,H)\leq \left( {1-\frac{1}{r}} \right){n \choose 2}+\varepsilon n^{2}$$
