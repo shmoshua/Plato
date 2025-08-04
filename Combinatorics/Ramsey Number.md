@@ -8,6 +8,8 @@
 ^bf6551
 
 - **Remark**: From the definition, if $R(s,t)\leq n$, then every 2-edge-coloring of $K_{n}$ does satisfy the property, i.e. if there exists an edge coloring of $K_{n}$ for which the property doesn't hold, then $R(s,t)>n$.  ^610a32
+- **Remark**: If $R(s,t)\leq N$, then for any graph $G$ on $N$ nodes, either $\omega(G)\geq s$ or $\alpha(G)\geq t$.
+- **Related definition**: the Ramsey number extends to $k$-colorings with $R_{k}(s_{1},\dots,s_{k})$
 ---
 ##### Properties
 > [!lemma] Theorem 1
@@ -18,7 +20,7 @@
 
 ^5ce7f6
 
-> [!proof]+
+> [!proof]-
 > We have:
 > 1. Assume that $R(s,t)>R(s-1,t)+R(s,t-1)=:n$. Now, consider a red-blue coloring of $K_{n}$ s.t. there is no red $K_{s}$ and no blue $K_{t}$. Now, choose a vertex $v$ and let $N_{r}$ be the set of vertices connected to $v$ with a red edge and $N_{b}$ the set of vertices connected to $v$ with a blue edge. Then, it holds that $\left| N_{r} \right|+\left| N_{b} \right|=n-1$. 
 >    
@@ -75,6 +77,25 @@
 ^79c6a2
 
 ---
+##### Multiple Ramsey Numbers
+> [!lemma] Theorem 4
+> We have that: $$R_{k}(s_{1},\dots,s_{k})\leq R_{k-1}(R(s_{1},s_{2}),s_{3},\dots,s_{k})$$
+
+> [!proof]-
+> Let $N:=R_{k-1}(R(s_{1},s_{2}),s_{3},\dots,s_{k})$. Then, for any $k$-edge-coloring of $K_{N}$, we can combine color 1 and 2 into a new color $c$. Then, by definition there is either $i$-colored $K_{s_{i}}$ or there is $c$-colored $K_{m}$ for $m:=R(s_{1},s_{2})$. The rest follows by definition.
+
+---
+##### Hypergraph Ramsey Numbers
+> [!lemma] Theorem 5
+> Let $s,t\geq 1$. 
+> 1. $R^{(3)}(s,t)=\min \{ s,t \}$  if $\min\{ s,t \}<3$.
+> 2. $R^{(3)}(s,t)=\max\{ s,t \}$ if $\min \{ s,t \}=3$.
+> 3. if $\min \{ s,t \}>3$, $$R^{(3)}(s,t)\leq R(R^{(3)}(s-1,t),R^{(3)}(s,t-1))+1$$
+
+> [!proof]+
+> We have that:
+> 1. Let $s=1$ and $t\geq 1$. Then, $X:=\{ x \}$ is a singleton set and there is only one edge $(x,x,x)$. 
+
 ##### Examples
 > [!h] Example 1 (Trivial Results)
 > We have:
