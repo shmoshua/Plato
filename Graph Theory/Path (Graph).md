@@ -86,13 +86,31 @@
 > 2. $\partial S\subseteq S^-\cup S^+$ or $V(P)$ forms a cycle in $G$.
 > 3. if $d(u)\geq 2$, then $G$ has a cycle containing $S\cup\partial S$.
 
-> [!proof]+
+^c5ca8a
+
+> [!proof]-
 > We have that:
 > 1. Let $x\in S$ and $y\in N(x)$. As $x\in S$, there is a path $Q:=x\dots v$ derived from $P$. Then, as $Q$ is also a longest path, $y\in V(Q)=V(P)$.
 > 2. Let $x\in S$ and $y\in N(x)$ be any neighbor. We will show that $y\in S^-\cup S\cup S^+$. As $x\in S$, there is a path $Q:=x\dots v$ derived from $P$. Further, by 1, $y\in V(P)$.
 > 	- if $y=v$, then we have a cycle on $V(P)$.
 > 	- otherwise, let $z:=y^-_{Q}$. Suppose that $y\notin S^-\cup S\cup S^+$. We claim that any edge $e\in P$ incident to $y$ lies on every path derived from $P$. Otherwise, in the rotation where $e$ is deleted, one of the endpoints will be added to $S$ and the other into $S^-\cup S^+$. Therefore, $e\in Q$ and $z\in \{ y^+,y^- \}$. However, we can perform a rotation on $Q$ to get:$$Q':=z\dots xy\dots v$$and $z\in S$. Hence, $y\in S^-\cup S\cup S^+$ which is a contradiction. 
 > 3. We have that $\partial S\subseteq V(P)$. From 2, if $V(P)$ forms a cycle in $G$ then we have a cycle containing $S\cup \partial S$. Otherwise, $\partial S\subseteq S^-\cup S^+$. Let $y$ be the last vertex of $P$ in $\partial S$. Then, $S\cup \partial S$ would lie on the subpath $P_{1}:=u\dots y$ of $P$, as any vertex in $S$ after $y$ in $P$ would have its successor in $\partial S$. Let $x\in S$ be the neighbor of $y$ in $G$ and let $Q=x\dots v$ be derived from $P$. Then, similar to 2, we have that every edge after $y$ in $P$ are also in every derived path of $P$ and therefore also in $Q$. Let $P_{2}:= y\dots v$ denote the subpath. Then, $P_{2}$ is a subpath of $Q$ as well. Let $Q_{1}$ be a subpath between $x$ and $y$ of $Q$. Then, $$S\cup \partial S \subseteq V(P_{1})=V(P) \backslash V(P_{2})=V(Q_{1})$$and $Q_{1}\cup \{ (y,x) \}$ is a cycle in $G$. Indeed, as $d(u)\geq 2$, there is a non-trivial rotation and $\left| S \right|>1$ and $\left| Q_{1} \right|=\left| P_{1} \right|\geq 3$
+
+^276eab
+
+---
+> [!lemma] Corollary 2
+> Let $G$ be a graph and $k\geq 2$.
+> 1. If for all $S\subseteq V(G)$ with $\left| S \right|\leq k$ we have $\left| \partial S \right|\geq \left| S \right|$, then $G$ has a cycle of length at least $3k$.
+
+^821639
+
+> [!proof]-
+> Let $S:=S(P)$ where $P:=u\dots v$ is the longest path. Further, $d(x)\geq 2$ as we can take $S:=\{ x \}$ in the assumption. 
+> 
+> If $\left| S \right|< k$, then as $u$ has no predecessor, we have that: $$\left| S^-\cup S^+ \right| <2\left| S \right| \leq \left| \partial S \right| $$and therefore, $\partial S\not\subseteq S^-\cup S^+$. This is a contradiction to Lemma 1.2 and we have that $\left| S \right|\geq k$. By Lemma 1.3, we have that there is a cycle containing $S\cup \partial S$. However, for a $k$-element subset $S'\subseteq S$, $$\left| S\cup \partial S \right| \geq \left| S'\cup \partial S' \right| =\left| S' \right| +\left| \partial S' \right| \geq 3\left| S' \right| =3k $$
+
+^6f796d
 
 ---
 ##### Others

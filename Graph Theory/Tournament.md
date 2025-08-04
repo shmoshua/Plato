@@ -7,6 +7,7 @@
 
 - **Related definition**: A tournament $T_{n}$ has a ***$S_{k}$-property*** if for all $S\subseteq V(T_{n})$ with $\left| S \right|\leq k$, there is a vertex in $T_{n}$ that dominates all vertices in $S$, i.e. there exists $v\in T_{n}$ s.t. $u\to v$ for all $u\in S$. ^00613b
 - **Related definition**: Let $T_{n}$ be a tournament on $[n]$ and $\pi:[n]\to[n]$ a permutation. An edge $i\to j$ is ***consistent*** if $\pi ^{-1}(i)<\pi ^{-1}(j)$.  ^81ade0
+- **Related definition**: A tournament $T_{n}$ is ***strongly connected*** if for all $u,v$ there is a directed $uv$-path.
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Erdös)
@@ -37,7 +38,15 @@
 ^64e966
 
 ---
-> [!lemma] Theorem 3 (Szelle, 1943)
+> [!lemma] Theorem 3 (Strongly Connectedness and Hamiltonicity)
+> Let $T$ be a tournament. TFAE:
+> 1. $T$ is strongly connected.
+> 2. $T$ is Hamiltonian.
+
+> [!proof]+
+> 
+---
+> [!lemma] Theorem 4 (Szelle, 1943)
 > There exists a tournament $T_{n}$ on $n$ vertices with at least $\frac{n!}{2^{n-1}}$ Hamiltonian paths.
 
 ^2cfb3a
@@ -50,7 +59,7 @@
 ^8f29dd
 
 ---
-> [!lemma] Theorem 4 (Alon)
+> [!lemma] Theorem 5 (Alon)
 > Let $P(n)$ be the maximal number of Hamiltonian paths $T_{n}$ can have. Then, 
 > 1. $P(n)\leq (1+\text{o}(1))\frac{\sqrt{ \pi }}{\sqrt{ 2 }e}n^{3/2}\frac{n!}{2^{n-1}}$
 

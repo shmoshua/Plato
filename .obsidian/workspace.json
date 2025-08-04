@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Path (Graph).md",
+                "file": "Graph Theory/Tournament.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Path (Graph)"
+              "title": "Tournament"
             }
           }
         ],
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph.md",
+                "file": "Graph Theory/Tournament.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph"
+              "title": "Tournament"
             }
           },
           {
@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -330,17 +330,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "83ca64246e25a9b6",
+  "active": "b4dbf24e5ac9c3eb",
   "lastOpenFiles": [
-    "Topology/Path.md",
-    "Graph Theory/Graph.md",
+    "Graph Theory/Path (Graph).md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/Tournament.md",
+    "Graph Theory/Graph.md",
     "Graph Theory/Closure (Graph Theory).md",
+    "Topology/Path.md",
     "Graph Theory/Directed Acyclic Graph (DAG).md",
     "Algebra/Linear Algebra/Determinant.md",
     "Graph Theory/Tree.md",
     "Graph Theory/k-Connected Graph.md",
-    "Graph Theory/Path (Graph).md",
     "Graph Theory/Independence and Clique.md",
     "Probability Theory/Independence.md",
     "Graph Theory/Clique.md",
@@ -354,7 +355,6 @@
     "Graph Theory/Degenerate Graph.md",
     "Graph Theory/Planar Graph.md",
     "Graph Theory/Line Graph.md",
-    "Graph Theory/Tournament.md",
     "Algorithms/Covering.md",
     "Graph Theory/Minor.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
