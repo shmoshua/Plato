@@ -90,12 +90,22 @@
 
 ---
 > [!lemma] Theorem 5
-> We have that: $$R_{k}(3):=R_{k}(3,3,\dots,3)\leq \left\lfloor e\cdot  k!\right\rfloor +1$$
+> We have that: 
+> 1. $R_{k}(3):=R_{k}(3,3,\dots,3)\leq \left\lfloor e\cdot  k!\right\rfloor +1$ and
+> 2. $2^k<R_{k}(3)$. 
 
-> [!proof]+
-> We show this via induction on $k$. 
-> 1. For $k=2$, we have that $R_{2}(3)=6=\left\lfloor 2e\right\rfloor+1$.
-> 2. Let $k\geq 3$. Let $x$ be any point in a $k$-colored complete graph on $\left\lfloor e\cdot k!\right\rfloor+1$ nodes. Then, $x$ has $\left\lfloor e\cdot k!\right\rfloor$ neighbors split into $k$ classes. Notice that: $$\left\lfloor e\cdot k!\right\rfloor=\left\lfloor \sum_{j=0}^{\infty} \frac{k!}{j!}\right\rfloor=\sum_{j=0}^{k} \frac{k!}{j!}=1+k\sum_{j=0}^{k-1}\frac{(k-1)!}{j!}=1+k\left\lfloor e\cdot (k-1)!\right\rfloor $$Hence, 
+^acc2ba
+
+> [!proof]-
+> We have:
+> 1. We show this via induction on $k$. 
+> 	- For $k=2$, we have that $R_{2}(3)=6=\left\lfloor 2e\right\rfloor+1$.
+> 	- Let $k\geq 3$. Let $x$ be any point in a $k$-colored complete graph on $\left\lfloor e\cdot k!\right\rfloor+1$ nodes. Then, $x$ has $\left\lfloor e\cdot k!\right\rfloor$ neighbors split into $k$ classes. Notice that: $$\left\lfloor e\cdot k!\right\rfloor=\left\lfloor \sum_{j=0}^{\infty} \frac{k!}{j!}\right\rfloor=\sum_{j=0}^{k} \frac{k!}{j!}=1+k\sum_{j=0}^{k-1}\frac{(k-1)!}{j!}=1+k\left\lfloor e\cdot (k-1)!\right\rfloor $$Hence, at least one class, wlog red, has $\left\lfloor e\cdot (k-1)!\right\rfloor+1$ edges adjacent to $x$. Let $S$ be the set of those vertices joined by red edges.
+>    
+> 	   If $S$ spans a red edge, then this forms a red triangle together with $x$ and we are done. Otherwise, $S$ spans a complete graph with $k-1$ colors. Hence, by the induction hypothesis there is a monochromatic triangle and we are done.
+> 2. Note that $K_{2^k}$ can be $k$-colored s.t. each color spans a bipartite graph. Since every bipartite graph is triangle-free, we have the statement.
+
+^5c6e81
 
 ---
 ##### Hypergraph Ramsey Numbers

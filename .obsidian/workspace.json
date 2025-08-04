@@ -36,8 +36,7 @@
               "title": "Ramsey Number"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -170,8 +169,7 @@
               "title": "Graph Matrices"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -316,10 +314,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6a82c8fa16e72294",
+  "active": "8207292bb85f5852",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Combinatorics/Ramsey Number.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Closure (Graph Theory).md",
     "Graph Theory/Hypergraph.md",
     "Graph Theory/Independence and Clique.md",
