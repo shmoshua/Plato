@@ -81,8 +81,21 @@
 > [!lemma] Theorem 4
 > We have that: $$R_{k}(s_{1},\dots,s_{k})\leq R_{k-1}(R(s_{1},s_{2}),s_{3},\dots,s_{k})$$
 
+^6540ef
+
 > [!proof]-
 > Let $N:=R_{k-1}(R(s_{1},s_{2}),s_{3},\dots,s_{k})$. Then, for any $k$-edge-coloring of $K_{N}$, we can combine color 1 and 2 into a new color $c$. Then, by definition there is either $i$-colored $K_{s_{i}}$ or there is $c$-colored $K_{m}$ for $m:=R(s_{1},s_{2})$. The rest follows by definition.
+
+^ad1c73
+
+---
+> [!lemma] Theorem 5
+> We have that: $$R_{k}(3):=R_{k}(3,3,\dots,3)\leq \left\lfloor e\cdot  k!\right\rfloor +1$$
+
+> [!proof]+
+> We show this via induction on $k$. 
+> 1. For $k=2$, we have that $R_{2}(3)=6=\left\lfloor 2e\right\rfloor+1$.
+> 2. Let $k\geq 3$. Let $x$ be any point in a $k$-colored complete graph on $\left\lfloor e\cdot k!\right\rfloor+1$ nodes. Then, $x$ has $\left\lfloor e\cdot k!\right\rfloor$ neighbors split into $k$ classes. Notice that: $$\left\lfloor e\cdot k!\right\rfloor=\left\lfloor \sum_{j=0}^{\infty} \frac{k!}{j!}\right\rfloor=\sum_{j=0}^{k} \frac{k!}{j!}=1+k\sum_{j=0}^{k-1}\frac{(k-1)!}{j!}=1+k\left\lfloor e\cdot (k-1)!\right\rfloor $$Hence, 
 
 ---
 ##### Hypergraph Ramsey Numbers
@@ -92,9 +105,17 @@
 > 2. $R^{(3)}(s,t)=\max\{ s,t \}$ if $\min \{ s,t \}=3$.
 > 3. if $\min \{ s,t \}>3$, $$R^{(3)}(s,t)\leq R(R^{(3)}(s-1,t),R^{(3)}(s,t-1))+1$$
 
-> [!proof]+
+^fc3c57
+
+> [!proof]-
 > We have that:
-> 1. Let $s=1$ and $t\geq 1$. Then, $X:=\{ x \}$ is a singleton set and there is only one edge $(x,x,x)$. 
+> 1. For $N:=\min\{ s,t \}<3$, $K_{N}^{(3)}$ is already monochromatic. 
+> 2. Let $s=3$ and $t\geq 3$. Then, consider $K_{t}^{(3)}$. If $t$ has a red edge, then we have $K_{s}^{(3)}$. Otherwise, $K_{t}^{(3)}$ is blue. 
+> 3. Let $X$ be a set with $R^{(3)}(s,t)\leq R(R^{(3)}(s-1,t),R^{(3)}(s,t-1))+1$ elements. Given any red-blue coloring of $X^{(3)}$, pick $x\in X$. Let $K_{x}$ be the complete graph on $X \backslash \{ x \}$ and define an edge coloring $c'$ on $K_{x}$ by: $$c'(\{ y,z \})=c(\{ x,y,z \})$$Wlog  assume that $K_{x}$ has a red subset $Z\subseteq X \backslash \{ x \}$ with $R^{(3)}(s-1,t)$ elements. 
+>    
+>    Now, let's look at $c$ on $Z^{(3)}$. If this has a blue $t$ set, we are done. On the other hand, there is no blue $t$-set and there is a red $s-1$ set. This together with $\{ x \}$ is a red $s$-set of $X$, because $\{ x \}\cup e$ is red for every $e\in K_{x}[Z]$.
+
+^788618
 
 ##### Examples
 > [!h] Example 1 (Trivial Results)

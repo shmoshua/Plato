@@ -9,20 +9,6 @@
         "dimension": 48.71645274212369,
         "children": [
           {
-            "id": "b8135ed19adb35f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Closure (Graph Theory).md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Closure (Graph Theory)"
-            }
-          },
-          {
             "id": "8207292bb85f5852",
             "type": "leaf",
             "state": {
@@ -51,7 +37,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -185,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -330,15 +316,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e8062253689b259f",
+  "active": "6a82c8fa16e72294",
   "lastOpenFiles": [
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Combinatorics/Ramsey Number.md",
+    "Graph Theory/Closure (Graph Theory).md",
     "Graph Theory/Hypergraph.md",
     "Graph Theory/Independence and Clique.md",
     "Graph Theory/k-Connected Graph.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Tournament.md",
-    "Graph Theory/Closure (Graph Theory).md",
     "Graph Theory/Path (Graph).md",
     "Graph Theory/Graph.md",
     "Topology/Path.md",
