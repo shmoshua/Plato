@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Independence and Clique.md",
+                "file": "Graph Theory/k-Connected Graph.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Independence and Clique"
+              "title": "k-Connected Graph"
             }
           },
           {
@@ -119,12 +119,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Directed Acyclic Graph (DAG).md",
+                "file": "Graph Theory/Path (Graph).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Directed Acyclic Graph (DAG)"
+              "title": "Path (Graph)"
             }
           },
           {
@@ -345,14 +345,17 @@
   },
   "active": "6a82c8fa16e72294",
   "lastOpenFiles": [
+    "Graph Theory/k-Connected Graph.md",
+    "Graph Theory/Closure (Graph Theory).md",
+    "Graph Theory/Path (Graph).md",
+    "Topology/Path.md",
+    "Graph Theory/Directed Acyclic Graph (DAG).md",
     "Graph Theory/Independence and Clique.md",
     "Probability Theory/Independence.md",
     "Graph Theory/Clique.md",
-    "Graph Theory/Closure (Graph Theory).md",
     "Algebra/Linear Algebra/Determinant.md",
     "Graph Theory/Tree.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Graph Theory/Directed Acyclic Graph (DAG).md",
     "Graph Theory/Kernel (Graph Theory).md",
     "Graph Theory/Graph Matrices.md",
     "Topology/Algebraic Topology/Tor.md",
@@ -368,9 +371,6 @@
     "Graph Theory/Minor.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Graph Theory/Girth and Circumference.md",
-    "Topology/Algebraic Topology/Singular Homology.md",
-    "Graph Theory/Graph.md",
-    "Courses/Graph Theory/Problem Set 5.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",

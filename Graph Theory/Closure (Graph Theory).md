@@ -47,3 +47,7 @@
 
 > [!proof]+
 > We have that $G$ is trivially true if $G$ is complete. Otherwise, we have that $\kappa(G)\geq \alpha(G)\geq 2$. We show that if $G$ has no Hamiltonian cycle, then $k:=\kappa(G)<\alpha(G)$. 
+> 
+> Let $C$ be the longest cycle, which is not Hamiltonian. Let $H$ be a component in $G \backslash C$. Since $\delta(G)\geq \kappa(G)$ and by [[Path (Graph)|Proposition 2]] $G$ has a cycle of length at least $\delta(G)+1$, we have that $C$ has at least $k+1$ vertices. Also $C$ has at least $k$ vertices with edges to $H$ from $\kappa(G)=k$. 
+> 
+> Let $u_{1},\dots,u_{\ell}$ be the vertices on $C$ with edges to $H$ where $\ell\geq k$ in clockwise order. Let $a_{i}$ be the vertices right after $u_{i}$ on $C$. 
