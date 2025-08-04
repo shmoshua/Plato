@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Combinatorics/Ramsey Number.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tournament"
+              "title": "Ramsey Number"
             }
           }
         ],
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Tournament.md",
+                "file": "Combinatorics/Ramsey Number.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tournament"
+              "title": "Ramsey Number"
             }
           },
           {
@@ -332,11 +332,12 @@
   },
   "active": "b4dbf24e5ac9c3eb",
   "lastOpenFiles": [
-    "Graph Theory/Path (Graph).md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Combinatorics/Ramsey Number.md",
     "Graph Theory/Tournament.md",
-    "Graph Theory/Graph.md",
     "Graph Theory/Closure (Graph Theory).md",
+    "Graph Theory/Path (Graph).md",
+    "Graph Theory/Graph.md",
     "Topology/Path.md",
     "Graph Theory/Directed Acyclic Graph (DAG).md",
     "Algebra/Linear Algebra/Determinant.md",
@@ -357,7 +358,6 @@
     "Graph Theory/Line Graph.md",
     "Algorithms/Covering.md",
     "Graph Theory/Minor.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",

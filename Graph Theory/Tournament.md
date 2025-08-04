@@ -7,7 +7,7 @@
 
 - **Related definition**: A tournament $T_{n}$ has a ***$S_{k}$-property*** if for all $S\subseteq V(T_{n})$ with $\left| S \right|\leq k$, there is a vertex in $T_{n}$ that dominates all vertices in $S$, i.e. there exists $v\in T_{n}$ s.t. $u\to v$ for all $u\in S$. ^00613b
 - **Related definition**: Let $T_{n}$ be a tournament on $[n]$ and $\pi:[n]\to[n]$ a permutation. An edge $i\to j$ is ***consistent*** if $\pi ^{-1}(i)<\pi ^{-1}(j)$.  ^81ade0
-- **Related definition**: A tournament $T_{n}$ is ***strongly connected*** if for all $u,v$ there is a directed $uv$-path.
+- **Related definition**: A tournament $T_{n}$ is ***strongly connected*** if for all $u,v$ there is a directed $uv$-path. ^e772b5
 ---
 ##### Properties
 > [!lemma] Theorem 1 (Erdös)
@@ -43,8 +43,19 @@
 > 1. $T$ is strongly connected.
 > 2. $T$ is Hamiltonian.
 
-> [!proof]+
-> 
+^1b4740
+
+> [!proof]-
+> We have that:
+> 1. (1=>2): Suppose $T$ is not Hamiltonian. Let $C$ be a longest cycle in $T$ and let $v\notin C$. As $C$ is the longest cycle, for every consecutive vertices $u,u^+$ on $C$, we have that either $v\to u$ or $u^+ \to v$. Therefore, all edges from $C$ to $v$ go in only one direction. Wlog we may assume this is the case for every vertex not on $C$. 
+>    
+>    Let $A$ be the set of $v\notin C$ s.t. edges go from $v$ to $C$. Let $B$ be the set of $v\notin C$ s.t. edges go from $C$ to $v$. Then, if one of $A$ or $B$ are empty, then it follows that $T$ is not strongly connected. 
+>    
+>    Assume that $A,B$ are both non-empty. There is no edge oriented from a vertex $b\in B$ to $a\in A$. Indeed, otherwise, we can extend $x\to y$ in $C$ into $x \to b\to a \to y$. Therefore, $T$ is not strongly connected.
+> 2. (2=>1): Obvious as from the Hamiltonian cycle we have a $uv$-path for every $u,v$.
+
+^b57839
+
 ---
 > [!lemma] Theorem 4 (Szelle, 1943)
 > There exists a tournament $T_{n}$ on $n$ vertices with at least $\frac{n!}{2^{n-1}}$ Hamiltonian paths.

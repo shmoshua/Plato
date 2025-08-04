@@ -14,10 +14,11 @@
 > For $s,t>2$, we have that:
 > 1. $R(s,t)\leq R(s-1,t)+R(s,t-1)$
 > 2. if $R(s-1,t),R(s,t-1)$ are both even, $R(s,t)\leq R(s-1,t)+R(s,t-1)-1$
+> 3. $R(s,t)\leq{s+t-2 \choose s-1}$
 
 ^5ce7f6
 
-> [!proof]-
+> [!proof]+
 > We have:
 > 1. Assume that $R(s,t)>R(s-1,t)+R(s,t-1)=:n$. Now, consider a red-blue coloring of $K_{n}$ s.t. there is no red $K_{s}$ and no blue $K_{t}$. Now, choose a vertex $v$ and let $N_{r}$ be the set of vertices connected to $v$ with a red edge and $N_{b}$ the set of vertices connected to $v$ with a blue edge. Then, it holds that $\left| N_{r} \right|+\left| N_{b} \right|=n-1$. 
 >    
@@ -28,6 +29,7 @@
 > 	3. $2p-1$ red edges and $2q-1$ blue edges end at $v$. We will show that this cannot hold for all vertices $v$. If it did, then we would have $(2p+2q-1)(2p-1)$ red endpoints. However, this is an odd number which is a contradiction. 
 > 	   
 > 	Therefore, there exists at least one vertex $v$ for which either case 1 or 2 holds. This proves the statement.
+> 3. If $s=t=2$, then we have that: $$R(2,2)=2={2 \choose 1}$$Now by induction, we have that: $$R(s,t)\leq R(s-1,t)+R(s,t-1)\leq {s+t-3 \choose s-2}+{s+t-3 \choose s-1}={s+t-2 \choose s-1}$$
 
 ^3cf037
 
