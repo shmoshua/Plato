@@ -40,3 +40,20 @@
 >[!lemma] Theorem 3 (Erdös-Stone)
 > Let $H$ be a graph of chromatic number $\chi(H)=r+1$. Then, 
 > 1. for any $\varepsilon>0$ and large enough $n$, $$\left( 1-\frac{1}{r} \right){n \choose 2}\leq \text{ex}(n,H)\leq \left( {1-\frac{1}{r}} \right){n \choose 2}+\varepsilon n^{2}$$
+---
+> [!lemma] Theorem 4
+> Let $G$ be a graph on $n$ nodes. 
+> 1. $\text{ex}(n,C_{4})\leq \left\lfloor \frac{n}{4}(1+\sqrt{ 4n-3 })\right\rfloor$
+
+> [!proof]-
+> We have that:
+> 1. Let $G$ be a graph on $n$ without $C_{4}$. Let $S$ be a set of pairs $(u,\{ v,w \})$ where $v,w\in N(u)$ with $v\neq w$. We count $S$ in two different ways. Naively, we have that $\left| S \right|=\sum_{u\in V}^{}{d(u)\choose 2}$. On the other hand, every pair $\{ v,w \}$ has at most one common neighbor as $G$ is $C_{4}$-free. Hence, we have that $$\sum_{u\in V}^{}{d(u) \choose 2}\leq {n \choose 2}$$Or equivalently, $$\sum_{u\in V}^{}d(u)^{2}\leq n(n-1)+\sum_{u\in V}^{}d(u)$$By Cauchy-Schwarz, we have: $$\left( \sum_{u\in V}^{}d(u) \right) ^{2}\leq n\sum_{u\in V}^{}d(u)^{2}\leq n^{2}(n-1)+n\sum_{u\in V}^{}d(u)$$In other words, $$4\left| E \right| ^{2}\leq n^{2}(n-1)+2n \left| E \right| $$Equivalently, $$\left| E \right| ^{2}- \frac{n}{2}\left| E \right|-\frac{n^{2}(n-1)}{4}\leq 0 $$Solving this quadratic equation gives us the answer. 
+>    
+---
+ > [!lemma] Theorem 5 (Kövari-Sos-Turan)
+ > For any integers $r\leq s$, 
+ > 1. $\text{ex}(n,K_{r,s})\leq cn^{2- 1/r}$
+
+> [!proof]+
+> We ha
+ 
