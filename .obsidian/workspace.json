@@ -168,8 +168,23 @@
               "icon": "lucide-file",
               "title": "Graph Matrices"
             }
+          },
+          {
+            "id": "132e7140a891bcc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Compact Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Compact Space"
+            }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -314,11 +329,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "132e7140a891bcc7",
   "lastOpenFiles": [
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Turan Number.md",
     "Combinatorics/Ramsey Number.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Closure (Graph Theory).md",
     "Graph Theory/Hypergraph.md",
     "Graph Theory/Independence and Clique.md",
