@@ -183,8 +183,7 @@
               "title": "Compact Space"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -329,8 +328,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "132e7140a891bcc7",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Topology/Compact Space.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Turan Number.md",
     "Combinatorics/Ramsey Number.md",
@@ -356,7 +356,6 @@
     "Graph Theory/Vertex Cover.md",
     "Graph Theory/Degenerate Graph.md",
     "Graph Theory/Planar Graph.md",
-    "Graph Theory/Line Graph.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
