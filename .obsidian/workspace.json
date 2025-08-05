@@ -169,8 +169,7 @@
               "title": "Graph Matrices"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -315,10 +314,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6a82c8fa16e72294",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
-    "Combinatorics/Ramsey Number.md",
     "Graph Theory/Turan Number.md",
+    "Combinatorics/Ramsey Number.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Closure (Graph Theory).md",
     "Graph Theory/Hypergraph.md",
