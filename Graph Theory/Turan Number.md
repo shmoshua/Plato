@@ -54,6 +54,16 @@
  > For any integers $r\leq s$, 
  > 1. $\text{ex}(n,K_{r,s})\leq cn^{2- 1/r}$
 
-> [!proof]+
-> We ha
- 
+> [!proof]-
+> We have that:
+> 1. Let $m:= \left| E \right|$ and $V:=\{ x_{1},\dots,x_{n} \}$ and $d_{i}:= d(x_{i})$. Since $G$ is $K_{r,s}$-free, for any given $r$-tuple in $V$, there are at most $s-1$ vertices whose neighborhood contain that $r$-tuple. The neighborhood of $x_{i}$ contains ${d_{i} \choose r}$ $r$-tuples. So, $$\sum_{i=1}^{n}{d_{i} \choose r}\leq (s-1){n \choose r}$$Note that $x\mapsto {x \choose r}$ is convex for $x\geq r-1$. Hence, $$f(x):=\begin{cases}{x \choose r}&x\geq r-1 \\0&\text{otherwise} \end{cases}$$Then, by Jensen, $$\sum_{i=1}^{n}{d_{i} \choose r}=\sum_{i=1}^{n}f(d_{i})\geq nf\left( \frac{1}{n}\sum_{i=1}^{n}d_{i} \right)=nf\left( \frac{2m}{n} \right)$$If $\frac{2m}{n}<r-1$, there is nothing to prove. Suppose that $\frac{2m}{n}\geq r-1$. Then, $$(s-1){n \choose r}\geq nf\left( \frac{2m}{n} \right)=n{2m / n \choose r}$$Then, $$\frac{n}{r!}\left( \frac{2m}{n}-r+1 \right)^r<(s-1)\frac{n^r}{r!}$$and we get that $\left( \frac{2m}{n}-r+1 \right)^r<(s-1)n^{r-1}$. Therefore, $$2m<(s-1)^{1/r}n^{2-1/r}+n(r-1)<c\cdot n^{2-1/r}$$for some $c$. Finishing the proof. 
+- **Remark**: $\text{ex}(n,K_{r,s})=O(n^{2-1/r})$ is tight for $r=2,3$ and if $s\geq 1000^r$. 
+---
+> [!lemma] Corollary 6 (Erdös)
+> Let $x_{1},\dots,x_{n}\subseteq \mathbb{R}^{2}$ be $n$ distinct points. 
+> 1. there can be at most $cn^{3/2}$ pairs of points of distance $1$. 
+
+> [!proof]-
+> We have that:
+> 1. Define $G$ on $[n]$ where $i\sim j$ iff $d(x_{i},x_{j})=1$. We claim that $G$ cannot have $K_{2,3}$ as a subgraph as two different circles of radius $1$ can have at most $2$ intersection points. Therefore, by Kövari-Sos-Turan, $$\text{ex}(n,K_{2,3})\leq cn^{3/2}$$
+---
