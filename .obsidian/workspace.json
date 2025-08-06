@@ -197,8 +197,7 @@
               "title": "Kernel"
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -343,8 +342,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c30f4a2b235a8f9c",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Analysis/Kernel.md",
     "Topology/Compact Space.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Graph Theory/Problem Set 6.md",
@@ -370,7 +370,6 @@
     "Graph Theory/Graph Matrices.md",
     "Topology/Algebraic Topology/Tor.md",
     "Graph Theory/List Coloring.md",
-    "Graph Theory/Graph Coloring.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
