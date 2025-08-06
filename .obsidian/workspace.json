@@ -63,12 +63,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 5.md",
+                "file": "Courses/Graph Theory/Problem Set 6.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 5"
+              "title": "Problem Set 6"
             }
           },
           {
@@ -331,6 +331,7 @@
   },
   "active": "6a82c8fa16e72294",
   "lastOpenFiles": [
+    "Courses/Graph Theory/Problem Set 5.md",
     "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Graph Theory/Problem Set 4.md",
@@ -356,7 +357,6 @@
     "Topology/Algebraic Topology/Tor.md",
     "Graph Theory/List Coloring.md",
     "Graph Theory/Graph Coloring.md",
-    "Graph Theory/Matching.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
