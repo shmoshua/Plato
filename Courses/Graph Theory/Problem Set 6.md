@@ -106,3 +106,8 @@ We draw a graph $G$ on the $n$ points where $uv\in E(G)$ if $d(u,v)=1$. Now assu
 Therefore, this graph is planar and there are at most $3n-6$ edges, i.e. pairs with distance exactly 1 between them.
 
 ---
+
+#### Problem 7
+We have that:$$M:=D-A$$
+where $D$ is the degree matrix and $A$ is the adjacency matrix. More concretely, $$M=\begin{bmatrix} sI_{r}&0\\0&rI_{s}\end{bmatrix}-\begin{bmatrix}0&1_{r \times s}\\1_{ s \times r}&0\end{bmatrix}=\begin{bmatrix}sI_{r}&-1_{r \times s}\\-1_{ s \times r}&rI_{s}\end{bmatrix}$$
+Then, $$M_{11}=\begin{bmatrix}sI_{r-1}&-1_{(r-1) \times s}\\-1_{ s \times (r-1)}&rI_{s}\end{bmatrix}$$Therefore, $$$$

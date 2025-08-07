@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Path (Graph).md",
+                "file": "Courses/Graph Theory/Problem Set 6.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Path (Graph)"
+              "title": "Problem Set 6"
             }
           }
         ],
@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
+                "file": "Courses/Graph Theory/Problem Set 6.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Theory Roadmap"
+              "title": "Problem Set 6"
             }
           },
           {
@@ -190,16 +190,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Kernel.md",
+                "file": "Graph Theory/Graph Matrices.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Kernel"
+              "title": "Graph Matrices"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -344,17 +343,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c30f4a2b235a8f9c",
+  "active": "f08af5935ed0f0ed",
   "lastOpenFiles": [
     "Graph Theory/Path (Graph).md",
-    "Topology/Path.md",
+    "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Graph Theory/Hypergraph.md",
+    "Graph Theory/Graph Matrices.md",
+    "Analysis/Kernel.md",
+    "Topology/Path.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "Graph Theory/Graph Coloring.md",
-    "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Analysis/Kernel.md",
     "Topology/Compact Space.md",
     "Courses/Graph Theory/Problem Set 5.md",
     "Courses/Graph Theory/Problem Set 4.md",
@@ -362,7 +363,6 @@
     "Graph Theory/Turan Number.md",
     "Combinatorics/Ramsey Number.md",
     "Graph Theory/Closure (Graph Theory).md",
-    "Graph Theory/Hypergraph.md",
     "Graph Theory/Independence and Clique.md",
     "Graph Theory/k-Connected Graph.md",
     "Graph Theory/Tournament.md",
@@ -371,7 +371,6 @@
     "Algebra/Linear Algebra/Determinant.md",
     "Graph Theory/Tree.md",
     "Probability Theory/Independence.md",
-    "Graph Theory/Clique.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
