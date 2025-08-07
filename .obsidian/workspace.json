@@ -49,12 +49,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+                "file": "Courses/Graph Theory/Graph Theory Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Probabilistic AI Roadmap"
+              "title": "Graph Theory Roadmap"
             }
           },
           {
@@ -344,6 +344,7 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Analysis/Kernel.md",
     "Topology/Compact Space.md",
@@ -369,7 +370,6 @@
     "Graph Theory/Kernel (Graph Theory).md",
     "Graph Theory/Graph Matrices.md",
     "Topology/Algebraic Topology/Tor.md",
-    "Graph Theory/List Coloring.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
