@@ -63,12 +63,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 6.md",
+                "file": "Graph Theory/Graph Coloring.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 6"
+              "title": "Graph Coloring"
             }
           },
           {
@@ -344,11 +344,12 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
+    "Graph Theory/Graph Coloring.md",
+    "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Kernel.md",
     "Topology/Compact Space.md",
-    "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Graph Theory/Problem Set 5.md",
     "Courses/Graph Theory/Problem Set 4.md",
     "Courses/Graph Theory/Problem Set 3.md",
@@ -369,7 +370,6 @@
     "Graph Theory/Clique.md",
     "Graph Theory/Kernel (Graph Theory).md",
     "Graph Theory/Graph Matrices.md",
-    "Topology/Algebraic Topology/Tor.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
