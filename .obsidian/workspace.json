@@ -58,20 +58,6 @@
             }
           },
           {
-            "id": "6a82c8fa16e72294",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Theory/Graph Coloring.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Graph Coloring"
-            }
-          },
-          {
             "id": "e8062253689b259f",
             "type": "leaf",
             "state": {
@@ -344,9 +330,11 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "Graph Theory/Graph Coloring.md",
-    "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
+    "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Kernel.md",
     "Topology/Compact Space.md",
@@ -368,8 +356,6 @@
     "Graph Theory/Tree.md",
     "Probability Theory/Independence.md",
     "Graph Theory/Clique.md",
-    "Graph Theory/Kernel (Graph Theory).md",
-    "Graph Theory/Graph Matrices.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
