@@ -35,8 +35,23 @@
               "icon": "lucide-file",
               "title": "Ramsey Number"
             }
+          },
+          {
+            "id": "f08af5935ed0f0ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Path (Graph).md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Path (Graph)"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -328,12 +343,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "f08af5935ed0f0ed",
   "lastOpenFiles": [
+    "Topology/Path.md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "Graph Theory/Graph Coloring.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Analysis/Kernel.md",
@@ -350,7 +366,6 @@
     "Graph Theory/Tournament.md",
     "Graph Theory/Path (Graph).md",
     "Graph Theory/Graph.md",
-    "Topology/Path.md",
     "Graph Theory/Directed Acyclic Graph (DAG).md",
     "Algebra/Linear Algebra/Determinant.md",
     "Graph Theory/Tree.md",
