@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Hypergraph.md",
+                "file": "Combinatorics/Ramsey Number.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hypergraph"
+              "title": "Ramsey Number"
             }
           },
           {
@@ -198,7 +198,8 @@
               "title": "Graph Matrices"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -343,12 +344,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f08af5935ed0f0ed",
+  "active": "e8062253689b259f",
   "lastOpenFiles": [
-    "Graph Theory/Path (Graph).md",
-    "Courses/Graph Theory/Problem Set 6.md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Hypergraph.md",
+    "Courses/Graph Theory/Problem Set 6.md",
+    "Graph Theory/Path (Graph).md",
+    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Graph Matrices.md",
     "Analysis/Kernel.md",
     "Topology/Path.md",
