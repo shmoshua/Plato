@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Exam2024.md",
+                "file": "Courses/Graph Theory/Exam2023.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exam2024"
+              "title": "Exam2023"
             }
           }
         ],
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Exam2024.md",
+                "file": "Courses/Graph Theory/Exam2023.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exam2024"
+              "title": "Exam2023"
             }
           },
           {
@@ -344,10 +344,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f08af5935ed0f0ed",
+  "active": "e8062253689b259f",
   "lastOpenFiles": [
     "Courses/Graph Theory/Problem Set 6.md",
-    "Courses/Graph Theory/Exam2024.md",
+    "Courses/Graph Theory/Exam2023.md",
     "Combinatorics/Ramsey Number.md",
     "Graph Theory/Hypergraph.md",
     "Graph Theory/Path (Graph).md",
