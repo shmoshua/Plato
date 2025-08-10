@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 6.md",
+                "file": "Courses/Graph Theory/Exam2024.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 6"
+              "title": "Exam2024"
             }
           }
         ],
@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combinatorics/Ramsey Number.md",
+                "file": "Courses/Graph Theory/Exam2024.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ramsey Number"
+              "title": "Exam2024"
             }
           },
           {
@@ -344,10 +344,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e8062253689b259f",
+  "active": "f08af5935ed0f0ed",
   "lastOpenFiles": [
-    "Graph Theory/Hypergraph.md",
     "Courses/Graph Theory/Problem Set 6.md",
+    "Courses/Graph Theory/Exam2024.md",
+    "Combinatorics/Ramsey Number.md",
+    "Graph Theory/Hypergraph.md",
     "Graph Theory/Path (Graph).md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Graph Matrices.md",
@@ -362,7 +364,6 @@
     "Courses/Graph Theory/Problem Set 4.md",
     "Courses/Graph Theory/Problem Set 3.md",
     "Graph Theory/Turan Number.md",
-    "Combinatorics/Ramsey Number.md",
     "Graph Theory/Closure (Graph Theory).md",
     "Graph Theory/Independence and Clique.md",
     "Graph Theory/k-Connected Graph.md",
@@ -371,7 +372,6 @@
     "Graph Theory/Directed Acyclic Graph (DAG).md",
     "Algebra/Linear Algebra/Determinant.md",
     "Graph Theory/Tree.md",
-    "Probability Theory/Independence.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
