@@ -11,7 +11,7 @@
 
 ---
 
-#### 1.1 Least-Squares Estimator
+##### 1.1.1 Least-Squares Estimator
 
 > [!lemma] Proposition 1
 > For the least squares solution $\widehat{\beta}:=\underset{ \beta\in \mathbb{R}^d }{ \arg\max }\left\| X\beta-y \right\|^{2}_{2}$ we have that: $$\mathbb{E}[\|\beta^0-\widehat{\beta}\|^{2}]=\sigma^{2} \cdot  \frac{d}{n}$$
@@ -27,7 +27,7 @@
 	1. the ***risk*** is defined as:$$\text{R}(\widehat{\beta};\beta^0):=\mathbb{E}_{w}\left[ \left\| \widehat{\beta}(X\beta^0+w)-\beta^0 \right\|^{2}  \right] $$
 - **Remark**: We showed that $\text{R}(\widehat{\beta}_{\text{LS}};\beta^0)=\sigma^{2} \frac{d}{n}$
 ---
-#### 1.2 Bayes-Optimal Estimator
+##### 1.1.2 Bayes-Optimal Estimator
 > [!definition] 
 > For linear regression problem, 
 > 1. the ***Bayes optimal estimator*** for a distribution $P\in \Delta(\mathbb{R}^d)$ with $\beta^0\sim P$ is defined as: $$\widehat{\beta}_{P}:= \mathbb{E}[\beta^0|X\beta^0+w]$$More specifically,$$\widehat{\beta}_{P}:\mathbb{R}^n\to \mathbb{R}^d,\quad y\mapsto \mathbb{E}[\beta^0|X\beta^0+w=y]$$
@@ -41,13 +41,13 @@
 > Then, by [[Product Measure|Fubini-Tonelli]]:$$\begin{align}\mathbb{E}_{P}[\text{R}(\widehat{\beta};\beta^0)]&=\mathbb{E}_{P}\mathbb{E}_{w}\left[ \left\| \widehat{\beta}(y)-\beta^0 \right\| ^{2} \right] =\mathbb{E}_{w}\mathbb{E}_{P}\left[ \left\| A+B \right\| ^{2} \right] \\&=\mathbb{E}_{w}\underbrace{ \mathbb{E}_{P}[\left\| A \right\| ^{2}] }_{ \geq 0 }+\mathbb{E}_{w}\mathbb{E}_{P}[\|B\|^{2}]+2\mathbb{E}_{w}\mathbb{E}_{P}[\braket{ A , B } ]\\&\geq \mathbb{E}_{w}\mathbb{E}_{P}[\|B\|^{2}]+2\mathbb{E}_{w}\mathbb{E}_{P}[\braket{ A , B } ]\\&\geq \mathbb{E}_{P}[\text{R}(\widehat{\beta}_{P};\beta^0)]+2\mathbb{E}_{w}\mathbb{E}_{P}[\braket{ A , B } ]\end{align}$$However, we have that for a fixed $\varepsilon$:$$\mathbb{E}[\braket{ A , B}|y]=\braket{ A ,\mathbb{E}[B|y]  }=\braket{ A, \mathbb{E}[\mathbb{E}[w|y]-w|y] }  =\braket{ A , \mathbb{E}[w|y]-\mathbb{E}[w|y] }=\braket{ A , 0 } =0 $$Hence, $$\mathbb{E}_{P}[\braket{ A , B } ]=\mathbb{E}_{P}[\mathbb{E}[\braket{ A , B } |y]]=0$$and we have the statement.
 
 ---
-#### 1.3 Minimax Optimality
+##### 1.1.3 Minimax Optimality
 
 > [!lemma] Theorem 2 (Every Estimator has some Risk)
 > Let $\widehat{\beta}:\mathbb{R}^n\to \mathbb{R}^d$ be an estimator and $\sigma^{2}=1$. Then, 
 > $$\sup_{\beta^0\in \mathbb{R}^d}\text{R}(\widehat{\beta};\beta^0)\geq \frac{d}{n}$$
 
-> [!proof]+
+> [!proof]-
 > Fix an estimator $\widehat{\beta}:\mathbb{R}^n\to \mathbb{R}^d$ and $t\geq 1$. We will show that: $$\mathbb{E}_{\beta^0\sim \mathcal{N}(0,t\cdot I_{d})}[\text{R}(\widehat{\beta};\beta^0)]\geq  \frac{d}{n+1/ t}$$If this holds, then we have $\sup_{\beta^0}\text{R}(\widehat{\beta};\beta^0)\geq \frac{d}{n+1 / t}$ for all $t\geq 1$ and $\sup_{\beta}\text{R}(\widehat{\beta};\beta^0)\geq \frac{d}{n}$. 
 > 
 > ---
@@ -57,34 +57,38 @@
 > 
 > By setting $z:=z_{1:d}\in \mathbb{R}^d$, we have that: $$\begin{align}\mathbb{E}[z]=(1-\alpha \sqrt{ n })\underbrace{ \mathbb{E}[\beta^0] }_{ =0 }-\alpha \underbrace{ \mathbb{E}[w_{1:d}] }_{ =0 }=0\end{align}$$and $\mathbb{E}[zz^\top]=(1-\alpha \sqrt{ n })^{2}t\cdot I_{d}+\alpha^{2} I_{d}$.
 > 
-> Therefore, we have that $z|y=z\sim \mathcal{N}(0,\mathbb{E}[zz^\top])$ as $z \bot y$. Hence, $$w|y=z+\alpha y_{1:d}|y\sim \mathcal{N}(\alpha y_{1:d}, \mathbb{E}[zz^\top])=\mathcal{N}\left( \frac{1}{n+1/t}X^\top y, \frac{1}{n+1 / t}I_{d} \right)$$
+> Therefore, we have that $z|y=z\sim \mathcal{N}(0,\mathbb{E}[zz^\top])$ as $z \bot y$. Hence, $$\beta^0|y=z+\alpha y_{1:d}|y\sim \mathcal{N}(\alpha y_{1:d}, \mathbb{E}[zz^\top])=\mathcal{N}\left( \frac{1}{n+1/t}X^\top y, \frac{1}{n+1 / t}I_{d} \right)$$
 > 
 > ---
-> Now, assume that $X$ is general. Then, there exists $U$ orthogonal s.t. $$X':=(\sqrt{ n }I_{d},0)=UX$$Then, $$(w|Xw+\varepsilon=y)=(w|X'w+U\varepsilon=Uy)\sim\mathcal{N}\left( \frac{1}{n+1/t} X^\top \underbrace{ U^\top U }_{ =I }y, \frac{1}{n+ 1 / t}I_{d}\right) $$
+> Now, assume that $X$ is general. Then, there exists $U$ orthogonal s.t. $$X':=(\sqrt{ n }I_{d},0)=UX$$Then, $$(\beta^0|X\beta^0+w=y)=(\beta^0|X'\beta^0+Uw=Uy)\sim\mathcal{N}\left( \frac{1}{n+1/t} X^\top \underbrace{ U^\top U }_{ =I }y, \frac{1}{n+ 1 / t}I_{d}\right) $$
 > 
 > ---
-> Therefore, we have that $w|y\sim \mathcal{N}\left( \frac{1}{n+ 1 / t}X^\top y, \frac{1}{n+ 1 / t}I_{d} \right)$ and from Bayes-Optimal estimator:$$\begin{align}\mathbb{E}_{w}[\text{R}(\widehat{w};w)]&\geq \mathbb{E}_{w}[\text{R}(\widehat{w}_{P};w)]\\&=\mathbb{E}_{(w,\varepsilon)}[\left\| \widehat{w}_{P} -w\right\|^{2} ]\\&=\mathbb{E}_{(w,\varepsilon)}[\mathbb{E}[\left\| \widehat{w}_{P} -w\right\|^{2}|y] ]\\&=\mathbb{E}_{(w,\varepsilon)}\left[ \sum_{i=1}^{d}\text{Var}(w_{i}|y)  \right]\\&=\mathbb{E}_{(w,\varepsilon)}\left( \frac{d}{n+ 1 / t} \right) \\&=\frac{d}{n+1 / t}\end{align}$$
+> Therefore, we have that $\beta^0|y\sim \mathcal{N}\left( \frac{1}{n+ 1 / t}X^\top y, \frac{1}{n+ 1 / t}I_{d} \right)$ and from Bayes-Optimal estimator:$$\begin{align}\mathbb{E}_{\beta^0}[\text{R}(\widehat{\beta};\beta^0)]&\geq \mathbb{E}_{\beta^0}[\text{R}(\widehat{\beta}_{P};\beta^0)]\\&=\mathbb{E}_{(\beta^0,w)}[\left\| \widehat{\beta}_{P} -\beta^0\right\|^{2} ]\\&=\mathbb{E}_{(\beta^0,w)}[\mathbb{E}[\left\| \widehat{\beta}_{P} -\beta\right\|^{2}|y] ]\\&=\mathbb{E}_{(w,\varepsilon)}\left[ \sum_{i=1}^{d}\text{Var}(\beta_{i}^0|y_{i})  \right]\\&=\mathbb{E}_{(w,\varepsilon)}\left( \frac{d}{n+ 1 / t} \right) \\&=\frac{d}{n+1 / t}\end{align}$$
 
 ---
-#### 1.4 Sparse Linear Regression
+#### 1.2.1 Sparse Linear Regression
 We consider the case where from the $d$ features, only $k\ll d$ are relevant. If we know the $k$ features, then using minimax we can reach $\frac{k}{n}$ risk.
 
 What do we do when the $k$ relevant features are unknown? 
 
 ---
 
-> [!definition]
-> Let $x_{1},\dots,x_{n}\in \mathbb{R}^d$ be known vectors. For an unknown $w_{0}\in \mathbb{R}^d$ we observe $y:=Xw_{0}+\varepsilon$ where $\varepsilon \sim \mathcal{N}(0,I_{n})$.
-> 1. In ***sparse linear regression***, we aim to find $$w^{*}\in \underset{ w\in \mathbb{R}^d }{ \arg\min }\ \left\| y-Xw^0 \right\| ^2_{2}$$where $w^0$ is $k$-sparse, i.e. $\|w_{0}\|_{0}\leq k$.
+> [!outlook] Setting (Sparse Linear Regression)
+> We have the setting:
+> 1. **Unknown data**: $\beta^0\in \mathbb{R}^d$ which is $k$-sparse, i.e. $\left\| \beta^0 \right\|_{0}\leq k$.
+> 2. **Known data**: 
+> 	- $X\in \mathbb{R}^{n,d}$ with $\text{rnk}(X)=d$ and $\frac{1}{n}X^\top X=I_{d}$
+> 	- $y:= X\beta^0+w$ where $w\sim \mathcal{N}(0,I_{n})$. 
+
 ---
 ##### 1.4.1 BSS
 
 > [!lemma] Theorem 1 (Best-Subset-Selection)
-> Let $\widehat{w}(w_{0})\in \underset{ w\in\mathbb{R}^d, k\text{-sparse} }{ \arg\min }\|y-Xw_{0}\|^2$. Then, 
-> $$\frac{1}{n}\left\| X(\widehat{w}-w^0) \right\| ^{2}\leq \frac{k}{n}\cdot O\left( \log \frac{2d}{k} \right)\text{ whp}, \quad \forall w_{0}\in \mathbb{R}^n$$
+> The ***BSS-estimator*** is $\widehat{\beta}(y)\in \underset{ \beta\in\mathbb{R}^d, k\text{-sparse} }{ \arg\min }\|X\beta-y\|^2$. Then, with high probability, 
+> $$\frac{1}{n}\left\| X(\widehat{\beta}-\beta^0) \right\| ^{2}\leq \frac{k}{n}\cdot O\left( \log \frac{2d}{k} \right), \quad \forall \beta^0\in B_{\leq k}(0)_{\|\cdot \|_{0}}$$
 
-> [!proof]-
-> Define $f:\mathbb{R}^n\to \mathbb{R},w\mapsto \frac{1}{2n}\left\| Xw-y \right\|^{2}$. Then, $$\nabla f(w_{0})=\frac{1}{n}X^\top(Xw_{0}-y)=-\frac{1}{n}X^\top\varepsilon$$Let $u:=\widehat{w}-w_{0}$. Then, $$f(w_{0})\geq f(w_{0}+u)=f(w_{0})-\frac{1}{n}uX^\top\varepsilon+\frac{1}{2n}\left\| Xu \right\| ^2_{2}$$Hence, $$\left\| Xu \right\| ^2_{2}\leq 2\varepsilon^\top X u,\quad \left\| Xu \right\| ^2_{2}\leq \frac{4\braket{ \varepsilon , Xu } ^2}{\left\| Xu \right\| ^2_{2}}$$Notice that $u$ is $2k$-sparse as if $u_i\neq 0$ then either $\widehat{w}_{i}\neq 0$ or $w_{i}^0\neq 0$. Hence, it suffices to show w.h.p that: $$\max_{u\in \mathbb{R}^d, 2k\text{-sparse}}\frac{\braket{ \varepsilon , Xu } ^{2}}{\left\| Xu \right\| ^2}\leq k\cdot O\left( \log \frac{2d}{k} \right)$$
+> [!proof]+
+> Define $f:\mathbb{R}^n\to \mathbb{R},\beta\mapsto \frac{1}{2n}\left\| X\beta-y \right\|^{2}$. Then, $$\nabla f(\beta^0)=\frac{1}{n}X^\top(X\beta^0-y)=-\frac{1}{n}X^\top w$$Let $u:=\widehat{w}-w_{0}$. Then, $$f(w_{0})\geq f(w_{0}+u)=f(w_{0})-\frac{1}{n}uX^\top\varepsilon+\frac{1}{2n}\left\| Xu \right\| ^2_{2}$$Hence, $$\left\| Xu \right\| ^2_{2}\leq 2\varepsilon^\top X u,\quad \left\| Xu \right\| ^2_{2}\leq \frac{4\braket{ \varepsilon , Xu } ^2}{\left\| Xu \right\| ^2_{2}}$$Notice that $u$ is $2k$-sparse as if $u_i\neq 0$ then either $\widehat{w}_{i}\neq 0$ or $w_{i}^0\neq 0$. Hence, it suffices to show w.h.p that: $$\max_{u\in \mathbb{R}^d, 2k\text{-sparse}}\frac{\braket{ \varepsilon , Xu } ^{2}}{\left\| Xu \right\| ^2}\leq k\cdot O\left( \log \frac{2d}{k} \right)$$
 > Now, for all $S\in {[d] \choose 2k}$, let $\phi_{S}\in \mathbb{R}^{n,2k}$ have orthonormal columns s.t. the columns $X_{i}$ of $X$ for $i\in S$ are all spanned by the columns of $\phi_{S}$. 
 > 
 > Then, by choosing $S\supseteq \text{supp }u$, we have that $Xu\in \text{span}(\phi_{S,1}\dots,\phi_{S,2k})$ and there exists $v$ with $\|v\|=1$ s.t. $\frac{Xu}{\left\| Xu \right\|}=\phi_{S}v$. Hence, $$\max_{u\in \mathbb{R}^d, 2k\text{-sparse}}\frac{\braket{ \varepsilon , Xu } ^{2}}{\left\| Xu \right\| ^2}\leq \max_{S\in {[d] \choose 2k}}\max_{v\in \mathbb{R}^{2k},\|v\|=1}\braket{ \varepsilon , \phi_{S}v } ^2\leq \max_{S\in {[d] \choose 2k}}\left\| \phi_{S}^\top \varepsilon \right\| ^2$$
