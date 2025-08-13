@@ -84,6 +84,20 @@
               "icon": "lucide-file",
               "title": "Conditional Expectation"
             }
+          },
+          {
+            "id": "7241f29da33ec6ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Conditional Probability.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Conditional Probability"
+            }
           }
         ]
       }
@@ -234,6 +248,7 @@
   "lastOpenFiles": [
     "Probability Theory/Conditional Expectation.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Probability Theory/Conditional Probability.md",
     "Graph Theory/Turan Number.md",
     "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Graph Theory/Exam2023.md",
@@ -257,7 +272,6 @@
     "Graph Theory/k-Connected Graph.md",
     "Graph Theory/Tournament.md",
     "Graph Theory/Graph.md",
-    "Graph Theory/Directed Acyclic Graph (DAG).md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",

@@ -24,21 +24,21 @@
 
 ---
 - **Related definition**: Let $\widehat{\beta}:\mathbb{R}^n\to \mathbb{R}^d,y\mapsto \widehat{\beta}(y)$ be an estimator of $\beta^0$. Then, 
-	1. the ***risk*** is defined as:$$\text{R}(\widehat{\beta};\beta^0):=\mathbb{E}\left[ \left\| \widehat{\beta}(X\beta^0+w)-\beta^0 \right\|^{2}  \right] $$
+	1. the ***risk*** is defined as:$$\text{R}(\widehat{\beta};\beta^0):=\mathbb{E}_{w}\left[ \left\| \widehat{\beta}(X\beta^0+w)-\beta^0 \right\|^{2}  \right] $$
 - **Remark**: We showed that $\text{R}(\widehat{\beta}_{\text{LS}};\beta^0)=\sigma^{2} \frac{d}{n}$
 ---
 #### 1.2 Bayes-Optimal Estimator
 > [!definition] 
 > For linear regression problem, 
-> 1. the ***Bayes optimal estimator*** for a distribution $P\in \Delta(\mathbb{R}^d)$ with $\beta^0\sim P$ is defined as: $$\widehat{\beta}_{P}:\mathbb{R}^n\to \mathbb{R}^d,\quad y\mapsto \mathbb{E}[\beta^0|y=X\beta^0+w]$$
+> 1. the ***Bayes optimal estimator*** for a distribution $P\in \Delta(\mathbb{R}^d)$ with $\beta^0\sim P$ is defined as: $$\widehat{\beta}_{P}:= \mathbb{E}[\beta^0|X\beta^0+w]$$More specifically,$$\widehat{\beta}_{P}:\mathbb{R}^n\to \mathbb{R}^d,\quad y\mapsto \mathbb{E}[\beta^0|X\beta^0+w=y]$$
 ---
 > [!lemma] Theorem 1 (Bayes-Optimal Estimator is optimal)
-> Let $P\in \Delta(\mathbb{R}^d)$ with $w\sim P$. For any estimator $\widehat{w}:\mathbb{R}^n\to \mathbb{R}^d$, 
-> $$\mathbb{E}_{w}[\text{R}(\widehat{w};w)]\geq \mathbb{E}_{w}[\text{R}(\widehat{w}_{P};w)]$$
+> Let $P\in \Delta(\mathbb{R}^d)$ with $\beta^0\sim P$. For any estimator $\widehat{\beta}:\mathbb{R}^n\to \mathbb{R}^d$, 
+> $$\mathbb{E}_{P}[\text{R}(\widehat{\beta};\beta^0)]\geq \mathbb{E}_{P}[\text{R}(\widehat{\beta}_{P};\beta^0)]$$
 
-> [!proof]-
-> Let $\widehat{w}$ be some estimator. We further define $y:=Xw+\varepsilon$ and $\widehat{w}:=\widehat{w}(y)$. Then, $$\begin{align}\mathbb{E}_{w}[\text{R}(\widehat{w}_{P};w)]&=\mathbb{E}_{w}[\mathbb{E}_{\varepsilon}[\left\| \widehat{w}_{P}(y)-w \right\| ^{2}]]=\mathbb{E}_{\varepsilon}[\mathbb{E}_{w}[\left\| \mathbb{E}[w|y]-w \right\| ^{2}]]\end{align}$$Let us define the random variables: $$A:(w,\varepsilon)\mapsto \widehat{w}-\mathbb{E}[w|y],\quad B:(w,\varepsilon)\mapsto \mathbb{E}[w|y]-w$$
-> Then, by [[Product Measure|Fubini-Tonelli]]:$$\begin{align}\mathbb{E}_{w}[\text{R}(\widehat{w};w)]&=\mathbb{E}_{w}[\mathbb{E}_{\varepsilon}[\left\| \widehat{w}-w \right\| ^{2}]]=\mathbb{E}_{\varepsilon}[\mathbb{E}_{w}[\left\| A+B \right\| ^{2}]]\\&=\mathbb{E}_{\varepsilon}[\underbrace{ \mathbb{E}_{w}[\left\| A \right\| ^{2}] }_{ \geq 0 }+\mathbb{E}_{w}[\|B\|^{2}]+2\mathbb{E}_{w}[\braket{ A , B } ]]\\&\geq \mathbb{E}_{\varepsilon}\mathbb{E}_{w}[\|B\|^{2}]+2\mathbb{E}_{\varepsilon}\mathbb{E}_{w}[\braket{ A , B } ]\\&\geq \mathbb{E}_{w}[\text{R}(\widehat{w}_{P};w)]+2\mathbb{E}_{\varepsilon}\mathbb{E}_{w}[\braket{ A , B } ]\end{align}$$However, we have that: $$\mathbb{E}_{w}[\braket{ A , B}|y]=\braket{ a ,\mathbb{E}_{w}[B|y]  }=\braket{ a , \mathbb{E}_{w}[\mathbb{E}[w|y]-w|y] }  =\braket{ a , \mathbb{E}[w|y]-\mathbb{E}[w|y] }=\braket{ a , 0 } =0 $$Hence, $$\mathbb{E}_{w}[\braket{ A , B } ]=\mathbb{E}_{w}[\mathbb{E}_{w}[\braket{ A , B } |y]]=0$$and we have the statement.
+> [!proof]+
+> Let $\widehat{\beta}$ be some estimator. For $\beta^0\sim P$, we further define $y:=X\beta^0+w$ and $\widehat{\beta}:=\widehat{\beta}(y)$. Then, $$\begin{align}\mathbb{E}_{P}[\text{R}(\widehat{\beta}_{P};\beta^0)]&=\mathbb{E}_{P}\mathbb{E}_{w}\left[ \left\| \widehat{\beta}_{P}(y)-\beta^0 \right\| ^{2} \right]=\mathbb{E}_{P}\mathbb{E}_{w}\left[ \left\| \mathbb{E}[\beta|X\beta+\varepsilon=y]-\beta^0 \right\| ^{2} \right] \end{align}$$Let us define the random variables: $$A:(\beta^0,w)\mapsto \widehat{\beta}(y)-\widehat{\beta}_{P}(y),\quad B:(\beta^0,w)\mapsto \widehat{\beta}_{P}(y)-\beta^0$$
+> Then, by [[Product Measure|Fubini-Tonelli]]:$$\begin{align}\mathbb{E}_{P}[\text{R}(\widehat{\beta};\beta^0)]&=\mathbb{E}_{P}\mathbb{E}_{w}\left[ \left\| \widehat{\beta}(y)-\beta^0 \right\| ^{2} \right] =\mathbb{E}_{w}\mathbb{E}_{P}\left[ \left\| A+B \right\| ^{2} \right] \\&=\mathbb{E}_{w}\underbrace{ \mathbb{E}_{P}[\left\| A \right\| ^{2}] }_{ \geq 0 }+\mathbb{E}_{w}\mathbb{E}_{P}[\|B\|^{2}]+2\mathbb{E}_{w}\mathbb{E}_{P}[\braket{ A , B } ]\\&\geq \mathbb{E}_{\varepsilon}\mathbb{E}_{w}[\|B\|^{2}]+2\mathbb{E}_{\varepsilon}\mathbb{E}_{w}[\braket{ A , B } ]\\&\geq \mathbb{E}_{w}[\text{R}(\widehat{w}_{P};w)]+2\mathbb{E}_{\varepsilon}\mathbb{E}_{w}[\braket{ A , B } ]\end{align}$$However, we have that: $$\mathbb{E}_{w}[\braket{ A , B}|y]=\braket{ a ,\mathbb{E}_{w}[B|y]  }=\braket{ a , \mathbb{E}_{w}[\mathbb{E}[w|y]-w|y] }  =\braket{ a , \mathbb{E}[w|y]-\mathbb{E}[w|y] }=\braket{ a , 0 } =0 $$Hence, $$\mathbb{E}_{w}[\braket{ A , B } ]=\mathbb{E}_{w}[\mathbb{E}_{w}[\braket{ A , B } |y]]=0$$and we have the statement.
 
 ---
 #### 1.3 Minimax Optimality
