@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Expectation.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conditional Expectation"
+              "title": "Gaussian Distribution"
             }
           },
           {
@@ -246,6 +246,7 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Conditional Expectation.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Probability Theory/Conditional Probability.md",
@@ -271,7 +272,6 @@
     "Graph Theory/Independence and Clique.md",
     "Graph Theory/k-Connected Graph.md",
     "Graph Theory/Tournament.md",
-    "Graph Theory/Graph.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
