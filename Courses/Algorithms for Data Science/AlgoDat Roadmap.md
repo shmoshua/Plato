@@ -100,11 +100,14 @@ What do we do when the $k$ relevant features are unknown?
 ---
 ##### 1.4.2 LASSO Slow Rate
 > [!lemma] Theorem 2 (LASSO slow rate)
-> Assume that $R:=\left\| w_{0} \right\|_{1}$ is known. Let $\widehat{w}(w_{0})\in \underset{ w \in \mathbb{R}^d,\|w\|_{1}\leq R }{ \arg\min }\left\| Xw_{0} -y\right\|^2$. 
-> 1. If $\left\| X_{i} \right\|^2=n$ for all columns $X_{i}$, $$\frac{1}{n}\mathbb{E}[\left\| X(\widehat{w}-w_{0}) \right\| ^2]\leq \frac{\left\| w_{0} \right\| _{1}}{\sqrt{ n }}\cdot O(\log 2d)^{1/2}$$
+> Assume that $R:=\left\| \beta^0 \right\|_{1}$ is known. Let $\widehat{\beta}(y)\in \underset{ \beta \in \mathbb{R}^d,\|\beta\|_{1}\leq R }{ \arg\min }\left\| X\beta -y\right\|^2$. 
+> 1. If $\left\| X_{i} \right\|^2=n$ for all columns $X_{i}$, $$\mathbb{E}\left[ \frac{1}{n}\left\| X(\widehat{\beta}-\beta^0) \right\| ^2 \right] \leq \frac{R}{\sqrt{ n }}\cdot O(\log d)^{1/2}$$
 
-> [!proof]-
-> Let $u:= \widehat{w}-w_{0}$. Then, similarly to the Theorem 1, $$\frac{1}{2}\left\| Xu \right\| ^2_{2}\leq \braket{ u , X^\top \varepsilon } \leq \|u\|_{1}\left\| X^\top\varepsilon \right\| _{\infty}$$However, notice that $\|u\|_{1}\leq\|\widehat{w}\|_{1}+\|w_{0}\|_{1}\leq 2\|w_{0}\|_{1}$ and: $$\mathbb{E}[\left\| X^\top\varepsilon \right\| _{\infty}]\leq \sqrt{ n }\cdot O(\log 2d)^{1/2}$$Therefore, $$\frac{1}{n}\mathbb{E}[\left\| X(\widehat{w}-w_{0}) \right\| ^{2}_{2}]\leq \frac{\left\| w_{0} \right\| _{1}}{\sqrt{ n }}O(\log 2d)^{1/2}$$
+> [!proof]+
+> Let $u:= \widehat{\beta}-\beta^0$. Then, similarly to the Theorem 1, $$\frac{1}{2}\left\| Xu \right\| ^2_{2}\leq \braket{ u , X^\top w } \leq \|u\|_{1}\left\| X^\top w \right\| _{\infty}$$However, notice that $\|u\|_{1}\leq\|\widehat{\beta}\|_{1}+\|\beta^0\|_{1}\leq 2R$ and: $$\mathbb{E}\left[ \left\| X^\top w \right\| _{\infty} \right] =\mathbb{E}\left[ \max_{i\in[d]} \left| \braket{ X_{i} , w }  \right|  \right] \leq \sqrt{ n }\cdot O(\log 2d)^{1/2}$$as $\braket{ X_{i},w }\sim \mathcal{N}(0,\underbrace{ X_{i}^\top X_{i} }_{ =n })$. To show the last inequality: 
+> 1. As $x\mapsto x^{2}$ is convex, by Jensen:$$\left( \mathbb{E}\left[ \frac{1}{\sqrt{ n }}\max_{i\in[d]}\left| \braket{ X_{i} , w }  \right|  \right]  \right)^{2}\leq \mathbb{E}\left[ \frac{1}{n}\max_{i\in[d]}\braket{ X_{i} , w }   ^{2} \right]=\mathbb{E}\left[ \max_{i\in[d]}\left\langle \frac{1}{\sqrt{ n }}X_{i},w\right\rangle^{2} \right]$$where$\braket{ \frac{1}{\sqrt{ n }}X_{i} ,  w}\sim \mathcal{N}(0,1)$ is Gaussian as it is a sum of independent Gaussian variables. Further, $$\mathbb{E}\left[ \left\langle \frac{1}{\sqrt{ n }}X_{i},w\right\rangle\right] =\frac{1}{\sqrt{ n }}X_{i}^\top \mathbb{E}[w]=0,\quad\text{Var}\left( \frac{1}{\sqrt{ n }}X_{i}^\top w \right)=\frac{1}{n}X_{i}^\top X_{i}=\frac{1}{n}\left\| X_{i} \right\| ^2_{2}=1$$Hence, by 1, we get that: $\left( \mathbb{E}\left[ \frac{1}{\sqrt{ n }}\max_{i\in[d]}\left| \braket{ X_{i} , w }  \right|  \right]  \right)^{2}\leq O(\log d)$. Finally, $$\mathbb{E}\left[\max_{i\in[d]}\left| \braket{ X_{i} , w }  \right|  \right]  \leq \sqrt{ n }\cdot O(\log d)^{1/2}$$
+> 
+> Therefore, $$\frac{1}{n}\mathbb{E}[\left\| X(\widehat{w}-w_{0}) \right\| ^{2}_{2}]\leq \frac{R}{\sqrt{ n }}O(\log d)^{1/2}$$
 
 ---
 ##### 1.4.2 LASSO Fast Rate
