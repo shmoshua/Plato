@@ -72,6 +72,20 @@
             }
           },
           {
+            "id": "3a3f1a463bcc87b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Taylor's Theorem.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Taylor's Theorem"
+            }
+          },
+          {
             "id": "50e25a08f26c79fb",
             "type": "leaf",
             "state": {
@@ -246,12 +260,13 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Analysis/Taylor's Theorem.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Analysis/Concentration Bounds.md",
     "Courses/Graph Theory/Exam2023.md",
     "Probability Theory/Conditional Probability.md",
     "Combinatorics/Ramsey Number.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Conditional Expectation.md",
@@ -271,7 +286,6 @@
     "Courses/Graph Theory/Problem Set 5.md",
     "Courses/Graph Theory/Problem Set 4.md",
     "Courses/Graph Theory/Problem Set 3.md",
-    "Graph Theory/Closure (Graph Theory).md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",

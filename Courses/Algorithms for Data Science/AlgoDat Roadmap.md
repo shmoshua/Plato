@@ -159,8 +159,8 @@ What do we do when the $k$ relevant features are unknown?
 > [!outlook] Setting (Oblivious Outliers)
 > We have:
 > 1. **Design**: $X\in \mathbb{R}^{n,d}$ with $\frac{1}{n}X^\top X=I_{d}$.
-> 2. **Observation**: $y=X\beta ^{*}+\eta$ for unknown $\beta ^{*}\in \mathbb{R}^d$.
-> 3. **Noise**: $\eta$ with $p(\eta)=p(-\eta)$ and $\eta_{1},\dots,\eta_{n}$ are independent.
+> 2. **Observation**: $y=X\beta ^{0}+\eta$ for unknown $\beta ^{0}\in \mathbb{R}^d$.
+> 3. **Noise**: $\eta$ with $\{ \eta \}=\{ -\eta \}$ and $\eta_{1},\dots,\eta_{n}$ are independent.
 
 ---
 > [!h] Example 1
@@ -189,16 +189,18 @@ What do we do when the $k$ relevant features are unknown?
 > Let $\alpha:=\min_{i}\mathbb{P}(\eta_{i}\leq 1)$. Let $x_{1},\dots,x_{n}\in \mathbb{R}^d$ be the rows of $X$ and $C:=\frac{1}{\sqrt{ d }}\max_{i}\|x_{i}\|$. 
 > 1. if $n= \Omega\left( \frac{d^{2}C^2}{\alpha^{2}} \right)$ then for the Huber loss estimator $\widehat{\beta}$ with probability $0.99$: $$\left\| \widehat{\beta}-\beta ^{*} \right\| ^{2}\leq O\left( \frac{d}{\alpha^{2}n} \right)$$
 
-> [!proof]-
+> [!proof]+
 > We define: $$f:\mathbb{R}^d\to \mathbb{R},\quad \beta\mapsto \frac{1}{n}\sum_{i\in[n]}^{}\Phi(\braket{ x_{i} , \beta } -y_{i})$$Then, $\nabla f(\beta)=\frac{1}{n}\sum_{i\in[n]}^{}\Phi'(\braket{ x_{i} , \beta } -y_{i})x_{i}$ where: $$\Phi'(t)=\begin{cases}\text{sgn}(t)\cdot \left| t \right|&\left| t \right|\leq 2\\2\cdot  \text{sgn}(t)&\left| t \right|\geq 2\end{cases}=\text{sgn}(t)\cdot\min\{ \left| t \right|,2 \}, \quad \Phi''(t)=\mathbb{1}_{\{ \left| t \right| \leq 2 \}}$$
 >    
-> 1. **Claim 1**: for $R\geq 20 \|\nabla f(0)\| / \alpha$ and for all $u$ with $\|u\|\leq  R$, we have that: $$f(\beta ^{*}+u)\geq f(\beta ^{*})-\left\| \nabla f(\beta ^{*}) \right\|\cdot \|u\|+\frac{\alpha}{10}\|u\|^{2}$$
+> 1. **Claim 1**: for $R\geq 20 \|\nabla f(0)\| / \alpha$ and for all $u$ with $\|u\|\leq  R$, we have that: $$f(\beta^0+u)\geq f(\beta ^{0})-\left\| \nabla f(\beta ^{0}) \right\|\cdot \|u\|+\frac{\alpha}{10}\|u\|^{2}$$
 >    
->    From [[Taylor's Theorem|2nd order Hamadard Lemma]], $$f(\beta ^{*}+u)=f(\beta ^{*})+\braket{ \nabla f(\beta ^{*}) , u } +\underbrace{ u^\top \left( \int_{0}^{1} (1-t)\text{H}_{f}(\beta ^{*}+tu) \, dt  \right)u }_{ =: M(u) }  $$Now, we have that: $$\text{H}_{f}(\beta ^{*}+tu)=\frac{1}{n}\sum_{i\in[n]}^{}\Phi''(t\braket{ x_{i} ,u } -\eta_{i})x_{i}x_{i}^\top=\frac{1}{n}\sum_{i\in[n]}^{} \mathbb{1}_{\{ \left| t\braket{ x_{i} , u } -\eta_{i} \right| \leq 2 \}}x_{i}x_{i}^\top$$ and:$$\begin{align}M(u)&= \frac{1}{n}\sum_{i\in[n]}\left( \int_{0}^{1}  (1-t) \mathbb{1}_{\{ \left| t\braket{ x_{i} , u } -\eta_{i} \right| \leq 2 \}} \, dt \right)\braket{ x_{i} , u }^{2}\\&\geq \frac{1}{2n}\sum_{i\in[n]}\mathbb{1}_{\{ \left| \braket{ x_{i} , u } \right| \leq 1 \}}\mathbb{1_{\{ \left| \eta_{i}\right| \leq 1 \}}}\braket{ x_{i} , u }^{2}\\&\geq \mathbb{1}_{\{ \left| C\sqrt{ d }\cdot R\right| \leq 1  \}}\left( \frac{1}{2n}\sum_{i\in[n]}\mathbb{1_{\{ \left| \eta_{i}\right| \leq 1 \}}}\braket{ x_{i} , u }^{2} \right)\end{align}$$
+>    From [[Taylor's Theorem|2nd order Hamadard Lemma]], $$f(\beta ^{0}+u)=f(\beta ^{0})+\braket{ \nabla f(\beta ^{0}) , u } +\underbrace{ u^\top \left( \int_{0}^{1} (1-t)\text{H}_{f}(\beta ^{0}+tu) \, dt  \right)u }_{ =: M(u) }  $$Now, we have that: 
+>    
+>    $$\text{H}_{f}(\beta ^{*}+tu)=\frac{1}{n}\sum_{i\in[n]}^{}\Phi''(t\braket{ x_{i} ,u } -\eta_{i})x_{i}x_{i}^\top=\frac{1}{n}\sum_{i\in[n]}^{} \mathbb{1}_{\{ \left| t\braket{ x_{i} , u } -\eta_{i} \right| \leq 2 \}}x_{i}x_{i}^\top$$ and:$$\begin{align}M(u)&= \frac{1}{n}\sum_{i\in[n]}\left( \int_{0}^{1}  (1-t) \underbrace{ \mathbb{1}_{\{ \left| t\braket{ x_{i} , u } -\eta_{i} \right| \leq 2 \}} }_{ \geq \mathbb{1}_{\{ \left| \braket{ x_{i} , u }  \right|\leq 1   \}}\mathbb{1}_{\{ \left| \eta_i \right|\leq 1  \}} } \, dt \right)\braket{ x_{i} , u }^{2}\\&\geq \frac{1}{2n}\sum_{i\in[n]}\mathbb{1}_{\{ \left| \braket{ x_{i} , u } \right| \leq 1 \}}\mathbb{1}_{\{ \left| \eta_{i}\right| \leq 1 \}}\braket{ x_{i} , u }^{2}\\&\geq \mathbb{1}_{\{ \left| C\sqrt{ d }\cdot R\right| \leq 1  \}}\left( \frac{1}{2n}\sum_{i\in[n]}\mathbb{1}_{\{ \left| \eta_{i}\right| \leq 1 \}}\braket{ x_{i} , u }^{2} \right)\end{align}$$
 >    
 > 
 > 
-> Now, by seting $u:= \widehat{\beta}-\beta ^{*}$, we have $f(\beta ^{*})\geq f(\widehat{\beta})=f(\beta ^{*}+u)$ and further that: $$\left\| \widehat{\beta}-\beta ^{*} \right\| \leq \frac{10}{\alpha}\left\| \nabla f(\beta ^{*}) \right\| $$
+> Now, by seting $u:= \widehat{\beta}-\beta ^{0}$, we have $f(\beta ^{0})\geq f(\widehat{\beta})=f(\beta ^{0}+u)$ and further that: $$\left\| \widehat{\beta}-\beta ^{0} \right\| \leq \frac{10}{\alpha}\left\| \nabla f(\beta ^{*}) \right\| $$
 > 
 > $$\left\| \nabla f(\beta ^{*}) \right\|\cdot \|u\|\geq \frac{\alpha}{10}\|u\|^{2},\quad \frac{100}{\alpha^{2}} \left\| \nabla f(\beta ^{*}) \right\| ^{2}\geq \|u\|^{2} $$By noting that $\nabla f(\beta ^{*})=\frac{1}{n}\sum_{i\in[n]}^{}\Phi'(\eta_{i})x_{i}$ we have:$$\begin{align}\mathbb{E}[\left\| \nabla f(\beta ^{*}) \right\| ^{2}]=\frac{1}{n^{2}}\sum_{i\in [n]}^{}\|x_{i}\|^2\cdot \underbrace{ \mathbb{E}[\Phi'(\eta_{i})^{2}] }_{ \leq 4 }+\frac{1}{n^{2}}\sum_{i\neq j}^{}\braket{ x_{i} , x_{j} } \underbrace{ \mathbb{E}[\Phi'(\eta_{i})\Phi'(\eta_{j})] }_{ =0 }\leq \frac{4}{n^{2}}dn=\frac{4d}{n}\end{align}$$
 > 
