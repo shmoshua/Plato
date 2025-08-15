@@ -103,37 +103,37 @@ What do we do when the $k$ relevant features are unknown?
 > Assume that $R:=\left\| \beta^0 \right\|_{1}$ is known. Let $\widehat{\beta}(y)\in \underset{ \beta \in \mathbb{R}^d,\|\beta\|_{1}\leq R }{ \arg\min }\left\| X\beta -y\right\|^2$. 
 > 1. If $\left\| X_{i} \right\|^2=n$ for all columns $X_{i}$, $$\mathbb{E}\left[ \frac{1}{n}\left\| X(\widehat{\beta}-\beta^0) \right\| ^2 \right] \leq \frac{R}{\sqrt{ n }}\cdot O(\log d)^{1/2}$$
 
-> [!proof]+
+> [!proof]-
 > Let $u:= \widehat{\beta}-\beta^0$. Then, similarly to the Theorem 1, $$\frac{1}{2}\left\| Xu \right\| ^2_{2}\leq \braket{ u , X^\top w } \leq \|u\|_{1}\left\| X^\top w \right\| _{\infty}$$However, notice that $\|u\|_{1}\leq\|\widehat{\beta}\|_{1}+\|\beta^0\|_{1}\leq 2R$ and: $$\mathbb{E}\left[ \left\| X^\top w \right\| _{\infty} \right] =\mathbb{E}\left[ \max_{i\in[d]} \left| \braket{ X_{i} , w }  \right|  \right] \leq \sqrt{ n }\cdot O(\log 2d)^{1/2}$$as $\braket{ X_{i},w }\sim \mathcal{N}(0,\underbrace{ X_{i}^\top X_{i} }_{ =n })$. To show the last inequality: 
-> 1. As $x\mapsto x^{2}$ is convex, by Jensen:$$\left( \mathbb{E}\left[ \frac{1}{\sqrt{ n }}\max_{i\in[d]}\left| \braket{ X_{i} , w }  \right|  \right]  \right)^{2}\leq \mathbb{E}\left[ \frac{1}{n}\max_{i\in[d]}\braket{ X_{i} , w }   ^{2} \right]=\mathbb{E}\left[ \max_{i\in[d]}\left\langle \frac{1}{\sqrt{ n }}X_{i},w\right\rangle^{2} \right]$$where$\braket{ \frac{1}{\sqrt{ n }}X_{i} ,  w}\sim \mathcal{N}(0,1)$ is Gaussian as it is a sum of independent Gaussian variables. Further, $$\mathbb{E}\left[ \left\langle \frac{1}{\sqrt{ n }}X_{i},w\right\rangle\right] =\frac{1}{\sqrt{ n }}X_{i}^\top \mathbb{E}[w]=0,\quad\text{Var}\left( \frac{1}{\sqrt{ n }}X_{i}^\top w \right)=\frac{1}{n}X_{i}^\top X_{i}=\frac{1}{n}\left\| X_{i} \right\| ^2_{2}=1$$Hence, by 1, we get that: $\left( \mathbb{E}\left[ \frac{1}{\sqrt{ n }}\max_{i\in[d]}\left| \braket{ X_{i} , w }  \right|  \right]  \right)^{2}\leq O(\log d)$. Finally, $$\mathbb{E}\left[\max_{i\in[d]}\left| \braket{ X_{i} , w }  \right|  \right]  \leq \sqrt{ n }\cdot O(\log d)^{1/2}$$
+> 1. As $x\mapsto x^{2}$ is convex, by Jensen:$$\left( \mathbb{E}\left[ \frac{1}{\sqrt{ n }}\max_{i\in[d]}\left| \braket{ X_{i} , w }  \right|  \right]  \right)^{2}\leq \mathbb{E}\left[ \frac{1}{n}\max_{i\in[d]}\braket{ X_{i} , w }   ^{2} \right]=\mathbb{E}\left[ \max_{i\in[d]}\left\langle \frac{1}{\sqrt{ n }}X_{i},w\right\rangle^{2} \right]$$where$\braket{ \frac{1}{\sqrt{ n }}X_{i} ,  w}\sim \mathcal{N}(0,1)$. Hence, by [[Concentration Bounds|maximum of squares]], we get that: $\left( \mathbb{E}\left[ \frac{1}{\sqrt{ n }}\max_{i\in[d]}\left| \braket{ X_{i} , w }  \right|  \right]  \right)^{2}\leq O(\log d)$. Finally, $$\mathbb{E}\left[\max_{i\in[d]}\left| \braket{ X_{i} , w }  \right|  \right]  \leq \sqrt{ n }\cdot O(\log d)^{1/2}$$
 > 
 > Therefore, $$\frac{1}{n}\mathbb{E}[\left\| X(\widehat{w}-w_{0}) \right\| ^{2}_{2}]\leq \frac{R}{\sqrt{ n }}O(\log d)^{1/2}$$
 
 ---
 ##### 1.4.2 LASSO Fast Rate
 - **Related definition**: For $S\subseteq[d]$,  $C(S):=\{ u\in \mathbb{R}^d:\|u_{S}\|_{1}\geq \|u_{\overline{S}}\|_{1} \}$.
-- **Related definition**: $X\in \mathbb{R}^{n,d}$ has ***restricted eigenvalue property*** with $\gamma>0$, i.e. ***$\gamma$-RE*** for $S\subseteq [d]$ if: $$\frac{1}{n}\left\| Xu \right\| ^2\geq\gamma \|u\|^2,\quad \forall u\in C(S)$$
+- **Related definition**: $X\in \mathbb{R}^{n,d}$ has ***restricted eigenvalue property*** with $\gamma>0$, i.e. ***$\gamma$-RE*** for $S\subseteq [d]$ if: $$\frac{1}{n}\left\| Xu \right\| ^2_{2}\geq\gamma \|u\|^2_{2},\quad \forall u\in C(S)$$
 
 ---
 > [!lemma] Lemma 3
-> Let $w,w_{0}\in \mathbb{R}^d$.
-> 1. if $\|w\|_{1}\leq \|w_{0}\|_{1}$, then $w-w_{0}\in C(\text{supp}(w_{0}))$.
+> Let $\beta,\beta^0\in \mathbb{R}^d$.
+> 1. if $\|\beta\|_{1}\leq \|\beta^0\|_{1}$, then $\beta-\beta^0\in C(\text{supp}(\beta^0))$.
 > 2. for all $S\subseteq[d]$ and $v\in C(S)$, $\|v\|_{1}\leq 2\sqrt{ \left| S \right| }\cdot\|v\|_{2}$. 
 
-> [!proof]-
+> [!proof]+
 > We have:
-> 1. Let $S:=\text{supp}(w^0)$. Then, 
->    $$\left\| (w-w^0)_{\overline{S}} \right\| _{1}=\sum_{i\notin S}\left| w_{i}-w_{i}^0 \right| =\sum_{i\notin S}\left| w_{i} \right| =\|w_{\overline{S}}\|_{1}=\|w\|_{1}-\|w_{S}\|_{1}\leq \|w^0\|_{1}-\|w_{S}\|_{1}$$However, notice that $\|w^0\|_{1}=\|w^0_{S}\|_{1}$ by definition of $S$. Hence, $$\left\| (w-w^0)_{\overline{S}} \right\| _{1}\leq\|w^0_{S}\|_{1}-\|w_{S}\|_{1}\leq \|(w-w^0)_{S}\|_{1}$$by triangle inequality.
+> 1. Let $S:=\text{supp}(\beta^0)$. Then, 
+>    $$\left\| (\beta-\beta^0)_{\overline{S}} \right\| _{1}=\sum_{i\notin S}\left| \beta_{i}-\beta_{i}^0 \right| =\sum_{i\notin S}\left| \beta_{i} \right| =\|\beta_{\overline{S}}\|_{1}=\|\beta\|_{1}-\|\beta_{S}\|_{1}\leq \|\beta^0\|_{1}-\|\beta_{S}\|_{1}$$However, notice that $\|\beta^0\|_{1}=\|\beta^0_{S}\|_{1}$ by definition of $S$. Hence, $$\left\| (\beta-\beta^0)_{\overline{S}} \right\| _{1}\leq\|\beta^0_{S}\|_{1}-\|\beta_{S}\|_{1}\leq \|(\beta-\beta^0)_{S}\|_{1}$$by triangle inequality.
 > 2. By Cauchy-Schwarz, we have that: $$\|v\|_{1}^{2}=(\|v_{S}\|_{1}+\|v_{\overline{S}}\|_{1})^2\leq 4\|v_{S}\|_{1}^{2}=4\left( \sum_{i\in S}^{} \left| v_{i} \right| \right)^{2}\leq 4\left| S \right| \left( \sum_{i\in S}^{}v_{i}^{2} \right)\leq 4\left| S \right| \|v\|_{2}^2$$
 ---
 
 
 > [!lemma] Theorem 4 (LASSO fast rate)
-> Assume that $R:=\left\| w^{*} \right\|_{1}$ is known. Let $\widehat{w}(w^{*})\in \underset{ w \in \mathbb{R}^d,\|w\|_{1}\leq R }{ \arg\min }\left\| Xw^{*} -y\right\|^2$. 
-> 1. If $\left\| X_{i} \right\|^2=n$ for all columns $X_{i}$ and $X$ is $\gamma$-RE w.r.t. $\text{supp}(w^{*})$, then:$$\frac{1}{n}\mathbb{E}[\left\| X(\widehat{w}-w^{*}) \right\| ^2]\leq \frac{k}{\gamma n}\cdot O(\log d)$$
+> Assume that $R:=\left\| \beta^0 \right\|_{1}$ is known. Let $\widehat{\beta}(y)\in \underset{ \beta \in \mathbb{R}^d,\|\beta\|_{1}\leq R }{ \arg\min }\left\| X\beta -y\right\|^2$. 
+> 1. If $\left\| X_{i} \right\|^2=n$ for all columns $X_{i}$ and $X$ is $\gamma$-RE w.r.t. $\text{supp}(\beta^0)$, then:$$\mathbb{E}\left[ \frac{1}{n}\left\| X(\widehat{\beta}-\beta^0) \right\| ^2 \right] \leq \frac{k}{\gamma n}\cdot O(\log d)$$
 
 > [!proof]-
-> Let $u:= \widehat{w}-w_{0}$. Then, similarly to the Theorem 1, $$\frac{1}{2}\left\| Xu \right\| ^2_{2}\leq \braket{ u , X^\top \varepsilon } \leq \|u\|_{1}\left\| X^\top\varepsilon \right\| _{\infty}$$Now, let $S:=\text{supp}(w^{*})$. From Lemma 3, $u\in C(S)$ and: $$\|u\|_{1}\leq 2\sqrt{ k }\|u\|_{2}\leq 2\sqrt{ \frac{k}{\gamma n} }\|Xu\|_{2}$$Hence, $$\left\| Xu \right\| ^2_{2}\leq 4\sqrt{ \frac{k}{\gamma n} }\|Xu\|_{2}\|X^\top\varepsilon\|_{\infty}$$ and $\|Xu\|^2_{2}\leq \frac{16k}{\gamma n}\|X^\top \varepsilon\|_{\infty}^2$. Using, $\mathbb{E}[\left\| X^\top\varepsilon \right\| _{\infty}]\leq \sqrt{ n }\cdot O(\log 2d)^{1/2}$ we get that, $$\frac{1}{n}\mathbb{E}[\left\| X(\widehat{w}-w_{0}) \right\| ^{2}_{2}]\leq \frac{k}{\gamma n}\cdot O(\log d)$$
+> Let $u:= \widehat{\beta}-\beta_{0}$. Then, similarly to the Theorem 1, $$\frac{1}{2}\left\| Xu \right\| ^2_{2}\leq \braket{ u , X^\top w } \leq \|u\|_{1}\left\| X^\top w \right\| _{\infty}$$Now, let $S:=\text{supp}(\beta^0)$. From Lemma 3, $u\in C(S)$ and: $$\|u\|_{1}\leq 2\sqrt{ k }\|u\|_{2}\leq 2\sqrt{ \frac{k}{\gamma n} }\|Xu\|_{2}$$Hence, $$\left\| Xu \right\| ^2_{2}\leq 4\sqrt{ \frac{k}{\gamma n} }\|Xu\|_{2}\|X^\top w\|_{\infty}$$ and $\|Xu\|^2_{2}\leq \frac{16k}{\gamma n}\|X^\top w\|_{\infty}^2$. Using, $\mathbb{E}[\left\| X^\top w \right\| _{\infty}^{2}]\leq nO(\log d)$ from the proof of LASSO slow rate, we get that, $$\mathbb{E}\left[ \frac{1}{n}\left\| X(\widehat{\beta}-\beta^0) \right\| ^{2}_{2} \right] \leq \frac{16k}{\gamma n^{2}}\mathbb{E}\left[ \left\| X^\top w \right\| ^{2}_{\infty} \right] \leq \frac{k}{\gamma n}\cdot O(\log d)$$
 
 ---
 ##### 1.4.2.1 Sufficient Conditions for Restricted Eigenvalue Property
@@ -145,7 +145,7 @@ What do we do when the $k$ relevant features are unknown?
 > 1. If $\delta_{\text{PW}}(X)\leq \frac{1}{8k}$, then $X$ is $\frac{1}{2}$-RE for every $S\subseteq [d]$ of size at most $k$.
 
 > [!proof]-
-> Let $S\subseteq [d]$ with size at most $k$ and $u\in C(S)$. Further, let $\delta:=\frac{1}{8k}$. We want to show that: $$\frac{1}{n}\left\| Xu \right\| ^{2}\geq \frac{1}{2}\|u\|^{2}$$We have that: $$\frac{1}{n}\left\| Xu \right\| ^{2}=\frac{1}{n}\sum_{i,j}\braket{ X_{i} , X_{j} } u_{i}u_{j}$$Then, $$\left| \sum_{i\neq j}^{} \frac{1}{n}\braket{ X_{i} , X_{j} } u_{i}u_{j} \right|\leq \sum_{i,j}^{}\left| u_{i} \right| \left| u_{j} \right| \delta= \delta\|u\|_{1}^2\leq 4k\delta\|u\|^2_{2}$$Hence, $$\frac{1}{n}\|Xu\|^2=\left( \sum_{i}^{} \frac{1}{n}\|X_{i}\|^2 u_{i}^2 \right)+\sum_{i\neq j}^{} \frac{1}{n}\braket{ X_{i} , X_{j} } u_{i}u_{j}\geq(1-4k\delta)\|u\|^2_{2}=\frac{1}{2}\|u\|^2_{2} $$
+> Let $S\subseteq [d]$ with size at most $k$ and $u\in C(S)$. Further, let $\delta:=\frac{1}{8k}$. We want to show that: $$\frac{1}{n}\left\| Xu \right\| ^{2}\geq \frac{1}{2}\|u\|^{2}$$We have that: $$\frac{1}{n}\left\| Xu \right\| ^{2}=\frac{1}{n}\sum_{i,j}\braket{ X_{i} , X_{j} } u_{i}u_{j}$$Then, $$\left| \sum_{i\neq j}^{} \frac{1}{n}\braket{ X_{i} , X_{j} } u_{i}u_{j} \right|\leq \sum_{i,j}^{}\left| u_{i} \right| \left| u_{j} \right| \delta= \delta\|u\|_{1}^2\leq 4k\delta\|u\|^2_{2}$$Hence, $$\frac{1}{n}\|Xu\|^2=\left( \sum_{i}^{} \frac{1}{n}\|X_{i}\|^2 u_{i}^2 \right)+\sum_{i\neq j}^{} \frac{1}{n}\braket{ X_{i} , X_{j} } u_{i}u_{j}\geq(1-4k\delta)\|u\|^2_{2}\geq\frac{1}{2}\|u\|^2_{2} $$
 ---
 > [!h] Example 1
 > Let $X$ be a Gaussian random matrix, i.e. $X_{1},\dots,X_{d}\sim \mathcal{N}(0,I_{n})$ i.i.d. for $d\geq n\geq 2$. Then, 
@@ -156,7 +156,7 @@ What do we do when the $k$ relevant features are unknown?
 
 ---
 ### 2. Linear Regression with Oblivious Outliers
-> [!outlook] Setup
+> [!outlook] Setting (Oblivious Outliers)
 > We have:
 > 1. **Design**: $X\in \mathbb{R}^{n,d}$ with $\frac{1}{n}X^\top X=I_{d}$.
 > 2. **Observation**: $y=X\beta ^{*}+\eta$ for unknown $\beta ^{*}\in \mathbb{R}^d$.
