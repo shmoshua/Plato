@@ -200,9 +200,9 @@ What do we do when the $k$ relevant features are unknown?
 >    
 > 
 > 
-> Now, by seting $u:= \widehat{\beta}-\beta ^{0}$, we have $f(\beta ^{0})\geq f(\widehat{\beta})=f(\beta ^{0}+u)$ and further that: $$\left\| \widehat{\beta}-\beta ^{0} \right\| \leq \frac{10}{\alpha}\left\| \nabla f(\beta ^{*}) \right\| $$
+> Now, by setting $u:= \widehat{\beta}-\beta ^{0}$, we have $f(\beta ^{0})\geq f(\widehat{\beta})=f(\beta ^{0}+u)$ and further that: $$\left\| \nabla f(\beta ^{0}) \right\|\cdot \|u\|\geq \frac{\alpha}{10}\|u\|^{2},\quad \left\| \widehat{\beta}-\beta ^{0} \right\| \leq \frac{10}{\alpha}\left\| \nabla f(\beta ^{0}) \right\| $$
 > 
-> $$\left\| \nabla f(\beta ^{*}) \right\|\cdot \|u\|\geq \frac{\alpha}{10}\|u\|^{2},\quad \frac{100}{\alpha^{2}} \left\| \nabla f(\beta ^{*}) \right\| ^{2}\geq \|u\|^{2} $$By noting that $\nabla f(\beta ^{*})=\frac{1}{n}\sum_{i\in[n]}^{}\Phi'(\eta_{i})x_{i}$ we have:$$\begin{align}\mathbb{E}[\left\| \nabla f(\beta ^{*}) \right\| ^{2}]=\frac{1}{n^{2}}\sum_{i\in [n]}^{}\|x_{i}\|^2\cdot \underbrace{ \mathbb{E}[\Phi'(\eta_{i})^{2}] }_{ \leq 4 }+\frac{1}{n^{2}}\sum_{i\neq j}^{}\braket{ x_{i} , x_{j} } \underbrace{ \mathbb{E}[\Phi'(\eta_{i})\Phi'(\eta_{j})] }_{ =0 }\leq \frac{4}{n^{2}}dn=\frac{4d}{n}\end{align}$$
+> By noting that $\nabla f(\beta ^{0})=\frac{1}{n}\sum_{i\in[n]}^{}\Phi'(\eta_{i})x_{i}$ we have:$$\begin{align}\mathbb{E}[\left\| \nabla f(\beta ^{0}) \right\| ^{2}]=\frac{1}{n^{2}}\sum_{i\in [n]}^{}\|x_{i}\|^2\cdot \underbrace{ \mathbb{E}[\Phi'(\eta_{i})^{2}] }_{ \leq 4 }+\frac{1}{n^{2}}\sum_{i\neq j}^{}\braket{ x_{i} , x_{j} } \underbrace{ \mathbb{E}[\Phi'(\eta_{i})\Phi'(\eta_{j})] }_{ =\mathbb{E}[\Phi'(\eta_{i})]\mathbb{E}[\Phi'(\eta_{j})]=0 }\leq \frac{4}{n^{2}}dn=\frac{4d}{n}\end{align}$$
 > 
 > Therefore, $$\mathbb{P}\left( \left\| \widehat{\beta}- \beta ^{*}\right\| ^{2}\geq \frac{40000 d}{\alpha^{2}n}\right)\leq  \frac{\mathbb{E}\left[ \left\| \widehat{\beta}- \beta ^{*}\right\| ^{2} \right] }{40000d / \alpha^{2}n}\leq \frac{\mathbb{E}\left[ \left\| \nabla f(\beta ^{*}) \right\| ^{2} \right] }{400d / n}\leq0.01$$
 > This proves the statement.
