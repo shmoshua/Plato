@@ -189,7 +189,7 @@ What do we do when the $k$ relevant features are unknown?
 > Let $\alpha:=\min_{i}\mathbb{P}(\left| \eta_{i} \right|\leq 1)$. Let $x_{1},\dots,x_{n}\in \mathbb{R}^d$ be the rows of $X$ and $C:=\frac{1}{\sqrt{ d }}\max_{i}\|x_{i}\|$. 
 > 1. if $n= \Omega\left( \frac{d^{2}C^2}{\alpha^{2}} \right)$ then for the Huber loss estimator $\widehat{\beta}$ with probability $0.99$: $$\left\| \widehat{\beta}-\beta ^{*} \right\| ^{2}\leq O\left( \frac{d}{\alpha^{2}n} \right)$$
 
-> [!proof]+
+> [!proof]-
 > We define: $$f:\mathbb{R}^d\to \mathbb{R},\quad \beta\mapsto \frac{1}{n}\sum_{i\in[n]}^{}\Phi(\braket{ x_{i} , \beta } -y_{i})$$Then, $\nabla f(\beta)=\frac{1}{n}\sum_{i\in[n]}^{}\Phi'(\braket{ x_{i} , \beta } -y_{i})x_{i}$ where: $$\Phi'(t)=\begin{cases}\text{sgn}(t)\cdot \left| t \right|&\left| t \right|\leq 2\\2\cdot  \text{sgn}(t)&\left| t \right|\geq 2\end{cases}=\text{sgn}(t)\cdot\min\{ \left| t \right|,2 \}, \quad \Phi''(t)=\mathbb{1}_{\{ \left| t \right| \leq 2 \}}$$
 > Let $M^{\text{low}}:=\frac{1}{2n}\sum_{i=1}^{n}\mathbb{1}_{\{ \left| \eta_{i} \right|\leq 1 \}}x_{i}x_{i}^\top$. Then:
 > 1. **Claim 1: For any unit vector $u\in \mathbb{R}^d$, we have that:** $$\frac{1}{n}\sum_{i\in[n]}\braket{ x_{i} , u } ^{4}\leq C^{2}d$$Firstly, note that: $$\frac{1}{n}\sum_{i\in[n]}^{}\braket{  x_{i},u}^{2}=\frac{1}{n }u^\top X^\top X u=u^\top u=\|u\|^2=1 $$Now, using Cauchy-Schwarz, it follows that:$$\frac{1}{n}\sum_{i=1}^{n}\braket{ x_{i}, u } ^4\leq \frac{1}{n}\sum_{i=1}^{n}\braket{ x_{i} , u } ^2\underbrace{ \left\| x_{i} \right\| ^{2} }_{ \leq C^{2}d }\underbrace{ \|u\|^{2} }_{ =1 }\leq C^{2}d\left( \frac{1}{n}\sum_{i=1}^{n}\braket{ x_{i} , u } ^{2} \right) =C^{2}d$$
