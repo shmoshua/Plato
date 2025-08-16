@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 2"
+              "title": "Expected Value"
             }
           },
           {
@@ -145,7 +145,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Hoeffding",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +166,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -258,10 +259,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8207292bb85f5852",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Probability Theory/Expected Value.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Analysis/Taylor's Theorem.md",
     "Analysis/Concentration Bounds.md",
@@ -285,7 +287,6 @@
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/Compact Space.md",
     "Courses/Graph Theory/Problem Set 5.md",
-    "Courses/Graph Theory/Problem Set 4.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
