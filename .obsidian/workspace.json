@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 2"
+              "title": "Exercise Sheet 3"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Taylor's Theorem.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Taylor's Theorem"
+              "title": "Exercise Sheet 3"
             }
           },
           {
@@ -258,11 +258,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "8207292bb85f5852",
   "lastOpenFiles": [
-    "Analysis/Taylor's Theorem.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+    "Analysis/Taylor's Theorem.md",
     "Analysis/Concentration Bounds.md",
     "Courses/Graph Theory/Exam2023.md",
     "Probability Theory/Conditional Probability.md",
@@ -285,7 +286,6 @@
     "Topology/Compact Space.md",
     "Courses/Graph Theory/Problem Set 5.md",
     "Courses/Graph Theory/Problem Set 4.md",
-    "Courses/Graph Theory/Problem Set 3.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
