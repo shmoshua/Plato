@@ -198,15 +198,17 @@ What do we do when the $k$ relevant features are unknown?
 > 
 > Therefore, we have that w.h.p: $$u^\top M^{\text{low}}u\geq\frac{\alpha}{2}-\frac{\alpha}{6}=\frac{\alpha}{3}\|u\|^{2}_{2},\quad \forall u\in S^{d-1}$$and this is scalable for any $u\in\mathbb{R}^d$. 
 >    
-> 5. **Claim 4**: for $R\geq 20 \|\nabla f(0)\| / \alpha$ and for all $u$ with $\|u\|\leq  R$, we have that: $$f(\beta^0+u)\geq f(\beta ^{0})-\left\| \nabla f(\beta ^{0}) \right\|\cdot \|u\|+\frac{\alpha}{10}\|u\|^{2}$$
+> 4. **Claim 4**: for $R:= \frac{1}{C\sqrt{ d }}$ and for all $u$ with $\|u\|\leq  R$, we have that: $$f(\beta^0+u)\geq f(\beta ^{0})-\left\| \nabla f(\beta ^{0}) \right\|\cdot \|u\|+\frac{\alpha}{10}\|u\|^{2}$$
 >    
 >    From [[Taylor's Theorem|2nd order Hamadard Lemma]], $$f(\beta ^{0}+u)=f(\beta ^{0})+\braket{ \nabla f(\beta ^{0}) , u } +\underbrace{ u^\top \left( \int_{0}^{1} (1-t)\text{H}_{f}(\beta ^{0}+tu) \, dt  \right)u }_{ =: M(u) }  $$Now, we have that: 
 >    
->    $$\text{H}_{f}(\beta ^{*}+tu)=\frac{1}{n}\sum_{i\in[n]}^{}\Phi''(t\braket{ x_{i} ,u } -\eta_{i})x_{i}x_{i}^\top=\frac{1}{n}\sum_{i\in[n]}^{} \mathbb{1}_{\{ \left| t\braket{ x_{i} , u } -\eta_{i} \right| \leq 2 \}}x_{i}x_{i}^\top$$ and:$$\begin{align}M(u)&= \frac{1}{n}\sum_{i\in[n]}\left( \int_{0}^{1}  (1-t) \underbrace{ \mathbb{1}_{\{ \left| t\braket{ x_{i} , u } -\eta_{i} \right| \leq 2 \}} }_{ \geq \mathbb{1}_{\{ \left| \braket{ x_{i} , u }  \right|\leq 1   \}}\mathbb{1}_{\{ \left| \eta_i \right|\leq 1  \}} } \, dt \right)\braket{ x_{i} , u }^{2}\\&\geq \frac{1}{2n}\sum_{i\in[n]}\mathbb{1}_{\{ \left| \braket{ x_{i} , u } \right| \leq 1 \}}\mathbb{1}_{\{ \left| \eta_{i}\right| \leq 1 \}}\braket{ x_{i} , u }^{2}\\&\geq \mathbb{1}_{\{ \left| C\sqrt{ d }\cdot R\right| \leq 1  \}}\left( u^\top M^{\text{low}} u \right)\\&\geq \mathbb{1}_{\{ \left| C\sqrt{ d }R \right| \leq 1 \}}\frac{\alpha}{3}\|u\|^{2}\end{align}$$
+>    $$\text{H}_{f}(\beta ^{*}+tu)=\frac{1}{n}\sum_{i\in[n]}^{}\Phi''(t\braket{ x_{i} ,u } -\eta_{i})x_{i}x_{i}^\top=\frac{1}{n}\sum_{i\in[n]}^{} \mathbb{1}_{\{ \left| t\braket{ x_{i} , u } -\eta_{i} \right| \leq 2 \}}x_{i}x_{i}^\top$$ and:$$\begin{align}M(u)&= \frac{1}{n}\sum_{i\in[n]}\left( \int_{0}^{1}  (1-t) \underbrace{ \mathbb{1}_{\{ \left| t\braket{ x_{i} , u } -\eta_{i} \right| \leq 2 \}} }_{ \geq \mathbb{1}_{\{ \left| \braket{ x_{i} , u }  \right|\leq 1   \}}\mathbb{1}_{\{ \left| \eta_i \right|\leq 1  \}} } \, dt \right)\braket{ x_{i} , u }^{2}\\&\geq \frac{1}{2n}\sum_{i\in[n]}\mathbb{1}_{\{ \left| \braket{ x_{i} , u } \right| \leq 1 \}}\mathbb{1}_{\{ \left| \eta_{i}\right| \leq 1 \}}\braket{ x_{i} , u }^{2}\\&\geq \mathbb{1}_{\{ \left| C\sqrt{ d }\cdot R\right| \leq 1  \}}\left( u^\top M^{\text{low}} u \right)\\&\geq \frac{\alpha}{3}\|u\|^{2}\end{align}$$This proves the statement.
 >    
 > 
 > 
-> Now, by setting $u:= \widehat{\beta}-\beta ^{0}$, we have $f(\beta ^{0})\geq f(\widehat{\beta})=f(\beta ^{0}+u)$ and further that: $$\left\| \nabla f(\beta ^{0}) \right\|\cdot \|u\|\geq \frac{\alpha}{10}\|u\|^{2},\quad \left\| \widehat{\beta}-\beta ^{0} \right\| \leq \frac{10}{\alpha}\left\| \nabla f(\beta ^{0}) \right\| $$
+> Now, define $u:= \widehat{\beta}-\beta ^{0}$, we show that $\|u\|\leq 1 / (C\sqrt{ d })$. 
+> 
+> we have $f(\beta ^{0})\geq f(\widehat{\beta})=f(\beta ^{0}+u)$ and further that: $$\left\| \nabla f(\beta ^{0}) \right\|\cdot \|u\|\geq \frac{\alpha}{10}\|u\|^{2},\quad \left\| \widehat{\beta}-\beta ^{0} \right\| \leq \frac{10}{\alpha}\left\| \nabla f(\beta ^{0}) \right\| $$
 > 
 > By noting that $\nabla f(\beta ^{0})=\frac{1}{n}\sum_{i\in[n]}^{}\Phi'(\eta_{i})x_{i}$ we have:$$\begin{align}\mathbb{E}[\left\| \nabla f(\beta ^{0}) \right\| ^{2}]=\frac{1}{n^{2}}\sum_{i\in [n]}^{}\|x_{i}\|^2\cdot \underbrace{ \mathbb{E}[\Phi'(\eta_{i})^{2}] }_{ \leq 4 }+\frac{1}{n^{2}}\sum_{i\neq j}^{}\braket{ x_{i} , x_{j} } \underbrace{ \mathbb{E}[\Phi'(\eta_{i})\Phi'(\eta_{j})] }_{ =\mathbb{E}[\Phi'(\eta_{i})]\mathbb{E}[\Phi'(\eta_{j})]=0 }\leq \frac{4}{n^{2}}dn=\frac{4d}{n}\end{align}$$
 > 
