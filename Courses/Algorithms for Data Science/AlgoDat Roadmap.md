@@ -258,7 +258,7 @@ What do we do when the $k$ relevant features are unknown?
 #### 4.1 Matrix Bernstein Inequality
 > [!lemma] Theorem (Matrix Bernstein)
 > Let $Z$ be a $\mathbb{R}^{d,d}$-valued random variable with $d\geq 2$ s.t. $\mathbb{E}[Z]=0$ and $\{ Z \}=\{ Z^\top \}$. 
-> 1. if $Z$ is $(\sigma,b)$-Bernstein, i.e. $$\left\| \mathbb{E}[\left\| Z \right\| ^{j-2}]ZZ^\top \right\|\leq j!\cdot  b^{j-2}\cdot \sigma^{2} $$then with probability $1-d^{-100}$, for $Z_{1},\dots,Z_{n}\sim \{ Z \}$ iid, $$\left\| \frac{1}{n}\sum_{i\in[n]}^{}Z_{i} \right\| \lesssim \sigma \sqrt{ \frac{\log d}{n} }+b\frac{\log d}{n}$$
+> 1. if $Z$ is $(\sigma,b)$-Bernstein, i.e. $$\left\| \mathbb{E}[\left\| Z \right\| ^{j-2}ZZ^\top ]\right\|\leq j!\cdot  b^{j-2}\cdot \sigma^{2} ,\quad \forall j\geq 2$$then with probability $1-d^{-100}$, for $Z_{1},\dots,Z_{n}\sim \{ Z \}$ iid, $$\left\| \frac{1}{n}\sum_{i\in[n]}^{}Z_{i} \right\| \lesssim \sigma \sqrt{ \frac{\log d}{n} }+b\frac{\log d}{n}$$
 
 ---
 #### 4.2 Matrix Completion Model
@@ -290,7 +290,7 @@ What do we do when the $k$ relevant features are unknown?
 > Let $U:= \widehat{\Theta}-\Theta^0$. From Claim 1, we can write $Y=\Theta^0+W$ where $\mathbb{E}[W]=0$. Hence, from Multiple-Spike Theorem 1 proof, $\left\| U \right\|^{2}_{F}\leq 8r\left\| W \right\|^{2}$. Now, $$\begin{aligned}W&=Y-\Theta^0\\&=\frac{d^{2}}{n}\sum_{i\in[n]} y_{i}E_{a(i),b(i)}-\Theta^0\\&=\frac{1}{n}\sum_{i\in[n]} (d^{2}y_{i}E_{a(i),b(i)}-\Theta^0)\\&=\frac{1}{n}\sum_{i\in[n]} \underbrace{ (\braket{ E_{a(i),b(i)} , \Theta^0 } d^{2} E_{a(i),b(i)}-\Theta^0) }_{ =:Z^1_{i} }+\frac{1}{n}\sum_{i\in[n]}^{}\underbrace{ w_{i}d^{2}E_{a(i),b(i)} }_{ =:Z^{2}_{i} }\end{aligned}$$
 > 
 > 2. **Claim 2: w.h.p $\left\| \frac{1}{n}\sum_{i\in[n]}^{}Z^1_{i} \right\|^{2}\lesssim \left\| \Theta^0 \right\|_{\text{max}}\frac{d^3 \log d}{n}$**.
->    We use the matrix Bernstein identity. We show that $Z^1_{i}$ is $\left\| \Theta \right\|$
+>    We use the matrix Bernstein identity. Firstly, $$\mathbb{E}[Z^1_{i}]_{p,q}=\mathbb{E}[d^{2}\Theta^0_{a(i),b(i)}\mathbb{1}_{a(i),p}\mathbb{1}_{b(i),q}-\Theta^0_{p,q}]=\Theta^0_{p,q}-\Theta^0_{p,q}=0$$Further, $\{ Z^1_{i} \}=\{ (Z^1_{i})^\top \}$. Therefore, it suffices to show that $Z^1_{i}$ is $(\left\| \Theta^0 \right\|_{\text{max}}\cdot d^{3/2},\left\| \Theta^0 \right\|_{\text{max}}d^{2})$-Bernstein. We have: $$\begin{aligned}\left\| Z^1_{i} \right\| &\leq \left\| \braket{ E_{a(i),b(i)} , \Theta^0 } d^{2}E_{a(i),b(i)} \right\| +\left\| \Theta^0 \right\| \\&\leq \left| \Theta^0_{a(i),b(i)} \right| d^{2}+\left\| \Theta^0 \right\| _{\text{max}}d\\&\leq 2\left\| \Theta^0 \right\|_{\text{max}}d^{2} \end{aligned}$$Now, as $\mathbb{E}[\braket{ E_{a(i),b(i)} , \Theta^0 } d^{2} E_{a(i),b(i)}]=\mathbb{E}[Z^1_{i}+\Theta^0]=\Theta^0$,$$\begin{aligned}0\leq \mathbb{E}[Z^1_{i} (Z_{i}^1)^\top]&=\mathbb{E}[\braket{ E_{a(i),b(i)} , \Theta^0 } ^{2}d^4E_{a(i),a(i)}]-\Theta^0(\Theta^0)^\top\\&\leq \left\| \Theta^0 \right\|_{\text{max}}^{2}d^3 I_{d}  \end{aligned}$$Therefore, $$\begin{aligned}\left\| \mathbb{E}[\left\| Z^1_{i} \right\| ]^{j-2}Z^1_{i}( Z^1_{i})^\top \right\| &\leq (2\left\| \Theta^0 \right\| _{\text{max}}d^{2})^{j-2}\left\|  \mathbb{E}[ Z^1_{i}( Z^1_{i})^\top ]\right\| \\&\leq 2^{j-2}\left\| \Theta^0 \right\| _{\text{max}}^jd^{j+3}\end{aligned}$$
 ---
 ### 4. Community Detection
 > [!outlook] Setup
