@@ -257,13 +257,23 @@ What do we do when the $k$ relevant features are unknown?
 #### 3.3 Matrix Completion Model
 > [!outlook] Setup
 > For $r,d,n\geq2$.
-> 1. **Observation**: $\{ (X_{i},y_{i}) \}_{i\in [n]}$ where $y_{i}:= \braket{ X_{i} , \Theta ^{*} }+w$ for $w\sim \mathcal{N}(0,\sigma^{2})$ and $X_{i}:= e_{a_{i}}e_{b_{i}}^\top$ where $a_{i},b_{i}\sim \text{Uni}([d])$ i.i.d. 
+> 1. **Unknown**: $\Theta ^{0}\in \mathbb{R}^{d,d}$ with $\text{rnk}(\Theta ^{0})\leq r$
+> 2. **Observation**: $\{ (E_{a(i),b(i)},y_{i}) \}_{i\in [n]}$ where 
+> 	- $y_{i}:= \braket{ X_{i} , \Theta ^{0} }+w_{i}$ for $w_{i}\sim \mathcal{N}(0,\sigma^{2})$ and $a_{i},b_{i}\sim \text{Uni}([d])$ i.i.d. 
+> 3. **Error measure**: For estimator $\widehat{\Theta}$, the error is given as $$\text{err}(\widehat{\Theta}):=\frac{1}{d^{2}}\left\| \widehat{\Theta}-\Theta ^{0} \right\|^{2}_{F}$$
+- **Remark**: Following are the observations:
+	1. $n\gg rd$ as \#observations has to be greater than \#degree of freedom.
+	2. $n\gg d\log d$ as all rows and columns have to be covered.
+- **Remark**: Let $\Theta^0:=\pm\alpha E_{1,1}$ for $\sigma=0$. Then, if $n\ll d^{2}$$$\mathbb{P}(\Theta^0_{1,1}\text{ not observed})=\left( 1-\frac{1}{d^{2}} \right)^n\geq 1-\frac{n}{d^{2}}\approx 1$$and $\mathbb{E}[\text{err}(\widehat{\Theta})|\Theta^0_{1,1}\text{ is not observed}]\geq \alpha^{2} /d^{2}$. Hence, the error grows with $\left\| \Theta^0 \right\|_{\text{max}}$.
 ---
 > [!definition]
 > In the given setup,
-> 1. The ***maximum likelihood estimator*** is given by: $$\widehat{X}\in \underset{ \text{rank}(\Theta)\leq r }{ \arg\min } \sum_{i=1}^{n}(\braket{ X_{i} , \Theta  } -y_{i})^{2}$$
+> 1. The ***maximum likelihood estimator*** is given by: $$\widehat{\Theta}\in \underset{ \text{rank}(\Theta)\leq r }{ \arg\min } \sum_{i=1}^{n}(\braket{ E_{a(i),b(i)} , \Theta  } -y_{i})^{2}$$
+- **Remark**: Computing the MLE is NP-hard in the worst case.
 ---
 > [!lemma] Theorem 1 
+> Consider the polytime estimator: $$\widehat{\Theta}:=\underset{ \text{rnk}(\Theta)\leq r }{ \arg\min }\left\| \Theta-\frac{d^{2}}{n}\sum_{i\in[n]}^{}y_{i}E_{a(i),b(i)} \right\| ^{2}_{F}$$Then, if $n\geq d\log d$, then:
+> $$\text{err}(\widehat{\Theta})\lesim$$
 
 ---
 ### 4. Community Detection
