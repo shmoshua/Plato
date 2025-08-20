@@ -254,12 +254,19 @@ What do we do when the $k$ relevant features are unknown?
 > Let $U:= \widehat{X}-X^{*}$. We have that: $$0\leq \left\| X^{*}-Y \right\| ^2_{F}-\left\| \widehat{X}-Y \right\| ^2_{F}=\left\| W \right\| ^2_{F}-\left\| U-W \right\| ^{2}_{F}=2\braket{ U , W } -\left\| U \right\| ^{2}_{F}$$ where $\braket{ U , W }:=\sum_{i,j}^{}U_{ij}W_{ij}$. Further, $\text{rk}(U)\leq \text{rk}(\widehat{X})+\text{rk}(X^{*})\leq 2r$. Hence, $$\left\| U \right\| _*\leq \sqrt{ 2r }\|U\|_{F}$$Therefore, by Hölder, $$\left\| U \right\| ^{2}_{F}\leq 2\braket{ U , W } \leq 2 \|U\|_{*}\|W\|\leq 2\sqrt{ 2r }\|U\|_{F}\|W\|$$Hence, $\|U\|^2_{F}\leq 8r\|W\|^{2}$. We can conclude by: $$\frac{1}{nm}\mathbb{E}\left[  \left\| \widehat{X}-X^{*} \right\| ^{2}_{F}\right]\leq \frac{8r}{nm}\mathbb{E}[\left\| W \right\| ^{2}]\leq  r \cdot O\left( \frac{n+m}{nm} \right)=r \cdot O\left( \frac{1}{n}+\frac{1}{m} \right)$$
 
 ---
-#### 3.3 Matrix Completion Model
+### 4. Matrix Completion Model
+#### 4.1 Matrix Bernstein Inequality
+> [!lemma] Theorem (Matrix Bernstein)
+> Let $Z$ be a $\mathbb{R}^{d,d}$-valued random variable with $d\geq 2$ s.t. $\mathbb{E}[Z]=0$ and $\{ Z \}=\{ Z^\top \}$. 
+> 1. if $Z$ is $(\sigma,b)$-Bernstein, i.e. $$\left\| \mathbb{E}[\left\| Z \right\| ^{j-2}]ZZ^\top \right\|\leq j!\cdot  b^{j-2}\cdot \sigma^{2} $$then with probability $1-d^{-100}$, for $Z_{1},\dots,Z_{n}\sim \{ Z \}$ iid, $$\left\| \frac{1}{n}\sum_{i\in[n]}^{}Z_{i} \right\| \lesssim \sigma \sqrt{ \frac{\log d}{n} }+b\frac{\log d}{n}$$
+
+---
+#### 4.2 Matrix Completion Model
 > [!outlook] Setup
 > For $r,d,n\geq2$.
 > 1. **Unknown**: $\Theta ^{0}\in \mathbb{R}^{d,d}$ with $\text{rnk}(\Theta ^{0})\leq r$
 > 2. **Observation**: $\{ (E_{a(i),b(i)},y_{i}) \}_{i\in [n]}$ where 
-> 	- $y_{i}:= \braket{ X_{i} , \Theta ^{0} }+w_{i}$ for $w_{i}\sim \mathcal{N}(0,\sigma^{2})$ and $a_{i},b_{i}\sim \text{Uni}([d])$ i.i.d. 
+> 	- $y_{i}:= \braket{ E_{a(i),b(i)} , \Theta ^{0} }+w_{i}$ for $w_{i}\sim \mathcal{N}(0,\sigma^{2})$ and $a_{i},b_{i}\sim \text{Uni}([d])$ i.i.d. 
 > 3. **Error measure**: For estimator $\widehat{\Theta}$, the error is given as $$\text{err}(\widehat{\Theta}):=\frac{1}{d^{2}}\left\| \widehat{\Theta}-\Theta ^{0} \right\|^{2}_{F}$$
 - **Remark**: Following are the observations:
 	1. $n\gg rd$ as \#observations has to be greater than \#degree of freedom.
@@ -273,8 +280,17 @@ What do we do when the $k$ relevant features are unknown?
 ---
 > [!lemma] Theorem 1 
 > Consider the polytime estimator: $$\widehat{\Theta}:=\underset{ \text{rnk}(\Theta)\leq r }{ \arg\min }\left\| \Theta-\frac{d^{2}}{n}\sum_{i\in[n]}^{}y_{i}E_{a(i),b(i)} \right\| ^{2}_{F}$$Then, if $n\geq d\log d$, then:
-> $$\text{err}(\widehat{\Theta})\lesim$$
+> $$\text{err}(\widehat{\Theta})\lesssim \frac{rd\log d}{n}(\sigma^{2}+\left\| \Theta^0 \right\| _{\text{max}})$$
 
+> [!proof]+
+> Let $Y:=\frac{d^{2}}{n}\sum_{i\in[n]}^{}y_{i}E_{a(i),b(i)}$. We have that:
+> 1. **Claim 1: $\mathbb{E}[Y]=\Theta^0$.**
+>    Notice that for any $i,j$, $$\mathbb{E}[Y_{p,q}]=\frac{d^{2}}{n}\sum_{i=1}^{n}\mathbb{E}[y_{i}\mathbb{1}_{a(i),p}\mathbb{1}_{b(i),q}]=\frac{d^{2}}{n}\sum_{i=1}^{n}\Theta^0_{p,q}\cdot \frac{1}{d^{2}}=\Theta^0_{p,q}$$
+> 
+> Let $U:= \widehat{\Theta}-\Theta^0$. From Claim 1, we can write $Y=\Theta^0+W$ where $\mathbb{E}[W]=0$. Hence, from Multiple-Spike Theorem 1 proof, $\left\| U \right\|^{2}_{F}\leq 8r\left\| W \right\|^{2}$. Now, $$\begin{aligned}W&=Y-\Theta^0\\&=\frac{d^{2}}{n}\sum_{i\in[n]} y_{i}E_{a(i),b(i)}-\Theta^0\\&=\frac{1}{n}\sum_{i\in[n]} (d^{2}y_{i}E_{a(i),b(i)}-\Theta^0)\\&=\frac{1}{n}\sum_{i\in[n]} \underbrace{ (\braket{ E_{a(i),b(i)} , \Theta^0 } d^{2} E_{a(i),b(i)}-\Theta^0) }_{ =:Z^1_{i} }+\frac{1}{n}\sum_{i\in[n]}^{}\underbrace{ w_{i}d^{2}E_{a(i),b(i)} }_{ =:Z^{2}_{i} }\end{aligned}$$
+> 
+> 2. **Claim 2: w.h.p $\left\| \frac{1}{n}\sum_{i\in[n]}^{}Z^1_{i} \right\|^{2}\lesssim \left\| \Theta^0 \right\|_{\text{max}}\frac{d^3 \log d}{n}$**.
+>    We use the matrix Bernstein identity. We show that $Z^1_{i}$ is $\left\| \Theta \right\|$
 ---
 ### 4. Community Detection
 > [!outlook] Setup
@@ -286,3 +302,4 @@ What do we do when the $k$ relevant features are unknown?
 > [!lemma] Theorem 1
 > Let $d\geq O( 1 / \varepsilon^{2})$ in the above setup.
 > 1. there exists an efficiently computable estimator $\widehat{X}:=\widehat{X}(G)$ s.t. with high probability: $$\frac{1}{n^{2}}\left\| \widehat{X}-X^{*} \right\| ^{2}_{F}\leq 0.01$$where $X^{*}:= x^{*}(x^{*})^\top$. 
+> 2.
