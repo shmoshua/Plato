@@ -279,7 +279,7 @@ What do we do when the $k$ relevant features are unknown?
 - **Remark**: Computing the MLE is NP-hard in the worst case.
 ---
 > [!lemma] Theorem 1 
-> Consider the polytime estimator: $$\widehat{\Theta}:=\underset{ \text{rnk}(\Theta)\leq r }{ \arg\min }\left\| \Theta-\frac{d^{2}}{n}\sum_{i\in[n]}^{}y_{i}E_{a(i),b(i)} \right\| ^{2}_{F}$$Then, if $n\geq d\log d$, then:
+> Consider the polytime estimator: $$\widehat{\Theta}:=\underset{ \text{rnk}(\Theta)\leq r }{ \arg\min }\left\| \Theta-\frac{d^{2}}{n}\sum_{i\in[n]}^{}y_{i}E_{a(i),b(i)} \right\| ^{2}_{F}$$Then, if $n\geq d\log d$, then w.h.p.:
 > $$\text{err}(\widehat{\Theta})\lesssim \frac{rd\log d}{n}(\sigma^{2}+\left\| \Theta^0 \right\| _{\text{max}}^{2})$$
 
 > [!proof]-
