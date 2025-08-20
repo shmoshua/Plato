@@ -257,11 +257,13 @@ What do we do when the $k$ relevant features are unknown?
 #### 3.3 Matrix Completion Model
 > [!outlook] Setup
 > For $r,d,n\geq2$.
-> 1. **Observation**: $\{ (X_{i},y_{i}) \}_{i\in [n]}$ where $y_{i}:= \braket{ X_{i} , \Theta ^{*} }+w$ for $w\sim \mathcal{N}(0,1)$ and $X_{i}:= e_{a_{i}}e_{b_{i}}^\top$ where $a_{i},b_{i}\sim \text{Uni}([d])$ i.i.d. 
+> 1. **Observation**: $\{ (X_{i},y_{i}) \}_{i\in [n]}$ where $y_{i}:= \braket{ X_{i} , \Theta ^{*} }+w$ for $w\sim \mathcal{N}(0,\sigma^{2})$ and $X_{i}:= e_{a_{i}}e_{b_{i}}^\top$ where $a_{i},b_{i}\sim \text{Uni}([d])$ i.i.d. 
 ---
 > [!definition]
 > In the given setup,
 > 1. The ***maximum likelihood estimator*** is given by: $$\widehat{X}\in \underset{ \text{rank}(\Theta)\leq r }{ \arg\min } \sum_{i=1}^{n}(\braket{ X_{i} , \Theta  } -y_{i})^{2}$$
+---
+> [!lemma] Theorem 1 
 
 ---
 ### 4. Community Detection
