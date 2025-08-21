@@ -345,7 +345,7 @@ What do we do when the $k$ relevant features are unknown?
 > 1. $\left\| A \right\|_{\text{cut}}=\sup_{\|x\|_{\infty},\|y\|_{\infty}\leq 1}\braket{ x , Ay }=\sup_{x,y\neq 0}\frac{\braket{ x , Ay }}{\|x\|_{\infty}\|y\|_{\infty}}$
 > 2. for any jointly distributed random vectors $x,y\in \mathbb{R}^{n}$, $$\mathbb{E}[\braket{ x , Ay } ]\leq \text{max}_{i}\{ \mathbb{E}[x_{i}^{2}],\mathbb{E}[y_{i}^{2}] \}\left\| A \right\| _{G}$$where the equality is achieved for jointly Gaussian $x,y$ with $\mathbb{E}[x_{i}^{2}]=\mathbb{E}[y_{i}^{2}]=1$. 
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Firstly, $$\left\| A \right\| _{\text{cut}}=\sup_{x,y\in \{ \pm 1 \}^n}\braket{ A , xy^\top } =\sup_{x,y\in \{ \pm 1 \}^n}\text{tr}(Ayx^\top) =\sup_{x,y\in\{ \pm 1 \}^n}\braket{ x , Ay } \leq \sup_{\|x\|_{\infty},\|y\|_{\infty}\leq 1}\braket{ x , Ay }$$The converse holds as the optimum is at the extremum. For the second equality, we can consider $x':= \frac{x}{\|x\|_{\infty}}$ and $y':=\frac{y}{\|y\|_{\infty}}$.
 > 2. Let $x,y$ be jointly distributed. Then, define: $$W:=\mathbb{E}\left[ \begin{bmatrix}x\\y\end{bmatrix} \begin{bmatrix}x\\y\end{bmatrix}^\top\right] $$Then, clearly $0\leq W$ and we have that: $$\mathbb{E}[\braket{ x , Ay } ]=\mathbb{E}\left[ \left\langle W , \begin{bmatrix}0&A\\0&0\end{bmatrix}\right\rangle \right] $$
@@ -353,3 +353,17 @@ What do we do when the $k$ relevant features are unknown?
 > [!lemma] Theorem 4 (Grothendieck's Inequality)
 > Let $A\in \mathbb{R}^{n,n}$. Then, 
 > 1. there exists a constant $k> 1$ s.t. $$\left\| A \right\| _{\text{cut}}\leq \left\| A \right\| _{\mathcal{G}}\leq k\left\| A \right\| _{\text{cut}}$$
+
+---
+##### 4.2 Community Detection with Grothendieck
+> [!lemma] Theorem 1
+> Consider the polytime estimator:
+>  $$\widehat{X}:=\underset{ \text{rnk}(X)\leq 1 }{ \arg\min }\left\| X-Y \right\| ^{2}_{F},\quad Y:= I+\frac{1}{\varepsilon }\left( \frac{n}{d}A-1 \right)$$where $A$ is the adjacency matrix of $G$.
+> 1. if $d\geq \Omega( 1/ \varepsilon^{2})$.  then w.h.p $\text{err}(\widehat{X})\le 0.01$.
+
+> [!proof]+
+> We have that: 
+> 1. **Claim 1**: $\left\| \widehat{X}-X^0 \right\|^{2}_{F}\leq 4\left\| Y-X ^0\right\|_{G}$
+>    As $Y-\widehat{X}=(Y-X^0)+(X^0-\widehat{X})$, we have that: $$\begin{aligned}\left\| \widehat{X}-X^0 \right\|^{2}_{F}&=\underbrace{ \left\| Y-\widehat{X} \right\| ^{2}_{F}-\left\| Y-X^0 \right\| ^{2}_{F} }_{ \leq 0 }-2\braket{ Y-X^0 , X^0-\widehat{X} } \\&\leq 2(\left| \braket{ X^0, Y-X^0 }  \right|+\left| \braket{ \widehat{X}, Y-X^0 }  \right| )\end{aligned} $$As $X^0,\widehat{X}$ are both in $\mathcal{C}_{G}:=\{ W^{(1,2)}:0\leq W\in \mathbb{R}^{2n,2n},\text{diag}(W)=1 \}$, we have that: $$\left\| \widehat{X}-X^0 \right\| ^{2}_{F}\leq 4\left\| Y-X^0 \right\| _{G}$$
+> 2. **Claim 2**: $\left\| Y-X^0 \right\|_{\text{cut}}\leq 0.001 n^{2}$ **whp.**
+>    Let $u,v\in \{ \pm 1 \}^{n}$. Then, from the earlier proof:$$\braket{ u , (Y-X^0)v } =\sum_{i<j}\braket{ u , Z^{(i,j)}v } =\sum_{i<j}^{}\underbrace{ (Y_{ij}-X^0_{ij})(u_{i}v_{j}+u_{j}v_{i} }_{ =:z^{ij} })$$Then, by Bernstein, we have $\mathbb{E}[z^{ij}]=0$ and $$\left| z^{ij} \right| \leq \frac{2n}{\varepsilon d}$$and $$\mathbb{E}[(z^{ij})^{2}]\leq \frac{8n}{\varepsilon^{2} d}$$Hence, $\mathbb{E}\left[ \sum_{i<j}^{}(z^{ij})^{2} \right]\leq \frac{8n^3}{\varepsilon^{2} d}$ and by Bernstein, with error $\delta$$$\mathbb{P}(\left\| Y-X^0 \right\| _{\text{cut}})$$
