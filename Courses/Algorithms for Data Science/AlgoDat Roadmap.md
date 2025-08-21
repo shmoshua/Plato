@@ -311,15 +311,17 @@ What do we do when the $k$ relevant features are unknown?
 ---
 > [!lemma] Theorem 1
 > Consider the polytime estimator:
->  $$\widehat{X}:=\underset{ \text{rnk}(X)\leq 1 }{ \arg\min }\left\| X-Y \right\| ^{2}_{F},\quad Y:= I+\frac{n}{\varepsilon d}\left( A-\frac{d}{n} \right)$$where $A$ is the adjacency matrix of $G$.
+>  $$\widehat{X}:=\underset{ \text{rnk}(X)\leq 1 }{ \arg\min }\left\| X-Y \right\| ^{2}_{F},\quad Y:= I+\frac{1}{\varepsilon }\left( \frac{n}{d}A-1 \right)$$where $A$ is the adjacency matrix of $G$.
 > 1. if $d\geq \Omega( \log n / \varepsilon^{2})$.  then w.h.p $\text{err}(\widehat{X})\le 0.01$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. **Claim 1: $\mathbb{E}[Y]=X^0$.**
 >    We have that for $i\neq j$:$$\mathbb{E}[Y_{ij}]=\frac{n}{\varepsilon d}\left( \mathbb{E}[A_{ij}]-\frac{d}{n} \right)=X^0_{ij}$$
 >    For $i=j$, $\mathbb{E}[Y_{ii}]=1=X^0_{ii}$. 
 > 
-> Now, $Y-X^0=\sum_{i<j}^{}Z^{(i,j)}$ where $Z^{(i,j)}:=(Y_{ij}-X^0_{ij})( E_{ij}+E_{ji})$. We use the Bernstein Variant. Firstly, $\mathbb{E}[Z^{(i,j)}]=0$ and the distribution is symmetric. Now, $$\left\| Z^{(i,j)} \right\| \leq \left| Y_{ij}-X^0_{ij} \right| $$
+> Now, $Y-X^0=\sum_{i<j}^{}Z^{(i,j)}$ where $Z^{(i,j)}:=(Y_{ij}-X^0_{ij})( E_{ij}+E_{ji})$. We use the Bernstein Variant. Firstly, $\mathbb{E}[Z^{(i,j)}]=0$ and the distribution is symmetric. Now, $$\left\| Z^{(i,j)} \right\| \leq \left| Y_{ij}-X^0_{ij} \right| \leq 1+ \frac{1}{\varepsilon}\left( \frac{n}{d}-1 \right) \leq \frac{n}{\varepsilon d}$$and $$\begin{aligned}\mathbb{E}[(Y_{ij}-X^0_{ij})^{2}]&\leq \mathbb{E}[Y_{ij}^{2}]\leq (1+\varepsilon) \frac{d}{n}\left( \frac{1}{\varepsilon}\left( \frac{n}{d}-1 \right)  \right)^{2}+\frac{1}{\varepsilon^{2}}\\&\leq(1+\varepsilon) \frac{1}{\varepsilon^{2}}\left( \frac{n}{d}-2+\frac{d}{n}+\frac{1}{1+\varepsilon} \right) \\&\leq \frac{2n}{\varepsilon^{2}d}\end{aligned}$$Therefore, $$\mathbb{E}[Z^{(i,j)}(Z^{(i,j)})^\top]\leq\frac{ 2n}{\varepsilon^{2}d}(E_{ii}+E_{jj})$$and $$\sum_{i<j}\mathbb{E}[Z^{(i,j)}(Z^{(i,j)})^\top]\leq \frac{2n}{\varepsilon^{2} d}(n-1)I_{n},\quad \left\| \sum_{i<j}\mathbb{E}[Z^{(i,j)}(Z^{(i,j)})^\top] \right\| \leq \frac{2n^{2}}{\varepsilon^{2}d}$$Hence, by Bernstein whp, $$\left\| Y-X^0 \right\| =\left\| \sum_{i<j}^{}Z^{ij} \right\| \lesssim \sqrt{ \frac{2n^{2}\log n}{\varepsilon^{2} d} }+\frac{n}{\varepsilon d}\log n\lesssim\frac{n}{\varepsilon} \sqrt{ \frac{\log n}{d} }$$Further, $$\text{err}(\widehat{X})=\frac{1}{n^{2}}\left\| \widehat{X}-Y \right\| ^{2}_{F}\lesssim \frac{1}{n^{2}}\left\| Y-X^0 \right\| ^{2}\lesssim \frac{\log n}{\varepsilon^{2} d} \lesssim 1 $$
 ---
-
+##### 4.1 Grothendieck's Inequality
+> [!lemma] Proposition 1. 
+> 
