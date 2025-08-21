@@ -259,6 +259,11 @@ What do we do when the $k$ relevant features are unknown?
 > [!lemma] Theorem (Matrix Bernstein)
 > Let $Z$ be a $\mathbb{R}^{d,d}$-valued random variable with $d\geq 2$ s.t. $\mathbb{E}[Z]=0$ and $\{ Z \}=\{ Z^\top \}$. 
 > 1. if $Z$ is $(\sigma,b)$-Bernstein, i.e. $$\left\| \mathbb{E}[\left\| Z \right\| ^{j-2}ZZ^\top ]\right\|\leq j!\cdot  b^{j-2}\cdot \sigma^{2} ,\quad \forall j\geq 2$$then with probability $1-d^{-100}$, for $Z_{1},\dots,Z_{n}\sim \{ Z \}$ iid, $$\left\| \frac{1}{n}\sum_{i\in[n]}^{}Z_{i} \right\| \lesssim \sigma \sqrt{ \frac{\log d}{n} }+b\frac{\log d}{n}$$
+---
+> [!lemma] Theorem (Matrix Bernstein)
+> Let $Z_{1},\dots,Z_{m}$ be independent $\mathbb{R}^{n,n}$-valued random variables s.t. $\mathbb{E}[Z_{i}]=0$ and $\{ Z_{i} \}=\{ Z_{i}^\top \}$. 
+> 1. if it holds that: $$\left\| \sum_{i=1}^{m} \mathbb{E}[Z_{i}Z_{i}^\top] \right\| \leq \sigma^{2},\quad \left\| Z_{i} \right\| \leq b$$ then w.h.p.:$$\left\| \sum_{i\in[m]}^{}Z_{i} \right\| \lesssim \sigma \sqrt{ \log n}+b\log n$$
+
 
 ---
 #### 4.2 Matrix Completion Model
@@ -298,12 +303,23 @@ What do we do when the $k$ relevant features are unknown?
 ---
 ### 4. Community Detection
 > [!outlook] Setup
-> For $\varepsilon\in [0,1]$ and $n\geq 10d\geq 10$, 
-> 1. **Unknown**: $x^{*}\in \{ \pm 1 \}^n$. 
-> 2. **Observation**: A $n$-vertex [[graph]] $G$ where: $$\mathbb{P}(ij\in E(G))=(1+\varepsilon x^{*}_{i}x^{*}_{j}) d / n$$
+> For $\varepsilon\in [0,1]$ and $d\geq 1$, 
+> 1. **Unknown**: $x^{0}\in \{ \pm 1 \}^n$. 
+> 2. **Observation**: A $n$-vertex [[graph]] $G$ where: $$\mathbb{P}(ij\in E(G))=(1+\varepsilon x^{0}_{i}x^{0}_{j}) \frac{d}{n}$$
+> 3. **Error measure**: For an estimator $\widehat{X}$ of $X^0:=x^0(x^0)^\top\in\mathbb{R}^{n,n}$ we have: $$\text{err}(\widehat{X}):=\frac{1}{n^{2}}\left\| \widehat{X}-X^0 \right\| ^{2}_{F}$$
 
 ---
 > [!lemma] Theorem 1
-> Let $d\geq O( 1 / \varepsilon^{2})$ in the above setup.
-> 1. there exists an efficiently computable estimator $\widehat{X}:=\widehat{X}(G)$ s.t. with high probability: $$\frac{1}{n^{2}}\left\| \widehat{X}-X^{*} \right\| ^{2}_{F}\leq 0.01$$where $X^{*}:= x^{*}(x^{*})^\top$. 
-> 2.
+> Consider the polytime estimator:
+>  $$\widehat{X}:=\underset{ \text{rnk}(X)\leq 1 }{ \arg\min }\left\| X-Y \right\| ^{2}_{F},\quad Y:= I+\frac{n}{\varepsilon d}\left( A-\frac{d}{n} \right)$$where $A$ is the adjacency matrix of $G$.
+> 1. if $d\geq \Omega( \log n / \varepsilon^{2})$.  then w.h.p $\text{err}(\widehat{X})\le 0.01$.
+
+> [!proof]+
+> We have that:
+> 1. **Claim 1: $\mathbb{E}[Y]=X^0$.**
+>    We have that for $i\neq j$:$$\mathbb{E}[Y_{ij}]=\frac{n}{\varepsilon d}\left( \mathbb{E}[A_{ij}]-\frac{d}{n} \right)=X^0_{ij}$$
+>    For $i=j$, $\mathbb{E}[Y_{ii}]=1=X^0_{ii}$. 
+> 
+> Now, $Y-X^0=\sum_{i<j}^{}Z^{(i,j)}$ where $Z^{(i,j)}:=(Y_{ij}-X^0_{ij})( E_{ij}+E_{ji})$. We use the Bernstein Variant. Firstly, $\mathbb{E}[Z^{(i,j)}]=0$ and the distribution is symmetric. Now, $$\left\| Z^{(i,j)} \right\| \leq \left| Y_{ij}-X^0_{ij} \right| $$
+---
+
