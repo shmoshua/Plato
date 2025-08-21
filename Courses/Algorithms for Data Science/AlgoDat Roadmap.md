@@ -324,4 +324,12 @@ What do we do when the $k$ relevant features are unknown?
 ---
 ##### 4.1 Grothendieck's Inequality
 > [!lemma] Proposition 1. 
-> 
+> Let $\mathcal{C}\subseteq \mathbb{R}^{n,n}$ that is bounded and $\text{span}(\mathcal{C})=\mathbb{R}^{n,n}$. Let the $\mathcal{C}$-norm on $\mathbb{R}^{n,n}$ be defined as: $$\left\| \cdot  \right\| _{\mathcal{C}}:\mathbb{R}^{n,n}\to \mathbb{R},\quad M\mapsto \sup_{X\in \mathcal{C}}\left| \braket{ X , M }  \right| $$Then, 
+> 1. $\left\| \cdot \right\|_{\mathcal{C}}$ is a norm.
+
+> [!proof]-
+> We have that:
+> 1. For $a\in \mathbb{R}$, $$\left\| aM \right\| _{\mathcal{C}}=\sup_{X\in \mathcal{C}}\left| \braket{ X , aM }  \right| =\left| a \right| \sup_{X\in \mathcal{C}}\left| \braket{ X , M }  \right| =\left| a \right| \left\| M \right\| _{\mathcal{C}}$$Further, triangle inequality is given by supremum. Now, for homogeneity, if $\left\| M \right\|_{\mathcal{C}}=0$, then $M=0$.
+
+---
+- **Related definition**: Let $\mathcal{C}_{\text{cut}}:=\{  uv^\top:u,v\in \{ \pm 1 \}^n \}$. Then, $\left\| \cdot \right\|_{\text{cut}}:=\left\| \cdot \right\|_{\mathcal{C}_{\text{cut}}}$ is a norm. 

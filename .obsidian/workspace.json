@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Analysis/Norm.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expected Value"
+              "title": "Norm"
             }
           },
           {
@@ -259,11 +259,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "8207292bb85f5852",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Analysis/Norm.md",
     "Probability Theory/Expected Value.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Analysis/Taylor's Theorem.md",
     "Analysis/Concentration Bounds.md",
@@ -286,7 +287,6 @@
     "Graph Theory/Graph Coloring.md",
     "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
     "Topology/Compact Space.md",
-    "Courses/Graph Theory/Problem Set 5.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
