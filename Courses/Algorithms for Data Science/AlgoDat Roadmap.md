@@ -333,12 +333,23 @@ What do we do when the $k$ relevant features are unknown?
 
 ---
 > [!lemma] Proposition 2 (Grothendieck Norm)
-> The***Grothendieck norm*** is defined as:$$\left\| \cdot  \right\|_{G}:\mathbb{R}^{n,n}\to \mathbb{R},\quad A\mapsto\sup_{\begin{array}
+> The ***Grothendieck norm*** is defined as:$$\left\| \cdot  \right\|_{G}:\mathbb{R}^{n,n}\to \mathbb{R},\quad A\mapsto\sup_{\begin{array}\ 0\leq W\in \mathbb{R}^{2n,2n}\\W_{ii}=1\end{array}}\left\langle W,\begin{bmatrix} 0&A\\0&0\end{bmatrix}\right\rangle$$
 
-\end{array}}$$
+> [!proof]-
+> To show that it is a norm, homogeneity and triangle inequality is obvious. For positive definiteness, assume $A\neq 0$. Then, there exists $p,q$ s.t. $A_{pq}\neq 0$. Let 
 ---
 - **Related definition**: Let $\mathcal{C}_{\text{cut}}:=\{  uv^\top:u,v\in \{ \pm 1 \}^n \}$. Then, $\left\| \cdot \right\|_{\text{cut}}:=\left\| \cdot \right\|_{\mathcal{C}_{\text{cut}}}$ is a norm. 
 ---
-> [!lemma] Theorem 2 (Grothendieck's Inequality)
+> [!lemma] Lemma 3
+> We have that:
+> 1. $\left\| A \right\|_{\text{cut}}=\sup_{\|x\|_{\infty},\|y\|_{\infty}\leq 1}\braket{ x , Ay }=\sup_{x,y\neq 0}\frac{\braket{ x , Ay }}{\|x\|_{\infty}\|y\|_{\infty}}$
+> 2. for any jointly distributed random vectors $x,y\in \mathbb{R}^{n}$, $$\mathbb{E}[\braket{ x , Ay } ]\leq \text{max}_{i}\{ \mathbb{E}[x_{i}^{2}],\mathbb{E}[y_{i}^{2}] \}\left\| A \right\| _{G}$$where the equality is achieved for jointly Gaussian $x,y$ with $\mathbb{E}[x_{i}^{2}]=\mathbb{E}[y_{i}^{2}]=1$. 
+
+> [!proof]+
+> We have that:
+> 1. Firstly, $$\left\| A \right\| _{\text{cut}}=\sup_{x,y\in \{ \pm 1 \}^n}\braket{ A , xy^\top } =\sup_{x,y\in \{ \pm 1 \}^n}\text{tr}(Ayx^\top) =\sup_{x,y\in\{ \pm 1 \}^n}\braket{ x , Ay } \leq \sup_{\|x\|_{\infty},\|y\|_{\infty}\leq 1}\braket{ x , Ay }$$The converse holds as the optimum is at the extremum. For the second equality, we can consider $x':= \frac{x}{\|x\|_{\infty}}$ and $y':=\frac{y}{\|y\|_{\infty}}$.
+> 2. Let $x,y$ be jointly distributed. Then, define: $$W:=\mathbb{E}\left[ \begin{bmatrix}x\\y\end{bmatrix} \begin{bmatrix}x\\y\end{bmatrix}^\top\right] $$Then, clearly $0\leq W$ and we have that: $$\mathbb{E}[\braket{ x , Ay } ]=\mathbb{E}\left[ \left\langle W , \begin{bmatrix}0&A\\0&0\end{bmatrix}\right\rangle \right] $$
+---
+> [!lemma] Theorem 4 (Grothendieck's Inequality)
 > Let $A\in \mathbb{R}^{n,n}$. Then, 
-> 1. there exists a constant $k> 1$ s.t. $$\left\| A \right\| _{\text{cut}}\leq \left\| A \right\| _{\mathcal{G}}$$
+> 1. there exists a constant $k> 1$ s.t. $$\left\| A \right\| _{\text{cut}}\leq \left\| A \right\| _{\mathcal{G}}\leq k\left\| A \right\| _{\text{cut}}$$
