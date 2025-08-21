@@ -323,7 +323,7 @@ What do we do when the $k$ relevant features are unknown?
 > Now, $Y-X^0=\sum_{i<j}^{}Z^{(i,j)}$ where $Z^{(i,j)}:=(Y_{ij}-X^0_{ij})( E_{ij}+E_{ji})$. We use the Bernstein Variant. Firstly, $\mathbb{E}[Z^{(i,j)}]=0$ and the distribution is symmetric. Now, $$\left\| Z^{(i,j)} \right\| \leq \left| Y_{ij}-X^0_{ij} \right| \leq 1+ \frac{1}{\varepsilon}\left( \frac{n}{d}-1 \right) \leq \frac{n}{\varepsilon d}$$and $$\begin{aligned}\mathbb{E}[(Y_{ij}-X^0_{ij})^{2}]&\leq \mathbb{E}[Y_{ij}^{2}]\leq (1+\varepsilon) \frac{d}{n}\left( \frac{1}{\varepsilon}\left( \frac{n}{d}-1 \right)  \right)^{2}+\frac{1}{\varepsilon^{2}}\\&\leq(1+\varepsilon) \frac{1}{\varepsilon^{2}}\left( \frac{n}{d}-2+\frac{d}{n}+\frac{1}{1+\varepsilon} \right) \\&\leq \frac{2n}{\varepsilon^{2}d}\end{aligned}$$Therefore, $$\mathbb{E}[Z^{(i,j)}(Z^{(i,j)})^\top]\leq\frac{ 2n}{\varepsilon^{2}d}(E_{ii}+E_{jj})$$and $$\sum_{i<j}\mathbb{E}[Z^{(i,j)}(Z^{(i,j)})^\top]\leq \frac{2n}{\varepsilon^{2} d}(n-1)I_{n},\quad \left\| \sum_{i<j}\mathbb{E}[Z^{(i,j)}(Z^{(i,j)})^\top] \right\| \leq \frac{2n^{2}}{\varepsilon^{2}d}$$Hence, by Bernstein whp, $$\left\| Y-X^0 \right\| =\left\| \sum_{i<j}^{}Z^{ij} \right\| \lesssim \sqrt{ \frac{2n^{2}\log n}{\varepsilon^{2} d} }+\frac{n}{\varepsilon d}\log n\lesssim\frac{n}{\varepsilon} \sqrt{ \frac{\log n}{d} }$$Further, $$\text{err}(\widehat{X})=\frac{1}{n^{2}}\left\| \widehat{X}-Y \right\| ^{2}_{F}\lesssim \frac{1}{n^{2}}\left\| Y-X^0 \right\| ^{2}\lesssim \frac{\log n}{\varepsilon^{2} d} \lesssim 1 $$
 ---
 ##### 4.1 Grothendieck's Inequality
-> [!lemma] Proposition 1. 
+> [!lemma] Proposition 1 (Supremum norm on a space)
 > Let $\mathcal{C}\subseteq \mathbb{R}^{n,n}$ that is bounded and $\text{span}(\mathcal{C})=\mathbb{R}^{n,n}$. Let the $\mathcal{C}$-norm on $\mathbb{R}^{n,n}$ be defined as: $$\left\| \cdot  \right\| _{\mathcal{C}}:\mathbb{R}^{n,n}\to \mathbb{R},\quad M\mapsto \sup_{X\in \mathcal{C}}\left| \braket{ X , M }  \right| $$Then, 
 > 1. $\left\| \cdot \right\|_{\mathcal{C}}$ is a norm.
 
@@ -332,4 +332,13 @@ What do we do when the $k$ relevant features are unknown?
 > 1. For $a\in \mathbb{R}$, $$\left\| aM \right\| _{\mathcal{C}}=\sup_{X\in \mathcal{C}}\left| \braket{ X , aM }  \right| =\left| a \right| \sup_{X\in \mathcal{C}}\left| \braket{ X , M }  \right| =\left| a \right| \left\| M \right\| _{\mathcal{C}}$$Further, triangle inequality is given by supremum. Now, for homogeneity, if $\left\| M \right\|_{\mathcal{C}}=0$, then $M=0$.
 
 ---
+> [!lemma] Proposition 2 (Grothendieck Norm)
+> The***Grothendieck norm*** is defined as:$$\left\| \cdot  \right\|_{G}:\mathbb{R}^{n,n}\to \mathbb{R},\quad A\mapsto\sup_{\begin{array}
+
+\end{array}}$$
+---
 - **Related definition**: Let $\mathcal{C}_{\text{cut}}:=\{  uv^\top:u,v\in \{ \pm 1 \}^n \}$. Then, $\left\| \cdot \right\|_{\text{cut}}:=\left\| \cdot \right\|_{\mathcal{C}_{\text{cut}}}$ is a norm. 
+---
+> [!lemma] Theorem 2 (Grothendieck's Inequality)
+> Let $A\in \mathbb{R}^{n,n}$. Then, 
+> 1. there exists a constant $k> 1$ s.t. $$\left\| A \right\| _{\text{cut}}\leq \left\| A \right\| _{\mathcal{G}}$$
