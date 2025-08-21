@@ -369,3 +369,6 @@ What do we do when the $k$ relevant features are unknown?
 >    Let $u,v\in \{ \pm 1 \}^{n}$. Then, from the earlier proof:$$\braket{ u , (Y-X^0)v } =\sum_{i<j}\braket{ u , Z^{(i,j)}v } =\sum_{i<j}^{}\underbrace{ (Y_{ij}-X^0_{ij})(u_{i}v_{j}+u_{j}v_{i} }_{ =:z^{ij} })$$Then, by Bernstein, we have $\mathbb{E}[z^{ij}]=0$ and $$\left| z^{ij} \right| \leq \frac{2n}{\varepsilon d}$$and $$\mathbb{E}[(z^{ij})^{2}]\leq \frac{8n}{\varepsilon^{2} d}$$Hence, $\mathbb{E}\left[ \sum_{i<j}^{}(z^{ij})^{2} \right]\leq \frac{8n^3}{\varepsilon^{2} d}$ and by Bernstein, with probability $\geq 1-2^{-3n}$, we have: $$\braket{ u , (Y-X^0)v } \lesssim \frac{n^{3/2}}{\varepsilon d^{1/2}}\sqrt{ n  } +\frac{n^{2}}{\varepsilon d}\lesssim \frac{n^2}{\varepsilon}\left( \frac{1}{\sqrt{ d }} \right) \lesssim n^{2}$$Therefore, by union bound, $\left\| Y-X^0 \right\|_{\text{cut}}> 0.0001n^{2}$ with probability $2^{2n}\cdot 2^{-3n}=2^{-n}$. 
 > 
 > Therefore, by Grothendieck:$$\text{err}(\widehat{X})=\frac{1}{n^{2}}\left\| \widehat{X}-X^0 \right\| ^{2}_{F}\leq \frac{4}{n^{2}}\left\| Y-X^0 \right\| _{G}\leq \frac{8}{n^{2}}\left\| Y-X^0 \right\| _{\text{cut}}\leq 0.01$$
+
+---
+### 5. Non-Negative Matrix Factorization
