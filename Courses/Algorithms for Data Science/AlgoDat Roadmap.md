@@ -372,3 +372,7 @@ What do we do when the $k$ relevant features are unknown?
 
 ---
 ### 5. Non-Negative Matrix Factorization
+##### 5.1 Topic Models
+> [!outlook] Setup
+> Let $k,n,d\geq 1$.
+> 1. **Unknown**: $A:=[A_{1}|\dots|A_{k}]\in\mathbb{R}^{d,k}$

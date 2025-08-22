@@ -113,8 +113,7 @@
               "title": "Concentration Bounds"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -259,8 +258,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3a3f1a463bcc87b6",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
@@ -286,7 +286,6 @@
     "Analysis/Kernel.md",
     "Topology/Path.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
