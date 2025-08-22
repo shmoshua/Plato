@@ -514,6 +514,12 @@ What do we do when the $k$ relevant features are unknown?
 > 
 > We now proceed with the proof:
 > 1. **Claim 2: if $\mathcal{A}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash\ \left\| X-X^0 \right\|^{2}\leq c$ and $L\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\models\ \mathcal{A}$, then $\left\| \widehat{X} -X^0\right\|^{2}\leq c$.**
->    Let $U:= X-X^0$ and $\widehat{U}:=\widehat{X}-X^0$. Then, $$\begin{aligned}\left\| \widehat{U} \right\| ^{2}=\braket{ \widehat{U} , \widehat{U} } =L\braket{ \widehat{U} , U } \leq\end{aligned}$$
+>    Let $U:= X-X^0$ and $\widehat{U}:=\widehat{X}-X^0$. Then, $$\begin{aligned}\left\| \widehat{U} \right\| ^{2}&=\braket{ \widehat{U} , \widehat{U} } =L\braket{ \widehat{U} , U } \\&\leq \frac{1}{2}L (\left\| \widehat{U} \right\| ^{2}+\left\| U \right\| ^{2})=\frac{1}{2}\left\| \widehat{U} \right\| ^{2}+\frac{1}{2}L\left\| U \right\| ^{2}\\&\leq \frac{1}{2}\left\| \widehat{U} \right\| ^{2}+\frac{c}{2} \end{aligned}$$Hence, $\left\| \widehat{U} \right\|^{2}\leq c$.
+> 2. **Claim 3: $\mathcal{X}:=\{ L\in \mathbb{R}[X]^{*}_{\leq \ell}:L\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\models\ \mathcal{A} \}$ is convex.**
+>    Let $L,L'\in \mathcal{X}$. Consider $\tau:=\lambda L+(1-\lambda)L'$. Then for any $\mathcal{A}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash\ q(X)\geq 0$, we have that $$\tau q=\lambda Lq+(1-\lambda)L'q\geq 0$$
+> 3. **Claim 4**: **For $p\in \mathbb{R}[X]_{\leq \ell}$ with $d:= \text{deg}(p)$ and $f:= \frac{\ell-d}{2}$, we have that: $$\text{inf}_{s\in \mathbb{R}[X]_{\leq f}}L(ps^{2})\geq 0 \iff M_{L,p}\geq 0$$where $(M_{L,p})_{\alpha,\alpha'}:=L(pX^{\alpha+\alpha'})$**
+>    Let $s:=\sum_{\left| \alpha \right|\leq f}^{}s_{\alpha}X^\alpha$. Then, $$L(ps^{2})=L\left( p\sum_{\alpha,\alpha'}s_{\alpha}s_{\alpha'}X^{\alpha+\alpha'} \right)=\sum_{\alpha,\alpha'}^{}s_{\alpha}s_{\alpha'}(M_{L,p})_{\alpha,\alpha'}=\braket{ s , M_{L,p}s } $$and this shows the claim.
+> 
+> Hence, $\mathcal{X}$ has a separation oracle and we can find $L\in \mathcal{X}$ in $\left( N+m+\log \frac{1}{ \varepsilon} \right)^{O(\ell)}$ time. 
 
 - **Corollary**: We can extend this with auxiliary variables s.t. given $p(X,Z)\in \mathbb{R}[X,Z]^m$ and $\varepsilon>0$, the algorithm outputs in time $\left( N+N'+m+ \log \frac{1}{\varepsilon} \right)^{O(\ell)}$ a vector $\widehat{X}\in \mathbb{R}^N,\widehat{Z}\in \mathbb{R}^{N'}$  s.t. for any $X^0,Z^0$ with the above conditions $\left\| \widehat{X}-X^{*} \right\|^{2}\leq c+\varepsilon$

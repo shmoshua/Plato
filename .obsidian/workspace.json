@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Tensor Product.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tensor Product"
+              "title": "Expected Value"
             }
           }
         ]
@@ -260,17 +260,17 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Probability Theory/Expected Value.md",
+    "Algebra/Tensor Product.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Analysis/Concentration Bounds.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Algebra/Tensor Product.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Analysis/Norm.md",
-    "Probability Theory/Expected Value.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Analysis/Taylor's Theorem.md",
     "Courses/Graph Theory/Exam2023.md",
