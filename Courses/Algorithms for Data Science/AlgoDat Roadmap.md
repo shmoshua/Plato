@@ -424,3 +424,22 @@ What do we do when the $k$ relevant features are unknown?
 - **Remark**: After we have an estimate of $MM^\top=A(WW^\top A^\top)$. If $A$ is separable, then we can now perform the algorithm on Theorem 2 on $MM^\top$ to find $A$.
 ---
 ### 6. Clustering via Tensor Decomposition
+> [!outlook] Setup
+> Let $k,n,d\geq 1$
+> 1. **Unknown**: 
+> 	- means: $\mu^0_{1},\dots,\mu^0_{k}\in \mathbb{R}^d$ linearly independent.
+> 	- assignments: $z^0(1),\dots,z^0(n)\in [k]$
+> 2. **Observation**: $y_{1},\dots,y_{r}\in \mathbb{R}^d$ where $y_{i}:= \mu^0_{z^0(i)}+w_{i}$ with $w_{i}\sim \mathcal{N}(0,I_{d})$ independent.
+> 3. **Error Measure**: For an estimate $\widehat{\mu},\widehat{z}$, we have: $$\text{err}(\widehat{\mu},\widehat{z}):=\sum_{r=1}^{n}\left\| y_{r}-\widehat{\mu}_{\widehat{z}(r)} \right\|^{2}_{2} $$
+---
+> [!lemma] Proposition 1 (Moments)
+> Let $\alpha_{j}:=\frac{\left| \{ i: z^0(i)=j \} \right|}{n}$ for $j\in[k]$ be the frequencies. Then:
+> 1. $M_{1}:=\mathbb{E}\left[ \frac{1}{n}\sum_{i\in[n]}^{} y_{i}\right]=\sum_{j=1}^{k}\alpha_{j}\mu^0_{j}$.
+> 2. $M_{2}:=\mathbb{E}\left[ \frac{1}{n}\sum_{i}^{}(y_{n}\otimes y_{n}) \right]=\sum_{j=1}^{k}\alpha_{j}\mu_{j}^0\otimes \mu^0_{j}+\sum_{r=1}^{d}e_{r}\otimes e_{r}$
+> 3. $M_{3}:=$
+
+> [!proof]+
+> We have that: 
+> 1. Notice that: $$\begin{aligned}\mathbb{E}\left[ \frac{1}{n}\sum_{i}^{}y_{i} \right]&=\frac{1}{n}\sum_{i} \mu^0_{z^0(i)}+\underbrace{ \mathbb{E}[w_{i}] }_{ =0 }=\frac{1}{n}\sum_{i}^{}\mu^0_{z^0(i)}=\frac{1}{n}\sum_{i}\sum_{j\in[k]}^{}\mu^0_{j}\mathbb{1}_{z^0(i)=j}=\sum_{j}^{}\alpha_{j}\mu^0_{j}\end{aligned}$$
+> 2. Notice that: $$\begin{aligned}\mathbb{E}\left[ \frac{1}{n}\sum_{i}^{}(y_{i}\otimes  y_{i}) \right] &=\frac{1}{n}\sum_{i}^{}(\mu^0_{z^0(i)})^{\otimes  2}+\mathbb{E}[w_{i}\otimes  w_{i}]+\underbrace{ \mathbb{E}[\mu^0_{z^0(i)}\otimes  w_{i}]+\mathbb{E}[ w_{i}\otimes  \mu^0_{z^0(i)}] }_{ =0 }\\&=\sum_{j}\alpha_{j}(\mu^0_{j})^{\otimes  2}+\sum_{r=1}^{d}e_{r}\otimes e_{r}\end{aligned}$$
+> 3. Notice that: $$\begin{aligned}(a+b)^{\otimes  3}&=(a+b)\otimes (a^{\otimes  2}+b^{\otimes  2}+a\otimes  b+b\otimes  a)\\&=a^{\otimes  3}+b^{\otimes  3}+a\otimes  b^{\otimes  2}+a^{\otimes  2}\otimes  b+a\otimes  b\otimes  a+b\otimes  a^{\otimes  2}+b\otimes  a\otimes  b+b^{\otimes  2}\otimes  a\end{aligned}$$Therefore, if $w_{i}$ appears once in the tensor, its expectation is $0$. Further, $$\mathbb{E}[w_{i}^{\otimes  3}]_{p,q,r}=\mathbb{E}[w_{i,p}w_{i,q}w_{i,r}]=\begin{cases}0&p\neq q\neq r\\0&\text{two are equal}\\0&\text{all are the same}\end{cases}$$$$\begin{aligned}M_{3}&=\frac{1}{n}\sum_{i}\left[ (\mu^0_{z^0(i)})^{\otimes  3}+\underbrace{ \mathbb{E}[w_{i}^{\otimes  3}] }_{ =0 }+ \mu^0_{z^0(i)}\otimes  \mathbb{E}[w_{i}^{\otimes  2}]+ \mathbb{E}[w_{i}\otimes  \mu^0_{z^0(i)}\otimes w_{i}]+\mathbb{E}[w_{i}^{\otimes  2}]\otimes   \mu^0_{z^0(i)}\right] \\&=\frac{1}{n}\sum_{i}^{}(\mu^0_{z^0(i)})^{\otimes  3}+M_{1} \otimes  \left( \sum_{r=1}^{d}e_{r}\otimes  e_{r} \right)+ \left( \sum_{r=1}^{d}e_{r}\otimes  e_{r} \right) \otimes  M_{1}\end{aligned}$$where $$\begin{aligned}\frac{1}{n}\sum_{i}^{}\mathbb{E}[w_{i}\otimes  \mu^0_{z^0(i)}\otimes  w_{i}]&=\sum_{j}^{}\alpha_{j}\mathbb{E}[w_{i}\otimes  \mu^0_{j}\otimes  w_{i}]\end{aligned}$$
