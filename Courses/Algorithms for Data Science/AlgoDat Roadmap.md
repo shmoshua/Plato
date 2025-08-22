@@ -570,6 +570,20 @@ What do we do when the $k$ relevant features are unknown?
 > Let $y,y'$ be $\mathbb{R}^d$-valued random variables. I
 > 1. if $\mathbb{P}(y\neq y')\leq \varepsilon< \frac{1}{4}$ and $\text{Cov}(y),\text{Cov}(y')\leq I_{d}$, then $$\left\| \mathbb{E}[y-y'] \right\| \lesssim \sqrt{  \varepsilon }$$
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. Let $u:= y-y'$ and $\overline{u}:=\mathbb{E}[u]=\mathbb{E}[y-y']$. Then, $$\|\overline{u}\|^{2}=\braket{ \overline{u} , \overline{u} } =\mathbb{E}\braket{ \overline{u} , u } =\mathbb{E}[1_{u\neq 0}\braket{ \overline{u} , u } ]\leq \sqrt{ \mathbb{E}[1^{2} _{u\neq 0}]}\sqrt{ \mathbb{E}[\braket{ \overline{u} ,u  }^{2} ] }=\sqrt{ \varepsilon }\sqrt{ \mathbb{E}[\braket{ \overline{u} , u } ^{2}]  }$$Further, using triangle inequality: $$\begin{aligned}\left( \mathbb{E}[\braket{ \overline{u} , u } ^{2}] \right) ^{1/2}&=\left( \mathbb{E}[\braket{ \overline{u} , (y-\mathbb{E}[y]-y'+\mathbb{E}[y']+\overline{u}) } ^{2}] \right) ^{1/2}\\&\leq \mathbb{E}[\braket{ \overline{u} , y-\mathbb{E}[y] } ^{2}]^{1/2}+\mathbb{E}[\braket{ \overline{u} , y'-\mathbb{E}[y'] } ^{2}]^{1/2}+\left\| \overline{u} \right\| ^{2}\\&=(\overline{u}^\top\text{Cov}(y)\overline{u})^{1/2}+(\overline{u}^\top\text{Cov}(y')\overline{u})^{1/2}+\|\overline{u}\|^{2}\\&\leq 2\|\overline{u}\end{aligned}$$
+> 1. Let $u:= y-y'$ and $\overline{u}:=\mathbb{E}[u]=\mathbb{E}[y-y']$. Then, $$\|\overline{u}\|^{2}=\braket{ \overline{u} , \overline{u} } =\mathbb{E}\braket{ \overline{u} , u } =\mathbb{E}[1_{u\neq 0}\braket{ \overline{u} , u } ]\leq \sqrt{ \mathbb{E}[1^{2} _{u\neq 0}]}\sqrt{ \mathbb{E}[\braket{ \overline{u} ,u  }^{2} ] }=\sqrt{ \varepsilon }\sqrt{ \mathbb{E}[\braket{ \overline{u} , u } ^{2}]  }$$Further, using triangle inequality: $$\begin{aligned}\left( \mathbb{E}[\braket{ \overline{u} , u } ^{2}] \right) ^{1/2}&=\left( \mathbb{E}[\braket{ \overline{u} , (y-\mathbb{E}[y]-y'+\mathbb{E}[y']+\overline{u}) } ^{2}] \right) ^{1/2}\\&\leq \mathbb{E}[\braket{ \overline{u} , y-\mathbb{E}[y] } ^{2}]^{1/2}+\mathbb{E}[\braket{ \overline{u} , y'-\mathbb{E}[y'] } ^{2}]^{1/2}+\left\| \overline{u} \right\| ^{2}\\&=(\overline{u}^\top\text{Cov}(y)\overline{u})^{1/2}+(\overline{u}^\top\text{Cov}(y')\overline{u})^{1/2}+\|\overline{u}\|^{2}\\&\leq 2\|\overline{u}\|+\|\overline{u}\|^{2}\end{aligned}$$Therefore, $$\left\| \overline{u} \right\| ^{2}\leq \sqrt{ \varepsilon }(2\|\overline{u}\|+\|\overline{u}\|^2)$$Hence, $$\|\overline{u}\|\leq \frac{2\sqrt{ \varepsilon }}{1-\sqrt{ \varepsilon }}\leq 4\sqrt{ \varepsilon }$$
+---
+> [!lemma] Theorem 2 (inefficient Estimator)
+> Let $n\geq \Omega(d / \varepsilon)$
+> 1. there exists an estimator $\widehat{\mu}$ s.t. w.h.p $\text{err}(\widehat{\mu})\lesssim \sqrt{ \varepsilon }$
+
+> [!proof]-
+> We have that 
+
+---
+> [!lemma] Theorem 3 (SOS)
+> Consider the polynomial system: $$\mathcal{A}=\left\{\begin{matrix}w^{2}_{i}=w_{i}\\w_{i}(z_{i}-y_{i})=0\\\sum_{i=1}^{n}w_{i}\geq (1-\varepsilon)n\\ \mu= \frac{1}{n}\sum_{i=1}^{n}y_{i}\\ \frac{1}{n}\sum_{i=1}^{n}(y_{i}-\mu)(y_{i}-\mu)^\top=2I_{d}-R^\top R\end{matrix}\right\}$$Then, $$\mathcal{A}\mathrlap{\ \ ^{^{Y,\mu,w,R}}}\mathrlap{\ \ _{_{4}}}\vdash\ \ \ \ \ \ \left\| \mu-\mu ^{*} \right\| ^{2}\leq O(\sqrt{ \varepsilon })$$
+
+> [!proof]+ 
+> We have that:$$\mathcal{A}\mathrlap{\ \ ^{^{w}}}\mathrlap{\ \ _{_{2}}}\vdash\ \frac{1}{n}\sum_{i=1}^{n}(1-w_{i}w^{*}_{i})^{2}=\frac{1}{n}\sum_{i=1}^{n}(1-w_{i}w^{*}_{i})\leq \frac{1}{n}\sum_{i=1}^{n}(2-w_{i}-w_{i}^{*})\leq 2\varepsilon $$Then, $$\begin{aligned}\mathcal{A}\mathrlap{\ \ ^{^{Y,\mu,w}}}\mathrlap{\ \ _{_{4}}}\vdash\ \ \ \left\| \mu-\mu ^{*} \right\| ^{2}&=\braket{ \mu-\mu ^{*} , \mu-\mu ^{*} } \\&=\left\langle \mu-\mu ^{*} , \frac{1}{n}\sum_{i=1}^{n}(y_{i}-y^{*}_{i}) \right\rangle\\&=\frac{1}{n}\sum_{i=1}^{n}\braket{ \mu-\mu ^{*} , y_{i}-y_{i}^{*} } \\&=\frac{1}{n}\sum_{i=1}^{n}(1-w_{i}w^{*}_{i})\braket{ \mu-\mu ^{*} , y_{i}-y_{i}^{*} }  \\&=\frac{1}{n}\sum_{i=1}^{n}(1-w_{i}w^{*}_{i})\braket{ \mu-\mu ^{*} , y_{i}-\mu+\mu ^{*}-y_{i}^{*}+\mu-\mu ^{*} } \\&\leq \frac{1}{n}\sum_{i=1}^{n}(1-w_{i}w^{*}_{i})\braket{ \mu-\mu ^{*} , y_{i}-\mu}+\frac{1}{n}\sum_{i=1}^{n}(1-w_{i}w^{*}_{i})\braket{ \mu-\mu ^{*} , \mu ^{*}-y^{*}_{i}}+2\varepsilon \left\| \mu-\mu ^{*} \right\| ^{2} \end{aligned} $$Rearranging and squaring, we have: $$\begin{aligned}\mathcal{A}\mathrlap{\ \ ^{^{Y,\mu,w}}}\mathrlap{\ \ _{_{8}}}\vdash\ \ \ \left\| \mu-\mu ^{*} \right\| ^{2}&\leq 4\left( \frac{1}{n}\sum_{i=1}^{n}(1-w_{i}w^{*}_{i})\braket{ \mu-\mu ^{*} , y_{i}-\mu }  \right) \end{aligned} $$
