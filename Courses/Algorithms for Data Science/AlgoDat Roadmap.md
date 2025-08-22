@@ -451,6 +451,16 @@ What do we do when the $k$ relevant features are unknown?
 > Assume $\mu^0_{1:k}$ are orthogonal and $M_{1},M_{2},M_{3}$ are known.
 > 1. if we have $\widehat{\mu}_{1:k}$ s.t. $\widehat{\mu}_{i}=c_{i}\mu^0_{i}$ for some $c_{i}\in \mathbb{R}\backslash \{ 0 \}$, then we can find $\mu^0_{1:k}$.
 
-> [!proof]+
+> [!proof]-
 > Firstly, notice that: $$\left\| \mu_{i}^0 \right\| ^{2}=\frac{1}{c_{i}^{2}}\left\| \widehat{\mu}_{i} \right\|^2 $$
 > As $\sum_{j}^{}\alpha_{j}(\mu^0_{j})^{\otimes  2}$ can be computed, we can compute: $$\begin{aligned}(\widehat{\mu}_{i}\otimes  \widehat{\mu}_{i})\cdot   \sum_{j}^{}\alpha_{j}(\mu^0_{j})^{\otimes 2}&=\sum_{j}^{}\alpha_{j}\braket{  \widehat{\mu}_{i},  \mu^0_{j}}^{2}=\alpha_{i}c_{i}^{2} \left\| \mu^0_{i} \right\|^{4}_{2} =\frac{\alpha_{i}\left\| \widehat{\mu}_{i} \right\|  ^{4}}{c^{2}_{i}}\end{aligned}$$Similarly, $$\begin{aligned}(\widehat{\mu}_{i}^{\otimes  3})\cdot \sum_{j}^{}\alpha_{j}(\mu^0_{j})^{\otimes  3}&=\sum_{j}^{}\alpha_{j}\braket{ \widehat{\mu}_{i} , \mu^0_{j} } ^3=\frac{\alpha_{i}\left\| \widehat{\mu}_{i} \right\| ^6}{c^3_{i}}\end{aligned}$$Hence, we can compute $\frac{\alpha_{i}}{c_{i}^{2}}$ and $\frac{\alpha_{i}}{c_{i}^3}$ and compute $c_{i}$. 
+
+---
+> [!lemma] Proposition 3
+> Let $r\leq d$. Let further $a_{1},\dots,a_{r}\in \mathbb{R}^d$ linearly independent, $b_{1},\dots,b_{r}\in \mathbb{R}^d$ linearly independent and $c_{1},\dots,c_{r}\in \mathbb{R}^d$ disjoint.
+> 1. Given $T:=\sum_{i=1}^{r}a_{i}\otimes b_{i}\otimes c_{i}$, we can recover $\{ a_{i},b_{i},c_{i} \}_{i}$ up to permutation and scaling w.h.p.
+
+> [!proof]-
+> Let $g\in \mathcal{N}(0,I_{d})$. Then we define: $$K:=(\text{id}\otimes  \text{id}\otimes  g)\cdot T=\sum_{i\in[r]}^{}\braket{ g , c_{i} } a_{i}\otimes  b_{i}$$By viewing $K$ as a matrix, we have the SVD $K=A\Sigma B^\top$ where $\Sigma=\text{diag}(\braket{ g, c_{i}  })$. Now, by linear independence we have that $A,B$ are unique up to permutation and scaling. Also as $\braket{ g , c_{i} }$ are all disjoint whp.
+> 
+> For $c_{1:r}$, note that: $$\widehat{c}_{i}:=(\widehat{a}_{i}\otimes  \widehat{b}_{i}\otimes  \text{id})\cdot X=\braket{ a_{i} , \widehat{a}_{i} } \braket{ b_{i},\widehat{b}_{i}  }c_{i} $$Hence, $\widehat{c}_{i}\in \pm c_{i}$ and we have the answer up to scaling. 
