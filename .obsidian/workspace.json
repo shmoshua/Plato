@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 3"
+              "title": "Exercise Sheet 8"
             }
           },
           {
@@ -113,7 +113,8 @@
               "title": "Concentration Bounds"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,8 +167,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -259,12 +259,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "3a3f1a463bcc87b6",
   "lastOpenFiles": [
-    "Analysis/Norm.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Probability Theory/Expected Value.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Analysis/Norm.md",
+    "Probability Theory/Expected Value.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Analysis/Taylor's Theorem.md",
     "Analysis/Concentration Bounds.md",
@@ -284,9 +287,6 @@
     "Topology/Path.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 2.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
-    "Graph Theory/Graph Coloring.md",
-    "Courses/Probabilistic AI/Probabilistic AI Roadmap.md",
-    "Topology/Compact Space.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
