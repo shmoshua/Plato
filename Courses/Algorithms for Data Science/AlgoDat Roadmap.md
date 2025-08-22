@@ -479,11 +479,18 @@ What do we do when the $k$ relevant features are unknown?
 > 3. $\mathrlap{\ \ ^{^{a,b}}}\mathrlap{\ \ _{_{4}}}\vdash\ \braket{ a , b }^{2}\leq\|a\|^{2}\|b\|^{2}$
 > 4. $\mathrlap{\ \ ^{^{x}}}\mathrlap{\ \ _{_{2}}}\vdash\ \braket{ x , Mx }\leq \left\| M \right\|\|x\|^{2}$ for all $M\in\mathbb{R}^{d,d}$
 > 5. $\mathrlap{\ \ ^{^{M,x}}}\mathrlap{\ \ _{_{2}}}\vdash\ \braket{ x , Mx }\leq \frac{1+\left\| M \right\|^{2}_{F}}{2}\|x\|^{2}$ for all $M\in\mathbb{R}^{d,d}$
+> 6. $\mathrlap{\ \ ^{^{z}}}\mathrlap{\ \ _{_{t}}}\vdash\ z_{1}\dots z_{t}\leq \frac{1}{t}(z_{1}^t+\dots+z_{t}^t)$ for all even $t$.
+> 7. $\mathrlap{\ \ ^{^{A,B}}}\mathrlap{\ \ _{_{t}}}\vdash\ (A+B)^t\leq 2^{t-1}(A^{t}+B^t)$ for even $t$.
+> 8. $\{ X^{2}\leq cX \}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{2}}}\vdash\ X\leq c$ for all $c>0$
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 6. $q(a,b):=\frac{1}{2}(a^{2}-2ab+b ^{2})=\frac{1}{2}(a-b)^{2}=s(a,b)^{2}$ where $s(a,b):=\frac{1}{\sqrt{ 2 }}(a-b)$. 
-> 7. Notice that:$$q(a,b)=\sum_{i\in[n]}^{} \frac{1}{2}a_{i}^{2}+\frac{1}{2}b ^{2}_{i}- a_{i}b_{i}\geq 0$$
-> 8. We have that: $$\mathrlap{\ \ ^{^{a,b}}}\mathrlap{\ \ _{_{4}}}\vdash\ \braket{ a , b } ^{2}=\braket{ a\otimes  b , b\otimes  a } \leq \frac{1}{2}\left\| a\otimes  b \right\| ^{2}+\frac{1}{2}\left\| b\otimes  a \right\| ^{2}=\|a\|^{2}\|b\|^{2}$$
-> 9. Let $M\in \mathbb{R}^{d,d}$. We have that as $\sigma_{i}\geq 0$, by 1: $$\begin{aligned}\mathrlap{\ \ ^{^{x}}}\mathrlap{\ \ _{_{2}}}\vdash\ \braket{ x , Mx } &=\sum_{i=1}^{d}\sigma_{i}\braket{ x , u_{i} } \braket{ x , v_{i} } \\&\leq \frac{1}{2}\sum_{i=1}^{d}\sigma_{i}\braket{ x , u_{i} } ^{2}+\frac{1}{2}\sum_{i=1}^{d}\sigma_{i}\braket{ x , v_{i} } ^{2}\\&\leq \frac{\sigma_{1}}{2}\sum_{i=1}^{d}\braket{ x , u_{i} } ^{2}+\braket{ x , v_{i} } ^{2}\end{aligned}$$where $$\mathrlap{\ \ ^{^{x}}}\mathrlap{\ \ _{_{2}}}\vdash\ \sum_{i=1}^{d}\braket{ x , u_{i} } ^{2}=\left\langle x,\sum_{i=1}^{d}u_{i}u_{i}^\top x\right\rangle=\|x\|^{2}$$
-> 10. We have that for $M_{i}$ being the $i$-the row of $M$, $$\begin{aligned}\mathrlap{\ \ ^{^{M,x}}}\mathrlap{\ \ _{_{4}}}\vdash\ \braket{ x , Mx } &\leq \frac{1}{2}\|x\|^{2}+\frac{1}{2}\|Mx\|^{2}\\&=\frac{1}{2}\|x\|^{2}+\frac{1}{2}\sum_{i=1}^{d}\braket{ M_{i} , x } ^{2}\\&\leq\frac{1}{2}\|x\|^{2}+\frac{1}{2}\sum_{i=1}^{d}\left\| M_{i} \right\| ^{2}\|x\|^{2}\\&=\frac{1+\left\| M \right\| ^{2}_{F}}{2}\|x\|^{2}\end{aligned}$$
+> 1. $q(a,b):=\frac{1}{2}(a^{2}-2ab+b ^{2})=\frac{1}{2}(a-b)^{2}=s(a,b)^{2}$ where $s(a,b):=\frac{1}{\sqrt{ 2 }}(a-b)$. 
+> 2. Notice that:$$q(a,b)=\sum_{i\in[n]}^{} \frac{1}{2}a_{i}^{2}+\frac{1}{2}b ^{2}_{i}- a_{i}b_{i}\geq 0$$
+> 3. We have that: $$\mathrlap{\ \ ^{^{a,b}}}\mathrlap{\ \ _{_{4}}}\vdash\ \braket{ a , b } ^{2}=\braket{ a\otimes  b , b\otimes  a } \leq \frac{1}{2}\left\| a\otimes  b \right\| ^{2}+\frac{1}{2}\left\| b\otimes  a \right\| ^{2}=\|a\|^{2}\|b\|^{2}$$
+> 4. Let $M\in \mathbb{R}^{d,d}$. We have that as $\sigma_{i}\geq 0$, by 1: $$\begin{aligned}\mathrlap{\ \ ^{^{x}}}\mathrlap{\ \ _{_{2}}}\vdash\ \braket{ x , Mx } &=\sum_{i=1}^{d}\sigma_{i}\braket{ x , u_{i} } \braket{ x , v_{i} } \\&\leq \frac{1}{2}\sum_{i=1}^{d}\sigma_{i}\braket{ x , u_{i} } ^{2}+\frac{1}{2}\sum_{i=1}^{d}\sigma_{i}\braket{ x , v_{i} } ^{2}\\&\leq \frac{\sigma_{1}}{2}\sum_{i=1}^{d}\braket{ x , u_{i} } ^{2}+\braket{ x , v_{i} } ^{2}\end{aligned}$$where $$\mathrlap{\ \ ^{^{x}}}\mathrlap{\ \ _{_{2}}}\vdash\ \sum_{i=1}^{d}\braket{ x , u_{i} } ^{2}=\left\langle x,\sum_{i=1}^{d}u_{i}u_{i}^\top x\right\rangle=\|x\|^{2}$$
+> 5. We have that for $M_{i}$ being the $i$-the row of $M$, $$\begin{aligned}\mathrlap{\ \ ^{^{M,x}}}\mathrlap{\ \ _{_{4}}}\vdash\ \braket{ x , Mx } &\leq \frac{1}{2}\|x\|^{2}+\frac{1}{2}\|Mx\|^{2}\\&=\frac{1}{2}\|x\|^{2}+\frac{1}{2}\sum_{i=1}^{d}\braket{ M_{i} , x } ^{2}\\&\leq\frac{1}{2}\|x\|^{2}+\frac{1}{2}\sum_{i=1}^{d}\left\| M_{i} \right\| ^{2}\|x\|^{2}\\&=\frac{1+\left\| M \right\| ^{2}_{F}}{2}\|x\|^{2}\end{aligned}$$
+> 6. Easy to show for $t=2^p$.
+> 7. We have that: $$\begin{aligned}\mathrlap{\ \ ^{^{A,B}}}\mathrlap{\ \ _{_{t}}}\vdash\ (A+B)^t=\sum_{s=0}^{t}{t \choose s}A^sB^{t-s}\leq \sum_{s=0}^{t}{t \choose s}\cdot \frac{1}{t}(sA^t+(t-s)B^t)\end{aligned}$$Then, $$\sum_{s=0}^{t}{t \choose s} \frac{s}{t}=\sum_{s=1}^{t}\frac{(t-1)!}{(s-1)!(t-s)!}=\sum_{s=0}^{t-1}{t-1 \choose s}=2^{t-1}$$This proves the statement.
+> 8. We have that: $$\{ X^{2}\leq cX \}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{2}}}\vdash\ X=\frac{1}{\sqrt{ c }}X\cdot \sqrt{ c }\leq \frac{1}{2}\frac{X^{2}}{c}+\frac{1}{2}c\leq \frac{1}{2}X+\frac{1}{2}c$$This proves the statement.
+---
