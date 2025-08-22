@@ -474,13 +474,16 @@ What do we do when the $k$ relevant features are unknown?
 ---
 > [!lemma] Proposition 1 (Examples of SOS-Proofs)
 > We have that: 
-> 1. $\mathrlap{\ \ ^{^{a,b}}}\mathrlap{\ \ _{_{2}}}\vdash ab\leq \frac{1}{2}a^{2}+\frac{1}{2}b ^{2}$ for all $a,b\in \mathbb{R}$
-> 2. $\mathrlap{\ \ ^{^{a,b}}}\mathrlap{\ \ _{_{2}}}\vdash \braket{ a , b }\leq \frac{1}{2}\|a\|^2_{2}+\frac{1}{2}\|b\|^{2}_{2}$ for all $a,b\in \mathbb{R}^n$
-> 3. $\mathrlap{\ \ ^{^{a,b}}}\mathrlap{\ \ _{_{4}}}\vdash\ \braket{ a , b }^{2}\leq\|a\|^{2}\|b\|^{2}$.
-> 4. $\mathrlap{\ \ ^{^{x}}}\mathrlap{\ \ _{_{2}}}\vdash\ \braket{ x , Mx }\leq \left\| M \right\|\|x\|^{2}$
+> 1. $\mathrlap{\ \ ^{^{a,b}}}\mathrlap{\ \ _{_{2}}}\vdash ab\leq \frac{1}{2}a^{2}+\frac{1}{2}b ^{2}$
+> 2. $\mathrlap{\ \ ^{^{a,b}}}\mathrlap{\ \ _{_{2}}}\vdash \braket{ a , b }\leq \frac{1}{2}\|a\|^2+\frac{1}{2}\|b\|^{2}$ 
+> 3. $\mathrlap{\ \ ^{^{a,b}}}\mathrlap{\ \ _{_{4}}}\vdash\ \braket{ a , b }^{2}\leq\|a\|^{2}\|b\|^{2}$
+> 4. $\mathrlap{\ \ ^{^{x}}}\mathrlap{\ \ _{_{2}}}\vdash\ \braket{ x , Mx }\leq \left\| M \right\|\|x\|^{2}$ for all $M\in\mathbb{R}^{d,d}$
+> 5. $\mathrlap{\ \ ^{^{M,x}}}\mathrlap{\ \ _{_{2}}}\vdash\ \braket{ x , Mx }\leq \frac{1+\left\| M \right\|^{2}_{F}}{2}\|x\|^{2}$ for all $M\in\mathbb{R}^{d,d}$
 
 > [!proof]+
 > We have that:
-> 1. $q(a,b):=\frac{1}{2}(a^{2}-2ab+b ^{2})=\frac{1}{2}(a-b)^{2}=s(a,b)^{2}$ where $s(a,b):=\frac{1}{\sqrt{ 2 }}(a-b)$. 
-> 2. Notice that:$$q(a,b)=\sum_{i\in[n]}^{} \frac{1}{2}a_{i}^{2}+\frac{1}{2}b ^{2}_{i}- a_{i}b_{i}\geq 0$$
-> 3. We have that: $$\braket{ a , b } ^{2}=\braket{ a\otimes  b , b\otimes  a } $$
+> 6. $q(a,b):=\frac{1}{2}(a^{2}-2ab+b ^{2})=\frac{1}{2}(a-b)^{2}=s(a,b)^{2}$ where $s(a,b):=\frac{1}{\sqrt{ 2 }}(a-b)$. 
+> 7. Notice that:$$q(a,b)=\sum_{i\in[n]}^{} \frac{1}{2}a_{i}^{2}+\frac{1}{2}b ^{2}_{i}- a_{i}b_{i}\geq 0$$
+> 8. We have that: $$\mathrlap{\ \ ^{^{a,b}}}\mathrlap{\ \ _{_{4}}}\vdash\ \braket{ a , b } ^{2}=\braket{ a\otimes  b , b\otimes  a } \leq \frac{1}{2}\left\| a\otimes  b \right\| ^{2}+\frac{1}{2}\left\| b\otimes  a \right\| ^{2}=\|a\|^{2}\|b\|^{2}$$
+> 9. Let $M\in \mathbb{R}^{d,d}$. We have that as $\sigma_{i}\geq 0$, by 1: $$\begin{aligned}\mathrlap{\ \ ^{^{x}}}\mathrlap{\ \ _{_{2}}}\vdash\ \braket{ x , Mx } &=\sum_{i=1}^{d}\sigma_{i}\braket{ x , u_{i} } \braket{ x , v_{i} } \\&\leq \frac{1}{2}\sum_{i=1}^{d}\sigma_{i}\braket{ x , u_{i} } ^{2}+\frac{1}{2}\sum_{i=1}^{d}\sigma_{i}\braket{ x , v_{i} } ^{2}\\&\leq \frac{\sigma_{1}}{2}\sum_{i=1}^{d}\braket{ x , u_{i} } ^{2}+\braket{ x , v_{i} } ^{2}\end{aligned}$$where $$\mathrlap{\ \ ^{^{x}}}\mathrlap{\ \ _{_{2}}}\vdash\ \sum_{i=1}^{d}\braket{ x , u_{i} } ^{2}=\left\langle x,\sum_{i=1}^{d}u_{i}u_{i}^\top x\right\rangle=\|x\|^{2}$$
+> 10. We have that for $M_{i}$ being the $i$-the row of $M$, $$\begin{aligned}\mathrlap{\ \ ^{^{M,x}}}\mathrlap{\ \ _{_{4}}}\vdash\ \braket{ x , Mx } &\leq \frac{1}{2}\|x\|^{2}+\frac{1}{2}\|Mx\|^{2}\\&=\frac{1}{2}\|x\|^{2}+\frac{1}{2}\sum_{i=1}^{d}\braket{ M_{i} , x } ^{2}\\&\leq\frac{1}{2}\|x\|^{2}+\frac{1}{2}\sum_{i=1}^{d}\left\| M_{i} \right\| ^{2}\|x\|^{2}\\&=\frac{1+\left\| M \right\| ^{2}_{F}}{2}\|x\|^{2}\end{aligned}$$

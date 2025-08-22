@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Concentration Bounds.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Concentration Bounds"
+              "title": "Exercise Sheet 10"
             }
           }
         ]
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 8"
+              "title": "Exercise Sheet 10"
             }
           },
           {
@@ -260,14 +260,15 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
-    "Algebra/Tensor Product.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Analysis/Concentration Bounds.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Algebra/Tensor Product.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Analysis/Norm.md",
     "Probability Theory/Expected Value.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
@@ -285,7 +286,6 @@
     "Courses/Graph Theory/Graph Theory Roadmap.md",
     "Graph Theory/Graph Matrices.md",
     "Analysis/Kernel.md",
-    "Topology/Path.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
