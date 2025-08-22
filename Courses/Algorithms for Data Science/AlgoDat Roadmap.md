@@ -494,3 +494,26 @@ What do we do when the $k$ relevant features are unknown?
 > 7. We have that: $$\begin{aligned}\mathrlap{\ \ ^{^{A,B}}}\mathrlap{\ \ _{_{t}}}\vdash\ (A+B)^t=\sum_{s=0}^{t}{t \choose s}A^sB^{t-s}\leq \sum_{s=0}^{t}{t \choose s}\cdot \frac{1}{t}(sA^t+(t-s)B^t)\end{aligned}$$Then, $$\sum_{s=0}^{t}{t \choose s} \frac{s}{t}=\sum_{s=1}^{t}\frac{(t-1)!}{(s-1)!(t-s)!}=\sum_{s=0}^{t-1}{t-1 \choose s}=2^{t-1}$$This proves the statement.
 > 8. We have that: $$\{ X^{2}\leq cX \}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{2}}}\vdash\ X=\frac{1}{\sqrt{ c }}X\cdot \sqrt{ c }\leq \frac{1}{2}\frac{X^{2}}{c}+\frac{1}{2}c\leq \frac{1}{2}X+\frac{1}{2}c$$This proves the statement.
 ---
+> [!lemma] Theorem 2 (SOS Meta Theorem for Approximation)
+> Let $X\in \mathbb{R}^N$ and $\ell\in \mathbb{N}$. There exists an algorithm s.t. given $p(X)\in \mathbb{R}[X]^m$ and $\varepsilon>0$ outputs in time $\left( N+m+\log \frac{1}{\varepsilon} \right)^{O(\ell)}$ a vector $\widehat{X}\in \mathbb{R}^N$ s.t. for any $X^0\in \mathbb{R}^N$ if it holds that: 
+> 1. $\{ p(X)\geq 0 \}$ and
+> 2. $\{ p(X)\geq 0 \} \mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash\ \{ \left\| X-X^0 \right\|^{2}\leq c \}$ for some $c>0$, 
+> 	
+> then $\left\| \widehat{X}-X^{*} \right\|^{2}\leq c+\varepsilon$
+
+> [!proof]+
+> First note that $\{ X^\alpha \}_{\left| \alpha \right|\leq \ell}$ is a basis of $\mathbb{R}[X]_{\leq \ell}$. Then, for all $p\in \mathbb{R}[X]_{\leq \ell}$, we have that: $$p(X)=\sum_{\alpha}^{}p_{\alpha}X^\alpha$$Now, let $L\in \mathbb{R}[X]_{\leq \ell}^{*}$ and $\mathcal{A}:=\{ p_{1}(X)\geq 0,\dots,p_{m}(X)\geq 0 \}$. We define that $L\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\models\ \mathcal{A}$ if $L 1=1$ and $$(\mathcal{A}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash\ q(X)\geq 0 \implies Lq\geq 0),\quad \forall q\in \mathbb{R}[X]_{\leq \ell}$$Further, for $X^0\in \mathbb{R}^N$, let $\text{ev}_{X^0}\in \mathbb{R}[X]^{*}_{\leq \ell}$ where $\text{ev}_{X^0}p=p(X^0)$. Then, 
+> 1. **Claim 1: $\text{ev}_{X^0}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\models\ \mathcal{A}$ if and only if $X^0$ satisfies $\mathcal{A}$**:
+>    If $\text{ev}_{X^0}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\models\ \mathcal{A}$, then $\mathcal{A}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash\ p_{i}(X)\geq 0$ and therefore, $\text{ev}_{X^0}p_{i}=p_{i}(X^0)\geq 0$.
+>    
+>    Conversely, if $p_{i}(X)\geq 0$ for all $i$, then for any $q\in \mathbb{R}[X]_{\leq \ell}$ with $\mathcal{A}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash\ q(X)\geq 0$, we have that: $$q(X^0)\geq 0$$
+> 
+> The algorithm works in the following two steps:
+> - Step 1: Find $L\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash\ \mathcal{A}$
+> - Step 2: Output $\widehat{X}:=(LX_{1},\dots,LX_{n})$.
+> 
+> We now proceed with the proof:
+> 1. **Claim 2: if $\mathcal{A}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash\ \left\| X-X^0 \right\|^{2}\leq c$ and $L\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\models\ \mathcal{A}$, then $\left\| \widehat{X} -X^0\right\|^{2}\leq c$.**
+>    Let $U:= X-X^0$ and $\widehat{U}:=\widehat{X}-X^0$. Then, $$\begin{aligned}\left\| \widehat{U} \right\| ^{2}=\braket{ \widehat{U} , \widehat{U} } =L\braket{ \widehat{U} , U } \leq\end{aligned}$$
+
+- **Corollary**: We can extend this with auxiliary variables s.t. given $p(X,Z)\in \mathbb{R}[X,Z]^m$ and $\varepsilon>0$, the algorithm outputs in time $\left( N+N'+m+ \log \frac{1}{\varepsilon} \right)^{O(\ell)}$ a vector $\widehat{X}\in \mathbb{R}^N,\widehat{Z}\in \mathbb{R}^{N'}$  s.t. for any $X^0,Z^0$ with the above conditions $\left\| \widehat{X}-X^{*} \right\|^{2}\leq c+\varepsilon$
