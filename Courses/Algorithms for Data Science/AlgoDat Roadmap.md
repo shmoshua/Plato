@@ -374,5 +374,43 @@ What do we do when the $k$ relevant features are unknown?
 ### 5. Non-Negative Matrix Factorization
 ##### 5.1 Topic Models
 > [!outlook] Setup
-> Let $k,n,d\geq 1$.
-> 1. **Unknown**: $A:=[A_{1}|\dots|A_{k}]\in\mathbb{R}^{d,k}$
+> Let $k,n,d,L\geq 1$.
+> 1. **Unknown**: 
+> 	- $A:=[A_{1}|\dots|A_{k}]\in\mathbb{R}^{d,k}_{\geq 0}$ where $\left\| A_{i} \right\|_{1}=1$. 
+> 	- $W:=[W_{1}|\dots|W_{n}]\in \mathbb{R}^{k,n}_{\geq 0}$ where $\left\| W_{i} \right\|_{1}=1$.
+> 	- $M:=[M_{1}|\dots|M_{n}]:=AW\in \mathbb{R}^{d,n}_{\geq 0}$
+> 2. **Observation**: $D:=[D_{1}|\dots|D_{n}]\in \mathbb{R}^{d,n}_{\geq 0}$ where $D_{i}(j):=\frac{1}{L}\sum_{\ell\in [L]}[x_{i,\ell}=j]$ where $x_{i,1},\dots,x_{i,L}\sim M_{i}$ i.i.d.
+> 3. **Goal**: Estimate $A$, up to permutations of the columns. 
+
+- **Remark**: Notice that $\left\| M_{i} \right\|_{1}=\sum_{j\in[d]}^{}(AW)_{i,j}=\sum_{j\in [d]}^{}\sum_{p\in [k]}^{}A_{ip}W_{pj}=\sum_{p\in [k]}^{}A_{ip}=1$.
+- **Remark**: If $L\gg d$, then $\mathbb{E}[D_{i}]=M_{i}$. However, we usually have that $L\ll d\ll n$.
+- **Remark**: the SVD of $D$ does not work as for any invertible $R\in \mathbb{R}^{k,k}$, we have that $M=AW=(AR)(R^{-1}W)$. 
+---
+> [!definition] 
+> For a matrix $M\in \mathbb{R}^{d,n}$, 
+> 1. a ***rank-$k$ nonnegative matrix factorization (NMF)*** is a pair $(A,W)\in \mathbb{R}^{d,k}_{\geq 0}\times \mathbb{R}^{k,n}_{\geq 0}$ with $$M=AW$$
+---
+> [!lemma] Proposition 1
+> Let $M$ be a column stochastic matrix with a rank-$k$ NMF. 
+> 1. There exists an rank-$k$ NMF $(A,W)$ of $M$ s.t. $A,W$ are column stochastic. 
+
+- **Remark**: If $W$ is column stochastic, the columns of $M$ are convex combinations of the columns of $A$. Hence, $M$ from our setting admits a rank-$k$ NMF if and only if there exists a $k$-corner polytope with non-negative coordinates that covers all the columns of $M$. This is however $NP$-hard.
+
+---
+- **Related definition**: A matrix $A$ is separable if $e_{1},\dots,e_{k}$ is in the rows of $A$ up to scaling. Further, word $i$ is an ***anchor*** for topic $j$ if row $i$ of $A$ is a multiple of $e_{j}$.
+---
+> [!lemma] Theorem 2
+> Let $M=AW$ for a separable $A$ and full-rank $W$ and $M,A,W$ are column stochastic.
+> Consider the following polytime algorithm given $M$:
+> 1. Rescale the rows of $M$ to sum up to $1$.
+> 2. Find the corners of the $\text{conv}(M_{1,:},\dots,M_{d,:})$ and set them to be the rows of $W$.
+> 3. Solve the linear system $M=AW$ to find $A$.
+> 
+> Then, this algorithm returns $A$ up to permutation of the columns.
+
+> [!proof]-
+> As we rescale the rows of $M$, we may assume wlog that the rows of $A,W$ sum up to $1$ as well. Especially, rows of $M$ are a convex combination of rows of $W$. However, as $A$ is separable, the rows of $W$ are all contained in the rows of $M$. Notice that they are exactly the corners of the convex hull as $W$ is full-rank. This proves the theorem.
+---
+> [!lemma] Theorem 3
+> Let $L\ll d\ll n$. 
+- 
