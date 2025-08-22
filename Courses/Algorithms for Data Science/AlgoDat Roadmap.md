@@ -605,4 +605,10 @@ What do we do when the $k$ relevant features are unknown?
 ---
 > [!lemma] Theorem 1
 > There exists a polytime estimator $\widehat{x}$ s.t. $$\text{err}(\widehat{x})\leq O\left( \frac{1}{\varepsilon \sqrt{ d }}+\eta \right)$$
-> 
+
+> [!proof]-
+> We have that: $$\left\| \overline{H} -\overline{G}\right\|_{\text{cut}}\leq \sum_{i\neq j}^{} \left| \overline{H}_{ij}-\overline{G}_{ij} \right| \lesssim \text{\#edges where }G\text{ and }H\text{ differ}\leq \eta n^{2}$$Hence, $$\text{ex-err}(\widehat{x})\leq \frac{\eta n}{\varepsilon d}$$
+
+---
+> [!lemma] Theorem 2
+> Consider the polynomial system: $$\mathcal{A}_{\text{typical}}(H,x,R_{1},R_{2},\lambda):=\left\{\begin{matrix} \frac{n}{\varepsilon d}H-xx ^\top=\lambda nI_{n}-R_{1}^\top R_{1}\\\frac{n}{\varepsilon d}H-xx ^\top=-\lambda nI_{n}+R_{2}^\top R_{2}\\x_{i}^{2}=1\end{matrix}\right\}$$
