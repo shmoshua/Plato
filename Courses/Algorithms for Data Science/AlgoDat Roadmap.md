@@ -464,3 +464,23 @@ What do we do when the $k$ relevant features are unknown?
 > Let $g\in \mathcal{N}(0,I_{d})$. Then we define: $$K:=(\text{id}\otimes  \text{id}\otimes  g)\cdot T=\sum_{i\in[r]}^{}\braket{ g , c_{i} } a_{i}\otimes  b_{i}$$By viewing $K$ as a matrix, we have the SVD $K=A\Sigma B^\top$ where $\Sigma=\text{diag}(\braket{ g, c_{i}  })$. Now, by linear independence we have that $A,B$ are unique up to permutation and scaling. Also as $\braket{ g , c_{i} }$ are all disjoint whp.
 > 
 > For $c_{1:r}$, note that: $$\widehat{c}_{i}:=(\widehat{a}_{i}\otimes  \widehat{b}_{i}\otimes  \text{id})\cdot X=\braket{ a_{i} , \widehat{a}_{i} } \braket{ b_{i},\widehat{b}_{i}  }c_{i} $$Hence, $\widehat{c}_{i}\in \pm c_{i}$ and we have the answer up to scaling. 
+
+---
+### 7. SOS Proofs
+> [!definition]
+> Let $p_{1}(X),\dots,p_{m}(X),q(X)$ be polynomials. 
+> 1. A ***degree-$\ell$ SOS proof*** of statement $q(X)\geq 0$ over $\{ p_{1}(X)\geq 0,\dots,p_{m}(X)\geq 0 \}$ is a finite decomposition: $$q(X)=\sum_{r\in[R]}^{}s_{r}(X)^{2}\overline{p}_{r}(X)$$where $\overline{p}_{r}(X)=p_{i_{1}}(X)\dots p_{i_{k}}(X)$ and $\text{deg}(s_{r}^{2}\overline{p}_{r})\leq \ell$. Then, we write: $$\{ p_{1}(X)\geq 0,\dots,p_{m}(X)\geq 0 \}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash q(X)\geq 0$$
+
+---
+> [!lemma] Proposition 1 (Examples of SOS-Proofs)
+> We have that: 
+> 1. $\mathrlap{\ \ ^{^{a,b}}}\mathrlap{\ \ _{_{2}}}\vdash ab\leq \frac{1}{2}a^{2}+\frac{1}{2}b ^{2}$ for all $a,b\in \mathbb{R}$
+> 2. $\mathrlap{\ \ ^{^{a,b}}}\mathrlap{\ \ _{_{2}}}\vdash \braket{ a , b }\leq \frac{1}{2}\|a\|^2_{2}+\frac{1}{2}\|b\|^{2}_{2}$ for all $a,b\in \mathbb{R}^n$
+> 3. $\mathrlap{\ \ ^{^{a,b}}}\mathrlap{\ \ _{_{4}}}\vdash\ \braket{ a , b }^{2}\leq\|a\|^{2}\|b\|^{2}$.
+> 4. $\mathrlap{\ \ ^{^{x}}}\mathrlap{\ \ _{_{2}}}\vdash\ \braket{ x , Mx }\leq \left\| M \right\|\|x\|^{2}$
+
+> [!proof]+
+> We have that:
+> 1. $q(a,b):=\frac{1}{2}(a^{2}-2ab+b ^{2})=\frac{1}{2}(a-b)^{2}=s(a,b)^{2}$ where $s(a,b):=\frac{1}{\sqrt{ 2 }}(a-b)$. 
+> 2. Notice that:$$q(a,b)=\sum_{i\in[n]}^{} \frac{1}{2}a_{i}^{2}+\frac{1}{2}b ^{2}_{i}- a_{i}b_{i}\geq 0$$
+> 3. We have that: $$\braket{ a , b } ^{2}=\braket{ a\otimes  b , b\otimes  a } $$
