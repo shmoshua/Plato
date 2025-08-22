@@ -495,15 +495,15 @@ What do we do when the $k$ relevant features are unknown?
 > 8. We have that: $$\{ X^{2}\leq cX \}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{2}}}\vdash\ X=\frac{1}{\sqrt{ c }}X\cdot \sqrt{ c }\leq \frac{1}{2}\frac{X^{2}}{c}+\frac{1}{2}c\leq \frac{1}{2}X+\frac{1}{2}c$$This proves the statement.
 ---
 > [!lemma] Theorem 2 (SOS Meta Theorem for Approximation)
-> Let $X\in \mathbb{R}^N$ and $\ell\in \mathbb{N}$. There exists an algorithm s.t. given $p(X)\in \mathbb{R}[X]^m$ and $\varepsilon>0$ outputs in time $\left( N+m+\log \frac{1}{\varepsilon} \right)^{O(\ell)}$ a vector $\widehat{X}\in \mathbb{R}^N$ s.t. for any $X^0\in \mathbb{R}^N$ if it holds that: 
-> 1. $\{ p(X)\geq 0 \}$ and
-> 2. $\{ p(X)\geq 0 \} \mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash\ \{ \left\| X-X^0 \right\|^{2}\leq c \}$ for some $c>0$, 
+> Let $X\in \mathbb{R}^N$ and $\ell\in \mathbb{N}$. There exists an algorithm s.t. given a polynomial system $\mathcal{A}$ and $\varepsilon>0$ outputs in time $\left( N+m+\log \frac{1}{\varepsilon} \right)^{O(\ell)}$ a vector $\widehat{X}\in \mathbb{R}^N$ s.t. for any $X^0\in \mathbb{R}^N$ if it holds that: 
+> 1. $X^0$ satisfies $\mathcal{A}$ and
+> 2. $\mathcal{A}(X)\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash\ \ \left\| X-X^0 \right\|^{2}\leq c$ for some $c>0$, 
 > 	
 > then $\left\| \widehat{X}-X^{*} \right\|^{2}\leq c+\varepsilon$
 
-> [!proof]+
+> [!proof]-
 > First note that $\{ X^\alpha \}_{\left| \alpha \right|\leq \ell}$ is a basis of $\mathbb{R}[X]_{\leq \ell}$. Then, for all $p\in \mathbb{R}[X]_{\leq \ell}$, we have that: $$p(X)=\sum_{\alpha}^{}p_{\alpha}X^\alpha$$Now, let $L\in \mathbb{R}[X]_{\leq \ell}^{*}$ and $\mathcal{A}:=\{ p_{1}(X)\geq 0,\dots,p_{m}(X)\geq 0 \}$. We define that $L\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\models\ \mathcal{A}$ if $L 1=1$ and $$(\mathcal{A}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash\ q(X)\geq 0 \implies Lq\geq 0),\quad \forall q\in \mathbb{R}[X]_{\leq \ell}$$Further, for $X^0\in \mathbb{R}^N$, let $\text{ev}_{X^0}\in \mathbb{R}[X]^{*}_{\leq \ell}$ where $\text{ev}_{X^0}p=p(X^0)$. Then, 
-> 1. **Claim 1: $\text{ev}_{X^0}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\models\ \mathcal{A}$ if and only if $X^0$ satisfies $\mathcal{A}$**:
+> 3. **Claim 1: $\text{ev}_{X^0}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\models\ \mathcal{A}$ if and only if $X^0$ satisfies $\mathcal{A}$**:
 >    If $\text{ev}_{X^0}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\models\ \mathcal{A}$, then $\mathcal{A}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash\ p_{i}(X)\geq 0$ and therefore, $\text{ev}_{X^0}p_{i}=p_{i}(X^0)\geq 0$.
 >    
 >    Conversely, if $p_{i}(X)\geq 0$ for all $i$, then for any $q\in \mathbb{R}[X]_{\leq \ell}$ with $\mathcal{A}\mathrlap{\ \ ^{^{X}}}\mathrlap{\ \ _{_{\ell}}}\vdash\ q(X)\geq 0$, we have that: $$q(X^0)\geq 0$$
@@ -520,6 +520,31 @@ What do we do when the $k$ relevant features are unknown?
 > 3. **Claim 4**: **For $p\in \mathbb{R}[X]_{\leq \ell}$ with $d:= \text{deg}(p)$ and $f:= \frac{\ell-d}{2}$, we have that: $$\text{inf}_{s\in \mathbb{R}[X]_{\leq f}}L(ps^{2})\geq 0 \iff M_{L,p}\geq 0$$where $(M_{L,p})_{\alpha,\alpha'}:=L(pX^{\alpha+\alpha'})$**
 >    Let $s:=\sum_{\left| \alpha \right|\leq f}^{}s_{\alpha}X^\alpha$. Then, $$L(ps^{2})=L\left( p\sum_{\alpha,\alpha'}s_{\alpha}s_{\alpha'}X^{\alpha+\alpha'} \right)=\sum_{\alpha,\alpha'}^{}s_{\alpha}s_{\alpha'}(M_{L,p})_{\alpha,\alpha'}=\braket{ s , M_{L,p}s } $$and this shows the claim.
 > 
+> This means we have to find $L$ s.t. $M_{L,p}\geq 0$ for all $p$ products of subsets of $\mathcal{A}$.
+> 
 > Hence, $\mathcal{X}$ has a separation oracle and we can find $L\in \mathcal{X}$ in $\left( N+m+\log \frac{1}{ \varepsilon} \right)^{O(\ell)}$ time. 
 
 - **Corollary**: We can extend this with auxiliary variables s.t. given $p(X,Z)\in \mathbb{R}[X,Z]^m$ and $\varepsilon>0$, the algorithm outputs in time $\left( N+N'+m+ \log \frac{1}{\varepsilon} \right)^{O(\ell)}$ a vector $\widehat{X}\in \mathbb{R}^N,\widehat{Z}\in \mathbb{R}^{N'}$  s.t. for any $X^0,Z^0$ with the above conditions $\left\| \widehat{X}-X^{*} \right\|^{2}\leq c+\varepsilon$
+
+---
+##### 7.1 Clustering via SOS
+> [!outlook] Setup
+> Let $k,n,d\geq 1$
+> 1. **Unknown**: 
+> 	- means: $\mu^0_{1},\dots,\mu^0_{k}\in \mathbb{R}^d$ linearly independent.
+> 	- assignments: $x^0_{1},\dots,x^0_{n}\in \{ \mu^0_{1},\dots,\mu^0_{k} \}$
+> 2. **Observation**: $y_{1},\dots,y_{n}\in \mathbb{R}^d$ where $y_{i}:= x^0_{i}+w_{i}$ with $w_{i}\sim \mathcal{N}(0,I_{d})$ independent.
+> 3. **Error Measure**: For an estimate $\widehat{X}$, we have: $$\text{err}(\widehat{X}):=\frac{1}{n}\left\| \widehat{X}-X^0 \right\| ^{2}_{F} $$
+- **Remark**: In matrix form we can write $Y=X^0+W$.
+- **Remark**: As $X^0$ has at most $k$ distinct columns, we have $\text{rnk}(X^0)\leq k$.
+- **Remark**: Using the multiple-spike model, we have that: $$\frac{1}{dn}\left\| \widehat{X}-X^0 \right\|^{2}_{F}\lesssim k\cdot \frac{d+n}{nd}\lesssim  \frac{k}{d} $$and $\text{err}(\widehat{X})\lesssim k$
+
+---
+> [!lemma] Theorem 1
+> Let $w\sim \mathcal{N}(0,I_{d})$. We define the two polynomial systems:$$\mathcal{A}(W):=\left\{  \left\| \frac{1}{n}\sum_{i\in[n]}w_{i}^{\otimes  t} -\mathbb{E}[w^{\otimes  t}]\right\|^{2}_{F}  \leq 0.01 \right\}$$ $$\mathcal{B}(X,z):=\left\{  z_{i,a}^{2}=z_{i,a},\sum_{a}^{}z_{ia}=1,z_{ia}z_{ja}(X_{i}-X_{j})=0  \right\}$$
+> Suppose $(X^0,Y,z^0)$ satisfy $\mathcal{A}(Y-X^0)\cup \mathcal{B}(X^0,z^0)$. Then, $$\mathcal{A}(Y-X)\cup \mathcal{B}(X,z)\mathrlap{\ \ ^{^{X,z}}}\mathrlap{\ \ _{_{O(t)}}}\vdash\ \ \left\| X-X^0 \right\|^{2}_{F} \leq 4t\cdot  k^{4 / t}$$
+
+> [!proof]+
+> Let $U:= X- X^0$, $W:= Y-X$ and $W^0:= Y-X^0$. Then, $U=W^0-W$.
+> 1. **Claim 1: $\mathcal{A}(W)\mathrlap{\ \ ^{^{X,v}}}\mathrlap{\ \ _{_{}}}\vdash\ \frac{1}{n}\sum_{i\in[n]}^{}\braket{ u_{i} , v }^t\leq(4t)^{t /2}\|v\|^t$.**
+>    Let $E:=\frac{1}{n}\sum_{i\in[n]}w_{i}^{\otimes  t} -\mathbb{E}[w^{\otimes  t}]$. Then, we have that: $$\begin{aligned} \frac{1}{n}\sum_{i\in[n]}^{}\braket{ w_{i} , v } ^t&=\frac{1}{n}\sum_{i\in[n]}^{}\braket{w_{i}^{\otimes  t}  ,v^{\otimes  t}  } \\&=\braket{ E , v^{\otimes  t}  }+\braket{ \mathbb{E}[w^{\otimes  t}] , v^{\otimes  t} }  \end{aligned}$$
