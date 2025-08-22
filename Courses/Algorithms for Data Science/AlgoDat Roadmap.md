@@ -423,3 +423,4 @@ What do we do when the $k$ relevant features are unknown?
 
 - **Remark**: After we have an estimate of $MM^\top=A(WW^\top A^\top)$. If $A$ is separable, then we can now perform the algorithm on Theorem 2 on $MM^\top$ to find $A$.
 ---
+### 6. Clustering via Tensor Decomposition
