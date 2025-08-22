@@ -413,4 +413,13 @@ What do we do when the $k$ relevant features are unknown?
 ---
 > [!lemma] Theorem 3
 > Let $L\ll d\ll n$. 
-- 
+> 1. $Y_{p}:= \frac{L}{L-1}\left( D_{p}D_{p}^\top  - \frac{1}{L}\text{diag}(D_{p})\right)$is an unbiased estimator of $M_{p}M_{p}^\top$.
+
+> [!proof]-
+> Let $D_{p,i,\ell}:=\mathbb{1}_{x_{p,\ell}=i}$. Then, $D_{p}(i)=\frac{1}{L}\sum_{\ell\in[L]}^{}D_{p,i,\ell}$ and: $$\begin{aligned}\mathbb{E}[D_{p}(i)D_{p}(i')]&= \frac{1}{L^{2}}\sum_{\ell,\ell'}^{}\mathbb{E}[D_{p,i,\ell}D_{p,i',\ell'}]\\&= \frac{1}{L^{2}}\sum_{\ell}^{}\mathbb{E}[D_{p,i,\ell}D_{p,i',\ell}]+ \frac{1}{L^{2}}\sum_{\ell\neq\ell'}^{}\mathbb{E}[D_{p,i,\ell}D_{p,i',\ell'}]\\&= \frac{1}{L}M_{p}(i)\mathbb{1}_{i=i'}+ \frac{L-1}{L}M_{p}(i)M_{p}(i')\end{aligned}$$Hence, $$\mathbb{E}[D_{p}D_{p}^\top]=\frac{1}{L}\text{diag}(M_{p})+\frac{L-1}{L}M_{p}M_{p}^\top$$
+> 
+> Therefore, $$Y_{p}:= \frac{L}{L-1}\left( D_{p}D_{p}^\top  - \frac{1}{L}\text{diag}(D_{p})\right) $$is an unbiased estimator of $M_{p}M_{p}^\top$.
+> For $n\gg d$, we have that the errors are small and $\sum_{p\in[n]}^{}Y_{p}$ is a good estimate for $MM^\top$.
+
+- **Remark**: After we have an estimate of $MM^\top=A(WW^\top A^\top)$. If $A$ is separable, then we can now perform the algorithm on Theorem 2 on $MM^\top$ to find $A$.
+---
