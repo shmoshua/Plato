@@ -557,3 +557,19 @@ What do we do when the $k$ relevant features are unknown?
 - **Corollary**: By SOS-meta theorem, we have a polynomial algorithm with $\text{err}(\widehat{X})\leq 4t k^{4/t}$. This is $\Theta(\log k)$ if $t=\log k$.
 ---
 ##### 7.2 Robust Mean Estimation via SOS
+> [!outlook] Setup
+> We have that:
+> 1. **Unknown**: 
+> 	- $\mu ^{*}\in \mathbb{R}^d$ and $\Sigma ^{*}\in \mathbb{R}^{d,d}$ with $\Sigma ^{*}\leq I_{d}$.
+> 	- $Y^{*}:=(y^{*}_{1}|\dots|y^{*}_{n})\in \mathbb{R}^{d,n}$ where $y^{*}_{i}\sim \mathcal{N}(\mu ^{*},\Sigma ^{*})$ iid.
+> 2. **Observation**: $Z\in \mathbb{R}^{d,n}$ where $Y^{*}-Z$ have at most $\varepsilon n$ non-zero columns. 
+> 3. **Adversarial Error**: For an estimator $\widehat{\mu}$: $$\text{err}(\widehat{\mu}):=\sup_{Z\in C_{\varepsilon}(Y^{*})}\left\| \widehat{\mu}(Z)-\mu ^{*} \right\| $$where $C_{\varepsilon}(Y^{*}):=\{ Z\in \mathbb{R}^{d,n}:Y^{*}-Z\text{ has at most }\varepsilon n\text{ non-zero columns} \}$
+- **Remark**: $\widehat{\mu}(Z):=\frac{1}{n}\sum_{i\in[n]}^{}z_{i}$ has unbounded error as one of the column could be unboundedly large.
+---
+> [!lemma] Lemma 1
+> Let $y,y'$ be $\mathbb{R}^d$-valued random variables. I
+> 1. if $\mathbb{P}(y\neq y')\leq \varepsilon< \frac{1}{4}$ and $\text{Cov}(y),\text{Cov}(y')\leq I_{d}$, then $$\left\| \mathbb{E}[y-y'] \right\| \lesssim \sqrt{  \varepsilon }$$
+
+> [!proof]+
+> We have that:
+> 1. Let $u:= y-y'$ and $\overline{u}:=\mathbb{E}[u]=\mathbb{E}[y-y']$. Then, $$\|\overline{u}\|^{2}=\braket{ \overline{u} , \overline{u} } =\mathbb{E}\braket{ \overline{u} , u } =\mathbb{E}[1_{u\neq 0}\braket{ \overline{u} , u } ]\leq \sqrt{ \mathbb{E}[1^{2} _{u\neq 0}]}\sqrt{ \mathbb{E}[\braket{ \overline{u} ,u  }^{2} ] }=\sqrt{ \varepsilon }\sqrt{ \mathbb{E}[\braket{ \overline{u} , u } ^{2}]  }$$Further, using triangle inequality: $$\begin{aligned}\left( \mathbb{E}[\braket{ \overline{u} , u } ^{2}] \right) ^{1/2}&=\left( \mathbb{E}[\braket{ \overline{u} , (y-\mathbb{E}[y]-y'+\mathbb{E}[y']+\overline{u}) } ^{2}] \right) ^{1/2}\\&\leq \mathbb{E}[\braket{ \overline{u} , y-\mathbb{E}[y] } ^{2}]^{1/2}+\mathbb{E}[\braket{ \overline{u} , y'-\mathbb{E}[y'] } ^{2}]^{1/2}+\left\| \overline{u} \right\| ^{2}\\&=(\overline{u}^\top\text{Cov}(y)\overline{u})^{1/2}+(\overline{u}^\top\text{Cov}(y')\overline{u})^{1/2}+\|\overline{u}\|^{2}\\&\leq 2\|\overline{u}\end{aligned}$$
