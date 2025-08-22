@@ -595,4 +595,14 @@ What do we do when the $k$ relevant features are unknown?
 > 1. **Unknown**: 
 > 	- $x^0\in \{ \pm 1 \}^n$.
 > 	- Graph $G$ on $[n]$ where $\mathbb{P}(ij\in E(G))=(1+\varepsilon x^0_{i}x^0_{j}) \frac{d}{n}$.
-> 2. Observation:
+> 2. **Observation**: Graph $H$ on $[n]$ s.t. $$H\in C_{\eta}(G):=\{ G': \exists S\subseteq [n]:\left| S \right| \geq (1-\eta)n, G[S]=G'[S] \}$$
+> 3. **Adversarial error**: For an estimator $\widehat{x}$, $$\text{err}(\widehat{x}):=\sup_{G'\in C_{\eta}(G)}1-\frac{\braket{ \widehat{x} , x^0 } ^{2}}{n^{2}}=$$
+
+- **Remark**: Let $\overline{H}$ be the centered adjacency matrix for $H$, i.e. $$\overline{H}_{ij}:=\begin{cases}1-\frac{d}{n}& ij\in E(H)\\\frac{\varepsilon d}{n}&i= j \\-\frac{d}{n}&\text{otherwise}\end{cases}$$Then, $\mathbb{E}[\overline{H}]=\frac{\varepsilon d}{n}x^0(x^0)^\top$.
+- **Remark**: From community detection, we have that: $$\frac{1}{n^{2}}\left\| \widehat{x}(\widehat{x})^\top-x^0(x^0)^\top \right\|^{2}_{F}\lesssim \frac{1}{n^{2}}\left\| \frac{n}{\varepsilon d}\overline{G}-x^0(x^0)^\top \right\|_{\text{cut}}   $$
+- **Remark**: We define the ***excess adversarial error*** is $$\text{ex-err}(\widehat{x}):=\frac{1}{n^{2}}\left\| \frac{n}{\varepsilon d}(\overline{H}-\overline{G}) \right\| _{\text{cut}}$$
+
+---
+> [!lemma] Theorem 1
+> There exists a polytime estimator $\widehat{x}$ s.t. $$\text{err}(\widehat{x})\leq O\left( \frac{1}{\varepsilon \sqrt{ d }}+\eta \right)$$
+> 
