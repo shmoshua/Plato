@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 8"
+              "title": "Exercise Sheet 6"
             }
           },
           {
@@ -127,7 +127,8 @@
               "title": "Gaussian Distribution"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,14 +273,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "3a3f1a463bcc87b6",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
