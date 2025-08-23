@@ -358,7 +358,7 @@ What do we do when the $k$ relevant features are unknown?
 ##### 4.2 Community Detection with Grothendieck
 > [!lemma] Theorem 1
 > Consider the polytime estimator:
->  $$\widehat{X}:=\underset{ \text{rnk}(X)\leq 1 }{ \arg\min }\left\| X-Y \right\| ^{2}_{F},\quad Y:= I+\frac{1}{\varepsilon }\left( \frac{n}{d}A-1 \right)$$where $A$ is the adjacency matrix of $G$.
+>  $$\widehat{X}:=\underset{ X\in \mathcal{C}_{\text{cut}} }{ \arg\min }\left\| X-Y \right\| ^{2}_{F},\quad Y:= I+\frac{1}{\varepsilon }\left( \frac{n}{d}A-1 \right)$$where $A$ is the adjacency matrix of $G$.
 > 1. if $d\geq \Omega( 1/ \varepsilon^{2})$.  then w.h.p $\text{err}(\widehat{X})\le 0.01$.
 
 > [!proof]-
