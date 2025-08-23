@@ -127,8 +127,7 @@
               "title": "Gaussian Distribution"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,11 +272,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3a3f1a463bcc87b6",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
