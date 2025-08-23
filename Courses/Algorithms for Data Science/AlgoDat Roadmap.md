@@ -616,12 +616,34 @@ What do we do when the $k$ relevant features are unknown?
 ---
 ### 8. Privacy
 > [!definition]
-> An algorithm $A$ is called ***$\varepsilon$-differentially private*** if:
+> A randomized algorithm $A$ is called ***$\varepsilon$-differentially private*** if:
 > 1. for any input $X,X'$ with $d(X,X')=1$, $$\mathbb{P}(A(X)=Y)\leq e^\varepsilon \mathbb{P}(A(X')=Y),\quad \forall Y$$
 
 ---
 ##### 8.1 Most Frequent Element
 > [!outlook] Setup
 > Let $X\in [k]^n$. Further, we define $s(i,X):=\left| \{ t:X_{t}=i \} \right|$, i.e. the frequency of $i$. 
-> 1. We want to find a differentially priate
-> 
+> 1. We want to find a differentially private algorithm $A$ that outputs $\text{argmax}_{i}s(i,X)$.
+- **Related definition**: $s(i,\cdot)$ has sensitivity $1$, i.e. $\left| s(i,X)-s(i,X') \right|\leq 1$ for all $d(X,X')=1$. 
+---
+> [!lemma] Proposition 1
+> Let $p(\cdot,X)\in\Delta([k])$ where $$p(i,X):=\frac{e^{\varepsilon s(i,X) }}{\sum_{j\in[k]}^{}e^{\varepsilon s(j,X) }}$$
+> Consider the algorithm $A$ where $A(X)\sim p(\cdot,X)$.
+> 1. (**privacy**): $A$ is $2\varepsilon$-differentially private.
+> 2. (**utility**): for any $X$, $\beta> 0$,$$\mathbb{P}(s(A(X),X)\geq \max_{i}s(i,X)-\alpha)\geq 1-\beta,\quad \forall\alpha\leq O\left(  \frac{1}{\varepsilon}\log \frac{k}{\beta} \right)$$
+
+> [!proof]-
+> We have that:
+> 1. Let $d(X,X')=1$. Then, $$\begin{aligned}p(i,X)=\frac{e^{\varepsilon  s(i,X) }}{\sum_{j\in[k]}^{}e^{\varepsilon s(j,X) }}\leq \frac{e^\varepsilon e^{\varepsilon  s(i,X') }}{e^{-\varepsilon} \sum_{j\in[k]}^{}e^{\varepsilon  s(j,X') }}=e^{2\varepsilon} p(i,X')\end{aligned}$$
+> 2. Let $i_{0}:=\arg\max_{i}s(i,X)$. We define: $$B:=\{ i:s(i,X)< s(i_{0},X)-\alpha \}$$Then, the error probability is: $$\mathbb{P}(A(X)\in B)=\frac{\sum_{i\in B}^{}e^{\varepsilon s(i,X)}}{\sum_{j\in [k]}^{}e^{\varepsilon s(i,X)}}\leq \frac{e^{-\varepsilon \alpha}\cdot k\cdot e^{\varepsilon s(i_{0},X)}}{e^{\varepsilon s(i_{0},X)}}\leq e^{-\varepsilon \alpha+\log k}$$This becomes $\beta$ as $\alpha\leq O\left( \frac{1}{\varepsilon}\log \frac{k}{\beta} \right)$.
+
+---
+##### 8.2 High-dimensional Mean Estimation
+> [!outlook] Setup
+> Let $X:=(X_{1}|\dots|X_{n})\in \mathbb{R}^{d,n}$.
+> 1. We want to find a dp algorithm $A$ that estimates $\mu:=\mathbb{E}[X_{i}]$.
+
+---
+> [!lemma] Theorem 1
+> with high probability:
+> $$\left\| \widehat{\mu}-\mu  \right\| \leq \sqrt{ \frac{d}{\varepsilon n} }$$
