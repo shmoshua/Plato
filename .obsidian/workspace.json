@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Topology/Metric Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expected Value"
+              "title": "Metric Space"
             }
           }
         ]
@@ -260,11 +260,13 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
-    "Probability Theory/Expected Value.md",
-    "Algebra/Tensor Product.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
+    "Topology/Metric Space.md",
+    "Topology/Distance.md",
+    "Probability Theory/Expected Value.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Algebra/Tensor Product.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Analysis/Concentration Bounds.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
@@ -284,8 +286,6 @@
     "Graph Theory/Hypergraph.md",
     "Graph Theory/Path (Graph).md",
     "Courses/Graph Theory/Graph Theory Roadmap.md",
-    "Graph Theory/Graph Matrices.md",
-    "Analysis/Kernel.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",

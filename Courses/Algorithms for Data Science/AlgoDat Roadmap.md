@@ -640,10 +640,17 @@ What do we do when the $k$ relevant features are unknown?
 ---
 ##### 8.2 High-dimensional Mean Estimation
 > [!outlook] Setup
-> Let $X:=(X_{1}|\dots|X_{n})\in \mathbb{R}^{d,n}$.
-> 1. We want to find a dp algorithm $A$ that estimates $\mu:=\mathbb{E}[X_{i}]$.
-
+> Let $X^0:=(X_{1}^0|\dots|X_{n}^0)\in \mathbb{R}^{d,n}$.
+> 1. We want to find a dp algorithm $A$ that estimates $\mu^0:=\mathbb{E}[X_{i}]$.
+- **Related definition**: Let $\alpha(\eta)$ be the adversarial error bound for $\eta$-corrupted samples. 
 ---
 > [!lemma] Theorem 1
-> with high probability:
-> $$\left\| \widehat{\mu}-\mu  \right\| \leq \sqrt{ \frac{d}{\varepsilon n} }$$
+> Let $\alpha:[0,1]\to \mathbb{R}_{\geq 0}$ be the accuracy function and $\eta_{0}\in[0,1]$ is the corruption parameter. Further, let $\widehat{\mu}$ be the robust estimator we have from chapter 7. Then,$$s(\mu,X):=\inf_{X'}\{ d(X,X'): \left\| \widehat{\mu}(X')-\mu \right\| \leq\alpha(\eta_{0}) \}$$
+> Let $p(\cdot,X)\in \Delta(\mathbb{R}^d)$ where $p(i,X) \propto e^{\varepsilon s(\mu,X)}$. Let $A$ be an algorithm where $A(X)\sim p(\cdot,X)$.
+> 1. (**privacy**): $A$ is $2\varepsilon$-differentially private.
+> 2. (**utility**): if it holds that: $$\left\| \widehat{\mu}(X)-\mu^0 \right\| \leq\alpha(\eta_{0}),\quad \forall X:d(X,X^0)\leq \eta_{0} n$$then for $\eta_{0}\geq\tilde{\Omega}\left( \frac{d}{\varepsilon n} \right)$, w.h.p we have that: $\left\| A(X^0)-\mu^0 \right\|\leq 2\alpha_{0}$.
+
+> [!proof]+
+> We have that:
+> 1. It suffices to show that $\left| s(\mu,X)-s(\mu,X') \right|\leq 1$ for $d(X,X')=1$. Let $d(X,X')=1$. Then, $$\left| s(\mu,X)-s(\mu,X') \right| \leq\sup_{X}\left| d(X'',X)-d(X'',X') \right|\leq d(X,X')=1 $$
+> 2. 
