@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 4"
+              "title": "Exercise Sheet 5"
             }
           },
           {
@@ -261,8 +261,9 @@
   },
   "active": "3a3f1a463bcc87b6",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Probability Theory/Gaussian Distribution.md",
@@ -286,7 +287,6 @@
     "Graph Theory/Turan Number.md",
     "Courses/Graph Theory/Problem Set 6.md",
     "Graph Theory/Hypergraph.md",
-    "Graph Theory/Path (Graph).md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
