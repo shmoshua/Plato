@@ -63,12 +63,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 12"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -274,6 +274,7 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
@@ -299,7 +300,6 @@
     "Probability Theory/Conditional Expectation.md",
     "Graph Theory/Turan Number.md",
     "Courses/Graph Theory/Problem Set 6.md",
-    "Graph Theory/Hypergraph.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
