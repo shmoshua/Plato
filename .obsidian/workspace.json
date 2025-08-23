@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 1"
+              "title": "Exercise Sheet 2"
             }
           },
           {
@@ -105,12 +105,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Metric Space.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Metric Space"
+              "title": "Gaussian Distribution"
             }
           }
         ],
@@ -261,10 +261,12 @@
   },
   "active": "3a3f1a463bcc87b6",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
+    "Probability Theory/Gaussian Distribution.md",
+    "Machine Learning/Gaussian Process.md",
     "Topology/Metric Space.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Topology/Distance.md",
     "Probability Theory/Expected Value.md",
     "Algebra/Tensor Product.md",
@@ -280,13 +282,11 @@
     "Courses/Graph Theory/Exam2023.md",
     "Probability Theory/Conditional Probability.md",
     "Combinatorics/Ramsey Number.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Conditional Expectation.md",
     "Graph Theory/Turan Number.md",
     "Courses/Graph Theory/Problem Set 6.md",
     "Graph Theory/Hypergraph.md",
     "Graph Theory/Path (Graph).md",
-    "Courses/Graph Theory/Graph Theory Roadmap.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
