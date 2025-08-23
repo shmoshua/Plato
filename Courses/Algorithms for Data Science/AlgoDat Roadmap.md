@@ -642,15 +642,22 @@ What do we do when the $k$ relevant features are unknown?
 > [!outlook] Setup
 > Let $X^0:=(X_{1}^0|\dots|X_{n}^0)\in \mathbb{R}^{d,n}$.
 > 1. We want to find a dp algorithm $A$ that estimates $\mu^0:=\mathbb{E}[X_{i}]$.
+> 2. Assume that for a given $R$, $\left\| \mu^0 \right\|\leq R$. 
 - **Related definition**: Let $\alpha(\eta)$ be the adversarial error bound for $\eta$-corrupted samples. 
+
 ---
 > [!lemma] Theorem 1
 > Let $\alpha:[0,1]\to \mathbb{R}_{\geq 0}$ be the accuracy function and $\eta_{0}\in[0,1]$ is the corruption parameter. Further, let $\widehat{\mu}$ be the robust estimator we have from chapter 7. Then,$$s(\mu,X):=\inf_{X'}\{ d(X,X'): \left\| \widehat{\mu}(X')-\mu \right\| \leq\alpha(\eta_{0}) \}$$
-> Let $p(\cdot,X)\in \Delta(\mathbb{R}^d)$ where $p(i,X) \propto e^{\varepsilon s(\mu,X)}$. Let $A$ be an algorithm where $A(X)\sim p(\cdot,X)$.
+> where $\mathcal{M}$ be the $\alpha_{0}$-net of $B_{\leq R}(0)$ and wlog assume that $\mu^0\in \mathcal{M}$. Then,
+> 
+> Let $p(\cdot,X)\in \Delta(\mathcal{M})$ where $p(i,X) \propto e^{-\varepsilon s(\mu,X)}$. Let $A$ be an algorithm where $A(X)\sim p(\cdot,X)$.
+> 
 > 1. (**privacy**): $A$ is $2\varepsilon$-differentially private.
-> 2. (**utility**): if it holds that: $$\left\| \widehat{\mu}(X)-\mu^0 \right\| \leq\alpha(\eta_{0}),\quad \forall X:d(X,X^0)\leq \eta_{0} n$$then for $\eta_{0}\geq\tilde{\Omega}\left( \frac{d}{\varepsilon n} \right)$, w.h.p we have that: $\left\| A(X^0)-\mu^0 \right\|\leq 2\alpha_{0}$.
+> 2. (**utility**): if it holds that: $$\left\| \widehat{\mu}(X)-\mu^0 \right\| \leq\alpha(\eta_{0}),\quad \forall X:d(X,X^0)\leq \eta_{0} n$$then for $\eta_{0}\geq\tilde{\Omega}\left( \frac{d}{\varepsilon n} \right)$, w.h.p we have that: $\left\| A(X^0)-\mu^0 \right\|\leq 2\alpha(\eta_{0})$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. It suffices to show that $\left| s(\mu,X)-s(\mu,X') \right|\leq 1$ for $d(X,X')=1$. Let $d(X,X')=1$. Then, $$\left| s(\mu,X)-s(\mu,X') \right| \leq\sup_{X}\left| d(X'',X)-d(X'',X') \right|\leq d(X,X')=1 $$
-> 2. 
+> 2. We first have that for any $\mu$, if $s(\mu,X^0)\leq \eta_{0} n$, then by definition, there exists $X$ with $d(X,X^0)\leq \eta_{0}n$ s.t. $\left\| \widehat{\mu}(X)-\mu \right\|\leq \alpha(\eta_{0})$. However, by assumption we also have that $\left\| \widehat{\mu}(X)-\mu^0 \right\|\leq \alpha(\eta 0)$. Hence, $$\left\| \mu-\mu ^0 \right\| \leq 2\alpha(\eta_{0})$$Also, notice that for $\mu^0$, $s(\mu^0,X^0)=0$ as $\left\| \widehat{\mu}(X^0)-\mu^0 \right\|\leq \alpha(\eta_{0})$. Hence, by defining: $$B:=\{ \mu\in \mathcal{M}:s(\mu,X^0)>\eta_{0}n\}$$Then, $$\mathbb{P}(\left\| A(X^0)-\mu^0 \right\| > 2\alpha(\eta_{0}))\leq \mathbb{P}(A(X^0)\in B)=\frac{\sum_{\mu\in B}e^{-\varepsilon s(\mu,X)}}{\sum_{\mu\in \mathcal{M}}e^{-\varepsilon s(\mu,X)}}\leq \underbrace{ \left| B \right| }_{ \leq \left( \frac{R}{\alpha_{0}} \right)^d } e^{-\varepsilon \eta_{0} n}=\beta $$where $d\log \frac{R}{\alpha_{0}}-\varepsilon \eta_{0} n\leq\log \beta$ and $\eta_{0}\geq \tilde{\Omega}\left( \frac{d}{\varepsilon n} \right)$.
+- **Remark**: This algorithm is inefficient and we can make it efficient using SOS.
+---
