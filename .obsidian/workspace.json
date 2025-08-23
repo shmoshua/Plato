@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 3"
+              "title": "Exercise Sheet 4"
             }
           },
           {
@@ -113,7 +113,8 @@
               "title": "Gaussian Distribution"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -258,15 +259,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "3a3f1a463bcc87b6",
   "lastOpenFiles": [
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
     "Topology/Metric Space.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Topology/Distance.md",
     "Probability Theory/Expected Value.md",
