@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 7"
+              "title": "Exercise Sheet 8"
             }
           },
           {
@@ -275,8 +275,8 @@
   },
   "active": "3a3f1a463bcc87b6",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
