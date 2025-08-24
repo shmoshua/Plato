@@ -119,16 +119,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Positive Definite.md",
+                "file": "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Positive Definite"
+              "title": "Functional Analysis I Roadmap"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,13 +272,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6160647ffb678e6f",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Analysis/Lp Space.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
+    "Analysis/Norm.md",
+    "Analysis/Banach Space.md",
+    "Analysis/Equivalence of Norms.md",
+    "Functional Analysis/Dual Space.md",
+    "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Positive Definite.md",
+    "Probability Theory/Conditional Expectation.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Probability Theory/Gaussian Distribution.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
@@ -294,13 +300,6 @@
     "Topology/Distance.md",
     "Probability Theory/Expected Value.md",
     "Algebra/Tensor Product.md",
-    "Analysis/Concentration Bounds.md",
-    "Analysis/Norm.md",
-    "Analysis/Taylor's Theorem.md",
-    "Courses/Graph Theory/Exam2023.md",
-    "Probability Theory/Conditional Probability.md",
-    "Combinatorics/Ramsey Number.md",
-    "Probability Theory/Conditional Expectation.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
