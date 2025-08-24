@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lp Space.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lp Space"
+              "title": "Exercise Sheet 3"
             }
           },
           {
@@ -127,7 +127,8 @@
               "title": "Functional Analysis I Roadmap"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,12 +273,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "3a3f1a463bcc87b6",
   "lastOpenFiles": [
-    "Courses/Graph Theory/Problem Set 6.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Analysis/Concentration Bounds.md",
     "Analysis/Lp Space.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Graph Theory/Problem Set 6.md",
+    "Analysis/Concentration Bounds.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Analysis/Norm.md",
     "Analysis/Banach Space.md",
