@@ -127,8 +127,7 @@
               "title": "Positive Definite"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,8 +272,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7241f29da33ec6ce",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Analysis/Positive Definite.md",
     "Probability Theory/Gaussian Distribution.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
@@ -300,7 +300,6 @@
     "Combinatorics/Ramsey Number.md",
     "Probability Theory/Conditional Expectation.md",
     "Graph Theory/Turan Number.md",
-    "Courses/Graph Theory/Problem Set 6.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
