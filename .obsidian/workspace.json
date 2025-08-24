@@ -119,15 +119,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Analysis/Positive Definite.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Positive Definite"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -272,10 +273,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "7241f29da33ec6ce",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
+    "Probability Theory/Gaussian Distribution.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
@@ -284,7 +286,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Machine Learning/Gaussian Process.md",
     "Topology/Metric Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
