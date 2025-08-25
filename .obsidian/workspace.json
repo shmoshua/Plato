@@ -91,12 +91,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Expectation.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conditional Expectation"
+              "title": "Exercise Sheet 12"
             }
           },
           {
@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -273,12 +273,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3a3f1a463bcc87b6",
+  "active": "6160647ffb678e6f",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
+    "Probability Theory/Conditional Expectation.md",
+    "Analysis/Lp Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Analysis/Lp Space.md",
     "Analysis/Concentration Bounds.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Analysis/Norm.md",
@@ -287,7 +290,6 @@
     "Functional Analysis/Dual Space.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Analysis/Positive Definite.md",
-    "Probability Theory/Conditional Expectation.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Probability Theory/Gaussian Distribution.md",
@@ -299,8 +301,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Machine Learning/Gaussian Process.md",
     "Topology/Metric Space.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
-    "Topology/Distance.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
