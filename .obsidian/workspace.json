@@ -63,12 +63,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Graph Theory/Problem Set 6.md",
+                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 6"
+              "title": "Special Assignment 1"
             }
           },
           {
@@ -127,8 +127,7 @@
               "title": "Functional Analysis I Roadmap"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,14 +272,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6160647ffb678e6f",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Courses/Graph Theory/Problem Set 6.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Probability Theory/Conditional Expectation.md",
     "Analysis/Lp Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
-    "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Analysis/Concentration Bounds.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
@@ -293,7 +293,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
