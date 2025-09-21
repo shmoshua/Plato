@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "TA/AdvAlg/Problem Set 0.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Problem Set 0"
             }
           },
           {
@@ -63,12 +63,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Special Assignment 1.md",
+                "file": "TA/AdvAlg/Problem Set 0.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Special Assignment 1"
+              "title": "Problem Set 0"
             }
           },
           {
@@ -274,6 +274,13 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "TA/AdvAlg/Problem Set 0.md",
+    "TA/AdvAlg/Untitled.md",
+    "TA/Untitled.md",
+    "TA/AdvAlg",
+    "Courses/Algorithms for Data Science/Special Assignment 1.md",
+    "TA",
     "Courses/Graph Theory/Problem Set 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
@@ -281,7 +288,6 @@
     "Probability Theory/Conditional Expectation.md",
     "Analysis/Lp Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Analysis/Concentration Bounds.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Analysis/Norm.md",
@@ -296,10 +302,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
-    "Machine Learning/Gaussian Process.md",
-    "Topology/Metric Space.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
@@ -309,8 +311,6 @@
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algorithms for Data Science",
-    "ML Theory/Reinforcement Learning",
-    "Topology/Algebraic Topology",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
