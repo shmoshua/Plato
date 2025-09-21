@@ -72,59 +72,17 @@
             }
           },
           {
-            "id": "3a3f1a463bcc87b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Lp Space.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Lp Space"
-            }
-          },
-          {
-            "id": "6160647ffb678e6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Exercise Sheet 12"
-            }
-          },
-          {
-            "id": "50e25a08f26c79fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Norm.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Norm"
-            }
-          },
-          {
             "id": "7241f29da33ec6ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Functional Analysis I Roadmap"
+              "title": "Advanced Algorithms Roadmap"
             }
           }
         ]
@@ -274,22 +232,24 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "TA/AdvAlg/Problem Set 0.md",
+    "Analysis/Lp Space.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
+    "Algorithms/Streaming Algorithm.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "TA/AdvAlg/Untitled.md",
     "TA/Untitled.md",
     "TA/AdvAlg",
     "Courses/Algorithms for Data Science/Special Assignment 1.md",
     "TA",
     "Courses/Graph Theory/Problem Set 6.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 12.md",
     "Probability Theory/Conditional Expectation.md",
-    "Analysis/Lp Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Analysis/Concentration Bounds.md",
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Analysis/Norm.md",
     "Analysis/Banach Space.md",
     "Analysis/Equivalence of Norms.md",
@@ -300,8 +260,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Probability Theory/Gaussian Distribution.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
