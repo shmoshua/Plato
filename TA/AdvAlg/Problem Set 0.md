@@ -51,4 +51,9 @@ $$\frac{j-i+1}{n}\cdot  \frac{2}{j-i+1}+\left( \frac{n-(j-i+1)}{n} \right) $$
 
 $$p=\frac{2}{n}+\left( 1-\frac{j-i+1}{n} \right)p(k)$$
 
-$$\frac{2}{m+j-i+1}$$
+$$\frac{2}{m+j-i+1}\left( \frac{m+j-i+1}{j-i+1} \right)=\frac{2}{j-i+1} $$
+
+Expected number of comparisons: $$\sum_{i<j}^{}\frac{2}{j-i+1}=\sum_{k=1}^{n-1} \frac{2(n-k)}{k+1}\leq \sum_{k=1}^{n-1}\frac{2(n-k)}{k}\leq 2n\sum_{k=1}^{n-1} \frac{1}{k}\leq 2n\left( H_{n}- \frac{1}{n} \right)\leq 2n\log n$$
+
+---
+
