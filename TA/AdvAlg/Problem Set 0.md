@@ -18,3 +18,5 @@ Hence, we have:
 If $\frac{r}{n}\geq \frac{1+\varepsilon}{10}$, then: $$\mathbb{E}[X]\geq \frac{1+\varepsilon}{10}k$$By Chernoff: $$\begin{aligned}\mathbb{P}\left( X\leq \frac{k}{10} \right)&\leq \mathbb{P}\left( X\leq (1-\varepsilon')\mathbb{E}[X] \right)\\&\leq \exp\left( \frac{-\varepsilon'^{2} \mathbb{E}[X]}{2} \right)\\&\leq \exp \left( -\frac{\varepsilon^{2}}{1+\varepsilon}  \frac{k}{20}\right) \end{aligned}$$Let $\varepsilon< \frac{1}{10}$, then, 
 
 If $\frac{r}{n}\leq \frac{1-\varepsilon}{10}$, then $\mathbb{E}{X}\leq \frac{1-\varepsilon}{10} k$ By chernoff, $$\begin{aligned}\mathbb{P}\left( X\geq \frac{k}{10} \right)&\leq \mathbb{P}\left( X\geq \left( \frac{1}{1-\varepsilon} \right)\mathbb{E}[X] \right)\\&\leq \mathbb{P}\left( X\geq \left( 1+\varepsilon'\right)\mathbb{E}[X] \right)\\&\leq \exp\left( \frac{-\varepsilon^{2}}{(1-\varepsilon)^{2}3} \mathbb{E}[X]\right)\end{aligned}$$ 
+Setting $Y:= k-X$, we have $\mathbb{E}Y\geq \frac{\varepsilon}{10}k$
+$$\begin{aligned}\mathbb{P}\left( Y\leq \frac{9}{10}k  \right)&=\end{aligned}$$
