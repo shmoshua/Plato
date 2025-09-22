@@ -30,25 +30,25 @@ Sample a random index uniformly.
 If less than $k$ elements are larger, delete them and subtract.
 If at least $k$ elements are larger, then delete all smaller elements. 
 
+Until $m> 17$ elements left.
+
 If the pivot is not in the smallest or largest $\left\lceil m / 4\right\rceil$ elements, then at least $\left\lceil m / 4\right\rceil\geq m / 4$ elements are deleted. This happens with probability at most 1/2. Hence, $$T(n)\leq n-1+\frac{1}{2}T\left( \frac{7}{8}n \right)+\left( \frac{n}{2} +1\right)T(n)$$
 
-We have that: $$\frac{2\left\lceil m /4\right\rceil }{m}\leq$$
 
-$$()T(n)$$
+We have that: $$\frac{2\left\lceil m /4\right\rceil }{m}\leq \frac{2}{m}\left( \frac{m+4}{4} \right) \leq \frac{1}{2}\left( 1+\frac{4}{m} \right) < \frac{5}{8}$$
+We have that: $$\frac{2\left\lceil m /4\right\rceil }{m}\leq \frac{4}{5}\leq \frac{7}{8}$$
 
+Hence, $$T(n)\leq \frac{1}{2(1-p)}T\left( \frac{3}{4}n \right)+\Theta(n)$$We have that:
 
-In each iteration, $m-1$ comparisons are made, 
-We have that: $$ \frac{m}{4}-1<\left\lfloor \frac{m}{4}\right\rfloor \leq \frac{m}{4}$$
-
-$2\left\lceil \frac{m}{4}\right\rceil\leq \frac{m}{2}+1$
-
-if the pivot is not in the smallest or largest $\left\lfloor m / 4\right\rfloor$ elements, at least $\left\lfloor m / 4\right\rfloor> m / 4-1\geq m / 8$ elements are deleted. 
-
-$$\mathbb{P}(\text{pivot in middle})=\left( 1-\frac{2\left\lfloor m / 4\right\rfloor}{m}  \right) \leq 1-\frac{2}{m}\left\lfloor m / 4\right\rfloor $$
-Then, $$\frac{2}{m}\left\lfloor \frac{m}{4}\right\rfloor\geq \frac{1}{4}  $$
-We have: $$T(n)\leq n+\frac{3}{4}T\left( \frac{7}{8}n \right)+\frac{1}{2}T(n)$$
-$$T(n)\leq \frac{3}{2}T\left( \frac{7}{8}n \right)+2n$$where $2n=O(n^{\log _{8/7} 2})$
+---
+### 4. Quicksort
 
 
-$$T(n)\leq n+\frac{1}{2}T\left( \frac{n}{4} \right)+$$
-We have: $$T(n)\leq 2n+T\left( \frac{7}{8}n \right)$$
+Wlog $i<j$. 
+
+$$\frac{j-i+1}{n}\cdot  \frac{2}{j-i+1}+\left( \frac{n-(j-i+1)}{n} \right) $$
+
+
+$$p=\frac{2}{n}+\left( 1-\frac{j-i+1}{n} \right)p(k)$$
+
+$$\frac{2}{m+j-i+1}$$
