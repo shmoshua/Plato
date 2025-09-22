@@ -15,8 +15,23 @@ Hence, we have:
 
 ---
 ### 2. Estimation
-If $\frac{r}{n}\geq \frac{1+\varepsilon}{10}$, then: $$\mathbb{E}[X]\geq \frac{1+\varepsilon}{10}k$$By Chernoff: $$\begin{aligned}\mathbb{P}\left( X\leq \frac{k}{10} \right)&\leq \mathbb{P}\left( X\leq (1-\varepsilon')\mathbb{E}[X] \right)\\&\leq \exp\left( \frac{-\varepsilon'^{2} \mathbb{E}[X]}{2} \right)\\&\leq \exp \left( -\frac{\varepsilon^{2}}{1+\varepsilon}  \frac{k}{20}\right) \end{aligned}$$Let $\varepsilon< \frac{1}{10}$, then, 
+Assume that $\varepsilon< \frac{1}{10}$. Then, 
 
-If $\frac{r}{n}\leq \frac{1-\varepsilon}{10}$, then $\mathbb{E}{X}\leq \frac{1-\varepsilon}{10} k$ By chernoff, $$\begin{aligned}\mathbb{P}\left( X\geq \frac{k}{10} \right)&\leq \mathbb{P}\left( X\geq \left( \frac{1}{1-\varepsilon} \right)\mathbb{E}[X] \right)\\&\leq \mathbb{P}\left( X\geq \left( 1+\varepsilon'\right)\mathbb{E}[X] \right)\\&\leq \exp\left( \frac{-\varepsilon^{2}}{(1-\varepsilon)^{2}3} \mathbb{E}[X]\right)\end{aligned}$$ 
-Setting $Y:= k-X$, we have $\mathbb{E}Y\geq \frac{\varepsilon}{10}k$
-$$\begin{aligned}\mathbb{P}\left( Y\leq \frac{9}{10}k  \right)&=\end{aligned}$$
+If $\frac{r}{n}\geq \frac{1+\varepsilon}{10}$, then: $$\mathbb{E}[X]\geq \frac{1+\varepsilon}{10}k$$By Chernoff: $$\begin{aligned}\mathbb{P}\left( X\leq \frac{k}{10} \right)&\leq \mathbb{P}\left( X\leq (1-\varepsilon')\mathbb{E}[X] \right)\\&\leq \exp\left( \frac{-\varepsilon'^{2} \mathbb{E}[X]}{2} \right)\\&\leq \exp \left( -\frac{\varepsilon^{2}}{1+\varepsilon}  \frac{k}{20}\right) \\&\leq \exp \left( -\frac{1}{22}\varepsilon^{2} k\right) \end{aligned}$$Let $\varepsilon< \frac{1}{10}$, then, 
+
+Setting $Y:= k-X$, we have $\mathbb{E}Y\geq \frac{9+\varepsilon}{10} k$
+$$\begin{aligned}\mathbb{P}\left( Y\leq \frac{9}{10}k  \right)&=\mathbb{P}\left( Y\leq \frac{9}{9+\varepsilon}  \mathbb{E}[Y] \right) \\&=\mathbb{P}\left( Y\leq \left( 1-\frac{\varepsilon}{9+\varepsilon} \right)  \mathbb{E}[Y] \right) \\&\leq \exp \left( -\frac{\varepsilon^{2}}{(9+\varepsilon)^{2}}\frac{\mathbb{E}[Y]}{2} \right) \\&\leq \exp \left( - \frac{1}{182}\varepsilon^{2} k\right) \leq \delta\end{aligned}$$
+Setting $k\geq  O\left( \frac{1}{\varepsilon^{2}}\log \frac{1}{\delta} \right)$
+
+---
+### 3. Selection
+Sample a random index uniformly.
+
+If less than $k$ elements are larger, delete them and subtract.
+If at least $k$ elements are larger, then delete all smaller elements. 
+
+In each iteration, $m-1$ comparisons are made, if the pivot is not in the smallest or largest $\left\lfloor m / 4\right\rfloor$ elements, at least $\left\lfloor m / 4\right\rfloor> m / 4-1\geq m / 8$ elements are deleted.
+
+$$\left\lfloor \frac{m}{4}\right\rfloor\geq \frac{m-3}{4}\geq \frac{m}{8} $$$$8m-24\geq 4m$$
+$$\left\lfloor \frac{m}{4}\right\rfloor \geq \frac{m-3}{4}$$
+$$$$
