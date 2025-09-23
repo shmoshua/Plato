@@ -32,10 +32,12 @@
 
 ---
 > [!lemma] Theorem 1 (Density of Sigmoidal Function)
-> Let $\sigma:\mathbb{R}\to \mathbb{R}$ be a sigmoidal function. Then, $$\overline{\braket{ \sigma(\braket{ y , \cdot  } +\theta):y\in \mathbb{R}^n,\theta\in \mathbb{R} } }=(C(I_{n}),\|\cdot \|_{\infty})$$
+> Let $\sigma:\mathbb{R}\to \mathbb{R}$ be a continuous sigmoidal function. Then, $$\overline{\braket{ \sigma(\braket{ y , \cdot  } +\theta):y\in \mathbb{R}^n,\theta\in \mathbb{R} } }=(C(I_{n}),\|\cdot \|_{\infty})$$
 
 > [!proof]+
 > Let $K_{y,\theta}:\mathbb{R}^n\to \mathbb{R},x\mapsto \sigma(\braket{ y , x }+\theta)$. 
 > 1. **Claim 1: If $\sigma$ is continuous and discriminatory, then: $$U(\sigma):=\text{span}(\{ K_{y,\theta}:y\in \mathbb{R}^n,\theta\in \mathbb{R} \})$$is dense in $C(I_{n})$.** 
 >    
->    Let $L\in C(I_{n})^{*}$ with $L|_{U(\sigma)}=0$. By Riesz representation, there exists a unique $\mu\in M(I_{n})$ with $L(f)=\int_{I_{n}} f \, d\mu$ for all $f\in C(I_{n})$. Then, $$0=L(K_{y,\theta})=\int_{I_{n}}\sigma(\braket{ y , x } +\theta)  \, d\mu(x)= $$
+>    Let $L\in C(I_{n})^{*}$ with $L|_{U(\sigma)}=0$. By Riesz representation, there exists a unique $\mu\in M(I_{n})$ with $L(f)=\int_{I_{n}} f \, d\mu$ for all $f\in C(I_{n})$. Then, $$0=L(K_{y,\theta})=\int_{I_{n}}\sigma(\braket{ y , x } +\theta)  \, d\mu(x) $$Hence, as $\sigma$ is discriminatory, $\mu=0$ and $L=0$. The rest follows by Corollary of Corollary 1.
+> 2. **Claim 2**: **Every sigmoidal function is discriminatory**.
+>    Let $\sigma:\mathbb{R}\to \mathbb{R}$ be sigmoidal. Assume that  $$\int_{I_{n}} \sigma(\braket{ y , x } +\theta) \, d\mu(x)=0,\quad \forall \mu\in M(I_{n}),y\in \mathbb{R}^n,\theta\in \mathbb{R} $$Let $0\neq y_{0}\in \mathbb{R}^n$. Fix $\theta,\varphi\in \mathbb{R}$. We now define a function: $$\gamma:I_{n}\to \mathbb{R},\quad x\mapsto\begin{cases}1&\braket{ y_{0} , x }+\theta>0 \\0\\\sigma(\varphi)&\braket{ y_{0} , x }+\theta=0\end{cases}$$
