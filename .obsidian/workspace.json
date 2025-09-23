@@ -63,12 +63,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TA/AdvAlg/Problem Set 0.md",
-                "mode": "preview",
+                "file": "TA/AdvAlg/TimeSheet.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 0"
+              "title": "TimeSheet"
             }
           },
           {
@@ -232,8 +232,9 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "TA/AdvAlg/Problem Set 0.md",
+    "TA/AdvAlg/TimeSheet.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Analysis/Lp Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Algorithms/Streaming Algorithm.md",
@@ -259,7 +260,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Probability Theory/Gaussian Distribution.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
