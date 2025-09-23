@@ -14,12 +14,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TA/AdvAlg/Problem Set 0.md",
+                "file": "Courses/NN Theory/Neural Network Theory Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Problem Set 0"
+              "title": "Neural Network Theory Roadmap"
+            }
+          },
+          {
+            "id": "619d22825dc90029",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Complex Measure.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Complex Measure"
             }
           },
           {
@@ -63,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TA/AdvAlg/TimeSheet.md",
-                "mode": "source",
+                "file": "Courses/NN Theory/Neural Network Theory Roadmap.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TimeSheet"
+              "title": "Neural Network Theory Roadmap"
             }
           },
           {
@@ -77,12 +91,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Functional Analysis/Seminorm.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Advanced Algorithms Roadmap"
+              "title": "Seminorm"
+            }
+          },
+          {
+            "id": "99996a5b5c5d8c2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Summable Function.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Summable Function"
+            }
+          },
+          {
+            "id": "67bc6afbb4cf74d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Analysis/Gauge Function.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Gauge Function"
             }
           }
         ]
@@ -117,7 +159,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Hoeffding",
+                "query": "riesz",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +180,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -232,13 +275,21 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Measure Theory/Summable Function.md",
+    "Functional Analysis/Dual Space.md",
+    "Courses/NN Theory/Neural Network Theory Roadmap.md",
+    "Measure Theory/Complex Measure.md",
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
+    "Functional Analysis/Bounded Linear Map.md",
+    "Functional Analysis/Seminorm.md",
+    "Functional Analysis/Gauge Function.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "TA/AdvAlg/Problem Set 0.md",
     "TA/AdvAlg/TimeSheet.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Courses/NN Theory",
     "Analysis/Lp Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Algorithms/Streaming Algorithm.md",
-    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "TA/AdvAlg/Untitled.md",
     "TA/Untitled.md",
@@ -253,13 +304,6 @@
     "Analysis/Concentration Bounds.md",
     "Analysis/Norm.md",
     "Analysis/Banach Space.md",
-    "Analysis/Equivalence of Norms.md",
-    "Functional Analysis/Dual Space.md",
-    "Functional Analysis/Bounded Linear Map.md",
-    "Analysis/Positive Definite.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
-    "Probability Theory/Gaussian Distribution.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
@@ -268,7 +312,6 @@
     "Courses/Advanced Graph Algorithms",
     "Courses/Algebraic Geometry",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
-    "Courses/Algorithms for Data Science",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }

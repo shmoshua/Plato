@@ -14,6 +14,8 @@
 > 2. $F|_{M}=f$ and
 > 3. $F(v)\leq p(v)$ for all $v\in V$.
 
+^e025ec
+
 > [!proof]-
 > We have the following steps:
 > 1. **Defining $\mathcal{P}$:**
@@ -34,6 +36,9 @@
 > 	Then, we have: $$F(v)+\alpha t=|t|(F(v / |t|)+\text{sgn}(t)\alpha)\leq \left| t \right| p(v/ \left| t \right| +\text{sgn}(t)x_{0})=p(v+tx_{0})$$
 > 
 > 	To show the existence of $\alpha$ that meet 1 and 2, we must show that: $$\sup_{y\in E}\{ F(y)-p(y-x_{0}) \}\leq \inf_{x\in E}\{ p(x+x_{0})-F(x) \}$$or equivalently, for all $x,y\in E$:$$F(y)-p(y-x_{0})\leq p(x+x_{0})-F(x)$$ However, we have that: $$\begin{align}F(x)+F(y)=F(x+y)\leq p(x+y)=p((x+x_{0})+(y-x_{0}))\leq p(x+x_{0})+p(y-x_{0})\end{align}$$This concludes the proof.
+
+^fcea37
+
 ---
 > [!lemma] Proposition 2
 > Let $E$ be a $\mathbb{R}$-vector space and $A\subseteq E$ a [[Convex Set|convex]] and [[Absorbant Set|absorbant]] set with $0\in A$. Then, the function: $$p_{A}(v):=\inf\{ \rho>0:v\in \rho A \}$$is a gauge in $E$ for which it further holds that: 

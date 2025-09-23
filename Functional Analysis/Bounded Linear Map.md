@@ -43,10 +43,15 @@
 > 1. $\left. F \right|_{M}=f$ and 
 > 2. $\left\| F \right\|=\left\| f \right\|$.
 
+^76d1d2
+
 > [!proof]-
 > By hypothesis, we have $|f(v)|\leq \left\| f \right\|\|v\|$ for all $v\in M$. Let $p:V \to [0,+\infty)$ be defined by: $$p(v)=\left\| f \right\| \|v\|$$Then, with [[Seminorm|Hahn-Banach]], we get a $\mathbb{K}$-linear form $F:V \to \mathbb{K}$ with $\left. F \right|_{M}=f$ and $$\left| F(v) \right| \leq p(v)=\left\| f \right\| \|v\|,\quad\forall v\in V$$This means, 
 > $$\left\| f \right\| =\sup_{\|v\|\leq 1,v\in M}|f(v)|=\sup_{\|v\|\leq 1,v\in M}|F(v)|\leq\sup_{\|v\|\leq 1,v\in V}|F(v)|=\left\| F \right\| \leq \left\| f \right\| $$
 > Therefore, $\left\| F \right\|=\left\| f \right\|$.
+
+^5b1d9c
+
 ---
 > [!lemma] Proposition 4 
 > Let $T:V\to W$ be a linear map between normed vector spaces, where $W$ is finite-dimensional. Then, $T$ is continuous if and only if $\text{ker }T$ is closed.
