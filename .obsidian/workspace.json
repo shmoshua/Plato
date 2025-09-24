@@ -9,20 +9,6 @@
         "dimension": 48.71645274212369,
         "children": [
           {
-            "id": "8207292bb85f5852",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Formal Analysis of Algorithms/Formal Analysis Roadmap.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Formal Analysis Roadmap"
-            }
-          },
-          {
             "id": "619d22825dc90029",
             "type": "leaf",
             "state": {
@@ -77,12 +63,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Formal Analysis of Algorithms/Formal Analysis Roadmap.md",
+                "file": "Courses/NN Theory/Neural Network Theory Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Formal Analysis Roadmap"
+              "title": "Neural Network Theory Roadmap"
             }
           },
           {
@@ -272,14 +258,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8207292bb85f5852",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
-    "Courses/NN Theory/Neural Network Theory Roadmap.md",
     "Courses/Formal Analysis of Algorithms/Formal Analysis Roadmap.md",
+    "Measure Theory/Complex Measure.md",
+    "Courses/NN Theory/Neural Network Theory Roadmap.md",
     "Courses/Formal Analysis of Algorithms",
     "Measure Theory/Summable Function.md",
     "Functional Analysis/Dual Space.md",
-    "Measure Theory/Complex Measure.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Seminorm.md",
