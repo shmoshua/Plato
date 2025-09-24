@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/NN Theory/Neural Network Theory Roadmap.md",
+                "file": "Courses/Formal Analysis of Algorithms/Formal Analysis Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Neural Network Theory Roadmap"
+              "title": "Formal Analysis Roadmap"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/NN Theory/Neural Network Theory Roadmap.md",
+                "file": "Courses/Formal Analysis of Algorithms/Formal Analysis Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Neural Network Theory Roadmap"
+              "title": "Formal Analysis Roadmap"
             }
           },
           {
@@ -180,8 +180,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -273,10 +272,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "8207292bb85f5852",
   "lastOpenFiles": [
-    "Measure Theory/Summable Function.md",
     "Courses/NN Theory/Neural Network Theory Roadmap.md",
+    "Courses/Formal Analysis of Algorithms/Formal Analysis Roadmap.md",
+    "Courses/Formal Analysis of Algorithms",
+    "Measure Theory/Summable Function.md",
     "Functional Analysis/Dual Space.md",
     "Measure Theory/Complex Measure.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
@@ -303,7 +304,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Analysis/Concentration Bounds.md",
     "Analysis/Norm.md",
-    "Analysis/Banach Space.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
@@ -311,7 +311,6 @@
     "Optimization",
     "Courses/Advanced Graph Algorithms",
     "Courses/Algebraic Geometry",
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.html",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
