@@ -31,3 +31,5 @@
 
 
 o 
+
+Let X be some finite set and F ⊆ 2 X be a family of polynomially (in |X |) many subsets of X . Every subset S ∈ F has at most k elements and has a positive reward rS. We consider the problem of finding a collection of disjoint subsets maximizing the total reward.

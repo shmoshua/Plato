@@ -100,8 +100,7 @@
               "title": "GHW1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -246,12 +245,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7241f29da33ec6ce",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
-    "Algorithms/Minimum Set Cover.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "GHW1.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Algorithms/Minimum Set Cover.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "TA/AdvAlg/Problem Set 0.md",
     "Functional Analysis/Seminorm.md",
     "Courses/NN Theory/Neural Network Theory Roadmap.md",
