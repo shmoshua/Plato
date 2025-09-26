@@ -49,8 +49,23 @@
               "icon": "lucide-file",
               "title": "Exercise Sheet 10"
             }
+          },
+          {
+            "id": "d80092e9abfbd6b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GHW1.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "GHW1"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -63,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/NN Theory/Neural Network Theory Roadmap.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Neural Network Theory Roadmap"
+              "title": "Advanced Algorithms Roadmap"
             }
           },
           {
@@ -77,40 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Seminorm.md",
+                "file": "GHW1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Seminorm"
-            }
-          },
-          {
-            "id": "99996a5b5c5d8c2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Measure Theory/Summable Function.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Summable Function"
-            }
-          },
-          {
-            "id": "67bc6afbb4cf74d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Gauge Function.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Gauge Function"
+              "title": "GHW1"
             }
           }
         ]
@@ -260,18 +247,19 @@
   },
   "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "GHW1.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "TA/AdvAlg/Problem Set 0.md",
+    "Functional Analysis/Seminorm.md",
+    "Courses/NN Theory/Neural Network Theory Roadmap.md",
     "Courses/Formal Analysis of Algorithms/Formal Analysis Roadmap.md",
     "Measure Theory/Complex Measure.md",
-    "Courses/NN Theory/Neural Network Theory Roadmap.md",
     "Courses/Formal Analysis of Algorithms",
     "Measure Theory/Summable Function.md",
     "Functional Analysis/Dual Space.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Functional Analysis/Bounded Linear Map.md",
-    "Functional Analysis/Seminorm.md",
     "Functional Analysis/Gauge Function.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "TA/AdvAlg/Problem Set 0.md",
     "TA/AdvAlg/TimeSheet.md",
     "Courses/NN Theory",
     "Analysis/Lp Space.md",
@@ -289,7 +277,6 @@
     "Probability Theory/Conditional Expectation.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Analysis/Concentration Bounds.md",
-    "Analysis/Norm.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
