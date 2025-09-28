@@ -63,9 +63,23 @@
               "icon": "lucide-file",
               "title": "Graded Assignment 1"
             }
+          },
+          {
+            "id": "60cf7eacf98379c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GHW1.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "GHW1"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "d54d634cc1ba8421",
@@ -115,7 +129,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -260,12 +274,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f5ce139b8c7833ce",
+  "active": "7241f29da33ec6ce",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Graded Assignment 1.md",
-    "Courses/Advanced Algorithms/Graded Assignment 2.md",
-    "GHW1.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "GHW1.md",
+    "Courses/Advanced Algorithms/Graded Assignment 2.md",
+    "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Algorithms/Minimum Set Cover.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "TA/AdvAlg/Problem Set 0.md",
