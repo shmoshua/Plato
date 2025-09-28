@@ -23,4 +23,8 @@
 - **There being at most $C$ distinct item types means that $I:=\{ (v_{i},p_{i}) \}_{i\in[n]}$ has at most size $C$.**
 
 1. (30m) We have that: $$\text{DP}[i][k_{1},\dots,k_{C}]=\text{maximum value you can sell to customer 1,...,}i\text{ with }k_{a}\text{ items of type }a$$Then, let $S_{j}$ contain$$\text{DP}[i][k_{1},\dots,k_{C}]=\text{max}_{S_{j}\text{ valid}} \text{ DP}[i-1]\left[ k_{1}-\ell_{1}(S_{j}),\dots,k_{C}-\ell_{C}(S_{j})+\sum_{ i\in S_{j}}^{}v_{i} \right]$$where $S_{j}=(\ell_{1}(S_{j}),\dots,\ell_{C}(S_{j}))$. Then, $m\cdot n^{2C}$
-2. 
+2. (2.5hr)
+
+---
+### 4. Clumsy Skier
+$K$ and $k$.
