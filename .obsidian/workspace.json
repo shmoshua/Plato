@@ -100,7 +100,8 @@
               "title": "GHW1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -245,10 +246,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "7241f29da33ec6ce",
   "lastOpenFiles": [
-    "GHW1.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "GHW1.md",
     "Algorithms/Minimum Set Cover.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "TA/AdvAlg/Problem Set 0.md",
