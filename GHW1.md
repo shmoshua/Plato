@@ -5,11 +5,19 @@
    
 2. We describe the following Greedy algorithm. For any node $v\in V(G)$, we denote $B_{2}(v)$ as the radius $2$-ball of $v$. We construct a well-spaced subset $S$ as follows. 
    
-   The key idea is as follows. At each step we choose a vertex 
+   The key idea is as follows. At each step we choose a vertex.
+   
+   
    
    Let $B$ denote the set of "blocked" vertices. 
 	1. In the beginning, we have $S,B=\varnothing$. Add $s_{1}:=\arg\min_{v\in V(G)}\left| B_{2}(v) \right|$ to $S$ and set $B=B_{2}(s_{1})$. 
 	2. At each step, choose $s_{i}:=\arg\min_{v\in D_{1}(B)\backslash B}$
+	
+	
+Let $S=\{ v_{1},\dots,v_{p} \}$ be the vertices in the order they were added. First, we notice that for any $v\in V(G)$, $\left| B_{2}(v) \right|\leq 1+3+6=10$. Hence, we have the following three cases:
+
+3. Case $\left| B_{2}(v_{1}) \right|\leq 9$. Notice that for any $i\geq 2$, $v_{i}\in D_{1}(B)$. Therefore, $\left| B_{2}(v_{i})\cap \bigcup_{1\leq j< i}^{} B_{2}(v_{j})\right|\geq 2$. Further, by the definition we have that: $$\left| B_{2}(v_{i}) \backslash \bigcup_{1\leq j<i}^{}B_{2}(v_{j})\right|\leq 8,\quad \forall i\geq 2 $$Therefore, $$4k= \left| \bigcup_{i}^{}B_{2}(v_{i}) \right| =\sum_{i\in[p]}^{}\left| B_{2}(v_{i}) \backslash \bigcup_{1\leq j<i}^{}B_{2}(v_{j})\right|\leq 8p +1$$However as $4k$ is even and $p$ is an integer, $4k\leq 8p$.
+4. Case $\left| B_{2}(v_{1}) \right|=10$. Then, $\left| B_{2}(v) \right|=10$ for every $v\in V(G)$ by the minimum condition. 
 ---
 ### 2. Disjoint Reward Maximization
 1. (5min) We have the ILP: $$\begin{array}{rl}\text{max}&\sum_{S\in \mathcal{F}}^{}r_{S}x_{S}\\\text{subject to}&\sum_{S:i\in S}^{}x_{S}=1&\forall i\in \mathcal{X}\\&x_{S}\in \{ 0,1 \}&\forall S\in \mathcal{F}\end{array}$$We can relax this into the LP $$\begin{array}{rl}\text{max}&\sum_{S\in \mathcal{F}}^{}r_{S}x_{S}\\\text{subject to}&\sum_{S:i\in S}^{}x_{S}\leq 1&\forall i\in \mathcal{X}\\&0\leq x_{S}\leq 1&\forall S\in \mathcal{F}\end{array}$$
