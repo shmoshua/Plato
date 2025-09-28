@@ -100,8 +100,7 @@
               "title": "GHW1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -246,7 +245,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7241f29da33ec6ce",
+  "active": "d80092e9abfbd6b4",
   "lastOpenFiles": [
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "GHW1.md",
