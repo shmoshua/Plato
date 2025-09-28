@@ -1,6 +1,13 @@
 ### 1. Well-Spaced Subsets
-1. (5min) Assume there is a well-spaced subset $S\subseteq V$ s.t. $\left| S \right|=k+1$ wlog. Note that for any $v\in S$, $N(v)\subseteq V \backslash S$ and $N(v)\cap N(w)=\varnothing$ for all $v,w\in S$. However, there are $3k-1$ vertices and $3k+3$ neighbors. Hence, there exists at least one vertex that is common by pigeonhole, contradiction.
-2. (1.5h) Greedy algorithm. We denote $B_{2}(v)$ as the radius $2$-ball of $v$. We choose $S$ as follows. Let $B$ denote the set of "blocked" vertices. 
+1. **Solution 1**: Assume there is a well-spaced subset $S\subseteq V$ s.t. $\left| S \right|=k+1$ wlog. Note that for any $v\in S$, $N(v)\subseteq V \backslash S$ and $N(v)\cap N(w)=\varnothing$ for all $v,w\in S$. However, there are $3k-1$ vertices and $3k+3$ neighbors. Hence, there exists at least one vertex that is common by pigeonhole, contradiction.
+   
+   **Solution 2**: Let $S$ be a well-spaced subset. Then, $N(S)$ contains exactly $3\left| S \right|$ elements as any two nodes in $v,w\in S$ have disjoint neighborhood. Further, $S\cap N(S)=\varnothing$ by definition. Hence, $4\left| S \right|=\left| S\cap N(S) \right| \leq 4k$.
+   
+2. We describe the following Greedy algorithm. For any node $v\in V(G)$, we denote $B_{2}(v)$ as the radius $2$-ball of $v$. We construct a well-spaced subset $S$ as follows. 
+   
+   The key idea is as follows. At each step we choose a vertex 
+   
+   Let $B$ denote the set of "blocked" vertices. 
 	1. In the beginning, we have $S,B=\varnothing$. Add $s_{1}:=\arg\min_{v\in V(G)}\left| B_{2}(v) \right|$ to $S$ and set $B=B_{2}(s_{1})$. 
 	2. At each step, choose $s_{i}:=\arg\min_{v\in D_{1}(B)\backslash B}$
 ---
