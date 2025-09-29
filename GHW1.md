@@ -43,3 +43,6 @@ Let $S=\{ v_{1},\dots,v_{p} \}$ be the vertices in the order they were added. Fi
 ---
 ### 4. Clumsy Skier
 $K$ and $k$.
+
+For any sequence, the optimum can be in different epochs. 
+1. if the epoch is   cost <= 3OPT
