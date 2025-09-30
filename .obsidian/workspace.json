@@ -128,8 +128,7 @@
               "title": "Graded Assignment 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,10 +273,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7241f29da33ec6ce",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "GHW1.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Algorithms/Minimum Set Cover.md",
