@@ -38,3 +38,9 @@
 ^f23581
 
 ---
+> [!lemma] Theorem 2 (Existence of Stationary Distributions)
+> Let $P$ be a Markov chain. 
+> 1. there exists a stationary distribution $\mu$.
+
+> [!proof]-
+> Notice that $P1 = 1$. Hence, $1$ is an eigenvalue of $P$ and thereby of $P^\top$. In other words, there exists $v$ s.t. $vP = v$. Now, let $\mu(x):=\left| v(x) \right|$. Then, $$\mu(x)=\left| v(x) \right|=\left| \sum_{y}v(y)P(y,x) \right| \leq \sum_{y}\left| v(y) \right| P(y,x) =\sum_{y}\mu(y)P(y,x)$$Assume that the inequality is strict for any $x$. Then, $$\sum_{x}^{}\mu(x)<\sum_{x}^{}\sum_{y}^{}\mu(y)P(y,x)=\sum_{y}^{}\mu(y)$$which is a contradiction. Hence, they are equal. This concludes the proof.
