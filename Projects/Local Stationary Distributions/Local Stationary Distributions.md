@@ -20,10 +20,14 @@
 
 ---
 > [!lemma] 
-> Let $(P,\pi)$ be a Markov chain. Then, $$\frac{d}{dt}\text{KL}(v_{t}\|\pi)=-\mathcal{E}(f_{t},\log f_{t})$$
+> Let $(M,P,\pi)$ be an ergodic, reversible Markov chain. Then, $$\frac{d}{dt}\text{KL}(v_{t}\|\pi)=-\mathcal{E}(f_{t},\log f_{t})$$
 
 > [!proof]+
+> First, notice that $P,-I$ commute. Hence,  $e^{t(P-I)}=e^{tP}e^{-t}$. Now, for $x,y\in \Omega$, we can write:
 > 
+> $$P_{t}(x,y)=e^{-t(I-P)}(x,y)=e^{-t}e^{tP}(x,y)=e^{-t}\sum_{n=0}^{\infty}\frac{t^n}{n!}P^n(x,y)$$
+> 1. Now, we have: $$\begin{aligned}\pi(x)P^n(x,y)&=\pi(x)\sum_{z}^{}P(x,z)P^{(n-1)}(z,y)\\&=\sum_{z}^{}\pi(z)P(z,x)P^{(n-1)}(z,y)\\&=\sum_{z}^{}\pi(y)P^{n-1}(y,z)P(z,x)\\&=\pi(y)P^n(y,x)\end{aligned}$$By ergodicity we have that $P_{t}(x,y)>0$ whenever $t>0$. Since $$(P_{t}f_{0})(x)=\sum_{y}^{}P_{t}(x,y)\frac{dv_{0}(y)}{d\pi(y)}=f_{t}(y)$$and $\sum_{x}^{}f_{0}(x)=1$, we have that $f_{t}>0$ on $\Omega$.
+> 2. Therefore, $$\begin{aligned}\frac{d}{dt}\text{KL}(v_{t}\mid \pi)=\int \frac{d}{dt}f_{t}\log f_{t}  \, dx \end{aligned}$$
 
 > [!proof]+
 > Notice that: $$-\mathcal{E}(f_{t},\log f_{t})=-\mathbb{E}_{x \sim \pi}\mathbb{E}_{y \sim x}(f_{t}(x)-f_{t}(y)) \frac{\log f_{t}(x)}{\log f_{t}(y)}$$

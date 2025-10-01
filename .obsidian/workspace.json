@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Relative Entropy.md",
+                "file": "Lie Group/Exponential Map.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Relative Entropy"
+              "title": "Exponential Map"
             }
           }
         ],
@@ -290,11 +290,13 @@
   },
   "active": "0863017d36ed11c7",
   "lastOpenFiles": [
-    "Information Theory/Relative Entropy.md",
+    "Markov Processes/Markov Chain.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+    "Lie Group/Exponential Map.md",
+    "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
+    "Information Theory/Relative Entropy.md",
     "Markov Processes/Glauber Dynamics.md",
     "Projects/Local Stationary Distributions",
-    "Markov Processes/Markov Chain.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
@@ -317,8 +319,6 @@
     "TA/AdvAlg/TimeSheet.md",
     "Courses/NN Theory",
     "Analysis/Lp Space.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
-    "Algorithms/Streaming Algorithm.md",
     "TA/AdvAlg",
     "TA",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
