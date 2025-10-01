@@ -77,9 +77,23 @@
               "icon": "lucide-file",
               "title": "Markov Chain"
             }
+          },
+          {
+            "id": "b7a0d4dd0e3bae3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Local Stationary Distributions"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "d54d634cc1ba8421",
@@ -99,8 +113,23 @@
               "icon": "lucide-file",
               "title": "Markov Chain"
             }
+          },
+          {
+            "id": "0863017d36ed11c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Local Stationary Distributions"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -245,12 +274,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "0863017d36ed11c7",
   "lastOpenFiles": [
+    "Markov Processes/Glauber Dynamics.md",
+    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+    "Projects/Local Stationary Distributions",
+    "Markov Processes/Markov Chain.md",
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
-    "Markov Processes/Markov Chain.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "GHW1.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
@@ -273,8 +305,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Algorithms/Streaming Algorithm.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "TA/AdvAlg/Untitled.md",
-    "TA/Untitled.md",
     "TA/AdvAlg",
     "TA",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
@@ -283,7 +313,6 @@
     "Courses/Algebraic Topology II",
     "Optimization",
     "Courses/Advanced Graph Algorithms",
-    "Courses/Algebraic Geometry",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
