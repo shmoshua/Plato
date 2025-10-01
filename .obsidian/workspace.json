@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 02.md",
+                "file": "Markov Processes/Markov Chain.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise 02"
+              "title": "Markov Chain"
             }
           }
         ],
@@ -92,40 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Markov Processes/Markov Chain.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Advanced Algorithms Roadmap"
-            }
-          },
-          {
-            "id": "7241f29da33ec6ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Algorithms/Exercise 02.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Exercise 02"
-            }
-          },
-          {
-            "id": "f5ce139b8c7833ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Algorithms/Graded Assignment 1.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Graded Assignment 1"
+              "title": "Markov Chain"
             }
           }
         ]
@@ -276,10 +248,12 @@
   "active": "143d4125b823b540",
   "lastOpenFiles": [
     "Courses/Advanced Algorithms/Exercise 02.md",
+    "Courses/Advanced Algorithms/Graded Assignment 1.md",
+    "Courses/Markov Processes/Markov Processes Roadmap.md",
+    "Markov Processes/Markov Chain.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "GHW1.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
-    "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Algorithms/Minimum Set Cover.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "TA/AdvAlg/Problem Set 0.md",
@@ -302,9 +276,7 @@
     "TA/AdvAlg/Untitled.md",
     "TA/Untitled.md",
     "TA/AdvAlg",
-    "Courses/Algorithms for Data Science/Special Assignment 1.md",
     "TA",
-    "Courses/Graph Theory/Problem Set 6.md",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",

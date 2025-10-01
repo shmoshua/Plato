@@ -1,8 +1,9 @@
 #Markov #Definition 
 
 > [!definition]
-> Let $\mathcal{S}$ be an at most countable state space. A ***Markov chain*** is a family of $\mathcal{S}$-valued random variables $(X_{n})_{n\geq 0}$ s.t.:
-> 1. for all $n\geq 0$ and $(i_{0},\dots,i_{n},j)\in \mathcal{S}^{n+2}$, $$\mathbb{P}(X_{n+1}=j|X_{0}=i_{0},\dots,X_{n}=i_{n})=P_{i_{n},j}$$where $P\in [0,1]^{\mathcal{S}\times \mathcal{S}}$ s.t. $\sum_{j\in \mathcal{S}}^{}P_{ij}=1$ for all $i\in \mathcal{S}$. 
+> Let $\mathcal{S}$ be an at most countable state space. 
+> 1. A ***Markov chain*** is a family of $\mathcal{S}$-valued random variables $(X_{n})_{n\geq 0}$ s.t.:
+> 	- for all $n\geq 0$ and $i_{0},\dots,i_{n},j\in \mathcal{S}$, $$\mathbb{P}(X_{n}=i_{n}|X_{0}=i_{0},\dots,X_{n-1}=i_{n-1})=\mathbb{P}(X_{n}=i_{n}|X_{n-1}=i_{n-1})=:P(i_{n-1},i_{n})$$where $P\in [0,1]^{\mathcal{S}\times \mathcal{S}}$ s.t. $\sum_{j\in \mathcal{S}}^{}P_{ij}=1$ for all $i\in \mathcal{S}$. 
 
 ^a66180
 
