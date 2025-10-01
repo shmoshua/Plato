@@ -23,4 +23,10 @@
 > Let $(P,\pi)$ be a Markov chain. Then, $$\frac{d}{dt}\text{KL}(v_{t}\|\pi)=-\mathcal{E}(f_{t},\log f_{t})$$
 
 > [!proof]+
-> We have that: $$\text{KL}(v_{t}\|\pi)=\mathbb{E}_{x\sim v_{t}}\frac{\log v_{t}(x)}{\log \pi(x)}$$
+> 
+
+> [!proof]+
+> Notice that: $$-\mathcal{E}(f_{t},\log f_{t})=-\mathbb{E}_{x \sim \pi}\mathbb{E}_{y \sim x}(f_{t}(x)-f_{t}(y)) \frac{\log f_{t}(x)}{\log f_{t}(y)}$$
+> We have that: $$\frac{d}{dt}\text{KL}(v_{t}\|\pi)=\frac{d}{dt}\int_{\Omega} \frac{\log v_{t}(x)}{\log \pi(x)} \, dv_{t}= \mathbb{E}_{x\sim v_{t}}\frac{\log v_{t}(x)}{\log \pi(x)}$$
+> $$\text{KL}(v_{t}\|\pi)=\int \log \left( \frac{dv_{t}}{d\pi} \right)  \, dv_{t}=\int f_{t}\log f_{t} \, d\pi  $$Notice that $\int \frac{d}{dt}f_{t}\, d\pi=\frac{d}{dt}\int f_{t}  \, d\pi=\frac{d}{dt}\int_{}^{}  1\, dv_{t}=0$.$$\begin{aligned}\frac{d}{dt}\text{KL}(v_{t}\|\pi)&=\int \frac{d}{dt}f_{t}\log f_{t} \, d\pi\\&=\int  \dot{f}_{t}(\log f_{t}+1)d\pi\\&=\int  \dot{f}_{t}(\log f_{t})d\pi\\&=\mathbb{E}_{x\sim \pi}\left[ \left( \frac{d}{dt}f_{t}(x) \right)\cdot  \log f_{t}(x) \right] \end{aligned}$$
+> $$\mathbb{E}_{y-x}\left[ \frac{f_{t}(x)-f_{t}(y)}{\log f_{t}(y)} \right] =\sum_{y} P(x,y)\frac{f_{t}(x)-f_{t}(y)}{\log f_{t}(y)}$$
