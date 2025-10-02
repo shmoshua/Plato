@@ -134,16 +134,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lie Group/Exponential Map.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exponential Map"
+              "title": "Advanced Algorithms Roadmap"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -288,11 +288,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0863017d36ed11c7",
+  "active": "4f0a70484bdedacc",
   "lastOpenFiles": [
+    "Lie Group/Exponential Map.md",
     "Markov Processes/Markov Chain.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
-    "Lie Group/Exponential Map.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
     "Information Theory/Relative Entropy.md",
     "Markov Processes/Glauber Dynamics.md",
