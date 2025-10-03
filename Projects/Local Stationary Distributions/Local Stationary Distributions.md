@@ -37,7 +37,7 @@
 
 ---
 > [!definition] Definition (Modified Log-Sobolev)
-> A Markov chain $(P,\pi)$ satisfies a ***modified log-Sobolev inequality (MLSI)*** with constant $C$, if for any $f:\Omega\to \mathbb{R}_{> 0}$, we have: $$\mathcal{E}_{P}(f,\log f)\geq C \cdot \text{Ent}(f)$$where $\text{Ent}(f):=\mathbb{E}_{\pi}[f \log f]-\mathbb{E}_{\pi}f \cdot\mathbb{E}\log f$. 
+> A Markov chain $(P,\pi)$ satisfies a ***modified log-Sobolev inequality (MLSI)*** with constant $C$, if for any $f:\Omega\to \mathbb{R}_{> 0}$, we have: $$\mathcal{E}_{P}(f,\log f)\geq C \cdot \text{Ent}(f)$$where $\text{Ent}(f):=\mathbb{E}_{\pi}[f \log f]-\mathbb{E}_{\pi}f \cdot\mathbb{E}_{\pi}\log f$. 
 - **Related definition**: $C_{\text{MLSI}}$ is the best such constant $C$.
 ---
 > [!lemma] Lemma
@@ -45,6 +45,8 @@
 > 1. $C_{\text{MLSI}}\geq \frac{1}{n}$.
 
 > [!proof]+
-> The Markov chain is given by: $$\mathbb{P}(x\to x^{\oplus  i})=\frac{1}{n}\cdot \pi_{i}(1-x_{i})$$Then, let $f:\Omega\to \mathbb{R}_{> 0}$ be arbitrary. We have: $$\mathcal{E}_{P}(f,\log f)=\mathbb{E}_{x\sim \pi}\left[ \frac{1}{n}\sum_{i\in[n]}^{} \pi_{i}(1-x_{i})(f(x)-f(x^{\oplus i}))\frac{\log f(x)}{\log f(x^{\oplus  i})}\right] $$We have that: $$\begin{aligned}\text{Ent}(f)=\mathbb{E}_{x\sim\pi}[f(x)\log f(x)]\end{aligned}$$
+> The Markov chain is given by: $$\mathbb{P}(x\to x^{\oplus  i})=\frac{1}{n}\cdot \pi_{i}(-x_{i})$$Then, let $f:\Omega\to \mathbb{R}_{> 0}$ be arbitrary. We have: $$\begin{aligned}\mathcal{E}_{P}(f,\log f)&=\mathbb{E}_{x\sim \pi}\left[ \frac{1}{n}\sum_{i\in[n]}^{} \pi_{i}(-x_{i})(f(x)-f(x^{\oplus i}))\log \frac{f(x)}{f(x)^{\oplus  i}}\frac{\log f(x)}{\log f(x^{\oplus  i})}\right]\\&=\frac{1}{n}\sum_{i\in[n]} \mathbb{E}_{x\sim\pi}\left[ \pi_{i}(-x_{i})(f(x)-f(x^{\oplus  i})) \frac{\log f(x)}{\log f(x^{\oplus  i})} \right] \end{aligned} $$We have that: $$\begin{aligned}\text{Ent}(f)&=\mathbb{E}_{x\sim\pi}[f(x)\log f(x)]-\mathbb{E}_{x\sim \pi}[f(x)]\mathbb{E}_{x\sim\pi}[\log f(x)]\\&=\mathbb{E}_{\pi}[(f-\mathbb{E}_{\pi}f)(\log f-\mathbb{E}_{\pi}\log f)]\end{aligned}$$
 
 Definition 1.14 (Glauber dynamics). Glauber dynamics with respect to a distribution π over {±1} n is a Markov chain on {±1} n , where a transition from x is given by the following: • Sample index i uniformly from [n]. • Transition to x ⊕i with probability π(x ⊕i ) π(x)+π(x⊕i) , and stay at x otherwise. Here, x ⊕i denotes x with the ith bit flipped.
+
+$$$$
