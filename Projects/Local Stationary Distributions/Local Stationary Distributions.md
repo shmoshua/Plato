@@ -89,5 +89,18 @@
 > Let $(P,\pi)$ be a reversible Markov chain and $\nu\in \Delta(\Omega)$. Let $f:=\frac{ d\nu}{d\pi}$.
 > $$\mathcal{E}_{P}(f,\log f)\geq 2 \cdot D(Pv\|v)\geq 4\left\| v-Pv \right\| ^{2}_{\text{TV}}$$
 
+> [!proof]-
+> We have that: $$\begin{aligned}\mathcal{E}_{P}(f,\log f)&=\mathbb{E}_{x\sim \pi}\mathbb{E}_{y\sim x}(f(x)-f(y))\log \frac{f(x)}{f(y)}\\&=\sum_{x,y\in \Omega}^{}\pi(x)P(x,y)f(x)\log \frac{f(x)}{f(y)}-\sum_{x,y\in \Omega}^{}\pi(y)P(y,x)f(y)\log \frac{f(x)}{f(y)}\\&=\sum_{x,y\in \Omega}^{}\pi(x)P(x,y)f(x)\log \frac{f(x)}{f(y)}+\sum_{x,y\in \Omega}^{}\pi(x)P(x,y)f(x)\log \frac{f(x)}{f(y)}\\&=2\mathbb{E}_{x\sim \pi}\mathbb{E}_{y \sim x}f(x)\log \frac{f(x)}{f(y)}\\&=2\mathbb{E}_{x\sim \nu}\mathbb{E}_{y \sim x}\log \frac{f(x)}{f(y)}\\&=2\mathbb{E}_{x\sim \nu}\log f(x)-2 \mathbb{E}_{y \sim P \nu} \log f(y)\\&=2\left[ \mathbb{E}_{\nu}\log f-\mathbb{E}_{P\nu}\log \frac{d(P\nu)}{d\pi}+\mathbb{E}_{P\nu}\log \frac{d(P\nu)}{d\pi}-\log f \right]\\&=2\left[ D(\nu\|\pi)-D(P\nu\|\pi)+D(P\nu\|\nu) \right]  \\&\geq 2D(P\nu\|\nu)\\&\geq 4 \|\nu-P\nu\|^{2}_{\text{TV}}\end{aligned}$$
+---
+> [!lemma] Corollary 3
+> Let $\phi:\Omega\to \mathbb{R}$ be in $C_{b}(\Omega)$ and $\nu$ a $\varepsilon$-locally-stationary measure. Then, $$\left| \mathbb{E}_{\nu}\phi-\mathbb{E}_{P\nu}\phi \right| \leq \left\| \phi \right\| _{\infty}\sqrt{ \varepsilon }$$
+
+> [!proof]-
+> By total variance, $$\begin{aligned}\left| \mathbb{E}_{\nu}\phi-\mathbb{E}_{P\nu}\phi \right|& \leq 2\left\| \phi \right\| _{\infty}\left\| \nu-P\nu \right\| _{\text{TV}}\\&\leq \left\| \phi \right\| _{\infty}\sqrt{ \mathcal{E}_{p}(f,\log f) }\\&\leq \left\| \phi \right\| _{\infty} \sqrt{ \varepsilon }\end{aligned}$$
+
+---
+> [!lemma] Lemma
+> For an $\varepsilon$-locally stationary distribution $\nu$ with relative density $f$, and for $x\sim \nu$ and $y\sim x$, with probability at least $1-\delta$, we have $\frac{f(x)}{f(y)}=1\pm O\left( \sqrt{ \frac{\varepsilon}{\delta} } \right)$ where $\delta\geq 2\varepsilon$
+
 > [!proof]+
-> We have that: $$\begin{aligned}\mathcal{E}_{P}(f,\log f)&=\mathbb{E}_{x\sim \pi}\mathbb{E}_{y\sim x}(f(x)-f(y))\log \frac{f(x)}{f(y)}\\&=\sum_{x,y\in \Omega}^{}\pi(x)P(x,y)f(x)\log \frac{f(x)}{f(y)}-\sum_{x,y\in \Omega}^{}\pi(y)P(y,x)f(y)\log \frac{f(x)}{f(y)}\\&=\sum_{x,y\in \Omega}^{}\pi(x)P(x,y)f(x)\log \frac{f(x)}{f(y)}+\sum_{x,y\in \Omega}^{}\pi(x)P(x,y)f(x)\log \frac{f(x)}{f(y)}\\&=2\mathbb{E}_{x\sim \pi}\mathbb{E}_{y \sim x}f(x)\log \frac{f(x)}{f(y)}\\&=2\mathbb{E}_{x\sim \nu}\mathbb{E}_{y \sim x}\log \frac{f(x)}{f(y)}\\&=2\mathbb{E}_{x\sim \nu}\log f(x)-2 \mathbb{E}_{y \sim P \nu} \log f(y)\\&=2\left[ \mathbb{E}_{\nu}\log f-\mathbb{E}_{P\nu} \right] \end{aligned}$$
+> We have: $$\mathbb{E}_{x\sim \nu}\mathbb{E}_{y \sim x}\left( 1-\frac{f(y)}{f(x)} \right)\log \frac{f(x)}{f(y)}=\mathbb{E}_{x\sim \pi}\mathbb{E}_{y \sim x}(f(x)-f(y))\log \frac{f(x)}{f(y)}<\varepsilon$$Now, $$\mathbb{P}\left( \left( 1-\frac{f(y)}{f(x)} \right)\log \frac{f(x)}{f(y)}\geq \frac{\varepsilon}{\delta} \right) <\delta$$Hence, $$ \left( 1-\frac{f(y)}{f(x)} \right)\log \frac{f(x)}{f(y)}< \frac{\varepsilon}{\delta}$$

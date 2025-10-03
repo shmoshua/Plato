@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Lipschitz Function.md",
+                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lipschitz Function"
+              "title": "Discrete Memoryless Channel (DMC)"
             }
           }
         ],
@@ -189,7 +189,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "riesz",
+                "query": "data process",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -210,7 +210,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -305,12 +306,13 @@
   "active": "0863017d36ed11c7",
   "lastOpenFiles": [
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
+    "Information Theory/Relative Entropy.md",
     "Analysis/Lipschitz Function.md",
+    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Markov Processes/Markov Chain.md",
     "Lie Group/Exponential Map.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
-    "Information Theory/Relative Entropy.md",
     "Markov Processes/Glauber Dynamics.md",
     "Projects/Local Stationary Distributions",
     "Courses/Advanced Algorithms/Exercise 02.md",
@@ -331,7 +333,6 @@
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Functional Analysis/Gauge Function.md",
-    "TA/AdvAlg/TimeSheet.md",
     "Courses/NN Theory",
     "TA/AdvAlg",
     "TA",
