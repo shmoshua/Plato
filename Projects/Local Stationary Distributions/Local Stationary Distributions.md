@@ -22,15 +22,29 @@
 > [!lemma] 
 > Let $(M,P,\pi)$ be an ergodic, reversible Markov chain. Then, $$\frac{d}{dt}\text{KL}(v_{t}\|\pi)=-\mathcal{E}(f_{t},\log f_{t})$$
 
-> [!proof]+
+> [!proof]-
 > First, notice that $P,-I$ commute. Hence,  $e^{t(P-I)}=e^{tP}e^{-t}$. Now, for $x,y\in \Omega$, we can write:
 > 
 > $$P_{t}(x,y)=e^{-t(I-P)}(x,y)=e^{-t}e^{tP}(x,y)=e^{-t}\sum_{n=0}^{\infty}\frac{t^n}{n!}P^n(x,y)$$
 > 1. Now, we have: $$\begin{aligned}\pi(x)P^n(x,y)&=\pi(x)\sum_{z}^{}P(x,z)P^{(n-1)}(z,y)\\&=\sum_{z}^{}\pi(z)P(z,x)P^{(n-1)}(z,y)\\&=\sum_{z}^{}\pi(y)P^{n-1}(y,z)P(z,x)\\&=\pi(y)P^n(y,x)\end{aligned}$$By ergodicity we have that $P_{t}(x,y)>0$ whenever $t>0$. Since $$(P_{t}f_{0})(x)=\sum_{y}^{}P_{t}(x,y)\frac{dv_{0}(y)}{d\pi(y)}=f_{t}(y)$$and $\sum_{x}^{}f_{0}(x)=1$, we have that $f_{t}>0$ on $\Omega$.
 > 2. Therefore, $$\begin{aligned}\frac{d}{dt}\text{KL}(v_{t}\mid \pi)=\int \frac{d}{dt}f_{t}\log f_{t}  \, dx \end{aligned}$$
 
-> [!proof]+
+> [!proof]-
 > Notice that: $$-\mathcal{E}(f_{t},\log f_{t})=-\mathbb{E}_{x \sim \pi}\mathbb{E}_{y \sim x}(f_{t}(x)-f_{t}(y)) \frac{\log f_{t}(x)}{\log f_{t}(y)}$$
 > We have that: $$\frac{d}{dt}\text{KL}(v_{t}\|\pi)=\frac{d}{dt}\int_{\Omega} \frac{\log v_{t}(x)}{\log \pi(x)} \, dv_{t}= \mathbb{E}_{x\sim v_{t}}\frac{\log v_{t}(x)}{\log \pi(x)}$$
 > $$\text{KL}(v_{t}\|\pi)=\int \log \left( \frac{dv_{t}}{d\pi} \right)  \, dv_{t}=\int f_{t}\log f_{t} \, d\pi  $$Notice that $\int \frac{d}{dt}f_{t}\, d\pi=\frac{d}{dt}\int f_{t}  \, d\pi=\frac{d}{dt}\int_{}^{}  1\, dv_{t}=0$.$$\begin{aligned}\frac{d}{dt}\text{KL}(v_{t}\|\pi)&=\int \frac{d}{dt}f_{t}\log f_{t} \, d\pi\\&=\int  \dot{f}_{t}(\log f_{t}+1)d\pi\\&=\int  \dot{f}_{t}(\log f_{t})d\pi\\&=\mathbb{E}_{x\sim \pi}\left[ \left( \frac{d}{dt}f_{t}(x) \right)\cdot  \log f_{t}(x) \right] \end{aligned}$$
 > $$\mathbb{E}_{y-x}\left[ \frac{f_{t}(x)-f_{t}(y)}{\log f_{t}(y)} \right] =\sum_{y} P(x,y)\frac{f_{t}(x)-f_{t}(y)}{\log f_{t}(y)}$$
+
+---
+> [!definition] Definition (Modified Log-Sobolev)
+> A Markov chain $(P,\pi)$ satisfies a ***modified log-Sobolev inequality (MLSI)*** with constant $C$, if for any $f:\Omega\to \mathbb{R}_{> 0}$, we have: $$\mathcal{E}_{P}(f,\log f)\geq C \cdot \text{Ent}(f)$$where $\text{Ent}(f):=\mathbb{E}_{\pi}[f \log f]-\mathbb{E}_{\pi}f \cdot\mathbb{E}\log f$. 
+- **Related definition**: $C_{\text{MLSI}}$ is the best such constant $C$.
+---
+> [!lemma] Lemma
+> Let $\pi$ be a distribution over $\{ \pm 1 \}^n$ with independent coordinates. Then,
+> 1. $C_{\text{MLSI}}\geq \frac{1}{n}$.
+
+> [!proof]+
+> The Markov chain is given by: $$\mathbb{P}(x\to x^{\oplus  i})=\frac{1}{n}\cdot \pi_{i}(1-x_{i})$$Then, let $f:\Omega\to \mathbb{R}_{> 0}$ be arbitrary. We have: $$\mathcal{E}_{P}(f,\log f)=\mathbb{E}_{x\sim \pi}\left[ \frac{1}{n}\sum_{i\in[n]}^{} \pi_{i}(1-x_{i})(f(x)-f(x^{\oplus i}))\frac{\log f(x)}{\log f(x^{\oplus  i})}\right] $$We have that: $$\begin{aligned}\text{Ent}(f)=\mathbb{E}_{x\sim\pi}[f(x)\log f(x)]\end{aligned}$$
+
+Definition 1.14 (Glauber dynamics). Glauber dynamics with respect to a distribution π over {±1} n is a Markov chain on {±1} n , where a transition from x is given by the following: • Sample index i uniformly from [n]. • Transition to x ⊕i with probability π(x ⊕i ) π(x)+π(x⊕i) , and stay at x otherwise. Here, x ⊕i denotes x with the ith bit flipped.

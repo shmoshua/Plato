@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -288,10 +288,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4f0a70484bdedacc",
+  "active": "0863017d36ed11c7",
   "lastOpenFiles": [
-    "Lie Group/Exponential Map.md",
     "Markov Processes/Markov Chain.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Lie Group/Exponential Map.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
     "Information Theory/Relative Entropy.md",
@@ -300,7 +301,6 @@
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "GHW1.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Algorithms/Minimum Set Cover.md",
