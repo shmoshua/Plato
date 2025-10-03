@@ -54,3 +54,22 @@
 > [!lemma] 
 > Let $\mu$ be an arbitrary distribution over $\{ \pm 1 \}^n$ s.t. $C_{\text{MLSI}}\geq \alpha$. Then, 
 > 1. for any $f:\{ \pm 1 \}^n\to \mathbb{R}$ that is $1$-Lipschitz, $$\mathbb{P}_{x\sim \mu}(\left| f(x)-\mathbb{E}_{\mu}f \right| \geq t)\leq 2\exp \left( -\frac{\alpha t^{2}}{2} \right) $$
+---
+##### Symmetric KL
+> [!definition] 
+> We define: 
+> 1. $\text{SKL}(\pi,\nu):=D(\nu\|\pi)+D(\pi\|\nu)$. 
+---
+> [!lemma] 
+> Then, 
+> $$\text{SKL}(\pi,\nu)=\frac{1}{2}\mathbb{E}_{x,y \sim \pi}\left[ (f(x)-f(y))\log \frac{f(x)}{f(y)} \right] $$
+
+> [!proof]-
+> We have that: $$\begin{aligned}\text{SKL}(\pi,\nu)&=\int f \log f \, d\pi+\int \frac{d\pi}{d\nu}\log \frac{d\pi}{d\nu} \, d\nu \\&=\int f \log f \, d\pi+\int \log \frac{d\pi}{d\nu} \, d\pi \\&=\mathbb{E}_{\pi}[(f-1)\log f] \end{aligned}$$Now, $$\begin{aligned}\mathbb{E}\left[ (f(x)-f(y))\log \frac{f(x)}{f(y)} \right]&=\mathbb{E}\left[ f(x)\log f(x)\right]+\mathbb{E}[f(y)\log f(y)]-\mathbb{E}[f(x)\log f(y)]-\mathbb{E}[f(y)\log f(x)]\\&=2\mathbb{E}\left[ f(x)\log f(x)\right]-2\mathbb{E}[\log f(x)]\\&=2\mathbb{E}_{\pi}[(f-1)\log f]\end{aligned}$$
+
+---
+> [!lemma] 
+> For any distribution $\nu$ and Markov chain $(P,\pi)$ and $T> 0$, for $t \sim \text{Uni}[0,T]$, we have: $$\mathbb{E}_{t\sim [0,T]}\mathcal{E}_{P}(f_{t},\log f_{t})\leq \frac{D(\nu\|\pi)}{T}\leq \frac{\log \frac{1}{\pi_{\text{min}}}}{T}$$
+
+> [!proof]+
+> We have that: $$\begin{aligned}0&\leq D(\nu_{t}\|\pi)\\&=D(\nu\|\pi)-\int_{0}^{T} \mathcal{E}(f_{t},\log f_{t}) \, dt\\&=D(\nu\|\pi)- T\cdot \mathbb{E}_{t\sim [0,T]} \mathcal{E}(f_{t},\log f_{t}) \end{aligned}$$
