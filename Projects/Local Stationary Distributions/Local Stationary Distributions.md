@@ -44,9 +44,13 @@
 > Let $\pi$ be a distribution over $\{ \pm 1 \}^n$ with independent coordinates. Then,
 > 1. $C_{\text{MLSI}}\geq \frac{1}{n}$.
 
-> [!proof]+
-> The Markov chain is given by: $$\mathbb{P}(x\to x^{\oplus  i})=\frac{1}{n}\cdot \pi_{i}(-x_{i})$$Then, let $f:\Omega\to \mathbb{R}_{> 0}$ be arbitrary. We have: $$\begin{aligned}\mathcal{E}_{P}(f,\log f)&=\mathbb{E}_{x\sim \pi}\left[ \frac{1}{n}\sum_{i\in[n]}^{} \pi_{i}(-x_{i})(f(x)-f(x^{\oplus i}))\log \frac{f(x)}{f(x)^{\oplus  i}}\frac{\log f(x)}{\log f(x^{\oplus  i})}\right]\\&=\frac{1}{n}\sum_{i\in[n]} \mathbb{E}_{x\sim\pi}\left[ \pi_{i}(-x_{i})(f(x)-f(x^{\oplus  i})) \frac{\log f(x)}{\log f(x^{\oplus  i})} \right] \end{aligned} $$We have that: $$\begin{aligned}\text{Ent}(f)&=\mathbb{E}_{x\sim\pi}[f(x)\log f(x)]-\mathbb{E}_{x\sim \pi}[f(x)]\mathbb{E}_{x\sim\pi}[\log f(x)]\\&=\mathbb{E}_{\pi}[(f-\mathbb{E}_{\pi}f)(\log f-\mathbb{E}_{\pi}\log f)]\end{aligned}$$
+> [!proof]-
+> The Markov chain is given by: $$\mathbb{P}(x\to x^{\oplus  i})=\frac{1}{n}\cdot \pi_{i}(-x_{i})$$Then, let $f:\Omega\to \mathbb{R}_{> 0}$ be arbitrary. 
+> First, notice that: $$\begin{aligned}\text{Ent}_{i}(f(\cdot ,x_{-i}))&=\pi(x_{i})(f(x)\log f(x))+\pi(-x_{i})(f(x^{\oplus  i})\log f(x^{\oplus  i}))\\&\quad \quad -(\pi(x_{i})f(x)+\pi(-x_{i})f(x^{\oplus  i}))(\pi(x_{i})\log f(x)+\pi(-x_{i})\log f(x^{\oplus  i}))\\&=\pi(x_{i})\pi(-x_{i})f(x)\log f(x)+\pi(x_{i})\pi(-x_{i})f(x^{\oplus i})\log f(x^{\oplus i})\\&\quad\quad-\pi(x_{i})\pi(-x_{i})f(x)\log f(x^{\oplus  i})-\pi(x_{i})\pi(-x_{i}) f(x^{\oplus  i})\log f(x)\\&=\pi(x_{i})\pi(-x_{i})\left[ (f(x)-f(x^{\oplus i})) (\log f(x)-\log f(x^{\oplus i})) \right] \end{aligned}$$
+> 
+> We have: $$\begin{aligned}\mathcal{E}_{P}(f,\log f)&=\mathbb{E}_{x\sim \pi}\left[ \frac{1}{n}\sum_{i\in[n]}^{} \pi_{i}(-x_{i})(f(x)-f(x^{\oplus i}))\log \frac{f(x)}{f(x^{\oplus  i})}\right]\\&=\frac{1}{n}\sum_{i\in[n]} \mathbb{E}_{x\sim\pi}\left[ \pi_{i}(-x_{i})(f(x)-f(x^{\oplus  i})) \log \frac{f(x)}{f(x^{\oplus  i})}\right]\\&=\frac{2}{n}\sum_{i\in[n]} \mathbb{E}_{x_{-i}\sim \pi_{-i}}\left[  \pi(x_{i})  \pi_{i}(-x_{i})(f(x)-f(x^{\oplus  i})) \log \frac{f(x)}{f(x^{\oplus  i})}\right]\\&=\frac{2}{n}\sum_{i\in[n]} \mathbb{E}_{x_{-i}\sim \pi_{-i}}\left[  \text{Ent}_{i}(f(\cdot ,x_{-i}))\right]\\&\geq \frac{2}{n}\text{Ent}(f)\end{aligned} $$
 
-Definition 1.14 (Glauber dynamics). Glauber dynamics with respect to a distribution π over {±1} n is a Markov chain on {±1} n , where a transition from x is given by the following: • Sample index i uniformly from [n]. • Transition to x ⊕i with probability π(x ⊕i ) π(x)+π(x⊕i) , and stay at x otherwise. Here, x ⊕i denotes x with the ith bit flipped.
-
-$$$$
+---
+> [!lemma] 
+> Let $\mu$ be an arbitrary distribution over $\{ \pm 1 \}^n$ s.t. $C_{\text{MLSI}}\geq \alpha$. Then, 
+> 1. for any $f:\{ \pm 1 \}^n\to \mathbb{R}$ that is $1$-Lipschitz, $$\mathbb{P}_{x\sim \mu}(\left| f(x)-\mathbb{E}_{\mu}f \right| \geq t)\leq 2\exp \left( -\frac{\alpha t^{2}}{2} \right) $$
