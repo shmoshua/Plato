@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -128,7 +128,8 @@
               "title": "Discrete Memoryless Channel (DMC)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -273,10 +274,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "60cf7eacf98379c9",
+  "active": "0863017d36ed11c7",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Measure Theory/Complex Measure.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Markov Processes/Glauber Dynamics.md",

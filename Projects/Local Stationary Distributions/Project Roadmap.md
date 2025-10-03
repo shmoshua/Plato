@@ -24,8 +24,8 @@
 > [!lemma] Proposition 1 (Alternative definitions of Dirichlet Form)
 > Let $(P,\pi)$ be a reversible Markov chain. For $f,g:\Omega\to \mathbb{R}$, $$\mathcal{E}(f,g)=\braket{ f , (I-P)g }_{\pi} :=\sum_{x\in \Omega}^{}\pi(x)f(x)(g(x)-(Pg)(x))$$
 
-> [!proof]+
-> We have that: $$\begin{aligned}\mathcal{E}_{P}(f,g)&=\end{aligned}$$$$\begin{aligned}\braket{ f , (I-P)g }_{\pi} &=\sum_{x\in \Omega}^{}\pi(x)f(x)(g(x)-(Pg)(x))\\&=\sum_{x\in \Omega}^{}\pi(x)f(x)g(x)-\sum_{x,y\in \Omega}\pi(x)P(x,y)f(x)g(y)\\&=\frac{1}{2}\sum_{x\in \Omega}^{}\pi(x)f(x)g(x)-\sum_{x,y\in \Omega}\pi(x)P(x,y)f(x)g(y)\end{aligned}$$
+> [!proof]-
+> We have that: $$\begin{aligned}2\mathcal{E}_{P}(f,g)&=\sum_{x,y}^{}\pi(x)P(x,y)(f(x)-f(y))(g(x)-g(y))\\&=\sum_{x,y}\pi(x)P(x,y)\left[ f(x)g(x)-f(x)g(y)-f(y)g(x)+f(y)g(y) \right]\\&=2\sum_{x,y}\pi(x)P(x,y)f(x)g(x)-2\sum_{x,y}\pi(x)P(x,y)f(x)g(y)\\&=2\sum_{x}\pi(x)f(x)g(x)-2\sum_{x,y}\pi(x)P(x,y)f(x)g(y)\\&=2\sum_{x}\pi(x)f(x)(g(x)-(Pg)(x))\\&=2\braket{ f , (I-P)g } _{\pi}\end{aligned}$$
 
 ---
 ![[Local Stationary Distributions#^773377]]
