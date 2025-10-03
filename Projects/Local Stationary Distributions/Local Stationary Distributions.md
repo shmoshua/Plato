@@ -76,5 +76,18 @@
 
 > [!proof]-
 > We have that: $$\begin{aligned}0&\leq D(\nu_{t}\|\pi)\\&=D(\nu\|\pi)-\int_{0}^{T} \mathcal{E}(f_{t},\log f_{t}) \, dt\\&=D(\nu\|\pi)- T\cdot \mathbb{E}_{t\sim [0,T]} \mathcal{E}(f_{t},\log f_{t}) \end{aligned}$$
+---
+> [!lemma] Theorem 1
+> Let $(P,\pi)$ be a reversible Markov chain and $v_{0}\in \Delta(\Omega)$.
+> 1. For $T:=\frac{1}{\delta \varepsilon} \log\left( \frac{1}{\pi_{\min}} \right)$ and $t\sim \text{Uni}([0,T])$, $v_{t}$ is $\varepsilon$-locally stationary with probability $1-\delta$.
 
-- **Corollary**: We have that: $$\mathbb{P}(\mathcal{E}_{t})$$
+> [!proof]-
+> We have that: $$\mathbb{P}(\mathcal{E}_{P}(f_{t},\log f_{t})\geq \varepsilon)\leq \frac{\log  \frac{1}{\pi_{\min}}}{\varepsilon T}=\delta$$
+
+---
+> [!lemma] Theorem 2
+> Let $(P,\pi)$ be a reversible Markov chain and $\nu\in \Delta(\Omega)$. Let $f:=\frac{ d\nu}{d\pi}$.
+> $$\mathcal{E}_{P}(f,\log f)\geq 2 \cdot D(Pv\|v)\geq 4\left\| v-Pv \right\| ^{2}_{\text{TV}}$$
+
+> [!proof]+
+> We have that: $$\begin{aligned}\mathcal{E}_{P}(f,\log f)&=\mathbb{E}_{x\sim \pi}\mathbb{E}_{y\sim x}(f(x)-f(y))\log \frac{f(x)}{f(y)}\\&=\sum_{x,y\in \Omega}^{}\pi(x)P(x,y)f(x)\log \frac{f(x)}{f(y)}-\sum_{x,y\in \Omega}^{}\pi(y)P(y,x)f(y)\log \frac{f(x)}{f(y)}\\&=\sum_{x,y\in \Omega}^{}\pi(x)P(x,y)f(x)\log \frac{f(x)}{f(y)}+\sum_{x,y\in \Omega}^{}\pi(x)P(x,y)f(x)\log \frac{f(x)}{f(y)}\\&=2\mathbb{E}_{x\sim \pi}\mathbb{E}_{y \sim x}f(x)\log \frac{f(x)}{f(y)}\\&=2\mathbb{E}_{x\sim \nu}\mathbb{E}_{y \sim x}\log \frac{f(x)}{f(y)}\\&=2\mathbb{E}_{x\sim \nu}\log f(x)-2 \mathbb{E}_{y \sim P \nu} \log f(y)\\&=2\left[ \mathbb{E}_{\nu}\log f-\mathbb{E}_{P\nu} \right] \end{aligned}$$
