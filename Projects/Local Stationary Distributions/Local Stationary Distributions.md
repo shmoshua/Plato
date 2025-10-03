@@ -18,6 +18,9 @@
 > 1. the ***Dirichlet form*** of $f,g$ w.r.t. $P$ is given by: $$\mathcal{E}_{P}(f,g):=\mathbb{E}_{x\sim \pi}\mathbb{E}_{y\sim x}(f_{x}-f_{y})\cdot (g_{x}-g_{y})$$
 > 	where $\pi$ is the stationary distribution of $P$.
 
+- **Related definition**: We have that:
+  $$\mathcal{E}_{P}(f,\log f)=\sum_{x,y\in \Omega}^{}\pi(x)P(x,y)(f(x)-f(y))\log \frac{f(x)}{f(y)}$$
+
 ---
 > [!lemma] 
 > Let $(M,P,\pi)$ be an ergodic, reversible Markov chain. Then, $$\frac{d}{dt}\text{KL}(v_{t}\|\pi)=-\mathcal{E}(f_{t},\log f_{t})$$
@@ -71,5 +74,7 @@
 > [!lemma] 
 > For any distribution $\nu$ and Markov chain $(P,\pi)$ and $T> 0$, for $t \sim \text{Uni}[0,T]$, we have: $$\mathbb{E}_{t\sim [0,T]}\mathcal{E}_{P}(f_{t},\log f_{t})\leq \frac{D(\nu\|\pi)}{T}\leq \frac{\log \frac{1}{\pi_{\text{min}}}}{T}$$
 
-> [!proof]+
+> [!proof]-
 > We have that: $$\begin{aligned}0&\leq D(\nu_{t}\|\pi)\\&=D(\nu\|\pi)-\int_{0}^{T} \mathcal{E}(f_{t},\log f_{t}) \, dt\\&=D(\nu\|\pi)- T\cdot \mathbb{E}_{t\sim [0,T]} \mathcal{E}(f_{t},\log f_{t}) \end{aligned}$$
+
+- **Corollary**: We have that: $$\mathbb{P}(\mathcal{E}_{t})$$
