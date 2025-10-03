@@ -68,12 +68,13 @@
 > [!h] Example 1
 > For any $\pi\in \Delta(\mathbb{R}^n)$, 
 > 1. $(\pi,\delta_{z})$ is a measure decomposition of $\pi$.
-
+---
 ##### 2.4 Symmetric KL
 > [!definition] 
 > We define: 
 > 1. $\text{SKL}(\pi,\nu):=D(\nu\|\pi)+D(\pi\|\nu)$. 
 ---
+
 > [!lemma] 
 > Then, 
 > $$\text{SKL}(\pi,\nu)=\frac{1}{2}\mathbb{E}_{x,y \sim \pi}\left[ (f(x)-f(y))\log \frac{f(x)}{f(y)} \right] $$
@@ -82,6 +83,7 @@
 > We have that: $$\begin{aligned}\text{SKL}(\pi,\nu)&=\int f \log f \, d\pi+\int \frac{d\pi}{d\nu}\log \frac{d\pi}{d\nu} \, d\nu \\&=\int f \log f \, d\pi+\int \log \frac{d\pi}{d\nu} \, d\pi \\&=\mathbb{E}_{\pi}[(f-1)\log f] \end{aligned}$$Now, $$\begin{aligned}\mathbb{E}\left[ (f(x)-f(y))\log \frac{f(x)}{f(y)} \right]&=\mathbb{E}\left[ f(x)\log f(x)\right]+\mathbb{E}[f(y)\log f(y)]-\mathbb{E}[f(x)\log f(y)]-\mathbb{E}[f(y)\log f(x)]\\&=2\mathbb{E}\left[ f(x)\log f(x)\right]-2\mathbb{E}[\log f(x)]\\&=2\mathbb{E}_{\pi}[(f-1)\log f]\end{aligned}$$
 
 ---
+##### 2.5 Properties of Local Stationary Distributions
 > [!lemma] 
 > For any distribution $\nu$ and Markov chain $(P,\pi)$ and $T> 0$, for $t \sim \text{Uni}[0,T]$, we have: $$\mathbb{E}_{t\sim [0,T]}\mathcal{E}_{P}(f_{t},\log f_{t})\leq \frac{D(\nu\|\pi)}{T}\leq \frac{\log \frac{1}{\pi_{\text{min}}}}{T}$$
 
