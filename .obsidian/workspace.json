@@ -120,15 +120,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Discrete Memoryless Channel (DMC).md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Discrete Memoryless Channel (DMC)"
+              "title": "AlgoDat Roadmap"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -273,16 +274,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "60cf7eacf98379c9",
+  "active": "0dcd6b4c52c0a6ad",
   "lastOpenFiles": [
-    "Markov Processes/Glauber Dynamics.md",
+    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Markov Processes/Glauber Dynamics.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Measure Theory/Complex Measure.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Markov Processes/Markov Chain.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Information Theory/Relative Entropy.md",
     "Analysis/Lipschitz Function.md",
     "Lie Group/Exponential Map.md",
