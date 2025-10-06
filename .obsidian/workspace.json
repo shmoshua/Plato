@@ -51,20 +51,6 @@
             }
           },
           {
-            "id": "b7a0d4dd0e3bae3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Project Roadmap"
-            }
-          },
-          {
             "id": "617aa18160ec4b9c",
             "type": "leaf",
             "state": {
@@ -79,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -115,20 +101,6 @@
             }
           },
           {
-            "id": "4f0a70484bdedacc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Advanced Algorithms Roadmap"
-            }
-          },
-          {
             "id": "0dcd6b4c52c0a6ad",
             "type": "leaf",
             "state": {
@@ -143,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -288,8 +260,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4f0a70484bdedacc",
+  "active": "0863017d36ed11c7",
   "lastOpenFiles": [
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Probability Theory/Gaussian Distribution.md",
@@ -301,7 +274,6 @@
     "Measure Theory/Complex Measure.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Markov Processes/Markov Chain.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Information Theory/Relative Entropy.md",
     "Analysis/Lipschitz Function.md",
     "Lie Group/Exponential Map.md",
