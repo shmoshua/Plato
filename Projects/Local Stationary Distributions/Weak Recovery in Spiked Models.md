@@ -62,3 +62,7 @@
 > 1. $\mu_{W,h}$ is $\frac{1}{\kappa}$-entropically stable w.r.t. $(x,y)\mapsto \|x-y\|^{2}$
 > 2. $C_{\text{var}}(\rho,\mu_{0,W z+h})\geq \exp \left( -1/\kappa \right)$
 > 3. $C_{\text{MLSI}}(\mu_{W,h})\geq \frac{1}{n} \frac{1}{1-\kappa}$
+
+> [!proof]+
+> We have that: $$\int i=1 \, dsnefnefiwndkfmmdmdmfmff $$
+> I can't do this anymore. 
