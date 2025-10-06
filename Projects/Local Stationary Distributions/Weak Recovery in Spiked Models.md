@@ -64,5 +64,4 @@
 > 3. $C_{\text{MLSI}}(\mu_{W,h})\geq \frac{1}{n} \frac{1}{1-\kappa}$
 
 > [!proof]+
-> We have that: $$\int i=1 \, dsnefnefiwndkfmmdmdmfmff $$
-> I can't do this anymore. 
+> We have that: 
