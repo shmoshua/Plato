@@ -23,7 +23,13 @@
 > 1. $\mu_{M}$ admits a measure decomposition $\mu_{M}=\mathbb{E}_{z\sim \rho}\mu_{W,z}$ and
 > 2. RGD is the associated Markov chain to the decomposition.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. Let $\rho:= \mathcal{N}(z;0,\lambda v v^\top)$. Then, we can write $z=tv$ where $t\sim \mathcal{N}(0,\lambda)$. Hence,$$\begin{aligned}\int_{\Omega}\mu_{W,z}(x)  \, d\rho(z)&\propto\int_{\Omega}\exp \left( \frac{1}{2}x^\top Wx +\braket{ z , x }  \right)   d\rho(z) \\&\propto \exp \left( \frac{1}{2}x^\top Wx \right) \int_{\mathbb{R}}\exp \left(t\braket{ v, x }  \right)\exp \left( -\frac{t^{2}}{2\lambda} \right)   dt\\&\propto \exp \left( \frac{1}{2}x^\top Wx \right) \int_{\mathbb{R}}\exp \left( -\frac{t^{2}}{2\lambda}+t \braket{ v , x } \right)   dt \\&\propto \exp \left( \frac{1}{2}x^\top Wx \right) \int_{\mathbb{R}}\exp \left( -\frac{(t-\lambda\braket{ v , x } )^{2}}{2\lambda}+ \frac{\lambda\braket{ v , x } ^{2}}{2}\right)   dt\\&\propto \exp \left( \frac{1}{2}x^\top Mx  \right) \int_{\mathbb{R}}\exp \left( -\frac{(t-\lambda\braket{ v , x } )^{2}}{2\lambda}\right)dt \\&\propto \exp \left( \frac{1}{2}x^\top Mx  \right) \end{aligned}$$
-> 2. Then, we have: $$p(z,x)=\rho(x|z)\rho(z)$$
+> 2. Then, we have: $$\begin{aligned}p(z,x)&=p(x|z)\rho(z)\\&\propto \exp \left( \frac{1}{2}x^\top W x+t\braket{ v , x }  \right)\exp \left( -\frac{t^{2}}{2\lambda} \right)  \end{aligned}$$Hence, $$\begin{aligned}p(t|x)&\propto \exp \left( -\frac{t^{2}}{2\lambda}+t\braket{ v , x }  \right)\\&\propto\exp \left( -\frac{(t-\lambda\braket{ v , x } ) ^{2}}{2\lambda}\right)  \end{aligned}$$and $t|x\sim \mathcal{N}(\lambda \braket{ v , x },\lambda)$. Hence, $z|x\sim \mathcal{N}(\lambda \braket{ v , x }v,\lambda v v^\top)$
+---
+##### 2. Entropic Stability and Variance Conservation
+> [!definition] 
+> A measure decomposition $\pi=(\rho,\pi_{z})$ has ***conservation of variance*** with $C_{\text{var}}\in[0,1]$, 
+> 1. if for any $f:\Omega\to \mathbb{R}$, $$\mathbb{E}_{z\sim\rho}\text{Var}_{\pi_{z}}(f)\geq C_{\text{var}}\cdot  \text{Var}_{\pi}(f)$$
+- **Remark**: By law of total variance,$$\text{Var}_{\pi}(f)=\mathbb{E}_{z\sim \rho}\text{Var}_{\pi_{z}}(f)+\text{Var}_{z \sim \rho}\mathbb{E}_{\pi_{z}}[f]\geq \mathbb{E}_{z\sim \rho}\text{Var}_{\pi_{z}}(f) $$

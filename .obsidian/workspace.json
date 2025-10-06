@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Probability Theory/Conditional Expectation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Conditional Expectation"
             }
           }
         ],
@@ -147,7 +147,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "total varian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,7 +168,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -262,12 +263,13 @@
   },
   "active": "0863017d36ed11c7",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+    "Probability Theory/Conditional Expectation.md",
     "Probability Theory/Gaussian Distribution.md",
+    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "TA/AdvAlg/TimeSheet.md",
-    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Markov Processes/Glauber Dynamics.md",
@@ -288,7 +290,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "TA/AdvAlg/Problem Set 0.md",
     "Functional Analysis/Seminorm.md",
-    "Courses/NN Theory/Neural Network Theory Roadmap.md",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
     "TA/AdvAlg",
