@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -288,11 +288,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0863017d36ed11c7",
+  "active": "4f0a70484bdedacc",
   "lastOpenFiles": [
-    "Probability Theory/Gaussian Distribution.md",
-    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+    "Probability Theory/Gaussian Distribution.md",
     "TA/AdvAlg/TimeSheet.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
