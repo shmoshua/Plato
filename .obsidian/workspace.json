@@ -101,17 +101,31 @@
             }
           },
           {
+            "id": "5e0b5a785ac68021",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Gaussian Distribution.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Gaussian Distribution"
+            }
+          },
+          {
             "id": "0dcd6b4c52c0a6ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Expectation.md",
+                "file": "Information Theory/Relative Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conditional Expectation"
+              "title": "Relative Entropy"
             }
           }
         ],
@@ -263,11 +277,12 @@
   },
   "active": "0863017d36ed11c7",
   "lastOpenFiles": [
-    "Probability Theory/Conditional Expectation.md",
     "Probability Theory/Gaussian Distribution.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
-    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+    "Information Theory/Relative Entropy.md",
+    "Probability Theory/Conditional Expectation.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
@@ -276,7 +291,6 @@
     "Measure Theory/Complex Measure.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Markov Processes/Markov Chain.md",
-    "Information Theory/Relative Entropy.md",
     "Analysis/Lipschitz Function.md",
     "Lie Group/Exponential Map.md",
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",

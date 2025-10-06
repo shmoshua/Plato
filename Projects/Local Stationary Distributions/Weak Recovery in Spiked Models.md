@@ -33,3 +33,32 @@
 > A measure decomposition $\pi=(\rho,\pi_{z})$ has ***conservation of variance*** with $C_{\text{var}}\in[0,1]$, 
 > 1. if for any $f:\Omega\to \mathbb{R}$, $$\mathbb{E}_{z\sim\rho}\text{Var}_{\pi_{z}}(f)\geq C_{\text{var}}\cdot  \text{Var}_{\pi}(f)$$
 - **Remark**: By law of total variance,$$\text{Var}_{\pi}(f)=\mathbb{E}_{z\sim \rho}\text{Var}_{\pi_{z}}(f)+\text{Var}_{z \sim \rho}\mathbb{E}_{\pi_{z}}[f]\geq \mathbb{E}_{z\sim \rho}\text{Var}_{\pi_{z}}(f) $$
+---
+> [!definition]
+> For a measure $\pi$ on $\Omega \subseteq \mathbb{R}^n$ and vector $v\in \mathbb{R}^n$, 
+> 1. the ***tilted measure*** $\mathcal{T}_{v}\pi$ on $\Omega$ is defined s.t. $$\frac{d\mathcal{T}_{v}\pi(x)}{d\pi(x)}\propto \exp(\braket{ v , x } )$$
+---
+> [!h] Example 1
+> We have that:
+> 1. For $\pi=\mathcal{N}(\mu,\Sigma)$, $\mathcal{T}_{v}\pi=\mathcal{N}(\mu+\Sigma v,\Sigma)$.
+
+> [!proof]-
+> We have that:
+> 1. $$\begin{aligned}d(\mathcal{T}_{v}\pi)(x)&\propto \exp(\braket{ v , x } )\exp \left( -\frac{x^\top x}{2} \right)\\&=\exp \left(-\frac{x^\top x}{2}+\braket{ v , x }  \right)\\&\propto\exp \left( -\frac{(x-v)^\top(x-v)}{2} \right)   \end{aligned}$$
+---
+> [!definition] 
+> Let $\Omega \subseteq \mathbb{R}^n$ and $\psi:\mathbb{R}^n \times \mathbb{R}^n\to \mathbb{R}_{\geq 0}$.
+> 1. for $\alpha>0$, a measure $\pi$ on $\Omega$ is ***$\alpha$-entropically stable*** w.r.t. $\psi$ if for all $v\in \mathbb{R}^n$: $$\psi(\mathbb{E}_{x\sim T_{v}\pi}[x],\mathbb{E}_{x\sim \pi}[x])\leq \alpha \cdot  D(T_{v}\pi\| \pi)$$
+---
+> [!h] Example 1
+> We have that:
+> 1. $\pi=\mathcal{N}(\mu,\Sigma)$ is $2\lambda_{\text{max}}(\Sigma)$-entropically stable w.r.t. $(x,y)\mapsto \|x-y\|^{2}$.
+
+> [!proof]-
+> We have that for $\pi=\mathcal{N}(\mu,\Sigma)$, $T_{v}\pi=\mathcal{N}(\mu+\Sigma v,\Sigma)$. Then, $$D(T_{v}\pi\|\pi)=\frac{1}{2} (\Sigma v)^\top\Sigma ^{-1}\Sigma v=\frac{1}{2}v^\top \Sigma v $$If we take $\psi:(x,y)\mapsto \|x-y\|^{2}$, then: $$\begin{aligned}\psi(\mathbb{E}_{x\sim T_{v}\pi}[x],\mathbb{E}_{x\sim \pi}[x])&=\left\| \mu+\Sigma v-\mu \right\|^{2}=\left\| \Sigma v \right\| ^{2}=v^\top \Sigma^{2} v \end{aligned}$$Hence, $\alpha_{\text{Ent}}\leq 2\lambda_{\text{max}}(\Sigma)$.
+---
+> [!lemma] Theorem 1
+> Let $\kappa I \leq W \leq (1-\kappa) I$ and $h\in \mathbb{R}^n$ be arbitrary. Then, there exists a mixture: $$\mu_{W,h}=\mathbb{E}_{z\sim\rho}[\mu_{0,Wz+h}]$$ s.t.
+> 1. $\mu_{W,h}$ is $\frac{1}{\kappa}$-entropically stable w.r.t. $(x,y)\mapsto \|x-y\|^{2}$
+> 2. $C_{\text{var}}(\rho,\mu_{0,W z+h})\geq \exp \left( -1/\kappa \right)$
+> 3. $C_{\text{MLSI}}(\mu_{W,h})\geq \frac{1}{n} \frac{1}{1-\kappa}$
