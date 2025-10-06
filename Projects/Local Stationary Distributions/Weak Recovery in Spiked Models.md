@@ -25,4 +25,4 @@
 
 > [!proof]+
 > We have that:
-> 1. Let $\rho:= \mathcal{N}(z;\lambda \braket{ v , x }v,\lambda v v^\top)$. Then, we can write $z=tv$ where $t\sim \mathcal{N}(\lambda \braket{ v , x },\lambda)$. Hence,$$\begin{aligned}\int_{\Omega}\mu_{W,z}(x)  \, d\rho(z)&\propto\int_{\Omega}\exp \left( \frac{1}{2}x^\top Wx +\braket{ z , x }  \right)   d\rho(z) \\&\propto \exp \left( \frac{1}{2}x^\top Wx \right) \int_{\Omega}\exp \left(t\braket{ v, x }  \right)\exp \left( -\frac{(t-\lambda \braket{ v , x } )^{2}}{2\lambda} \right)   dt \end{aligned}$$
+> 1. Let $\rho:= \mathcal{N}(z;\lambda \braket{ v , x }v,\lambda v v^\top)$. Then, we can write $z=tv$ where $t\sim \mathcal{N}(\lambda \braket{ v , x },\lambda)$. Hence,$$\begin{aligned}\int_{\Omega}\mu_{W,z}(x)  \, d\rho(z)&\propto\int_{\Omega}\exp \left( \frac{1}{2}x^\top Wx +\braket{ z , x }  \right)   d\rho(z) \\&\propto \exp \left( \frac{1}{2}x^\top Wx \right) \int_{\mathbb{R}}\exp \left(t\braket{ v, x }  \right)\exp \left( -\frac{(t-\lambda \braket{ v , x } )^{2}}{2\lambda} \right)   dt \end{aligned}$$
