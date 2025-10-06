@@ -117,3 +117,5 @@
 
 > [!proof]+
 > We have: $$\mathbb{E}_{x\sim \nu}\mathbb{E}_{y \sim x}\left( 1-\frac{f(y)}{f(x)} \right)\log \frac{f(x)}{f(y)}=\mathbb{E}_{x\sim \pi}\mathbb{E}_{y \sim x}(f(x)-f(y))\log \frac{f(x)}{f(y)}<\varepsilon$$Now, $$\mathbb{P}\left( \left( 1-\frac{f(y)}{f(x)} \right)\log \frac{f(x)}{f(y)}\geq \frac{\varepsilon}{\delta} \right) <\delta$$Hence, $$ \left( 1-\frac{f(y)}{f(x)} \right)\log \frac{f(x)}{f(y)}< \frac{\varepsilon}{\delta}$$
+
+---
