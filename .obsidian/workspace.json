@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
+                "file": "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Project Roadmap"
+              "title": "Weak Recovery in Spiked Models"
             }
           },
           {
@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Weak Recovery in Spiked Models"
             }
           },
           {
@@ -114,7 +114,8 @@
               "title": "Relative Entropy"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -259,14 +260,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "617aa18160ec4b9c",
+  "active": "60cf7eacf98379c9",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
-    "Job Application.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Measure Theory/Complex Measure.md",
+    "Job Application.md",
+    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Probability Theory/Gaussian Distribution.md",
     "Information Theory/Relative Entropy.md",
+    "Measure Theory/Complex Measure.md",
     "Probability Theory/Conditional Expectation.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
