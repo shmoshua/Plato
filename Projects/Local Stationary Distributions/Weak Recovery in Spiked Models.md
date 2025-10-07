@@ -52,8 +52,13 @@
 > 1. there exists a unique function $v:K\to \mathbb{R}^n$ s.t. $\mathbb{E}_{z\sim T_{v(x)}\pi}[z]=x$ for all $x\in K$.
 > 2. for $g(x):= D(T_{v(x)}\pi\|\pi)$, $\nabla g(\mathbb{E}_{\pi}[z]) = 0$ and $\nabla^{2}g(x)=\text{Var}(T_{v(x)}\pi)^{-1}$ for all $x\in K$.
 
-> [!proof]+
->  Let the log Laplace transform be: $$L_{\pi}:\mathbb{R}^n\to \mathbb{R},\quad \theta\mapsto \log \int_{}^{} \exp \braket{ x , \theta }  \, d\pi(x) $$Then, $$\nabla L_{\pi}(\theta)=\frac{ \int_{}^{} x\exp \braket{ x , \theta }  \, d\pi(x)}{\int_{}^{} \exp \braket{ x , \theta }  \, d\pi(x) }= \mathbb{E}_{T_{\theta}\pi}[x]$$
+> [!proof]-
+>  Let the log Laplace transform be: $$L_{\pi}:\mathbb{R}^n\to \mathbb{R},\quad \theta\mapsto \log \int_{}^{} \exp \braket{ x , \theta }  \, d\pi(x) $$Then, $$\nabla L_{\pi}(\theta)=\frac{ \int_{}^{} x\exp \braket{ x , \theta }  \, d\pi(x)}{\int_{}^{} \exp \braket{ x , \theta }  \, d\pi(x) }= \mathbb{E}_{T_{\theta}\pi}[x]$$and $\nabla^{2}L_{\pi}(\theta)=\text{Var}(T_{\theta}\pi)$. Since $\text{Var}(\pi)$ is invertible, $\nabla^{2} L_{\pi}(0)> 0$. Further as $L_{\pi}$ is analytic $\nabla^{2}L_{\pi}(\theta)> 0$ for all $\theta$ and $L_{\pi}$ is strictly convex.
+>  
+>  1. Now, consider $\Phi:\mathbb{R}^n\to K,\theta\mapsto \nabla L_{\pi}(\theta)=\mathbb{E}_{T_{\theta}\pi}[x]$ which is smooth. One sees that, $\Phi$ is a diffeomorphism and for each $x\in K$, there exists $v(x):=\theta$ s.t. $\Phi(v(x))=\mathbb{E}_{T_{v(x)}\pi}[z]=x$.
+>  2. First, notice that: $$\frac{d(T_{\theta}\pi)}{d\pi}(y)=e^{\braket{ \theta , y } -L_{\pi}(\theta)}$$Hence, $$D(T_{\theta }\pi\|\pi)=\mathbb{E}_{y\sim T_{\theta}\pi}[\braket{ \theta , y } -L_{\pi}(\theta)]=\braket{ \theta , \nabla  L_{\pi}(\theta) }-L_{\pi}(\theta) $$Now, we have: $$\begin{aligned}g(x)&=D(T_{v(x)}\pi\|\pi)\\&=\braket{ v(x) , x }-L_{\pi}(v(x))\end{aligned}$$We claim that this is equal to $\sup_{\eta}\braket{ x , \eta }-L_{\pi}(\eta)$. We have that the optimum condition is given by: $$x - \nabla L_{\pi}(\eta)=0$$Hence, $\eta ^{*} = v(x)$. In other words, $g$ is the Legendre transform of $L_{\pi}$. 
+>     
+>     Therefore, as $\nabla L_{\pi}(0)=\mathbb{E}_{\pi}[z]$,$$\nabla g(\mathbb{E}_{\pi}[z])=0,\quad \nabla^{2} g(x)= \left(  \nabla^{2}L_{\pi}(v(x))\right)^{-1}=\text{Var}(T_{v(x)}\pi)^{-1}. $$
 
 ---
 > [!definition] 
@@ -72,7 +77,9 @@
 > 1. if $\text{Var}(T_{v}\mu)\leq A$ for all $v\in \mathbb{R}^n$, then $\mu$ is $\alpha$-entropically stable w.r.t. $(x,y)\mapsto \frac{1}{2}\left\| C(x-y) \right\|^{2}$ for $\alpha=\left\| CAC \right\|$.
 
 > [!proof]+
+> Let $v(x),g(x)$ and $K$ be as in Lemma 2. We have that: $$\nabla^{2}g(x)=\text{Var}(T_{v(x)}\pi)^{-1}\geq A^{-1},\quad \forall x\in K$$and $\nabla g(\mathbb{E}_{\pi}[z])=0$. 
 > 
+> Let $h(x):=$
 ---
 ##### 3. Theorem for Ising Model
 > [!lemma] Theorem 1
