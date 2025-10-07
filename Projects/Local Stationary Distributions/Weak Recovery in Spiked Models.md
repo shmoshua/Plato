@@ -28,12 +28,13 @@
 > 1. Let $\rho:= \mathcal{N}(z;0,\lambda v v^\top)$. Then, we can write $z=tv$ where $t\sim \mathcal{N}(0,\lambda)$. Hence,$$\begin{aligned}\int_{\Omega}\mu_{W,z}(x)  \, d\rho(z)&\propto\int_{\Omega}\exp \left( \frac{1}{2}x^\top Wx +\braket{ z , x }  \right)   d\rho(z) \\&\propto \exp \left( \frac{1}{2}x^\top Wx \right) \int_{\mathbb{R}}\exp \left(t\braket{ v, x }  \right)\exp \left( -\frac{t^{2}}{2\lambda} \right)   dt\\&\propto \exp \left( \frac{1}{2}x^\top Wx \right) \int_{\mathbb{R}}\exp \left( -\frac{t^{2}}{2\lambda}+t \braket{ v , x } \right)   dt \\&\propto \exp \left( \frac{1}{2}x^\top Wx \right) \int_{\mathbb{R}}\exp \left( -\frac{(t-\lambda\braket{ v , x } )^{2}}{2\lambda}+ \frac{\lambda\braket{ v , x } ^{2}}{2}\right)   dt\\&\propto \exp \left( \frac{1}{2}x^\top Mx  \right) \int_{\mathbb{R}}\exp \left( -\frac{(t-\lambda\braket{ v , x } )^{2}}{2\lambda}\right)dt \\&\propto \exp \left( \frac{1}{2}x^\top Mx  \right) \end{aligned}$$
 > 2. Then, we have: $$\begin{aligned}p(z,x)&=p(x|z)\rho(z)\\&\propto \exp \left( \frac{1}{2}x^\top W x+t\braket{ v , x }  \right)\exp \left( -\frac{t^{2}}{2\lambda} \right)  \end{aligned}$$Hence, $$\begin{aligned}p(t|x)&\propto \exp \left( -\frac{t^{2}}{2\lambda}+t\braket{ v , x }  \right)\\&\propto\exp \left( -\frac{(t-\lambda\braket{ v , x } ) ^{2}}{2\lambda}\right)  \end{aligned}$$and $t|x\sim \mathcal{N}(\lambda \braket{ v , x },\lambda)$. Hence, $z|x\sim \mathcal{N}(\lambda \braket{ v , x }v,\lambda v v^\top)$
 ---
-##### 2. Entropic Stability and Variance Conservation
+##### 2. Conservation of Variance
 > [!definition] 
 > A measure decomposition $\pi=(\rho,\pi_{z})$ has ***conservation of variance*** with $C_{\text{var}}\in[0,1]$, 
 > 1. if for any $f:\Omega\to \mathbb{R}$, $$\mathbb{E}_{z\sim\rho}\text{Var}_{\pi_{z}}(f)\geq C_{\text{var}}\cdot  \text{Var}_{\pi}(f)$$
 - **Remark**: By law of total variance,$$\text{Var}_{\pi}(f)=\mathbb{E}_{z\sim \rho}\text{Var}_{\pi_{z}}(f)+\text{Var}_{z \sim \rho}\mathbb{E}_{\pi_{z}}[f]\geq \mathbb{E}_{z\sim \rho}\text{Var}_{\pi_{z}}(f) $$
 ---
+##### 3. Tilted Measure and Entropic Stability
 > [!definition]
 > For a measure $\pi$ on $\Omega \subseteq \mathbb{R}^n$ and vector $v\in \mathbb{R}^n$, 
 > 1. the ***tilted measure*** $\mathcal{T}_{v}\pi$ on $\Omega$ is defined s.t. $$\frac{d\mathcal{T}_{v}\pi(x)}{d\pi(x)}\propto \exp(\braket{ v , x } )$$
@@ -45,6 +46,15 @@
 > [!proof]-
 > We have that:
 > 1. $$\begin{aligned}d(\mathcal{T}_{v}\pi)(x)&\propto \exp(\braket{ v , x } )\exp \left( -\frac{x^\top x}{2} \right)\\&=\exp \left(-\frac{x^\top x}{2}+\braket{ v , x }  \right)\\&\propto\exp \left( -\frac{(x-v)^\top(x-v)}{2} \right)   \end{aligned}$$
+---
+> [!lemma] Lemma 2
+> Let $\pi$ be a measure on $\mathbb{R}^n$ s.t. $\text{Var}(\pi)\in \text{GL}(n,\mathbb{R})$. Let $K:=\text{conv}(\text{supp}(\pi))^\circ$.
+> 1. there exists a unique function $v:K\to \mathbb{R}^n$ s.t. $\mathbb{E}_{z\sim T_{v(x)}\pi}[z]=x$ for all $x\in K$.
+> 2. for $g(x):= D(T_{v(x)}\pi\|\pi)$, $\nabla g(\mathbb{E}_{\pi}[z]) = 0$ and $\nabla^{2}g(x)=\text{Var}(T_{v(x)}\pi)^{-1}$ for all $x\in K$.
+
+> [!proof]+
+>  Let the log Laplace transform be: $$L_{\pi}:\mathbb{R}^n\to \mathbb{R},\quad \theta\mapsto \log \int_{}^{} \exp \braket{ x , \theta }  \, d\pi(x) $$Then, $$\nabla L_{\pi}(\theta)=\frac{ \int_{}^{} x\exp \braket{ x , \theta }  \, d\pi(x)}{\int_{}^{} \exp \braket{ x , \theta }  \, d\pi(x) }= \mathbb{E}_{T_{\theta}\pi}[x]$$
+
 ---
 > [!definition] 
 > Let $\Omega \subseteq \mathbb{R}^n$ and $\psi:\mathbb{R}^n \times \mathbb{R}^n\to \mathbb{R}_{\geq 0}$.
