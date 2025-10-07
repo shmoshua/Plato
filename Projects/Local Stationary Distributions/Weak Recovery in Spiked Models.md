@@ -57,11 +57,21 @@
 > [!proof]-
 > We have that for $\pi=\mathcal{N}(\mu,\Sigma)$, $T_{v}\pi=\mathcal{N}(\mu+\Sigma v,\Sigma)$. Then, $$D(T_{v}\pi\|\pi)=\frac{1}{2} (\Sigma v)^\top\Sigma ^{-1}\Sigma v=\frac{1}{2}v^\top \Sigma v $$If we take $\psi:(x,y)\mapsto \|x-y\|^{2}$, then: $$\begin{aligned}\psi(\mathbb{E}_{x\sim T_{v}\pi}[x],\mathbb{E}_{x\sim \pi}[x])&=\left\| \mu+\Sigma v-\mu \right\|^{2}=\left\| \Sigma v \right\| ^{2}=v^\top \Sigma^{2} v \end{aligned}$$Hence, $\alpha_{\text{Ent}}\leq 2\lambda_{\text{max}}(\Sigma)$.
 ---
+> [!lemma] Lemma 2 
+> Let $\mu$ be a measure on $\mathbb{R}^n$ and $A,C\geq 0$. 
+> 1. if $\text{Var}(T_{v}\mu)\leq A$ for all $v\in \mathbb{R}^n$, then $\mu$ is $\alpha$-entropically stable w.r.t. $(x,y)\mapsto \frac{1}{2}\left\| C(x-y) \right\|^{2}$ for $\alpha=\left\| CAC \right\|$.
+
+> [!proof]+
+> 
+---
+##### 3. Theorem for Ising Model
 > [!lemma] Theorem 1
 > Let $\kappa I \leq W \leq (1-\kappa) I$ and $h\in \mathbb{R}^n$ be arbitrary. Then, there exists a mixture: $$\mu_{W,h}=\mathbb{E}_{z\sim\rho}[\mu_{0,Wz+h}]$$ s.t.
 > 1. $\mu_{W,h}$ is $\frac{1}{\kappa}$-entropically stable w.r.t. $(x,y)\mapsto \|x-y\|^{2}$
 > 2. $C_{\text{var}}(\rho,\mu_{0,W z+h})\geq \exp \left( -1/\kappa \right)$
 > 3. $C_{\text{MLSI}}(\mu_{W,h})\geq \frac{1}{n} \frac{1}{1-\kappa}$
 
-> [!proof]+
-> Let $\rho=\mathcal{N}(0,W^{-1})$. We have that: $$\begin{aligned}\int \mu_{0,Wz+h}(x)  \, \rho(dz) &\propto \int_{}^{} \exp(\braket{ Wz+h , x })\exp \left( - \frac{1}{2}z^\top W z \right) dz\\ &\propto \int_{}^{} \exp\left( -\frac{1}{2}z^\top W z+x^\top W z + x^\top h\right) \, dz\\&=\int \exp \left( -\frac{1}{2} \right)   \, dx  \end{aligned}$$
+> [!proof]-
+> Let $\rho=\mathcal{N}(0,W^{-1})$. We have that: $$\begin{aligned}\int \mu_{0,Wz+h}(x)  \, \rho(dz) &\propto \int_{}^{} \exp(\braket{ Wz+h , x })\exp \left( - \frac{1}{2}z^\top W z \right) dz\\ &\propto \int_{}^{} \exp\left( -\frac{1}{2}z^\top W z+x^\top W z + x^\top h\right) \, dz\\&=\exp \left( \frac{1}{2}x^\top W x + x^\top h \right) \int \exp \left( -\frac{1}{2}(z-x)^\top W (z-x) \right)   \, dz\\&=\mu_{W,h}(x)  \end{aligned}$$Then, 
+> 1. First we try to find $T_{v}\mu_{W,h}$. We have that: $$\begin{aligned}d(T_{v}\mu_{W,h})(x)&\propto \exp(\braket{ v , x } )\exp \left( \frac{1}{2}x^\top W x + h^\top x \right)\\&\propto \exp \left( \frac{1}{2}x^\top W x + (h+v)^\top x \right) \end{aligned}$$and $T_{v}\mu_{W,h}=\mu_{W,h+v}$. Hence, $$$$
+> 2. $$D(T_{v}\mu_{W,h}\| \mu_{W,h})=\mathbb{E}_{X}$$

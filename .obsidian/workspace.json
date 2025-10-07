@@ -113,6 +113,20 @@
               "icon": "lucide-file",
               "title": "Relative Entropy"
             }
+          },
+          {
+            "id": "32608dc3d4c618ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Gaussian Distribution.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Gaussian Distribution"
+            }
           }
         ],
         "currentTab": 1
@@ -260,13 +274,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "60cf7eacf98379c9",
+  "active": "5e0b5a785ac68021",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Job Application.md",
-    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Probability Theory/Gaussian Distribution.md",
     "Information Theory/Relative Entropy.md",
+    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Job Application.md",
     "Measure Theory/Complex Measure.md",
     "Probability Theory/Conditional Expectation.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
