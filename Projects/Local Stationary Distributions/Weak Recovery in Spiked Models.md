@@ -76,10 +76,13 @@
 > Let $\mu$ be a measure on $\mathbb{R}^n$ and $A,C\geq 0$. 
 > 1. if $\text{Var}(T_{v}\mu)\leq A$ for all $v\in \mathbb{R}^n$, then $\mu$ is $\alpha$-entropically stable w.r.t. $(x,y)\mapsto \frac{1}{2}\left\| C(x-y) \right\|^{2}$ for $\alpha=\left\| CAC \right\|$.
 
-> [!proof]+
+> [!proof]-
 > Let $v(x),g(x)$ and $K$ be as in Lemma 2. We have that: $$\nabla^{2}g(x)=\text{Var}(T_{v(x)}\pi)^{-1}\geq A^{-1},\quad \forall x\in K$$and $\nabla g(\mathbb{E}_{\pi}[z])=0$. 
 > 
-> Let $h(x):=\frac{1}{2}\left\| C(x-\mathbb{E}_{\pi}[z]) \right\|^{2}$. Then, $$\nabla h(\mathbb{E}_{\pi}[z])=0,\quad \nabla^{2}h\equiv C^{2}$$Hence, for all $x\in K$, we have: $$\left\| CAC \right\| \nabla^{2} g(x)\geq \left\| CAC \right\| \cdot A^{-1}\geq C^{2}=\nabla^{2}h(x)$$ where: $$u^\top A^{-1} u=u^\top C(C^{-1}A^{-1}C^{-1})C u\geq \lambda_{\text{min}}(C^{-1}A^{-1}C^{-1})u^\top C^{2} u= \frac{1}{\left\| CAC \right\| }u^\top C^{2} u,\quad \forall u$$Hence, we have that $\left\| CAC \right\|g(x)\geq h(x)$ for all $x\in K$. Now, $$\frac{1}{2}\left\| C(\mathbb{E}_{T_{v}\pi}[z]-\mathbb{E}_{\pi}[z]) \right\|^{2}=h(\mathbb{E}_{T_{v}\pi}[z])\leq \left\| CAC \right\| g(\mathbb{E}_{T_{v}\pi}[z]) $$
+> Let $h(x):=\frac{1}{2}\left\| C(x-\mathbb{E}_{\pi}[z]) \right\|^{2}$. Then, $$\nabla h(\mathbb{E}_{\pi}[z])=0,\quad \nabla^{2}h\equiv C^{2}$$Hence, for all $x\in K$, we have: $$\left\| CAC \right\| \nabla^{2} g(x)\geq \left\| CAC \right\| \cdot A^{-1}\geq C^{2}=\nabla^{2}h(x)$$ where: $$u^\top A^{-1} u=u^\top C(C^{-1}A^{-1}C^{-1})C u\geq \lambda_{\text{min}}(C^{-1}A^{-1}C^{-1})u^\top C^{2} u= \frac{1}{\left\| CAC \right\| }u^\top C^{2} u,\quad \forall u$$Hence, we have that $\left\| CAC \right\|g(x)\geq h(x)$ for all $x\in K$. Now, $$\frac{1}{2}\left\| C(\mathbb{E}_{T_{v}\pi}[z]-\mathbb{E}_{\pi}[z]) \right\|^{2}=h(\mathbb{E}_{T_{v}\pi}[z])\leq \left\| CAC \right\| g(\mathbb{E}_{T_{v}\pi}[z]) =\left\| CAC \right\| D(T_{v}\pi\|\pi)$$
+---
+> [!lemma] Lemma 3
+> Let $0\leq J \leq \frac{1}{2}I$. Then, $$\text{Cov}(\mu_{J,v})\leq \frac{1}{1-2\left\| J \right\| }$$
 ---
 ##### 3. Theorem for Ising Model
 > [!lemma] Theorem 1
@@ -88,7 +91,8 @@
 > 2. $C_{\text{var}}(\rho,\mu_{0,W z+h})\geq \exp \left( -1/\kappa \right)$
 > 3. $C_{\text{MLSI}}(\mu_{W,h})\geq \frac{1}{n} \frac{1}{1-\kappa}$
 
-> [!proof]-
+> [!proof]+
 > Let $\rho=\mathcal{N}(0,W^{-1})$. We have that: $$\begin{aligned}\int \mu_{0,Wz+h}(x)  \, \rho(dz) &\propto \int_{}^{} \exp(\braket{ Wz+h , x })\exp \left( - \frac{1}{2}z^\top W z \right) dz\\ &\propto \int_{}^{} \exp\left( -\frac{1}{2}z^\top W z+x^\top W z + x^\top h\right) \, dz\\&=\exp \left( \frac{1}{2}x^\top W x + x^\top h \right) \int \exp \left( -\frac{1}{2}(z-x)^\top W (z-x) \right)   \, dz\\&=\mu_{W,h}(x)  \end{aligned}$$Then, 
-> 4. First we try to find $T_{v}\mu_{W,h}$. We have that: $$\begin{aligned}d(T_{v}\mu_{W,h})(x)&\propto \exp(\braket{ v , x } )\exp \left( \frac{1}{2}x^\top W x + h^\top x \right)\\&\propto \exp \left( \frac{1}{2}x^\top W x + (h+v)^\top x \right) \end{aligned}$$and $T_{v}\mu_{W,h}=\mu_{W,h+v}$. Hence, $$$$
-> 5. $$D(T_{v}\mu_{W,h}\| \mu_{W,h})=\mathbb{E}_{X}$$
+> 1. First we try to find $T_{v}\mu_{W,h}$. We have that: $$\begin{aligned}d(T_{v}\mu_{W,h})(x)&\propto \exp(\braket{ v , x } )\exp \left( \frac{1}{2}x^\top W x + h^\top x \right)\\&\propto \exp \left( \frac{1}{2}x^\top W x + (h+v)^\top x \right) \end{aligned}$$and $T_{v}\mu_{W,h}=\mu_{W,h+v}$. Now, we have that $$\text{Var}(T_{v}\mu_{W,h})=\text{Var}(\mu_{W,h+v})$$
+> 2. $$D(T_{v}\mu_{W,h}\| \mu_{W,h})=\mathbb{E}_{X}$$
+---
