@@ -82,7 +82,7 @@
 > Let $h(x):=\frac{1}{2}\left\| C(x-\mathbb{E}_{\pi}[z]) \right\|^{2}$. Then, $$\nabla h(\mathbb{E}_{\pi}[z])=0,\quad \nabla^{2}h\equiv C^{2}$$Hence, for all $x\in K$, we have: $$\left\| CAC \right\| \nabla^{2} g(x)\geq \left\| CAC \right\| \cdot A^{-1}\geq C^{2}=\nabla^{2}h(x)$$ where: $$u^\top A^{-1} u=u^\top C(C^{-1}A^{-1}C^{-1})C u\geq \lambda_{\text{min}}(C^{-1}A^{-1}C^{-1})u^\top C^{2} u= \frac{1}{\left\| CAC \right\| }u^\top C^{2} u,\quad \forall u$$Hence, we have that $\left\| CAC \right\|g(x)\geq h(x)$ for all $x\in K$. Now, $$\frac{1}{2}\left\| C(\mathbb{E}_{T_{v}\pi}[z]-\mathbb{E}_{\pi}[z]) \right\|^{2}=h(\mathbb{E}_{T_{v}\pi}[z])\leq \left\| CAC \right\| g(\mathbb{E}_{T_{v}\pi}[z]) =\left\| CAC \right\| D(T_{v}\pi\|\pi)$$
 ---
 > [!lemma] Lemma 3
-> Let $0\leq J \leq \frac{1}{2}I$. Then, $$\text{Cov}(\mu_{J,v})\leq \frac{1}{1-2\left\| J \right\| }$$
+> Let $0\leq J \leq \frac{1}{2}I$. Then, $$\text{Var}(\mu_{J,v})\leq \frac{1}{1-2\left\| J \right\| }I$$
 ---
 ##### 3. Theorem for Ising Model
 > [!lemma] Theorem 1
@@ -96,3 +96,4 @@
 > 1. First we try to find $T_{v}\mu_{W,h}$. We have that: $$\begin{aligned}d(T_{v}\mu_{W,h})(x)&\propto \exp(\braket{ v , x } )\exp \left( \frac{1}{2}x^\top W x + h^\top x \right)\\&\propto \exp \left( \frac{1}{2}x^\top W x + (h+v)^\top x \right) \end{aligned}$$and $T_{v}\mu_{W,h}=\mu_{W,h+v}$. Now, we have that $$\text{Var}(T_{v}\mu_{W,h})=\text{Var}(\mu_{W,h+v})$$
 > 2. $$D(T_{v}\mu_{W,h}\| \mu_{W,h})=\mathbb{E}_{X}$$
 ---
+$$\begin{aligned}\int \mu_{0,Wz+h}(x)  \, \rho(dz) &\propto \int_{}^{} \exp(\braket{ Wz+h , x })\exp \left( - \frac{1}{2\sigma^{2}}z^\top z \right) dz\\  \end{aligned}$$
