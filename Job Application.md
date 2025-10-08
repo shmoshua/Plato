@@ -1,8 +1,14 @@
+##### 1. Quant
+
 1. **Janestreet**
-2. **Optiver**
-3. **Jump**
-4. **Two Sigma**
-5. **HRT**
-6. DRW
-7. IMC
-8. **Google**
+2. **Citadel**
+3. **Optiver**
+4. **Jump**
+5. **Two Sigma**
+6. **HRT**
+7. **DRW**
+8. **Quadrature**
+9. **IMC**
+10. **Google**
+
+##### 2. SWE
