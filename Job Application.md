@@ -10,5 +10,7 @@
 8. **Quadrature**
 9. **IMC**
 10. **Google**
+11. Five rings
+12. Squarepoint
 
 ##### 2. SWE
