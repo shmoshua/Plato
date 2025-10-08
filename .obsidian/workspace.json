@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Complex Measure.md",
-                "mode": "preview",
+                "file": "Job Application.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Complex Measure"
+              "title": "Job Application"
             }
           },
           {
@@ -64,8 +64,7 @@
               "title": "Job Application"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "d54d634cc1ba8421",
@@ -79,7 +78,7 @@
               "type": "markdown",
               "state": {
                 "file": "Job Application.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -142,8 +141,7 @@
               "title": "Relative Entropy"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -288,15 +286,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5e0b5a785ac68021",
+  "active": "143d4125b823b540",
   "lastOpenFiles": [
+    "Measure Theory/Complex Measure.md",
     "Job Application.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Analysis/Convex Function.md",
     "Probability Theory/Gaussian Distribution.md",
     "Information Theory/Relative Entropy.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Measure Theory/Complex Measure.md",
     "Probability Theory/Conditional Expectation.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
