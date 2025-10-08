@@ -79,7 +79,7 @@
               "type": "markdown",
               "state": {
                 "file": "Job Application.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -290,12 +290,12 @@
   },
   "active": "5e0b5a785ac68021",
   "lastOpenFiles": [
-    "Analysis/Convex Function.md",
+    "Job Application.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+    "Analysis/Convex Function.md",
     "Probability Theory/Gaussian Distribution.md",
     "Information Theory/Relative Entropy.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Job Application.md",
     "Measure Theory/Complex Measure.md",
     "Probability Theory/Conditional Expectation.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
