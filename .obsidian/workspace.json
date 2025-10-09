@@ -9,20 +9,6 @@
         "dimension": 48.71645274212369,
         "children": [
           {
-            "id": "619d22825dc90029",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Job Application.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Job Application"
-            }
-          },
-          {
             "id": "d80092e9abfbd6b4",
             "type": "leaf",
             "state": {
@@ -64,27 +50,14 @@
               "title": "Job Application"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
         "type": "tabs",
         "dimension": 51.283547257876315,
         "children": [
-          {
-            "id": "143d4125b823b540",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Job Application.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Job Application"
-            }
-          },
           {
             "id": "5e0b5a785ac68021",
             "type": "leaf",
@@ -286,10 +259,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "143d4125b823b540",
+  "active": "60cf7eacf98379c9",
   "lastOpenFiles": [
-    "Measure Theory/Complex Measure.md",
+    "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Job Application.md",
+    "Measure Theory/Complex Measure.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Analysis/Convex Function.md",
     "Probability Theory/Gaussian Distribution.md",
@@ -309,7 +283,6 @@
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
     "Projects/Local Stationary Distributions",
     "Courses/Advanced Algorithms/Exercise 02.md",
-    "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
     "GHW1.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
