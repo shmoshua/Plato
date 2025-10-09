@@ -95,7 +95,7 @@
 > Let $\rho=\mathcal{N}(0,W^{-1})$. We have that: $$\begin{aligned}\int \mu_{0,Wz+h}(x)  \, \rho(dz) &\propto \int_{}^{} \exp(\braket{ Wz+h , x })\exp \left( - \frac{1}{2}z^\top W z \right) dz\\ &\propto \int_{}^{} \exp\left( -\frac{1}{2}z^\top W z+x^\top W z + x^\top h\right) \, dz\\&=\exp \left( \frac{1}{2}x^\top W x + x^\top h \right) \int \exp \left( -\frac{1}{2}(z-x)^\top W (z-x) \right)   \, dz\\&=\mu_{W,h}(x)  \end{aligned}$$Then, 
 > 1. First we try to find $T_{v}\mu_{W,h}$. We have that: $$\begin{aligned}d(T_{v}\mu_{W,h})(x)&\propto \exp(\braket{ v , x } )\exp \left( \frac{1}{2}x^\top W x + h^\top x \right)\\&\propto \exp \left( \frac{1}{2}x^\top W x + (h+v)^\top x \right) \end{aligned}$$and $T_{v}\mu_{W,h}=\mu_{W,h+v}$. 
 >    
->    Note that: $$\begin{aligned}\mu_{A,b}(x)&\propto \exp \left( \frac{1}{2}x^\top Ax +b^\top x  \right) \\&= \exp \left( -\frac{1}{2}x^\top(-A)x \right) \end{aligned}$$
+>    Note that: $$\begin{aligned}\mu_{A,b}(x)&\propto \exp \left( \frac{1}{2}x^\top Ax +b^\top x  \right) \\&\propto \exp \left( -\frac{1}{2}(x+A ^{-1}b)^\top(-A)(x+A ^{-1}b) \right) \end{aligned}$$and $\mu_{A,b}=\mathcal{N}(-A^{-1}b,-A^{-1})$.
 >    We have to show that $\text{Var}(T_{v}\mu)\leq  \frac{1}{2\kappa}I$ for all $v\in \mathbb{R}^n$. 
 >    
 >    
