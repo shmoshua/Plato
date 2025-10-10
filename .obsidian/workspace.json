@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convex Function.md",
+                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Function"
+              "title": "Project Roadmap"
             }
           },
           {
@@ -259,18 +259,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "60cf7eacf98379c9",
+  "active": "5e0b5a785ac68021",
   "lastOpenFiles": [
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+    "Analysis/Convex Function.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Job Application.md",
     "Measure Theory/Complex Measure.md",
-    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
-    "Analysis/Convex Function.md",
     "Probability Theory/Gaussian Distribution.md",
     "Information Theory/Relative Entropy.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Probability Theory/Conditional Expectation.md",
-    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
