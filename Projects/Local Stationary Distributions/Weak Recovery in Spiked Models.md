@@ -160,3 +160,4 @@
 > 	2. if $1\leq r\leq \frac{3\eta \sqrt{ n }}{2\tilde{C} \lambda}$
 > 7. **Claim 2**: $\mathbb{E}_{y\sim x}\left| \braket{ y , v } \right|-\min \{ r,\eta \sqrt{ n } \}>-\exp(-\Omega(n))$
 >  
+1. Why tilted measure
