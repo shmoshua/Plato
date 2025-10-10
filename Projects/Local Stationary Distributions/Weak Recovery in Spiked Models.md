@@ -128,5 +128,27 @@
 > 2. is $s\geq 2\sqrt{ \frac{n}{C_{\text{var}}\alpha_{\text{Ent}}} }$, then it holds by monotonicity.
 ---
 > [!lemma] Corollary (RGD Boost)
-> Let $y\sim_{ P_{\text{RGD}}}x$. Then, $$\mathbb{E}$$
+> Let $M=W+\lambda vv^\top$ be an interaction matrix. Then, $$\mathbb{E}_{y\sim P_{\text{RGD}}x}\left| \braket{ y , v }  \right| \geq (1-\gamma)\cdot \frac{C_{\text{var}}}{2}\mathbb{E}_{g\sim \mathcal{N}(0,1)}\min \left\{  \left| \lambda \left| \braket{ x , v }  \right| +\sqrt{ \lambda } g\right|,2\sqrt{ \frac{n}{C_{\text{Var}}\alpha_{\text{Ent}}} }  \right\}$$
+
+> [!proof]-
+> We have that: 
+> $$\begin{aligned}\mathbb{E}_{y\sim x}\left| \braket{ y , v }  \right| &=\mathbb{E}_{g}\mathbb{E}_{y\sim \mu_{W,(\lambda \braket{ v , x } +\sqrt{ \lambda }g)v}}\left| \braket{ y , v }  \right| \\&\ge\mathbb{E}_{g}(1-\gamma)\cdot \frac{C_{\text{Var}}}{2}\cdot \min\left\{  \left| \lambda \left| \braket{ x , v }  \right| +\sqrt{ \lambda } g\right|,2\sqrt{ \frac{n}{C_{\text{Var}}\alpha_{\text{Ent}}} }  \right\}\end{aligned}$$
+
+---
+> [!lemma] Lemma 2 (Correlation of locally stationary distributions under RGD)
+> Let $W$ be an interaction matrix s.t. with properties in Lemma 1 and
+>  1. $M:=W+\lambda v v^\top$ where $\lambda\geq 1$ and $v\in \{ \pm 1 / \sqrt{ n } \}^n$. 
+>  2. $C_{\text{MLSI}}(\mu_{W,sv})\geq n^{-1-o(1)}$ for every $s\in \mathbb{R}$. 
+>   
+>   We define: $$\delta ^{*}:=(1-\gamma)\frac{C_{\text{var}}}{2}\min \left\{  \sqrt{ \frac{2\lambda}{\pi} } ,\frac{\lambda}{2} \right\}-1$$Then, for any $\lambda$ s.t. $\delta ^{*}>0$, any $\varepsilon$-locally stationary distribution $\nu$ under RGD, any $\delta\in (0,\delta ^{*})$, we have that: $$\mathbb{E}_{x\sim \nu}\left| \braket{ x , v }  \right| \geq 0.99\cdot (1-\gamma)\cdot \sqrt{ \frac{C_{\text{var}}n}{\alpha_{\text{Ent}}} }-2\delta$$for $\varepsilon<\frac{\delta^4 \alpha^{2}_{\text{Ent}}}{C^{2}_{\text{var}}(1-\gamma)^4}\cdot \frac{1}{n^{2}}-\exp(-\Omega(n))$
+
+> [!proof]+
+> We define: 
+> 1. $\eta:=(1-\gamma)\sqrt{ \frac{C_{\text{var}}}{\alpha_{\text{Ent}}} }$
+> 2. $\overline{\eta}:= 0.99 \eta$
+> 3. $\eta^+:= 0.995 \eta$
+> 4. $\phi(x):=\min \{ \left| \braket{ x , v } \right|,\eta \sqrt{ n } \}$
+>    
+> Then, we have that by Cor 3: $$\mathbb{E}_{y\sim P_{\text{RGD}}\nu}\phi(y)-\mathbb{E}_{y\sim \nu}\phi(y)\leq \eta \sqrt{ \varepsilon n }$$Assume by contradiction that $\mathbb{E}_{x\sim \nu}\phi(x)<\overline{\eta}\sqrt{ n }-2\delta$.
 > 
+> 5. We have that by Markov: $$\begin{aligned}\mathbb{P}_{x\sim \nu}\left( \left| \braket{ x , v }  \right| <\overline{\eta}\sqrt{ n }-n^{o(1)}-\delta \right)&=\mathbb{P}_{x\sim \nu}\left( \phi(x) <\overline{\eta}\sqrt{ n }-n^{o(1)}-\delta \right)\\&=1-\mathbb{P}_{x\sim \nu}\left( \phi(x) \geq\overline{\eta}\sqrt{ n }-n^{o(1)}-\delta \right)\\&> 1-\frac{\overline{\eta}\sqrt{ n }-2\delta}{\overline{\eta}\sqrt{ n }-n^{}}\end{aligned} $$
