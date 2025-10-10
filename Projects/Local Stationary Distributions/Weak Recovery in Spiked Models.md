@@ -111,3 +111,14 @@
 > 3. Using Proposition 39, we have that: $$\begin{aligned}\mathbb{E}_{z\sim \rho}\text{Var}_{\mu_{0,Wz+h}}(f)&=\mathbb{E}_{z\sim \rho}\left[ \frac{1}{2}\lim_{ c \to \infty } \text{Ent}_{\mu_{0,Wz+h}}[(f+c)^{2}] \right]\\&\geq e^{-1/\kappa}\frac{1}{2}\lim_{ c \to \infty } \text{Ent}_{\mu_{W,h}}[(f+c)^{2}]=e^{-1/\kappa}\text{Var}_{\mu_{W,h}}(f)\end{aligned}$$
 > 4. 
 ---
+##### 4. RGD Achieves Weak Recovery
+> [!lemma] Lemma 1
+> Let $W$ be an interaction matrix s.t. for any $h$ there is a decomposition: $$\mu_{W,h}=\mathbb{E}_{z\sim \rho}[\mu_{H,g_{h}(z)}]$$where $H$ is a arbitrary interaction matrix supported on the edges of a graph, s.t. the followings hold:
+> 1. $\exists\alpha_{\text{Ent}}> 0$ s.t. $\mu_{W,h}$ is $\alpha_{\text{Ent}}$-entropically stable w.r.t. $(x,y)\mapsto \left\| I_{[n]\backslash H}(x-y )\right\|^{2}$.
+> 2. $C_{\text{var}}(\rho,\mu_{H,g_{h}(z)})\in [0,1]$.
+> 3. $\exists \gamma<1$ s.t. the number of non-isolated vertices in $H$ is $\leq \gamma n$.
+> 
+> Then, for $v\in\left\{  \pm \frac{1}{\sqrt{ n }}  \right\}^n$ and $s>0$: $$\mathbb{E}_{x\sim \mu_{W,sv}}\left| \braket{ x , v }  \right| \geq (1-\gamma)\cdot\frac{ C_{\text{var}}}{2}\cdot \min\left\{  s,2\sqrt{ \frac{n}{C_{\text{var}}\alpha_{\text{Ent}}} }  \right\}$$
+
+> [!proof]+
+> We have that: $$\frac{d}{dt}\mathbb{E}$$
