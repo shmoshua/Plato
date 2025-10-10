@@ -151,4 +151,11 @@
 >    
 > Then, we have that by Cor 3: $$\mathbb{E}_{y\sim P_{\text{RGD}}\nu}\phi(y)-\mathbb{E}_{y\sim \nu}\phi(y)\leq \eta \sqrt{ \varepsilon n }$$Assume by contradiction that $\mathbb{E}_{x\sim \nu}\phi(x)<\overline{\eta}\sqrt{ n }-2\delta$.
 > 
-> 5. We have that by Markov: $$\begin{aligned}\mathbb{P}_{x\sim \nu}\left( \left| \braket{ x , v }  \right| <\overline{\eta}\sqrt{ n }-n^{o(1)}-\delta \right)&=\mathbb{P}_{x\sim \nu}\left( \phi(x) <\overline{\eta}\sqrt{ n }-n^{o(1)}-\delta \right)\\&=1-\mathbb{P}_{x\sim \nu}\left( \phi(x) \geq\overline{\eta}\sqrt{ n }-n^{o(1)}-\delta \right)\\&> 1-\frac{\overline{\eta}\sqrt{ n }-2\delta}{\overline{\eta}\sqrt{ n }-n^{}}\end{aligned} $$
+> 5. We have that by Markov: $$\begin{aligned}\mathbb{P}_{x\sim \nu}\left( \left| \braket{ x , v }  \right| <\overline{\eta}\sqrt{ n }-n^{o(1)}-\delta \right)&=\mathbb{P}_{x\sim \nu}\left( \phi(x) <\overline{\eta}\sqrt{ n }-n^{o(1)}-\delta \right)\\&=1-\mathbb{P}_{x\sim \nu}\left( \phi(x) \geq\overline{\eta}\sqrt{ n }-n^{o(1)}-\delta \right)\\&> 1-\frac{\overline{\eta}\sqrt{ n }-2\delta}{\overline{\eta}\sqrt{ n }-n^{o(1)}-\delta}\\&=\Omega\left( \frac{\delta}{\eta\sqrt{ n }} \right)\end{aligned} $$
+> 
+> Fix $x$ and $r:= \left| \braket{ x , v } \right|$. Let's assume wlog that $\braket{ x , v }> 0$. Further, let $\tilde{C}:=\frac{C_{\text{Var}}}{2}(1-\gamma)$. 
+> 
+> 6. **Claim 1**: If $r<\eta \sqrt{ n }-\delta$, then $\mathbb{E}_{y\sim x}\left| \braket{ y , v } \right|-r>\delta$
+> 	1. 0
+> 7. **Claim 2**: $\mathbb{E}_{y\sim x}\left| \braket{ y , v } \right|-\min \{ r,\eta \sqrt{ n } \}>-\exp(-\Omega(n))$
+>  
