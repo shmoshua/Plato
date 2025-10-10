@@ -97,13 +97,16 @@
 ---
 > [!lemma] Theorem 1
 > Let $\kappa I \leq W \leq (1-\kappa) I$ and $h\in \mathbb{R}^n$ be arbitrary. Then, there exists a mixture: $$\mu_{W,h}=\mathbb{E}_{z\sim\rho}[\mu_{0,Wz+h}]$$ s.t.
-> 1. $\mu_{W,h}$ is $\frac{1}{\kappa}$-entropically stable w.r.t. $(x,y)\mapsto \|x-y\|^{2}$
+> 1. $\mu_{W,h}$ is $\frac{2}{\kappa}$-entropically stable w.r.t. $(x,y)\mapsto \|x-y\|^{2}$
 > 2. $C_{\text{var}}(\rho,\mu_{0,W z+h})\geq \exp \left( -1/\kappa \right)$
 > 3. $C_{\text{MLSI}}(\mu_{W,h})\geq \frac{1}{n} \frac{1}{1-\kappa}$
 
 > [!proof]+
 > We define: $$\rho(z)\propto \exp \left( -\frac{1}{2}z^\top W z \right)\cdot Z_{0}(Wz+h)  $$Then, $$\begin{aligned}\int \mu_{0,Wz+h}(x)\rho( dz)&\propto \int \exp( \braket{ Wz+h , x } )Z_{0}(Wz+h) \exp \left( -\frac{1}{2}z^\top W z \right)  \, dz \\&\propto \int \mu_{0,Wz+h}(x) \exp \left( -\frac{1}{2}z^\top W z \right)  \, dz\\&\propto \int_{}^{} \exp(\braket{ Wz+h , x })\exp \left( - \frac{1}{2}z^\top W z \right) dz\\ &\propto \int_{}^{} \exp\left( -\frac{1}{2}z^\top W z+x^\top W z + x^\top h\right) \, dz\\&=\exp \left( \frac{1}{2}x^\top W x + x^\top h \right) \int \exp \left( -\frac{1}{2}(z-x)^\top W (z-x) \right)   \, dz\\&=\mu_{W,h}(x)  \end{aligned}$$
 > Then, 
-> 1. We have that $\mu_{W,h+v}=\mathbb{E}_{z\sim \rho}[\mu_{0,Wz+h+v}]$. Hence: $$\begin{aligned}\text{Var}(T_{v}\mu_{W,h})&=\text{Var}(\mu_{W,h+v})\\&=\mathbb{E}_{z\sim \rho}[\underbrace{ \text{Var}(\mu_{0,Wz+h+v}) }_{ \leq I }]+\text{Var}_{z\sim \rho}(\mathbb{E}[\mu_{0,Wz+h+v}])\\&\leq I+\text{Var}_{z\sim \rho}(\mathbb{E}[\mu_{0,Wz+h+v}])\end{aligned}$$Further, $$\begin{aligned}\text{Var}_{z\sim \rho}(\mathbb{E}[\mu_{0,Wz+h+v}])&=\text{Var}_{z\sim \rho}(\text{tanh}(Wz+h+v))\\&=\nabla_{z}\text{tanh}(Wz+h+v)\\&=W\text{diag}(1-\text{tanh}^{2}(Wz+h+v)) \end{aligned}$$Therefore, $\text{Var}_{z\sim \rho}(\mathbb{E}[\mu_{0,Wz+h+v}])\leq \left\| W \right\|I\leq(1-\kappa)I$.
+> 1. Firstly, we have that: $$\begin{aligned}\nabla^{2}_{z}(-\log \rho)(z)&=\nabla^{2}_{z}\left( \frac{1}{2}z^\top W z-\sum_{i\in[n]}^{} \log (2\cosh(Wz+h))\right)\\&=\nabla _{z}\left( Wz-W\tanh(Wz+h)\right)\\&=W-W\text{diag}(1-\tanh ^{2}(Wz+h))W \end{aligned} $$We now have that $W\text{diag}(1-\tanh ^{2}(Wz+h))W \leq W^{2}$ and: $$\nabla^{2}_{z}(-\log \rho)(z)\geq W - W^{2}\geq \kappa(1-\kappa)I$$
+> 2. We have that $\mu_{W,h+v}=\mathbb{E}_{z\sim \rho}[\mu_{0,Wz+h+v}]$. Hence: $$\begin{aligned}\text{Var}(T_{v}\mu_{W,h})&=\text{Var}(\mu_{W,h+v})\\&=\mathbb{E}_{z\sim \rho}[\underbrace{ \text{Var}(\mu_{0,Wz+h+v}) }_{ \leq I }]+\text{Var}_{z\sim \rho}(\mathbb{E}[\mu_{0,Wz+h+v}])\\&\leq I+\text{Var}_{z\sim \rho}(\mathbb{E}[\mu_{0,Wz+h+v}])\end{aligned}$$Further, $$\begin{aligned}\nabla _{z}\mathbb{E}[\mu_{0,Wz+h+v}]&=\nabla_{z}\text{tanh}(Wz+h+v)\\&=W\text{diag}(1-\text{tanh}^{2}(Wz+h+v)) \end{aligned}$$Therefore, $\nabla _{z}\mathbb{E}[\mu_{0,Wz+h+v}]\leq \left\| W \right\|I\leq(1-\kappa)I$. Together with 1, using Brascamp-Lieb variance: $$\begin{aligned}\text{Var}_{z\sim \rho}(\mathbb{E}[\mu_{0,Wz+h+v}])\leq \frac{\sup_{z}\left\| \nabla  \mathbb{E}[\mu_{0,Wz+h+v}] \right\|^{2}}{\kappa(1-\kappa)} I\leq\frac{(1-\kappa)^{2}}{\kappa(1-\kappa)}I=\frac{1-\kappa}{\kappa}I\end{aligned}$$Hence, $\text{Var}(T_{v}\mu_{W,h})\leq \frac{1}{\kappa}I$.
+>    
+>    Therefore, using Lemma 2, we have that $\mu_{W,h}$ is $\frac{1}{\kappa}$-entropically stable w.r.t. $(x,y)\mapsto \frac{1}{2}\left\| x-y \right\|^{2}$.
+> 3. Using Proposition 39, we have that: $$\mathbb{E}_{z\sim \rho}\text{Var}_{\mu_{0,Wz+h}}(f)=\mathbb{E}_{z\sim \rho}\left[ \frac{1}{2}\lim_{ c \to \infty } \text{Ent}_{\mu_{0,Wz+h}}[(f+c)^{2}] \right]\geq e^{-1/\kappa}\frac{1}{2}\lim_{ c \to \infty } \text{Ent}_{\mu_{W,h}}[(f+c)^{2}]=\text{Var}$$
 ---
-$$\begin{aligned}\int \mu_{0,Wz+h}(x)  \, \rho(dz) &\propto \int_{}^{} \exp(\braket{ Wz+h , x })\exp \left( - \frac{1}{2\sigma^{2}}z^\top z \right) dz\\  \end{aligned}$$
