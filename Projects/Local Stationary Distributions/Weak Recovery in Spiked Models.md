@@ -142,7 +142,7 @@
 >   
 >   We define: $$\delta ^{*}:=(1-\gamma)\frac{C_{\text{var}}}{2}\min \left\{  \sqrt{ \frac{2\lambda}{\pi} } ,\frac{\lambda}{2} \right\}-1$$Then, for any $\lambda$ s.t. $\delta ^{*}>0$, any $\varepsilon$-locally stationary distribution $\nu$ under RGD, any $\delta\in (0,\delta ^{*})$, we have that: $$\mathbb{E}_{x\sim \nu}\left| \braket{ x , v }  \right| \geq 0.99\cdot (1-\gamma)\cdot \sqrt{ \frac{C_{\text{var}}n}{\alpha_{\text{Ent}}} }-2\delta$$for $\varepsilon<\frac{\delta^4 \alpha^{2}_{\text{Ent}}}{C^{2}_{\text{var}}(1-\gamma)^4}\cdot \frac{1}{n^{2}}-\exp(-\Omega(n))$
 
-> [!proof]+
+> [!proof]-
 > We define: 
 > 1. $\eta:=(1-\gamma)\sqrt{ \frac{C_{\text{var}}}{\alpha_{\text{Ent}}} }$
 > 2. $\overline{\eta}:= 0.99 \eta$
@@ -156,6 +156,7 @@
 > Fix $x$ and $r:= \left| \braket{ x , v } \right|$. Let's assume wlog that $\braket{ x , v }> 0$. Further, let $\tilde{C}:=\frac{C_{\text{Var}}}{2}(1-\gamma)$. 
 > 
 > 6. **Claim 1**: If $r<\eta \sqrt{ n }-\delta$, then $\mathbb{E}_{y\sim x}\left| \braket{ y , v } \right|-r>\delta$
-> 	1. 0
+> 	1. If $r<1$, then: $$\begin{aligned}\mathbb{E}_{y\sim x}\left| \braket{ y , v }  \right| &\geq \mathbb{E}_{g\sim \mathcal{N}(0,1)}\min \left\{ \tilde{C}\left| \lambda r+\sqrt{ \lambda }g \right| ,\eta \sqrt{ n } \right\}\\&\geq \tilde{C} \left\{ \mathbb{E}_{g\sim \mathcal{N}(0,1)}\left| \lambda r+\sqrt{ \lambda  }g \right| -\mathbb{E}_{g\sim \mathcal{N}(0,1)}\left[ \left| \lambda r+\sqrt{ \lambda }g \right|  \cdot \mathbb{1}_{\tilde{C}\left| \lambda r+\sqrt{ \lambda }g \right| >\eta \sqrt{ n }}\right]  \right\}\\&\geq \tilde{C} \left( \sqrt{ \lambda }\mathbb{E}_{g\sim \mathcal{N}(0,1)}\left| g \right| -\exp(-\Omega(n))  \right) \\&\geq \tilde{C} \left( \sqrt{\frac{2 \lambda }{\pi}} -\exp(-\Omega(n))  \right) \end{aligned} $$
+> 	2. if $1\leq r\leq \frac{3\eta \sqrt{ n }}{2\tilde{C} \lambda}$
 > 7. **Claim 2**: $\mathbb{E}_{y\sim x}\left| \braket{ y , v } \right|-\min \{ r,\eta \sqrt{ n } \}>-\exp(-\Omega(n))$
 >  
