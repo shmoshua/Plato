@@ -159,5 +159,3 @@
 > 	1. If $r<1$, then: $$\begin{aligned}\mathbb{E}_{y\sim x}\left| \braket{ y , v }  \right| &\geq \mathbb{E}_{g\sim \mathcal{N}(0,1)}\min \left\{ \tilde{C}\left| \lambda r+\sqrt{ \lambda }g \right| ,\eta \sqrt{ n } \right\}\\&\geq \tilde{C} \left\{ \mathbb{E}_{g\sim \mathcal{N}(0,1)}\left| \lambda r+\sqrt{ \lambda  }g \right| -\mathbb{E}_{g\sim \mathcal{N}(0,1)}\left[ \left| \lambda r+\sqrt{ \lambda }g \right|  \cdot \mathbb{1}_{\tilde{C}\left| \lambda r+\sqrt{ \lambda }g \right| >\eta \sqrt{ n }}\right]  \right\}\\&\geq \tilde{C} \left( \sqrt{ \lambda }\mathbb{E}_{g\sim \mathcal{N}(0,1)}\left| g \right| -\exp(-\Omega(n))  \right) \\&\geq \tilde{C} \left( \sqrt{\frac{2 \lambda }{\pi}} -\exp(-\Omega(n))  \right) \end{aligned} $$
 > 	2. if $1\leq r\leq \frac{3\eta \sqrt{ n }}{2\tilde{C} \lambda}$
 > 7. **Claim 2**: $\mathbb{E}_{y\sim x}\left| \braket{ y , v } \right|-\min \{ r,\eta \sqrt{ n } \}>-\exp(-\Omega(n))$
->  
-1. Why tilted measure

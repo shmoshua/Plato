@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+                "file": "Projects/Local Stationary Distributions/MaxCut.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Weak Recovery in Spiked Models"
+              "title": "MaxCut"
             }
           },
           {
@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+                "file": "Projects/Local Stationary Distributions/MaxCut.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Weak Recovery in Spiked Models"
+              "title": "MaxCut"
             }
           },
           {
@@ -259,10 +259,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5e0b5a785ac68021",
+  "active": "60cf7eacf98379c9",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+    "Projects/Local Stationary Distributions/MaxCut.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Analysis/Convex Function.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
@@ -287,7 +288,6 @@
     "GHW1.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Algorithms/Minimum Set Cover.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
     "TA/AdvAlg",
