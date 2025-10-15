@@ -40,12 +40,14 @@
             "id": "3147480c8f51d9fc",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "GHW1.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "icon": "lucide-file",
+              "title": "GHW1"
             }
           },
           {
@@ -275,6 +277,7 @@
   "active": "3147480c8f51d9fc",
   "lastOpenFiles": [
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+    "GHW1.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
@@ -298,7 +301,6 @@
     "Projects/Local Stationary Distributions",
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
-    "GHW1.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Algorithms/Minimum Set Cover.md",
     "Courses/Formal Analysis of Algorithms",
