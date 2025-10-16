@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/MaxCut.md",
+                "file": "Job Application.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "MaxCut"
+              "title": "Job Application"
             }
           },
           {
@@ -274,11 +274,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3147480c8f51d9fc",
+  "active": "5e0b5a785ac68021",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
-    "GHW1.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
+    "GHW1.md",
+    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Analysis/Convex Function.md",
