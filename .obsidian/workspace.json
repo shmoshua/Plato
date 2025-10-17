@@ -65,27 +65,13 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
         "type": "tabs",
         "dimension": 53.55892648774796,
         "children": [
-          {
-            "id": "5e0b5a785ac68021",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Job Application.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Job Application"
-            }
-          },
           {
             "id": "0dcd6b4c52c0a6ad",
             "type": "leaf",
@@ -106,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Weak Recovery in Spiked Models"
             }
           },
           {
@@ -120,15 +106,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Relative Entropy.md",
+                "file": "Projects/Local Stationary Distributions/MaxCut.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Relative Entropy"
+              "title": "MaxCut"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -274,19 +261,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5e0b5a785ac68021",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Probability Theory/Gaussian Distribution.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
+    "Information Theory/Relative Entropy.md",
+    "Job Application.md",
     "GHW1.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Analysis/Convex Function.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
-    "Job Application.md",
     "Measure Theory/Complex Measure.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Information Theory/Relative Entropy.md",
     "Probability Theory/Conditional Expectation.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "TA/AdvAlg/TimeSheet.md",
