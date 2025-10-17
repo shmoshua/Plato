@@ -113,6 +113,20 @@
               "icon": "lucide-file",
               "title": "MaxCut"
             }
+          },
+          {
+            "id": "e52c3a0eb71db1e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Graph Laplacian.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Graph Laplacian"
+            }
           }
         ],
         "currentTab": 1
@@ -264,8 +278,9 @@
   "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
     "Projects/Local Stationary Distributions/MaxCut.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Graph Theory/Graph Laplacian.md",
     "Probability Theory/Gaussian Distribution.md",
     "Information Theory/Relative Entropy.md",
     "Job Application.md",
@@ -289,7 +304,6 @@
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Courses/Advanced Algorithms/Graded Assignment 2.md",
-    "Algorithms/Minimum Set Cover.md",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
     "TA/AdvAlg",

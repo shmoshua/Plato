@@ -4,7 +4,7 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1 
-> Let $A$ be the symmetric adjacency matrix. Define: $$\mu_{\beta}(x)\propto \exp \left( \frac{\beta}{2}x^\top Ax \right) $$
-> Then, $\lim_{ \beta \to -\infty }\mu_{\beta}$ gives us a uniform distribution on the max cuts. 
+> Let $A$ be the symmetric adjacency matrix. Define: $$\mu_{\beta}(x)\propto \exp \left( \frac{\beta}{2}x^\top Lx \right) $$
+> Then, $\lim_{ \beta \to \infty }\mu_{\beta}$ gives us a uniform distribution on the max cuts. 
 
 We have that: $$\mu_{\beta}=\mathbb{E}_{z\sim\rho}[\mu]$$
