@@ -56,16 +56,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Job Application.md",
+                "file": "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Job Application"
+              "title": "Weak Recovery in Spiked Models"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -275,15 +275,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "617aa18160ec4b9c",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/MaxCut.md",
+    "Job Application.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+    "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Graph Theory/Graph Laplacian.md",
     "Probability Theory/Gaussian Distribution.md",
     "Information Theory/Relative Entropy.md",
-    "Job Application.md",
     "GHW1.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Analysis/Convex Function.md",

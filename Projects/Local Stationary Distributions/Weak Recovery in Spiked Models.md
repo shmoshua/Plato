@@ -130,8 +130,11 @@
 > [!lemma] Corollary (RGD Boost)
 > Let $M=W+\lambda vv^\top$ be an interaction matrix. Then, $$\mathbb{E}_{y\sim P_{\text{RGD}}x}\left| \braket{ y , v }  \right| \geq (1-\gamma)\cdot \frac{C_{\text{var}}}{2}\mathbb{E}_{g\sim \mathcal{N}(0,1)}\min \left\{  \left| \lambda \left| \braket{ x , v }  \right| +\sqrt{ \lambda } g\right|,2\sqrt{ \frac{n}{C_{\text{Var}}\alpha_{\text{Ent}}} }  \right\}$$
 
-> [!proof]-
+> [!proof]+
 > We have that: 
+> 1. if $\braket{ v , x }< 0$, then let $w:= -v$. Then, $$$$
+
+
 > $$\begin{aligned}\mathbb{E}_{y\sim x}\left| \braket{ y , v }  \right| &=\mathbb{E}_{g}\mathbb{E}_{y\sim \mu_{W,(\lambda \braket{ v , x } +\sqrt{ \lambda }g)v}}\left| \braket{ y , v }  \right| \\&\ge\mathbb{E}_{g}(1-\gamma)\cdot \frac{C_{\text{Var}}}{2}\cdot \min\left\{  \left| \lambda \left| \braket{ x , v }  \right| +\sqrt{ \lambda } g\right|,2\sqrt{ \frac{n}{C_{\text{Var}}\alpha_{\text{Ent}}} }  \right\}\end{aligned}$$
 
 ---
