@@ -8,6 +8,7 @@ Pick a uniformly random vertex $v$
 > 1. the expected size is at least $\frac{1}{2}+\Omega\left( \frac{1}{\sqrt{ d }} \right)$.
 
 > [!proof]+
+> We want to show that: $$\mathbb{E}_{t\sim [0,T]}\mathbb{E}_{x\sim{\nu_{t}}}\text{Cut}(x)\geq \left( \frac{1}{2}+\Omega \left( \frac{1}{\sqrt{ d }} \right)  \right)m$$However, $$\text{Cut}(x)=$$
 > Our goal is: $$\mathbb{E}_{t\sim [0,T]}\mathbb{E}_{\nu_{t}}\mathbb{E}_{uv\in E}[x_{u}x_{v}]\leq -\Omega\left( \frac{1}{\sqrt{ d }} \right)$$
 ---
 ##### Pinning Independent Sets
