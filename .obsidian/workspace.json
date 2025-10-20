@@ -63,9 +63,23 @@
               "icon": "lucide-file",
               "title": "Weak Recovery in Spiked Models"
             }
+          },
+          {
+            "id": "b66923660a7f76bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Pinning MaxCut"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "d54d634cc1ba8421",
@@ -92,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+                "file": "Projects/Local Stationary Distributions/Pinning MaxCut.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Weak Recovery in Spiked Models"
+              "title": "Pinning MaxCut"
             }
           },
           {
@@ -275,10 +289,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "617aa18160ec4b9c",
+  "active": "b66923660a7f76bc",
   "lastOpenFiles": [
-    "Job Application.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+    "Job Application.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Graph Theory/Graph Laplacian.md",
@@ -303,7 +318,6 @@
     "Projects/Local Stationary Distributions",
     "Courses/Advanced Algorithms/Exercise 02.md",
     "Courses/Markov Processes/Markov Processes Roadmap.md",
-    "Courses/Advanced Algorithms/Graded Assignment 2.md",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
     "TA/AdvAlg",
