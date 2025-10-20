@@ -3,7 +3,12 @@
 
 ---
 Pick a uniformly random vertex $v$
+> [!lemma] Theorem 1
+> Let $G$ be a triangle free graph with $\Delta(G)\leq d$. Let $x$ be a max-cut in $G$ that arises from Glauber dynamics run for $\text{poly}(n)$. Then, 
+> 1. the expected size is at least $\frac{1}{2}+\Omega\left( \frac{1}{\sqrt{ d }} \right)$.
 
+> [!proof]+
+> Our goal is: $$\mathbb{E}_{t\sim [0,T]}\mathbb{E}_{\nu_{t}}\mathbb{E}_{uv\in E}[x_{u}x_{v}]\leq -\Omega\left( \frac{1}{\sqrt{ d }} \right)$$
 ---
 ##### Pinning Independent Sets
 > [!lemma] Lemma 1
