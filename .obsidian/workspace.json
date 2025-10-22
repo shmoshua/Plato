@@ -134,16 +134,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Laplacian.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Laplacian"
+              "title": "Expected Value"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -289,14 +289,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b66923660a7f76bc",
+  "active": "e52c3a0eb71db1e2",
   "lastOpenFiles": [
+    "Graph Theory/Graph Laplacian.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Job Application.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Graph Theory/Graph Laplacian.md",
     "Probability Theory/Gaussian Distribution.md",
     "Information Theory/Relative Entropy.md",
     "GHW1.md",
