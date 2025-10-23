@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
+                "file": "Job Application.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Project Roadmap"
+              "title": "Job Application"
             }
           },
           {
@@ -142,8 +142,7 @@
               "title": "Expected Value"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -289,14 +288,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e52c3a0eb71db1e2",
+  "active": "0dcd6b4c52c0a6ad",
   "lastOpenFiles": [
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Probability Theory/Expected Value.md",
     "Graph Theory/Graph Laplacian.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Job Application.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Probability Theory/Gaussian Distribution.md",
     "Information Theory/Relative Entropy.md",
     "GHW1.md",
@@ -317,7 +317,6 @@
     "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
     "Projects/Local Stationary Distributions",
     "Courses/Advanced Algorithms/Exercise 02.md",
-    "Courses/Markov Processes/Markov Processes Roadmap.md",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
     "TA/AdvAlg",
