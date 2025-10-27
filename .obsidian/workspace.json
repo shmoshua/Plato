@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/MaxCut.md",
+                "file": "Probability Theory/Independence.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "MaxCut"
+              "title": "Independence"
             }
           },
           {
@@ -127,8 +127,23 @@
               "icon": "lucide-file",
               "title": "Expected Value"
             }
+          },
+          {
+            "id": "9202ac56452e4308",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Random Variable.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Random Variable"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -274,16 +289,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "9202ac56452e4308",
   "lastOpenFiles": [
+    "Probability Theory/Independence.md",
+    "Projects/Local Stationary Distributions/MaxCut.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/Advanced Algorithms/Exercise 06.md",
     "Job Application.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Probability Theory/Expected Value.md",
     "Graph Theory/Graph Laplacian.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
-    "Projects/Local Stationary Distributions/MaxCut.md",
     "Probability Theory/Gaussian Distribution.md",
     "Information Theory/Relative Entropy.md",
     "GHW1.md",
@@ -301,7 +317,6 @@
     "Markov Processes/Markov Chain.md",
     "Analysis/Lipschitz Function.md",
     "Lie Group/Exponential Map.md",
-    "Courses/Linear System Theory/Linear Systems Theory Roadmap.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
