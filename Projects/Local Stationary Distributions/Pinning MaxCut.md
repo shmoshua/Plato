@@ -25,7 +25,8 @@ Let $\phi_{v}(x):=-\frac{1}{d(v)}x_{v}\sum_{u \sim v}^{}x_{u}$
 Let $T^+:=\{ u\in N(v): e(u,\tau^-)> e(u,\tau^+) \}$ and $T^-:=\{ u\in N(v): e(u,\tau^+)> e(u,\tau^-) \}$ with size $t^+,t^-$. Then, 
 1. $t^++t^-+k= d(v)$;
 
-2. if $d(v)$ is odd, there are $2^k$ max-cuts: $$\begin{aligned}\mathbb{E}_{x\sim \pi}[\phi_{uv}|x_{\overline{N[v]}}=\tau]=\frac{1}{2^k}\sum_{i=0}^{k}{k \choose i}\end{aligned}$$
+2. if $d(v)$ is odd, there are $2^k$ max-cuts: $$\begin{aligned}\mathbb{E}_{x\sim \pi}[\phi_{uv}|x_{\overline{N[v]}}=\tau]&=\frac{1}{2^k}\sum_{i=0}^{k}{k \choose i}\left| t^+ - t^- - k + 2i \right|\\& \end{aligned}$$
+   Let $X\sim \text{Bin}\left( k, \frac{1}{2} \right)$, $Y:= 2X-k$ and $c:=t^+- t^-$. Then, $\mathbb{E}[Y] = 0$ and $\mathbb{E}[Y^{2}]=\text{Var}(Y)=k$$$\begin{aligned}\mathbb{E}[(Y+c)^{2}]=\mathbb{E}[Y^{2}]+c^{2}=k+c^{2}\end{aligned}$$We have: $$\mathbb{E}[\left| Y+c \right| ]\geq \frac{\mathbb{E}[(Y+c)^{2}]}{\sup \left| Y+c \right| }\geq \frac{k+c^{2}}{k+\left| c \right| }$$
 
 ---
 ##### Pinning Independent Sets
