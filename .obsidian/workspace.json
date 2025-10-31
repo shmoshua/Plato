@@ -142,8 +142,7 @@
               "title": "Random Variable"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -289,8 +288,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9202ac56452e4308",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Probability Theory/Random Variable.md",
     "Probability Theory/Independence.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
@@ -316,7 +316,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Markov Processes/Markov Chain.md",
     "Analysis/Lipschitz Function.md",
-    "Lie Group/Exponential Map.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
