@@ -15,11 +15,11 @@ Let $$\phi_{v}(x):=-x_{v}\sum_{u\sim v}^{}x_{u}$$Then, $$n \mathbb{E}_{v\sim V}[
 
 Let $e(u,\tau^+)$ and $e(u,\tau^-)$ denote the number of edges between $u$ to $\tau^+$ and $\tau^-$. Let $S:= \{ u\in N(v): e(u,\tau^+)=e(u,\tau^-) \}$ and $k:= \left| S \right|$.
 1. If $d(v)$ is odd, $v$'s spin is always determined by the rest. In this case, $$\mathbb{E}_{x\sim \pi_{\beta}}[\phi_{v}(x)|x_{\overline{N[v]}}=\tau]=$$
- 
-If $e$
 
-Then, for $k:= \left| S \right|$
-1. if $k$ is odd, it can't happen $$\mathbb{E}_{x\sim \pi}[\phi_{v}(x)|x_{\overline{N[v]}}=\tau]=$$
+---
+Let 
+$$m\mathbb{E}_{v\sim \frac{d}{2m}}\mathbb{E}_{u \sim v}[\phi_{uv}(x)]=-\sum_{uv}^{}x_{u}x_{v}$$Then, 
+$$\mathbb{E}_{x\sim \pi}[\phi_{uv}|x_{\overline{N[v]}}=\tau]=$$
 
 ---
 ##### Pinning Independent Sets
