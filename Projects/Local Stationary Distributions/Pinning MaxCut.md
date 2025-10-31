@@ -20,6 +20,12 @@ Let $e(u,\tau^+)$ and $e(u,\tau^-)$ denote the number of edges between $u$ to $\
 Let 
 $$m\mathbb{E}_{v\sim \frac{d}{2m}}\mathbb{E}_{u \sim v}[\phi_{uv}(x)]=-\sum_{uv}^{}x_{u}x_{v}$$Then, 
 $$\mathbb{E}_{x\sim \pi}[\phi_{uv}|x_{\overline{N[v]}}=\tau]=$$
+Let $\phi_{v}(x):=-\frac{1}{d(v)}x_{v}\sum_{u \sim v}^{}x_{u}$
+
+Let $T^+:=\{ u\in N(v): e(u,\tau^-)> e(u,\tau^+) \}$ and $T^-:=\{ u\in N(v): e(u,\tau^+)> e(u,\tau^-) \}$ with size $t^+,t^-$. Then, 
+1. $t^++t^-+k= d(v)$;
+
+2. if $d(v)$ is odd, there are $2^k$ max-cuts: $$\begin{aligned}\mathbb{E}_{x\sim \pi}[\phi_{uv}|x_{\overline{N[v]}}=\tau]=\frac{1}{2^k}\sum_{i=0}^{k}{k \choose i}\end{aligned}$$
 
 ---
 ##### Pinning Independent Sets
