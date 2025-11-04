@@ -134,15 +134,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Random Variable.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Random Variable"
+              "title": "Gaussian Distribution"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -288,15 +289,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "9202ac56452e4308",
   "lastOpenFiles": [
+    "Probability Theory/Random Variable.md",
+    "Courses/Probability Theory/Exercise Class 11.md",
     "Courses/Probability Theory/Exercise Class 12.md",
     "Courses/Probability Theory/Exercise Class 13.md",
     "Courses/Probability Theory/Exercise Class 8.md",
     "Courses/Probability Theory/Exercise Class 6.md",
     "Courses/Probability Theory/Exercise Class 7.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
-    "Probability Theory/Random Variable.md",
     "Probability Theory/Independence.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Courses/Advanced Algorithms/Exercise 06.md",
@@ -315,7 +317,6 @@
     "Probability Theory/Conditional Expectation.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "TA/AdvAlg/TimeSheet.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
