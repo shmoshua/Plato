@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 8.md",
+                "file": "Courses/Probability Theory/Exercise Class 11.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 8"
+              "title": "Exercise Class 11"
             }
           },
           {
@@ -290,6 +290,9 @@
   },
   "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Courses/Probability Theory/Exercise Class 12.md",
+    "Courses/Probability Theory/Exercise Class 13.md",
+    "Courses/Probability Theory/Exercise Class 8.md",
     "Courses/Probability Theory/Exercise Class 6.md",
     "Courses/Probability Theory/Exercise Class 7.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
@@ -313,9 +316,6 @@
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Information Theory/Discrete Memoryless Channel (DMC).md",
-    "Markov Processes/Glauber Dynamics.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
