@@ -21,3 +21,5 @@
 3. Consider the following function: $$f:\mathbb{R}\to \mathbb{R},\quad m\mapsto \sum_{i=1}^{n}\left| y_{i}-m \right| $$Then, $$\nabla f(m)=-\sum_{i=1}^{m}\frac{y_{i}-m}{\left| y_{i}-m \right| }=-\sum_{i=1}^{m}\text{sgn}(y_{i}-m)$$Now, for the median, we have that $\nabla f(\text{Median}(y_{1},\dots,y_{n}))=0$. This shows the statement. 
 
 ---
+Let $x\in U$ be a unit vector. Then, from the lectures, we have that: $$\mathbb{E}[\left\| Ax \right\| ^{2}]=1$$
+We first show that: $$$$

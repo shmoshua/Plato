@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Pinning MaxCut"
+              "title": "Exercise Sheet 3"
             }
           }
         ],
@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Gaussian Distribution.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Gaussian Distribution"
+              "title": "Exercise Sheet 3"
             }
           }
         ],
@@ -289,8 +289,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9202ac56452e4308",
+  "active": "b66923660a7f76bc",
   "lastOpenFiles": [
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
+    "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Random Variable.md",
     "Courses/Probability Theory/Exercise Class 11.md",
     "Courses/Probability Theory/Exercise Class 12.md",
@@ -298,7 +302,6 @@
     "Courses/Probability Theory/Exercise Class 8.md",
     "Courses/Probability Theory/Exercise Class 6.md",
     "Courses/Probability Theory/Exercise Class 7.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Probability Theory/Independence.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Courses/Advanced Algorithms/Exercise 06.md",
@@ -307,7 +310,6 @@
     "Probability Theory/Expected Value.md",
     "Graph Theory/Graph Laplacian.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
-    "Probability Theory/Gaussian Distribution.md",
     "Information Theory/Relative Entropy.md",
     "GHW1.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
@@ -315,8 +317,6 @@
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Measure Theory/Complex Measure.md",
     "Probability Theory/Conditional Expectation.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "TA/AdvAlg/TimeSheet.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
