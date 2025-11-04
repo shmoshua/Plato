@@ -26,3 +26,6 @@ Let $\mathcal{N}_{\alpha}$ be the $\alpha$-net of $U$. We first show that for an
 Let $x$ be the vector that admits the supremum on the left hand side. Then, there exists $v\in \mathcal{N}_{\alpha}$ s.t. $\left\| x-v \right\|\leq \alpha$. Now, $$x^\top B x = v^\top B v + (x-v)^\top B (x+v) $$Hence, $$\begin{aligned}\left| x^\top Bx \right| \leq \left| v^\top Bv \right| +\left\| B \right\| \|x-v\|\|x+v\|\end{aligned}$$
 
 $$\frac{\varepsilon'}{1-\varepsilon'}\leq \varepsilon \iff \varepsilon'\leq \varepsilon(1-\varepsilon')\iff \varepsilon'(1+\varepsilon)\leq $$
+
+
+$$\left( \frac{u}{\alpha} \right)^{Cu}2 e^{-\varepsilon^2(1-2\alpha^2)k / 32}$$For $k = \varepsilon^{-3}u \log u$, $$\left( \frac{u}{\alpha} \right)^{}2 e^{-\varepsilon^2(1-2\alpha)^2k / 32}\leq \left( \frac{u}{\alpha} \right)^{O(u)}2 u^{-O(u / 128\varepsilon)}$$
