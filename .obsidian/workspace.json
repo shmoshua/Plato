@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+                "file": "Courses/Probability Theory/Exercise Class 8.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Pinning MaxCut"
+              "title": "Exercise Class 8"
             }
           },
           {
@@ -290,10 +290,12 @@
   },
   "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Courses/Probability Theory/Exercise Class 6.md",
+    "Courses/Probability Theory/Exercise Class 7.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Probability Theory/Random Variable.md",
     "Probability Theory/Independence.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/Advanced Algorithms/Exercise 06.md",
     "Job Application.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
@@ -314,8 +316,6 @@
     "Information Theory/Discrete Memoryless Channel (DMC).md",
     "Markov Processes/Glauber Dynamics.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
-    "Markov Processes/Markov Chain.md",
-    "Analysis/Lipschitz Function.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
