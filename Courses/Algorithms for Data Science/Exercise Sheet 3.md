@@ -22,4 +22,5 @@
 
 ---
 Let $x\in U$ be a unit vector. Then, from the lectures, we have that: $$\mathbb{E}[\left\| Ax \right\| ^{2}]=1$$
-We first show that: $$$$
+Let $\mathcal{N}_{\alpha}$ be the $\alpha$-net of $U$. We first show that for any symmetric matrix $B\in \mathbb{R}^{d,d}$ we have that: $$\sup_{x\in U:\|x\|=1}\left| x^\top Bx \right|\leq \frac{1}{1-2\alpha}\max_{x\in \mathcal{N}_{\alpha}}\left| x^\top Bx \right|  $$
+Let $x$ be the vector that admits the supremum on the left hand side. Then, there exists $v\in \mathcal{N}_{\alpha}$ s.t. $\left\| x-v \right\|\leq \alpha$. Now, $$x^\top B x = v^\top B v + (x-v)^\top B (x+v) $$Hence, $$\begin{aligned}\left| x^\top Bx \right| \leq \left| v^\top Bv \right| +\left\| B \right\| \|x-v\|\|x+v\|\end{aligned}$$
