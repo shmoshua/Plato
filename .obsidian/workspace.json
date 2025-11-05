@@ -141,9 +141,37 @@
               "icon": "lucide-file",
               "title": "Exercise Sheet 3"
             }
+          },
+          {
+            "id": "eb2012d60345cce2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Compact Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Compact Space"
+            }
+          },
+          {
+            "id": "5e0cc87e0a96bc14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Banach Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Banach Space"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -289,10 +317,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b66923660a7f76bc",
+  "active": "eb2012d60345cce2",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+    "Analysis/Banach Space.md",
+    "Topology/Complete Space.md",
+    "Topology/Compact Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Random Variable.md",
@@ -314,9 +345,6 @@
     "GHW1.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Analysis/Convex Function.md",
-    "Courses/Advanced Algorithms/Graded Assignment 1.md",
-    "Measure Theory/Complex Measure.md",
-    "Probability Theory/Conditional Expectation.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
