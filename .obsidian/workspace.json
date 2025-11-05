@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 3"
+              "title": "TimeSheet"
             }
           }
         ],
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Compact Space"
+              "title": "TimeSheet"
             }
           },
           {
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Banach Space.md",
+                "file": "Probability Theory/Characteristic Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Banach Space"
+              "title": "Characteristic Function"
             }
           }
         ],
@@ -319,10 +319,12 @@
   },
   "active": "eb2012d60345cce2",
   "lastOpenFiles": [
+    "Probability Theory/Characteristic Function.md",
     "Analysis/Banach Space.md",
-    "Topology/Complete Space.md",
-    "Topology/Compact Space.md",
+    "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+    "Topology/Compact Space.md",
+    "Topology/Complete Space.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Probability Theory/Gaussian Distribution.md",
@@ -343,8 +345,6 @@
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Information Theory/Relative Entropy.md",
     "GHW1.md",
-    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
-    "Analysis/Convex Function.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
