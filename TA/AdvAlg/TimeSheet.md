@@ -24,3 +24,4 @@ Total: 38.5 hrs
 
 
 
+$$\Pr\big(\text{parity}(a)\ne\text{parity}(b)\mid a\ne b) =\frac{2\,p_{\text{even}}\,p_{\text{odd}}}{1-\sum_{t}p_t^2} =\frac{2\,(E/C)\,(O/C)}{1-\dfrac{1}{C^2}\sum_{t}\binom{m-t}{k-1}^2} =\frac{2\,E\,O}{\,C^2-\sum_{t=1}^{\,m-k+1}\binom{m-t}{k-1}^2\,}$$
