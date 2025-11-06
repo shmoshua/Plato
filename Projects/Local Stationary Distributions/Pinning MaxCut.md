@@ -37,6 +37,14 @@ Let $T^+:=\{ u\in N(v): e(u,\tau^-)> e(u,\tau^+) \}$ and $T^-:=\{ u\in N(v): e(u
 > Let $S\subseteq N(v)$ denote the neighbors of $v$ that are not adjacent to any vertex in $\tau$, and $k:= \left| S \right|$.  Hence, $$\mathbb{E}_{x\sim \mu}[\phi_{v}(x)|x_{\overline{N[v]}}=\tau]=\frac{d}{2^k+1}+\frac{k}{2}\frac{2^k}{2^k+1}$$
 
 ---
-Let $v\in V$. Then, let $\tau \in \{ \pm 1 \}^{\overline{ N[v]}}$ be a pinning. $$\mathbb{E}_{v}\mathbb{E}_{\tau}[T(v)]$$
+#### T as potential
+Let $v\in V$. We define: $$\phi_{v}(x):=\sum_{ u \in N(v):x_{u}x_{v} = -1}1 = \sum_{u\in N(v)}^{}\frac{1-x_{u}x_{v}}{2}$$Then, $$\mathbb{E}_{v}[\phi_{v}(x)]=\frac{2}{n}\sum_{uv\in E}^{}\frac{1-x_{u}x_{v}}{2}=\frac{2}{n}\text{Cut}(x)$$
 
-We want to show that: $$\mathbb{E}_{t}\mathbb{E}_{\nu_{t}}\mathbb{E}_{v\sim  V}\phi_{v}(x) \geq $$
+We want to show that: $$\mathbb{E}_{t}\mathbb{E}_{x\sim\nu_{t}}[\text{Cut}(x)]\geq \left( \frac{1}{2}+\Omega\left( \frac{1}{\sqrt{ d }} \right) \right)m$$Equivalently, $$\mathbb{E}_{t}\mathbb{E}_{x\sim \nu_{t}}\mathbb{E}_{v}[\phi_{v}(x)]\geq \frac{m}{n}\left( 1+\Omega \left( \frac{1}{\sqrt{ d }} \right)  \right) $$
+
+---
+#### -xx as potential
+Let $v\in V$. We define: $$\phi_{v}(x)=-\frac{1}{d(v)}x_{v}\sum_{u\in N(v)}^{}x_{u}$$Then, for $p(v)=d(v) / 2m$$$\mathbb{E}_{v}[\phi_{v}(x)]=-\frac{1}{m}\sum_{uv\in E} x_{u}x_{v}$$ and it suffices to show that: $$\mathbb{E}_{t}\mathbb{E}_{x \sim \nu_{t}}\mathbb{E}_{v}[\phi_{v}(x)]\geq \Omega \left( \frac{1}{\sqrt{ d }} \right) $$
+
+---
+Let us compute: $$\mathbb{E}_{x \sim \mu_{\beta}}\mathbb{E}_{v}[\phi_{v}(x)]\geq \frac{1}{\sqrt{ d }}$$We have that: $$\begin{aligned}\mathbb{E}_{x\sim \mu_{\beta}}[x^\top Ax]&=\sum_{ x}^{}\frac{\exp(-\beta x^\top Ax)x^\top Ax}{\sum_{y}\exp(-\beta y^\top A y)}=-\frac{d}{d\beta}\log \sum_{x}^{}\exp(-\beta x^\top A x)\end{aligned}$$
