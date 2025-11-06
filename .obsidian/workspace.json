@@ -199,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -345,13 +345,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bf2f0c238654c1c2",
+  "active": "eb2012d60345cce2",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Probability Theory/Characteristic Function.md",
     "TA/AdvAlg/TimeSheet.md",
     "Analysis/Banach Space.md",
