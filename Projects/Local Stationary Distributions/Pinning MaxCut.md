@@ -55,3 +55,6 @@ If we have this, then: $$\begin{aligned}\mathbb{E}_{x \sim \nu}\mathbb{E}_{v}[\p
 $$\begin{aligned}\mathbb{E}_{x \sim \nu}\mathbb{E}_{v}[\phi_{v}(x)]\geq  \mathbb{E}_{x \sim \mu_{\beta}}\mathbb{E}_{v}[\phi_{v}(x)]-2d_{\text{TV}}(\nu,\mu_{\beta})\end{aligned}$$
 
 We have that: $$\text{KL}(\nu_{t}\|\mu_{\beta})\leq \frac{1}{C_{\text{MLSI}}(\mu_{\beta})}\mathcal{E}_{\mu_{\beta}}(f'_{t,\beta},\log f'_{t,\beta})$$
+
+---
+$$\frac{\sum_{i=0}^{p-1}{b - 2i - 1 \choose k - 1}}{\sum_{j = 0}^{2p-1}{b - j - 1 \choose k -1}}$$
