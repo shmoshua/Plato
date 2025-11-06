@@ -36,3 +36,7 @@ Let $T^+:=\{ u\in N(v): e(u,\tau^-)> e(u,\tau^+) \}$ and $T^-:=\{ u\in N(v): e(u
 > [!proof]-
 > Let $S\subseteq N(v)$ denote the neighbors of $v$ that are not adjacent to any vertex in $\tau$, and $k:= \left| S \right|$.  Hence, $$\mathbb{E}_{x\sim \mu}[\phi_{v}(x)|x_{\overline{N[v]}}=\tau]=\frac{d}{2^k+1}+\frac{k}{2}\frac{2^k}{2^k+1}$$
 
+---
+Let $v\in V$. Then, let $\tau \in \{ \pm 1 \}^{\overline{ N[v]}}$ be a pinning. $$\mathbb{E}_{v}\mathbb{E}_{\tau}[T(v)]$$
+
+We want to show that: $$\mathbb{E}_{t}\mathbb{E}_{\nu_{t}}\mathbb{E}_{v\sim  V}\phi_{v}(x) \geq $$

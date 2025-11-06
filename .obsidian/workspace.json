@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TA/AdvAlg/TimeSheet.md",
+                "file": "Projects/Local Stationary Distributions/Pinning MaxCut.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TimeSheet"
+              "title": "Pinning MaxCut"
             }
           }
         ],
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TA/AdvAlg/TimeSheet.md",
+                "file": "Projects/Local Stationary Distributions/Pinning MaxCut.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TimeSheet"
+              "title": "Pinning MaxCut"
             }
           },
           {
@@ -319,13 +319,13 @@
   },
   "active": "eb2012d60345cce2",
   "lastOpenFiles": [
+    "TA/AdvAlg/TimeSheet.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Probability Theory/Characteristic Function.md",
     "Analysis/Banach Space.md",
-    "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Topology/Compact Space.md",
     "Topology/Complete Space.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Random Variable.md",
