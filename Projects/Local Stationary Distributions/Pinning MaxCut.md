@@ -47,4 +47,9 @@ We want to show that: $$\mathbb{E}_{t}\mathbb{E}_{x\sim\nu_{t}}[\text{Cut}(x)]\g
 Let $v\in V$. We define: $$\phi_{v}(x)=-\frac{1}{d(v)}x_{v}\sum_{u\in N(v)}^{}x_{u}$$Then, for $p(v)=d(v) / 2m$$$\mathbb{E}_{v}[\phi_{v}(x)]=-\frac{1}{m}\sum_{uv\in E} x_{u}x_{v}$$ and it suffices to show that: $$\mathbb{E}_{t}\mathbb{E}_{x \sim \nu_{t}}\mathbb{E}_{v}[\phi_{v}(x)]\geq \Omega \left( \frac{1}{\sqrt{ d }} \right) $$
 
 ---
-Let us compute: $$\mathbb{E}_{x \sim \mu_{\beta}}\mathbb{E}_{v}[\phi_{v}(x)]\geq \frac{1}{\sqrt{ d }}$$We have that: $$\begin{aligned}\mathbb{E}_{x\sim \mu_{\beta}}[x^\top Ax]&=\sum_{ x}^{}\frac{\exp(-\beta x^\top Ax)x^\top Ax}{\sum_{y}\exp(-\beta y^\top A y)}=-\frac{d}{d\beta}\log \sum_{x}^{}\exp(-\beta x^\top A x)\end{aligned}$$
+Let us compute: $$\mathbb{E}_{x \sim \mu_{\beta}}\mathbb{E}_{v}[\phi_{v}(x)]\geq \frac{1}{\sqrt{ d }}$$We have that: $$\begin{aligned}\mathbb{E}_{x\sim \mu_{\beta}}[x^\top Ax]&=\sum_{ x}^{}\frac{\exp(-\beta x^\top Ax)x^\top Ax}{\sum_{y}\exp(-\beta y^\top A y)}=-\frac{d}{d\beta}\log \sum_{x}^{}\exp(-\beta x^\top A x)\end{aligned}$$Therefore, $$\mathbb{E}_{x\sim \mu_{\beta}}\mathbb{E}_{v}[\phi_{v}(x)]=-\frac{1}{m}\mathbb{E}_{x\sim \mu_{\beta}}[x^\top A x]=\frac{1}{m} \frac{d}{d\beta}\log \sum_{x}^{}\exp(-\beta x^\top A x)$$
+
+---
+If we have this, then: $$\begin{aligned}\mathbb{E}_{x \sim \nu}\mathbb{E}_{v}[\phi_{v}(x)]=\mathbb{E}_{v}\mathbb{E}_{U,x_{\overline{U}}|v}\mathbb{E}_{\nu|x_{\overline{U}}}\phi_{v}(x)\end{aligned}$$
+
+$$\begin{aligned}\mathbb{E}_{x \sim \nu}\mathbb{E}_{v}[\phi_{v}(x)]\geq  \mathbb{E}_{x \sim \mu_{\beta}}\mathbb{E}_{v}[\phi_{v}(x)]-2d_{\text{TV}}(\nu,\mu_{\beta})\end{aligned}$$

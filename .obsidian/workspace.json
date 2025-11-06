@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+                "file": "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Pinning MaxCut"
+              "title": "Local Stationary Distributions"
             }
           }
         ],
@@ -169,9 +169,37 @@
               "icon": "lucide-file",
               "title": "MaxCut"
             }
+          },
+          {
+            "id": "ae72000de546f7f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Weak Recovery in Spiked Models"
+            }
+          },
+          {
+            "id": "bf2f0c238654c1c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Project Roadmap"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -317,11 +345,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "eb2012d60345cce2",
+  "active": "bf2f0c238654c1c2",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+    "Projects/Local Stationary Distributions/MaxCut.md",
     "Probability Theory/Characteristic Function.md",
     "TA/AdvAlg/TimeSheet.md",
     "Analysis/Banach Space.md",
@@ -340,11 +370,9 @@
     "Probability Theory/Independence.md",
     "Courses/Advanced Algorithms/Exercise 06.md",
     "Job Application.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Probability Theory/Expected Value.md",
     "Graph Theory/Graph Laplacian.md",
     "Information Theory/Relative Entropy.md",
-    "GHW1.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
