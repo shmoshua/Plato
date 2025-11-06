@@ -53,3 +53,5 @@ Let us compute: $$\mathbb{E}_{x \sim \mu_{\beta}}\mathbb{E}_{v}[\phi_{v}(x)]\geq
 If we have this, then: $$\begin{aligned}\mathbb{E}_{x \sim \nu}\mathbb{E}_{v}[\phi_{v}(x)]=\mathbb{E}_{v}\mathbb{E}_{U,x_{\overline{U}}|v}\mathbb{E}_{\nu|x_{\overline{U}}}\phi_{v}(x)\end{aligned}$$
 
 $$\begin{aligned}\mathbb{E}_{x \sim \nu}\mathbb{E}_{v}[\phi_{v}(x)]\geq  \mathbb{E}_{x \sim \mu_{\beta}}\mathbb{E}_{v}[\phi_{v}(x)]-2d_{\text{TV}}(\nu,\mu_{\beta})\end{aligned}$$
+
+We have that: $$\text{KL}(\nu_{t}\|\mu_{\beta})\leq \frac{1}{C_{\text{MLSI}}(\mu_{\beta})}\mathcal{E}_{\mu_{\beta}}(f'_{t,\beta},\log f'_{t,\beta})$$

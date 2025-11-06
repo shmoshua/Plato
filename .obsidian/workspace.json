@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+                "file": "Projects/Local Stationary Distributions/Pinning MaxCut.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Local Stationary Distributions"
+              "title": "Pinning MaxCut"
             }
           }
         ],
@@ -347,11 +347,11 @@
   },
   "active": "bf2f0c238654c1c2",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Probability Theory/Characteristic Function.md",
     "TA/AdvAlg/TimeSheet.md",
     "Analysis/Banach Space.md",
