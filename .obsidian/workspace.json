@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+                "file": "Courses/NLP/Assignment 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Pinning MaxCut"
+              "title": "Assignment 1"
             }
           }
         ],
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+                "file": "Courses/NLP/Assignment 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Pinning MaxCut"
+              "title": "Assignment 1"
             }
           },
           {
@@ -345,12 +345,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "eb2012d60345cce2",
+  "active": "b66923660a7f76bc",
   "lastOpenFiles": [
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+    "Courses/NLP/Assignment 1.md",
+    "Courses/Untitled.md",
+    "Courses/NLP",
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Probability Theory/Characteristic Function.md",
     "TA/AdvAlg/TimeSheet.md",
@@ -371,8 +374,6 @@
     "Courses/Advanced Algorithms/Exercise 06.md",
     "Job Application.md",
     "Probability Theory/Expected Value.md",
-    "Graph Theory/Graph Laplacian.md",
-    "Information Theory/Relative Entropy.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
@@ -383,7 +384,6 @@
     "Projects",
     "Courses/Algebraic Topology II",
     "Optimization",
-    "Courses/Advanced Graph Algorithms",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }

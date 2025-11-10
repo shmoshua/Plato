@@ -1,0 +1,5 @@
+1. $f(x_{1},x_{2}) = \sigma(\omega_{2}x_{2} + \omega_{1}x_{1}+\omega_{0})$
+2. We have that: $z_{1}=0.4$, $z_{2}=0.4$, $h=1.3$, $p \approx 0.79$
+3. We have: $$\mathcal{L}(1,p)=- \log p=-\log \frac{1}{1+\exp(-1.3)}\approx 0.24$$
+4. We have: $$\begin{aligned}\frac{\partial \mathcal{L}}{\partial h}=\frac{ \partial \mathcal{L} }{ \partial p }\frac{ \partial p }{ \partial h }  &=-\left( \frac{y}{p}-\frac{1-y}{1-p} \right)\cdot p(1-p) \\&=-(y(1-p)-(1-y)p)\\&=p-y\end{aligned}$$Therefore, $$\frac{ \partial \mathcal{L} }{ \partial \omega_{0} } =\frac{ \partial \mathcal{L} }{ \partial h } \frac{ \partial h }{ \partial \omega_{0} } =p-y,\quad \frac{ \partial \mathcal{L} }{ \partial \omega_{i} } =\frac{ \partial \mathcal{L} }{ \partial h } \frac{ \partial h }{ \partial \omega_{i} } =x_{i}(p-y)$$for $i\in\{ 1,2 \}$. 
+5. 
