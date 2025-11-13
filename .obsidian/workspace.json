@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 11.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 11"
+              "title": "Advanced Algorithms Roadmap"
             }
           },
           {
@@ -198,8 +198,7 @@
               "title": "Project Roadmap"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -345,10 +344,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b66923660a7f76bc",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+    "Courses/Probability Theory/Exercise Class 11.md",
     "Courses/NLP/Assignment 1.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/Untitled.md",
     "Courses/NLP",
     "Projects/Local Stationary Distributions/MaxCut.md",
@@ -364,7 +364,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Random Variable.md",
-    "Courses/Probability Theory/Exercise Class 11.md",
     "Courses/Probability Theory/Exercise Class 12.md",
     "Courses/Probability Theory/Exercise Class 13.md",
     "Courses/Probability Theory/Exercise Class 8.md",
