@@ -49,3 +49,6 @@ For any sequence, the optimum can be in different epochs.
 
 ---
 OPT_A = 3 5
+
+$$\text{OPT}(I)=\text{VAL}_{I}(\text{SOL}_{I})\geq \text{VAL}_{I}(\text{SOL}_{J})\geq \text{VAL}_{J}(\text{SOL}_{j})= \text{OPT}(J)$$
+
