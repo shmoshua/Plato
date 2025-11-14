@@ -46,3 +46,6 @@ $K$ and $k$.
 
 For any sequence, the optimum can be in different epochs. 
 1. if the epoch is   cost <= 3OPT
+
+---
+OPT_A = 3 5

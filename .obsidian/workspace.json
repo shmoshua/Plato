@@ -43,7 +43,7 @@
               "type": "markdown",
               "state": {
                 "file": "GHW1.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -77,9 +77,19 @@
               "icon": "lucide-file",
               "title": "Assignment 1"
             }
+          },
+          {
+            "id": "21adda589b37a9e8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "d54d634cc1ba8421",
@@ -120,12 +130,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "GHW1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expected Value"
+              "title": "GHW1"
             }
           },
           {
@@ -198,7 +208,8 @@
               "title": "Project Roadmap"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -344,10 +355,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "3147480c8f51d9fc",
   "lastOpenFiles": [
-    "Courses/Probability Theory/Exercise Class 11.md",
+    "Probability Theory/Expected Value.md",
+    "GHW1.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/NLP/Assignment 1.md",
+    "Probability Theory/Independence.md",
+    "Courses/Probability Theory/Exercise Class 11.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/Untitled.md",
     "Courses/NLP",
@@ -369,10 +384,6 @@
     "Courses/Probability Theory/Exercise Class 8.md",
     "Courses/Probability Theory/Exercise Class 6.md",
     "Courses/Probability Theory/Exercise Class 7.md",
-    "Probability Theory/Independence.md",
-    "Courses/Advanced Algorithms/Exercise 06.md",
-    "Job Application.md",
-    "Probability Theory/Expected Value.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
