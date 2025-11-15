@@ -208,8 +208,7 @@
               "title": "Project Roadmap"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -355,11 +354,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "3147480c8f51d9fc",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "GHW1.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Probability Theory/Independence.md",
-    "GHW1.md",
     "Probability Theory/Expected Value.md",
     "Courses/NLP/Assignment 1.md",
     "Courses/Probability Theory/Exercise Class 11.md",
