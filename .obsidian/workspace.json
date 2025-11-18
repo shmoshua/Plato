@@ -200,15 +200,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
+                "file": "Probability Theory/Expected Value.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Project Roadmap"
+              "title": "Expected Value"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -354,10 +355,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "bf2f0c238654c1c2",
   "lastOpenFiles": [
-    "GHW1.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "GHW1.md",
     "Probability Theory/Independence.md",
     "Probability Theory/Expected Value.md",
     "Courses/NLP/Assignment 1.md",
@@ -366,7 +368,6 @@
     "Courses/Untitled.md",
     "Courses/NLP",
     "Projects/Local Stationary Distributions/MaxCut.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Probability Theory/Characteristic Function.md",
