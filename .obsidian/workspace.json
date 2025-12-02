@@ -82,14 +82,18 @@
             "id": "21adda589b37a9e8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Courses/NLP/Assignment 1.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Assignment 1"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "d54d634cc1ba8421",
@@ -207,9 +211,23 @@
               "icon": "lucide-file",
               "title": "Expected Value"
             }
+          },
+          {
+            "id": "e7e720a0ffe167cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/NLP/Assignment 1.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Assignment 1"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -355,14 +373,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "bf2f0c238654c1c2",
+  "active": "21adda589b37a9e8",
   "lastOpenFiles": [
+    "Courses/NLP/Assignment 1.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "GHW1.md",
     "Probability Theory/Independence.md",
     "Probability Theory/Expected Value.md",
-    "Courses/NLP/Assignment 1.md",
     "Courses/Probability Theory/Exercise Class 11.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/Untitled.md",
