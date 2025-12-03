@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "d54d634cc1ba8421",
@@ -226,7 +226,8 @@
               "title": "Assignment 1"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -372,13 +373,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "21adda589b37a9e8",
+  "active": "b66923660a7f76bc",
   "lastOpenFiles": [
-    "Courses/NLP/Assignment 1.md",
+    "GHW1.md",
     "TA/AdvAlg/TimeSheet.md",
+    "Courses/NLP/Assignment 1.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "GHW1.md",
     "Probability Theory/Independence.md",
     "Probability Theory/Expected Value.md",
     "Courses/Probability Theory/Exercise Class 11.md",
