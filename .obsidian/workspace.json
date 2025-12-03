@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/NLP/Assignment 1.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Assignment 1"
+              "title": "TimeSheet"
             }
           }
         ],
@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Advanced Algorithms Roadmap"
+              "title": "TimeSheet"
             }
           },
           {
@@ -226,8 +226,7 @@
               "title": "Assignment 1"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -376,8 +375,9 @@
   "active": "21adda589b37a9e8",
   "lastOpenFiles": [
     "Courses/NLP/Assignment 1.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "TA/AdvAlg/TimeSheet.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "GHW1.md",
     "Probability Theory/Independence.md",
     "Probability Theory/Expected Value.md",
@@ -389,7 +389,6 @@
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Probability Theory/Characteristic Function.md",
-    "TA/AdvAlg/TimeSheet.md",
     "Analysis/Banach Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Topology/Compact Space.md",

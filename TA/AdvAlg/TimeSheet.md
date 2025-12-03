@@ -23,5 +23,16 @@ October, 6hrs, GHW1 correction
 Total: 38.5 hrs
 
 
+3.11 2hr Exercise Class
+4.11 4hr Exercise Class Preparation 
+4.11 1hr Exercise Sheet Solution Writeup
+5.11 2hr Exercise Class
+6.11 2hr Exercise Class
+Week 1 12hrs GHW1 correction
+10.11 2hr Exercise Class
+Week 2.11 21hr GHW1 correction
+25.11 4hr Exercise Class Preparation
+26.11 2hr Exercise Class
+27.11 2hr Exercise Class
 
-$$\Pr\big(\text{parity}(a)\ne\text{parity}(b)\mid a\ne bC) =\frac{2\,p_{\text{even}}\,p_{\text{odd}}}{1-\sum_{t}p_t^2} =\frac{2\,(E/C)\,(O/C)}{1-\dfrac{1}{C^2}\sum_{t}\binom{m-t}{k-1}^2} =\frac{2\,E\,O}{\,C^2-\sum_{t=1}^{\,m-k+1}\binom{m-t}{k-1}^2\,}$$
+Total 54 hrs
