@@ -3,22 +3,22 @@
 3. We have: $$\mathcal{L}(1,p)=- \log p=-\log \frac{1}{1+\exp(-1.3)}\approx 0.24$$
 4. We have: $$\begin{aligned}\frac{\partial \mathcal{L}}{\partial h}=\frac{ \partial \mathcal{L} }{ \partial p }\frac{ \partial p }{ \partial h }  &=-\left( \frac{y}{p}-\frac{1-y}{1-p} \right)\cdot p(1-p) \\&=-(y(1-p)-(1-y)p)\\&=p-y\end{aligned}$$Therefore, $$\frac{ \partial \mathcal{L} }{ \partial \omega_{0} } =\frac{ \partial \mathcal{L} }{ \partial h } \frac{ \partial h }{ \partial \omega_{0} } =p-y,\quad \frac{ \partial \mathcal{L} }{ \partial \omega_{i} } =\frac{ \partial \mathcal{L} }{ \partial h } \frac{ \partial h }{ \partial \omega_{i} } =x_{i}(p-y)$$for $i\in\{ 1,2 \}$. 
 ---
-We first want to show that: 
+Let $\omega(\mathbf{t})_{n}:=\exp(\text{score}_{\theta}(\braket{ t_{n-1} , t_{n} },\mathbf{ w}))$ for all $\mathbf{ t}\in \mathcal{T}^N$ and $n\in[N]$. Then, the backward algorithm computes: $$\bigoplus _{\mathbf{t}\in \mathcal{T}^N} \bigotimes_{n\in [N]}\braket{ \omega(\mathbf{t})_{n}, -\omega(\mathbf{t})_{n}\log \omega(\mathbf{t})_{n}}$$Hence, it suffices to show that this results in the unnormalized entropy. 
+
+We first show that for any $\{ x_{i},y_{i} \}_{i}\subseteq \mathbb{R}$,
 $$\bigotimes_{i\in[n]}\braket{ x_{i} , y_{i} } =\left\langle \prod_{ i\in[n]}^{} x_{i},\sum_{i\in[n]} y_{i}\prod_{j \in[n]:j \ne i}^{}x_{j}\right\rangle $$We show this via induction over $n$. For $n=1$, it is clear. Now, $$\begin{aligned}\bigotimes_{i\in[n]}\braket{ x_{i} , y_{i} } &=\left( \bigotimes_{i\in[n-1]}\braket{ x_{i} , y_{i} }  \right) \otimes  \braket{ x_{n} , y_{n} }\\&= \left\langle \prod_{ i\in[n-1]}^{} x_{i},\sum_{i\in[n-1]} y_{i}\prod_{j\in[n-1]:j \ne i}^{}x_{j}\right\rangle \otimes  \braket{ x_{n} , y_{n} }\\&=\left\langle \prod_{ i\in[n]}^{} x_{i},y_{n}\prod_{i\in[n-1]}x_{i}+\sum_{i\in[n-1]} y_{i}\prod_{j\in[n]:j \ne i}^{}x_{j}\right\rangle \\&=\left\langle \prod_{ i\in[n]}^{} x_{i},\sum_{i\in[n]} y_{i}\prod_{j\in[n]:j \ne i}^{}x_{j}\right\rangle \end{aligned}$$
-Let $\omega(\mathbf{t})_{n}:=\exp(\text{score}_{\theta}(\braket{ t_{n-1} , t_{n} },\mathbf{ w}))$. Then, 
+Now, using this we have that: 
 $$
 \begin{aligned}
 &\bigoplus _{\mathbf{t}\in \mathcal{T}^N} \bigotimes_{n\in [N]}\braket{ \omega(\mathbf{t})_{n}, -\omega(\mathbf{t})_{n}\log \omega(\mathbf{t})_{n}} \\=\quad &\bigoplus _{\mathbf{t}\in \mathcal{T}^N} \left\langle \prod_{n\in[N]}^{}\omega(\mathbf{t})_{n},-\sum_{n \in[N]}^{}\omega(\mathbf{t})_{n}\log \omega(\mathbf{t})_{n} \prod_{ m \in [N]: m \ne n} \omega(\mathbf{t})_{m}\right\rangle
 \\=\quad &\bigoplus _{\mathbf{t}\in \mathcal{T}^N} \left\langle \prod_{n\in[N]}^{}\omega(\mathbf{t})_{n},-\sum_{n \in[N]}^{}\log \omega(\mathbf{t})_{n} \prod_{ m \in [N]} \omega(\mathbf{t})_{m}\right\rangle
 \\=\quad &\bigoplus _{\mathbf{t}\in \mathcal{T}^N} \left\langle \prod_{n\in[N]}^{}\omega(\mathbf{t})_{n},-\left( \prod_{ m \in [N]} \omega(\mathbf{t})_{m} \right)\sum_{n \in[N]}^{}\log \omega(\mathbf{t})_{n} \right\rangle
 \\=\quad &\bigoplus _{\mathbf{t}\in \mathcal{T}^N} \left\langle \exp(\text{score}_{\theta}(\mathbf{t},\mathbf{w})),-\exp(\text{score}_{\theta}(\mathbf{t},\mathbf{w}))\text{score}_{\theta}(\mathbf{ t},\mathbf{ w}) \right\rangle
-\\=\quad &\bigoplus _{\mathbf{t}\in \mathcal{T}^N} \left\langle \exp(\text{score}_{\theta}(\mathbf{t},\mathbf{w})),-\exp(\text{score}_{\theta}(\mathbf{t},\mathbf{w}))\text{score}_{\theta}(\mathbf{ t},\mathbf{ w}) \right\rangle
+\\=\quad &\left\langle \sum_{\mathbf{t}\in \mathcal{T}^N} ^{}\exp(\text{score}_{\theta}(\mathbf{t},\mathbf{w})),\underbrace{ -\sum_{\mathbf{t}\in \mathcal{T}^N} ^{}\exp(\text{score}_{\theta}(\mathbf{t},\mathbf{w}))\text{score}_{\theta}(\mathbf{ t},\mathbf{ w})  }_{ = \text{H}_{\text{U}}(\text{T}_{\mathbf{ w}}) }\right\rangle
 \end{aligned}
 $$
 where: $$\prod_{ n \in [N]} \omega(\mathbf{t})_{n} = \prod_{ n \in [N]} \exp(\text{score}_{\theta}(\braket{ t_{n-1} , t_{n} },\mathbf{ w})) = \exp\left( \sum_{n\in[N]}^{}\text{score}_{\theta}(\braket{ t_{n-1} , t_{n} },\mathbf{ w}) \right)=\exp(\text{score}_{\theta}(\mathbf{t},\mathbf{w}))$$and $$\sum_{n\in[N]}^{}\log \omega(\mathbf{t})_{n}=\sum_{n\in[N]}^{}\text{score}_{\theta}(\braket{ t_{n-1} ,t_{n}  },\mathbf{ w} )=\text{score}_{\theta}(\mathbf{ t},\mathbf{ w})$$
+This proves the claim. 
 
-$$\begin{aligned}
-\text{H}_{\text{U}}(\text{T}_{\mathbf{ w}})&=-\sum_{\mathbf{ t}\in \mathcal{T}^N}^{}\text{score}_{\theta}(\mathbf{ t},\mathbf{ w})\cdot \exp \text{score}_{\theta}(\mathbf{ t},\mathbf{ w})
-\end{aligned}$$
 ---
 We have that: $$\begin{aligned}\text{H}(\text{T}_{\textbf{w}}) &= -\sum_{\mathbf{t}\in \mathcal{T}^N}^{} p(\mathbf{t}|\mathbf{w})\log p(\mathbf{t}|\mathbf{w})\\&=-\sum_{\mathbf{t}\in \mathcal{T}^N}^{} \frac{\exp \text{score}_{\mathbf{\theta}}(\mathbf{t},\mathbf{w})}{Z(\mathbf{w})}\log \frac{\exp \text{score}_{\mathbf{\theta}}(\mathbf{t},\mathbf{w})}{Z(\mathbf{w})}\\&=-\sum_{\mathbf{t}\in \mathcal{T}^N}^{} \frac{\exp \text{score}_{\mathbf{\theta}}(\mathbf{t},\mathbf{w})}{Z(\mathbf{w})}(\text{score}_{\mathbf{\theta}}(\mathbf{t},\mathbf{w}) - \log Z(\mathbf{w}))\\&=Z(\mathbf{w})^{-1}\text{H}_{\text{U}}(\text{T}_{\mathbf{w}})+\log Z(\mathbf{w}) \underbrace{ \frac{\sum_{\mathbf{t}\in \mathcal{T}^N}^{} \exp \text{score}_{\theta}(\mathbf{ t}, \mathbf{ w})}{Z(\mathbf{ w})} }_{ = 1 }\\&=Z(\mathbf{w})^{-1}\text{H}_{\text{U}}(\text{T}_{\mathbf{w}})+\log Z(\mathbf{w}) \end{aligned}$$
