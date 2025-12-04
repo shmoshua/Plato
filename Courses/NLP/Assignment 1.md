@@ -52,6 +52,14 @@ Firstly, notice that for each $\braket{ n , t }$, $\gamma[n,t]$ is updated once 
 	
 	This proves the claim.
 	
-Now, let $\braket{ \braket{ N , t_{N}^{*} } , \gamma[N,t^{*}_{N}] }$ be the first element popped from the queue with $N$. Then, there exists $j$ s.t. $\braket{ N , t^{*}_{N} }\notin \texttt{popped}_{j}$ but $\braket{ N , t^{*}_{N} }\in \texttt{popped}_{j+1}$. 
+Now, let $\braket{ \braket{ N , t_{N}^{*} } , \gamma[N,t^{*}_{N}] }$ be the first element popped from the queue with $N$. Then, there exists $j$ s.t. $\braket{ N , t^{*}_{N} }\notin \texttt{popped}_{j-1}$ but $\braket{ N , t^{*}_{N} }\in \texttt{popped}_{j}$. 
 
 Then, similarly to above, for any other $\mathbf{t}_{1:N}\in \mathcal{T}^N$,  
+
+
+---
+For this exercise, I use the definition of Viterbi in the lecture that computes the 
+We show the following claim by induction. Let $\gamma'$ be the array computed by Viterbi. We claim that for all $n\in [N]$ and $t\in \mathcal{T}$, $$\gamma'[n,t]=\gamma[n,t]$$
+We show this via induction over $n$. 
+- Let $n=1$. Then, $\gamma[1,t]=\text{score}(\texttt{BOT},t,\mathbf{w})$ from above. 
+- Let $n\geq 2$. Then, $$\begin{aligned}\gamma'[n,t]&=\max_{t_{n-1}\in \mathcal{T}}(\text{score}(t_{n-1},t,\mathbf{w})+\gamma'[n-1,t_{n-1}])\\&=\max_{t_{n-1}\in \mathcal{T}}(\text{score}(t_{n-1},t,\mathbf{w})+\gamma[n-1,t_{n-1}])\end{aligned}$$
