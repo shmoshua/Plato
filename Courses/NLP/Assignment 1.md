@@ -22,3 +22,10 @@ This proves the claim.
 
 ---
 We have that: $$\begin{aligned}\text{H}(\text{T}_{\textbf{w}}) &= -\sum_{\mathbf{t}\in \mathcal{T}^N}^{} p(\mathbf{t}|\mathbf{w})\log p(\mathbf{t}|\mathbf{w})\\&=-\sum_{\mathbf{t}\in \mathcal{T}^N}^{} \frac{\exp \text{score}_{\mathbf{\theta}}(\mathbf{t},\mathbf{w})}{Z(\mathbf{w})}\log \frac{\exp \text{score}_{\mathbf{\theta}}(\mathbf{t},\mathbf{w})}{Z(\mathbf{w})}\\&=-\sum_{\mathbf{t}\in \mathcal{T}^N}^{} \frac{\exp \text{score}_{\mathbf{\theta}}(\mathbf{t},\mathbf{w})}{Z(\mathbf{w})}(\text{score}_{\mathbf{\theta}}(\mathbf{t},\mathbf{w}) - \log Z(\mathbf{w}))\\&=Z(\mathbf{w})^{-1}\text{H}_{\text{U}}(\text{T}_{\mathbf{w}})+\log Z(\mathbf{w}) \underbrace{ \frac{\sum_{\mathbf{t}\in \mathcal{T}^N}^{} \exp \text{score}_{\theta}(\mathbf{ t}, \mathbf{ w})}{Z(\mathbf{ w})} }_{ = 1 }\\&=Z(\mathbf{w})^{-1}\text{H}_{\text{U}}(\text{T}_{\mathbf{w}})+\log Z(\mathbf{w}) \end{aligned}$$
+
+---
+##### Problem 2
+1. We prove the following: For any $n$, the score of the first tagging of the first $n$ words popped from the queue, is the score of the best part-of-speech tagging of the first $n$ words under the CRF.
+   
+   We show by induction. If $n= 0$, then the first to be popped is $\braket{ \braket{ 0 , \text{BOT} } , \mathbf{ 1} }$. 
+   The score of the first tagging 
