@@ -33,10 +33,30 @@ We have that: $$\begin{aligned}\text{H}(\text{T}_{\textbf{w}}) &= -\sum_{\mathbf
 	  
 	  Now the first equality is simple: by the algorithm we have that: $$s^{*}_{n}=\text{score}(t,t^{*}_{n},\mathbf{ w})+\gamma[n-1,t]$$for some $t\in \mathcal{T}$.
 
-Let $\texttt{popped}_{j},\texttt{queue}_{j}$ denote $\texttt{popped}$ and $\texttt{queue}$ after the $j$-th iteration respectively. We first prove the following: for all $j$, $$\gamma[n,t]=1_{n\ne 0}\cdot \max_{\mathbf{t}_{1:n}\in \mathcal{T}^n}\text{score}(\mathbf{t}_{1:n},\mathbf{w}),\quad \forall\braket{ n, t }\in \texttt{popped}_{j}$$
+Let $\texttt{popped}_{j},\texttt{queue}_{j}$ denote $\texttt{popped}$ and $\texttt{queue}$ after the $j$-th iteration respectively. We first prove the following: for all $j$, $$\gamma[n,t]=1_{n\ne 0}\cdot \max_{\mathbf{t}_{1:n-1}\in \mathcal{T}^{n-1}}\text{score}(\mathbf{t}_{1:n-1},t,\mathbf{w}),\quad \forall\braket{ n, t }\in \texttt{popped}_{j}$$
 Firstly, notice that for each $\braket{ n , t }$, $\gamma[n,t]$ is updated once during the whole algorithm. Now, we proceed by induction over $j$. 
 1. Let $j = 1$. Then, $\texttt{popped}_{1} = \{\braket{  0 , \texttt{BOT} }\}$ and $\gamma[0,\texttt{BOT}]=0$. 
-2. Let $j \geq 2$ and $\braket{ i , t }\in \texttt{popped}_{j}=\text{popped}$. If $\braket{ i , t }\in \texttt{popped}_{j-1}$ then the statement holds from the induction hypothesis. 
+2. Let $j \geq 2$. Notice that for each $\braket{ n , t }$, $\gamma[n,t]$ is updated once during the whole algorithm. Therefore, it suffices to show that the statement holds for the element popped in this iteration, whereas for the other elements the statement holds by the induction hypothesis.
+   
+   Let $\braket{ \braket{ n , t_{n} } , \text{score}(t,t_{n},\mathbf{ w})+\gamma[n-1,t_{}] }$ denote the element popped from the priority queue in this iteration. We have that $\gamma[n,t]= \text{score}(t,t_{n},\mathbf{ w})+\gamma[n-1,t_{}]$. 
+   
+   
+   Now, let $\textbf{t}_{1:n-1}:=(t_{1},\dots,t_{n-1})\in \mathcal{T}^{n-1}$ be arbitrary and let further $k$ to be the minimum index s.t. $\braket{ k , t_{k} }\notin \texttt{popped}_{j-1}$. Then, as $\braket{ n , t_{n} }\notin \texttt{popped}_{j-1}$, we know that $k\leq n$. 
+   
+   
+	- If $k \geq 2$, then $$\begin{aligned}\text{score}(\textbf{t}_{1:n},\mathbf{w})&=\sum_{i=1}^{n}\text{score}(t_{i-1},t_{i},\mathbf{w})\\&\leq \text{score}(\mathbf{t}_{1:k-1},\mathbf{w}) + \text{score}(t_{k-1},t_{k},\mathbf{w})\\&\leq \gamma[k-1,t_{k-1}]+ \text{score}(t_{k-1},t_{k},\mathbf{w})\end{aligned}$$
+	   As $\braket{ k-1 , t_{k-1} }\in \texttt{popped}_{j-1}$, we know that $\braket{ \braket{ k , t_{k} } , \text{score}(t',t_{k},\mathbf{w})+\gamma[k-1,t'] }\in \texttt{queue}_{j-1}$ where $\text{score}(t',t_{k},\mathbf{w})+\gamma[k-1,t'] \geq \text{score}(t_{k-1},t_{k},\mathbf{w})+\gamma[k-1,t_{k-1}]$. Therefore, $$\begin{aligned}\text{score}(\textbf{t}_{1:n},\mathbf{w})&\leq \gamma[k-1,t_{k-1}]+ \text{score}(t_{k-1},t_{k},\mathbf{w})\\&\leq \text{score}(t',t_{k},\mathbf{w})+\gamma[k-1,t'] \\& \le \text{score}(t,t_{n},\mathbf{ w})+\gamma[n-1,t_{}]\\&=\gamma[n,t]\end{aligned}$$
+	- If $k=1$, then $\braket{ \braket{ 1 , t_{1} } , \text{score}(\texttt{BOT},t_{1},\mathbf{w}) }\in \texttt{queue}_{j-1}$. Hence,$$\text{score}(\mathbf{t}_{1:n},\mathbf{w})\le \text{score}(\texttt{BOT},t_{1},\mathbf{w})\le \gamma[n,t]$$
+	
+   
+   
+   As we know that $\braket{ n , t_{n} }$ is a key in $\texttt{queue}_{j-1}$, we know that $\braket{ k , t_{k} }$ is also a key in $\texttt{queue}_{j-1}$, i.e. there exists 
+   
+   However, we know that 
+1. $\braket{ \braket{ k , t_{k} } , \text{score}(t,t_{k},\mathbf{ w}) + \gamma[k-1,t] }\in \texttt{queue}_{j}$. 
+2. $\text{score}(t,t_{k},\mathbf{ w}) + \gamma[k-1,t]\ge \text{score}(t_{k-1},t_{k},\mathbf{ w})+\gamma[k-1,t_{k-1}]$. 
+3. $\text{score}(t^{*},t^{*}_{n},\mathbf{ w})+\gamma[n-1,t^{*}]\ge \text{score}(t,t_{k},\mathbf{ w}) + \gamma[k-1,t]$
+   
 
 
 Let $\braket{ \braket{ n , t_{n}^{*} } , \text{score}(t^{*},t^{*}_{n},\mathbf{ w})+\gamma[n-1,t^{*}] }$ be the first element popped from $\texttt{queue}$ with $n$. Then, there exists $j$ s.t. $\braket{ n , t^{*}_{n} }\notin \texttt{popped}_{j}$ but $\braket{ n , t^{*}_{n} }\in \texttt{popped}_{j+1}$. 
