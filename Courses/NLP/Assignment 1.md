@@ -28,6 +28,10 @@ We have that: $$\begin{aligned}\text{H}(\text{T}_{\textbf{w}}) &= -\sum_{\mathbf
 1. For any $n$, let $t^{*}_{n}\in \mathcal{T},s^{*}_{n}\in A$ s.t. $\braket{ \braket{ n , t^{*}_{n} } , s^{*}_{n} }$ is the first element popped from $\texttt{queue}$ with $n$. Then, we claim that for any $n$: $$\exists \mathbf{ t}_{1:n-1}\in \mathcal{T}^{n-1}, \quad  \text{score}(\mathbf{ t}_{1:n-1}, t^{*}_{n},\mathbf{ w})=s^{*}_{n}=\max_{\mathbf{t}\in \mathcal{T}^n }\text{ score}(\mathbf{ t},\mathbf{ w})$$
    We show this by induction over $n$. 
 	- Let $n=1$. Before the first iteration of the while loop, we have $\mathtt{queue}=(\braket{ \braket{ 0 , \text{BOT} } , \mathbf{ 1} })$. We pop $\braket{ \braket{ 0 , \text{BOT} } , \mathbf{ 1} }$. Then for all $t'\in \mathcal{T}$, $$\braket{ \braket{ 1 , t' } , \text{score}(t',\text{BOT},\mathbf{ w}) + 0}=\braket{ \braket{ 1 , t' } , \text{score}(t',\text{BOT},\mathbf{ w})}$$is added to the priority queue. Hence, after the first iteration, $\texttt{queue}=(\braket{ \braket{ 1 , t' } , \text{score}(t',\text{BOT},\mathbf{ w})})_{t'\in \mathcal{T}}$. Hence, we have that $$\text{score}(t^{*}_{1},\mathbf{ w})=s^{*}_{1}=\max_{t'\in \mathcal{T}} \text{score}(t',\mathbf{ w})$$
-	- Now let $n \ge 2$. Then, by induction hypothesis, there exists $\mathbf{t}_{1:n-1}\in \mathcal{T}^{n-1}$ ending in $t^{*}_{n-1}$ s.t. $$\text{score}()$$
+	- Now let $n \ge 2$. Then, by induction hypothesis, there exists $\mathbf{t}_{1:n-1}\in \mathcal{T}^{n-1}$ ending in $t^{*}_{n-1}$ s.t. $$\text{score}(\mathbf{t}_{1:n-1},\mathbf{ w})=s^{*}_{n-1}=\max_{\mathbf{ t}\in \mathcal{T}^{n-1}}\text{score}(\mathbf{ t}_{1:n-1}, \mathbf{ w})$$
+	  Therefore, if 
 	  
-	  Let $\mathbf{ \overline{t}}_{1:n-1}\in \text{argmax}_{\mathbf{ t}\in \mathcal{T}^{n-1}}\text{score}(\mathbf{ t},\mathbf{ w})$. Then, by induction hypothesis, we have $s^{*}_{n-1}=\text{score}(\mathbf{ \overline{t}}_{1:n-1},\mathbf{ w})$. 
+	  Now the first equality is simple: by the algorithm we have that: $$s^{*}_{n}=\text{score}(t,t^{*}_{n},\mathbf{ w})+\gamma[n-1,t]$$for some $t\in \mathcal{T}$.
+
+Let $\textsf{popped}_{j},\textsf{queue}_{j}$ denote the 
+Let $\mathbf{t}_{1:n}=(t_{1},\dots,t_{n})\in \mathcal{T}^n$ be arbitrary. Then, $$\text{score}(\textbf{t}_{1:n},\mathbf{ w})=\sum_{i=1}^{n}\text{score}(t_{i-1},t_{i},\mathbf{w})\ge $$
