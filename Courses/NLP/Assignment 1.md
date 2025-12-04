@@ -25,7 +25,9 @@ We have that: $$\begin{aligned}\text{H}(\text{T}_{\textbf{w}}) &= -\sum_{\mathbf
 
 ---
 ##### Problem 2
-1. We prove the following: For any $n$, the score of the first tagging of the first $n$ words popped from the queue, is the score of the best part-of-speech tagging of the first $n$ words under the CRF.
-   
-   We show by induction. If $n= 0$, then the first to be popped is $\braket{ \braket{ 0 , \text{BOT} } , \mathbf{ 1} }$. 
-   The score of the first tagging 
+1. For any $n$, let $t^{*}_{n}\in \mathcal{T},s^{*}_{n}\in A$ s.t. $\braket{ \braket{ n , t^{*}_{n} } , s^{*}_{n} }$ is the first element popped from $\texttt{queue}$ with $n$. Then, we claim that for any $n$: $$\exists \mathbf{ t}_{1:n-1}\in \mathcal{T}^{n-1}, \quad  \text{score}(\mathbf{ t}_{1:n-1}, t^{*}_{n},\mathbf{ w})=s^{*}_{n}=\max_{\mathbf{t}\in \mathcal{T}^n }\text{ score}(\mathbf{ t},\mathbf{ w})$$
+   We show this by induction over $n$. 
+	- Let $n=1$. Before the first iteration of the while loop, we have $\mathtt{queue}=(\braket{ \braket{ 0 , \text{BOT} } , \mathbf{ 1} })$. We pop $\braket{ \braket{ 0 , \text{BOT} } , \mathbf{ 1} }$. Then for all $t'\in \mathcal{T}$, $$\braket{ \braket{ 1 , t' } , \text{score}(t',\text{BOT},\mathbf{ w}) + 0}=\braket{ \braket{ 1 , t' } , \text{score}(t',\text{BOT},\mathbf{ w})}$$is added to the priority queue. Hence, after the first iteration, $\texttt{queue}=(\braket{ \braket{ 1 , t' } , \text{score}(t',\text{BOT},\mathbf{ w})})_{t'\in \mathcal{T}}$. Hence, we have that $$\text{score}(t^{*}_{1},\mathbf{ w})=s^{*}_{1}=\max_{t'\in \mathcal{T}} \text{score}(t',\mathbf{ w})$$
+	- Now let $n \ge 2$. Then, by induction hypothesis, there exists $\mathbf{t}_{1:n-1}\in \mathcal{T}^{n-1}$ ending in $t^{*}_{n-1}$ s.t. $$\text{score}()$$
+	  
+	  Let $\mathbf{ \overline{t}}_{1:n-1}\in \text{argmax}_{\mathbf{ t}\in \mathcal{T}^{n-1}}\text{score}(\mathbf{ t},\mathbf{ w})$. Then, by induction hypothesis, we have $s^{*}_{n-1}=\text{score}(\mathbf{ \overline{t}}_{1:n-1},\mathbf{ w})$. 
