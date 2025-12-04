@@ -33,5 +33,17 @@ We have that: $$\begin{aligned}\text{H}(\text{T}_{\textbf{w}}) &= -\sum_{\mathbf
 	  
 	  Now the first equality is simple: by the algorithm we have that: $$s^{*}_{n}=\text{score}(t,t^{*}_{n},\mathbf{ w})+\gamma[n-1,t]$$for some $t\in \mathcal{T}$.
 
-Let $\textsf{popped}_{j},\textsf{queue}_{j}$ denote the 
-Let $\mathbf{t}_{1:n}=(t_{1},\dots,t_{n})\in \mathcal{T}^n$ be arbitrary. Then, $$\text{score}(\textbf{t}_{1:n},\mathbf{ w})=\sum_{i=1}^{n}\text{score}(t_{i-1},t_{i},\mathbf{w})\ge $$
+Let $\texttt{popped}_{j},\texttt{queue}_{j}$ denote $\texttt{popped}$ and $\texttt{queue}$ after the $j$-th iteration respectively. We first prove the following: for all $j$, $$\gamma[n,t]=1_{n\ne 0}\cdot \max_{\mathbf{t}_{1:n}\in \mathcal{T}^n}\text{score}(\mathbf{t}_{1:n},\mathbf{w}),\quad \forall\braket{ n, t }\in \texttt{popped}_{j}$$
+Firstly, notice that for each $\braket{ n , t }$, $\gamma[n,t]$ is updated once during the whole algorithm. Now, we proceed by induction over $j$. 
+1. Let $j = 1$. Then, $\texttt{popped}_{1} = \{\braket{  0 , \texttt{BOT} }\}$ and $\gamma[0,\texttt{BOT}]=0$. 
+2. Let $j \geq 2$ and $\braket{ i , t }\in \texttt{popped}_{j}=\text{popped}$. If $\braket{ i , t }\in \texttt{popped}_{j-1}$ then the statement holds from the induction hypothesis. 
+
+
+Let $\braket{ \braket{ n , t_{n}^{*} } , \text{score}(t^{*},t^{*}_{n},\mathbf{ w})+\gamma[n-1,t^{*}] }$ be the first element popped from $\texttt{queue}$ with $n$. Then, there exists $j$ s.t. $\braket{ n , t^{*}_{n} }\notin \texttt{popped}_{j}$ but $\braket{ n , t^{*}_{n} }\in \texttt{popped}_{j+1}$. 
+
+Let $\mathbf{t}_{1:n}=(t_{1},\dots,t_{n})\in \mathcal{T}^n$ be arbitrary. Let further $k$ to be the minimum index s.t. $t_{k}\notin \texttt{popped}_{j}$. However, we know that 
+1. $\braket{ \braket{ k , t_{k} } , \text{score}(t,t_{k},\mathbf{ w}) + \gamma[k-1,t] }\in \texttt{queue}_{j}$. 
+2. $\text{score}(t,t_{k},\mathbf{ w}) + \gamma[k-1,t]\ge \text{score}(t_{k-1},t_{k},\mathbf{ w})+\gamma[k-1,t_{k-1}]$. 
+3. $\text{score}(t^{*},t^{*}_{n},\mathbf{ w})+\gamma[n-1,t^{*}]\ge \text{score}(t,t_{k},\mathbf{ w}) + \gamma[k-1,t]$
+   
+$$\text{score}(\textbf{t}_{1:n},\mathbf{ w})=\sum_{i=1}^{n}\text{score}(t_{i-1},t_{i},\mathbf{w})\le \sum_{i=1}^{k-1} \text{score}(t_{i-1},t_{i}, \text{w}) + \text{score}(t_{k-1},t_{k},\text{w})$$
