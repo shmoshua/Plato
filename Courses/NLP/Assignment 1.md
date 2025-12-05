@@ -72,6 +72,6 @@ We give a simple counterexample with $\mathcal{T}:=\{ a,b \}$ and $N=2$. Further
 $$
 \begin{aligned}
 \text{{score}}(\texttt{BOT},\cdot ,\textbf{w})=1\\
-\text{{score}}(a,a,\textbf{w})=\text{{score}}(b,a,\textbf{w})=1,\quad \text{{score}}(a,b,\textbf{w})=0.8,\quad \text{{score}}(b,b,\textbf{w})=\infty
+\text{{score}}(a,a,\textbf{w})=1,\quad \text{{score}}(b,a,\textbf{w})=0,\quad \text{{score}}(a,b,\textbf{w})=0.8,\quad \text{{score}}(b,b,\textbf{w})=0.8
 \end{aligned}
 $$
