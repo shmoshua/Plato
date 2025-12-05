@@ -63,3 +63,15 @@ We show the following claim by induction. Let $\gamma'$ be the array computed by
 We show this via induction over $n$. 
 - Let $n=1$. Then, $\gamma[1,t]=\text{score}(\texttt{BOT},t,\mathbf{w})$ from above. 
 - Let $n\geq 2$. Then, $$\begin{aligned}\gamma'[n,t]&=\max_{t_{n-1}\in \mathcal{T}}(\text{score}(t_{n-1},t,\mathbf{w})+\gamma'[n-1,t_{n-1}])\\&=\max_{t_{n-1}\in \mathcal{T}}(\text{score}(t_{n-1},t,\mathbf{w})+\gamma[n-1,t_{n-1}])\end{aligned}$$
+-
+
+$$-\log(2\exp (-x))=x-\log 2$$
+
+---
+We give a simple counterexample with $\mathcal{T}:=\{ a,b \}$ and $N=2$. Further, consider the following score function:
+$$
+\begin{aligned}
+\text{{score}}(\texttt{BOT},\cdot ,\textbf{w})=1\\
+\text{{score}}(a,a,\textbf{w})=\text{{score}}(b,a,\textbf{w})=1,\quad \text{{score}}(a,b,\textbf{w})=0.8,\quad \text{{score}}(b,b,\textbf{w})=\infty
+\end{aligned}
+$$
