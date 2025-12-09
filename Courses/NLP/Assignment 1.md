@@ -85,11 +85,17 @@ $$
 \State $f\gets 0$
 \While{$\exists s$-$t$-path $p$ in the residual network $G_f$}
 \State $c_f(p)\gets \min_{e\in p}c_f(e)$
-\For
-\State $f\gets f + c_f(p)$
-\State $J\gets J\cup \{j  \}$
-\State $V\gets V\cup \{ S_{j} \}$
+\For{$(u,v)\in p$}
+\If{$(u,v)\in E(G)$}
+\State $f(u,v)\gets f(u,v)+c_f(p)$
+\Else 
+\State $f(v,u)\gets f(v,u)-c_f(p)$
+\EndIf
+\EndFor
 \EndWhile
+\Return $f$
 \end{algorithmic}
 \end{algorithm}
 ```
+
+$$\max_{f\text{ feasible flow}}\text{val}(f)=\min_{\begin{array}\  A\subseteq V(G)\\s\in A\land t\notin A\end{array}} \text{val}(A,\overline{A})$$
