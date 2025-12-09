@@ -75,3 +75,21 @@ $$
 \text{{score}}(a,a,\textbf{w})=1,\quad \text{{score}}(b,a,\textbf{w})=0,\quad \text{{score}}(a,b,\textbf{w})=0.8,\quad \text{{score}}(b,b,\textbf{w})=0.8
 \end{aligned}
 $$
+
+
+
+
+```pseudo
+\begin{algorithm}\caption{Ford-Fulkerson($G,s,t$)}
+\begin{algorithmic} 
+\State $f\gets 0$
+\While{$\exists s$-$t$-path $p$ in the residual network $G_f$}
+\State $c_f(p)\gets \min_{e\in p}c_f(e)$
+\For
+\State $f\gets f + c_f(p)$
+\State $J\gets J\cup \{j  \}$
+\State $V\gets V\cup \{ S_{j} \}$
+\EndWhile
+\end{algorithmic}
+\end{algorithm}
+```

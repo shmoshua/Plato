@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TA/AdvAlg/TimeSheet.md",
+                "file": "Algorithms/Minimum Set Cover.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TimeSheet"
+              "title": "Minimum Set Cover"
             }
           }
         ],
@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TA/AdvAlg/TimeSheet.md",
+                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TimeSheet"
+              "title": "Advanced Algorithms Roadmap"
             }
           },
           {
@@ -373,14 +373,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b66923660a7f76bc",
+  "active": "e7e720a0ffe167cd",
   "lastOpenFiles": [
-    "GHW1.md",
-    "TA/AdvAlg/TimeSheet.md",
-    "Courses/NLP/Assignment 1.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Probability Theory/Independence.md",
+    "Courses/NLP/Assignment 1.md",
+    "Algorithms/Minimum Set Cover.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "TA/AdvAlg/TimeSheet.md",
+    "GHW1.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Probability Theory/Expected Value.md",
     "Courses/Probability Theory/Exercise Class 11.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
@@ -401,7 +402,6 @@
     "Courses/Probability Theory/Exercise Class 13.md",
     "Courses/Probability Theory/Exercise Class 8.md",
     "Courses/Probability Theory/Exercise Class 6.md",
-    "Courses/Probability Theory/Exercise Class 7.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
