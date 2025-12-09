@@ -218,12 +218,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Expected Value.md",
+                "file": "Courses/NLP/Assignment 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Expected Value"
+              "title": "Assignment 1"
             }
           },
           {
@@ -391,6 +391,7 @@
   "lastOpenFiles": [
     "Courses/NLP/Assignment 1.md",
     "Courses/NLP/Assignment 3.md",
+    "Probability Theory/Expected Value.md",
     "Untitled",
     "Probability Theory/Independence.md",
     "Algorithms/Minimum Set Cover.md",
@@ -398,7 +399,6 @@
     "TA/AdvAlg/TimeSheet.md",
     "GHW1.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Probability Theory/Expected Value.md",
     "Courses/Probability Theory/Exercise Class 11.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/Untitled.md",

@@ -1,3 +1,5 @@
 1. We have that: $$\mathbf{1}\oplus  a\otimes a^{*}=\mathbf{1}\oplus  a\otimes  \bigoplus _{n=0}^\infty a^{\otimes  n}=a^{\otimes  0}\oplus    \bigoplus _{n=0}^\infty a^{\otimes  n+1}=a^{\otimes  0}\oplus    \bigoplus _{n=1}^\infty a^{\otimes  n}=\bigoplus _{n=0}^\infty a^{\otimes  n}=a^{*}$$
-2. We have that: $$a^{*}=\bigoplus_{n=0}^\infty na=\log \left( \sum_{n=0}^{\infty}\exp(a)^n \right)$$
-   $$\log(e^a+e^b+e^c)$$
+2. Let $a<0$. Then, we have that: $$a^{*}=\bigoplus_{n=0}^\infty na=\log \left( \sum_{n=0}^{\infty}\exp(a)^n \right)=\log \left( \frac{1}{1-\exp(a)} \right)=-\log(1-\exp(a)) $$
+   We truly have that: $$0\oplus _{\log}(a-\log(1-\exp(a)))=\log\left( 1+\frac{\exp(a)}{1-\exp(a)}\right)=\log\left( \frac{1}{1-\exp(a)} \right)=-\log(1-\exp(a))$$
+3. We have that again for $a<0$ and $b\in \mathbb{R}$: $$\braket{ a , b } ^{*}=\bigoplus _{n=0}^\infty \braket{ a , b } ^{\otimes  n}=\bigoplus _{n=0}^\infty \left\langle a^n , b\cdot \frac{d}{da}a^n \right\rangle=\left\langle \sum_{n=0}^{\infty}a^n, b\cdot  \frac{d}{dt}\sum_{n=0}^\infty a^{n}\right\rangle =\left\langle \frac{1}{1-a}, \frac{b}{(1-a)^2}\right\rangle $$and $$\braket{ 1 , 0 } \oplus \braket{ a , b } \otimes  \left\langle \frac{1}{1-a} ,\frac{b}{(1-a)^2}  \right\rangle=\braket{ 1 , 0 } \oplus \left\langle \frac{a}{1-a}, \frac{ab+(1-a)b}{(1-a)^2}  \right\rangle=\left\langle \frac{1}{1-a}, \frac{b}{(1-a)^2}  \right\rangle$$
+4. 
