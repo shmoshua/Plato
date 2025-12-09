@@ -99,3 +99,4 @@ $$
 ```
 
 $$\max_{f\text{ feasible flow}}\text{val}(f)=\min_{\begin{array}\  A\subseteq V(G)\\s\in A\land t\notin A\end{array}} \text{val}(A,\overline{A})$$
+

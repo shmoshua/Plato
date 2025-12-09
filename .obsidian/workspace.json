@@ -6,7 +6,7 @@
       {
         "id": "7677b24b2d0bf489",
         "type": "tabs",
-        "dimension": 20.711785297549593,
+        "dimension": 47.66627771295216,
         "children": [
           {
             "id": "d80092e9abfbd6b4",
@@ -79,6 +79,20 @@
             }
           },
           {
+            "id": "8056a8ac96274cc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/NLP/Assignment 3.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Assignment 3"
+            }
+          },
+          {
             "id": "21adda589b37a9e8",
             "type": "leaf",
             "state": {
@@ -93,12 +107,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "d54d634cc1ba8421",
         "type": "tabs",
-        "dimension": 79.2882147024504,
+        "dimension": 52.33372228704785,
         "children": [
           {
             "id": "32608dc3d4c618ce",
@@ -218,12 +232,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/NLP/Assignment 1.md",
+                "file": "Courses/NLP/Assignment 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Assignment 1"
+              "title": "Assignment 3"
             }
           }
         ],
@@ -375,8 +389,10 @@
   },
   "active": "e7e720a0ffe167cd",
   "lastOpenFiles": [
-    "Probability Theory/Independence.md",
     "Courses/NLP/Assignment 1.md",
+    "Courses/NLP/Assignment 3.md",
+    "Untitled",
+    "Probability Theory/Independence.md",
     "Algorithms/Minimum Set Cover.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "TA/AdvAlg/TimeSheet.md",
@@ -401,7 +417,6 @@
     "Courses/Probability Theory/Exercise Class 12.md",
     "Courses/Probability Theory/Exercise Class 13.md",
     "Courses/Probability Theory/Exercise Class 8.md",
-    "Courses/Probability Theory/Exercise Class 6.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
@@ -411,7 +426,6 @@
     "Courses/Computational Intelligence Lab",
     "Projects",
     "Courses/Algebraic Topology II",
-    "Optimization",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
