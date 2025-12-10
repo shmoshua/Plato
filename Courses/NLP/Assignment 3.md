@@ -5,4 +5,16 @@
 4. We have that for all $A,B,C\in 2^{\Sigma ^{*}}$
 	1. $A\cup(B\cup C)=(A\cup B)\cup C$.
 	2. $\varnothing\cup A=A=A\cup \varnothing$.
-	3. $A\cup B =$
+	3. $A\cup B = B \cup A$
+	4. $\begin{aligned}A\otimes(B\otimes C)&=\{ a\circ z:a\in A,z\in B\otimes C \}=\{ a\circ b\circ c:a\in A,b\in B,c\in C  \}\\&=\{ z\circ c:z\in A\otimes B,c\in C  \}=(A\otimes B)\otimes C\end{aligned}$
+	5. $A\otimes \{ \varepsilon \}=\{ a\circ \varepsilon : a\in A \}=\{ a : a \in A \}=\{ \varepsilon \circ a : a\in A \}=\{ \varepsilon \}\otimes A$.
+	6. $A\otimes(B\cup C)=\{ a\circ z:a \in A,z\in B\cup C \}=\{ a \circ z : a\in A,z \in B \}\cup \{ a \circ z:a \in A,z \in C \}=A\otimes B\cup A\otimes C$.
+	7. $(B\cup C)\otimes A =\{ z\circ a : z\in B\cup C, a\in A \}=\{ z\circ a:z \in B,a\in A \}\cup \{ z \circ a:z\in C, a\in A \}=B\otimes A\cup C\otimes A$
+	8. $A\otimes \varnothing=\{ a \circ b:a\in A,b\in \varnothing \}=\varnothing$. $\varnothing \otimes A=\varnothing$.
+	
+	To find a Kleene star, we have: $$A^{*}:=\bigcup_{n=0}^{\infty}A^n$$which is precisely the Kleene closure. 
+
+##### Problem 2
+1. Let $a\geq 0$. We have that $\min\{ 0,a \}=0$. Hence, the tropical semiring is 0-closed. Similarly, for $a\leq 0$, $\max\{ 0,a \}=0$. Hence, the arctic semiring is 0-closed.
+2. We show this by induction over $n$. If $n=1$, every path of length one is an edge and the statement is true by definition. For $n\geq 2$, we have to now show that for any $i,k\in[N]$, $$(M^n)_{ik}=\bigoplus _{\begin{array}\ p:p=(v_{0},\dots,v_{n})\\v_{0}=i,v_{n}=k\end{array}}^{}$$
+   We have that: $$\begin{aligned}(\mathbf{M}^n)_{ik}&=(\mathbf{M}^{n-1}\otimes  \mathbf{M})_{ik}\\&=\bigoplus _{j\in[N]}((\mathbf{M}^{n-1})_{ij}\otimes  \mathbf{M}_{jk})\\&=\bigoplus _{j\in[N]}\left(\left(  \bigoplus_{\pi\in \Pi_{ij}(n)}w(\pi) \right)  \otimes  \mathbf{M}_{jk} \right) \end{aligned}$$If $\mathbf{M}_{jk}=0$ then by annihilation, the term is 0. Hence, $$\begin{aligned}(\mathbf{M}^n)_{ik}&=\bigoplus _{j: jk\in E(\mathcal{G})}\left(\left(  \bigoplus_{\pi\in \Pi_{ij}(n)}w(\pi) \right)  \otimes  w_{jk} \right) \end{aligned}$$
