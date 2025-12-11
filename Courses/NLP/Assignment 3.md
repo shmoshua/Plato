@@ -17,4 +17,9 @@
 ##### Problem 2
 1. Let $a\geq 0$. We have that $\min\{ 0,a \}=0$. Hence, the tropical semiring is 0-closed. Similarly, for $a\leq 0$, $\max\{ 0,a \}=0$. Hence, the arctic semiring is 0-closed.
 2. We show this by induction over $n$. If $n=1$, every path of length one is an edge and the statement is true by definition. For $n\geq 2$, we have to now show that for any $i,k\in[N]$, $$(M^n)_{ik}=\bigoplus _{\begin{array}\ p:p=(v_{0},\dots,v_{n})\\v_{0}=i,v_{n}=k\end{array}}^{}$$
-   We have that: $$\begin{aligned}(\mathbf{M}^n)_{ik}&=(\mathbf{M}^{n-1}\otimes  \mathbf{M})_{ik}\\&=\bigoplus _{j\in[N]}((\mathbf{M}^{n-1})_{ij}\otimes  \mathbf{M}_{jk})\\&=\bigoplus _{j\in[N]}\left(\left(  \bigoplus_{\pi\in \Pi_{ij}(n)}w(\pi) \right)  \otimes  \mathbf{M}_{jk} \right) \end{aligned}$$If $\mathbf{M}_{jk}=0$ then by annihilation, the term is 0. Hence, $$\begin{aligned}(\mathbf{M}^n)_{ik}&=\bigoplus _{j: jk\in E(\mathcal{G})}\left(\left(  \bigoplus_{\pi\in \Pi_{ij}(n)}w(\pi) \right)  \otimes  w_{jk} \right) \end{aligned}$$
+   We have that: $$\begin{aligned}(\mathbf{M}^n)_{ik}&=(\mathbf{M}^{n-1}\otimes  \mathbf{M})_{ik}\\&=\bigoplus _{j\in[N]}((\mathbf{M}^{n-1})_{ij}\otimes  \mathbf{M}_{jk})\\&=\bigoplus _{j\in[N]}\left(\left(  \bigoplus_{\pi\in \Pi_{ij}(n)}w(\pi) \right)  \otimes  \mathbf{M}_{jk} \right) \end{aligned}$$If $\mathbf{M}_{jk}=0$ then by annihilation, the term is 0. Hence, $$\begin{aligned}(\mathbf{M}^n)_{ik}&=\bigoplus _{j: jk\in E(\mathcal{G})}\left(\left(  \bigoplus_{\pi\in \Pi_{ij}(n-1)}w(\pi) \right)  \otimes  w_{jk} \right) \\&=\bigoplus _{j: jk\in E(\mathcal{G})}\left(  \bigoplus_{\pi\in \Pi_{ij}(n-1)}\bigotimes_{i=1}^{n-1} w_{\pi(i-1),\pi(i)}\otimes  w_{jk}    \right) 
+   \\&=\bigoplus _{j: jk\in E(\mathcal{G})}\left(  \bigoplus_{\pi\in \Pi_{ij}(n-1)}\bigotimes_{i=1}^{n-1} w_{\pi(i-1),\pi(i)}\otimes  w_{jk}    \right) \end{aligned}$$
+   We have
+$$\begin{aligned}
+\bigoplus_{\pi\in \Pi_{ik}(n)}w(\pi)&=\bigoplus_{\pi\in \Pi_{ik}(n)}\bigotimes _{i\in[n]}w_{\pi(i-1),\pi(i)}\\&=\bigoplus_{\pi\in \Pi_{ik}(n)}\bigoplus _{v\in[N]}\bigotimes _{i\in[n-1]}w_{\pi(i-1),\pi(i)} \otimes  w_{v,\pi(i)}\otimes  1_{\pi(n-1)=v}
+\end{aligned}$$
