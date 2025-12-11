@@ -21,5 +21,7 @@
    \\&=\bigoplus _{j: jk\in E(\mathcal{G})}\left(  \bigoplus_{\pi\in \Pi_{ij}(n-1)}\bigotimes_{i=1}^{n-1} w_{\pi(i-1),\pi(i)}\otimes  w_{jk}    \right) \end{aligned}$$
    We have
 $$\begin{aligned}
-\bigoplus_{\pi\in \Pi_{ik}(n)}w(\pi)&=\bigoplus_{\pi\in \Pi_{ik}(n)}\bigotimes _{i\in[n]}w_{\pi(i-1),\pi(i)}\\&=\bigoplus_{\pi\in \Pi_{ik}(n)}\bigoplus _{v\in[N]}\bigotimes _{i\in[n-1]}w_{\pi(i-1),\pi(i)} \otimes  w_{v,\pi(i)}\otimes  1_{\pi(n-1)=v}
+\bigoplus_{\pi\in \Pi_{uv}(n)}w(\pi)&=\bigoplus_{\pi\in \Pi_{uv}(n)}\bigotimes _{i\in[n]}w_{\pi(i-1),\pi(i)}\\&=\bigoplus_{\pi\in \Pi_{uv}(n)}\bigoplus _{x\in[N]}\bigotimes _{i\in[n-1]}w_{\pi(i-1),\pi(i)} \otimes  w_{x,v}\otimes  1_{\pi(n-1)=x}\\&=\bigoplus _{x\in[N]}\bigoplus_{\pi\in \Pi_{uv}(n)}\bigotimes _{i\in[n-1]}w_{\pi(i-1),\pi(i)} \otimes  w_{v,\pi(i)}\otimes  1_{\pi(n-1)=v}
 \end{aligned}$$
+
+Note that $\Pi_{uv}(n)=\bigsqcup_{x \in [N]: x\to v \in E(\mathcal{G})}\{ \pi \circ (x \to v):\pi\in  \Pi_{ux}(n-1) \}$
