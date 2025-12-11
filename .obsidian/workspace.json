@@ -239,9 +239,19 @@
               "icon": "lucide-file",
               "title": "Assignment 3"
             }
+          },
+          {
+            "id": "a60da38bfc182019",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -387,10 +397,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e7e720a0ffe167cd",
+  "active": "a60da38bfc182019",
   "lastOpenFiles": [
-    "Courses/NLP/Assignment 1.md",
     "Courses/NLP/Assignment 3.md",
+    "Courses/NLP/Assignment 1.md",
     "Probability Theory/Expected Value.md",
     "Untitled",
     "Probability Theory/Independence.md",
