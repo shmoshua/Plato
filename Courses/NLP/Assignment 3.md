@@ -34,3 +34,17 @@ Note that $\Pi_{uv}(n)=\bigsqcup_{x \in [N]: x\to v \in E(\mathcal{G})}\{ \pi \c
 8. Let $\mathbf{A}=\mathbf{U\Sigma V}^\top$ be the SVD of $\mathbf{ A}$. Then, let $\mathbf{ V}=[\mathbf{v}_{1}|\dots|\mathbf{v}_{n}]$. We have that: $$\|\mathbf{A}\|_{2}\ge\frac{\left\| \mathbf{Av}_{1} \right\|_{2}}{\|\mathbf{v}_{1}\|_{2}}=\frac{\left\| \mathbf{U\Sigma V^\top v}_{1} \right\|_{2}}{\|\mathbf{v}_{1}\|_{2}}=\sigma_{\max}(\mathbf{A})\frac{\left\| \mathbf{u}_{1} \right\|_{2}}{\|\mathbf{v}\|_{2}}=\sigma_{\max}(\mathbf{A}) $$We have that:, $$\left\| \mathbf{A} \right\| _{2}=\sup_{\mathbf{x}\ne \mathbf{0}}\frac{\left\| \mathbf{U\Sigma V^\top x} \right\|_{2}}{\|\mathbf{x}\|_{2}} =\sup_{\mathbf{x}\ne \mathbf{0}}\frac{\left\| \mathbf{\Sigma V^\top x} \right\|_{2}}{\|\mathbf{x}\|_{2}}  =\sup_{\mathbf{y}\ne \mathbf{0}}\frac{\left\| \mathbf{\Sigma y} \right\|_{2}}{\|\mathbf{Vy}\|_{2}} =\sup_{\mathbf{y}\ne \mathbf{0}}\frac{\left\| \mathbf{\Sigma y} \right\|_{2}}{\|\mathbf{y}\|_{2}}=\left\| \mathbf{\Sigma} \right\| _{2} $$
    Now, $$\left\| \mathbf{\Sigma} \right\|_{2}\ge \|\mathbf{\Sigma}\mathbf{e}_{1}\|_{2}=\sigma_{\max}(\mathbf{A}) $$However, for any $\mathbf{x}\ne \mathbf{0}$:$$\left\| \mathbf{\Sigma}\mathbf{x} \right\|_{2}^2=\sum_{i}^{}\sigma_{i}^{2} x_{i}^{2}\le \sigma^{2}_{\max}(\mathbf{A})\sum_{i}^{}x^{2}_{i}= \sigma^{2}_{\max}(\mathbf{A})\|\mathbf{x}\|^{2}_{2}$$
    9. Assume that $\sigma_{\max}(\mathbf{A})<1$. We have that by defintion, $\left\| \mathbf{ABx} \right\|\leq \left\| \mathbf{ A} \right\|_{2}\left\| \mathbf{Bx} \right\|_{2}$ and: $$\left\| \mathbf{A\mathbf{B}} \right\|_{2}=\sup_{\mathbf{x}\ne \mathbf{0}} \frac{\left\| \mathbf{ABx} \right\|_{2}}{\|\mathbf{x}\|_{2}} \leq \left\| \mathbf{A} \right\| \sup_{\mathbf{x}\ne \mathbf{0}} \frac{\left\| \mathbf{Bx} \right\|_{2}}{\|\mathbf{x}\|_{2}}=\left\| \mathbf{A} \right\| _{2}\left\| \mathbf{B} \right\| _{2} $$Therefore,$$\left\| \mathbf{A^{*}}-\sum_{n=0}^{K}\mathbf{A}^n \right\|_{2}=\left\| \sum_{n=K+1}^{\infty}\mathbf{A}^n \right\| _{2}\leq \sum_{n=K+1}^{\infty}\left\| \mathbf{A}^n \right\| _{2}\leq \sum_{n=K+1}^{\infty}\left\| \mathbf{A} \right\| ^n_{2}=\sum_{n=K+1}^{\infty}\sigma_{\max}(\mathbf{A})^n=\frac{\sigma_{\max}(\mathbf{A})^{K+1}}{1-\sigma_{\max}(\mathbf{A})}$$This shows that $\sum_{n=0}^{K}\mathbf{A}^n\to \mathbf{A}^{*}$.
+
+> ```pseudo
+> \begin{algorithm}\caption{Greedy($I$)}
+> \begin{algorithmic} 
+> \State $J\gets \varnothing$
+> \State $V \gets \varnothing$
+> \While{$V\neq[n]$}
+> \State $j\gets \arg\min_{{i\in [m] \backslash J}}c(S_{i}) / \left| S_{i} \backslash V \right|$
+> \State $J\gets J\cup \{j  \}$
+> \State $V\gets V\cup \{ S_{j} \}$
+\EndWhile
+\end{algorithmic}
+\end{algorithm}
+> ```
