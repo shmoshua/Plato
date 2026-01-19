@@ -93,6 +93,18 @@
             }
           },
           {
+            "id": "cba6775efc0d7a37",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
+          },
+          {
             "id": "21adda589b37a9e8",
             "type": "leaf",
             "state": {
@@ -107,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "d54d634cc1ba8421",
@@ -397,7 +409,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8056a8ac96274cc9",
+  "active": "cba6775efc0d7a37",
   "lastOpenFiles": [
     "Algorithms/Minimum Set Cover.md",
     "Courses/NLP/Assignment 3.md",
