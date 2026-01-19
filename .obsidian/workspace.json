@@ -110,16 +110,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Minimum Set Cover.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Minimum Set Cover"
+              "title": "TimeSheet"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "d54d634cc1ba8421",
@@ -244,12 +244,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/NLP/Assignment 3.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Assignment 3"
+              "title": "TimeSheet"
             }
           },
           {
@@ -409,16 +409,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "cba6775efc0d7a37",
+  "active": "21adda589b37a9e8",
   "lastOpenFiles": [
     "Algorithms/Minimum Set Cover.md",
+    "TA/AdvAlg/TimeSheet.md",
     "Courses/NLP/Assignment 3.md",
     "Courses/NLP/Assignment 1.md",
     "Probability Theory/Expected Value.md",
     "Untitled",
     "Probability Theory/Independence.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "TA/AdvAlg/TimeSheet.md",
     "GHW1.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Courses/Probability Theory/Exercise Class 11.md",

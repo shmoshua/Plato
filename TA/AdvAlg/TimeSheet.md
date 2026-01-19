@@ -36,3 +36,20 @@ Week 2.11 21hr GHW1 correction
 27.11 2hr Exercise Class
 
 Total 54 hrs
+
+1.12 2hr Exercise Class
+2.12 3.5 hr Exercise Class Preparation
+3.12 2hr Exercise Class
+4.12 2hr Exercise Class
+3.12 2hr Exercise Class
+8.12 2hr Exercise Class
+9.12 3.5 hr Exercise Class Preparation
+10.12 2hr Exercise Class
+11.12 2hr Exercise Class
+December 26hrs GHW2 correction
+Total 48hrs
+
+January 12hrs GHW2 correction
+Total 12hrs
+
+
