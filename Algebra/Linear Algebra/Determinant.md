@@ -18,3 +18,20 @@
 > Then, from the [[Directed Acyclic Graph (DAG)|Gessel-Viennot theorem]], the path matrix $M$ w.r.t. $A$ and $C$ is given by: $$M_{ik}=\sum_{P:a_{i}\to c_{k}}^{}w(P)=\sum_{j\in[s]}P_{ij}Q_{jk}$$and $M=PQ$. Therefore, $$\begin{aligned}\text{det}(PQ)&=\sum_{\begin{array}\ \mathcal{P}\text{ vertex-disjoint}\\\text{path system}\end{array}}^{}\text{sgn}(\mathcal{P})w(\mathcal{P})\\&=\sum_{Z}\left( \sum_{\mathcal{P}_{1}:A\to Z}\text{sgn}(\mathcal{P}_{1})w(\mathcal{P}_{1}) \right)\left( \sum_{\mathcal{P}_{2}:Z\to B}\text{sgn}(\mathcal{P}_{2})w(\mathcal{P}_{2}) \right)\\&=\sum_{Z}^{}\det P_{Z}\det Q_{Z}\end{aligned}$$
 
 ^23ad94
+
+---
+> [!lemma] Theorem (Cramer's Rule)
+> Let $A\in \mathbb{R}^{n,n}$ be invertible and $b\in \mathbb{R}^n$. TFAE:
+> 1. $Ax= b$
+> 2. $x_{i}=\frac{\det(A[i])}{\det(A)}$ where $A[i]=[A_{:,1}|\dots|A_{:,i-1}|b|A_{:,i+1}|\dots|A_{:,n}]$ for all $i\in[n]$.
+
+---
+> [!lemma] Lemma (Farkas-Lemma)
+> Let $A\in \mathbb{R}^{m,n},b\in \mathbb{R}^m$. Then, 
+> 1. either $Ax\leq b$ is feasible or $y^\top A = 0,y^\top b < 0, y\geq 0$ is feasible.
+
+> [!proof]-
+> Assume both are feasible. Then, we have: $$0=0^\top x = y^\top Ax \leq y^\top b< 0$$which is a contradiction. 
+> 
+> It suffices to show that at least one of them is feasible.
+---

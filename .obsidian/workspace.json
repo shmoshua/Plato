@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Polyhedron.md",
+                "file": "Algorithms/Linear Programming.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Polyhedron"
+              "title": "Linear Programming"
             }
           }
         ],
@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Polyhedron.md",
+                "file": "Algorithms/Linear Programming.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Polyhedron"
+              "title": "Linear Programming"
             }
           },
           {
@@ -254,7 +254,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "total varian",
+                "query": "deter",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -368,10 +368,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8056a8ac96274cc9",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
-    "Graph Theory/Independence and Clique.md",
+    "Algebra/Linear Algebra/Determinant.md",
+    "Algorithms/Linear Programming.md",
     "Optimization/Polyhedron.md",
+    "Graph Theory/Independence and Clique.md",
     "Untitled",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/NLP/Assignment 3.md",
@@ -396,8 +398,6 @@
     "Topology/Compact Space.md",
     "Topology/Complete Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Probability Theory/Random Variable.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",

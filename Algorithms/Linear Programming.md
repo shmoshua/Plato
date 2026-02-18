@@ -14,3 +14,7 @@
 
 > [!proof]-
 > We have that: $$c^\top x=\sum_{i=1}^{n}c_{i}x_{i}\leq \sum_{i=1}^{n}(A^\top y)_{i}x_{i}=x_{i}^\top A^\top y=\sum_{j=1}^{m}(Ax)_{j} y_{j}\leq \sum_{j=1}^{m}b_{j}y_{j}=b^\top y$$
+
+---
+> [!lemma] Theorem 2 (Von-Neunmann)
+> Let $P:=\{ x\in \mathbb{R}^n: Ax \leq b \}$ and $Q:= \{  y\in \mathbb{R}^m  : y^\top A = c^\top , y \geq 0 \}$ are non-empty, then: $$\max_{x\in P} c^\top x = \min_{y\in Q} y^\top b$$
