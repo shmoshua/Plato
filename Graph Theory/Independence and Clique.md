@@ -46,3 +46,7 @@
 > Then, $$\mathbb{E}[\left| I \right| ]\geq \frac{\mathbb{E}[X]}{2d}\geq \frac{cn}{2d}\log d$$
 
 ^33b1ea
+
+---
+##### Maximum Independent Set
+$$\begin{array}{rl} \text{max}& 1^\top x\\ \text{s.t.}&x_{u}+x_{v}\leq 1&\forall (u,v)\in E(G)\\&x\in \{ 0,1 \}^\left| V(G) \right| \end{array}$$

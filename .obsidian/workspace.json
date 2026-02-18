@@ -84,42 +84,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/NLP/Assignment 3.md",
+                "file": "Graph Theory/Independence and Clique.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Assignment 3"
-            }
-          },
-          {
-            "id": "cba6775efc0d7a37",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
-            }
-          },
-          {
-            "id": "21adda589b37a9e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TA/AdvAlg/TimeSheet.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "TimeSheet"
+              "title": "Independence and Clique"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       },
       {
         "id": "d54d634cc1ba8421",
@@ -132,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+                "file": "Graph Theory/Independence and Clique.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Advanced Algorithms Roadmap"
+              "title": "Independence and Clique"
             }
           },
           {
@@ -239,20 +213,6 @@
             }
           },
           {
-            "id": "e7e720a0ffe167cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TA/AdvAlg/TimeSheet.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "TimeSheet"
-            }
-          },
-          {
             "id": "a60da38bfc182019",
             "type": "leaf",
             "state": {
@@ -262,8 +222,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -409,16 +368,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "21adda589b37a9e8",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
-    "Algorithms/Minimum Set Cover.md",
-    "TA/AdvAlg/TimeSheet.md",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
+    "Graph Theory/Independence and Clique.md",
     "Courses/NLP/Assignment 3.md",
+    "Combinatorics/Stable Set.md",
+    "TA/AdvAlg/TimeSheet.md",
+    "Algorithms/Minimum Set Cover.md",
     "Courses/NLP/Assignment 1.md",
     "Probability Theory/Expected Value.md",
     "Untitled",
     "Probability Theory/Independence.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "GHW1.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Courses/Probability Theory/Exercise Class 11.md",
@@ -437,8 +398,6 @@
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Random Variable.md",
     "Courses/Probability Theory/Exercise Class 12.md",
-    "Courses/Probability Theory/Exercise Class 13.md",
-    "Courses/Probability Theory/Exercise Class 8.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
