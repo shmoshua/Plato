@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Independence and Clique.md",
+                "file": "Optimization/Polyhedron.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Independence and Clique"
+              "title": "Polyhedron"
             }
           }
         ],
@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Independence and Clique.md",
+                "file": "Optimization/Polyhedron.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Independence and Clique"
+              "title": "Polyhedron"
             }
           },
           {
@@ -368,17 +368,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "8056a8ac96274cc9",
   "lastOpenFiles": [
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Graph Theory/Independence and Clique.md",
+    "Optimization/Polyhedron.md",
+    "Untitled",
+    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/NLP/Assignment 3.md",
     "Combinatorics/Stable Set.md",
     "TA/AdvAlg/TimeSheet.md",
     "Algorithms/Minimum Set Cover.md",
     "Courses/NLP/Assignment 1.md",
     "Probability Theory/Expected Value.md",
-    "Untitled",
     "Probability Theory/Independence.md",
     "GHW1.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
@@ -397,7 +398,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Random Variable.md",
-    "Courses/Probability Theory/Exercise Class 12.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
