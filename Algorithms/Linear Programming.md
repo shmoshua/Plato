@@ -9,6 +9,13 @@
 - **Related definition**: For an ILP problem and its relaxed LP, the ***integrality gap*** is defined as: $$\text{IG}:= \sup_{I \text{ instance}}\frac{\text{OPT}_{\text{ILP}}(I)}{\text{OPT}_{\text{LP}}(I)}$$ ^4d8220
 ---
 ##### Properties
+> [!lemma] Theorem 1 
+> Let $(A,b,c)$ define a standard form LP. Then,
+> 1. $P:=\{ x\in \mathbb{R}^n_{+}:Ax = b \}$ has a vertex if it's non-empty.
+> 2. If $x^{\sharp}$ is a vertex of $P$, then there exists $B\in {[n]\choose m}$ s.t. 
+> 	- $A_{B}$ is invertible.
+> 	- $\text{su\phi{$
+---
 > [!lemma] Theorem 1 (Weak Duality)
 > For any feasible $x\in \mathbb{R}^n$ in primal LP and feasible $y\in \mathbb{R}^m$ in dual LP, $$c^\top x\leq b^\top y$$
 
