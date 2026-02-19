@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Total Unimodular Matrix.md",
+                "file": "Optimization/Totally Unimodular Matrix.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Total Unimodular Matrix"
+              "title": "Totally Unimodular Matrix"
             }
           }
         ],
@@ -64,12 +64,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Total Unimodular Matrix.md",
+                "file": "Optimization/Totally Unimodular Matrix.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Total Unimodular Matrix"
+              "title": "Totally Unimodular Matrix"
+            }
+          },
+          {
+            "id": "446519ec3ab51cf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Optimization/Polyhedron.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Polyhedron"
+            }
+          },
+          {
+            "id": "13a9d8f27a658647",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Linear Algebra/Determinant.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Determinant"
             }
           }
         ],
@@ -219,11 +247,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0abcd13e277d330",
+  "active": "c5a0cc5c42cf9334",
   "lastOpenFiles": [
-    "Algorithms/Linear Programming.md",
-    "Optimization/Total Unimodular Matrix.md",
     "Optimization/Polyhedron.md",
+    "Optimization/Totally Unimodular Matrix.md",
+    "Algebra/Linear Algebra/Determinant.md",
+    "Algorithms/Linear Programming.md",
     "Algorithms/Linear Probing.md",
     "Geometry/Cone.md",
     "Measure Theory/Pre-measure.md",
@@ -231,7 +260,6 @@
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Geometry",
-    "Algebra/Linear Algebra/Determinant.md",
     "Graph Theory/Independence and Clique.md",
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/NLP/Assignment 3.md",
