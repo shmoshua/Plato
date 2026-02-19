@@ -16,7 +16,8 @@
 
 > [!proof]+
 > We have that:
-> - (1=>2): 
+> - (1=>2): Firstly, the full row-rank is clear. Now, let $B\in {[n+m] \choose m}$ s.t. $[A|I]_{B}$ is invertible. Let $B':= B\cap [n]$. As row and col
+>   Then, we have a block matrix of the form
 ---
 > [!lemma] Theorem 2
 > Let $A\in \mathbb{Z}^{m,n}$.
