@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Linear Programming.md",
+                "file": "Optimization/Total Unimodular Matrix.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Linear Programming"
+              "title": "Total Unimodular Matrix"
             }
           }
         ],
@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Linear Programming.md",
+                "file": "Optimization/Total Unimodular Matrix.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Linear Programming"
+              "title": "Total Unimodular Matrix"
             }
           }
         ],
@@ -126,8 +126,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -220,10 +219,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c5a0cc5c42cf9334",
+  "active": "e0abcd13e277d330",
   "lastOpenFiles": [
-    "Optimization/Polyhedron.md",
     "Algorithms/Linear Programming.md",
+    "Optimization/Total Unimodular Matrix.md",
+    "Optimization/Polyhedron.md",
     "Algorithms/Linear Probing.md",
     "Geometry/Cone.md",
     "Measure Theory/Pre-measure.md",
@@ -249,7 +249,6 @@
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Probability Theory/Characteristic Function.md",
-    "Analysis/Banach Space.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
