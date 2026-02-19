@@ -16,7 +16,9 @@
 
 > [!proof]+
 > We have that:
-> - (1=>2): Firstly, the full row-rank is clear. Now, let $B\in {[n+m] \choose m}$ s.t. $[A|I]_{B}$ is invertible. Let $B':= B\cap [n]$. As row and col
+> - (1=>2): Firstly, the full row-rank is clear. Now, let $B\in {[n+m] \choose m}$ s.t. $[A|I]_{B}$ is invertible. Let $B':= B\cap [n]$. As the determinant is invariant under row swaps modulo sign, there is a block matrix $A'$ s.t. $$A'=\begin{bmatrix} C&0\\D&I_{m-\left| B' \right| }\end{bmatrix}$$and $\left| \det[A|I]_{B} \right|=\left| \det A' \right|=\left| \det C \right|$. However, $C$ is also a square submatrix of $A$ modulo row swaps. Hence, $\det([A|I]_{B})\in \{ \pm 1 \}$.
+> - (2=>1): Conversely, let $k$ be the index and $I\in {[m] \choose k},J\in {[n] \choose k}$ be the row/column index sets respectively. Then, we aim to show that $\det A_{IJ}\in \{ -1,0,1 \}$. If $\det A_{IJ}=0$ we are done. Suppose $A_{IJ}$ is invertible. We construct a matrix $M$ where $$M:=$$
+>   
 >   Then, we have a block matrix of the form
 ---
 > [!lemma] Theorem 2
