@@ -34,7 +34,7 @@
 >    
 >    Conversely, if $P(b)$ is integral for all feasible $b\in \mathbb{Z}^m$, let $B\in {[n] \choose m}$ and $A_{B}$ invertible. Define $b:= A_{B}z+e_{i}$ where $z\in \mathbb{Z}^m_{+}$ s.t. $A_{B}^{-1}e_{i}+z\geq 0$. Hence, $b\in \mathbb{Z}^m$. Then, $$x^{\sharp}_{B}:= A_{B}^{-1}b=z + A_{B}^{-1}e_{i}\geq 0$$Therefore, $x^{\sharp}:= (x^{\sharp}_{B},0)$ is a vertex of $P(b)$ and therefore $x^{\sharp}\in \mathbb{Z}^n$ and $x^{\sharp}_{B}\in \mathbb{Z}^m$. It follows that $A_{B}^{-1}e_{i}\in \mathbb{Z}^m$ and $A_{B}^{-1}\in \mathbb{Z}^{m,m}$. Therefore, $\det(A^{-1}_{B})\in \mathbb{Z}$. However, as $\det(A_{B})\in \mathbb{Z}$, we have that $\det(A_{B})\in \{ \pm 1 \}$.  
 > 1. As $A$ being totally unimodular is equivalent to $[A|I]$ being unimodular, by 1, it suffices to show that for any $b\in \mathbb{Z}^m$ we have that $P(b):=\{  x\in \mathbb{R}^n_{+}:Ax \leq b \}$ is nonempty and integral if and only if $P_{AI}(b):=\{ x\in \mathbb{R}^n_{+},y\in \mathbb{R}^m_{+}:Ax+y= b \}$ is nonempty and integral. This is however easy to see by considering $y$ as the slack variables.
-> 2. We have from Lemma 1 that $[A|-A]$ is totally unimodular. Then, $$Q(b)=\{ x\in \mathbb{R}^n : Ax \leq b \}=\{ x,y\in \mathbb{R}^n_{+}:Ax-Ay\leq b \}=P(b)$$This concludes the statement.
+> 2. We have from Lemma 1 that $A^\top$ is totally unimodular. Hence, $[A |-A|I | -I]$ is totally unimodular and $[A|-A]$ is totally unimodular. Then, $$Q(b)=\{ x\in \mathbb{R}^n : Ax \leq b \}=\{ x,y\in \mathbb{R}^n_{+}:Ax-Ay\leq b \}=P(b)$$This concludes the statement.
 
 - **Remark**: $\{ x\in \mathbb{R}^{2} : 2x_{1}+2x \leq b \}$ is integral for $b\in \mathbb{Z}$ is not totally unimodular.
 
