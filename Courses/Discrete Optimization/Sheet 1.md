@@ -3,7 +3,5 @@
 ##### Problem 1.1: Carathéodory’s Theorem
 1. Firstly, one notices that it is a polyhedron. Further, as $Q$ is contained in the unit ball w.r.t. $\|\cdot\|_{\infty}$, it is clearly a polytope. Hence, it suffices to show that it is non-empty.
    
-   Let $P:=\{ x\in \mathbb{R}^n: Ax \leq b  \}$ and we define $A_{=}$ as the constraints where $A_{=}x = b_{=}$. We proceed via induction over $n - \text{rnk}(A_{=})$. If $\text{rnk}(A_{=})=n$, then $x\in V$ and $e_{x}\in Q$. Now, suppose $\text{rnk}(A_{=})<n$, 
-1. From $x\in P$, we have that $Ax\leq b$
-2. Firstly, one can easily see that 
-
+   Let $P:=\{ x\in \mathbb{R}^n: Ax \leq b  \}$ and we define $A_{=}$ as the constraints where $A_{=}x = b_{=}$. We proceed via induction over $n - \text{rnk}(A_{=})$. If $\text{rnk}(A_{=})=n$, then $x\in V$ and $e_{x}\in Q$. Now, suppose $\text{rnk}(A_{=})<n$, then there exists $0\ne z\in \text{ker }A_{=}$. Further, as $P$ is bounded, there exists $\alpha<0,\beta>0$ s.t. $x+az\in P$ if and only if $\alpha\leq a \leq \beta$. Then, $$x=\frac{\beta}{\beta-\alpha}(x+\alpha z)+\frac{-\alpha}{\beta-\alpha}(x+\beta z)$$and $x$ is a convex combination of two points in $P$. It suffices to show that $x+\alpha z,x+\beta z$ are convex combinations of the vertices. By definition, there is a row $a_{i}^\top$in $A$ s.t. $a_{i}^\top x < b_{i}$ but $a_{i}^\top(x+\alpha z)=b_{i}$. Hence, by induction we have that $x+\alpha z$ is a convex combination and similarly is $x+\beta z$. This concludes the proof.
+1. As $Q$ is a non-empty polytope, it has a vertex $\lambda ^{*}$. Then, there exists $$

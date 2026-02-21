@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Polyhedron.md",
+                "file": "Optimization/Totally Unimodular Matrix.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Polyhedron"
+              "title": "Totally Unimodular Matrix"
             }
           },
           {
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Convex Hull.md",
+                "file": "Algorithms/Linear Programming.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Hull"
+              "title": "Linear Programming"
             }
           }
         ],
@@ -249,15 +249,15 @@
   },
   "active": "c5a0cc5c42cf9334",
   "lastOpenFiles": [
+    "Optimization/Totally Unimodular Matrix.md",
     "Optimization/Polyhedron.md",
-    "Functional Analysis/Convex Hull.md",
+    "Algorithms/Linear Programming.md",
     "Geometry/Cone.md",
     "Courses/Discrete Optimization/Sheet 1.md",
+    "Functional Analysis/Convex Hull.md",
     "Algebra/Linear Algebra/Determinant.md",
     "Courses/Untitled 1.md",
-    "Optimization/Totally Unimodular Matrix.md",
     "Courses/Discrete Optimization",
-    "Algorithms/Linear Programming.md",
     "Algorithms/Linear Probing.md",
     "Measure Theory/Pre-measure.md",
     "Courses/NLP/Assignment 1.md",
