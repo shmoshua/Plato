@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Totally Unimodular Matrix.md",
+                "file": "Courses/Discrete Optimization/Sheet 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Totally Unimodular Matrix"
+              "title": "Sheet 1"
             }
           }
         ],
@@ -64,12 +64,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Totally Unimodular Matrix.md",
+                "file": "Courses/Discrete Optimization/Sheet 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Totally Unimodular Matrix"
+              "title": "Sheet 1"
             }
           },
           {
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Linear Algebra/Determinant.md",
+                "file": "Functional Analysis/Convex Hull.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Determinant"
+              "title": "Convex Hull"
             }
           }
         ],
@@ -250,11 +250,15 @@
   "active": "c5a0cc5c42cf9334",
   "lastOpenFiles": [
     "Optimization/Polyhedron.md",
-    "Optimization/Totally Unimodular Matrix.md",
+    "Functional Analysis/Convex Hull.md",
+    "Geometry/Cone.md",
+    "Courses/Discrete Optimization/Sheet 1.md",
     "Algebra/Linear Algebra/Determinant.md",
+    "Courses/Untitled 1.md",
+    "Optimization/Totally Unimodular Matrix.md",
+    "Courses/Discrete Optimization",
     "Algorithms/Linear Programming.md",
     "Algorithms/Linear Probing.md",
-    "Geometry/Cone.md",
     "Measure Theory/Pre-measure.md",
     "Courses/NLP/Assignment 1.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
@@ -274,9 +278,6 @@
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/Untitled.md",
     "Courses/NLP",
-    "Projects/Local Stationary Distributions/MaxCut.md",
-    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
-    "Probability Theory/Characteristic Function.md",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
@@ -285,7 +286,6 @@
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
     "Projects",
-    "Courses/Algebraic Topology II",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }
