@@ -23,31 +23,17 @@
             }
           },
           {
-            "id": "e0abcd13e277d330",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Discrete Optimization/Sheet 1.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Sheet 1"
-            }
-          },
-          {
             "id": "f9ef05cd87e1b95d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Totally Unimodular Matrix.md",
+                "file": "Optimization/Fitzpatrick Function.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Totally Unimodular Matrix"
+              "title": "Fitzpatrick Function"
             }
           }
         ],
@@ -73,45 +59,17 @@
             }
           },
           {
-            "id": "c5a0cc5c42cf9334",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/Discrete Optimization/Sheet 1.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Sheet 1"
-            }
-          },
-          {
-            "id": "13a9d8f27a658647",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Linear Programming.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Linear Programming"
-            }
-          },
-          {
             "id": "446519ec3ab51cf1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Totally Unimodular Matrix.md",
+                "file": "Optimization/Fitzpatrick Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Totally Unimodular Matrix"
+              "title": "Fitzpatrick Function"
             }
           }
         ],
@@ -188,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/Discrete Optimization/Sheet 1.md",
+                "file": "Optimization/Fitzpatrick Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +156,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sheet 1"
+              "title": "Backlinks for Fitzpatrick Function"
             }
           },
           {
@@ -261,11 +219,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c5a0cc5c42cf9334",
+  "active": "446519ec3ab51cf1",
   "lastOpenFiles": [
     "Optimization/Totally Unimodular Matrix.md",
-    "Courses/Discrete Optimization/Sheet 1.md",
+    "Optimization/Fitzpatrick Function.md",
     "Algorithms/Linear Programming.md",
+    "Courses/Discrete Optimization/Sheet 1.md",
     "Geometry/Cone.md",
     "Optimization/Polyhedron.md",
     "Functional Analysis/Convex Hull.md",
@@ -290,7 +249,6 @@
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Courses/Probability Theory/Exercise Class 11.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
-    "Courses/Untitled.md",
     "Courses/NLP",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
