@@ -14,7 +14,7 @@
 > 4. $A^\top$ is totally unimodular.
 > 5. every collection $J$ of columns or rows of $A$ can be partitioned s.t. the difference in the sum of the elements is of $\{ -1,0,1 \}$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > - (1=>2): Firstly, the full row-rank is clear. Now, let $B\in {[n+m] \choose m}$ s.t. $[A|I]_{B}$ is invertible. Let $B':= B\cap [n]$. As the determinant is invariant under row swaps modulo sign, there is a block matrix $A'$ s.t. $$A'=\begin{bmatrix} C&0\\D&I_{m-\left| B' \right| }\end{bmatrix}$$and $\left| \det[A|I]_{B} \right|=\left| \det A' \right|=\left| \det C \right|$. However, $C$ is also a square submatrix of $A$ modulo row swaps. Hence, $\det([A|I]_{B})\in \{ \pm 1 \}$.
 > - (2=>1): Conversely, let $k$ be the index and $I\in {[m] \choose k},J\in {[n] \choose k}$ be the row/column index sets respectively. Then, we aim to show that $\det A_{IJ}\in \{ -1,0,1 \}$. If $\det A_{IJ}=0$ we are done. Suppose $A_{IJ}$ is invertible. We construct a matrix $M$ where $$M:=[A_{J}|I_{[m] \backslash I}]$$Then, similarly as above $\left| \det A_{IJ} \right|=\left| \det M \right|\in \{ \pm 1 \}$.
@@ -28,7 +28,10 @@
 >   Now, consider $y:= \mathbb{1}_{J} - 2x$. Then, for $i\notin J$, $y_{i}=0$. If $i\in J$, then $y_{i}\in\{ -1,+1 \}$. Therefore, if $(A\mathbb{1}_{J})_{j}=2k$ for some $k$, $(Ax)_{j}=k$. Hence, $(Ay)_{j}=0$. Similarly, if $(A\mathbb{1}_{J})_{j}=2k+1$, then $(Ax)_{j}\in \{ k,k+1 \}$ and $(Ay)_{j}\in\{ +1,-1 \}$. This concludes the proof.
 > - (5=>1): Let $B$ be a $k\times k$ invertible submatrix of $A$. Then, $r:= \det(B)$. We proceed via induction over $k$.
 > 	1. if $k=1$, then it is clear as we can just take the corresponding column and we have that the sum has to be in $\{ 0,\pm 1 \}$.
-> 	2. Suppose $k\geq 2$. Consider $B$ and $B^{-1}$. Then, by [[Determinant|Cramer]] as we have $B^{-1}_{ij}=[B^{-1} e_{j}]_{i}$. Hence, we have: $$B^{-1}_{ij}=$$
+> 	2. Suppose $k\geq 2$. Consider $B$ and $B^{-1}$. Then, by [[Determinant|Cramer]] as we have $B^{-1}_{ij}=[B^{-1} e_{j}]_{i}$. Hence, we have: $$B^{-1}_{ij}=\frac{\det B[i \gets  e_{j}]}{r}$$Then, by Laplace dev of determinant, $\det B[i\gets e_{j}]\in \{ -1,0,1 \}$. Let $A$ now be the $k\times k$-matrix s.t. $A_{ij}:= \det B[i\gets e_{j}]$. We have that $rB^{-1}=A$.
+> 	   
+> 	   We know that $A\in\{ -1,0,1 \}^{k,k}$. Now, let $J:=\{ i:A_{i 1} \ne 0 \}$. Then, $J_{1}':=\{  i : A_{i 1}=1 \}$. Then, $$(BA_{\cdot ,1})_{i}=\sum_{j\in J_{1}'}^{}B_{ij}-\sum_{j\in J \backslash J_{1}'}^{}B_{ij} = 0,\quad \forall i=2,\dots,k$$This means for $i\geq 2$, $\left| \{ j\in J: B_{ij} \neq 0 \} \right|$ is even. Let $J_{1},J_{2}$ be the partition given of $J$ s.t. the difference in the sum of the elements is in $\{ -1,0,1 \}$. Then, for $i\geq 2$, we have that the difference has to be $0$. In other words, there exists $z\in \{ -1,0,1 \}^k$ s.t. $Bz = \lambda e_{1}$ for some $\lambda\in \{ \pm 1 \}$. However, as $B$ is invertible, $$\frac{r}{\lambda}\cdot z=\frac{r}{\lambda} B^{-1}B z=A e_{1}=A_{:,1}\in\{-1, 0,1 \}^k$$Hence, $r\in \{ \pm 1 \}$.
+
 ---
 > [!lemma] Theorem 2
 > Let $A\in \mathbb{Z}^{m,n}$.
