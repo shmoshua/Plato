@@ -13,6 +13,16 @@
 ---
 ##### Properties
 > [!lemma] Lemma 1
+> Let $P$ be a polyhedron.
+> 1. $P$ is [[Convex Set|convex]].
+> 2. if $P$ is a polytope, $P=\text{conv}(v_{1},..,v_{k})$ for some $v_{1},\dots,v_{k}$ where $v_{1},\dots,v_{k}$ are the vertices.
+
+> [!proof]-
+> We have that:
+> 1. Let $x,y\in P$. Then $Ax,Ay\leq b$ and for any $\lambda\in[0,1]$, $$A(\lambda x+(1-\lambda)y)=\lambda Ax+(1-\lambda)Ay\leq b$$
+
+---
+> [!lemma] Lemma 1
 > Let $P$ be a polytope. 
 > 1. its minimal faces are exactly the vertices.
 > 2. if $P$ if integral, then all vertices are integral.

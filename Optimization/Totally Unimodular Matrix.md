@@ -14,13 +14,14 @@
 > 4. $A^\top$ is totally unimodular.
 > 5. every collection $J$ of columns or rows of $A$ can be partitioned s.t. the difference in the sum of the elements is of $\{ -1,0,1 \}$.
 
-> [!proof]-
+> [!proof]+
 > We have that:
 > - (1=>2): Firstly, the full row-rank is clear. Now, let $B\in {[n+m] \choose m}$ s.t. $[A|I]_{B}$ is invertible. Let $B':= B\cap [n]$. As the determinant is invariant under row swaps modulo sign, there is a block matrix $A'$ s.t. $$A'=\begin{bmatrix} C&0\\D&I_{m-\left| B' \right| }\end{bmatrix}$$and $\left| \det[A|I]_{B} \right|=\left| \det A' \right|=\left| \det C \right|$. However, $C$ is also a square submatrix of $A$ modulo row swaps. Hence, $\det([A|I]_{B})\in \{ \pm 1 \}$.
 > - (2=>1): Conversely, let $k$ be the index and $I\in {[m] \choose k},J\in {[n] \choose k}$ be the row/column index sets respectively. Then, we aim to show that $\det A_{IJ}\in \{ -1,0,1 \}$. If $\det A_{IJ}=0$ we are done. Suppose $A_{IJ}$ is invertible. We construct a matrix $M$ where $$M:=[A_{J}|I_{[m] \backslash I}]$$Then, similarly as above $\left| \det A_{IJ} \right|=\left| \det M \right|\in \{ \pm 1 \}$.
 > - (1=>3): Suppose $A$ is totally unimodular. Let $k\leq \min\{ 4m,n \}$ be the index and $I$ and $J$ be index sets of size $k$. Then, for $M:=\begin{bmatrix} A\\-A\\I\\-I\end{bmatrix}$, we want to show that $M_{IJ}$ has determinant in $\{ -1, 0 , 1 \}$.If $M_{IJ}$ has linearly dependent rows, the determinant is zero. Hence, with the same logic as above, it suffices to consider the case where $I\subseteq [m]$. However, then $\det M_{IJ}\in \{ -1,0,1 \}$ from the total unimodularity of $A$.
 > - (3=>1): Trivial as any square submatrix in $A$ is also a square submatrix in $M$.
 > - (1<=>4): Holds by the invariance of determinant under transposition.
+> - (1=>5): Wlog we may assume that $J$ is a collection of columns as $A$ is TU iff $A^\top$ is TU. 
 ---
 > [!lemma] Theorem 2
 > Let $A\in \mathbb{Z}^{m,n}$.
