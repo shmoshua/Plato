@@ -21,7 +21,12 @@
 > - (1=>3): Suppose $A$ is totally unimodular. Let $k\leq \min\{ 4m,n \}$ be the index and $I$ and $J$ be index sets of size $k$. Then, for $M:=\begin{bmatrix} A\\-A\\I\\-I\end{bmatrix}$, we want to show that $M_{IJ}$ has determinant in $\{ -1, 0 , 1 \}$.If $M_{IJ}$ has linearly dependent rows, the determinant is zero. Hence, with the same logic as above, it suffices to consider the case where $I\subseteq [m]$. However, then $\det M_{IJ}\in \{ -1,0,1 \}$ from the total unimodularity of $A$.
 > - (3=>1): Trivial as any square submatrix in $A$ is also a square submatrix in $M$.
 > - (1<=>4): Holds by the invariance of determinant under transposition.
-> - (1=>5): Wlog we may assume that $J$ is a collection of columns as $A$ is TU iff $A^\top$ is TU. 
+> - (1=>5): Wlog we may assume that $J$ is a collection of columns as $A$ is TU iff $A^\top$ is TU. For a vector $f$, let $\left\lfloor f\right\rfloor$ and $\left\lceil f\right\rceil$ denote the vector with componentwise rounding. 
+>   
+>   Let $P:=\left\{  x\in \mathbb{R}^n : 0 \leq x \leq \mathbb{1}_{J},  \left\lfloor \frac{A\mathbb{1}_{J}}{2}\right\rfloor \leq Ax\leq  \left\lceil \frac{A\mathbb{1}_{J}}{2}\right\rceil\right\}$ be a [[polyhedron]]. Then, $P$ is non-empty and bounded, hence has a vertex $x$. From Lemma 1.3 and Theorem 2, we have that $P$ is an integral polytope and $x$ is integral, i.e. $x\in \{ 0,1 \}^n$.
+>   
+>   Now, consider $y:= \mathbb{1}_{J} - 2x$. Then, for $i\notin J$, $y_{i}=0$. If $i\in J$, then $y_{i}\in\{ -1,+1 \}$. Therefore, if $(A\mathbb{1}_{J})_{j}=2k$ for some $k$, $(Ax)_{j}=k$. Hence, $(Ay)_{j}=0$. Similarly, if $(A\mathbb{1}_{J})_{j}=2k+1$, then $(Ax)_{j}\in \{ k,k+1 \}$ and $(Ay)_{j}\in\{ +1,-1 \}$. This concludes the proof.
+> - 
 ---
 > [!lemma] Theorem 2
 > Let $A\in \mathbb{Z}^{m,n}$.
@@ -41,4 +46,16 @@
 
 ---
 ##### Examples
+> [!h] Example 1 (Vertex-Edge Matrix of a Directed Graph)
+> Let $G$ be a [[Graph|digraph]] and $B\in \{ -1,0,+1 \}^{|V|\times|E|}$ its vertex-edge matrix.
+> 1. Then, $B$ is totally unimodular.
+
+> [!proof]-
+> Let $Q$ be a collection of rows. Let $Q_{1}:= Q$ and $Q_{2}:= \varnothing$. Then, $$\sum_{k\in Q_{1}}^{}B_{k,e}-\sum_{k\in Q_{2}}^{}B_{k,e}=\sum_{k\in Q_{1}}^{}B_{k,e}\in\{ -1,0,+1 \}$$Hence, $B$ is TU.
+
+---
+> [!h] Example 2 (Max Flow and Min Cost Flow)
+> The maximum flow and minimum cost flow problems are solvable as linear optimization problems.
+
+> [!proof]+
 > 

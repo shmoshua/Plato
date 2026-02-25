@@ -99,6 +99,34 @@
               "icon": "lucide-file",
               "title": "Fitzpatrick Function"
             }
+          },
+          {
+            "id": "e0b490cb895f5f34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Graph Matrices.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Graph Matrices"
+            }
+          },
+          {
+            "id": "6a7bd9d51d6cd504",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Maximum Flow.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Maximum Flow"
+            }
           }
         ]
       }
@@ -246,11 +274,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "dee39f700a0882dd",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
     "Optimization/Polyhedron.md",
-    "Optimization/Fitzpatrick Function.md",
+    "Graph Theory/Maximum Flow.md",
     "Optimization/Totally Unimodular Matrix.md",
+    "Graph Theory/Graph Matrices.md",
+    "Optimization/Fitzpatrick Function.md",
     "Geometry/Cone.md",
     "Algorithms/Linear Programming.md",
     "Courses/Discrete Optimization/Sheet 1.md",
@@ -274,8 +304,6 @@
     "Probability Theory/Independence.md",
     "GHW1.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Courses/Probability Theory/Exercise Class 11.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/NLP",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
