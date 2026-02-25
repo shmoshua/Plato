@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Totally Unimodular Matrix.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Totally Unimodular Matrix"
+              "title": "Exercise Sheet 1"
             }
           },
           {
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Polyhedron.md",
+                "file": "TA/AlgoDat/Exercise 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Polyhedron"
+              "title": "Exercise 1"
             }
           },
           {
@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Fitzpatrick Function.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Fitzpatrick Function"
+              "title": "Exercise Sheet 1"
             }
           },
           {
@@ -142,7 +142,8 @@
               "title": "Maximum Flow"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -288,15 +289,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "dee39f700a0882dd",
+  "active": "446519ec3ab51cf1",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+    "Optimization/Fitzpatrick Function.md",
+    "TA/AlgoDat/Exercise 1.md",
+    "Graph Theory/Graph Matrices.md",
+    "Optimization/Totally Unimodular Matrix.md",
     "Optimization/Polyhedron.md",
     "Graph Theory/Maximum Flow.md",
-    "Optimization/Totally Unimodular Matrix.md",
-    "TA/AlgoDat/Exercise 1.md",
     "TA/AlgoDat",
-    "Graph Theory/Graph Matrices.md",
-    "Optimization/Fitzpatrick Function.md",
     "Geometry/Cone.md",
     "Algorithms/Linear Programming.md",
     "Courses/Discrete Optimization/Sheet 1.md",
@@ -315,10 +320,6 @@
     "Courses/NLP/Assignment 3.md",
     "Combinatorics/Stable Set.md",
     "TA/AdvAlg/TimeSheet.md",
-    "Algorithms/Minimum Set Cover.md",
-    "Probability Theory/Expected Value.md",
-    "Probability Theory/Independence.md",
-    "GHW1.md",
     "Courses/NLP",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
