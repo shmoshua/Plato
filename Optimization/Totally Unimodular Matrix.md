@@ -26,7 +26,9 @@
 >   Let $P:=\left\{  x\in \mathbb{R}^n : 0 \leq x \leq \mathbb{1}_{J},  \left\lfloor \frac{A\mathbb{1}_{J}}{2}\right\rfloor \leq Ax\leq  \left\lceil \frac{A\mathbb{1}_{J}}{2}\right\rceil\right\}$ be a [[polyhedron]]. Then, $P$ is non-empty and bounded, hence has a vertex $x$. From Lemma 1.3 and Theorem 2, we have that $P$ is an integral polytope and $x$ is integral, i.e. $x\in \{ 0,1 \}^n$.
 >   
 >   Now, consider $y:= \mathbb{1}_{J} - 2x$. Then, for $i\notin J$, $y_{i}=0$. If $i\in J$, then $y_{i}\in\{ -1,+1 \}$. Therefore, if $(A\mathbb{1}_{J})_{j}=2k$ for some $k$, $(Ax)_{j}=k$. Hence, $(Ay)_{j}=0$. Similarly, if $(A\mathbb{1}_{J})_{j}=2k+1$, then $(Ax)_{j}\in \{ k,k+1 \}$ and $(Ay)_{j}\in\{ +1,-1 \}$. This concludes the proof.
-> - 
+> - (5=>1): Let $B$ be a $k\times k$ invertible submatrix of $A$. Then, $r:= \det(B)$. We proceed via induction over $k$.
+> 	1. if $k=1$, then it is clear as we can just take the corresponding column and we have that the sum has to be in $\{ 0,\pm 1 \}$.
+> 	2. Suppose $k\geq 2$. Consider $B$ and $B^{-1}$. Then, by [[Determinant|Cramer]] as we have $B^{-1}_{ij}=[B^{-1} e_{j}]_{i}$. Hence, we have: $$B^{-1}_{ij}=$$
 ---
 > [!lemma] Theorem 2
 > Let $A\in \mathbb{Z}^{m,n}$.
@@ -57,5 +59,7 @@
 > [!h] Example 2 (Max Flow and Min Cost Flow)
 > The maximum flow and minimum cost flow problems are solvable as linear optimization problems.
 
-> [!proof]+
-> 
+> [!proof]-
+> One can see from the [[Maximum Flow|LP formulations]] that the constraint matrix $A$ is totally unimodular from Lemma 1.3 and Example 1.
+
+---

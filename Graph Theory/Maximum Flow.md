@@ -2,8 +2,10 @@
 
 > [!definition]
 > Let $G=(V,E)$ be a [[Graph|directed graph]]. For a ***capacity function*** $c:E\to \mathbb{R}_{\geq 0}$ and a ***source*** $s\in V$ and a ***sink*** $t\in V$, 
-> 1. the ***maximum flow problem*** aims to find: $$f^{*}\in \underset{ f\text{ feasible flow} }{ \arg\max }\text{ val}(f) $$where $\text{val}(f):=\sum_{w\in \text{out}(s)}^{}f(s,w) - \sum_{w\in \text{in}(t)}^{}f(w,t)$ defines the [[Flow (Graph)|flow value]].
+> 1. the ***maximum flow problem*** aims to find: $$f^{*}\in \underset{ f\text{ feasible flow} }{ \arg\max }\text{ val}(f) $$where $\text{val}(f):=\sum_{w\in \text{out}(s)}^{}f(s,w) - \sum_{w\in \text{in}(s)}^{}f(w,s)$ defines the [[Flow (Graph)|flow value]].
 - **Remark**: The max-flow problem is a convex optimization problem but not a strongly convex optimization, as solutions are not unique.
+- **Remark**: We can formulate max-flow as an LP: $$\begin{array}{r\ll}\max &\sum_{e\in \text{out}(s)}^{}x_{e}-\sum_{e\in \text{in}(s)}^{}x_{e}\\ \text{s.t.}& \sum_{ e\in  \text{out}(v)}^{}x_{e}-\sum_{ e\in  \text{in}(v)}^{}x_{e}= 0&\forall v\in V \backslash \{ s,t \}\\&0\leq x_{e}\leq c_{e}&\forall e\in E\end{array}$$
+- **Related definition**: the ***minimum cost flow problem*** is defined as the LP: $$\begin{array}{r\ll}\min &\sum_{e\in E}^{}\text{cost}_{e}x_{e}\\ \text{s.t.}& \sum_{ e\in  \text{out}(v)}^{}x_{e}-\sum_{ e\in  \text{in}(v)}^{}x_{e}= 0&\forall v\in V \backslash \{ s,t \}\\&\sum_{e\in \text{out}(s)}^{}x_{e}-\sum_{e\in \text{in}(s)}^{}x_{e}=f\\&0\leq x_{e}\leq c_{e}&\forall e\in E\end{array}$$
 ---
 ##### Properties
 > [!lemma] Proposition 1

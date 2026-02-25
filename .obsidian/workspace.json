@@ -49,6 +49,20 @@
               "icon": "lucide-file",
               "title": "Totally Unimodular Matrix"
             }
+          },
+          {
+            "id": "0fe103c35af32c0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Maximum Flow.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Maximum Flow"
+            }
           }
         ],
         "currentTab": 2
@@ -274,11 +288,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "dee39f700a0882dd",
   "lastOpenFiles": [
     "Optimization/Polyhedron.md",
     "Graph Theory/Maximum Flow.md",
     "Optimization/Totally Unimodular Matrix.md",
+    "TA/AlgoDat/Exercise 1.md",
+    "TA/AlgoDat",
     "Graph Theory/Graph Matrices.md",
     "Optimization/Fitzpatrick Function.md",
     "Geometry/Cone.md",
@@ -303,7 +319,6 @@
     "Probability Theory/Expected Value.md",
     "Probability Theory/Independence.md",
     "GHW1.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Courses/NLP",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
@@ -312,7 +327,6 @@
     "TA",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Computational Intelligence Lab",
-    "Projects",
     "Courses/Algebra I/ARVST.jpeg"
   ]
 }

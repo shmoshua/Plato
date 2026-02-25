@@ -1,0 +1,1 @@
+Let $X\in \mathbb{R}^{m,n}$. If $X$ has linearly independent columns, $\text{rnk}(X)=n$, then $\text{im }X^\top X=\text{im } X$. 
