@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Totally Unimodular Matrix.md",
+                "file": "Optimization/Integer Linear Program.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Totally Unimodular Matrix"
+              "title": "Integer Linear Program"
             }
           },
           {
@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Totally Unimodular Matrix.md",
+                "file": "Optimization/Integer Linear Program.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Totally Unimodular Matrix"
+              "title": "Integer Linear Program"
             }
           },
           {
@@ -302,10 +302,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0fe103c35af32c0c",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
-    "Graph Theory/Maximum Flow.md",
     "Optimization/Totally Unimodular Matrix.md",
+    "Optimization/Integer Linear Program.md",
+    "Graph Theory/Maximum Flow.md",
     "TA/AlgoDat/Exercise 1.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
@@ -332,7 +333,6 @@
     "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
     "Courses/NLP/Assignment 3.md",
     "Combinatorics/Stable Set.md",
-    "TA/AdvAlg/TimeSheet.md",
     "Courses/NLP",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",

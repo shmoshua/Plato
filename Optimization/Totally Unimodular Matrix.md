@@ -13,7 +13,7 @@
 > 3. $\begin{bmatrix} A\\-A\\I\\-I\end{bmatrix}$ is totally unimodular 
 > 4. $A^\top$ is totally unimodular.
 > 5. every collection $J$ of columns or rows of $A$ can be partitioned s.t. the difference in the sum of the elements is of $\{ -1,0,1 \}$.
-> 6. **(Integer Decomposition Property)** 
+> 6. **(Integer Decomposition Property)**:  for all $k\in \mathbb{N}$ and $b\in \mathbb{Z}^m$, $$P_{\leq}(kb)\cap \mathbb{Z}^n= \sum_{i\in[k]}^{}(P_{\leq}(b)\cap \mathbb{Z}^n)$$
 
 > [!proof]-
 > We have that:
@@ -32,6 +32,12 @@
 > 	2. Suppose $k\geq 2$. Consider $B$ and $B^{-1}$. Then, by [[Determinant|Cramer]] as we have $B^{-1}_{ij}=[B^{-1} e_{j}]_{i}$. Hence, we have: $$B^{-1}_{ij}=\frac{\det B[i \gets  e_{j}]}{r}$$Then, by Laplace dev of determinant, $\det B[i\gets e_{j}]\in \{ -1,0,1 \}$. Let $A$ now be the $k\times k$-matrix s.t. $A_{ij}:= \det B[i\gets e_{j}]$. We have that $rB^{-1}=A$.
 > 	   
 > 	   We know that $A\in\{ -1,0,1 \}^{k,k}$. Now, let $J:=\{ i:A_{i 1} \ne 0 \}$. Then, $J_{1}':=\{  i : A_{i 1}=1 \}$. Then, $$(BA_{\cdot ,1})_{i}=\sum_{j\in J_{1}'}^{}B_{ij}-\sum_{j\in J \backslash J_{1}'}^{}B_{ij} = 0,\quad \forall i=2,\dots,k$$This means for $i\geq 2$, $\left| \{ j\in J: B_{ij} \neq 0 \} \right|$ is even. Let $J_{1},J_{2}$ be the partition given of $J$ s.t. the difference in the sum of the elements is in $\{ -1,0,1 \}$. Then, for $i\geq 2$, we have that the difference has to be $0$. In other words, there exists $z\in \{ -1,0,1 \}^k$ s.t. $Bz = \lambda e_{1}$ for some $\lambda\in \{ \pm 1 \}$. However, as $B$ is invertible, $$\frac{r}{\lambda}\cdot z=\frac{r}{\lambda} B^{-1}B z=A e_{1}=A_{:,1}\in\{-1, 0,1 \}^k$$Hence, $r\in \{ \pm 1 \}$.
+> - (1=>6): Suppose $A$ is TU. We proceed via induction over $k$. Let $b\in \mathbb{Z}^m$, $y\in \mathbb{Z}^n_{+}$ s.t. $y\in P_{\leq }(kb)$. 
+> 	1. if $k=1$, then the statement is obvious.
+> 	2. Let $k\geq 2$. We define: $$Q:=\{ x\in \mathbb{R}^n:Ay - (k-1)b\leq Ax \leq b, 0 \leq x \leq y \}$$We claim that $\frac{1}{k}y\in Q$ and $Q\ne \varnothing$. Then, we have by Theorem 2 that there is an integral vertex $x_{k}$. Now let $y':= y - x_{k}$. 
+> 	   
+> 	   By induction hypothesis, it suffices to show that $y'\in P_{\leq }((k-1)b)$. We have that: $$Ay'=Ay - Ax_{k}\leq (k-1)b$$
+> - (6=>1): Suppose $A$ is not totally unimodular, then there exists $b\in \mathbb{Z}^m$ with a fractional extreme point $x^{*}$. Take $k\in \mathbb{N}$ s.t. $kx^{*}\in \mathbb{Z}^n$. Then, $kx^{*}\in P_{\leq}(kb)$. Hence, $$kx^{*}=x_{1}+\dots+x_{k}$$for some $x_{1},\dots,x_{k}\in P_{\leq }(b)\cap \mathbb{Z}^n$. Then, $x^{*}=\frac{1}{k}\sum_{i}^{}x_{i}$, i.e. $x^{*}$ is a convex combination of $x_{1},\dots,x_{k}$, which contradicts that $x^{*}$ is a vertex.
 
 ---
 > [!lemma] Theorem 2
@@ -71,7 +77,7 @@
 > 2. The maximum weight matching problem in a bipartite graph: $$\begin{array}{rll}\max & \sum_{e\in E}^{}w_{e}x_{e}\\ \text{s.t.}&\sum_{e\in E}\mathbb{1}_{v\in e}x_{e}\leq 1&\forall v\in V\\&x_{e}\in\{ 0,1 \}&\forall e\in E\end{array}$$can be solved as LP.
 > 3. The maximum weight independent set in a bipartite graph: $$\begin{array}{rll}\max& \sum_{v\in V}^{}w_{v}x_{v}\\ \text{s.t.}& x_{i}+x_{j}\leq 1&\forall \{ i,j \}\in E\\&x_{v}\in \{ 0,1 \}&\forall v\in V\end{array}$$can be solved as LP.
 
-> [!proof]+
+> [!proof]-
 > We have that: 
 > 1. If $G$ is bipartite, then $V:= V_{1}\sqcup V_{2}$. Now, for every collection of rows $J$ of $A$, then let $J_{1}:= J\cap V_{1}$ and $J_{2}:= J\cap V_{2}$. Then, for any edge $e\in E$, $$\sum_{j\in J_{1}} A_{je}-\sum_{j\in J_{2}} A_{je} \in \{ -1,0,1 \}$$Hence, by Lemma 1, it is TU.
 > 2. From Theorem 2, the polytopes are integral.
