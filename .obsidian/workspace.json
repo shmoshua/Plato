@@ -56,16 +56,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Maximum Flow.md",
+                "file": "TA/AlgoDat/Exercise 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Maximum Flow"
+              "title": "Exercise 1"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "d54d634cc1ba8421",
@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -289,18 +289,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "446519ec3ab51cf1",
+  "active": "0fe103c35af32c0c",
   "lastOpenFiles": [
+    "Graph Theory/Maximum Flow.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+    "TA/AlgoDat/Exercise 1.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Optimization/Fitzpatrick Function.md",
-    "TA/AlgoDat/Exercise 1.md",
     "Graph Theory/Graph Matrices.md",
     "Optimization/Totally Unimodular Matrix.md",
     "Optimization/Polyhedron.md",
-    "Graph Theory/Maximum Flow.md",
     "TA/AlgoDat",
     "Geometry/Cone.md",
     "Algorithms/Linear Programming.md",
