@@ -54,15 +54,23 @@
 > [!h] Example 1 (Vertex-Edge Matrix of a Directed Graph)
 > Let $G$ be a [[Graph|digraph]] and $B\in \{ -1,0,+1 \}^{|V|\times|E|}$ its vertex-edge matrix.
 > 1. Then, $B$ is totally unimodular.
+> 2. The integer [[Maximum Flow|max flow]] problem: $$\begin{array}{r\ll}\max &\sum_{e\in \text{out}(s)}^{}x_{e}-\sum_{e\in \text{in}(s)}^{}x_{e}\\ \text{s.t.}& \sum_{ e\in  \text{out}(v)}^{}x_{e}-\sum_{ e\in  \text{in}(v)}^{}x_{e}= 0&\forall v\in V \backslash \{ s,t \}\\&0\leq x_{e}\leq c_{e}&\forall e\in E\end{array}$$and the integral min cost max flow problem: 
+>    $$\begin{array}{r\ll}\min &\sum_{e\in E}^{}\text{cost}_{e}x_{e}\\ \text{s.t.}& \sum_{ e\in  \text{out}(v)}^{}x_{e}-\sum_{ e\in  \text{in}(v)}^{}x_{e}= 0&\forall v\in V \backslash \{ s,t \}\\&\sum_{e\in \text{out}(s)}^{}x_{e}-\sum_{e\in \text{in}(s)}^{}x_{e}=f\\&0\leq x_{e}\leq c_{e}&\forall e\in E\end{array}$$
+>    can be solved as LP.
 
 > [!proof]-
-> Let $Q$ be a collection of rows. Let $Q_{1}:= Q$ and $Q_{2}:= \varnothing$. Then, $$\sum_{k\in Q_{1}}^{}B_{k,e}-\sum_{k\in Q_{2}}^{}B_{k,e}=\sum_{k\in Q_{1}}^{}B_{k,e}\in\{ -1,0,+1 \}$$Hence, $B$ is TU.
+> We have that:
+> 3. Let $Q$ be a collection of rows. Let $Q_{1}:= Q$ and $Q_{2}:= \varnothing$. Then, $$\sum_{k\in Q_{1}}^{}B_{k,e}-\sum_{k\in Q_{2}}^{}B_{k,e}=\sum_{k\in Q_{1}}^{}B_{k,e}\in\{ -1,0,+1 \}$$Hence, $B$ is TU.
+> 4. One can see from the [[Maximum Flow|LP formulations]] that the constraint matrix $A$ is totally unimodular from Lemma 1.3 and Example 1.
 
 ---
-> [!h] Example 2 (Max Flow and Min Cost Flow)
-> The maximum flow and minimum cost flow problems are solvable as linear optimization problems.
+> [!h] Example 2 (Vertex-Edge Matrix)
+> Let $G:=(V,E)$ be a [[graph]] and $A\in \{ 0,1 \}^{\left| V \right|\times \left| E \right|}$ its node-edge incidence matrix.
+> 1. if $G$ is bipartite, then $A$ is totally unimodular.
+> 2. The maximum weight matching problem in a bipartite graph: $$\begin{array}{rll}\max & \sum_{e\in E}^{}w_{e}x_{e}\\ \text{s.t.}&\sum_{e\in E}\mathbb{1}_{v\in e}x_{e}\leq 1&\forall v\in V\\&x_{e}\in\{ 0,1 \}&\forall e\in E\end{array}$$can be solved as LP.
+> 3. The maximum weight independent set in a bipartite graph: $$\begin{array}{rll}\max& \sum_{v\in V}^{}w_{v}x_{v}\\ \text{s.t.}& x_{}&\forall e\in E\end{array}$$
 
-> [!proof]-
-> One can see from the [[Maximum Flow|LP formulations]] that the constraint matrix $A$ is totally unimodular from Lemma 1.3 and Example 1.
-
----
+> [!proof]+
+> We have that: 
+> 4. If $G$ is bipartite, then $V:= V_{1}\sqcup V_{2}$. Now, for every collection of rows $J$ of $A$, then let $J_{1}:= J\cap V_{1}$ and $J_{2}:= J\cap V_{2}$. Then, for any edge $e\in E$, $$\sum_{j\in J_{1}} A_{je}-\sum_{j\in J_{2}} A_{je} \in \{ -1,0,1 \}$$Hence, by Lemma 1, it is TU.
+> 5. 
