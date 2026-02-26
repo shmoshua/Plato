@@ -6,13 +6,14 @@
 > 2. $A$ is ***totally unimodular*** if the determinant of every square submatrix is in $\{ -1,0,1 \}$.
 ---
 ##### Properties
-> [!lemma] Lemma 1
+> [!lemma] Theorem 1
 > Let $A\in \mathbb{Z}^{m,n}$. TFAE:
 > 1. $A$ is totally unimodular.
 > 2. $[A|I]$ is unimodular.
 > 3. $\begin{bmatrix} A\\-A\\I\\-I\end{bmatrix}$ is totally unimodular 
 > 4. $A^\top$ is totally unimodular.
 > 5. every collection $J$ of columns or rows of $A$ can be partitioned s.t. the difference in the sum of the elements is of $\{ -1,0,1 \}$.
+> 6. **(Integer Decomposition Property)** 
 
 > [!proof]-
 > We have that:
@@ -64,13 +65,13 @@
 > 4. One can see from the [[Maximum Flow|LP formulations]] that the constraint matrix $A$ is totally unimodular from Lemma 1.3 and Example 1.
 
 ---
-> [!h] Example 2 (Vertex-Edge Matrix)
+> [!h] Example 2 (Vertex-Edge Matrix of Bipartite Graphs)
 > Let $G:=(V,E)$ be a [[graph]] and $A\in \{ 0,1 \}^{\left| V \right|\times \left| E \right|}$ its node-edge incidence matrix.
 > 1. if $G$ is bipartite, then $A$ is totally unimodular.
 > 2. The maximum weight matching problem in a bipartite graph: $$\begin{array}{rll}\max & \sum_{e\in E}^{}w_{e}x_{e}\\ \text{s.t.}&\sum_{e\in E}\mathbb{1}_{v\in e}x_{e}\leq 1&\forall v\in V\\&x_{e}\in\{ 0,1 \}&\forall e\in E\end{array}$$can be solved as LP.
-> 3. The maximum weight independent set in a bipartite graph: $$\begin{array}{rll}\max& \sum_{v\in V}^{}w_{v}x_{v}\\ \text{s.t.}& x_{}&\forall e\in E\end{array}$$
+> 3. The maximum weight independent set in a bipartite graph: $$\begin{array}{rll}\max& \sum_{v\in V}^{}w_{v}x_{v}\\ \text{s.t.}& x_{i}+x_{j}\leq 1&\forall \{ i,j \}\in E\\&x_{v}\in \{ 0,1 \}&\forall v\in V\end{array}$$can be solved as LP.
 
 > [!proof]+
 > We have that: 
-> 4. If $G$ is bipartite, then $V:= V_{1}\sqcup V_{2}$. Now, for every collection of rows $J$ of $A$, then let $J_{1}:= J\cap V_{1}$ and $J_{2}:= J\cap V_{2}$. Then, for any edge $e\in E$, $$\sum_{j\in J_{1}} A_{je}-\sum_{j\in J_{2}} A_{je} \in \{ -1,0,1 \}$$Hence, by Lemma 1, it is TU.
-> 5. 
+> 1. If $G$ is bipartite, then $V:= V_{1}\sqcup V_{2}$. Now, for every collection of rows $J$ of $A$, then let $J_{1}:= J\cap V_{1}$ and $J_{2}:= J\cap V_{2}$. Then, for any edge $e\in E$, $$\sum_{j\in J_{1}} A_{je}-\sum_{j\in J_{2}} A_{je} \in \{ -1,0,1 \}$$Hence, by Lemma 1, it is TU.
+> 2. From Theorem 2, the polytopes are integral.
