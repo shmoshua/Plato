@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 1"
+              "title": "Assignment 3"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Graph Matrices.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graph Matrices"
+              "title": "Exercise Sheet 1"
             }
           },
           {
@@ -157,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -189,7 +189,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "carath",
+                "query": "\\Sigma x",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -303,17 +303,22 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8539d45c9a9dfa6f",
+  "active": "e0b490cb895f5f34",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Graph Theory/Graph Matrices.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
+    "Courses/NLP/Assignment 1.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algebra I/Algebra Practice Problems.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Graph Theory/Maximum Flow.md",
     "Optimization/Integer Linear Program.md",
     "Optimization/Totally Unimodular Matrix.md",
     "TA/AlgoDat/Exercise 1.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Optimization/Fitzpatrick Function.md",
     "Optimization/Polyhedron.md",
     "TA/AlgoDat",
@@ -326,14 +331,9 @@
     "Courses/Discrete Optimization",
     "Algorithms/Linear Probing.md",
     "Measure Theory/Pre-measure.md",
-    "Courses/NLP/Assignment 1.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Geometry",
-    "Graph Theory/Independence and Clique.md",
-    "Courses/Advanced Algorithms/Advanced Algorithms Roadmap.md",
-    "Courses/NLP/Assignment 3.md",
-    "Combinatorics/Stable Set.md",
     "Courses/NLP",
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
