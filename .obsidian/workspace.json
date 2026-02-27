@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Maximum Flow.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Maximum Flow"
+              "title": "AlgoDat Roadmap"
             }
           }
         ],
@@ -305,15 +305,15 @@
   },
   "active": "e0b490cb895f5f34",
   "lastOpenFiles": [
-    "Graph Theory/Graph Matrices.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
-    "Courses/NLP/Assignment 1.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Courses/Algebra I/Algebra Practice Problems.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Graph Theory/Maximum Flow.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
+    "Graph Theory/Graph Matrices.md",
+    "Courses/NLP/Assignment 1.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
+    "Courses/Algebra I/Algebra Practice Problems.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Optimization/Integer Linear Program.md",
     "Optimization/Totally Unimodular Matrix.md",
     "TA/AlgoDat/Exercise 1.md",
