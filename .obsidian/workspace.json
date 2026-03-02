@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Totally Unimodular Matrix.md",
+                "file": "Algorithms/Linear Programming.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Totally Unimodular Matrix"
+              "title": "Linear Programming"
             }
           }
         ],
@@ -303,10 +303,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0b490cb895f5f34",
+  "active": "0fe103c35af32c0c",
   "lastOpenFiles": [
-    "Optimization/Totally Unimodular Matrix.md",
+    "Algorithms/Linear Programming.md",
     "Courses/Discrete Optimization/Sheet 2.md",
+    "Optimization/Totally Unimodular Matrix.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Optimization/Integer Linear Program.md",
@@ -324,7 +325,6 @@
     "Optimization/Polyhedron.md",
     "TA/AlgoDat",
     "Geometry/Cone.md",
-    "Algorithms/Linear Programming.md",
     "Courses/Discrete Optimization/Sheet 1.md",
     "Functional Analysis/Convex Hull.md",
     "Algebra/Linear Algebra/Determinant.md",
