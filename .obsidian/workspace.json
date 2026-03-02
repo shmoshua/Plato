@@ -56,12 +56,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Integer Linear Program.md",
+                "file": "Courses/Discrete Optimization/Sheet 2.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Integer Linear Program"
+              "title": "Sheet 2"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+                "file": "Courses/Discrete Optimization/Sheet 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 1"
+              "title": "Sheet 2"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Optimization/Totally Unimodular Matrix.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Totally Unimodular Matrix"
             }
           }
         ],
@@ -305,8 +305,11 @@
   },
   "active": "e0b490cb895f5f34",
   "lastOpenFiles": [
+    "Optimization/Totally Unimodular Matrix.md",
+    "Courses/Discrete Optimization/Sheet 2.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
+    "Optimization/Integer Linear Program.md",
     "Graph Theory/Maximum Flow.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Graph Theory/Graph Matrices.md",
@@ -314,8 +317,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "Courses/Algebra I/Algebra Practice Problems.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
-    "Optimization/Integer Linear Program.md",
-    "Optimization/Totally Unimodular Matrix.md",
     "TA/AlgoDat/Exercise 1.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
@@ -332,7 +333,6 @@
     "Algorithms/Linear Probing.md",
     "Measure Theory/Pre-measure.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
-    "Courses/Advanced Algorithms/Graded Assignment 1.md",
     "Geometry",
     "Courses/NLP",
     "Projects/Local Stationary Distributions",
