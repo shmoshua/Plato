@@ -17,11 +17,13 @@
 > 	- $\text{supp}(x^{\sharp}) = B$
 > 	- $x^{\sharp}_{B}=A_{B}^{-1}b$
 ---
-> [!lemma] Theorem 1 (Weak Duality)
-> For any feasible $x\in \mathbb{R}^n$ in primal LP and feasible $y\in \mathbb{R}^m$ in dual LP, $$c^\top x\leq b^\top y$$
+> [!lemma] Proposition 1 (Weak Duality)
+> Let $P:=\{ x\in \mathbb{R}^n:Ax\leq b \}$ be the primal and $D:= \{ y\in \mathbb{R}^m_{\geq 0}: A^\top y = c \}$ be the dual.
+> 1. For any $x\in P$ and feasible $y\in D$, $c^\top x\leq b^\top y$.
+> 2. if both LP's are feasible, $\max P\leq \min D$.
 
 > [!proof]-
-> We have that: $$c^\top x=\sum_{i=1}^{n}c_{i}x_{i}\leq \sum_{i=1}^{n}(A^\top y)_{i}x_{i}=x_{i}^\top A^\top y=\sum_{j=1}^{m}(Ax)_{j} y_{j}\leq \sum_{j=1}^{m}b_{j}y_{j}=b^\top y$$
+> We have that: $$c^\top x = y^\top A x\leq y^\top b=b^\top y$$
 
 ---
 > [!lemma] Theorem 2 (Von-Neunmann)

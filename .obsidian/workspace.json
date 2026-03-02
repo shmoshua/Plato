@@ -70,16 +70,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Maximum Flow.md",
+                "file": "Algorithms/Linear Programming.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Maximum Flow"
+              "title": "Linear Programming"
+            }
+          },
+          {
+            "id": "362146586c2705bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Subdifferential.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Subdifferential"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "d54d634cc1ba8421",
@@ -92,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Integer Linear Program.md",
+                "file": "Algorithms/Linear Programming.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Integer Linear Program"
+              "title": "Linear Programming"
             }
           },
           {
@@ -106,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Maximum Flow.md",
+                "file": "Analysis/Subdifferential.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Maximum Flow"
+              "title": "Subdifferential"
             }
           },
           {
@@ -171,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -317,15 +331,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0b490cb895f5f34",
+  "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
+    "Optimization/Fitzpatrick Function.md",
+    "Analysis/Subdifferential.md",
+    "Graph Theory/Maximum Flow.md",
+    "Algorithms/Linear Programming.md",
+    "Courses/Discrete Optimization/Sheet 2.md",
+    "Optimization/Integer Linear Program.md",
     "Optimization/Totally Unimodular Matrix.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Optimization/Polyhedron.md",
-    "Courses/Discrete Optimization/Sheet 2.md",
-    "Optimization/Integer Linear Program.md",
-    "Graph Theory/Maximum Flow.md",
-    "Algorithms/Linear Programming.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Graph Theory/Graph Matrices.md",
@@ -336,7 +352,6 @@
     "TA/AlgoDat/Exercise 1.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
-    "Optimization/Fitzpatrick Function.md",
     "TA/AlgoDat",
     "Geometry/Cone.md",
     "Courses/Discrete Optimization/Sheet 1.md",
@@ -346,7 +361,6 @@
     "Courses/Discrete Optimization",
     "Algorithms/Linear Probing.md",
     "Measure Theory/Pre-measure.md",
-    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Geometry",
     "Courses/NLP",
     "Projects/Local Stationary Distributions",
