@@ -9,5 +9,7 @@ This shows that $A$ is totally unimodular.
 1. Suppose there exist $x,v\in \mathbb{Q}^n$ with $Ax\leq b$, $Av \leq 0$ and $c^\top v > 0$. Then, for any $k\in \mathbb{Z}_{\geq 0}$, $$A(x+k v)\leq b + k \cdot  0 = b$$i.e. $x+k v\in P$ for all $k\in \mathbb{Z}_{+}$. However, as $c^\top v >0$, the LP is unbounded. 
    
    Conversely, let the LP be unbounded. Then, by the weak duality we have that there is no $y\geq 0$ s.t. $A^\top y = c$. Otherwise, $M\leq c^\top x \leq b^\top y$ for all $M\in \mathbb{R}$. Hence, by Farkas, there exists $v\in \mathbb{R}^n$ s.t. $Ax\leq v$ and $c^\top v > 0$. By picking an arbitrary $x\in P$ as $P$ is nonempty, we conclude the proof.
-1. Suppose the IP is unbounded. Then, trivially the LP is unbounded. Conversely, if the LP is unbounded, we 
+1. Suppose the IP is unbounded. Then, trivially the LP is unbounded. Conversely, if the LP is unbounded, we have from 1, $v\in \mathbb{Q}^n$ with $Av\leq 0$ and $c^\top v> 0$. Modulo multiplying by an integer, we may assume that $v\in \mathbb{Z}^n$ with $Av\leq 0$ and $c^\top v > 0$. As the IP admits a feasible point $x\in \mathbb{Z}^n$ with $Ax\leq b$, we can conclude that the IP is unbounded analogously as above by considering $x+kv\in \mathbb{Z}^n$ for all positive integer $k$.
+---
+##### Problem 2.3: Low Discrepancy Coloring
 
