@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
+                "file": "Analysis/Convex Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Assignment 3"
+              "title": "Convex Function"
             }
           },
           {
@@ -333,14 +333,16 @@
   },
   "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
-    "Optimization/Fitzpatrick Function.md",
+    "Analysis/Convex Function.md",
     "Analysis/Subdifferential.md",
+    "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
+    "Untitled.md",
+    "Optimization/Fitzpatrick Function.md",
     "Graph Theory/Maximum Flow.md",
     "Algorithms/Linear Programming.md",
     "Courses/Discrete Optimization/Sheet 2.md",
     "Optimization/Integer Linear Program.md",
     "Optimization/Totally Unimodular Matrix.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Optimization/Polyhedron.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
@@ -359,8 +361,6 @@
     "Algebra/Linear Algebra/Determinant.md",
     "Courses/Untitled 1.md",
     "Courses/Discrete Optimization",
-    "Algorithms/Linear Probing.md",
-    "Measure Theory/Pre-measure.md",
     "Geometry",
     "Courses/NLP",
     "Projects/Local Stationary Distributions",
