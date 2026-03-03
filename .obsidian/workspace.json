@@ -91,9 +91,23 @@
               "icon": "lucide-file",
               "title": "Fitzpatrick Function"
             }
+          },
+          {
+            "id": "038e4e8c7bc4b3d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Subdifferential.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Subdifferential"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "d54d634cc1ba8421",
@@ -185,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -332,7 +346,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0b490cb895f5f34",
+  "active": "038e4e8c7bc4b3d7",
   "lastOpenFiles": [
     "Analysis/Subdifferential.md",
     "Optimization/Fitzpatrick Function.md",
