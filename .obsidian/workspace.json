@@ -217,7 +217,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\\Sigma x",
+                "query": "supporting hy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -238,7 +238,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -331,7 +332,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8539d45c9a9dfa6f",
+  "active": "426a3c97ada45d5c",
   "lastOpenFiles": [
     "Analysis/Convex Function.md",
     "Analysis/Subdifferential.md",
