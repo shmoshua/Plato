@@ -25,6 +25,25 @@
 > 2. If $y\notin C$, then $y-P_{C}(y)\in \partial f(P_{C}(y))$ and as $\alpha(y-P_{C}(y))\in \partial f(P_{C}(y))$ for all $\alpha> 0$, we have that: $F_{\partial f,2}(y,y^{*})=+\infty$. This proves the statement.
 
 ---
-> [!h] Example 1
+> [!h] Example 2
 > Let $X$ be a real Hilbert space. For $f:=\left\| \cdot \right\|$:
-> 1. $F_{\partial f,2}(y,y^{*})=\begin{cases}\left\| y \right\|&\left\| y^{*} \right\|\leq 1\\\end{cases}$
+> 1. $F_{\partial f,2}(y,y^{*})=\begin{cases}\left\| y \right\|&\text{if }\left\| y^{*} \right\|\leq 1\\+\infty&\text{otherwise}\end{cases}$
+
+> [!proof]-
+> We have that:
+> 1. We have that $g:= f^{*}$ is given by: $$g(x^{*})=\sup_{x\in X}\braket{ x , x^{*} } -\|x\|=\iota_{B_{\leq 1}(0)}(x^{*})$$Indeed, if $\left\| x^{*} \right\|_{*}\leq 1$, then $\braket{ x , x^{*} }\leq \|x\|$ and $g(x^{*})=\sup\braket{ x , x^{*} }-\|x\|\leq 0$ where the supremum is admitted by $x=0$.
+> 2. If $\left\| x^{*} \right\|>1$, by definition of dual norm, there exists $u$ with $\|u\|\leq 1$ s.t. $\braket{ u , x^{*} }=\|x^{*}\|_{*}$. Now, $$g(x^{*})\geq t\braket{ u , x^{*} }-t\| u\|\geq t(\|x^{*}\|_{*}-1),\quad \forall t>0 $$Hence, $g(x^{*})=+\infty$.
+> 
+> Therefore, $$\begin{aligned}F_{\partial f,2}(y,y^{*})&=(F_{(\partial f)^{-1},2}\circ R)(y,y^{*})=F_{\partial g ,2}(y^{*},y)=g(y^{*})+g^{*}(y)=f(y)+f^{*}(y^{*})\end{aligned}$$
+
+---
+> [!h] Example 3
+> Consider the negative entropy function: $$f:\mathbb{R}\to \mathbb{R}\cup \{ +\infty \},\quad \rho\mapsto \begin{cases}+\infty&\rho<0\\0&\rho=0\\\rho \ln(\rho)-\rho&\rho>0\end{cases}$$ 
+
+> [!proof]+
+> We have that: $$f^{*}(x^{*})=\sup_{\rho\geq 0}\rho x^{*}-f(\rho)$$Then, we have that: $$\frac{d}{d\rho}\left( \rho x^{*}-\rho \ln \rho + \rho \right) =x^{*}-\ln \rho = 0$$Hence, $\ln \rho = x^{*}$ and $\rho = \exp(x^{*})$ and: $$f^{*}(x^{*})=\exp(x^{*})x^{*} - \exp(x^{*})x^{*}+\exp(x^{*})=\exp(x^{*})$$
+> Now, we have that: 
+> 1. for $\rho\leq0$: $\partial f(\rho)=\varnothing$.
+> 2. for $\rho>0$: $\partial f(\rho)=\{ \ln \rho \}$.
+> 
+> Therefore, for $(y,y^{*})\in \mathbb{R}\times \mathbb{R}$: $$F_{\partial f,2}(y,y^{*})=\sup_{(a,a)}$$
