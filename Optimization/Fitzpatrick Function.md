@@ -59,4 +59,4 @@ $$f(x,y)=\sup_{a>0}((x-a)\ln a+ay)$$
 
 1. Let $x=0$. Then, define $g(b):=-b\ln b+(b-a)\ln a+ay$. Then, $$g'(b)=-\ln b-1+\ln a = 0$$and $b = a /e$ and $g\left( \frac{a}{e} \right)=- \frac{a}{e}(\ln a -1)+\left( \frac{1}{e}-1 \right)a\ln a +ay=\frac{a}{e}-a\ln a+ay$. Then, $$h'(a)=\frac{1}{e}-\ln a-1+y=0$$and $a=e^{y - 1+1/e}$. Hence, $$h(a)=e^{y -1 + 1/e}$$
 	Therefore, $$F_{\partial f,3}(0,x^{*})=\exp\left( x^{*}-1+\frac{1}{e} \right)$$
-2. Let $x>0$. Then, $$g'(b)=\frac{x}{b}-1-\ln b+\ln a = 0$$Let $b^{*}:=a\exp\left( W\left( \frac{xe}{a} \right) -1\right)$. Then, $$\begin{aligned}\ln(b^{*})=\ln(a)+W\left( \frac{xe}{a} \right)-1\end{aligned}$$
+2. Let $x>0$. Then, $$g'(b)=\frac{x}{b}-1-\ln b+\ln a = 0$$Let $b^{*}:=a\exp\left( W\left( \frac{xe}{a} \right) -1\right)$. Then, $$\begin{aligned}\ln(b^{*})&=\ln(a)+W\left( \frac{xe}{a} \right)-1\\&=\ln(a)+\frac{xe}{ae^{W(xe/a)}}-1\\&=\ln(a)+\frac{x}{b^{*}}-1\end{aligned}$$Then, let $w:= W(xe /a)$. Then, $we^w = xe / a$ and $x=awe^{w-1}$ and $b^{*}=ae^{w-1}$. Further, $\ln b^{*}=\ln a+w-1$Hence, $$g(b^{*})=ae^{w-1}(w-1)(\ln a+w-1)+a(e^{w-1}-1)\ln a+ay$$
