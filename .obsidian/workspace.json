@@ -84,16 +84,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Directional Derivative.md",
+                "file": "Optimization/Fitzpatrick Function.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Directional Derivative"
+              "title": "Fitzpatrick Function"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "d54d634cc1ba8421",
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Discrete Optimization/Sheet 2.md",
+                "file": "Optimization/Fitzpatrick Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sheet 2"
+              "title": "Fitzpatrick Function"
             }
           },
           {
@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -332,17 +332,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "94a75ae23f99e295",
+  "active": "362146586c2705bd",
   "lastOpenFiles": [
-    "Algorithms/Linear Programming.md",
-    "Analysis/Subdifferential.md",
-    "Analysis/Convex Function.md",
     "Analysis/Directional Derivative.md",
+    "Optimization/Fitzpatrick Function.md",
+    "Courses/Discrete Optimization/Sheet 2.md",
+    "Analysis/Subdifferential.md",
+    "Algorithms/Linear Programming.md",
+    "Analysis/Convex Function.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Untitled.md",
-    "Optimization/Fitzpatrick Function.md",
     "Graph Theory/Maximum Flow.md",
-    "Courses/Discrete Optimization/Sheet 2.md",
     "Optimization/Integer Linear Program.md",
     "Optimization/Totally Unimodular Matrix.md",
     "Optimization/Polyhedron.md",

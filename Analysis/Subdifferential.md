@@ -37,9 +37,24 @@
 > Let $f:\mathbb{R}^n\to \mathbb{R}$ be a convex function.
 > 1. $f'(x;v)=\sup_{g\in \partial f(x)}g^\top v$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. By the definition, for $g\in \partial f(x)$: $$f(x+tv)\geq f(x)+t g^\top v$$and $f'(x;v)\geq \sup_{g\in \partial f(x)}g^\top v$. To show that $f'(x;v)\leq \sup_{g\in \partial f(x)}g^\top v$. 
+---
+> [!lemma] Lemma 4 (Subgradient Calculus)
+> We have that:
+> 1. $\partial(\alpha f)(x)=\alpha \partial f(x)$ for $\alpha\geq0$.
+> 2. $\partial(f_{1}+\dots+f_{m})(x)=\partial f_{1}(x)+\dots+\partial f_{m}(x)$ if they're convex.
+> 3. for convex $f$, let $h(x):=f(Ax+b)$. Then, $\partial h(x)=A^\top \partial f(Ax+b)$.
+> 4. $\partial(\max_{i}f_{i})(x)=\text{conv}\left( \bigcup_{f_{i}(x)=f(x)}\partial f_{i}(x) \} \right)$ for finite number of convex functions.
+
+> [!proof]-
+> We have that:
+> 5. For $g\in \mathbb{R}^n$, $$\alpha f(z)\geq \alpha f(x)+\alpha g^\top (z-x) \iff  f(z)\geq  f(x)+g^\top (z-x)$$
+> 6. It suffices to show for two functions. Let $g\in \partial(f_{1}+f_{2})(x)$. Then: $$f_{1}(z)+f_{2}(z)\geq f_{1}(x)+f_{2}(x)+g^\top (z-x)$$
+> 7. $\subseteq$: Let $g\in \partial h(x)$. Then, $$f(Az+b)\geq f(Ax+b)+g^\top (z-x)$$
+>    
+>    if $g\in \partial f(Ax+b)$, then $$f(z)\geq f(Ax+b)+g^\top(z-Ax-b)$$
 ---
 ##### Examples
 > [!h] Example 1 (Absolute Value)

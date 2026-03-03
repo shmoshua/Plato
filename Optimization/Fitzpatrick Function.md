@@ -15,8 +15,12 @@
 ---
 ##### Examples
 > [!h] Example 1
-> Let $X$ be a real Hilbert space and $C\subseteq X$ is a non-empty, closed, convex set. For $f:= \chi _C$:
+> Let $X$ be a real Hilbert space and $C\subseteq X$ is a non-empty, closed, convex set. For $f:= \iota _C$:
 > 1. $F_{\partial f,2}(x,x^{*})=$
+
+> [!proof]+
+> We have that: 
+> $$\partial f(x)=\begin{cases}\{ v\in X:\braket{ v , z-x } ,\forall z\in C \}&x\in C\\\varnothing&x\notin C\end{cases}$$
 ---
 > [!h] Example 1
 > Let $X$ be a real Hilbert space. Then, 
