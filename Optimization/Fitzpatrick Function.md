@@ -39,11 +39,17 @@
 ---
 > [!h] Example 3
 > Consider the negative entropy function: $$f:\mathbb{R}\to \mathbb{R}\cup \{ +\infty \},\quad \rho\mapsto \begin{cases}+\infty&\rho<0\\0&\rho=0\\\rho \ln(\rho)-\rho&\rho>0\end{cases}$$ 
+> Then, $$F_{\partial f,2}(x,x^{*})=\begin{cases}+\infty&x<0\\ \exp(x^{*}-1)&x=0\\ xx^{*}+x\left( W(\kappa)+\frac{1}{W(\kappa)}-2 \right)&x>0\text{ where }\kappa:=xe^{1-x^{*}} \end{cases}$$
 
-> [!proof]+
+> [!proof]-
 > We have that: $$f^{*}(x^{*})=\sup_{\rho\geq 0}\rho x^{*}-f(\rho)$$Then, we have that: $$\frac{d}{d\rho}\left( \rho x^{*}-\rho \ln \rho + \rho \right) =x^{*}-\ln \rho = 0$$Hence, $\ln \rho = x^{*}$ and $\rho = \exp(x^{*})$ and: $$f^{*}(x^{*})=\exp(x^{*})x^{*} - \exp(x^{*})x^{*}+\exp(x^{*})=\exp(x^{*})$$
 > Now, we have that: 
 > 1. for $\rho\leq0$: $\partial f(\rho)=\varnothing$.
 > 2. for $\rho>0$: $\partial f(\rho)=\{ \ln \rho \}$.
 > 
-> Therefore, for $(y,y^{*})\in \mathbb{R}\times \mathbb{R}$: $$F_{\partial f,2}(y,y^{*})=\sup_{(a,a)}$$
+> Therefore, for $(x,x^{*})\in \mathbb{R}\times \mathbb{R}$: $$F_{\partial f,2}(x,x^{*})=\sup_{\rho> 0}(x\ln\rho +\rho x^{*}-\rho \ln \rho)$$
+> 1. if $x=0$, then: $$F_{\partial f,2}(0,x^{*})=\sup_{\rho>0}(\rho x^{*}-\rho \ln\rho)=\sup_{\rho>0}(\rho (x^{*}-1)-f(\rho))=f^{*}(x^{*}-1)=\exp(x^{*}-1)$$
+> 2. if $x>0$, then: $$\frac{d}{d\rho}\left( x\ln \rho + \rho x^{*}-\rho \ln \rho \right)=\frac{x}{\rho}+x^{*}-\ln \rho -1 = 0 $$Let $\xi:=\exp(x ^{*}-1+W(x e^{1-x ^{*}}))$. Then, $$\begin{aligned}\ln \xi&=x ^{*}-1+W(x e^{1-x ^{*}})\\&=x ^{*}-1+\frac{x e^{1-x ^{*}}}{e^{W(x e^{1-x ^{*}})}}\\&=x ^{*}-1+\frac{x }{\xi }\end{aligned}$$Hence, $\xi$ is the maximizer of $F_{\partial f,2}(x,x^{*})$ and we have for $\kappa:=xe^{1-x^{*}}$:$$\xi=\frac{e^{x^{*}-1}}{W(\kappa)}W(\kappa)e^{W(\kappa)}=\frac{e^{x^{*}-1}}{W(\kappa)}\kappa=\frac{x}{W(\kappa)}$$ Therefore, $$\begin{aligned}F_{\partial f,2}(x,x^{*})&=x(x^{*}-1+W(\kappa))+\frac{xx^{*}}{W(\kappa)}-\frac{x}{W(\kappa)}(x^{*}-1+W(\kappa))\\&=x(x^{*}-1+W(\kappa))+\frac{x}{W(\kappa)}(1-W(\kappa))\\&=xx^{*}+x\left( W(\kappa)+\frac{1}{W(\kappa)}-2 \right)\end{aligned}$$
+
+
+$$f(x,y)=\sup_{a,b>0}((x-b)\ln b+(b-a)\ln a+ay)$$
