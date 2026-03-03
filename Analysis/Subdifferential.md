@@ -17,11 +17,29 @@
 > 4. if $f$ is convex and differentiable at $x$, then $\partial f(x)=\{ \nabla f(x) \}$.
 > 5. if $f$ is convex and $\partial f(x)=\{ g \}$, then $f$ is differentiable at $x$ and $g=\nabla f(x)$.
 
-> [!proof]+
+> [!proof]-
 > We have that: 
 > 1. By definition: $$\partial f(x)=\bigcap_{z\in \text{dom f}}^{}\{ g\in \mathbb{R}^n:f(z)\geq f(x)+g^\top (z-x) \}$$
 > 2. Choose $\varepsilon>0$ s.t. for all $\left\| y-x \right\|_{2}<\varepsilon$, we have that $f(y)$ is bounded. If $\partial f(x)$ is unbounded, let $g_{n}\in \partial f(x)$ be the sequence s.t. $\left\| g_{n} \right\|_{2}\to \infty$. Let $y_{n}:=x+\frac{\varepsilon g_{n}}{\left\| g_{n} \right\|_{2}}$. Then, $$f(y_{n})\geq f(x)+\varepsilon \left\| g_{n} \right\|_{2} \to \infty$$which is a contradiction to $f(y_{n})$ being bounded.
 > 3. As $\text{epi }f$ is a convex set and $(x,f(x))$ a boundary point, we have by separating hyperplane theorem that there exist $a\in \mathbb{R}^n,b\in \mathbb{R}^n$ not both zero s.t.: $$\begin{bmatrix} a \\ b\end{bmatrix}^\top\left( \begin{bmatrix} z \\ t\end{bmatrix} -\begin{bmatrix} x \\ f(x)\end{bmatrix}\right) =a^\top(z-x)+b(t-f(x))\leq 0,\quad \forall(z,t)\in \text{epi }f$$By considering $(x,t')\in \text{epi }f$ for $t'>t$ we have $b\leq 0$ and by considering $(z,f(z))$, we have: $$a^\top(z-x)+b(f(z)-f(x))\leq 0,\quad \forall z$$If $b=0$, then $a^\top(z-x)\leq 0$ for all $z\in \text{dom }f$. However, this is impossible as $x\in (\text{dom }f)^\circ$. Hence, $b<0$, and we have: $$f(z)\geq f(x)-\frac{1}{b}a^\top(z-x)$$and $-\frac{1}{b}a^\top\in \partial f(x)$.
+> 4. Let $g\in \partial f(x)$. Then, we have that for any $u\in \mathbb{R}^n$: $$f(x+tu)\geq f(x)+tg^\top u$$Therefore, we have that: $$\braket{ \nabla f(x) , u } =\lim_{ t \to 0 } \frac{f(x+tu)-f(x)}{t} \geq \braket{ g , u } $$and $\braket{ \nabla f(x)-g , u }\geq 0$. As $u$ is arbitrary, we have that $\left\| \nabla f(x)-g \right\|=0$ and $g=\nabla f(x)$.
+
+---
+ > [!lemma] Proposition 2
+ > Let $f:\mathbb{R}^n\to \mathbb{R}$.
+ > 1. $x^{*}$ is a global minimizer of $f$ iff $0\in \partial f(x^{*})$.
+
+> [!proof]-
+> We have that:
+> 1. if $x^{*}$ is a minimizer of $f$, then: $f(z)\geq f(x^{*})$. Conversely if $0\in \partial f(x^{*})$, for any $z$, $f(z)\geq f(x^{*})$.
+---
+> [!lemma] Proposition 3 (Subdifferential and Directional Derivative)
+> Let $f:\mathbb{R}^n\to \mathbb{R}$ be a convex function.
+> 1. $f'(x;v)=\sup_{g\in \partial f(x)}g^\top v$
+
+> [!proof]+
+> We have that:
+> 1. By the definition, for $g\in \partial f(x)$: $$f(x+tv)\geq f(x)+t g^\top v$$and $f'(x;v)\geq \sup_{g\in \partial f(x)}g^\top v$. To show that $f'(x;v)\leq \sup_{g\in \partial f(x)}g^\top v$. 
 ---
 ##### Examples
 > [!h] Example 1 (Absolute Value)

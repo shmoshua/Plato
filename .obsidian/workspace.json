@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Linear Programming.md",
+                "file": "Analysis/Subdifferential.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Linear Programming"
+              "title": "Subdifferential"
             }
           },
           {
@@ -84,16 +84,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Subdifferential.md",
+                "file": "Analysis/Directional Derivative.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Subdifferential"
+              "title": "Directional Derivative"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "d54d634cc1ba8421",
@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Subdifferential.md",
+                "file": "Analysis/Directional Derivative.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Subdifferential"
+              "title": "Directional Derivative"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Convex Function.md",
+                "file": "Analysis/Subdifferential.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Convex Function"
+              "title": "Subdifferential"
             }
           },
           {
@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,7 +217,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "supporting hy",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -332,15 +332,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "426a3c97ada45d5c",
+  "active": "94a75ae23f99e295",
   "lastOpenFiles": [
-    "Analysis/Convex Function.md",
+    "Algorithms/Linear Programming.md",
     "Analysis/Subdifferential.md",
+    "Analysis/Convex Function.md",
+    "Analysis/Directional Derivative.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Untitled.md",
     "Optimization/Fitzpatrick Function.md",
     "Graph Theory/Maximum Flow.md",
-    "Algorithms/Linear Programming.md",
     "Courses/Discrete Optimization/Sheet 2.md",
     "Optimization/Integer Linear Program.md",
     "Optimization/Totally Unimodular Matrix.md",
@@ -360,7 +361,6 @@
     "Courses/Discrete Optimization/Sheet 1.md",
     "Functional Analysis/Convex Hull.md",
     "Algebra/Linear Algebra/Determinant.md",
-    "Courses/Untitled 1.md",
     "Courses/Discrete Optimization",
     "Geometry",
     "Courses/NLP",
