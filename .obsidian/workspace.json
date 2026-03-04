@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formal Language Theory/Alphabet.md",
+                "file": "Formal Language Theory/Language.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Alphabet"
+              "title": "Language"
             }
           },
           {
@@ -98,12 +98,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formal Language Theory/Alphabet.md",
+                "file": "Formal Language Theory/Automaton.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Alphabet"
+              "title": "Automaton"
             }
           }
         ],
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formal Language Theory/Alphabet.md",
+                "file": "Formal Language Theory/Language.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Alphabet"
+              "title": "Language"
             }
           },
           {
@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group.md",
+                "file": "Formal Language Theory/Automaton.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Group"
+              "title": "Automaton"
             }
           },
           {
@@ -213,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -359,11 +359,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "038e4e8c7bc4b3d7",
+  "active": "6a7bd9d51d6cd504",
   "lastOpenFiles": [
+    "Formal Language Theory/Language.md",
+    "Formal Language Theory/Automaton.md",
     "Algebra/Group.md",
     "Optimization/Totally Unimodular Matrix.md",
-    "Formal Language Theory/Alphabet.md",
     "Untitled 1.md",
     "Geometry/Cone.md",
     "Optimization/Fitzpatrick Function.md",
@@ -387,7 +388,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "TA/AlgoDat/Exercise 1.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
     "Geometry",
