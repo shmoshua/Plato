@@ -63,3 +63,7 @@ $$f(x,y)=\sup_{a>0}((x-a)\ln a+ay)$$
 
 
 $$f(x,y)=\sup_{a,b,c>0}((x-c)\ln c+(c-b)\ln b+(b-a)\ln a+ay)$$
+
+
+
+$$z \log z \geq (g+1)z$$
