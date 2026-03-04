@@ -107,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "d54d634cc1ba8421",
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Subdifferential.md",
+                "file": "Optimization/Fitzpatrick Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Subdifferential"
+              "title": "Fitzpatrick Function"
             }
           },
           {
@@ -213,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -359,12 +359,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6a7bd9d51d6cd504",
+  "active": "f9ef05cd87e1b95d",
   "lastOpenFiles": [
-    "Algebra/Group.md",
-    "Algebra/Semigroup.md",
-    "Algebra/Group Homomorphism.md",
+    "Analysis/Subdifferential.md",
     "Formal Language Theory/Language.md",
+    "Algebra/Semigroup.md",
+    "Algebra/Group.md",
+    "Algebra/Group Homomorphism.md",
     "Topology/Quotient Topology.md",
     "Algebra/Quotient Set.md",
     "Geometry/Cone.md",
@@ -374,7 +375,6 @@
     "Untitled 1.md",
     "Optimization/Fitzpatrick Function.md",
     "Formal Language Theory",
-    "Analysis/Subdifferential.md",
     "Optimization/Polyhedron.md",
     "Analysis/Directional Derivative.md",
     "Courses/Discrete Optimization/Sheet 2.md",
