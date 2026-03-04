@@ -1,7 +1,7 @@
 #Definition #Optimization 
 
 > [!definition]
-> An ***Integer Linear program (ILP)*** is given in standard form as follows: $$\begin{array}{rl l} \max & c^\top x\\ \text{s.t.}& Ax = b\\&x\in \mathbb{Z}^n_{+}\end{array}$$
+> An ***Integer Linear program (ILP)*** is given in standard form as follows: $$\begin{array}{rl l} \max & c^\top x\\ \text{s.t.}& Ax = b\\&x\in \mathbb{Z}^n_{+}\end{array}$$where $A\in \mathbb{Z}^{m,n},b\in \mathbb{Z}^m$ and $A$ has a full row rank.
 
 ---
 ##### Properties

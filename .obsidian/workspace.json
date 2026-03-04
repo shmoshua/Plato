@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Fitzpatrick Function.md",
+                "file": "Optimization/Integer Linear Program.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Fitzpatrick Function"
+              "title": "Integer Linear Program"
             }
           },
           {
@@ -107,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "d54d634cc1ba8421",
@@ -190,16 +190,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Polyhedron.md",
+                "file": "Optimization/Integer Linear Program.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Polyhedron"
+              "title": "Integer Linear Program"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -346,10 +346,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "038e4e8c7bc4b3d7",
+  "active": "362146586c2705bd",
   "lastOpenFiles": [
-    "Analysis/Subdifferential.md",
     "Optimization/Fitzpatrick Function.md",
+    "Optimization/Integer Linear Program.md",
+    "Optimization/Polyhedron.md",
+    "Analysis/Subdifferential.md",
     "Analysis/Directional Derivative.md",
     "Courses/Discrete Optimization/Sheet 2.md",
     "Algorithms/Linear Programming.md",
@@ -357,9 +359,7 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Untitled.md",
     "Graph Theory/Maximum Flow.md",
-    "Optimization/Integer Linear Program.md",
     "Optimization/Totally Unimodular Matrix.md",
-    "Optimization/Polyhedron.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Graph Theory/Graph Matrices.md",
