@@ -84,12 +84,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formal Language Theory/Language.md",
+                "file": "Algebra/Semigroup.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Language"
+              "title": "Semigroup"
             }
           },
           {
@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group.md",
+                "file": "Algebra/Semigroup.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Group"
+              "title": "Semigroup"
             }
           },
           {
@@ -190,12 +190,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group Homomorphism.md",
+                "file": "Algebra/Group.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Group Homomorphism"
+              "title": "Group"
             }
           },
           {
@@ -361,13 +361,14 @@
   },
   "active": "6a7bd9d51d6cd504",
   "lastOpenFiles": [
+    "Algebra/Group.md",
+    "Algebra/Semigroup.md",
+    "Algebra/Group Homomorphism.md",
+    "Formal Language Theory/Language.md",
     "Topology/Quotient Topology.md",
     "Algebra/Quotient Set.md",
     "Geometry/Cone.md",
-    "Algebra/Group Homomorphism.md",
     "Optimization/Integer Linear Program.md",
-    "Formal Language Theory/Language.md",
-    "Algebra/Group.md",
     "Formal Language Theory/Automaton.md",
     "Optimization/Totally Unimodular Matrix.md",
     "Untitled 1.md",
@@ -387,7 +388,6 @@
     "Graph Theory/Graph Matrices.md",
     "Courses/NLP/Assignment 1.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
-    "Courses/Algebra I/Algebra Practice Problems.md",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
     "Geometry",
