@@ -25,6 +25,6 @@
 > [!h] Example 1
 > $\mathcal{L}:=\{ a^nb ^n : n\geq 0 \}$ is non-regular.
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. Suppose $\mathcal{L}$ is regular, i.e. there exists FSA $M$ s.t. $\mathcal{L}= \mathcal{L}(M)$. However, as $M$ have a finite number of states, there exists $n,m$ with $n\neq m$ s.t. $a^n$ and $a^m$ lead us to the same state. This is a
+> 1. Suppose $\mathcal{L}$ is regular, i.e. there exists FSA $M$ s.t. $\mathcal{L}= \mathcal{L}(M)$. However, as $M$ have a finite number of states, there exists $n,m$ with $n\neq m$ s.t. $a^n$ and $a^m$ lead us to the same state. This is a contradiction as $a^nb^n\in \mathcal{L}$ but $a^mb^n\notin \mathcal{L}$. 

@@ -98,16 +98,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formal Language Theory/Automaton.md",
+                "file": "Algebra/Group.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Automaton"
+              "title": "Group"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "d54d634cc1ba8421",
@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formal Language Theory/Automaton.md",
+                "file": "Algebra/Group.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Automaton"
+              "title": "Group"
             }
           },
           {
@@ -190,12 +190,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Integer Linear Program.md",
+                "file": "Algebra/Group Homomorphism.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Integer Linear Program"
+              "title": "Group Homomorphism"
             }
           },
           {
@@ -204,12 +204,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geometry/Cone.md",
+                "file": "Topology/Quotient Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cone"
+              "title": "Quotient Topology"
             }
           }
         ],
@@ -361,15 +361,18 @@
   },
   "active": "6a7bd9d51d6cd504",
   "lastOpenFiles": [
+    "Topology/Quotient Topology.md",
+    "Algebra/Quotient Set.md",
+    "Geometry/Cone.md",
+    "Algebra/Group Homomorphism.md",
+    "Optimization/Integer Linear Program.md",
     "Formal Language Theory/Language.md",
-    "Formal Language Theory/Automaton.md",
     "Algebra/Group.md",
+    "Formal Language Theory/Automaton.md",
     "Optimization/Totally Unimodular Matrix.md",
     "Untitled 1.md",
-    "Geometry/Cone.md",
     "Optimization/Fitzpatrick Function.md",
     "Formal Language Theory",
-    "Optimization/Integer Linear Program.md",
     "Analysis/Subdifferential.md",
     "Optimization/Polyhedron.md",
     "Analysis/Directional Derivative.md",
@@ -385,9 +388,6 @@
     "Courses/NLP/Assignment 1.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "Courses/Algebra I/Algebra Practice Problems.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
-    "TA/AlgoDat/Exercise 1.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
     "Geometry",

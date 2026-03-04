@@ -6,17 +6,23 @@
 > 1. **Associativity**: for any $a,b,c\in G$ we have: $$a\circ (b\circ c) = (a\circ b)\circ c$$
 > 2. **Neutral element**: there exists an element $e\in G$ s.t. for all $a\in G$ we have: $$e\circ a = a \circ e = a$$
 > 3. **Inverse element**: for all $a\in G$, there exists $\bar{a}\in G$ s.t. $$a\circ \bar{ a}=\bar{ a}\circ a=e$$
+- **Related definition**: We have that:
+	1. A ***semigroup*** is if it only has associativity. 
+	2. A ***monoid*** is a semigroup with a neutral element. 
 ---
 ##### Propositions
 
 > [!lemma] Proposition 1
-> For any group $(G,\circ)$, there is exactly one neutral element and each element in $G$ has exactly one inverse.
+> For any monoid $(G,\circ)$, 
+> 1. there is exactly one identity.
+> 2. for a group $G$, each element in $G$ has exactly one inverse.
 
 > [!Proof]-
-> Let $e,e'\in G$ be neutral elements of $G$. Then, we have: $$e = e \circ e' = e'$$ Therefore, there is exactly one neutral element.
+> We have:
+> 1. Let $e,e'\in G$ be neutral elements of $G$. Then, we have: $$e = e \circ e' = e'$$ Therefore, there is exactly one neutral element.
 > 
-> Now, let $a\in G$ be arbitrary and let $x,y\in G$ s.t. $a\circ x=y\circ a=e$. Then, $$y = y \circ e = y \circ (a \circ x)= (y \circ a)\circ x=e \circ x=x$$
-> Therefore, $a$ has exactly one inverse.
+> 2. Now, let $a\in G$ be arbitrary and let $x,y\in G$ s.t. $a\circ x=y\circ a=e$. Then, $$y = y \circ e = y \circ (a \circ x)= (y \circ a)\circ x=e \circ x=x$$
+> 	Therefore, $a$ has exactly one inverse.
 
 ---
 > [!lemma] Proposition 2

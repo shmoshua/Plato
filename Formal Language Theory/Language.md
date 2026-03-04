@@ -14,6 +14,6 @@
 ---
 ##### Properties
 > [!lemma] Proposition 1
-> $\mathcal{A}^{*}$ is a [[Group|monoid]] w.r.t. concatenation.
+> $\mathcal{A}^{*}$ is a [[Group|monoid]] w.r.t. concatenation called the ***free monoid***.
 
 ---
