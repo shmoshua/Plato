@@ -67,3 +67,5 @@ $$f(x,y)=\sup_{a,b,c>0}((x-c)\ln c+(c-b)\ln b+(b-a)\ln a+ay)$$
 
 
 $$z \log z \geq (g+1)z$$
+
+$$\left(x-\frac{x}{w}\right)\ln \frac{x}{w}+\frac{x}{w}(e^{w-1}+x^*-2)+e^{e^{w-1}+x^*-1}$$
