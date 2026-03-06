@@ -213,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -359,11 +359,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0b490cb895f5f34",
+  "active": "446519ec3ab51cf1",
   "lastOpenFiles": [
+    "Projects/Local Stationary Distributions/MaxCut.md",
     "Formal Language Theory/Language.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
-    "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Optimization/Fitzpatrick Function.md",
     "Analysis/Directional Derivative.md",
