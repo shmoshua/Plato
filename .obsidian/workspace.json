@@ -204,12 +204,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Quotient Topology.md",
+                "file": "Probability Theory/Conditional Expectation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Quotient Topology"
+              "title": "Conditional Expectation"
             }
           }
         ],
@@ -361,6 +361,7 @@
   },
   "active": "894f9283493a048e",
   "lastOpenFiles": [
+    "Topology/Quotient Topology.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Formal Language Theory/Language.md",
@@ -371,7 +372,6 @@
     "Algebra/Semigroup.md",
     "Algebra/Group.md",
     "Algebra/Group Homomorphism.md",
-    "Topology/Quotient Topology.md",
     "Algebra/Quotient Set.md",
     "Geometry/Cone.md",
     "Optimization/Integer Linear Program.md",
