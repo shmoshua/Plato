@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/MaxCut.md",
+                "file": "Projects/Local Stationary Distributions/Pinning MaxCut.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "MaxCut"
+              "title": "Pinning MaxCut"
             }
           },
           {
@@ -361,6 +361,7 @@
   },
   "active": "446519ec3ab51cf1",
   "lastOpenFiles": [
+    "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Optimization/Fitzpatrick Function.md",
     "Analysis/Directional Derivative.md",
@@ -387,7 +388,6 @@
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Graph Theory/Graph Matrices.md",
-    "Courses/NLP/Assignment 1.md",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
     "Geometry",
