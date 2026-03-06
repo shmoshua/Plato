@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formal Language Theory/Language.md",
+                "file": "Projects/Local Stationary Distributions/MaxCut.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Language"
+              "title": "MaxCut"
             }
           },
           {
@@ -213,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -359,14 +359,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "446519ec3ab51cf1",
+  "active": "e0b490cb895f5f34",
   "lastOpenFiles": [
+    "Formal Language Theory/Language.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Optimization/Fitzpatrick Function.md",
     "Analysis/Directional Derivative.md",
     "Analysis/Subdifferential.md",
-    "Formal Language Theory/Language.md",
     "Algebra/Semigroup.md",
     "Algebra/Group.md",
     "Algebra/Group Homomorphism.md",
@@ -387,7 +388,6 @@
     "Graph Theory/Maximum Flow.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
-    "Graph Theory/Graph Matrices.md",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
     "Geometry",
