@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Fitzpatrick Function.md",
+                "file": "Projects/Local Stationary Distributions/MaxCut.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Fitzpatrick Function"
+              "title": "MaxCut"
             }
           },
           {
@@ -361,8 +361,9 @@
   },
   "active": "446519ec3ab51cf1",
   "lastOpenFiles": [
-    "Analysis/Directional Derivative.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Optimization/Fitzpatrick Function.md",
+    "Analysis/Directional Derivative.md",
     "Analysis/Subdifferential.md",
     "Formal Language Theory/Language.md",
     "Algebra/Semigroup.md",
@@ -387,7 +388,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Graph Theory/Graph Matrices.md",
     "Courses/NLP/Assignment 1.md",
-    "Courses/Probabilistic Methods in Combinatorics/Assignment 1.md",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
     "Geometry",
