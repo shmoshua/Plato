@@ -52,3 +52,10 @@ January 12hrs GHW2 correction
 Total 12hrs
 
 
+
+
+
+25.02 2hr Exercise Class Prep
+27.02 2hr Exercise Class
+28.02 1hr Exercise Correction 
+Total 5hrs 

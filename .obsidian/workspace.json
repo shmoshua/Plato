@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Fitzpatrick Function.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Fitzpatrick Function"
+              "title": "TimeSheet"
             }
           },
           {
@@ -204,12 +204,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Expectation.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conditional Expectation"
+              "title": "TimeSheet"
             }
           }
         ],
@@ -359,14 +359,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "894f9283493a048e",
+  "active": "f9ef05cd87e1b95d",
   "lastOpenFiles": [
+    "Optimization/Fitzpatrick Function.md",
+    "TA/AdvAlg/TimeSheet.md",
+    "Probability Theory/Conditional Expectation.md",
     "Topology/Quotient Topology.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Formal Language Theory/Language.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Optimization/Fitzpatrick Function.md",
     "Analysis/Directional Derivative.md",
     "Analysis/Subdifferential.md",
     "Algebra/Semigroup.md",
@@ -386,8 +388,6 @@
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
     "Untitled.md",
     "Graph Theory/Maximum Flow.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
     "Geometry",
