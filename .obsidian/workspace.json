@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Split Cut.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Split Cut"
+              "title": "Exercise Sheet 2"
             }
           },
           {
@@ -204,12 +204,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Split Cut.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Split Cut"
+              "title": "Exercise Sheet 2"
             }
           }
         ],
@@ -359,10 +359,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f9ef05cd87e1b95d",
+  "active": "894f9283493a048e",
   "lastOpenFiles": [
-    "TA/AdvAlg/TimeSheet.md",
     "Optimization/Split Cut.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+    "TA/AdvAlg/TimeSheet.md",
     "Probability Theory/Conditional Expectation.md",
     "Optimization/Fitzpatrick Function.md",
     "Topology/Quotient Topology.md",
@@ -387,7 +388,6 @@
     "Algorithms/Linear Programming.md",
     "Analysis/Convex Function.md",
     "Courses/Probabilistic Methods in Combinatorics/Assignment 3.md",
-    "Untitled.md",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
     "Geometry",
