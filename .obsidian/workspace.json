@@ -241,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -388,10 +388,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "894f9283493a048e",
+  "active": "5d0c06eaff5d791f",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Probability Theory/Expected Value.md",
     "Optimization/Split Cut.md",
     "TA/AdvAlg/TimeSheet.md",
