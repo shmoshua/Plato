@@ -218,12 +218,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+                "file": "Probability Theory/Martingale.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Weak Recovery in Spiked Models"
+              "title": "Martingale"
             }
           },
           {
@@ -273,7 +273,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tilted",
+                "query": "azuma",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -390,6 +390,7 @@
   },
   "active": "5d0c06eaff5d791f",
   "lastOpenFiles": [
+    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Probability Theory/Expected Value.md",
@@ -416,7 +417,6 @@
     "Formal Language Theory",
     "Optimization/Polyhedron.md",
     "Courses/Discrete Optimization/Sheet 2.md",
-    "Algorithms/Linear Programming.md",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
     "Geometry",
