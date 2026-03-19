@@ -218,12 +218,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Weak Recovery in Spiked Models"
             }
           },
           {
@@ -273,7 +273,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jensen",
+                "query": "tilted",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -390,8 +390,8 @@
   },
   "active": "5d0c06eaff5d791f",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Probability Theory/Expected Value.md",
     "Optimization/Split Cut.md",
     "TA/AdvAlg/TimeSheet.md",
