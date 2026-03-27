@@ -218,12 +218,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Martingale.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Martingale"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -294,8 +294,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -390,6 +389,10 @@
   },
   "active": "5d0c06eaff5d791f",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
+    "Probability Theory/Martingale.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
@@ -412,11 +415,7 @@
     "Geometry/Cone.md",
     "Optimization/Integer Linear Program.md",
     "Formal Language Theory/Automaton.md",
-    "Optimization/Totally Unimodular Matrix.md",
-    "Untitled 1.md",
     "Formal Language Theory",
-    "Optimization/Polyhedron.md",
-    "Courses/Discrete Optimization/Sheet 2.md",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
     "Geometry",
