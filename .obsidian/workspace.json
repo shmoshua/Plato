@@ -204,12 +204,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 2"
+              "title": "Exercise Sheet 3"
             }
           },
           {
@@ -241,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -387,15 +387,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5d0c06eaff5d791f",
+  "active": "894f9283493a048e",
   "lastOpenFiles": [
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+    "Algorithms/Linear Programming.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Probability Theory/Martingale.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Probability Theory/Expected Value.md",
     "Optimization/Split Cut.md",
     "TA/AdvAlg/TimeSheet.md",
@@ -414,7 +415,6 @@
     "Algebra/Quotient Set.md",
     "Geometry/Cone.md",
     "Optimization/Integer Linear Program.md",
-    "Formal Language Theory/Automaton.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
