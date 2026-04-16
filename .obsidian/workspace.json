@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/SS1.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SS1"
+              "title": "TimeSheet"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Directional Derivative.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Directional Derivative"
+              "title": "TimeSheet"
             }
           },
           {
@@ -278,7 +278,8 @@
               "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -424,12 +425,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "f9ef05cd87e1b95d",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Courses/Algorithms for Data Science/SS1.md",
-    "Algorithms/Linear Programming.md",
+    "TA/AdvAlg/TimeSheet.md",
     "Analysis/Directional Derivative.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
+    "Algorithms/Linear Programming.md",
     "Probability Theory/Gaussian Distribution.md",
     "Probability Theory/Characteristic Function.md",
     "Topology/Complete Metric Space.md",
@@ -444,7 +446,6 @@
     "Probability Theory/Martingale.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Optimization/Split Cut.md",
-    "TA/AdvAlg/TimeSheet.md",
     "Probability Theory/Conditional Expectation.md",
     "Optimization/Fitzpatrick Function.md",
     "Topology/Quotient Topology.md",

@@ -59,3 +59,15 @@ Total 12hrs
 27.02 2hr Exercise Class
 28.02 1hr Exercise Correction 
 Total 5hrs 
+
+2.03 2hr Exercise Correction
+11.03 2hr Exercise Class Prep
+13.03 2hr Exercise Class
+23.03 4hr Exercise Correction
+24.03 3hr Special Assignment Test
+25.03 3hr Exercise Class Prep
+27.03 2hr Exercise Class
+27.03 1hr Special Assignment Test
+30.03 2hr Special Assignment  
+
+Total 21hrs
