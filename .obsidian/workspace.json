@@ -281,9 +281,23 @@
               "icon": "lucide-file",
               "title": "Fitzpatrick Function"
             }
+          },
+          {
+            "id": "4e0c956fba1fe933",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Subdifferential.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Subdifferential"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -429,8 +443,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "18b705ad5f88497a",
+  "active": "4e0c956fba1fe933",
   "lastOpenFiles": [
+    "Optimization/Fitzpatrick Function.md",
     "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/SS1.md",
     "Analysis/Directional Derivative.md",
@@ -451,7 +466,6 @@
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Optimization/Split Cut.md",
     "Probability Theory/Conditional Expectation.md",
-    "Optimization/Fitzpatrick Function.md",
     "Topology/Quotient Topology.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
