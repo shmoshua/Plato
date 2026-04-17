@@ -272,14 +272,18 @@
             "id": "18b705ad5f88497a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Optimization/Fitzpatrick Function.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Fitzpatrick Function"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -425,10 +429,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f9ef05cd87e1b95d",
+  "active": "18b705ad5f88497a",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/SS1.md",
     "TA/AdvAlg/TimeSheet.md",
+    "Courses/Algorithms for Data Science/SS1.md",
     "Analysis/Directional Derivative.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Algorithms/Linear Programming.md",
