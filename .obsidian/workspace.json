@@ -98,16 +98,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group.md",
+                "file": "Optimization/Fitzpatrick Function.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Group"
+              "title": "Fitzpatrick Function"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       },
       {
         "id": "d54d634cc1ba8421",
@@ -297,7 +297,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -443,9 +443,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4e0c956fba1fe933",
+  "active": "038e4e8c7bc4b3d7",
   "lastOpenFiles": [
+    "Algebra/Group.md",
     "Optimization/Fitzpatrick Function.md",
+    "Analysis/Subdifferential.md",
     "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/SS1.md",
     "Analysis/Directional Derivative.md",
@@ -469,8 +471,6 @@
     "Topology/Quotient Topology.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
-    "Formal Language Theory/Language.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
