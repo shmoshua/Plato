@@ -297,7 +297,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -443,11 +443,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4e0c956fba1fe933",
+  "active": "18b705ad5f88497a",
   "lastOpenFiles": [
+    "Analysis/Subdifferential.md",
     "Optimization/Fitzpatrick Function.md",
     "Algebra/Group.md",
-    "Analysis/Subdifferential.md",
     "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/SS1.md",
     "Analysis/Directional Derivative.md",
