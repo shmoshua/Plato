@@ -288,12 +288,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Subdifferential.md",
+                "file": "Markov Processes/Glauber Dynamics.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Subdifferential"
+              "title": "Glauber Dynamics"
             }
           }
         ],
@@ -445,8 +445,8 @@
   },
   "active": "4e0c956fba1fe933",
   "lastOpenFiles": [
-    "Optimization/Fitzpatrick Function.md",
     "Analysis/Subdifferential.md",
+    "Optimization/Fitzpatrick Function.md",
     "Algebra/Group.md",
     "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/SS1.md",
