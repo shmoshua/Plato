@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 7"
+              "title": "Exercise Sheet 6"
             }
           },
           {
@@ -445,10 +445,10 @@
   },
   "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/SS1.md",
     "Markov Processes/Glauber Dynamics.md",
