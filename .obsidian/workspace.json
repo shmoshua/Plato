@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/SS1.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SS1"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -296,8 +296,7 @@
               "title": "Glauber Dynamics"
             }
           }
-        ],
-        "currentTab": 12
+        ]
       }
     ],
     "direction": "vertical"
@@ -443,13 +442,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4e0c956fba1fe933",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/SS1.md",
+    "Markov Processes/Glauber Dynamics.md",
     "Analysis/Subdifferential.md",
     "Optimization/Fitzpatrick Function.md",
     "Algebra/Group.md",
     "TA/AdvAlg/TimeSheet.md",
-    "Courses/Algorithms for Data Science/SS1.md",
     "Analysis/Directional Derivative.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Algorithms/Linear Programming.md",
@@ -470,7 +470,6 @@
     "Probability Theory/Conditional Expectation.md",
     "Topology/Quotient Topology.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
-    "Projects/Local Stationary Distributions/MaxCut.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
