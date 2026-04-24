@@ -296,8 +296,7 @@
               "title": "Glauber Dynamics"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -443,10 +442,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8539d45c9a9dfa6f",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "TA/AdvAlg/TimeSheet.md",
