@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 6"
+              "title": "Exercise Sheet 7"
             }
           },
           {
@@ -296,7 +296,8 @@
               "title": "Glauber Dynamics"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -442,12 +443,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
-    "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/SS1.md",
     "Markov Processes/Glauber Dynamics.md",
     "Analysis/Subdifferential.md",
@@ -469,7 +471,6 @@
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Optimization/Split Cut.md",
     "Probability Theory/Conditional Expectation.md",
-    "Topology/Quotient Topology.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
