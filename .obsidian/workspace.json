@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Exercise Sheet 6"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TA/AdvAlg/TimeSheet.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TimeSheet"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -444,12 +444,15 @@
   },
   "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+    "TA/AdvAlg/TimeSheet.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Courses/Algorithms for Data Science/SS1.md",
     "Markov Processes/Glauber Dynamics.md",
     "Analysis/Subdifferential.md",
     "Optimization/Fitzpatrick Function.md",
     "Algebra/Group.md",
-    "TA/AdvAlg/TimeSheet.md",
     "Analysis/Directional Derivative.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Algorithms/Linear Programming.md",
@@ -459,17 +462,14 @@
     "Topology/Compact Space.md",
     "Topology/Complete Space.md",
     "Probability Theory/Expected Value.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Probability Theory/Martingale.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Optimization/Split Cut.md",
     "Probability Theory/Conditional Expectation.md",
     "Topology/Quotient Topology.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
