@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Glauber Dynamics.md",
+                "file": "Algebra/Tensor Product.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Glauber Dynamics"
+              "title": "Tensor Product"
             }
           }
         ],
@@ -319,6 +319,9 @@
   },
   "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
+    "Algebra/Tensor Product.md",
+    "Markov Processes/Glauber Dynamics.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
@@ -326,7 +329,6 @@
     "Probability Theory/Characteristic Function.md",
     "Probability Theory/Gaussian Distribution.md",
     "Topology/Compact Space.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Algebra/Group.md",
     "Algebra/Semigroup.md",
@@ -335,7 +337,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/SS1.md",
-    "Markov Processes/Glauber Dynamics.md",
     "Analysis/Subdifferential.md",
     "Analysis/Directional Derivative.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
@@ -344,7 +345,6 @@
     "Topology/Complete Space.md",
     "Probability Theory/Expected Value.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 3.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
