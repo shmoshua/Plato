@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -317,10 +317,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4e0c956fba1fe933",
+  "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algebra/Tensor Product.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Markov Processes/Glauber Dynamics.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
