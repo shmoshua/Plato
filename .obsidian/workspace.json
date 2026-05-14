@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
+                "file": "Formal Language Theory/Automaton.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 8"
+              "title": "Automaton"
             }
           },
           {
@@ -171,7 +171,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -317,12 +317,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8539d45c9a9dfa6f",
+  "active": "ee568ad677adda89",
   "lastOpenFiles": [
-    "Algebra/Tensor Product.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Markov Processes/Glauber Dynamics.md",
+    "Formal Language Theory/Language.md",
+    "Formal Language Theory/Automaton.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Algebra/Tensor Product.md",
+    "Markov Processes/Glauber Dynamics.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Optimization/Fitzpatrick Function.md",
@@ -343,8 +345,6 @@
     "Algorithms/Linear Programming.md",
     "Topology/Complete Metric Space.md",
     "Topology/Complete Space.md",
-    "Probability Theory/Expected Value.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 5.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
