@@ -162,16 +162,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Tensor Product.md",
+                "file": "Formal Language Theory/Language.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Tensor Product"
+              "title": "Language"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -317,13 +317,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ee568ad677adda89",
+  "active": "4e0c956fba1fe933",
   "lastOpenFiles": [
-    "Formal Language Theory/Language.md",
+    "Algebra/Tensor Product.md",
     "Formal Language Theory/Automaton.md",
+    "Formal Language Theory/Language.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Algebra/Tensor Product.md",
     "Markov Processes/Glauber Dynamics.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
