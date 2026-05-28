@@ -98,12 +98,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimization/Fitzpatrick Function.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Fitzpatrick Function"
+              "title": "TimeSheet"
             }
           }
         ],
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formal Language Theory/Language.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Language"
+              "title": "TimeSheet"
             }
           }
         ],
@@ -317,17 +317,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "4e0c956fba1fe933",
+  "active": "038e4e8c7bc4b3d7",
   "lastOpenFiles": [
+    "Optimization/Fitzpatrick Function.md",
+    "TA/AdvAlg/TimeSheet.md",
+    "Formal Language Theory/Language.md",
     "Algebra/Tensor Product.md",
     "Formal Language Theory/Automaton.md",
-    "Formal Language Theory/Language.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Markov Processes/Glauber Dynamics.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
-    "Optimization/Fitzpatrick Function.md",
     "Probability Theory/Characteristic Function.md",
     "Probability Theory/Gaussian Distribution.md",
     "Topology/Compact Space.md",
@@ -337,7 +338,6 @@
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
-    "TA/AdvAlg/TimeSheet.md",
     "Courses/Algorithms for Data Science/SS1.md",
     "Analysis/Subdifferential.md",
     "Analysis/Directional Derivative.md",
