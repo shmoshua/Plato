@@ -105,9 +105,21 @@
               "icon": "lucide-file",
               "title": "TimeSheet"
             }
+          },
+          {
+            "id": "e0d64a13613ec7f2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       },
       {
         "id": "d54d634cc1ba8421",
@@ -317,7 +329,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "038e4e8c7bc4b3d7",
+  "active": "e0d64a13613ec7f2",
   "lastOpenFiles": [
     "Optimization/Fitzpatrick Function.md",
     "TA/AdvAlg/TimeSheet.md",
