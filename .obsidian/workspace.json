@@ -132,12 +132,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
+                "file": "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 6"
+              "title": "Exercise Sheet 12"
             }
           },
           {
@@ -182,8 +182,7 @@
               "title": "TimeSheet"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -329,8 +328,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0d64a13613ec7f2",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Optimization/Fitzpatrick Function.md",
     "TA/AdvAlg/TimeSheet.md",
     "Formal Language Theory/Language.md",
@@ -349,14 +350,12 @@
     "Algebra/Semigroup.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Courses/Algorithms for Data Science/SS1.md",
     "Analysis/Subdifferential.md",
     "Analysis/Directional Derivative.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Algorithms/Linear Programming.md",
     "Topology/Complete Metric Space.md",
-    "Topology/Complete Space.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
