@@ -182,7 +182,8 @@
               "title": "TimeSheet"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -328,8 +329,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Optimization/Fitzpatrick Function.md",
@@ -355,7 +357,6 @@
     "Analysis/Directional Derivative.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
     "Algorithms/Linear Programming.md",
-    "Topology/Complete Metric Space.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
