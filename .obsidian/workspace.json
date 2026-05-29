@@ -182,8 +182,7 @@
               "title": "TimeSheet"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -329,8 +328,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8539d45c9a9dfa6f",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
@@ -340,7 +340,6 @@
     "Algebra/Tensor Product.md",
     "Formal Language Theory/Automaton.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Markov Processes/Glauber Dynamics.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
