@@ -182,7 +182,8 @@
               "title": "TimeSheet"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -328,10 +329,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Optimization/Fitzpatrick Function.md",
