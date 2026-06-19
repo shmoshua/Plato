@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Sheet 12"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -184,8 +184,7 @@
               "title": "TimeSheet"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -331,14 +330,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8539d45c9a9dfa6f",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Probability Theory/Exercise Class 9.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Optimization/Fitzpatrick Function.md",
