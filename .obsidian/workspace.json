@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Algebraic Topology II Roadmap"
             }
           },
           {
@@ -238,8 +238,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -332,9 +331,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0d64a13613ec7f2",
+  "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
+    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
+    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
+    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Courses/Probability Theory/Exercise Class 9.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
@@ -356,10 +359,6 @@
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Courses/Algorithms for Data Science/SS1.md",
-    "Analysis/Subdifferential.md",
-    "Analysis/Directional Derivative.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 2.md",
-    "Algorithms/Linear Programming.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
