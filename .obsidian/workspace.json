@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Courses/Probability Theory/Exercise Class 13.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Exercise Class 13"
             }
           },
           {
@@ -332,11 +332,13 @@
   },
   "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Courses/Probability Theory/Exercise Class 12.md",
+    "Courses/Probability Theory/Exercise Class 13.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Probability Theory/Exercise Class 9.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
@@ -356,8 +358,6 @@
     "Algebra/Group.md",
     "Algebra/Semigroup.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
-    "Courses/Algorithms for Data Science/SS1.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
