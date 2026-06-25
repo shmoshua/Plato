@@ -112,12 +112,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TA/AdvAlg/TimeSheet.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TimeSheet"
+              "title": "Uniformly Continuous Function"
             }
           }
         ],
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TA/AdvAlg/TimeSheet.md",
+                "file": "Functional Analysis/Uniformly Continuous Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "TimeSheet"
+              "title": "Uniformly Continuous Function"
             }
           },
           {
@@ -217,7 +217,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CLT",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -238,7 +238,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -331,10 +332,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e0d64a13613ec7f2",
+  "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
-    "Courses/Probability Theory/Exercise Class 9.md",
     "TA/AdvAlg/TimeSheet.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
+    "Courses/Probability Theory/Exercise Class 9.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Courses/Probability Theory/Exercise Class 13.md",
     "Courses/Probability Theory/Exercise Class 12.md",
@@ -358,7 +360,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Algebra/Group.md",
     "Algebra/Semigroup.md",
-    "Projects/Local Stationary Distributions/MaxCut.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
