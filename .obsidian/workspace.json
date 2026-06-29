@@ -112,12 +112,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Uniformly Continuous Function.md",
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Uniformly Continuous Function"
+              "title": "p-Simplex"
             }
           }
         ],
@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Uniformly Continuous Function.md",
+                "file": "Topology/Algebraic Topology/p-Simplex.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Uniformly Continuous Function"
+              "title": "p-Simplex"
             }
           },
           {
@@ -334,8 +334,9 @@
   },
   "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
-    "TA/AdvAlg/TimeSheet.md",
     "Functional Analysis/Uniformly Continuous Function.md",
+    "Topology/Algebraic Topology/p-Simplex.md",
+    "TA/AdvAlg/TimeSheet.md",
     "Courses/Probability Theory/Exercise Class 9.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Courses/Probability Theory/Exercise Class 13.md",
@@ -359,7 +360,6 @@
     "Topology/Compact Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Algebra/Group.md",
-    "Algebra/Semigroup.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
