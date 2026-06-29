@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Algebraic Topology/p-Simplex.md",
-                "mode": "preview",
+                "file": "Algebra/Group.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "p-Simplex"
+              "title": "Group"
             }
           },
           {
@@ -334,8 +334,9 @@
   },
   "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
-    "Functional Analysis/Uniformly Continuous Function.md",
+    "modified Bessel function of the second kind.md",
     "Topology/Algebraic Topology/p-Simplex.md",
+    "Functional Analysis/Uniformly Continuous Function.md",
     "TA/AdvAlg/TimeSheet.md",
     "Courses/Probability Theory/Exercise Class 9.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
@@ -359,7 +360,6 @@
     "Probability Theory/Gaussian Distribution.md",
     "Topology/Compact Space.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
-    "Algebra/Group.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
