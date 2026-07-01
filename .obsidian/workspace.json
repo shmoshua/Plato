@@ -217,7 +217,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "monoid ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -334,6 +334,8 @@
   },
   "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
+    "Formal Language Theory/Language.md",
+    "Algebra/Group.md",
     "modified Bessel function of the second kind.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Functional Analysis/Uniformly Continuous Function.md",
@@ -349,7 +351,6 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 11.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Optimization/Fitzpatrick Function.md",
-    "Formal Language Theory/Language.md",
     "Algebra/Tensor Product.md",
     "Formal Language Theory/Automaton.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
@@ -359,7 +360,6 @@
     "Probability Theory/Characteristic Function.md",
     "Probability Theory/Gaussian Distribution.md",
     "Topology/Compact Space.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 4.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
