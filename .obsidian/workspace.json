@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Group.md",
-                "mode": "source",
+                "file": "Courses/Probability Theory/Exercise Class 9.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Group"
+              "title": "Exercise Class 9"
             }
           },
           {
@@ -217,7 +217,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "monoid ",
+                "query": "CLT",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -334,8 +334,8 @@
   },
   "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
-    "Formal Language Theory/Language.md",
     "Algebra/Group.md",
+    "Formal Language Theory/Language.md",
     "modified Bessel function of the second kind.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Functional Analysis/Uniformly Continuous Function.md",
