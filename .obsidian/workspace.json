@@ -148,12 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 9.md",
+                "file": "Algebra/Group Homomorphism.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 9"
+              "title": "Group Homomorphism"
             }
           },
           {
@@ -334,13 +334,13 @@
   },
   "active": "8539d45c9a9dfa6f",
   "lastOpenFiles": [
+    "Courses/Probability Theory/Exercise Class 9.md",
     "Algebra/Group.md",
     "Formal Language Theory/Language.md",
     "modified Bessel function of the second kind.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Functional Analysis/Uniformly Continuous Function.md",
     "TA/AdvAlg/TimeSheet.md",
-    "Courses/Probability Theory/Exercise Class 9.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
     "Courses/Probability Theory/Exercise Class 13.md",
     "Courses/Probability Theory/Exercise Class 12.md",
