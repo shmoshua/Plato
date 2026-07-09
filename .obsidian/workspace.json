@@ -126,12 +126,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Prime Ideal.md",
+                "file": "Topology/Zariski Topology.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Prime Ideal"
+              "title": "Zariski Topology"
             }
           }
         ],
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Prime Ideal.md",
+                "file": "Topology/Zariski Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Prime Ideal"
+              "title": "Zariski Topology"
             }
           },
           {
@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Polynomial Ring.md",
+                "file": "Discrete Mathematics/Order.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Polynomial Ring"
+              "title": "Order"
             }
           },
           {
@@ -190,12 +190,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Zero Divisor.md",
+                "file": "Algebra/Nilradical.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Zero Divisor"
+              "title": "Nilradical"
             }
           },
           {
@@ -204,16 +204,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Integral Domain.md",
+                "file": "Algebra/Radical (Ring).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Integral Domain"
+              "title": "Radical (Ring)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -245,7 +245,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CLT",
+                "query": "zorn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -266,7 +266,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -359,34 +360,34 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "988729e07be6dca8",
+  "active": "ac5bca041fc2336b",
   "lastOpenFiles": [
     "Algebra/Zero Divisor.md",
     "Algebra/Radical (Ring).md",
-    "Algebra/Integral Domain.md",
     "Algebra/Prime Ideal.md",
+    "Functional Analysis/Spectrum.md",
+    "Algebra/Linear Algebra/Spectrum.md",
+    "Algebra/Ideal (Ring).md",
+    "Topology/Zariski Topology.md",
+    "Algebra/Integral Domain.md",
+    "Discrete Mathematics/Order.md",
+    "Functional Analysis/Compact, Self-adjoint Operators.md",
+    "Axiom of Choice.md",
+    "Algebra/Polynomial Ring.md",
     "Algebra/Unit.md",
     "Algebra/Nilradical.md",
     "Algebra/Ring.md",
     "Functional Analysis/Jacobson Radical.md",
-    "Algebra/Polynomial Ring.md",
     "Algebra/Jacobson Radical.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Field.md",
     "Algebra/Quotient Ring.md",
-    "Algebra/Ideal (Ring).md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Courses/Probability Theory/Exercise Class 13.md",
     "TA/AdvAlg/TimeSheet.md",
     "Formal Language Theory/Automaton.md",
     "Algebra/Group Homomorphism.md",
     "Courses/Probability Theory/Exercise Class 9.md",
-    "Algebra/Group.md",
-    "Formal Language Theory/Language.md",
-    "modified Bessel function of the second kind.md",
-    "Functional Analysis/Uniformly Continuous Function.md",
-    "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Courses/Probability Theory/Exercise Class 12.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",

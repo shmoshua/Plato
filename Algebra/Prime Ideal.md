@@ -59,9 +59,10 @@
 > 1. any ideal $I\unlhd R$ that only has zero-divisors is contained in some prime ideal.
 > 2. the set of zero-divisors is a union of prime ideals. 
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 1. 
+> 1. By Zorn's lemma every ideal has a maximal ideal $P$. Assume $P$ is not prime, i.e. there exists $a,b$ s.t. $ab\in P$ but $a\notin P$ and $b\notin P$. Then, by definition $P+(a)$ and $P+(b)$ both contain non-zero-divisor and we have non-zero-divisors $s_{1},s_{2}$ s.t. $$s_{1}=p_{1}+r_{1}a,\quad s_{2}=p_{2}+r_{2}b$$for some $p_{1},p_{2}\in P,r_{1},r_{2}\in R$. Then, by definition $s_{1}s_{2}$ is not a zero-divisor. However, $s_{1}s_{2}=p_{1}p_{2}+p_{1}r_{2}b+p_{2}r_{1}a + r_{1}r_{2}ab\in P$, which is a contradiction. 
+> 2. Let $Z$ denote the set of zero divisors. Then, for any $x\in Z$, $(x)$ is an ideal that only has zero divisors. Hence, by 1) it is contained in some prime ideal $P_{x}$ where $P_{x}\subseteq Z$. Therefore, $$Z=\bigcup_{x\in Z}^{}P_{x}$$
 ---
 ##### Examples
 - For $R = \mathbb{Z}$, $m\mathbb{Z}$ is a prime ideal if and only if $m$ is prime or $m=0$. This is equivalent to $m\mathbb{Z}$ being [[Maximal Ideal|maximal]], i.e. $\mathbb{Z} / m\mathbb{Z}$ is a field.
