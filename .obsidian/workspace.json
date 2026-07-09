@@ -134,58 +134,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Probability Theory/Exercise Class 13.md",
+                "file": "Algebra/Ring.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Exercise Class 13"
+              "title": "Ring"
             }
           },
           {
-            "id": "8539d45c9a9dfa6f",
+            "id": "57745dddd95b384b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Group Homomorphism.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Group Homomorphism"
-            }
-          },
-          {
-            "id": "18b705ad5f88497a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Formal Language Theory/Automaton.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Automaton"
-            }
-          },
-          {
-            "id": "4e0c956fba1fe933",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TA/AdvAlg/TimeSheet.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "TimeSheet"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -332,17 +299,20 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8539d45c9a9dfa6f",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Algebra/Ring.md",
+    "Courses/Probability Theory/Exercise Class 13.md",
+    "TA/AdvAlg/TimeSheet.md",
+    "Formal Language Theory/Automaton.md",
+    "Algebra/Group Homomorphism.md",
     "Courses/Probability Theory/Exercise Class 9.md",
     "Algebra/Group.md",
     "Formal Language Theory/Language.md",
     "modified Bessel function of the second kind.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Functional Analysis/Uniformly Continuous Function.md",
-    "TA/AdvAlg/TimeSheet.md",
     "Courses/Algebraic Topology II/Algebraic Topology II Roadmap.md",
-    "Courses/Probability Theory/Exercise Class 13.md",
     "Courses/Probability Theory/Exercise Class 12.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
@@ -352,14 +322,11 @@
     "Courses/Algorithms for Data Science/Exercise Sheet 6.md",
     "Optimization/Fitzpatrick Function.md",
     "Algebra/Tensor Product.md",
-    "Formal Language Theory/Automaton.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 8.md",
     "Markov Processes/Glauber Dynamics.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 10.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 7.md",
     "Probability Theory/Characteristic Function.md",
-    "Probability Theory/Gaussian Distribution.md",
-    "Topology/Compact Space.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
