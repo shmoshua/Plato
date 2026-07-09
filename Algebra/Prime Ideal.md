@@ -54,6 +54,15 @@
 ^a47838
 
 ---
+> [!lemma] Proposition 4
+> Let $R$ be a commutative ring. 
+> 1. any ideal $I\unlhd R$ that only has zero-divisors is contained in some prime ideal.
+> 2. the set of zero-divisors is a union of prime ideals. 
+
+> [!proof]+
+> We have that:
+> 1. 
+---
 ##### Examples
 - For $R = \mathbb{Z}$, $m\mathbb{Z}$ is a prime ideal if and only if $m$ is prime or $m=0$. This is equivalent to $m\mathbb{Z}$ being [[Maximal Ideal|maximal]], i.e. $\mathbb{Z} / m\mathbb{Z}$ is a field.
 - 
