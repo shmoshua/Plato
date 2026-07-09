@@ -126,12 +126,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Zariski Topology.md",
+                "file": "Algebra/Spectrum (Ideal).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Zariski Topology"
+              "title": "Spectrum (Ideal)"
             }
           }
         ],
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Zariski Topology.md",
+                "file": "Algebra/Spectrum (Ideal).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Zariski Topology"
+              "title": "Spectrum (Ideal)"
             }
           },
           {
@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete Mathematics/Order.md",
+                "file": "Topology/Base of Topology.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Order"
+              "title": "Base of Topology"
             }
           },
           {
@@ -190,12 +190,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Nilradical.md",
+                "file": "Algebra/Radical (Ring).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Nilradical"
+              "title": "Radical (Ring)"
             }
           },
           {
@@ -211,9 +211,23 @@
               "icon": "lucide-file",
               "title": "Radical (Ring)"
             }
+          },
+          {
+            "id": "7a83697ab51ec193",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Compact Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Compact Space"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -266,8 +280,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -360,22 +373,25 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ac5bca041fc2336b",
+  "active": "988729e07be6dca8",
   "lastOpenFiles": [
-    "Algebra/Zero Divisor.md",
     "Algebra/Radical (Ring).md",
+    "Topology/Base of Topology.md",
+    "Algebra/Spectrum (Ideal).md",
+    "Discrete Mathematics/Order.md",
+    "Topology/Zariski Topology.md",
+    "Topology/Compact Space.md",
+    "Algebra/Nilradical.md",
+    "Algebra/Zero Divisor.md",
     "Algebra/Prime Ideal.md",
     "Functional Analysis/Spectrum.md",
     "Algebra/Linear Algebra/Spectrum.md",
     "Algebra/Ideal (Ring).md",
-    "Topology/Zariski Topology.md",
     "Algebra/Integral Domain.md",
-    "Discrete Mathematics/Order.md",
     "Functional Analysis/Compact, Self-adjoint Operators.md",
     "Axiom of Choice.md",
     "Algebra/Polynomial Ring.md",
     "Algebra/Unit.md",
-    "Algebra/Nilradical.md",
     "Algebra/Ring.md",
     "Functional Analysis/Jacobson Radical.md",
     "Algebra/Jacobson Radical.md",
@@ -385,9 +401,6 @@
     "Topology/Algebraic Topology/p-Simplex.md",
     "Courses/Probability Theory/Exercise Class 13.md",
     "TA/AdvAlg/TimeSheet.md",
-    "Formal Language Theory/Automaton.md",
-    "Algebra/Group Homomorphism.md",
-    "Courses/Probability Theory/Exercise Class 9.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
