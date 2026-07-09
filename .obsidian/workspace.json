@@ -119,9 +119,23 @@
               "icon": "lucide-file",
               "title": "Jacobson Radical"
             }
+          },
+          {
+            "id": "0fdd4c10fbf5ac42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Nilradical.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Nilradical"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "d54d634cc1ba8421",
@@ -143,27 +157,17 @@
             }
           },
           {
-            "id": "57745dddd95b384b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "988729e07be6dca8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Prime Ideal.md",
+                "file": "Algebra/Nilradical.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Prime Ideal"
+              "title": "Nilradical"
             }
           },
           {
@@ -172,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Jacobson Radical.md",
+                "file": "Algebra/Polynomial Ring.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Jacobson Radical"
+              "title": "Polynomial Ring"
             }
           },
           {
@@ -214,16 +218,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Jacobson Radical.md",
+                "file": "Algebra/Unit.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Jacobson Radical"
+              "title": "Unit"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -369,19 +373,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "9386f43a074925cd",
+  "active": "988729e07be6dca8",
   "lastOpenFiles": [
-    "Algebra/Nilradical.md",
-    "Algebra/Jacobson Radical.md",
-    "Algebra/Radical (Ring).md",
+    "Algebra/Unit.md",
+    "Algebra/Ring.md",
     "Functional Analysis/Jacobson Radical.md",
-    "Algebra/Field.md",
+    "Algebra/Nilradical.md",
+    "Algebra/Polynomial Ring.md",
+    "Algebra/Jacobson Radical.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Prime Ideal.md",
+    "Algebra/Radical (Ring).md",
+    "Algebra/Field.md",
     "Algebra/Quotient Ring.md",
     "Algebra/Ideal (Ring).md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Algebra/Ring.md",
     "Courses/Probability Theory/Exercise Class 13.md",
     "TA/AdvAlg/TimeSheet.md",
     "Formal Language Theory/Automaton.md",
@@ -395,8 +401,6 @@
     "Courses/Probability Theory/Exercise Class 12.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 12.md",
-    "Courses/Algebraic Topology I/Algebraic Topology I Roadmap.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
