@@ -173,7 +173,7 @@
 > We have:
 > 1. Let $I=P_{1}\dots P_{n}$ be a product of maximal ideals $P_{1},\dots,P_{n}$ s.t. $I$ is minimal among all ideals, which exists by Proposition 1.2. We need to show that $I=0$. 
 > 	1. $I^{2}$ is also the product of maximal ideals and from $I^2\subseteq I$, $I=I^{2}$. 
-> 	2. if $P\unlhd R$ is any maximal ideal, $PI\subseteq I$ and by minimality $I=PI\subseteq P$. Hence, $$I\subseteq \text{Rad}(R)$$ where $\text{Rad}(R)$ is the [[Jacobson radical]].
+> 	2. if $P\unlhd R$ is any maximal ideal, $PI\subseteq I$ and by minimality $I=PI\subseteq P$. Hence, $$I\subseteq \text{Rad}(R)$$ where $\text{Rad}(R)$ is the [[Functional Analysis/Jacobson Radical]].
 >    
 > 	Now, assume that $I\neq 0$. Then, as $R$ is Artinian, there exists a minimal ideal $J\unlhd R$ with $IJ\neq 0$. Then, 
 > 	1. $J$ is principal. Indeed, there must be an element $b\in J$ with $I\cdot(b)\neq 0$. Hence, by minimality of $J$, $(b)=J$. 

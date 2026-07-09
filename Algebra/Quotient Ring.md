@@ -8,11 +8,13 @@
 ##### Properties
 > [!lemma] Proposition 1
 > The map $$\begin{array}{cccc} {\pi:}&{R}&\to&{R / \mathfrak{a}}\\&{a} &\mapsto & {a+\mathfrak{a}} \end{array}{}$$defines a [[Ring Homomorphism]], called the*** natural homomorphism***.
+> 1. there is a one-to-one order-preserving correspondence between the ideals $\mathfrak{b}\subseteq R$ that contain $\mathfrak{a}$ and the ideals $\pi(\mathfrak{b}) \subseteq R / \mathfrak{a}$.
 
 >[!proof]-
 >We have that: 
 >1. Well-definedness: for $a+\mathfrak{a}=a'+\mathfrak{a}$ and $b+\mathfrak{a}=b'+\mathfrak{a}$, we have that $a-a'\in \mathfrak{a}$ and $b-b'\in\mathfrak{a}$. Therefore, 
 >	$$\begin{align}ab-a'b'=(a-a')b +a'(b-b')\in\mathfrak{a}\end{align}$$Therefore, $(a+\mathfrak{a})(b+\mathfrak{a})=ab+\mathfrak{a}=a'b'+\mathfrak{a}=(a'+\mathfrak{a})(b'+\mathfrak{a})$.
+>2. We first have that 
 ---
 ##### Examples
 - For $m\in \mathbb{N}$, $R=\mathbb{Z} / m\mathbb{Z}$, then: $\overline{a}\cdot \overline{b}=\overline{a\cdot b}$.

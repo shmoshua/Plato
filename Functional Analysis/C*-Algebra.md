@@ -81,7 +81,7 @@
 
 > [!proof]-
 > We have:
-> 1. (1=>2): Let $T:A\to B$ be a $\mathbb{C}$-algebra isomorphism. Then, as $C^{*}$-algebras are semisimple, by [[Jacobson Radical|Corollary 2]] both $T$ and $T^{-1}$ are continuous. Therefore, $$t:\widehat{B}\to \widehat{A},\quad \varphi\mapsto\varphi \circ T$$is a bijection. It remains to show that $t$ is continuous. 
+> 1. (1=>2): Let $T:A\to B$ be a $\mathbb{C}$-algebra isomorphism. Then, as $C^{*}$-algebras are semisimple, by [[Functional Analysis/Jacobson Radical|Corollary 2]] both $T$ and $T^{-1}$ are continuous. Therefore, $$t:\widehat{B}\to \widehat{A},\quad \varphi\mapsto\varphi \circ T$$is a bijection. It remains to show that $t$ is continuous. 
 >    
 >    Let $\varphi_{0}\in \widehat{A}$, $a_{1},\dots,a_{n}\in A$ and $\varepsilon>0$. Then, for $\varphi\in \widehat{A}$: $$\left| \varphi_{0}(a_{i})-\varphi(a_{i}) \right| <\varepsilon \iff \left| (\varphi_{0}\circ T^{-1})(T(a_{i}))-(\varphi \circ T^{-1})(T(a_{i})) \right| <\varepsilon$$Therefore, $$t^{-1}(\mathcal{U}(\varphi_{0};a_{1},\dots,a_{n};\varepsilon))=\mathcal{U}(\varphi_{0}\circ T^{-1};T(a_{1}),\dots,T(a_{n});\varepsilon)$$which shows that $t$ is continuous. By symmetry, $t$ is a homeomorphism.
 > 2. (2=>3): Let $t:\widehat{B}\to \widehat{A}$ be a homeomorphism. Then, we can define: $$\delta:C_{0}(\widehat{A})\to C_{0}(\widehat{B}),\quad f\mapsto f\circ t$$is an isometric $\mathbb{C}$-algebra isomorphism. Further, we have that: $$f^{*}(t(\varphi))=\overline{f(t(\varphi))}=(f\circ t)^{*}(\varphi)$$Hence, $\delta$ is a $C^{*}$-algebra isomorphism. We then define: $$T:A\to B,\quad x\mapsto \Delta_{B} ^{-1}(\delta(\widehat{x}))$$where $\Delta_{B}:B\to C_{0}(\widehat{B})$ is the Guelfand transform. Then, $T$ is a $C^{*}$-algebra isomorphism.
