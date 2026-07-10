@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Base of Topology.md",
+                "file": "Algebra/Prime Ideal.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Base of Topology"
+              "title": "Prime Ideal"
             }
           },
           {
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -373,20 +373,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "988729e07be6dca8",
+  "active": "7a83697ab51ec193",
   "lastOpenFiles": [
-    "Algebra/Radical (Ring).md",
-    "Topology/Base of Topology.md",
     "Algebra/Spectrum (Ideal).md",
+    "Algebra/Prime Ideal.md",
+    "Algebra/Ideal (Ring).md",
+    "Topology/Compact Space.md",
+    "Algebra/Radical (Ring).md",
+    "Topology/Interior and Closure.md",
+    "Topology/Base of Topology.md",
     "Discrete Mathematics/Order.md",
     "Topology/Zariski Topology.md",
-    "Topology/Compact Space.md",
     "Algebra/Nilradical.md",
     "Algebra/Zero Divisor.md",
-    "Algebra/Prime Ideal.md",
     "Functional Analysis/Spectrum.md",
     "Algebra/Linear Algebra/Spectrum.md",
-    "Algebra/Ideal (Ring).md",
     "Algebra/Integral Domain.md",
     "Functional Analysis/Compact, Self-adjoint Operators.md",
     "Axiom of Choice.md",
@@ -400,7 +401,6 @@
     "Algebra/Quotient Ring.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Courses/Probability Theory/Exercise Class 13.md",
-    "TA/AdvAlg/TimeSheet.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",

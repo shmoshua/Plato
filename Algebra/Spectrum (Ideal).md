@@ -22,4 +22,43 @@
 > 4. $f$ is a unit if and only if it is not contained in any prime ideal.
 > 5. By [[Radical (Ring)|Lemma 2]], we have that $\sqrt{ (f) }=\bigcap_{(f)\subseteq P}^{}P$. Hence, if $X_{f}=X_{g}$, then $V(f)=V(g)$ and: $$\sqrt{ (f) }=\bigcap_{P\in V(f)}^{}P=\bigcap_{P\in V(g)}^{}P=\sqrt{ (g) }$$Conversely, if $\sqrt{ (f) }=\sqrt{ (g) }$, then let $P\in V(f)$, i.e. $f\in P$ and as we have that $g^n = af$ for some $a\in R$, $g^n\in P$. Hence, $g\in P$. By symmetry we have our statement.
 > 6. Let $X = \bigcup_{f\in I}^{}X_{f}$. Hence, $\varnothing = \bigcap_{f\in I}^{}V(f)=V(I)$. Hence, $(I)=R$. Therefore, $1=r_{1}f_{1}+\dots+r_{n}f_{n}$ for some $f_{1},\dots,f_{n}\in I$. We have that $V(I)=V(f_{1},\dots,f_{n})$. Hence, $X=\bigcup_{i}^{}X_{f_{i}}$. 
-> 
+
+---
+> [!lemma] Proposition 2
+> Let $P\in \text{Spec}(X)$.
+> 1. $\overline{\{ P \}}=V(P)$.
+> 2. $\{ P \}$ is closed if and only if $P$ is maximal.
+> 3. $\text{Spec}(R)$ is $T_{0}$.
+
+> [!proof]-
+> We have that:
+> 1. As $V(P)$ is closed by definition and $\{ P \}\subseteq V(P)$, we have that $\overline{\{ P \}}\subseteq V(P)$. Conversely, for any closed set $V(I)$ containing $P$, because $P\in V(I)$, we have $I\subseteq P$. Now for $Q\in V(P)$, we have that $P\subseteq Q$ and $I\subseteq Q$. Hence, $Q\in V(I)$. This shows the statement.
+> 2. If $\{ P \}$ is closed, then $\{ P \}=V(P)$. Hence, $P$ is the only prime ideal containing $P$. Hence it is maximal. The reverse is analogous.
+
+---
+> [!lemma] Proposition 3
+> Let $R$ be a commutative ring. TFAE:
+> 1. $\text{Spec}(R)$ is irreducible.
+> 2. the [[nilradical]] $N(R)$ is prime.
+
+> [!proof]-
+> We have that:
+> 1. (1=>2): Let $f,g\in R$ s.t. $fg\in N(R)$. Then, $X_{f}\cap X_{g}=X_{fg}=\varnothing$. However, as $X_{f}$ and $X_{g}$ are both open, irreducibility implies that $X_{f}=\varnothing$ or $X_{g}=\varnothing$, in which case $f$ or $g$ is nilpotent. 
+> 2. (2=>1): For $f,g$, if $X_{f},X_{g}$ are non-empty then $X_{f}\cap X_{g}=X_{fg}$. Assume that $X_{fg}=\varnothing$. Then, $fg\in N(R)$ and $f\in N(R)$ or $g\in N(R)$. However, this is a contradiction.
+
+---
+> [!lemma] Proposition 4
+> Let $\varphi:A\to B$ be a ring homomorphism. Then, it induces a map 
+> $$\varphi ^{*}:\text{Spec}(B)\to \text{Spec}(A),\quad Q\mapsto \varphi ^{-1}(Q)$$
+> 1. For $f\in A$, $(\varphi ^{*})^{-1}(X_{f})=Y_{\varphi(f)}$. More concretely, $\varphi ^{*}$ is continuous.
+> 2. For $I\unlhd A$, $(\varphi ^{*})^{-1}(V(I))=V(I^e)$
+> 3. For $J\unlhd B$, $\overline{\varphi ^{*}(V(J))}=V(\varphi ^{-1}(J))$.
+> 4. If $\varphi$ is surjective, $\varphi ^{*}$ is a homeomorphism $\text{Spec}(B)\cong V(\text{ker }\varphi)$. In particular, $\text{Spec}(A)\cong \text{Spec}(A / N(A))$.
+> 5. If $\varphi$ is injective, $\varphi ^{*}(\text{Spec}(B))$ is dense in $\text{Spec}(A)$. More precisely, $\varphi ^{*}(Y)$ is dense in $\text{Spec}(A)$ if and only if $\text{ker }\varphi \subseteq N(A)$.
+
+> [!proof]+
+> We have that:
+> 1. By definition: $$\begin{aligned}(\varphi ^{*})^{-1}(X_{f})&=\{ P\in \text{Spec}(B):f\notin\varphi ^{-1} (P)\}\\&=\{ P\in \text{Spec}(B):\varphi(f)\notin  P\}=Y_{\varphi(f)}\end{aligned}$$
+> 2. Let $I\unlhd A$. Then, $$\begin{aligned}(\varphi ^{*})^{-1}(V(I))&=\{ P\in \text{Spec}(B):I \subseteq\varphi ^{-1} (P)\}\\&=\{ P\in \text{Spec}(B) : I^e \subseteq P\}=V(I^e)\end{aligned}$$
+> 3. Similar.
+> 4. Let $I\cong \text{ker } \varphi$. Then, by the first isomorphism theorem $A / I\cong B$ where is a one-to-one correspondence between $A / I$ and 
