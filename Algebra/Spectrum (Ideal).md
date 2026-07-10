@@ -54,11 +54,14 @@
 > 2. For $I\unlhd A$, $(\varphi ^{*})^{-1}(V(I))=V(I^e)$
 > 3. For $J\unlhd B$, $\overline{\varphi ^{*}(V(J))}=V(\varphi ^{-1}(J))$.
 > 4. If $\varphi$ is surjective, $\varphi ^{*}$ is a homeomorphism $\text{Spec}(B)\cong V(\text{ker }\varphi)$. In particular, $\text{Spec}(A)\cong \text{Spec}(A / N(A))$.
-> 5. If $\varphi$ is injective, $\varphi ^{*}(\text{Spec}(B))$ is dense in $\text{Spec}(A)$. More precisely, $\varphi ^{*}(Y)$ is dense in $\text{Spec}(A)$ if and only if $\text{ker }\varphi \subseteq N(A)$.
+> 5. If $\varphi$ is injective, $\varphi ^{*}(\text{Spec}(B))$ is dense in $\text{Spec}(A)$. More precisely, $\varphi ^{*}(\text{Spec}(B))$ is dense in $\text{Spec}(A)$ if and only if $\text{ker }\varphi \subseteq N(A)$.
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. By definition: $$\begin{aligned}(\varphi ^{*})^{-1}(X_{f})&=\{ P\in \text{Spec}(B):f\notin\varphi ^{-1} (P)\}\\&=\{ P\in \text{Spec}(B):\varphi(f)\notin  P\}=Y_{\varphi(f)}\end{aligned}$$
 > 2. Let $I\unlhd A$. Then, $$\begin{aligned}(\varphi ^{*})^{-1}(V(I))&=\{ P\in \text{Spec}(B):I \subseteq\varphi ^{-1} (P)\}\\&=\{ P\in \text{Spec}(B) : I^e \subseteq P\}=V(I^e)\end{aligned}$$
 > 3. Similar.
-> 4. Let $I\cong \text{ker } \varphi$. Then, by the first isomorphism theorem $A / I\cong B$ where is a one-to-one correspondence between $A / I$ and 
+> 4. Let $I\cong \text{ker } \varphi$. Then, by the first isomorphism theorem $A / I\cong B$ where is a one-to-one correspondence between $A / I$ and ideals of $A$ that contain $I$. Hence, $\varphi ^{*}$ is a bijection between $\text{Spec}(B)$ and $V(\text{ker }\varphi)$. Lastly, we have that $\varphi ^{*}(V(J))=V(\varphi ^{-1}(J))$ and we have a homeomorphism. 
+>    
+>    In particular for $\pi:A \to A / N(A)$, we have that $\text{Spec}(A / N(A))\cong V(N(A))=\text{Spec}(A)$.
+> 1. From 3) we have that $\overline{\varphi ^{*}(\text{Spec}(B))}=\overline{\varphi ^{*}(V(0))}=V(\varphi ^{-1}(0))=V(\text{ker }\varphi)$. Hence, $\overline{\varphi ^{*}(\text{Spec}(B))}=\text{Spec}(A)$ if and only if $V(\text{ker }\varphi)=\text{Spec}(A)$.

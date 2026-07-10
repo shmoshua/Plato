@@ -218,16 +218,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Algebra/Quotient Ring.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Compact Space"
+              "title": "Quotient Ring"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -373,13 +373,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7a83697ab51ec193",
+  "active": "988729e07be6dca8",
   "lastOpenFiles": [
-    "Algebra/Spectrum (Ideal).md",
     "Algebra/Prime Ideal.md",
-    "Algebra/Ideal (Ring).md",
-    "Topology/Compact Space.md",
     "Algebra/Radical (Ring).md",
+    "Algebra/Quotient Ring.md",
+    "Topology/Compact Space.md",
+    "Algebra/Spectrum (Ideal).md",
+    "Algebra/Ideal (Ring).md",
     "Topology/Interior and Closure.md",
     "Topology/Base of Topology.md",
     "Discrete Mathematics/Order.md",
@@ -398,7 +399,6 @@
     "Algebra/Jacobson Radical.md",
     "Algebra/Maximal Ideal.md",
     "Algebra/Field.md",
-    "Algebra/Quotient Ring.md",
     "Topology/Algebraic Topology/p-Simplex.md",
     "Courses/Probability Theory/Exercise Class 13.md",
     "Formal Language Theory",
