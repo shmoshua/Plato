@@ -126,12 +126,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Topology/Real Projective Space.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variety"
+              "title": "Real Projective Space"
             }
           },
           {
@@ -232,12 +232,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Topology/Real Projective Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variety"
+              "title": "Real Projective Space"
             }
           },
           {
@@ -417,8 +417,9 @@
   },
   "active": "0fdd4c10fbf5ac42",
   "lastOpenFiles": [
-    "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Variety.md",
+    "Topology/Real Projective Space.md",
+    "Algebra/Noetherian and Artinian Module.md",
     "Analysis/Hilbert Basis.md",
     "Algebra/Noetherian and Artinian Ring.md",
     "Algebra/Module.md",
@@ -442,7 +443,6 @@
     "Algebra/Linear Algebra/Spectrum.md",
     "Algebra/Integral Domain.md",
     "Functional Analysis/Compact, Self-adjoint Operators.md",
-    "Axiom of Choice.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
