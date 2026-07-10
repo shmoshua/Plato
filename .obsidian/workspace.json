@@ -126,12 +126,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Topology/Blow-up.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Real Projective Space"
+              "title": "Blow-up"
             }
           },
           {
@@ -232,12 +232,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Real Projective Space.md",
+                "file": "Topology/Blow-up.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Real Projective Space"
+              "title": "Blow-up"
             }
           },
           {
@@ -415,10 +415,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0fdd4c10fbf5ac42",
+  "active": "7a83697ab51ec193",
   "lastOpenFiles": [
-    "Algebra/Variety.md",
     "Topology/Real Projective Space.md",
+    "Topology/Blow-up.md",
+    "Algebra/Variety.md",
     "Algebra/Noetherian and Artinian Module.md",
     "Analysis/Hilbert Basis.md",
     "Algebra/Noetherian and Artinian Ring.md",
@@ -442,7 +443,6 @@
     "Functional Analysis/Spectrum.md",
     "Algebra/Linear Algebra/Spectrum.md",
     "Algebra/Integral Domain.md",
-    "Functional Analysis/Compact, Self-adjoint Operators.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
