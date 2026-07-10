@@ -12,5 +12,5 @@
 - $C^1([t_{0},t_{1}],\mathbb{R}^n)$ is the linear space of [[Differentiable Functions|differentiable functions]] $f:[t_{0},t_{1}]\to \mathbb{R}^n$.
 - $C^k([t_{0},t_{1}],\mathbb{R}^n)$ is the linear space of $k$-times [[Differentiable Functions|differentiable functions]] $f:[t_{0},t_{1}]\to \mathbb{R}^n$.
 - $C^\infty([t_{0},t_{1}],\mathbb{R}^n)$ is the linear space of infinitely [[Differentiable Functions|differentiable functions]] $f:[t_{0},t_{1}]\to \mathbb{R}^n$.
-- $C^\omega([t_{0},t_{1}],\mathbb{R}^n)$ is the linear space of [[Analytic Functions|analytic functions]] $f:[t_{0},t_{1}]\to \mathbb{R}^n$, i.e. functions which are infinitely differentiable and whose Taylor series expansion converges for all $t\in [t_{0},t_{1}]$.
+- $C^\omega([t_{0},t_{1}],\mathbb{R}^n)$ is the linear space of [[Analytic Function|analytic functions]] $f:[t_{0},t_{1}]\to \mathbb{R}^n$, i.e. functions which are infinitely differentiable and whose Taylor series expansion converges for all $t\in [t_{0},t_{1}]$.
 ---

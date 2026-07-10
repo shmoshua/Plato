@@ -126,12 +126,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Relative Entropy.md",
+                "file": "Analysis/Singularity.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Relative Entropy"
+              "title": "Singularity"
             }
           }
         ],
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Theory/Relative Entropy.md",
+                "file": "Analysis/Analytic Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Relative Entropy"
+              "title": "Analytic Function"
             }
           },
           {
@@ -218,16 +218,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Quotient Ring.md",
+                "file": "Analysis/Singularity.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Quotient Ring"
+              "title": "Singularity"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -375,11 +375,14 @@
   },
   "active": "0fdd4c10fbf5ac42",
   "lastOpenFiles": [
-    "Algebra/Spectrum (Ideal).md",
+    "Algebra/Variety.md",
+    "Analysis/Singularity.md",
+    "Analysis/Analytic Function.md",
+    "Algebra/Quotient Ring.md",
     "Information Theory/Relative Entropy.md",
+    "Algebra/Spectrum (Ideal).md",
     "Algebra/Prime Ideal.md",
     "Algebra/Radical (Ring).md",
-    "Algebra/Quotient Ring.md",
     "Topology/Compact Space.md",
     "Algebra/Ideal (Ring).md",
     "Topology/Interior and Closure.md",
@@ -398,9 +401,6 @@
     "Algebra/Ring.md",
     "Functional Analysis/Jacobson Radical.md",
     "Algebra/Jacobson Radical.md",
-    "Algebra/Maximal Ideal.md",
-    "Algebra/Field.md",
-    "Topology/Algebraic Topology/p-Simplex.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
