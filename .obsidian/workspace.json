@@ -126,12 +126,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Blow-up.md",
+                "file": "Analysis/Schwartz Distribution.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Blow-up"
+              "title": "Schwartz Distribution"
             }
           },
           {
@@ -232,12 +232,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Blow-up.md",
+                "file": "Analysis/Smooth Function with Compact Support.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Blow-up"
+              "title": "Smooth Function with Compact Support"
             }
           },
           {
@@ -260,16 +260,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Module.md",
+                "file": "Analysis/Schwartz Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Module"
+              "title": "Schwartz Distribution"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -415,15 +415,18 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "7a83697ab51ec193",
+  "active": "724d35ff7a442bf2",
   "lastOpenFiles": [
-    "Topology/Real Projective Space.md",
+    "Functional Analysis/Weak Derivative.md",
+    "Analysis/Schwartz Distribution.md",
     "Topology/Blow-up.md",
+    "Algebra/Module.md",
+    "Analysis/Smooth Function with Compact Support.md",
+    "Topology/Real Projective Space.md",
     "Algebra/Variety.md",
     "Algebra/Noetherian and Artinian Module.md",
     "Analysis/Hilbert Basis.md",
     "Algebra/Noetherian and Artinian Ring.md",
-    "Algebra/Module.md",
     "Algebra/Noetherian Module.md",
     "Analysis/Singularity.md",
     "Analysis/Analytic Function.md",
@@ -440,9 +443,6 @@
     "Topology/Zariski Topology.md",
     "Algebra/Nilradical.md",
     "Algebra/Zero Divisor.md",
-    "Functional Analysis/Spectrum.md",
-    "Algebra/Linear Algebra/Spectrum.md",
-    "Algebra/Integral Domain.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
