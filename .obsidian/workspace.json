@@ -260,12 +260,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Schwartz Distribution.md",
+                "file": "Algebra/Variety.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Schwartz Distribution"
+              "title": "Variety"
             }
           }
         ],
@@ -301,7 +301,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zorn",
+                "query": "nullstell",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -322,7 +322,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -417,24 +418,25 @@
   },
   "active": "724d35ff7a442bf2",
   "lastOpenFiles": [
-    "Functional Analysis/Weak Derivative.md",
+    "Algebra/Algebra.md",
+    "Algebra/Radical (Ring).md",
+    "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Noetherian Module.md",
     "Analysis/Schwartz Distribution.md",
+    "Functional Analysis/Weak Derivative.md",
     "Topology/Blow-up.md",
     "Algebra/Module.md",
     "Analysis/Smooth Function with Compact Support.md",
     "Topology/Real Projective Space.md",
     "Algebra/Variety.md",
-    "Algebra/Noetherian and Artinian Module.md",
     "Analysis/Hilbert Basis.md",
     "Algebra/Noetherian and Artinian Ring.md",
-    "Algebra/Noetherian Module.md",
     "Analysis/Singularity.md",
     "Analysis/Analytic Function.md",
     "Algebra/Quotient Ring.md",
     "Information Theory/Relative Entropy.md",
     "Algebra/Spectrum (Ideal).md",
     "Algebra/Prime Ideal.md",
-    "Algebra/Radical (Ring).md",
     "Topology/Compact Space.md",
     "Algebra/Ideal (Ring).md",
     "Topology/Interior and Closure.md",
@@ -442,7 +444,6 @@
     "Discrete Mathematics/Order.md",
     "Topology/Zariski Topology.md",
     "Algebra/Nilradical.md",
-    "Algebra/Zero Divisor.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
