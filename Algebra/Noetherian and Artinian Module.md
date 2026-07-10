@@ -30,15 +30,16 @@
 ^0f47ce
 
 ---
+
 > [!lemma] Lemma 2
-> Let $M$ be a $R$-module and $N\leq M$.
-> 1. $M$ is Noetherian if and only if $N$ and $M / N$ are Noetherian.
-> 2. $M$ is Artinian if and only if $N$ and $M / N$ are Artinian.
+> Let $M,M_{1},M_{2}$ be $R$-modules with an exact sequence: $$0 \to M_{1}\xrightarrow{f} M \xrightarrow{g} M_{2} \to 0$$
+> 1. $M$ is Noetherian if and only if $M_{1},M_{2}$ are Noetherian.
+> 2. $M$ is Artinian if and only if $M_{1},M_{2}$ are Artinian.
 
 ^ad1eee
 
 > [!proof]-
-> We have:
+> This is analogous to $0\to N \to M \to M / N \to 0$ for some submodule $N\leq M$.
 > 1. We show that:
 > 	1. (1=>2): Let $M$ be Noetherian. As any chain of submodules of $N$ is also that of $M$, $N$ is Noetherian. 
 > 	   
