@@ -126,12 +126,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Spectrum (Ideal).md",
+                "file": "Information Theory/Relative Entropy.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Spectrum (Ideal)"
+              "title": "Relative Entropy"
             }
           }
         ],
@@ -162,12 +162,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Spectrum (Ideal).md",
+                "file": "Information Theory/Relative Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Spectrum (Ideal)"
+              "title": "Relative Entropy"
             }
           },
           {
@@ -373,13 +373,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "988729e07be6dca8",
+  "active": "0fdd4c10fbf5ac42",
   "lastOpenFiles": [
+    "Algebra/Spectrum (Ideal).md",
+    "Information Theory/Relative Entropy.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Quotient Ring.md",
     "Topology/Compact Space.md",
-    "Algebra/Spectrum (Ideal).md",
     "Algebra/Ideal (Ring).md",
     "Topology/Interior and Closure.md",
     "Topology/Base of Topology.md",
@@ -400,7 +401,6 @@
     "Algebra/Maximal Ideal.md",
     "Algebra/Field.md",
     "Topology/Algebraic Topology/p-Simplex.md",
-    "Courses/Probability Theory/Exercise Class 13.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
