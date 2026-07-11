@@ -260,12 +260,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Variety.md",
+                "file": "Algebra/Algebraic Closure.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variety"
+              "title": "Algebraic Closure"
             }
           }
         ],
@@ -418,6 +418,8 @@
   },
   "active": "724d35ff7a442bf2",
   "lastOpenFiles": [
+    "Algebra/Algebraic Dependence.md",
+    "Algebra/Variety.md",
     "Algebra/Algebra.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Noetherian and Artinian Module.md",
@@ -428,7 +430,6 @@
     "Algebra/Module.md",
     "Analysis/Smooth Function with Compact Support.md",
     "Topology/Real Projective Space.md",
-    "Algebra/Variety.md",
     "Analysis/Hilbert Basis.md",
     "Algebra/Noetherian and Artinian Ring.md",
     "Analysis/Singularity.md",
@@ -443,7 +444,6 @@
     "Topology/Base of Topology.md",
     "Discrete Mathematics/Order.md",
     "Topology/Zariski Topology.md",
-    "Algebra/Nilradical.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
