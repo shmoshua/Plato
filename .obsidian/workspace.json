@@ -309,9 +309,47 @@
               "icon": "lucide-file",
               "title": "Algebra"
             }
+          },
+          {
+            "id": "831c4665dc985763",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Integral Domain.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Integral Domain"
+            }
+          },
+          {
+            "id": "5b187823ad34b0d0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "8773e002abf32274",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Unique Factorization Domain.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Unique Factorization Domain"
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -458,8 +496,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b42444f8b12bc680",
+  "active": "8773e002abf32274",
   "lastOpenFiles": [
+    "Algebra/Integral Domain.md",
+    "Algebra/Algebra.md",
     "Algebra/Prime Ideal.md",
     "Algebra/Radical (Ring).md",
     "Topology/Interior and Closure.md",
@@ -469,7 +509,6 @@
     "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Algebraic Dependence.md",
-    "Algebra/Algebra.md",
     "Algebra/Noetherian Module.md",
     "Analysis/Schwartz Distribution.md",
     "Functional Analysis/Weak Derivative.md",
@@ -485,7 +524,6 @@
     "Information Theory/Relative Entropy.md",
     "Algebra/Spectrum (Ideal).md",
     "Topology/Compact Space.md",
-    "Algebra/Ideal (Ring).md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
