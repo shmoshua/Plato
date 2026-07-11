@@ -260,16 +260,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebraic Closure.md",
+                "file": "Algebra/Noetherian and Artinian Module.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebraic Closure"
+              "title": "Noetherian and Artinian Module"
+            }
+          },
+          {
+            "id": "e86078f3b50cc7d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Principal Ideal Domain.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Principal Ideal Domain"
+            }
+          },
+          {
+            "id": "c2b9a8042b1d6ccd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Dense Subset.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Dense Subset"
+            }
+          },
+          {
+            "id": "5389c83ea061581c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology/Interior and Closure.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Interior and Closure"
+            }
+          },
+          {
+            "id": "5c975c06862735d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Variety.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Variety"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -416,13 +472,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "724d35ff7a442bf2",
+  "active": "5c975c06862735d9",
   "lastOpenFiles": [
+    "Topology/Interior and Closure.md",
+    "Topology/Dense Subset.md",
+    "Algebra/Principal Ideal Domain.md",
+    "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Algebraic Closure.md",
     "Algebra/Algebraic Dependence.md",
     "Algebra/Variety.md",
     "Algebra/Algebra.md",
     "Algebra/Radical (Ring).md",
-    "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Noetherian Module.md",
     "Analysis/Schwartz Distribution.md",
     "Functional Analysis/Weak Derivative.md",
@@ -440,10 +500,6 @@
     "Algebra/Prime Ideal.md",
     "Topology/Compact Space.md",
     "Algebra/Ideal (Ring).md",
-    "Topology/Interior and Closure.md",
-    "Topology/Base of Topology.md",
-    "Discrete Mathematics/Order.md",
-    "Topology/Zariski Topology.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
