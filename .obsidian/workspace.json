@@ -328,10 +328,14 @@
             "id": "5b187823ad34b0d0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Variety.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Variety"
             }
           },
           {
@@ -340,16 +344,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Unique Factorization Domain.md",
+                "file": "Algebra/Coprime Ideal.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Unique Factorization Domain"
+              "title": "Coprime Ideal"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -496,8 +500,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8773e002abf32274",
+  "active": "5b187823ad34b0d0",
   "lastOpenFiles": [
+    "Algebra/Noetherian and Artinian Module.md",
+    "Algebra/Noetherian and Artinian Ring.md",
+    "Algebra/Coprime Ideal.md",
+    "Algebra/Polynomial Function.md",
+    "Algebra/Unique Factorization Domain.md",
     "Algebra/Integral Domain.md",
     "Algebra/Algebra.md",
     "Algebra/Prime Ideal.md",
@@ -506,7 +515,6 @@
     "Topology/Dense Subset.md",
     "Algebra/Variety.md",
     "Algebra/Principal Ideal Domain.md",
-    "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Algebraic Closure.md",
     "Algebra/Algebraic Dependence.md",
     "Algebra/Noetherian Module.md",
@@ -517,13 +525,9 @@
     "Analysis/Smooth Function with Compact Support.md",
     "Topology/Real Projective Space.md",
     "Analysis/Hilbert Basis.md",
-    "Algebra/Noetherian and Artinian Ring.md",
     "Analysis/Singularity.md",
     "Analysis/Analytic Function.md",
     "Algebra/Quotient Ring.md",
-    "Information Theory/Relative Entropy.md",
-    "Algebra/Spectrum (Ideal).md",
-    "Topology/Compact Space.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
