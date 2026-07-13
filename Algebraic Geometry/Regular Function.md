@@ -41,11 +41,20 @@
 > Let $X$ be an affine variety and $a\in X$. Then, 
 > 1. the [[sheaf|stalk]] $\mathcal{O}_{X,a}\cong A(X)_{I(a)}$ as a $K$-algebra where $A(X)_{I(a)}$ is the localization of $A(X)$, i.e. $$\mathcal{O}_{X,a}\cong \left\{  \frac{g}{f}:f,g\in A(X),f(a)\ne 0  \right\}$$
 > 2. $\mathcal{O}_{X,a}$ is a [[local ring]] with the unique ideal: $$I_{a}:=\{ \overline{(U,\varphi)}:\varphi(a)=0 \}\cong \left\{  \frac{g}{f}:f,g\in A(x), g(a)=0,f(a)\neq 0  \right\}$$ $\mathcal{O}_{X,a}$ is called the ***local ring of $X$ at $a$.***
+> 3. Let $Y\subseteq X$ be a non-empty irreducible subvariety. The stalk $\mathcal{O}_{X,Y}\cong A(X)_{I(Y)}$
 
 > [!proof]-
-> Consider the $K$-algebra homomorphism: $$A(X)_{I(a)}\to \mathcal{O}_{X,a},\quad \frac{g}{f}\mapsto  \overline{\left( D(f), \frac{g}{f} \right) }$$This is indeed well-defined: If $\frac{g}{f}=\frac{g'}{f'}$, then $h(gf'-g'f)=0$ for some $h\in A(X) \backslash I(a)$. Hence, on the open neighborhood $D(h)\cap D(f)\cap D(f')$ of $a$, the functions $\frac{g}{f}$ and $\frac{g'}{f'}$ agree. Therefore, they determine the same stalk in $\mathcal{O}_{X,a}$.
+> We have that: 
+> 1. Consider the $K$-algebra homomorphism: $$A(X)_{I(a)}\to \mathcal{O}_{X,a},\quad \frac{g}{f}\mapsto  \overline{\left( D(f), \frac{g}{f} \right) }$$This is indeed well-defined: If $\frac{g}{f}=\frac{g'}{f'}$, then $h(gf'-g'f)=0$ for some $h\in A(X) \backslash I(a)$. Hence, on the open neighborhood $D(h)\cap D(f)\cap D(f')$ of $a$, the functions $\frac{g}{f}$ and $\frac{g'}{f'}$ agree. Therefore, they determine the same stalk in $\mathcal{O}_{X,a}$.
 > 
-> The $K$-algebra homomorphism is surjective by definition and also injective: If $\frac{g}{f}$ represents zero in $\mathcal{O}_{X,a}$, by shrinking the neighborhood if necessary we may assume that it is a distinguished open set $D(h)$ containing $a$ for some $h\in A(X)\backslash I(a)$. But then, $h(g 1 -0f)$ is zero on all of $X$, hence zero in $A(X)$. 
+> 	The $K$-algebra homomorphism is surjective by definition and also injective: If $\frac{g}{f}$ represents zero in $\mathcal{O}_{X,a}$, by shrinking the neighborhood if necessary we may assume that it is a distinguished open set $D(h)$ containing $a$ for some $h\in A(X)\backslash I(a)$. But then, $h(g 1 -0f)$ is zero on all of $X$, hence zero in $A(X)$. 
+> 1. Consider the $K$-algebra homomorphism: $$A(X)_{I(Y)}\to \mathcal{O}_{X,Y},\quad \frac{g}{f}\mapsto  \overline{\left( D(f), \frac{g}{f} \right)}$$Firstly, as $f\notin I(Y)$, $D(f)\cap Y\neq \varnothing$. Hence, the expression makes sense.
+>    
+>    This is well-defined: Indeed, if $\frac{g}{f}=\frac{g'}{f'}$, then $h(gf'-g'f)=0$ for some $h\in A(X) \backslash I(Y)$. Hence, on the open set $D(h)\cap D(f)\cap D(f')$, $\frac{g}{f}$ and $\frac{g'}{f'}$ agree. Further, we claim that $Y\cap D(h)\cap D(f)\cap D(f')\neq \varnothing$. We have that $D(h)\cap D(f)\cap D(f')=D(hff')$ and $hff'\notin I(Y)$ because $I(Y)$ is a prime ideal as $Y$ is irreducible. Hence, $Y\cap D(hff')\neq \varnothing$. Therefore they determine the same stalk in $\mathcal{O}_{X,Y}$. 
+>    
+>    The homomorphism is surjective by definition. For injectivity, if $\frac{g}{f}$ represents zero in $\mathcal{O}_{X,Y}$, then by shrinking the neighborhood if necessary we may assume that it is a distinguished open set $D(h)$ s.t. $D(h)\cap Y\neq \varnothing$ for some $h\in A(X) \backslash I(Y)$. But then $h(g 1-0f)=hg$ is zero on all $X$. This shows that $\frac{g}{f}$ is zero in $A(X)_{I(Y)}$.
+>    
+>    
 
 ---
 > [!lemma] Lemma 5
@@ -67,6 +76,6 @@
 > Let $\varphi,\psi\in \mathcal{O}_{X}(U)$ for some open subset $U$ of an irreducible affine variety $X$. Then,
 > 1. if there exists $a\in U$ s.t. $\overline{(U,\varphi)}=\overline{(U,\psi)}\in \mathcal{O}_{X,a}$, then $\varphi=\psi$.
 
-> [!proof]+
+> [!proof]-
 > We have that: 
-> 1. We know from Lemma 4 that $\varphi,\psi$ can be written as $\frac{g}{f}$ and $\frac{g'}{f'}$ where $f,f',g,g'\in A(X)$ and $f(a),f'(a)\neq 0$.
+> 1. By definition, there exists open $V\ni a$ s.t. $\varphi|_{V}=\psi|_{V}$. Then by the identity theorem for regular functions, $\varphi$ and $\psi$ agree on $U$.

@@ -8,6 +8,7 @@
 > 	- for any inclusion $U\subseteq V\subseteq W$, $\rho_{W,V}\circ\rho_{V,U}=\rho_{W,U}$.
 > 2. A presheaf $\mathcal{F}$ is a ***sheaf*** if further for any open set $U\subseteq X$ with an arbitrary open cover $\{ U_{i} \}_{i}$ of $U$, for sections $\varphi_{i}\in \mathcal{F}(U_{i})$ s.t. $\varphi_{i}=\varphi_{j}$ on $U_{i}\cap U_{j}$, there exists a unique $\varphi\in \mathcal{F}(U)$ s.t. $\varphi|_{U_{i}}=\varphi_{i}$. 
 > 3. For a presheaf $\mathcal{F}$ on $X$ and $a\in X$, the ***stalk*** of $\mathcal{F}$ at $a$ is defined as:$$\mathcal{F}_{a}:=\{ (U,\varphi):U\subseteq X\text{ open with }a\in U, \varphi\in \mathcal{F}(U) \}/_{\sim}$$where $(U,\varphi)\sim(U',\varphi')$ if and only if there is an open subset $V$ with $a\in V \subseteq U\cap U'$ and $\varphi|_{V}=\varphi'|_{V}$.
+> 4. For a sheaf $\mathcal{F}$ on $X$ and a non-empty irreducible closed subset $Y\subseteq X$, the ***stalk of $\mathcal{F}$ at $Y$*** is defied as: $$\mathcal{F}_{Y}:=\{ (U,\varphi) :U\subseteq X\text{ open with }U\cap Y\neq \varnothing,\varphi\in \mathcal{F}(U) \} / _{\sim}$$where $(U,\varphi)\sim(U',\varphi')$ if and only if there is an open subset $V\subseteq U\cap U'$ with $V\cap Y\neq \varnothing$ and $\varphi|_{V}=\varphi'|_{V}$. 
 
 
 - **Related definition**: The elements of $\mathcal{F}(U)$ are called ***sections***. The elements of $\mathcal{F}_{a}$ are called ***germs***.

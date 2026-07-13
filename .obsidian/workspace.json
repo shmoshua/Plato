@@ -135,20 +135,6 @@
             }
           },
           {
-            "id": "2d3869e2499346f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Local Ring.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Local Ring"
-            }
-          },
-          {
             "id": "1219ac3bbdfedc58",
             "type": "leaf",
             "state": {
@@ -163,7 +149,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
         "id": "d54d634cc1ba8421",
@@ -395,7 +381,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -541,13 +527,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "0fdd4c10fbf5ac42",
+  "active": "1219ac3bbdfedc58",
   "lastOpenFiles": [
-    "Algebraic Geometry/Sheaf.md",
-    "Algebra/Coprime Ideal.md",
     "Algebraic Geometry/Regular Function.md",
-    "Topology/Compact Space.md",
+    "Algebraic Geometry/Sheaf.md",
     "Algebra/Local Ring.md",
+    "Algebra/Coprime Ideal.md",
+    "Topology/Compact Space.md",
     "Analysis/Schwartz Distribution.md",
     "Untitled 2.md",
     "Algebra/Noetherian and Artinian Ring.md",
