@@ -39,3 +39,14 @@
 > 1. By definition $f^{*}$ is a $K$-algebra homomorphism $\mathcal{O}_{Y}(Y)\to \mathcal{O}_{X}(X)$. From Corollary or [[Regular Function|Proposition 3]], this is a homomorphism from $A(Y)$ to $A(X)$. 
 >    
 >    Conversely, let $g:A(Y)\to A(X)$ be a $K$-algebra homomorphism. Assume that $Y\subseteq \mathbb{A}^n$ and denote $y_{1},\dots,y_{n}$ as the coordinate functions in $\mathbb{A}^n$. Then, $\varphi_{i}:=g(y_{i})\in A(X)=\mathcal{O}_{X}(X)$. If we set: $$f=(\varphi_{1},\dots,\varphi_{n}):X\to \mathbb{A}^n$$then we get that for any $h\in K[y_{1},\dots,y_{n}]$, $$(f^{*} h)(x)=h(f(x))=h(\varphi_{1}(x),\dots,\varphi_{n}(x))=g(h)(x)$$Therefore, $h(f(x))=0$ for all $h\in I(Y)$. Hence, the image of $f$ lies in $V(I(Y))=Y$. As coordinate functions are regular, this is indeed a morphism. Lastly, we get that $f^{*}=g$. 
+
+---
+> [!lemma] Proposition 4 (Universal Property of Products)
+> Let $X,Y$ be affine varieties and let $\pi_{X}:X\times Y\to X$ and $\pi_{Y}:X\times Y \to Y$ be the projection morphisms. Then, 
+> 1. for every affine variety $Z$ and two morphisms $f_{X}:Z\to X$ and $f_{Y}:Z\to Y$, there is a unique morphism $f:Z\to X\times Y$ s.t. $f_{X}=\pi_{X}\circ f$ and $f_{Y}=\pi_{Y}\circ f$.
+
+> [!proof]-
+> We have that:
+> 1. Let $f(z):=(f_{X}(z),f_{Y}(z))$. This is clearly a morphism by Proposition 2. 
+
+- **Remark**: For every homomorphism $f^{*}_{X}:A(X)\to A(Z)$ and $f^{*}_{Y}:A(Y)\to A(Z)$, there is a unique homomorphism $f^{*}:A(X\times Y)\to A(Z)$ s.t. $f^{*}_{X}=f^{*}\circ \pi_{X}^{*}$ and $f^{*}_{Y}=f^{*} \circ \pi ^{*}_{Y}$. Hence, $A(X\times Y)=A(X)\otimes_{K}A(Y)$. 
