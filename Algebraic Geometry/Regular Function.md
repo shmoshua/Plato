@@ -36,6 +36,7 @@
 >    As a consequence, we have that $g_{a}f_{b}=g_{b}f_{a}$ for $a,b\in D(f)$. These two functions agree on $D(f_{a})\cap D(f_{b})$ since $\varphi=\frac{g_{a}}{f_{a}}=\frac{g_{b}}{f_{b}}$ and both zero otherwise. 
 >    
 >    Now all our open neighborhood cover $D(f)$, i.e. $D(f)=\bigcup_{a\in D(f)}^{}D(f_{a})$. Passing to the complement we have: $$V(f)=\bigcap_{a\in D(f)}^{}V(f_{a})=V(\{ f_{a} \}_{a\in D(f)})$$Hence, $f\in I(V(f))=\sqrt{ (f_{a})_{a\in D(f)} }$, i.e. $f^n=\sum_{a}^{}k_{a}f_{a}$ for some $n\in \mathbb{N}$ and $k_{a}\in A(X)$ for finitely many elements $a\in D(f)$. By defining $g:=\sum_{a}^{}k_{a}g_{a}$, we claim that $\varphi=g / f^n$ on all of $D(f)$. For all $b\in D(f)$, we have that $\varphi=g_{b} / f_{b}$ and: $$gf_{b}=\sum_{a}^{}k_{a}g_{a}f_{b}=\sum_{a}^{}k_{a}g_{b}f_{a}=g_{b}f^n$$on $D(f_{b})$. Further, these sets cover $D(f)$. 
+- **Corollary**: By $f=1$, we have that $\mathcal{O}_{X}(X)=A(X)$. 
 ---
 > [!lemma] Lemma 4 (Stalks of Regular Functions as Localizations)
 > Let $X$ be an affine variety and $a\in X$. Then, 
