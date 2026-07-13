@@ -18,11 +18,16 @@
 > [!lemma] Lemma 1
 > Let $\varphi,\psi\in \mathcal{F}(U)$ be two sections of a sheaf $\mathcal{F}$ on an open subset $U$ of a topological space $X$. 
 > 1. if $\overline{(U,\varphi)}=\overline{(U,\psi)}\in \mathcal{F}_{a}$ for all $a\in U$, $\varphi=\psi$.
+> 2. Let $U\ni a$ be an open neighborhood of $a$. Then, $\mathcal{F}_{a}\cong (\mathcal{F}|_{U})_{a}$
 
-> [!proof]+
+> [!proof]-
 > We have that:
-> 2. Assume that $\varphi\neq \psi$. Then there exists $a\in U$ s.t. $\varphi(a)\neq \psi(a)$. However, there exists an open subset $V\ni a$ in $U$ where $\varphi|_{V}=\psi|_{V}$. Hence, $\varphi(a)=\psi(a)$. This is a contradiction.
-> 3. 
+> 1. Assume that $\varphi\neq \psi$. Then there exists $a\in U$ s.t. $\varphi(a)\neq \psi(a)$. However, there exists an open subset $V\ni a$ in $U$ where $\varphi|_{V}=\psi|_{V}$. Hence, $\varphi(a)=\psi(a)$. This is a contradiction.
+> 2. Consider the following homomorphism: $$\mathcal{F}_{a}\to (\mathcal{F}|_{U})_{a},\quad \overline{(V,\varphi)}\mapsto  \overline{(V\cap U,\varphi)}$$Notice that as $V\subseteq X$ is open with $a\in V$ and $\varphi\in \mathcal{F}(V)$, $a\in V\cap U$ is an open neighborhood and $\varphi\in \mathcal{F}|_{U}(V\cap U)$. Further, if $(V,\varphi)\sim(V',\varphi')$, then there exists $a\in W\subseteq V\cap V'$ with $\varphi|_{W}=\varphi'|_{W}$. Hence, $\varphi|_{W\cap U}=\varphi'|_{W\cap U}$. Therefore, this is well-defined. 
+>    
+>    For surjectivity, let $\overline{(W,\varphi)}\in (\mathcal{F}|_{U})_{a}$ where $W\subseteq U$ is open with $a\in W$. Then, by definition $W$ is open in $X$ and $\overline{(W,\varphi)}\in \mathcal{F}_{a}$. 
+>    
+>    For injectivity, let $\overline{(V\cap U,\varphi)}=0$ in $(\mathcal{F}|_{U})_{a}$. Then, there exists some open neighborhood $a\in W\subseteq V\cap U$ where $\varphi|_{W}=0$. Then, we have that $(V,\varphi)\sim(W,0)$ in $\mathcal{F}_{a}$. This proves the statement. 
 ---
 ##### Examples
 > [!h] Example 1 (The sheaf of functions)

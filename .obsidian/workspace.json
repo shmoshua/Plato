@@ -140,12 +140,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebraic Geometry/Sheaf.md",
+                "file": "Algebraic Geometry/Ringed Space.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sheaf"
+              "title": "Ringed Space"
             }
           }
         ],
@@ -358,12 +358,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebraic Geometry/Regular Function.md",
+                "file": "Algebraic Geometry/Ringed Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Regular Function"
+              "title": "Ringed Space"
             }
           },
           {
@@ -381,7 +381,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -527,10 +527,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "1219ac3bbdfedc58",
+  "active": "8f3dcb9f6551fe0d",
   "lastOpenFiles": [
-    "Algebraic Geometry/Regular Function.md",
     "Algebraic Geometry/Sheaf.md",
+    "Algebraic Geometry/Ringed Space.md",
+    "Untitled 1.md",
+    "Untitled 3.md",
+    "Algebraic Geometry/Regular Function.md",
     "Algebra/Local Ring.md",
     "Algebra/Coprime Ideal.md",
     "Topology/Compact Space.md",
@@ -553,9 +556,6 @@
     "Topology/Dense Subset.md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Algebraic Closure.md",
-    "Algebra/Algebraic Dependence.md",
-    "Algebra/Noetherian Module.md",
-    "Functional Analysis/Weak Derivative.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
