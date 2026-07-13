@@ -14,6 +14,15 @@
 - **Related definition**: For a presheaf $\mathcal{F}$ on $X$ and $U\subseteq X$ open, the restriction of $\mathcal{F}$ to $U$ is given by: $$\mathcal{F}|_{U}(V):=\mathcal{F}(V),\quad \forall V\subseteq U\text{ open}$$If $\mathcal{F}$ is a sheaf then so is $\mathcal{F}|_{U}$. 
 - **Remark**: $\mathcal{F}_{a}$ is a ring for all $a\in X$.
 ---
+> [!lemma] Lemma 1
+> Let $\varphi,\psi\in \mathcal{F}(U)$ be two sections of a sheaf $\mathcal{F}$ on an open subset $U$ of a topological space $X$. 
+> 1. if $\overline{(U,\varphi)}=\overline{(U,\psi)}\in \mathcal{F}_{a}$ for all $a\in U$, $\varphi=\psi$.
+
+> [!proof]+
+> We have that:
+> 2. Assume that $\varphi\neq \psi$. Then there exists $a\in U$ s.t. $\varphi(a)\neq \psi(a)$. However, there exists an open subset $V\ni a$ in $U$ where $\varphi|_{V}=\psi|_{V}$. Hence, $\varphi(a)=\psi(a)$. This is a contradiction.
+> 3. 
+---
 ##### Examples
 > [!h] Example 1 (The sheaf of functions)
 > The following are sheaves:

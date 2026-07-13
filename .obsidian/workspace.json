@@ -541,9 +541,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8f3dcb9f6551fe0d",
+  "active": "0fdd4c10fbf5ac42",
   "lastOpenFiles": [
     "Algebraic Geometry/Sheaf.md",
+    "Algebra/Coprime Ideal.md",
     "Algebraic Geometry/Regular Function.md",
     "Topology/Compact Space.md",
     "Algebra/Local Ring.md",
@@ -557,7 +558,6 @@
     "Algebra/Algebra.md",
     "Algebra/Variety.md",
     "Algebra/Noetherian and Artinian Module.md",
-    "Algebra/Coprime Ideal.md",
     "Algebra/Polynomial Function.md",
     "Algebra/Unique Factorization Domain.md",
     "Algebra/Integral Domain.md",
