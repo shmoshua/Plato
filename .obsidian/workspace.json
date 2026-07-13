@@ -344,12 +344,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Coprime Ideal.md",
+                "file": "Algebraic Geometry/Regular Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Coprime Ideal"
+              "title": "Regular Function"
             }
           },
           {
@@ -372,12 +372,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebraic Geometry/Sheaf.md",
+                "file": "Algebra/Variety.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Sheaf"
+              "title": "Variety"
             }
           }
         ],
@@ -529,13 +529,14 @@
   },
   "active": "8f3dcb9f6551fe0d",
   "lastOpenFiles": [
-    "Algebraic Geometry/Sheaf.md",
+    "Algebraic Geometry/Regular Function.md",
     "Algebraic Geometry/Ringed Space.md",
+    "Algebra/Coprime Ideal.md",
+    "Algebra/Variety.md",
+    "Algebraic Geometry/Sheaf.md",
     "Untitled 1.md",
     "Untitled 3.md",
-    "Algebraic Geometry/Regular Function.md",
     "Algebra/Local Ring.md",
-    "Algebra/Coprime Ideal.md",
     "Topology/Compact Space.md",
     "Analysis/Schwartz Distribution.md",
     "Untitled 2.md",
@@ -545,7 +546,6 @@
     "Topology/Subspace Topology.md",
     "Topology/Connected Space.md",
     "Algebra/Algebra.md",
-    "Algebra/Variety.md",
     "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Polynomial Function.md",
     "Algebra/Unique Factorization Domain.md",
