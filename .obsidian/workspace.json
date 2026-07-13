@@ -140,16 +140,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Noetherian and Artinian Ring.md",
+                "file": "Topology/Noetherian Space.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Noetherian and Artinian Ring"
+              "title": "Noetherian Space"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
         "id": "d54d634cc1ba8421",
@@ -448,8 +448,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -542,14 +541,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8f3dcb9f6551fe0d",
+  "active": "1219ac3bbdfedc58",
   "lastOpenFiles": [
+    "Algebra/Noetherian and Artinian Ring.md",
+    "Analysis/Schwartz Distribution.md",
+    "Topology/Noetherian Space.md",
     "Topology/Connected Space.md",
     "Topology/Subspace Topology.md",
     "Algebra/Algebra.md",
     "Algebra/Variety.md",
     "Algebra/Noetherian and Artinian Module.md",
-    "Algebra/Noetherian and Artinian Ring.md",
     "Algebra/Coprime Ideal.md",
     "Algebra/Polynomial Function.md",
     "Algebra/Unique Factorization Domain.md",
@@ -562,14 +563,12 @@
     "Algebra/Algebraic Closure.md",
     "Algebra/Algebraic Dependence.md",
     "Algebra/Noetherian Module.md",
-    "Analysis/Schwartz Distribution.md",
     "Functional Analysis/Weak Derivative.md",
     "Topology/Blow-up.md",
     "Algebra/Module.md",
     "Analysis/Smooth Function with Compact Support.md",
     "Topology/Real Projective Space.md",
     "Analysis/Hilbert Basis.md",
-    "Analysis/Singularity.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
