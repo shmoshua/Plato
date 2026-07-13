@@ -135,6 +135,20 @@
             }
           },
           {
+            "id": "2d3869e2499346f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra/Local Ring.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Local Ring"
+            }
+          },
+          {
             "id": "1219ac3bbdfedc58",
             "type": "leaf",
             "state": {
@@ -372,12 +386,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Compact Space.md",
+                "file": "Algebraic Geometry/Sheaf.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Compact Space"
+              "title": "Sheaf"
             }
           }
         ],
@@ -531,8 +545,9 @@
   "lastOpenFiles": [
     "Algebraic Geometry/Sheaf.md",
     "Algebraic Geometry/Regular Function.md",
-    "Analysis/Schwartz Distribution.md",
     "Topology/Compact Space.md",
+    "Algebra/Local Ring.md",
+    "Analysis/Schwartz Distribution.md",
     "Untitled 2.md",
     "Algebra/Noetherian and Artinian Ring.md",
     "Algebraic Geometry",
@@ -555,7 +570,6 @@
     "Algebra/Algebraic Dependence.md",
     "Algebra/Noetherian Module.md",
     "Functional Analysis/Weak Derivative.md",
-    "Topology/Blow-up.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
