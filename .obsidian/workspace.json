@@ -140,12 +140,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Noetherian Space.md",
+                "file": "Algebraic Geometry/Regular Function.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Noetherian Space"
+              "title": "Regular Function"
             }
           }
         ],
@@ -358,12 +358,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Noetherian Space.md",
+                "file": "Algebraic Geometry/Regular Function.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Noetherian Space"
+              "title": "Regular Function"
             }
           },
           {
@@ -527,13 +527,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "8f3dcb9f6551fe0d",
+  "active": "1219ac3bbdfedc58",
   "lastOpenFiles": [
-    "Topology/Compact Space.md",
+    "Untitled 2.md",
+    "Algebraic Geometry/Regular Function.md",
+    "Algebra/Noetherian and Artinian Ring.md",
+    "Algebraic Geometry",
     "Topology/Noetherian Space.md",
+    "Topology/Compact Space.md",
     "Topology/Subspace Topology.md",
     "Topology/Connected Space.md",
-    "Algebra/Noetherian and Artinian Ring.md",
     "Analysis/Schwartz Distribution.md",
     "Algebra/Algebra.md",
     "Algebra/Variety.md",
@@ -553,8 +556,6 @@
     "Functional Analysis/Weak Derivative.md",
     "Topology/Blow-up.md",
     "Algebra/Module.md",
-    "Analysis/Smooth Function with Compact Support.md",
-    "Topology/Real Projective Space.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
@@ -564,7 +565,6 @@
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
     "TA/AdvAlg",
-    "TA",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Algebra I/ARVST.jpeg"
   ]
