@@ -1,0 +1,22 @@
+#Definition #AlgebraicGeometry 
+
+> [!definition]
+> Let $X$ be a [[topological space]].
+> 1. A ***presheaf*** $\mathcal{F}$ of rings assigns a ring $\mathcal{F}(U)$ to every open $U\subseteq X$ and a ring homomorphism $\rho_{V,U}:\mathcal{F}(V)\to \mathcal{F}(U)$ to every inclusion $U\subseteq V$ of open sets in $X$ s.t. 
+> 	- $\mathcal{F}(\varnothing)=0$,
+> 	- $\rho_{U,U}=\text{id}_{\mathcal{F}(U)}$ for any open $U$,
+> 	- for any inclusion $U\subseteq V\subseteq W$, $\rho_{W,V}\circ\rho_{V,U}=\rho_{W,U}$.
+> 2. A presheaf $\mathcal{F}$ is a ***sheaf*** if further for any open set $U\subseteq X$ with an arbitrary open cover $\{ U_{i} \}_{i}$ of $U$, for sections $\varphi_{i}\in \mathcal{F}(U_{i})$ s.t. $\varphi_{i}=\varphi_{j}$ on $U_{i}\cap U_{j}$, there exists a unique $\varphi\in \mathcal{F}(U)$ s.t. $\varphi|_{U_{i}}=\varphi_{i}$. 
+> 3. For a presheaf $\mathcal{F}$ on $X$ and $a\in X$, the ***stalk*** of $\mathcal{F}$ at $a$ is defined as:$$\mathcal{F}_{a}:=\{ (U,\varphi):U\subseteq X\text{ open with }a\in U, \varphi\in \mathcal{F}(U) \}/_{\sim}$$where $(U,\varphi)\sim(U',\varphi')$ if and only if there is an open subset $V$ with $a\in V \subseteq U\cap U'$ and $\varphi|_{V}=\varphi'|_{V}$.
+
+
+- **Related definition**: The elements of $\mathcal{F}(U)$ are called ***sections***. The elements of $\mathcal{F}_{a}$ are called ***germs***.
+- **Related definition**: For a presheaf $\mathcal{F}$ on $X$ and $U\subseteq X$ open, the restriction of $\mathcal{F}$ to $U$ is given by: $$\mathcal{F}|_{U}(V):=\mathcal{F}(V),\quad \forall V\subseteq U\text{ open}$$If $\mathcal{F}$ is a sheaf then so is $\mathcal{F}|_{U}$. 
+- **Remark**: $\mathcal{F}_{a}$ is a ring for all $a\in X$.
+---
+##### Examples
+> [!h] Example 1 (The sheaf of functions)
+> The following are sheaves:
+> 1. The sheaf of regular functions is given by $\mathcal{O}_{X}$.
+> 2. The sheaf of continuous functions $\mathcal{F}(U):=C(U;R)$.
+- **Remark**: Constant functions do not form a sheaf, only a presheaf. Let $U$ and $V$ be two non-empty disjoint open sets. Then, for $\varphi_{1}\in \mathcal{F}(U_{1})$ and $\varphi_{2}\in \mathcal{F}(U_{2})$, if we take $U:= U_{1}\cup U_{2}$, there is no function in $\mathcal{F}(U)$ that restricts to $\varphi_{1}$ and $\varphi_{2}$.

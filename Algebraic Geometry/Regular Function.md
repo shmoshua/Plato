@@ -28,7 +28,7 @@
 > Let $X$ be an affine variety and $f\in A(X)$. Then, 
 > $$\mathcal{O}_{X}(D(f))=\left\{  \frac{g}{f^n}:g\in A(X),n\in \mathbb{N}  \right\}$$
 
-> [!proof]+
+> [!proof]-
 > We have that:
 > 1. $\supseteq$ is obvious. On $D(f)$, we have that $g/f^n$ is regular.
 > 2. For $\subseteq$, let $\varphi:D(f)\to K$ be a regular function. By definition, for every $a\in D(f)$, there is a local representation $\varphi=\frac{g_{a}}{f_{a}}$ on an open neighborhood $U_{a}$. Wlog we may assume that the neighborhoods are $D(h_{a})$. Moreover, we may replace $g_{a}$ and $f_{a}$ with $g_{a}h_{a}$ and $f_{a}h_{a}$. Hence, both the numerator and denominator of $\varphi$ vanish on $V(h_{a})$. Then, $f_{a}$ vanishes on $V(h_{a})$ and does not vanish on $D(h_{a})$, i.e. $h_{a}$ and $f_{a}$ have the same zero locus, i.e. $h_{a}=f_{a}$.
@@ -36,3 +36,6 @@
 >    As a consequence, we have that $g_{a}f_{b}=g_{b}f_{a}$ for $a,b\in D(f)$. These two functions agree on $D(f_{a})\cap D(f_{b})$ since $\varphi=\frac{g_{a}}{f_{a}}=\frac{g_{b}}{f_{b}}$ and both zero otherwise. 
 >    
 >    Now all our open neighborhood cover $D(f)$, i.e. $D(f)=\bigcup_{a\in D(f)}^{}D(f_{a})$. Passing to the complement we have: $$V(f)=\bigcap_{a\in D(f)}^{}V(f_{a})=V(\{ f_{a} \}_{a\in D(f)})$$Hence, $f\in I(V(f))=\sqrt{ (f_{a})_{a\in D(f)} }$, i.e. $f^n=\sum_{a}^{}k_{a}f_{a}$ for some $n\in \mathbb{N}$ and $k_{a}\in A(X)$ for finitely many elements $a\in D(f)$. By defining $g:=\sum_{a}^{}k_{a}g_{a}$, we claim that $\varphi=g / f^n$ on all of $D(f)$. For all $b\in D(f)$, we have that $\varphi=g_{b} / f_{b}$ and: $$gf_{b}=\sum_{a}^{}k_{a}g_{a}f_{b}=\sum_{a}^{}k_{a}g_{b}f_{a}=g_{b}f^n$$on $D(f_{b})$. Further, these sets cover $D(f)$. 
+---
+> [!lemma] Lemma 4 (Stalks of Regular Functions as Localizations)
+> Let $X$ be an affine variety and $a\in X$. 
