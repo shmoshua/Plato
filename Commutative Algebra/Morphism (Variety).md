@@ -1,7 +1,7 @@
 #Definition #CommutativeAlgebra 
 
 > [!definition]
-> Let $X\subseteq \mathbb{A}_{K}^n$, $Y\subseteq \mathbb{A}_{K}^m$ be two [[Variety|varieties]]. 
+> Let $X\subseteq \mathbb{A}_{K}^n$, $Y\subseteq \mathbb{A}_{K}^m$ be two [[Affine Variety|varieties]]. 
 > 1. A ***morphism*** is a map $f:X\to Y$ given by polynomials, i.e. there exist: $f_{1},\dots,f_{m}\in K[x_{1},\dots,x_{n}]$ s.t. $$f(x)=(f_{1}(x),\dots,f_{m}(x)),\quad \forall x\in X$$
 
 ^f860e3
@@ -39,7 +39,7 @@
 >    
 ---
 > [!lemma] Proposition 3 (Bijection of Varieties and K-algebra homomorphisms)
-> Let $X\subseteq \mathbb{A}_{K}^n$, $Y\subseteq \mathbb{A}_{K}^m$ be two [[Variety|varieties]].
+> Let $X\subseteq \mathbb{A}_{K}^n$, $Y\subseteq \mathbb{A}_{K}^m$ be two [[Affine Variety|varieties]].
 > 1. for any morphism $f:X\to Y$, $f^{*}:A(Y)\to A(X)$ is a [[Algebra|$K$-algebra homomorphism]].
 > 3. for any $K$-algebra homomorphism $\varphi:A(Y)\to A(X)$, there exists a unique morphism $f:X\to Y$ s.t. $\varphi=f^{*}$. 
 

@@ -177,28 +177,28 @@
 
 ---
 #### 2.2 Varieties
-![[Variety#^1a7b97]]
-![[Variety#^d6893c|p]]
+![[Affine Variety#^1a7b97]]
+![[Affine Variety#^d6893c|p]]
 
 ---
 ##### 2.2.1 Ideals of Varieties
-![[Variety#^35d70d]]
-![[Variety#^c6655d|p]]
+![[Affine Variety#^35d70d]]
+![[Affine Variety#^c6655d|p]]
 
 ---
-![[Variety#^cde87b]]
-![[Variety#^cc24f3|p]]
+![[Affine Variety#^cde87b]]
+![[Affine Variety#^cc24f3|p]]
 
 ---
 ##### 2.2.2 Coordinate Rings
 ![[Polynomial Function#^4b2402]]
 ![[Polynomial Function#^39a3bf|p]]
-![[Variety#^da8bb5]]
+![[Affine Variety#^da8bb5]]
 
 ---
-![[Variety#^dfb872]]
-![[Variety#^c712ee|p]]
-![[Variety#^df9fc7]]
+![[Affine Variety#^dfb872]]
+![[Affine Variety#^c712ee|p]]
+![[Affine Variety#^df9fc7]]
 
 
 ---
@@ -420,8 +420,8 @@
 ![[Algebra#^9cdcf6|p]]
 
 ---
-![[Variety#^a3ca0c]]
-![[Variety#^5054fd|p]]
+![[Affine Variety#^a3ca0c]]
+![[Affine Variety#^5054fd|p]]
 
 ---
 ![[Tensor Product#^47b82c]]

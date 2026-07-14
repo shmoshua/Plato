@@ -19,7 +19,7 @@
 ##### Examples
 
 > [!h] Example 1
-> An affine [[variety]] $X$ is a Noetherian space.
+> An affine [[Affine Variety]] $X$ is a Noetherian space.
 
 
 > [!proof]-

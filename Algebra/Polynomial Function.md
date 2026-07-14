@@ -1,7 +1,7 @@
 #Definition #Algebra 
 
 > [!definition]
-> Let $X\subseteq \mathbb{A}^n_{K}$ be an [[Variety|affine variety]].
+> Let $X\subseteq \mathbb{A}^n_{K}$ be an [[Affine Variety|affine variety]].
 > 1. a ***polynomial function*** on $X$ is a map $X\to K$ of the form $x\mapsto f(x)$ for some $f\in K[x_{1},\dots,x_{n}]$.
 > 2. the ***ring of polynomial functions/coordinate ring*** is given by $A(X):=K[x_{1},\dots,x_{n}] / I(X)$.
 
@@ -11,8 +11,8 @@
 
 ---
 ##### Properties
-![[Variety#^4ec3ba]]
-![[Variety#^89aa91|p]]
+![[Affine Variety#^4ec3ba]]
+![[Affine Variety#^89aa91|p]]
 
 
 ---

@@ -4,14 +4,14 @@
 
 #### 0.1 Affine Varieties
 
-![[Variety#^1a7b97]]
+![[Affine Variety#^1a7b97]]
 
 ---
-![[Variety#^d6893c]]
+![[Affine Variety#^d6893c]]
 
 ---
-![[Variety#^8bb4dc]]
-![[Variety#^8520c7|p]]
+![[Affine Variety#^8bb4dc]]
+![[Affine Variety#^8520c7|p]]
 
 ---
 ##### 0.1.1 Properties of Varieties
@@ -73,7 +73,7 @@
 > 1. $\supseteq$ for 1: let $x\in X$. For all $f\in I(X)$, we have that $f(x)=0$ and $x\in V(I(X))$.
 > 2. $\supseteq$ for 2: let $f\in \sqrt{ J }$. For all $x\in V(J)=V(\sqrt{ J })$, we have that $f(x)=0$. Hnece, $f\in I(V(J))$.
 > 3. $\subseteq$ for 1: If $X$ is an affine variety, we have that $X=V(J)$ for some ideal $J$. Then, $$V(I(X))=V(\underbrace{ I(V(J)) }_{ \supseteq \sqrt{ J } })\subseteq V(\sqrt{ J })=V(J)=X$$
-> 4. $\subseteq$ for 2: given by [[Variety|Nullstellensatz]].
+> 4. $\subseteq$ for 2: given by [[Affine Variety|Nullstellensatz]].
 - **Remark**: This bijection restricts to $$\left\{ \begin{matrix} \text{Points }x\in \mathbb{A}^n \end{matrix} \right\} \overset{ I(\cdot ) }{ \underset{  V(\cdot ) }{ \longleftrightarrows  }}\left\{ \begin{matrix} \text{Maximal ideals}\\J\unlhd K[x_{1},\dots,x_{n}] \end{matrix} \right\} $$
 ---
 > [!lemma] Proposition 3 (Weak NullstellenSatz)

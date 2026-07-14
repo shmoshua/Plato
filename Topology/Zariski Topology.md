@@ -1,7 +1,7 @@
 #Definition #Topology 
 
 > [!definition]
-> Let $X\subseteq \mathbb{A}_{K}^n$ be a [[variety]]. Then, 
+> Let $X\subseteq \mathbb{A}_{K}^n$ be a [[Affine Variety]]. Then, 
 > 1. the ***Zariski topology*** on $X$ is the topology whose closed sets are the affine subvarieties of $X$.
 
 ^7f255b
