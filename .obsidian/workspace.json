@@ -154,12 +154,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Affine Variety.md",
-                "mode": "preview",
+                "file": "Algebraic Geometry/Ringed Space.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Affine Variety"
+              "title": "Ringed Space"
             }
           }
         ],
@@ -558,10 +558,10 @@
   "active": "02471c44de52b060",
   "lastOpenFiles": [
     "Algebraic Geometry/Ringed Space.md",
-    "Algebraic Geometry/Variety.md",
     "Algebraic Geometry/Regular Function.md",
-    "Algebra/Tensor Product.md",
+    "Algebraic Geometry/Variety.md",
     "Algebra/Affine Variety.md",
+    "Algebra/Tensor Product.md",
     "Algebraic Geometry/Sheaf.md",
     "Algebra/Coprime Ideal.md",
     "Untitled 1.md",

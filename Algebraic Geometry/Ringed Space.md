@@ -10,7 +10,7 @@
 ---
 ##### Properties
 > [!lemma] Lemma 1 (Gluing Property for Morphisms)
-> Let $f:X\to Y$ be a morphism of ringed spaces. 
+> Let $f:X\to Y$ be a map of ringed spaces. 
 > 1. Suppose there is an open cover $\{ U_{i} \}_{i\in I}$ of $X$ s.t. all restrictions $f|_{U_{i}}:U_{i}\to Y$ are morphisms. Then $f$ is a morphism.
 
 > [!proof]-
