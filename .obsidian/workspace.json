@@ -140,12 +140,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebraic Geometry/Variety.md",
+                "file": "Projects/Local Stationary Distributions/MaxCut.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variety"
+              "title": "MaxCut"
             }
           },
           {
@@ -386,12 +386,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebraic Geometry/Variety.md",
+                "file": "Projects/Local Stationary Distributions/MaxCut.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variety"
+              "title": "MaxCut"
             }
           },
           {
@@ -555,11 +555,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02471c44de52b060",
+  "active": "1219ac3bbdfedc58",
   "lastOpenFiles": [
+    "Algebraic Geometry/Variety.md",
+    "Projects/Local Stationary Distributions/MaxCut.md",
     "Algebraic Geometry/Ringed Space.md",
     "Algebraic Geometry/Regular Function.md",
-    "Algebraic Geometry/Variety.md",
     "Algebra/Affine Variety.md",
     "Algebra/Tensor Product.md",
     "Algebraic Geometry/Sheaf.md",
@@ -583,7 +584,6 @@
     "Algebra/Prime Ideal.md",
     "Algebra/Radical (Ring).md",
     "Topology/Interior and Closure.md",
-    "Topology/Dense Subset.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
