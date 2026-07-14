@@ -367,20 +367,6 @@
             }
           },
           {
-            "id": "8b2ff91c69ce291e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Tensor Product.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Tensor Product"
-            }
-          },
-          {
             "id": "8f3dcb9f6551fe0d",
             "type": "leaf",
             "state": {
@@ -423,7 +409,7 @@
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -571,12 +557,12 @@
   },
   "active": "02471c44de52b060",
   "lastOpenFiles": [
-    "Algebra/Affine Variety.md",
-    "Algebraic Geometry/Variety.md",
     "Algebraic Geometry/Ringed Space.md",
-    "Algebraic Geometry/Sheaf.md",
-    "Algebra/Tensor Product.md",
+    "Algebraic Geometry/Variety.md",
     "Algebraic Geometry/Regular Function.md",
+    "Algebra/Tensor Product.md",
+    "Algebra/Affine Variety.md",
+    "Algebraic Geometry/Sheaf.md",
     "Algebra/Coprime Ideal.md",
     "Untitled 1.md",
     "Untitled 3.md",
