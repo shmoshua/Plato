@@ -400,12 +400,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+                "file": "Projects/Local Stationary Distributions/Pinning MaxCut.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Local Stationary Distributions"
+              "title": "Pinning MaxCut"
             }
           },
           {
@@ -437,7 +437,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -490,8 +490,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -584,17 +583,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02471c44de52b060",
+  "active": "79b305dc3d66dbef",
   "lastOpenFiles": [
-    "Algebraic Geometry/Variety.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+    "Algebraic Geometry/Variety.md",
     "Algebraic Geometry/Ringed Space.md",
     "Markov Processes/Glauber Dynamics.md",
     "Algebra/Affine Variety.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Markov Processes/Markov Chain.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Algebraic Geometry/Regular Function.md",
     "Algebra/Tensor Product.md",
     "Algebraic Geometry/Sheaf.md",
