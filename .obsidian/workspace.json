@@ -154,16 +154,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebraic Geometry/Ringed Space.md",
+                "file": "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ringed Space"
+              "title": "Local Stationary Distributions"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       },
       {
         "id": "d54d634cc1ba8421",
@@ -400,12 +400,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
+                "file": "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Project Roadmap"
+              "title": "Local Stationary Distributions"
             }
           },
           {
@@ -421,9 +421,23 @@
               "icon": "lucide-file",
               "title": "Affine Variety"
             }
+          },
+          {
+            "id": "d41acda754b990b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markov Processes/Glauber Dynamics.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Glauber Dynamics"
+            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -455,7 +469,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nullstell",
+                "query": "reversible",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -476,7 +490,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -569,14 +584,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "02471c44de52b060",
+  "active": "66527cdaaa071e53",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
-    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
-    "Projects/Local Stationary Distributions/MaxCut.md",
-    "Algebra/Affine Variety.md",
     "Algebraic Geometry/Ringed Space.md",
+    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Algebra/Affine Variety.md",
+    "Markov Processes/Glauber Dynamics.md",
+    "Markov Processes/Markov Chain.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+    "Projects/Local Stationary Distributions/MaxCut.md",
     "Algebraic Geometry/Variety.md",
     "Algebraic Geometry/Regular Function.md",
     "Algebra/Tensor Product.md",
@@ -596,8 +613,6 @@
     "Algebra/Algebra.md",
     "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Polynomial Function.md",
-    "Algebra/Unique Factorization Domain.md",
-    "Algebra/Integral Domain.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
