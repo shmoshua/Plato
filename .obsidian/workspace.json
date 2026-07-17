@@ -154,12 +154,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+                "file": "Algebraic Geometry/Variety.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Local Stationary Distributions"
+              "title": "Variety"
             }
           }
         ],
@@ -414,12 +414,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Affine Variety.md",
-                "mode": "source",
+                "file": "Algebraic Geometry/Ringed Space.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Affine Variety"
+              "title": "Ringed Space"
             }
           },
           {
@@ -428,12 +428,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
+                "file": "Algebraic Geometry/Variety.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Project Roadmap"
+              "title": "Variety"
             }
           }
         ],
@@ -585,16 +585,17 @@
   },
   "active": "d41acda754b990b1",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+    "Algebraic Geometry/Ringed Space.md",
+    "Algebraic Geometry/Variety.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+    "Algebraic Geometry/Regular Function.md",
+    "Commutative Algebra/Morphism (Variety).md",
     "Algebra/Affine Variety.md",
+    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
     "Markov Processes/Glauber Dynamics.md",
-    "Algebraic Geometry/Ringed Space.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
-    "Algebraic Geometry/Variety.md",
     "Markov Processes/Markov Chain.md",
-    "Algebraic Geometry/Regular Function.md",
     "Algebra/Tensor Product.md",
     "Algebraic Geometry/Sheaf.md",
     "Algebra/Coprime Ideal.md",
@@ -611,7 +612,6 @@
     "Topology/Connected Space.md",
     "Algebra/Algebra.md",
     "Algebra/Noetherian and Artinian Module.md",
-    "Algebra/Polynomial Function.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",

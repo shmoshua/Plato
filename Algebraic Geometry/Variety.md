@@ -29,7 +29,20 @@
 ---
 > [!lemma] Proposition 3 (Closed Subprevariety)
 > Let $X$ be a prevariety and $Y\subseteq X$ a closed subset. We define: $$\mathcal{O}_{Y}(U):=\{ \varphi:U\to K: \forall a\in U, \exists V\ni a\text{ in }X\text{ and }\psi\in \mathcal{O}_{X}(V)\text{ s.t. }\varphi=\psi \text{ on }U\cap V \}$$
+> Then,
+> 1. $Y$ is a prevariety. 
 
+> [!proof]+
+> We have that:
+> 1. Let $U\subseteq X$ be an affine open set. Then, we have an isomorphism $f:U\to V$ for some $V\subseteq \mathbb{A}^n$ an [[affine variety]]. We claim that $U\cap Y$ as an affine subvariety of $U$ is isomorphic to $U\cap Y$ as an open subset of $Y$. 
+>    
+>    Firstly, as $Y$ is closed $X$, $U\cap Y$ is closed in $U$ and $f(U\cap Y)=:Z$ is closed in $V$. Hence, $f(U\cap Y)$ is an affine variety. We now want to show that $f|_{Y}:U\cap Y\to Z$ is an isomorphism. 
+>    
+>    Let $W_{Y}\subseteq U\cap Y$ be open. Let $\varphi:W_{Y}\to K$. We claim that $\varphi\in \mathcal{O}_{Y}(W_{Y})$ if and only if $(f|_{Y}^{-1})^{*}\varphi\in \mathcal{O}_{Z}(f(W_{Y}))$.
+>    
+>    Let $\varphi\in \mathcal{O}_{Y}(W_{Y})$. Then, for all $a\in W_{Y}$, there exists $V_{Y}\ni a$ in $X$ and $\psi \in \mathcal{O}_{X}(V_{Y})$ s.t. $\varphi=\psi$ on $W_{Y}\cap V_{Y}$. Because $U$ is open in $X$, $W_{U}:=V_{Y}\cap U$
+---
+> [!lemma]
 ---
 ##### Examples
 > [!h] Example 1
