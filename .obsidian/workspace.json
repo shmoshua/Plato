@@ -428,16 +428,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Glauber Dynamics.md",
+                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Glauber Dynamics"
+              "title": "Project Roadmap"
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -583,16 +583,16 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "79b305dc3d66dbef",
+  "active": "d41acda754b990b1",
   "lastOpenFiles": [
     "Projects/Local Stationary Distributions/MaxCut.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
-    "Algebraic Geometry/Variety.md",
-    "Algebraic Geometry/Ringed Space.md",
     "Markov Processes/Glauber Dynamics.md",
     "Algebra/Affine Variety.md",
+    "Algebraic Geometry/Ringed Space.md",
+    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Algebraic Geometry/Variety.md",
     "Markov Processes/Markov Chain.md",
     "Algebraic Geometry/Regular Function.md",
     "Algebra/Tensor Product.md",
