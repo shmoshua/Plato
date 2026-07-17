@@ -154,12 +154,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebraic Geometry/Variety.md",
+                "file": "Functional Analysis/Positive Operator.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variety"
+              "title": "Positive Operator"
             }
           }
         ],
@@ -428,12 +428,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebraic Geometry/Variety.md",
+                "file": "Functional Analysis/Positive Operator.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variety"
+              "title": "Positive Operator"
+            }
+          },
+          {
+            "id": "8fde13b99ae3a3c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markov Processes/Glauber Dynamics.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Glauber Dynamics"
             }
           }
         ],
@@ -585,8 +599,13 @@
   },
   "active": "d41acda754b990b1",
   "lastOpenFiles": [
-    "Algebraic Geometry/Ringed Space.md",
+    "Markov Processes/Glauber Dynamics.md",
+    "Functional Analysis/Positive Operator.md",
+    "Functional Analysis/Positive Definite Function on a Group.md",
+    "Analysis/Positive Definite.md",
+    "Measure Theory/Positive Measure.md",
     "Algebraic Geometry/Variety.md",
+    "Algebraic Geometry/Ringed Space.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Algebraic Geometry/Regular Function.md",
     "Commutative Algebra/Morphism (Variety).md",
@@ -594,7 +613,6 @@
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
-    "Markov Processes/Glauber Dynamics.md",
     "Markov Processes/Markov Chain.md",
     "Algebra/Tensor Product.md",
     "Algebraic Geometry/Sheaf.md",
@@ -608,10 +626,6 @@
     "Algebra/Noetherian and Artinian Ring.md",
     "Algebraic Geometry",
     "Topology/Noetherian Space.md",
-    "Topology/Subspace Topology.md",
-    "Topology/Connected Space.md",
-    "Algebra/Algebra.md",
-    "Algebra/Noetherian and Artinian Module.md",
     "Formal Language Theory",
     "TA/AlgoDat",
     "Courses/Discrete Optimization",
