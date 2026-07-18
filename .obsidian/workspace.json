@@ -339,7 +339,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -485,13 +485,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d41acda754b990b1",
+  "active": "b42444f8b12bc680",
   "lastOpenFiles": [
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Algebra/Algebra.md",
+    "Functional Analysis/Hilbert Space Operator.md",
     "Algebraic Geometry/Regular Function.md",
     "Algebraic Geometry/Ringed Space.md",
-    "Functional Analysis/Hilbert Space Operator.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Noetherian and Artinian Module.md",
