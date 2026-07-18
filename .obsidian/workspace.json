@@ -339,7 +339,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -485,20 +485,21 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "5c975c06862735d9",
+  "active": "d41acda754b990b1",
   "lastOpenFiles": [
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Algebra/Algebra.md",
+    "Algebraic Geometry/Regular Function.md",
+    "Algebraic Geometry/Ringed Space.md",
+    "Functional Analysis/Hilbert Space Operator.md",
+    "Algebra/Radical (Ring).md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Noetherian and Artinian Ring.md",
     "Analysis/Smooth Function with Compact Support.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Markov Processes/Glauber Dynamics.md",
     "Algebra/Integral Domain.md",
-    "Algebra/Algebra.md",
-    "Algebraic Geometry/Regular Function.md",
-    "Algebraic Geometry/Ringed Space.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
-    "Functional Analysis/Hilbert Space Operator.md",
     "Functional Analysis/Normal Operator.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
@@ -512,7 +513,6 @@
     "Algebra/Affine Variety.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Projects/Local Stationary Distributions/MaxCut.md",
-    "Markov Processes/Markov Chain.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
