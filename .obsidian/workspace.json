@@ -339,7 +339,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -485,8 +485,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "b42444f8b12bc680",
+  "active": "831c4665dc985763",
   "lastOpenFiles": [
+    "Algebra/Associative Algebra.md",
     "Algebra/Algebra.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Functional Analysis/Hilbert Space Operator.md",
@@ -512,7 +513,6 @@
     "Commutative Algebra/Morphism (Variety).md",
     "Algebra/Affine Variety.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
-    "Projects/Local Stationary Distributions/MaxCut.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
