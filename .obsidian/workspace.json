@@ -260,12 +260,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Algebra/Associative Algebra.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebra"
+              "title": "Associative Algebra"
             }
           },
           {
@@ -487,8 +487,8 @@
   },
   "active": "b42444f8b12bc680",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Algebra/Algebra.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Algebraic Geometry/Regular Function.md",
     "Algebraic Geometry/Ringed Space.md",
