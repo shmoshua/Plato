@@ -344,12 +344,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Functional Analysis/Hilbert Space Operator.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variance"
+              "title": "Hilbert Space Operator"
             }
           }
         ],
@@ -501,6 +501,7 @@
   },
   "active": "f4873067691b2f0a",
   "lastOpenFiles": [
+    "Probability Theory/Variance.md",
     "Analysis/Lp Space.md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
@@ -526,7 +527,6 @@
     "Measure Theory/Positive Measure.md",
     "Algebraic Geometry/Variety.md",
     "Commutative Algebra/Morphism (Variety).md",
-    "Algebra/Affine Variety.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
