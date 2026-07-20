@@ -330,16 +330,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Hilbert Space Operator.md",
+                "file": "Analysis/Lp Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hilbert Space Operator"
+              "title": "Lp Space"
+            }
+          },
+          {
+            "id": "f4873067691b2f0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability Theory/Variance.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Variance"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -485,12 +499,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "831c4665dc985763",
+  "active": "f4873067691b2f0a",
   "lastOpenFiles": [
+    "Analysis/Lp Space.md",
+    "Functional Analysis/Hilbert Space Operator.md",
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Algebra/Associative Algebra.md",
     "Algebra/Algebra.md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Functional Analysis/Hilbert Space Operator.md",
     "Algebraic Geometry/Regular Function.md",
     "Algebraic Geometry/Ringed Space.md",
     "Algebra/Radical (Ring).md",
@@ -512,7 +527,6 @@
     "Algebraic Geometry/Variety.md",
     "Commutative Algebra/Morphism (Variety).md",
     "Algebra/Affine Variety.md",
-    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
