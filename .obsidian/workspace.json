@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Ideal (Ring).md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ideal (Ring)"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -352,8 +352,7 @@
               "title": "Hilbert Space Operator"
             }
           }
-        ],
-        "currentTab": 12
+        ]
       }
     ],
     "direction": "vertical"
@@ -499,11 +498,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f4873067691b2f0a",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Algebra/Ideal (Ring).md",
+    "Functional Analysis/Hilbert Space Operator.md",
     "Probability Theory/Variance.md",
     "Analysis/Lp Space.md",
-    "Functional Analysis/Hilbert Space Operator.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Algebra/Associative Algebra.md",
     "Algebra/Algebra.md",
@@ -526,7 +526,6 @@
     "Analysis/Positive Definite.md",
     "Measure Theory/Positive Measure.md",
     "Algebraic Geometry/Variety.md",
-    "Commutative Algebra/Morphism (Variety).md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
