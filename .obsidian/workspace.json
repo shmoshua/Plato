@@ -344,15 +344,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Hilbert Space Operator.md",
+                "file": "Algebra/Algebra.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hilbert Space Operator"
+              "title": "Algebra"
             }
           }
-        ]
+        ],
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -498,10 +499,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "f4873067691b2f0a",
   "lastOpenFiles": [
-    "Algebra/Ideal (Ring).md",
     "Functional Analysis/Hilbert Space Operator.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Algebra/Ideal (Ring).md",
     "Probability Theory/Variance.md",
     "Analysis/Lp Space.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
@@ -525,7 +527,6 @@
     "Functional Analysis/Positive Definite Function on a Group.md",
     "Analysis/Positive Definite.md",
     "Measure Theory/Positive Measure.md",
-    "Algebraic Geometry/Variety.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
