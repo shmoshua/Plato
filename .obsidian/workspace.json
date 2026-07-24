@@ -330,12 +330,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Expectation.md",
+                "file": "Functional Analysis/Hilbert Space Operator.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conditional Expectation"
+              "title": "Hilbert Space Operator"
             }
           },
           {
@@ -344,12 +344,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Measure Theory/Measurable Function.md",
+                "file": "Markov Processes/Glauber Dynamics.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Measurable Function"
+              "title": "Glauber Dynamics"
             }
           }
         ],
@@ -501,12 +501,13 @@
   },
   "active": "f4873067691b2f0a",
   "lastOpenFiles": [
-    "Measure Theory/Measurable Function.md",
     "Probability Theory/Conditional Expectation.md",
+    "Algebraic Geometry/Ringed Space.md",
+    "Markov Processes/Glauber Dynamics.md",
+    "Measure Theory/Measurable Function.md",
     "Functional Analysis/Normal Operator.md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Lp Space.md",
-    "Markov Processes/Glauber Dynamics.md",
     "Algebra/Algebra.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algebra/Ideal (Ring).md",
@@ -514,7 +515,6 @@
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Algebra/Associative Algebra.md",
     "Algebraic Geometry/Regular Function.md",
-    "Algebraic Geometry/Ringed Space.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Noetherian and Artinian Module.md",
