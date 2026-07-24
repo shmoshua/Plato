@@ -325,35 +325,35 @@
             }
           },
           {
-            "id": "d41acda754b990b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Lp Space.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Lp Space"
-            }
-          },
-          {
             "id": "f4873067691b2f0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Glauber Dynamics.md",
+                "file": "Probability Theory/Conditional Expectation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Glauber Dynamics"
+              "title": "Conditional Expectation"
+            }
+          },
+          {
+            "id": "6ec125c8bf7a4a95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Measure Theory/Measurable Function.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Measurable Function"
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -501,9 +501,13 @@
   },
   "active": "f4873067691b2f0a",
   "lastOpenFiles": [
-    "Analysis/Lp Space.md",
-    "Algebra/Algebra.md",
+    "Measure Theory/Measurable Function.md",
+    "Probability Theory/Conditional Expectation.md",
+    "Functional Analysis/Normal Operator.md",
     "Functional Analysis/Hilbert Space Operator.md",
+    "Analysis/Lp Space.md",
+    "Markov Processes/Glauber Dynamics.md",
+    "Algebra/Algebra.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algebra/Ideal (Ring).md",
     "Probability Theory/Variance.md",
@@ -516,17 +520,13 @@
     "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Noetherian and Artinian Ring.md",
     "Analysis/Smooth Function with Compact Support.md",
-    "Markov Processes/Glauber Dynamics.md",
     "Algebra/Integral Domain.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
-    "Functional Analysis/Normal Operator.md",
     "Functional Analysis/Bounded Linear Map.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Compact, Self-adjoint Operators.md",
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Positive Definite Function on a Group.md",
-    "Analysis/Positive Definite.md",
-    "Measure Theory/Positive Measure.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
