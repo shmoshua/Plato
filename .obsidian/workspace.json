@@ -344,16 +344,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Glauber Dynamics.md",
+                "file": "Probability Theory/Conditional Expectation.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Glauber Dynamics"
+              "title": "Conditional Expectation"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -499,14 +499,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f4873067691b2f0a",
+  "active": "6ec125c8bf7a4a95",
   "lastOpenFiles": [
+    "Markov Processes/Glauber Dynamics.md",
+    "Functional Analysis/Hilbert Space Operator.md",
     "Probability Theory/Conditional Expectation.md",
     "Algebraic Geometry/Ringed Space.md",
-    "Markov Processes/Glauber Dynamics.md",
     "Measure Theory/Measurable Function.md",
     "Functional Analysis/Normal Operator.md",
-    "Functional Analysis/Hilbert Space Operator.md",
     "Analysis/Lp Space.md",
     "Algebra/Algebra.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
