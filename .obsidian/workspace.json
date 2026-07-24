@@ -344,12 +344,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Algebra.md",
+                "file": "Markov Processes/Glauber Dynamics.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algebra"
+              "title": "Glauber Dynamics"
             }
           }
         ],
@@ -501,14 +501,14 @@
   },
   "active": "f4873067691b2f0a",
   "lastOpenFiles": [
+    "Analysis/Lp Space.md",
+    "Algebra/Algebra.md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algebra/Ideal (Ring).md",
     "Probability Theory/Variance.md",
-    "Analysis/Lp Space.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Algebra/Associative Algebra.md",
-    "Algebra/Algebra.md",
     "Algebraic Geometry/Regular Function.md",
     "Algebraic Geometry/Ringed Space.md",
     "Algebra/Radical (Ring).md",
