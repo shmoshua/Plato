@@ -352,8 +352,7 @@
               "title": "Conditional Expectation"
             }
           }
-        ],
-        "currentTab": 12
+        ]
       }
     ],
     "direction": "vertical"
@@ -499,11 +498,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6ec125c8bf7a4a95",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Probability Theory/Conditional Expectation.md",
     "Markov Processes/Glauber Dynamics.md",
     "Functional Analysis/Hilbert Space Operator.md",
-    "Probability Theory/Conditional Expectation.md",
     "Algebraic Geometry/Ringed Space.md",
     "Measure Theory/Measurable Function.md",
     "Functional Analysis/Normal Operator.md",
