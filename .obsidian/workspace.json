@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Variance.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Variance"
+              "title": "AlgoDat Roadmap"
             }
           },
           {
@@ -500,6 +500,10 @@
   },
   "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Probability Theory/Variance.md",
+    "Algebra/Radical (Ring).md",
+    "Algebra/Prime Ideal.md",
+    "Analysis/Analytic Function.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Probability Theory/Conditional Expectation.md",
     "Markov Processes/Glauber Dynamics.md",
@@ -510,11 +514,9 @@
     "Analysis/Lp Space.md",
     "Algebra/Algebra.md",
     "Algebra/Ideal (Ring).md",
-    "Probability Theory/Variance.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Algebra/Associative Algebra.md",
     "Algebraic Geometry/Regular Function.md",
-    "Algebra/Radical (Ring).md",
     "Algebra/Principal Ideal Domain.md",
     "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Noetherian and Artinian Ring.md",
@@ -524,8 +526,6 @@
     "Functional Analysis/Bounded Linear Map.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Compact, Self-adjoint Operators.md",
-    "Functional Analysis/Positive Operator.md",
-    "Functional Analysis/Positive Definite Function on a Group.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
