@@ -176,12 +176,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Probability Theory/Variance.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Variance"
             }
           },
           {
@@ -500,6 +500,7 @@
   },
   "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Probability Theory/Conditional Expectation.md",
     "Markov Processes/Glauber Dynamics.md",
     "Functional Analysis/Hilbert Space Operator.md",
@@ -508,7 +509,6 @@
     "Functional Analysis/Normal Operator.md",
     "Analysis/Lp Space.md",
     "Algebra/Algebra.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algebra/Ideal (Ring).md",
     "Probability Theory/Variance.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
