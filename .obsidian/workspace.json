@@ -344,15 +344,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Conditional Expectation.md",
+                "file": "Algebra/Orbit and Stablizer.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conditional Expectation"
+              "title": "Orbit and Stablizer"
             }
           }
-        ]
+        ],
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -498,16 +499,19 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "6ec125c8bf7a4a95",
   "lastOpenFiles": [
+    "Algebra/Group Action.md",
+    "Algebra/Symmetry Group.md",
+    "Functional Analysis/Hilbert Space Operator.md",
+    "Functional Analysis/Unitary Linear Map.md",
+    "Probability Theory/Conditional Expectation.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Probability Theory/Variance.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Prime Ideal.md",
     "Analysis/Analytic Function.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Probability Theory/Conditional Expectation.md",
     "Markov Processes/Glauber Dynamics.md",
-    "Functional Analysis/Hilbert Space Operator.md",
     "Algebraic Geometry/Ringed Space.md",
     "Measure Theory/Measurable Function.md",
     "Functional Analysis/Normal Operator.md",
@@ -523,9 +527,6 @@
     "Analysis/Smooth Function with Compact Support.md",
     "Algebra/Integral Domain.md",
     "Projects/Local Stationary Distributions/Pinning MaxCut.md",
-    "Functional Analysis/Bounded Linear Map.md",
-    "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
-    "Functional Analysis/Compact, Self-adjoint Operators.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
