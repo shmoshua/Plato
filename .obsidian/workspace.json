@@ -352,8 +352,7 @@
               "title": "Orbit and Stablizer"
             }
           }
-        ],
-        "currentTab": 12
+        ]
       }
     ],
     "direction": "vertical"
@@ -499,8 +498,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6ec125c8bf7a4a95",
+  "active": "32608dc3d4c618ce",
   "lastOpenFiles": [
+    "Algebra/Orbit and Stablizer.md",
     "Algebra/Group Action.md",
     "Algebra/Symmetry Group.md",
     "Functional Analysis/Hilbert Space Operator.md",
@@ -526,7 +526,6 @@
     "Algebra/Noetherian and Artinian Ring.md",
     "Analysis/Smooth Function with Compact Support.md",
     "Algebra/Integral Domain.md",
-    "Projects/Local Stationary Distributions/Pinning MaxCut.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
