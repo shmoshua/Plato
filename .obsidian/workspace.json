@@ -344,12 +344,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Examples/Spectral Theorem.md",
+                "file": "Functional Analysis/Resolution of Identity.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Spectral Theorem"
+              "title": "Resolution of Identity"
             }
           }
         ],
@@ -501,6 +501,7 @@
   },
   "active": "6ec125c8bf7a4a95",
   "lastOpenFiles": [
+    "Functional Analysis/Examples/Spectral Theorem.md",
     "Algebra/Orbit and Stablizer.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algebra/Group Action.md",
@@ -526,7 +527,6 @@
     "Algebra/Noetherian and Artinian Module.md",
     "Algebra/Noetherian and Artinian Ring.md",
     "Analysis/Smooth Function with Compact Support.md",
-    "Algebra/Integral Domain.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
