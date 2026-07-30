@@ -344,15 +344,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra/Orbit and Stablizer.md",
+                "file": "Functional Analysis/Examples/Spectral Theorem.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Orbit and Stablizer"
+              "title": "Spectral Theorem"
             }
           }
-        ]
+        ],
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -498,15 +499,15 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "32608dc3d4c618ce",
+  "active": "6ec125c8bf7a4a95",
   "lastOpenFiles": [
     "Algebra/Orbit and Stablizer.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algebra/Group Action.md",
     "Algebra/Symmetry Group.md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Functional Analysis/Unitary Linear Map.md",
     "Probability Theory/Conditional Expectation.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Probability Theory/Variance.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Prime Ideal.md",
