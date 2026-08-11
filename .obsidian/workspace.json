@@ -175,9 +175,23 @@
               "icon": "lucide-file",
               "title": "AnW1"
             }
+          },
+          {
+            "id": "b5ebaf6ee21934bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SLT.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "SLT"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       },
       {
         "id": "d54d634cc1ba8421",
@@ -358,12 +372,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AnW1.md",
+                "file": "SLT.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AnW1"
+              "title": "SLT"
             }
           }
         ],
@@ -515,8 +529,9 @@
   },
   "active": "6ec125c8bf7a4a95",
   "lastOpenFiles": [
-    "Functional Analysis/Resolution of Identity.md",
     "AnW1.md",
+    "SLT.md",
+    "Functional Analysis/Resolution of Identity.md",
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Examples/Spectral Theorem.md",
     "Algebra/Orbit and Stablizer.md",
@@ -540,7 +555,6 @@
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Algebra/Associative Algebra.md",
     "Algebraic Geometry/Regular Function.md",
-    "Algebra/Principal Ideal Domain.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
