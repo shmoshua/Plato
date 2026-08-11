@@ -47,3 +47,6 @@ We have that: $$$$
 ----
 #### Exercise 3.7
 We have that: $$L''(\mu)=\frac{d}{d\mu}3\mu^2(\mu^3 - \mu_{0}^3)=15\mu^4 -6\mu \mu_{0}^3$$Hence, $L''(\mu_{0})=9\mu_{0}^4$.
+
+If $\mu_{0}=0$, then: $$V(\varepsilon):=\text{Vol}(B(\mu_{0},\varepsilon))=\text{Vol}\left( \left\{  \mu\in \mathbb{R}: \frac{1}{2}\mu^6<\varepsilon  \right\} \right)=\text{Vol}(B_{ < (2\varepsilon)^{1/6}}(\mu))=2^{7/6}\varepsilon^{1/6}$$
+If $\mu_{0}\neq 0$, then
