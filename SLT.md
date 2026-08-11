@@ -34,3 +34,13 @@ We have that:
 1. We have that: $$D_{\delta b_{i}}\Phi(w)=\lim_{ \epsilon \to 0 } \frac{a_{i}(\sigma((b_{i}+\varepsilon \delta b_{i})x+c_{i})-\sigma(b_{i}x + c_{i}))}{\varepsilon}=0$$
 2. We have that: $$D_{(1,-\sigma(c_{i}))}\Phi(w)=\lim_{ \varepsilon \to 0 } \frac{-\varepsilon \sigma(c_{i})+\varepsilon \sigma(c_{i})}{\varepsilon}=0$$
 3. We have that: $$D_{(1,-1)}\Phi(w)= \lim_{ \varepsilon \to 0 } \frac{\varepsilon\sigma(b_{i}x+c_{i})-\varepsilon\sigma(b_{j}x+c_{j})}{\varepsilon}=0$$
+---
+#### Exercise 2.13
+Let $\Phi$ be degenerate at $w$ in direction $v$. Then, $$D_{v}L(w)=\frac{v}{\|v\|}\cdot  \nabla L(w)=\frac{v}{\|v\|}\cdot  \mathbb{E}_{{(x,y)\sim q}}\nabla L(w)=$$
+
+---
+#### Exercise 3.1
+We have that: $$$$
+
+----
+#### Exercise 3.2
