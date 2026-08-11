@@ -44,3 +44,6 @@ We have that: $$$$
 
 ----
 #### Exercise 3.2
+----
+#### Exercise 3.7
+We have that: $$L''(\mu)=\frac{d}{d\mu}3\mu^2(\mu^3 - \mu_{0}^3)=15\mu^4 -6\mu \mu_{0}^3$$Hence, $L''(\mu_{0})=9\mu_{0}^4$.
