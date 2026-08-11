@@ -26,5 +26,11 @@ Similarly, $D_{(0,1)}\Phi(a,b) = a$. So for $w\in\mathbb{R} \times \{ 0 \}$ $\Ph
 ---
 #### Exercise 2.9
 We have that:
-1. Notice that: 
-	$$D_{(\delta A,\delta B)}\Phi(A,B)=\sum_{n=1}^{}$$
+1. We have that: $$D_{(\delta A,\delta B)}\Phi(A,B)=\lim_{ \varepsilon \to 0 } \frac{\Phi(A+\varepsilon\delta A,B+\varepsilon\delta B)-\Phi(A,B)}{\varepsilon}=B\delta A+\delta B A$$
+2. For $(A,B) = 0$, $B\delta A+\delta BA = 0$ for any $(\delta A,\delta B)$. $\mathbb{R}^{2m^2}$.
+3. Let $B\delta A+\delta BA = 0$ where $A,B$ are invertible. This is equivalent to $$-B\delta A A ^{-1}=\delta B $$. Then, the dimension is $m^{2}$.
+---
+#### Exercise 2.10
+1. We have that: $$D_{\delta b_{i}}\Phi(w)=\lim_{ \epsilon \to 0 } \frac{a_{i}(\sigma((b_{i}+\varepsilon \delta b_{i})x+c_{i})-\sigma(b_{i}x + c_{i}))}{\varepsilon}=0$$
+2. We have that: $$D_{(1,-\sigma(c_{i}))}\Phi(w)=\lim_{ \varepsilon \to 0 } \frac{-\varepsilon \sigma(c_{i})+\varepsilon \sigma(c_{i})}{\varepsilon}=0$$
+3. We have that: $$D_{(1,-1)}\Phi(w)= \lim_{ \varepsilon \to 0 } \frac{\varepsilon\sigma(b_{i}x+c_{i})-\varepsilon\sigma(b_{j}x+c_{j})}{\varepsilon}=0$$
