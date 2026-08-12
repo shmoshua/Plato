@@ -182,12 +182,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SLT.md",
+                "file": "Measure Theory/Data Generating Process.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SLT"
+              "title": "Data Generating Process"
             }
           }
         ],
@@ -372,12 +372,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SLT.md",
+                "file": "Measure Theory/Data Generating Process.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SLT"
+              "title": "Data Generating Process"
             }
           }
         ],
@@ -527,10 +527,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6ec125c8bf7a4a95",
+  "active": "b5ebaf6ee21934bc",
   "lastOpenFiles": [
-    "AnW1.md",
     "SLT.md",
+    "Measure Theory/Data Generating Process.md",
+    "AnW1.md",
     "Functional Analysis/Resolution of Identity.md",
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Examples/Spectral Theorem.md",
@@ -554,7 +555,6 @@
     "Algebra/Ideal (Ring).md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Algebra/Associative Algebra.md",
-    "Algebraic Geometry/Regular Function.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
