@@ -28,9 +28,10 @@ We have that:
 
 ---
 
-So apparently everyone was asked to do an interview except for me. they're scared of me.  CCRP is truly scared of the influencer potential I have. but guess what: I’m gonna send you one anyway. So Ladies and... mqueens, I'm Ted, I can cook, I can clean. 
+So apparently everyone was asked to do an interview except for me. they're scared of me.  CCRP is truly scared of the influencer potential I have. but guess what: I’m gonna send you one anyway. So Ladies and... beautiful women, I'm Ted, I can cook, I can clean. My friends describe me as a man written by a woman. I read, I'll give you massages, I'll bark like a dog if you'd like me to. 
+curves and crevices.
 
 because there is no documentary without men. 
 
 
-And clearly, I am the only real man this town has to offer. Yeah, the ladies know it. The chicks that work at beanies, they are SOOOO hot. And they love me. Gave ‘em my number but they’re too shy to make the first text. Saw the one lattey hottay on tinder tho, she could use a boob job, not gonna lie. Maybe she could show them a pic of Charlotte, this other chick at my office. Yeah, I dream of them sometimes… In a professional sort of way of course. Wouldn’t wanna violate corporate code.
+And clearly, I am the only real man this town has to offer. Yeah, the ladies know it. The chicks that work at beanies, they are SOOOO hot. And they love me. Gave ‘em my number but they’re too shy to make the first text. Saw the one lattey hottay on tinder tho,  Maybe she could show them a pic of Charlotte, this other chick at my office. Yeah, I dream of them sometimes… In a professional sort of way of course. Wouldn’t wanna violate corporate code.
