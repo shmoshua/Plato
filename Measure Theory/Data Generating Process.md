@@ -27,3 +27,10 @@ We have that:
    \\&=\sum_{i}^{}\mathbb{P}(S_{|w|}=S_{i}|w)\mathbb{P}(X_{{|w|}+1}=x|S_{|w|}=S_{i})\\&=\sum_{i}^{}\mathbb{P}(X_{{|w|}+1}=x,S_{|w|}=S_{i}|w)\\&=\mathbb{P}(X_{{|w|}+1}=x|w)\end{aligned}$$
 
 ---
+
+So apparently everyone was asked to do an interview except for me. they're scared of me.  CCRP is truly scared of the influencer potential I have. but guess what: I’m gonna send you one anyway. So Ladies and... mqueens, I'm Ted, I can cook, I can clean. 
+
+because there is no documentary without men. 
+
+
+And clearly, I am the only real man this town has to offer. Yeah, the ladies know it. The chicks that work at beanies, they are SOOOO hot. And they love me. Gave ‘em my number but they’re too shy to make the first text. Saw the one lattey hottay on tinder tho, she could use a boob job, not gonna lie. Maybe she could show them a pic of Charlotte, this other chick at my office. Yeah, I dream of them sometimes… In a professional sort of way of course. Wouldn’t wanna violate corporate code.
