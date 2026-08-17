@@ -28,10 +28,4 @@ We have that:
 
 ---
 
-So apparently everyone was asked to do an interview except for me. they're scared of me.  CCRP is truly scared of the influencer potential I have. but guess what: I’m gonna send you one anyway. So Ladies and... beautiful women, I'm Ted, I can cook, I can clean. My friends describe me as a man written by a woman. I read, I'll give you massages, I'll bark like a dog if you'd like me to. 
-curves and crevices.
-
-because there is no documentary without men. 
-
-
-And clearly, I am the only real man this town has to offer. Yeah, the ladies know it. The chicks that work at beanies, they are SOOOO hot. And they love me. Gave ‘em my number but they’re too shy to make the first text. Saw the one lattey hottay on tinder tho,  Maybe she could show them a pic of Charlotte, this other chick at my office. Yeah, I dream of them sometimes… In a professional sort of way of course. Wouldn’t wanna violate corporate code.
+So apparently everyone was asked to do an interview except for me. they're scared of me.  CCRP is truly scared of the influencer potential I have. but guess what: I’m gonna send you one anyway. So Ladies and... beautiful women, My name is Ted, short for tornado of sexual charisma. I am a man that truly appreciates the female body. The curves and crevices.... I got that natural pheromone down, like how I walked into beanies yesterday and all the cute girls that work there were just... they just couldn't wait for me to like fill their lil cute coffee cups you know. Like i'll cream their coffee, grind their beans and pump my vanilla into their  caramel macchiato type shit. Ugh coffee makes me so horny. So call me girls, and the two of us can do some latte art? They say, Once you go Ted, you'll never go to bed.
