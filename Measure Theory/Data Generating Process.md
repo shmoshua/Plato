@@ -55,4 +55,8 @@ We have that:
 4. Trivial.
 ---
 ##### Problem 3
-1. We have that: $$WW^\top=U\text{diag}(w_{1},\dots,w_{d})V^\top V \text{diag}(w_{1},\dots,w_{d})U^\top=U\text{diag}(w_{1}^{2},\dots,w_{d}^{2})U^\top=(U\text{diag}(w_{1},\dots,w_{d})U^\top)^{2}$$The other case is similar. Further, $M-W$ is b
+1. We have that: $$WW^\top=U\text{diag}(w_{1},\dots,w_{d})V^\top V \text{diag}(w_{1},\dots,w_{d})U^\top=U\text{diag}(w_{1}^{2},\dots,w_{d}^{2})U^\top=(U\text{diag}(w_{1},\dots,w_{d})U^\top)^{2}$$The other case is similar. Further, $M-W$ is obvious.
+2. We have that: $$\dot{W}=U\text{diag}(2w_{1}(s_{1}-w_{1}),\dots,2w_{d}(s_{d}-w_{d}))V^\top$$Therefore, $\dot{w}_{\alpha}=2w_{\alpha}(s_{\alpha}-w_{\alpha})$.
+3. We have that: $$w_{f}=\frac{s}{1+\left( \frac{s}{w_{0}}-1 \right)e^{-2st_{\alpha}}} \iff e^{-2st_{\alpha}}=\frac{w_{0}(s-w_{f})}{w_{f}(s-w_{0})}\iff t_{\alpha}=\frac{1}{2s}\ln\frac{w_{f}(s-w_{0})}{w_{0}(s-w_{f})}$$
+---
+##### Problem 4
