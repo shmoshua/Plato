@@ -39,4 +39,20 @@ So apparently everyone was asked to do an interview except for me. They're scare
     \\&=\frac{1}{2}\sum_{i=1}^{d}\left( s_{i}-\prod_{l=1}^{L}w_{l}^{(i)} \right)^2
    \end{aligned}$$
 2. We have that the FOCs are: $$0=w_{2}(s-w_{1}w_{2}),\quad 0=w_{1}(s-w_{1}w_{2})$$Hence, if $w_{2} = 0$, then $w_{1}=0$ and we have the origin. Otherwise, $w_{1}w_{2} = s$.
-3. 
+3. We have that in that case: $$W=P_{\leq r}M=\text{diag}(s_{1},\dots,s_{r},0,\dots,0)$$ and the loss is given by: $$\mathcal{L}(W)=\frac{1}{2}\sum_{\alpha =r+1}^{d}s_{\alpha}^{2}$$
+4. We have that: $$\mu(g\cdot \theta)=W_{L}g^{-1}_{L-1}g_{L-1}W_{L-1}g_{L-2}^{-1}\cdots g_{1}W_{1} = W_{L}\dots W_{1}=\mu(\theta)$$
+
+---
+##### Problem 2
+We have that: 
+1. $$\dot{W}_{1}=-\nabla_{W_{1}} \frac{1}{2}\left\| M-W_{2}W_{1} \right\| ^{2}_{F}=W_{2}^\top(M-W_{2}W_{1})$$ and $$\dot{W}_{2}=-\nabla_{W_{2}} \frac{1}{2}\left\| M-W_{2}W_{1} \right\|^{2}_{F}=-(-W_{1}(M-W_{2}W_{1})^\top )^\top = (M-W_{2}W_{1})W_{1}^\top$$
+2. We have that: $$\begin{aligned}\dot{G}&=\dot{W}_{2}^\top W_{2}+W_{2}^\top \dot{W}_{2}-\dot{W}_{1}W_{1}^\top -W_{1}\dot{W}_{1}^\top\\&=W_{1}(M-W_{2}W_{1})^\top W_{2}+W_{2}^\top(M-W_{2}W_{1})W_{1}^\top-W_{2}^\top(M-W_{2}W_{1})W_{1}^\top -W_{1}(M-W_{2}W_{1})^\top W_{2}\\&=0\end{aligned}$$
+3. We have that: 
+	1. $$\begin{aligned}\dot{W}&=\dot{W}_{2}W_{1}+W_{2}\dot{W}_{1}\\&=(M-W)W_{1}^\top W_{1}+W_{2}W_{2}^\top(M-W)\end{aligned}$$
+	2. It's positive semidefinite by definition. Now, $$W^\top W = W_{1}^\top W_{2}^\top W_{2}W_{1}=W_{1}^\top W_{1}W_{1}^\top W_{1}=(W_{1}^\top W_{1})^{2}$$
+	3. Similarly, $$W W^\top = W_{2}W_{1}W_{1}^\top W_{2}^\top = W_{2}W_{2}^\top W_{2}W_{2}^\top = (W_{2}W_{2}^\top)^{2}$$
+	4. We have that: $$\dot{W} = (WW^\top)^{1/2}(M-W)+(M-W)(W^\top W)^{1/2}$$
+4. Trivial.
+---
+##### Problem 3
+1. We have that: $$WW^\top=U\text{diag}(w_{1},\dots,w_{d})V^\top V \text{diag}(w_{1},\dots,w_{d})U^\top=U\text{diag}(w_{1}^{2},\dots,w_{d}^{2})U^\top=(U\text{diag}(w_{1},\dots,w_{d})U^\top)^{2}$$The other case is similar. Further, $M-W$ is b
