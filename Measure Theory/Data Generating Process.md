@@ -29,3 +29,14 @@ We have that:
 ---
 
 So apparently everyone was asked to do an interview except for me. They're scared of me. I think CCRP is truly scared of the influencer potential I have. but guess what: I’m gonna send you one anyway. So, Ladies and... ma baddies, my name is Ted, short for tornado of sexual charisma. I am... a man that truly appreciates the female body. The curves and crevices.... I got that natural pheromone down, like how I walked into beanies yesterday and all the cute lil girls that work there were just... they just couldn't wait for me to like fill their cute lil coffee cups, you know? Like i'll cream ur coffee, grind ur beans and pump my vanilla into ur gaping caramel macchiato type shit. Ugh coffee makes me so horny. So call me girls, and the two of us can do some latte art? You know how they say, once you go Ted, you'll never go to bed.
+
+
+---
+##### Problem 1
+1. We have that: 
+   $$\begin{aligned}
+   \mathcal{L}(W)&=\frac{1}{2}\left\| \text{diag}(s_{1},\dots,s_{d})-\prod_{l=1}^{L}\text{diag}(w_{l}^{(1)},\dots,w_{l}^{(d)}) \right\| ^2_{F}
+    \\&=\frac{1}{2}\sum_{i=1}^{d}\left( s_{i}-\prod_{l=1}^{L}w_{l}^{(i)} \right)^2
+   \end{aligned}$$
+2. We have that the FOCs are: $$0=w_{2}(s-w_{1}w_{2}),\quad 0=w_{1}(s-w_{1}w_{2})$$Hence, if $w_{2} = 0$, then $w_{1}=0$ and we have the origin. Otherwise, $w_{1}w_{2} = s$.
+3. 
