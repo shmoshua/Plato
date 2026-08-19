@@ -60,3 +60,8 @@ We have that:
 3. We have that: $$w_{f}=\frac{s}{1+\left( \frac{s}{w_{0}}-1 \right)e^{-2st_{\alpha}}} \iff e^{-2st_{\alpha}}=\frac{w_{0}(s-w_{f})}{w_{f}(s-w_{0})}\iff t_{\alpha}=\frac{1}{2s}\ln\frac{w_{f}(s-w_{0})}{w_{0}(s-w_{f})}$$
 ---
 ##### Problem 4
+
+---
+We have that: $$F(w^{*},1)=\nabla_{w}L(w^*;1)$$
+
+$$0=\frac{ \partial  }{ \partial \beta_{i} } \nabla _{w}L(w^*(\beta);\beta)=\nabla^{2}_{w}L(w^{*}(\beta);\beta)\frac{ \partial w^{*}(\beta) }{ \partial \beta_{i} } + \nabla _{w}L(w^{*}(\beta),z_{i})$$Hence, we have: $$\frac{ \partial w^{*} }{ \partial \beta_{i} } =-H^{-1}\nabla _{w}L(w^{*},z_{i})$$
