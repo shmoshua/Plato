@@ -196,12 +196,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glauber Proof.md",
-                "mode": "source",
+                "file": "Topology/Topological Space.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Glauber Proof"
+              "title": "Topological Space"
             }
           }
         ],
@@ -386,12 +386,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Glauber Proof.md",
+                "file": "Analysis/Directional Derivative.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Glauber Proof"
+              "title": "Directional Derivative"
             }
           }
         ],
@@ -543,8 +543,17 @@
   },
   "active": "6ec125c8bf7a4a95",
   "lastOpenFiles": [
-    "Measure Theory/Data Generating Process.md",
+    "Analysis/Convex Set.md",
+    "Analysis/Convex Function.md",
+    "Analysis/Convex Envelope.md",
+    "Analysis/Complex Measure.md",
+    "Analysis/Banach Space.md",
+    "Analysis/Analytic Function.md",
+    "Analysis/Absorbant Set.md",
+    "Analysis/1-Norm.md",
     "Glauber Proof.md",
+    "Topology/Topological Space.md",
+    "Measure Theory/Data Generating Process.md",
     "SLT.md",
     "AnW1.md",
     "Functional Analysis/Resolution of Identity.md",
@@ -560,15 +569,6 @@
     "Probability Theory/Variance.md",
     "Algebra/Radical (Ring).md",
     "Algebra/Prime Ideal.md",
-    "Analysis/Analytic Function.md",
-    "Markov Processes/Glauber Dynamics.md",
-    "Algebraic Geometry/Ringed Space.md",
-    "Measure Theory/Measurable Function.md",
-    "Functional Analysis/Normal Operator.md",
-    "Analysis/Lp Space.md",
-    "Algebra/Algebra.md",
-    "Algebra/Ideal (Ring).md",
-    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
