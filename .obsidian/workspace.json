@@ -196,12 +196,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topology/Topological Space.md",
-                "mode": "preview",
+                "file": "Statistical Physics/Ising Model.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Topological Space"
+              "title": "Ising Model"
             }
           }
         ],
@@ -386,12 +386,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Directional Derivative.md",
+                "file": "Statistical Physics/Ising Model.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Directional Derivative"
+              "title": "Ising Model"
             }
           }
         ],
@@ -543,6 +543,10 @@
   },
   "active": "6ec125c8bf7a4a95",
   "lastOpenFiles": [
+    "Topology/Topological Space.md",
+    "Statistical Physics/Ising Model.md",
+    "Analysis/Directional Derivative.md",
+    "Statistical Physics",
     "Analysis/Convex Set.md",
     "Analysis/Convex Function.md",
     "Analysis/Convex Envelope.md",
@@ -552,7 +556,6 @@
     "Analysis/Absorbant Set.md",
     "Analysis/1-Norm.md",
     "Glauber Proof.md",
-    "Topology/Topological Space.md",
     "Measure Theory/Data Generating Process.md",
     "SLT.md",
     "AnW1.md",
@@ -567,8 +570,6 @@
     "Functional Analysis/Unitary Linear Map.md",
     "Probability Theory/Conditional Expectation.md",
     "Probability Theory/Variance.md",
-    "Algebra/Radical (Ring).md",
-    "Algebra/Prime Ideal.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
@@ -578,7 +579,6 @@
     "Projects/Local Stationary Distributions",
     "Courses/Formal Analysis of Algorithms",
     "Courses/NN Theory",
-    "TA/AdvAlg",
     "WhatsApp Image 2025-07-15 at 15.43.56.jpeg",
     "Courses/Algebra I/ARVST.jpeg"
   ]
