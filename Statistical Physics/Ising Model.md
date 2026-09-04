@@ -22,3 +22,10 @@
 > 2. We have: $$\frac{ \partial  }{ \partial \beta } F(\beta)= \frac{1}{\beta^{2}}\ln Z(\beta)-\frac{1}{\beta}\frac{ \partial  }{ \partial \beta } \ln Z(\beta)=\frac{1}{\beta^{2}}\ln Z(\beta)+\frac{1}{\beta}\sum_{x} E(x)\mu_{\beta}(x)$$Hence, $$S(\beta)=\ln Z(\beta)+ \sum_{x}\beta E(x)\mu_{\beta}(x)=-\sum_{x}\mu_{\beta}(x)\left(  -\beta E(x)-\ln Z(\beta)\right) =-\sum_{x}^{}\mu_{\beta}(x)\ln \mu_{\beta}(x)$$
 > 3. We have: $$U(\beta)=F(\beta)+\frac{1}{\beta}\ln Z(\beta)+\sum_{x}E(x)\mu_{\beta}(x)=\sum_{x}E(x)\mu_{\beta}(x)$$
 > 4. We have that: $$U(\beta)-\frac{1}{\beta}S(\beta)=\frac{1}{\beta}\sum_{x}^{}\mu_{\beta}(x)(\beta E(x)+\ln \mu_{\beta}(x))=\frac{1}{\beta}\sum_{x}^{}\mu_{\beta}(x)(-\ln Z(\beta))=-\frac{1}{\beta}\ln Z(\beta)$$
+---
+> [!lemma] Proposition 2 (Upper Bound on Gap)
+> Let $M:=\min_{x} E(x)$. Then, $$\mathbb{E}_{\mu_{\beta}}E - M\le  \frac{n\ln 2}{\beta}$$
+
+> [!proof]-
+> We have that: $$Z(\beta)=\sum_{x}^{}\exp(-\beta E(x)) \geq \exp(-\beta M)$$Then, $\log Z_{\beta} \geq -\beta M$. Therefore, we have that from 1.4: $$-\beta M\leq\ln Z(\beta)=-\beta \cdot \mathbb{E}_{\mu_{\beta}}E+S(\beta)\le -\beta \cdot \mathbb{E}_{\mu_{\beta}}E+n\ln 2$$This proves the statement.
+- **Corollary**: If we choose $\beta \sim 1/\varepsilon$, we can get $\varepsilon n$-close to optimal in expectation.
