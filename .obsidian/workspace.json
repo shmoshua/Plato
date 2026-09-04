@@ -393,9 +393,23 @@
               "icon": "lucide-file",
               "title": "Ising Model"
             }
+          },
+          {
+            "id": "f2f6b21acd0ddcdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Markov Processes/Markov Chain.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Markov Chain"
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -541,10 +555,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "6ec125c8bf7a4a95",
+  "active": "f2f6b21acd0ddcdd",
   "lastOpenFiles": [
-    "Topology/Topological Space.md",
+    "Markov Processes/Glauber Dynamics.md",
     "Statistical Physics/Ising Model.md",
+    "Topology/Topological Space.md",
     "Analysis/Directional Derivative.md",
     "Statistical Physics",
     "Analysis/Convex Set.md",
@@ -569,7 +584,6 @@
     "Functional Analysis/Hilbert Space Operator.md",
     "Functional Analysis/Unitary Linear Map.md",
     "Probability Theory/Conditional Expectation.md",
-    "Probability Theory/Variance.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
