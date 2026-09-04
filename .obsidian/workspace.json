@@ -227,175 +227,35 @@
             }
           },
           {
-            "id": "988729e07be6dca8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Analytic Function.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Analytic Function"
-            }
-          },
-          {
-            "id": "9386f43a074925cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Prime Ideal.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Prime Ideal"
-            }
-          },
-          {
-            "id": "ac5bca041fc2336b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Radical (Ring).md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Radical (Ring)"
-            }
-          },
-          {
-            "id": "904cb45e18208e17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Radical (Ring).md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Radical (Ring)"
-            }
-          },
-          {
-            "id": "5c975c06862735d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Radical (Ring).md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Radical (Ring)"
-            }
-          },
-          {
-            "id": "b42444f8b12bc680",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Associative Algebra.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Associative Algebra"
-            }
-          },
-          {
-            "id": "831c4665dc985763",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Project Roadmap"
-            }
-          },
-          {
-            "id": "5b187823ad34b0d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebra/Algebra.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Algebra"
-            }
-          },
-          {
-            "id": "8773e002abf32274",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebraic Geometry/Regular Function.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Regular Function"
-            }
-          },
-          {
-            "id": "9d89f60f8e48c988",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algebraic Geometry/Ringed Space.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Ringed Space"
-            }
-          },
-          {
-            "id": "f4873067691b2f0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Hilbert Space Operator.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Hilbert Space Operator"
-            }
-          },
-          {
             "id": "f2f6b21acd0ddcdd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Markov Chain.md",
+                "file": "Markov Processes/Glauber Dynamics.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Markov Chain"
+              "title": "Glauber Dynamics"
+            }
+          },
+          {
+            "id": "d4e8efff9138be29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -541,11 +401,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f4873067691b2f0a",
+  "active": "d4e8efff9138be29",
   "lastOpenFiles": [
-    "Markov Processes/Markov Chain.md",
-    "Statistical Physics/Ising Model.md",
     "Markov Processes/Glauber Dynamics.md",
+    "Untitled.md",
+    "Markov Processes/Markov Chain.md",
+    "Functional Analysis/Hilbert Space Operator.md",
+    "Statistical Physics/Ising Model.md",
     "Topology/Topological Space.md",
     "Analysis/Directional Derivative.md",
     "Statistical Physics",
@@ -568,8 +430,6 @@
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algebra/Group Action.md",
     "Algebra/Symmetry Group.md",
-    "Functional Analysis/Hilbert Space Operator.md",
-    "Functional Analysis/Unitary Linear Map.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
