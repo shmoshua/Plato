@@ -196,12 +196,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Physics/Ising Model.md",
+                "file": "Algorithmic Counting and Sampling.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ising Model"
+              "title": "Algorithmic Counting and Sampling"
             }
           }
         ],
@@ -246,12 +246,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
-                "mode": "source",
+                "file": "Algorithmic Counting and Sampling.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Algorithmic Counting and Sampling"
             }
           }
         ],
@@ -401,13 +401,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d4e8efff9138be29",
+  "active": "ca17cb05ddb38993",
   "lastOpenFiles": [
+    "Statistical Physics/Ising Model.md",
+    "Algorithmic Counting and Sampling.md",
     "Markov Processes/Glauber Dynamics.md",
-    "Untitled.md",
     "Markov Processes/Markov Chain.md",
     "Functional Analysis/Hilbert Space Operator.md",
-    "Statistical Physics/Ising Model.md",
     "Topology/Topological Space.md",
     "Analysis/Directional Derivative.md",
     "Statistical Physics",
