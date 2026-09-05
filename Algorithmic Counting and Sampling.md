@@ -25,5 +25,11 @@ We have that: $$\text{Var}_{\mu}(f)=\braket{ f , f } _{\mu}-\braket{ f , 1 } ^{2
 > For the converse, we have that: $$\frac{\mathcal{E}_{P}(\phi_{2},\phi_{2})}{\text{Var}_{\mu}(\phi_{2})}=1-\lambda_{2}$$
 
 ---
+> [!definition]
+> We have that: $$\text{T}_{mix}(\varepsilon;\mu_{0},P):=\min \{ t\geq 0:\left\| \mu_{0}P^t - \mu \right\| _{\text{TV}}\leq \varepsilon \}$$
+---
 > [!lemma] Theorem 1.6 (Spectral Gap implies Rapid Mixing)
-> Let $P$ be an ergodic Markov chain on $\Omega$ which is reversible w.r.t. $\mu$. 
+> Let $P$ be an ergodic Markov chain on $\Omega$ which is reversible w.r.t. $\mu$. Then, for every $x\in \Omega$ and $\varepsilon>0$, $$\text{T}_{mix}(\varepsilon;\delta_{x},P)\le \frac{1}{\gamma_{*}}\log \left( \frac{1}{2\varepsilon \sqrt{ \mu(x) }} \right) $$
+
+> [!proof]+
+> We first claim that: $$\text{Var}_{\mu}\left( \frac{d(\delta_{x}P^t)}{d\mu} \right)\le \lambda_{*}^{2t}\frac{1-\mu(x)}{\mu(x)}$$We have $\frac{d(\nu P)}{d\mu}(x)=\frac{(\nu P)(x)}{\mu(x)}=\frac{\sum_{y}^{}\nu(y)P(y,x)}{\mu(x)}=\frac{\sum_{y}^{}\nu(y)P(y,x)}{\mu(x)}=\frac{\sum_{y}^{}\nu(y)P(x,y)}{\mu(y)}=\left( P\cdot \frac{d\nu}{d\mu} \right)(x)$. Hence, $$\begin{aligned}\text{Var}_{\mu}\left( \frac{d\nu}{d\mu} \right)-\text{Var}_{\mu}\left( \frac{d(\nu P)}{d\mu} \right)&=\left\langle \frac{d\nu}{d\mu},\frac{d\nu}{d\mu}\right\rangle_{\mu}-\left\langle \frac{d\nu}{d\mu},1\right\rangle_{\mu}^{2}-\left\langle \frac{d\nu}{d\mu},P^{2}\frac{d\nu}{d\mu}\right\rangle_{\mu}+\left\langle  \frac{d\nu}{d\mu},1\right\rangle_{\mu}^{2} \\&=\left\langle  \frac{d\nu}{d\mu},(I-P^{2})\frac{d\nu}{d\mu}\right\rangle_{\mu}\\&=\mathcal{E}_{P^{2}}\left( \frac{d\nu}{d\mu},\frac{d\nu}{d\mu} \right)\\&\ge (1-\lambda_{*}^{2})\text{Var}_{\mu}\left( \frac{d\nu}{d\mu} \right)\end{aligned}$$Therefore, $\lambda^{2}_{*}\text{Var}\left( \frac{d\nu}{d\mu} \right) \geq \text{Var}\left( \frac{d(\nu P)}{d\mu} \right)$. Hence, for any $t$, $$\text{Var}\left( \frac{d(\delta_{*}P^t)}{d\mu} \right)\le \lambda^{2t}_{*}\text{Var}_{\mu}\left( \frac{d \delta_{x}}{d\mu} \right)=\lambda_{*}^{2t}\left( \frac{1-\mu(x)}{\mu(x)} \right) $$Therefore, for $t \geq \frac{1}{\gamma_{*}}\log (\frac{1}{2\varepsilon \sqrt{ \mu(x) }})$, we have that: $$\left\| \delta_{x}P^t-\mu \right\| _{\text{TV}}\leq \frac{\lambda_{*}^{t}}{2} \frac{1}{\sqrt{ \mu(x) }}$$
