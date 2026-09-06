@@ -244,14 +244,10 @@
             "id": "d4e8efff9138be29",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithmic Counting and Sampling.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Algorithmic Counting and Sampling"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -401,10 +397,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ca17cb05ddb38993",
+  "active": "d4e8efff9138be29",
   "lastOpenFiles": [
-    "Statistical Physics/Ising Model.md",
     "Algorithmic Counting and Sampling.md",
+    "Statistical Physics/Ising Model.md",
     "Markov Processes/Glauber Dynamics.md",
     "Markov Processes/Markov Chain.md",
     "Functional Analysis/Hilbert Space Operator.md",
