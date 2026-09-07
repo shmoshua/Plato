@@ -196,12 +196,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithmic Counting and Sampling.md",
+                "file": "Combinatorics/Ferromagnetic Ising Model.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Algorithmic Counting and Sampling"
+              "title": "Ferromagnetic Ising Model"
             }
           }
         ],
@@ -232,26 +232,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Glauber Dynamics.md",
+                "file": "Combinatorics/Ferromagnetic Ising Model.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Glauber Dynamics"
-            }
-          },
-          {
-            "id": "d4e8efff9138be29",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Ferromagnetic Ising Model"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -397,11 +387,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "d4e8efff9138be29",
+  "active": "f2f6b21acd0ddcdd",
   "lastOpenFiles": [
+    "Markov Processes/Glauber Dynamics.md",
+    "Combinatorics/Ferromagnetic Ising Model.md",
     "Algorithmic Counting and Sampling.md",
     "Statistical Physics/Ising Model.md",
-    "Markov Processes/Glauber Dynamics.md",
     "Markov Processes/Markov Chain.md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Topology/Topological Space.md",
@@ -425,7 +416,6 @@
     "Algebra/Orbit and Stablizer.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algebra/Group Action.md",
-    "Algebra/Symmetry Group.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
