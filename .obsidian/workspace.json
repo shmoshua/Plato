@@ -239,6 +239,20 @@
               "icon": "lucide-file",
               "title": "Ferromagnetic Ising Model"
             }
+          },
+          {
+            "id": "1d807cd45772d2aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/FPTAS.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "FPTAS"
+            }
           }
         ],
         "currentTab": 1
@@ -389,8 +403,9 @@
   },
   "active": "f2f6b21acd0ddcdd",
   "lastOpenFiles": [
-    "Markov Processes/Glauber Dynamics.md",
+    "Algorithms/FPTAS.md",
     "Combinatorics/Ferromagnetic Ising Model.md",
+    "Markov Processes/Glauber Dynamics.md",
     "Algorithmic Counting and Sampling.md",
     "Statistical Physics/Ising Model.md",
     "Markov Processes/Markov Chain.md",
@@ -415,7 +430,6 @@
     "Functional Analysis/Examples/Spectral Theorem.md",
     "Algebra/Orbit and Stablizer.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
-    "Algebra/Group Action.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
