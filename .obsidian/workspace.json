@@ -203,9 +203,23 @@
               "icon": "lucide-file",
               "title": "Ferromagnetic Ising Model"
             }
+          },
+          {
+            "id": "23f4f2ef214b76ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Research.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Research"
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       },
       {
         "id": "d54d634cc1ba8421",
@@ -232,12 +246,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combinatorics/Ferromagnetic Ising Model.md",
+                "file": "Research.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ferromagnetic Ising Model"
+              "title": "Research"
             }
           },
           {
@@ -403,8 +417,9 @@
   },
   "active": "f2f6b21acd0ddcdd",
   "lastOpenFiles": [
-    "Algorithms/FPTAS.md",
     "Combinatorics/Ferromagnetic Ising Model.md",
+    "Research.md",
+    "Algorithms/FPTAS.md",
     "Markov Processes/Glauber Dynamics.md",
     "Algorithmic Counting and Sampling.md",
     "Statistical Physics/Ising Model.md",
@@ -429,7 +444,6 @@
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Examples/Spectral Theorem.md",
     "Algebra/Orbit and Stablizer.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
