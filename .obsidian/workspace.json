@@ -246,12 +246,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research.md",
+                "file": "Probability Theory/Martingale.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Research"
+              "title": "Martingale"
             }
           },
           {
@@ -415,11 +415,11 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "23f4f2ef214b76ea",
+  "active": "f2f6b21acd0ddcdd",
   "lastOpenFiles": [
+    "Research.md",
     "Markov Processes/Stationary Distribution.md",
     "Markov Processes/Markov Chain.md",
-    "Research.md",
     "Combinatorics/Ferromagnetic Ising Model.md",
     "Algorithms/FPTAS.md",
     "Markov Processes/Glauber Dynamics.md",
