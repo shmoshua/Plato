@@ -246,12 +246,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research.md",
+                "file": "Markov Processes/Stationary Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Research"
+              "title": "Stationary Distribution"
             }
           },
           {
@@ -417,13 +417,13 @@
   },
   "active": "f2f6b21acd0ddcdd",
   "lastOpenFiles": [
-    "Combinatorics/Ferromagnetic Ising Model.md",
+    "Markov Processes/Markov Chain.md",
     "Research.md",
+    "Combinatorics/Ferromagnetic Ising Model.md",
     "Algorithms/FPTAS.md",
     "Markov Processes/Glauber Dynamics.md",
     "Algorithmic Counting and Sampling.md",
     "Statistical Physics/Ising Model.md",
-    "Markov Processes/Markov Chain.md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Topology/Topological Space.md",
     "Analysis/Directional Derivative.md",
