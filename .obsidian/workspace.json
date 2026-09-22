@@ -246,12 +246,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markov Processes/Stationary Distribution.md",
+                "file": "Research.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Stationary Distribution"
+              "title": "Research"
             }
           },
           {
@@ -415,8 +415,9 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f2f6b21acd0ddcdd",
+  "active": "23f4f2ef214b76ea",
   "lastOpenFiles": [
+    "Markov Processes/Stationary Distribution.md",
     "Markov Processes/Markov Chain.md",
     "Research.md",
     "Combinatorics/Ferromagnetic Ising Model.md",
@@ -443,7 +444,6 @@
     "Functional Analysis/Resolution of Identity.md",
     "Functional Analysis/Positive Operator.md",
     "Functional Analysis/Examples/Spectral Theorem.md",
-    "Algebra/Orbit and Stablizer.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",

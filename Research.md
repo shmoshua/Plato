@@ -1,0 +1,4 @@
+Let $c:=\frac{\beta\lambda}{N}$. Then:
+$$\begin{aligned}
+\mu_{\beta M}(\sigma)K(\sigma,\sigma')&=\int_{}^{} \mu_{\beta M}(\sigma) p(z|\sigma)\mu_{\beta W,zx}(\sigma') \, dz \\& \propto\int \exp\left( \frac{\beta}{2}\sigma^\top \left( W+\frac{\lambda}{N}xx^\top \right)\sigma-\frac{1}{2c}\left( z-c\braket{ \sigma , x }  \right)^{2}+\frac{\beta}{2} \sigma'^\top W \sigma'+z\braket{ x , \sigma' } \right) \, dz 
+\\& \propto\int \exp\left( \frac{\beta}{2}\sigma^\top W\sigma-\frac{z^2}{2c}+ z\braket{ \sigma , x }  +\frac{\beta}{2} \sigma'^\top W \sigma'+z\braket{ \sigma' , x} \right) \, dz \\&\propto \mu_{\beta M}(\sigma')K(\sigma',\sigma)\end{aligned}$$
