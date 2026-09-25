@@ -246,12 +246,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Martingale.md",
+                "file": "Statistical Physics/Ising Model.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Martingale"
+              "title": "Ising Model"
             }
           },
           {
@@ -417,6 +417,7 @@
   },
   "active": "f2f6b21acd0ddcdd",
   "lastOpenFiles": [
+    "Probability Theory/Martingale.md",
     "Research.md",
     "Markov Processes/Stationary Distribution.md",
     "Markov Processes/Markov Chain.md",
@@ -443,7 +444,6 @@
     "AnW1.md",
     "Functional Analysis/Resolution of Identity.md",
     "Functional Analysis/Positive Operator.md",
-    "Functional Analysis/Examples/Spectral Theorem.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
