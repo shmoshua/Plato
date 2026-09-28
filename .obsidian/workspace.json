@@ -260,16 +260,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/FPTAS.md",
+                "file": "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "FPTAS"
+              "title": "Weak Recovery in Spiked Models"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -301,7 +301,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reversible",
+                "query": "measure decomposition",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -322,7 +322,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -415,17 +416,17 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f2f6b21acd0ddcdd",
+  "active": "1d807cd45772d2aa",
   "lastOpenFiles": [
+    "Algorithms/FPTAS.md",
+    "Statistical Physics/Ising Model.md",
     "Probability Theory/Martingale.md",
     "Research.md",
     "Markov Processes/Stationary Distribution.md",
     "Markov Processes/Markov Chain.md",
     "Combinatorics/Ferromagnetic Ising Model.md",
-    "Algorithms/FPTAS.md",
     "Markov Processes/Glauber Dynamics.md",
     "Algorithmic Counting and Sampling.md",
-    "Statistical Physics/Ising Model.md",
     "Functional Analysis/Hilbert Space Operator.md",
     "Topology/Topological Space.md",
     "Analysis/Directional Derivative.md",
