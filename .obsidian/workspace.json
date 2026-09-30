@@ -260,16 +260,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+                "file": "Statistical Physics/Ising Model.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Weak Recovery in Spiked Models"
+              "title": "Ising Model"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -416,12 +416,12 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "23f4f2ef214b76ea",
+  "active": "1d807cd45772d2aa",
   "lastOpenFiles": [
-    "Research.md",
-    "TA/AdvAlg/TimeSheet.md",
-    "Statistical Physics/Ising Model.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
+    "TA/AdvAlg/TimeSheet.md",
+    "Research.md",
+    "Statistical Physics/Ising Model.md",
     "Algorithms/FPTAS.md",
     "Probability Theory/Martingale.md",
     "Markov Processes/Stationary Distribution.md",
