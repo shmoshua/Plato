@@ -97,3 +97,9 @@ Total 14hrs
 Total 43hrs
 
 
+01.08 6hrs Test Solving Exam + Feedback document
+02.09 8hrs Exam Correction
+03.09 8hrs Exam Correction
+30.09 3hrs Exam Review
+
+

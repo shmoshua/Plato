@@ -210,12 +210,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Research"
+              "title": "TimeSheet"
             }
           }
         ],
@@ -246,12 +246,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Physics/Ising Model.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ising Model"
+              "title": "TimeSheet"
             }
           },
           {
@@ -416,13 +416,14 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "f2f6b21acd0ddcdd",
+  "active": "23f4f2ef214b76ea",
   "lastOpenFiles": [
+    "Research.md",
+    "TA/AdvAlg/TimeSheet.md",
+    "Statistical Physics/Ising Model.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Algorithms/FPTAS.md",
-    "Statistical Physics/Ising Model.md",
     "Probability Theory/Martingale.md",
-    "Research.md",
     "Markov Processes/Stationary Distribution.md",
     "Markov Processes/Markov Chain.md",
     "Combinatorics/Ferromagnetic Ising Model.md",
@@ -444,7 +445,6 @@
     "Measure Theory/Data Generating Process.md",
     "SLT.md",
     "AnW1.md",
-    "Functional Analysis/Resolution of Identity.md",
     "Algebraic Geometry",
     "Formal Language Theory",
     "TA/AlgoDat",
