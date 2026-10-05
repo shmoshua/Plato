@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Machine Learning/Bayesian Network.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hilbert Space"
+              "title": "Bayesian Network"
             }
           }
         ]
@@ -49,12 +49,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Hilbert Space.md",
+                "file": "Machine Learning/Bayesian Network.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hilbert Space"
+              "title": "Bayesian Network"
             }
           },
           {
@@ -139,8 +139,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -235,8 +234,10 @@
   },
   "active": "5178599899416f2a",
   "lastOpenFiles": [
-    "Locally Stationary Distribution.md",
     "Analysis/Hilbert Space.md",
+    "Machine Learning/Bayesian Network.md",
+    "Machine Learning/Untitled.md",
+    "Locally Stationary Distribution.md",
     "Functional Analysis/Fourier Transform.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Information Theory/Relative Entropy.md",
@@ -260,8 +261,6 @@
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Research.md",
     "Algorithms/FPTAS.md",
-    "Probability Theory/Martingale.md",
-    "Markov Processes/Stationary Distribution.md",
     "Statistical Physics",
     "Algebraic Geometry",
     "Formal Language Theory",
