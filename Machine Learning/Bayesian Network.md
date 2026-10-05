@@ -1,8 +1,9 @@
 #Definition #PAI 
 
 > [!definition]
-> Let $p(x_{1:n})$ be a [[Distribution|joint distribution]]. A ***Bayesian network*** for $p$ is a [[directed acyclic graph]] $G$ on $[n]$ s.t. 
-> 1. $v\to w\iff x_{v}\in S_{w}$ where $p(x_{1:n})=\prod_{i=1}^{n}p(x_{i}|S_{i})$ for $S_{i}\subseteq \{ x_{k}:k\in [i-1] \}$.
+> A ***Bayesian network*** is a [[directed acyclic graph]] $G:=(V,E)$ with
+> 1. a set of random variables $x:=(x_{v})_{v\in V}$ and 
+> 2. a conditional probability $p(x_{v}|x_{\partial v^-})$
 
 ^78dc2b
 
@@ -10,6 +11,12 @@
 - **Related definition**: In ***plate notation***, we use plates to represent parts of the graph that appear more than once. ^c0cc53
 ---
 ##### Properties
+> [!lemma] Proposition 1
+> Let $u,v,w\in V$.
+> 1. If $u\to v$ and $u\to w$, then $x_{v} \bot x_{w}|x_{u}$.
+> 2. if $u\to v\to w$, then $x_{u} \bot x_{w}|x_{v}$.
+> 3. if $u\to w$ and $v\to w$, then $x_{u} \bot x_{v}$ but $x_{u}\bot x_{v}|x_{w}$.
+
 ---
 ##### Examples
 > [!h] Example 1 (Bayesian Linear Regression)
