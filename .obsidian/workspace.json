@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Locally Stationary Distribution.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Locally Stationary Distribution"
+              "title": "Hilbert Space"
             }
           }
         ]
@@ -49,12 +49,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Locally Stationary Distribution.md",
+                "file": "Analysis/Hilbert Space.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Locally Stationary Distribution"
+              "title": "Hilbert Space"
             }
           },
           {
@@ -118,7 +118,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "measure decomposition",
+                "query": "parseval",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -139,7 +139,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -234,8 +235,10 @@
   },
   "active": "5178599899416f2a",
   "lastOpenFiles": [
-    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Locally Stationary Distribution.md",
+    "Analysis/Hilbert Space.md",
+    "Functional Analysis/Fourier Transform.md",
+    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Information Theory/Relative Entropy.md",
     "Geometry/Cone.md",
     "Technical Lemmas.md",
@@ -259,8 +262,6 @@
     "Algorithms/FPTAS.md",
     "Probability Theory/Martingale.md",
     "Markov Processes/Stationary Distribution.md",
-    "Markov Processes/Markov Chain.md",
-    "Markov Processes/Glauber Dynamics.md",
     "Statistical Physics",
     "Algebraic Geometry",
     "Formal Language Theory",
