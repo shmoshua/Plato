@@ -99,9 +99,21 @@
               "icon": "lucide-file",
               "title": "Ising Model"
             }
+          },
+          {
+            "id": "03fa92d02f8c8110",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.4"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -121,7 +133,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -247,7 +261,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c9dbebdf1fb4b2fe",
+  "active": "03fa92d02f8c8110",
   "lastOpenFiles": [
     "Information Theory/Relative Entropy.md",
     "Machine Learning/Bayesian Network.md",
