@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical Physics/Ising Model.md",
+                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ising Model"
+              "title": "Project Roadmap"
             }
           },
           {
@@ -115,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -264,8 +264,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "03fa92d02f8c8110",
+  "active": "c9dbebdf1fb4b2fe",
   "lastOpenFiles": [
+    "Statistical Physics/Ising Model.md",
+    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Locally Stationary Distribution.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
@@ -274,12 +276,10 @@
     "Machine Learning/Bayesian Network.md",
     "Information Theory/Relative Entropy.md",
     "Machine Learning/Bayesian.md",
-    "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Analysis/Hilbert Space.md",
     "Machine Learning/Untitled.md",
     "Functional Analysis/Fourier Transform.md",
     "Geometry/Cone.md",
-    "Statistical Physics/Ising Model.md",
     "Courses/Phase Transitions",
     "Combinatorics/Ferromagnetic Ising Model.md",
     "Measure Theory/Data Generating Process.md",
