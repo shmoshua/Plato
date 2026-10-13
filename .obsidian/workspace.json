@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Bayesian Network.md",
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Bayesian Network"
+              "title": "AlgoDat Roadmap"
             }
           }
         ],
@@ -104,12 +104,14 @@
             "id": "03fa92d02f8c8110",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.14.4"
+                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.14.4"
+              "icon": "lucide-file",
+              "title": "AlgoDat Roadmap"
             }
           }
         ],
@@ -147,7 +149,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "parseval",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,7 +170,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -263,17 +266,18 @@
   },
   "active": "03fa92d02f8c8110",
   "lastOpenFiles": [
-    "Information Theory/Relative Entropy.md",
+    "Technical Lemmas.md",
+    "ML Theory/Markov Random Field.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Machine Learning/Bayesian Network.md",
+    "Information Theory/Relative Entropy.md",
     "Machine Learning/Bayesian.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
-    "ML Theory/Markov Random Field.md",
     "Analysis/Hilbert Space.md",
     "Machine Learning/Untitled.md",
     "Locally Stationary Distribution.md",
     "Functional Analysis/Fourier Transform.md",
     "Geometry/Cone.md",
-    "Technical Lemmas.md",
     "Statistical Physics/Ising Model.md",
     "Courses/Phase Transitions",
     "Combinatorics/Ferromagnetic Ising Model.md",
@@ -288,7 +292,6 @@
     "Analysis/Subdifferential.md",
     "Courses/Discrete Optimization/Sheet 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Statistical Physics",
     "Algebraic Geometry",
