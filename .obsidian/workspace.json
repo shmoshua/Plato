@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
+                "file": "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Project Roadmap"
+              "title": "Local Stationary Distributions"
             }
           }
         ],
@@ -266,6 +266,7 @@
   },
   "active": "03fa92d02f8c8110",
   "lastOpenFiles": [
+    "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Locally Stationary Distribution.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Technical Lemmas.md",
@@ -292,7 +293,6 @@
     "Analysis/Subdifferential.md",
     "Courses/Discrete Optimization/Sheet 2.md",
     "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
-    "Projects/Local Stationary Distributions/Weak Recovery in Spiked Models.md",
     "Statistical Physics",
     "Algebraic Geometry",
     "Formal Language Theory",
