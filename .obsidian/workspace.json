@@ -106,12 +106,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Locally Stationary Distribution.md",
+                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Locally Stationary Distribution"
+              "title": "Project Roadmap"
             }
           }
         ],
@@ -266,6 +266,7 @@
   },
   "active": "03fa92d02f8c8110",
   "lastOpenFiles": [
+    "Locally Stationary Distribution.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Technical Lemmas.md",
     "ML Theory/Markov Random Field.md",
@@ -275,7 +276,6 @@
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Analysis/Hilbert Space.md",
     "Machine Learning/Untitled.md",
-    "Locally Stationary Distribution.md",
     "Functional Analysis/Fourier Transform.md",
     "Geometry/Cone.md",
     "Statistical Physics/Ising Model.md",
