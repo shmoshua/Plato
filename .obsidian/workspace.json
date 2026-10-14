@@ -87,31 +87,17 @@
             }
           },
           {
-            "id": "c9dbebdf1fb4b2fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Local Stationary Distributions/Project Roadmap.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Project Roadmap"
-            }
-          },
-          {
             "id": "03fa92d02f8c8110",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
+                "file": "Functional Analysis/Hilbert Space Operator.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Local Stationary Distributions"
+              "title": "Hilbert Space Operator"
             }
           }
         ],
@@ -264,11 +250,13 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "c9dbebdf1fb4b2fe",
+  "active": "03fa92d02f8c8110",
   "lastOpenFiles": [
-    "Statistical Physics/Ising Model.md",
+    "Functional Analysis/Examples/Spectral Theorem.md",
+    "Functional Analysis/Hilbert Space Operator.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
+    "Statistical Physics/Ising Model.md",
     "Locally Stationary Distribution.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Technical Lemmas.md",
@@ -291,8 +279,6 @@
     "TA/AdvAlg/TimeSheet.md",
     "Algebra/Semigroup.md",
     "Analysis/Subdifferential.md",
-    "Courses/Discrete Optimization/Sheet 2.md",
-    "Courses/Algorithms for Data Science/Exercise Sheet 1.md",
     "Statistical Physics",
     "Algebraic Geometry",
     "Formal Language Theory",
