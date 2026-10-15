@@ -90,14 +90,10 @@
             "id": "03fa92d02f8c8110",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Analysis/Hilbert Space Operator.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Hilbert Space Operator"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -252,8 +248,10 @@
   },
   "active": "03fa92d02f8c8110",
   "lastOpenFiles": [
-    "Functional Analysis/Examples/Spectral Theorem.md",
+    "Graph Theory/Graph.md",
+    "Algebra/Ring.md",
     "Functional Analysis/Hilbert Space Operator.md",
+    "Functional Analysis/Examples/Spectral Theorem.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Statistical Physics/Ising Model.md",
@@ -277,8 +275,6 @@
     "Algebraic Geometry/Regular Function.md",
     "Algebra/Jacobson Radical.md",
     "TA/AdvAlg/TimeSheet.md",
-    "Algebra/Semigroup.md",
-    "Analysis/Subdifferential.md",
     "Statistical Physics",
     "Algebraic Geometry",
     "Formal Language Theory",
