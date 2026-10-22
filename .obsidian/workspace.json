@@ -78,12 +78,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Locally Stationary Distribution.md",
+                "file": "Statistical Physics/Ising Model.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Locally Stationary Distribution"
+              "title": "Ising Model"
             }
           }
         ],
@@ -238,6 +238,7 @@
   },
   "active": "ecb4caaad7105de6",
   "lastOpenFiles": [
+    "Locally Stationary Distribution.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Machine Learning/Bayesian Network.md",
     "Graph Theory/Graph.md",
@@ -246,7 +247,6 @@
     "Functional Analysis/Examples/Spectral Theorem.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Statistical Physics/Ising Model.md",
-    "Locally Stationary Distribution.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Technical Lemmas.md",
     "ML Theory/Markov Random Field.md",
