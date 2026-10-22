@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Functional Analysis/Space of Probability Measures.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Space of Probability Measures"
             }
           }
         ],
@@ -238,6 +238,13 @@
   },
   "active": "ecb4caaad7105de6",
   "lastOpenFiles": [
+    "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
+    "Functional Analysis/Space of Probability Measures.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+    "Topology/Topological Vector Space with Seminorms.md",
+    "Functional Analysis/Extreme Points and Sets.md",
+    "Functional Analysis/Ergodic Measure.md",
+    "Statistical Physics/Ising Model.md",
     "Locally Stationary Distribution.md",
     "Projects/Local Stationary Distributions/Local Stationary Distributions.md",
     "Machine Learning/Bayesian Network.md",
@@ -246,8 +253,6 @@
     "Functional Analysis/Hilbert Space Operator.md",
     "Functional Analysis/Examples/Spectral Theorem.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Statistical Physics/Ising Model.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Technical Lemmas.md",
     "ML Theory/Markov Random Field.md",
     "Information Theory/Relative Entropy.md",
@@ -260,11 +265,6 @@
     "Combinatorics/Ferromagnetic Ising Model.md",
     "Measure Theory/Data Generating Process.md",
     "AnW1.md",
-    "Functional Analysis/Positive Operator.md",
-    "Projects/Local Stationary Distributions/MaxCut.md",
-    "Algebraic Geometry/Regular Function.md",
-    "Algebra/Jacobson Radical.md",
-    "TA/AdvAlg/TimeSheet.md",
     "Statistical Physics",
     "Algebraic Geometry",
     "Formal Language Theory",
