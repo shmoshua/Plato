@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
+                "file": "Probability Theory/Martingale.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AlgoDat Roadmap"
+              "title": "Martingale"
             }
           }
         ],
@@ -280,6 +280,9 @@
   },
   "active": "ecb4caaad7105de6",
   "lastOpenFiles": [
+    "Representation Theory/Filtration.md",
+    "Probability Theory/Martingale.md",
+    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Pontryagin Dual.md",
     "Functional Analysis/Resolution of Identity.md",
@@ -289,7 +292,6 @@
     "Statistical Physics/Ising Model.md",
     "Courses/Functional Analysis I/Functional Analysis I Roadmap.md",
     "Functional Analysis/Space of Probability Measures.md",
-    "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Topology/Topological Vector Space with Seminorms.md",
     "Functional Analysis/Extreme Points and Sets.md",
     "Functional Analysis/Ergodic Measure.md",
@@ -304,8 +306,6 @@
     "Technical Lemmas.md",
     "ML Theory/Markov Random Field.md",
     "Information Theory/Relative Entropy.md",
-    "Machine Learning/Bayesian.md",
-    "Analysis/Hilbert Space.md",
     "Courses/Phase Transitions",
     "Statistical Physics",
     "Algebraic Geometry",
