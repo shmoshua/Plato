@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability Theory/Martingale.md",
+                "file": "Probability Theory/Gaussian Distribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Martingale"
+              "title": "Gaussian Distribution"
             }
           }
         ],
@@ -280,8 +280,8 @@
   },
   "active": "ecb4caaad7105de6",
   "lastOpenFiles": [
-    "Representation Theory/Filtration.md",
     "Probability Theory/Martingale.md",
+    "Representation Theory/Filtration.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Pontryagin Dual.md",
