@@ -127,9 +127,21 @@
               "icon": "lucide-file",
               "title": "Gaussian Distribution"
             }
+          },
+          {
+            "id": "efb3b605706d1c2c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.5"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -278,7 +290,7 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "ecb4caaad7105de6",
+  "active": "efb3b605706d1c2c",
   "lastOpenFiles": [
     "Probability Theory/Martingale.md",
     "Representation Theory/Filtration.md",
