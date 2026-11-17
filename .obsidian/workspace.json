@@ -134,12 +134,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Cauchy Sequence.md",
+                "file": "Information Theory/Relative Entropy.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cauchy Sequence"
+              "title": "Relative Entropy"
             }
           }
         ],
