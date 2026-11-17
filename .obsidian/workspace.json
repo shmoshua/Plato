@@ -70,12 +70,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functional Analysis/Resolution of Identity.md",
+                "file": "Analysis/Cauchy Sequence.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Resolution of Identity"
+              "title": "Cauchy Sequence"
             }
           }
         ],
@@ -132,12 +132,14 @@
             "id": "efb3b605706d1c2c",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.14.5"
+                "file": "Analysis/Cauchy Sequence.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.14.5"
+              "icon": "lucide-file",
+              "title": "Cauchy Sequence"
             }
           }
         ],
@@ -292,12 +294,13 @@
   },
   "active": "efb3b605706d1c2c",
   "lastOpenFiles": [
+    "Analysis/Cauchy Sequence.md",
+    "Functional Analysis/Resolution of Identity.md",
     "Probability Theory/Martingale.md",
     "Representation Theory/Filtration.md",
     "Courses/Algorithms for Data Science/AlgoDat Roadmap.md",
     "Courses/Functional Analysis II/Functional Analysis II Roadmap.md",
     "Functional Analysis/Pontryagin Dual.md",
-    "Functional Analysis/Resolution of Identity.md",
     "Functional Analysis/C*-Algebra.md",
     "Functional Analysis/Guelfand Transform.md",
     "Guelfand Topology.md",
@@ -317,7 +320,6 @@
     "Projects/Local Stationary Distributions/Project Roadmap.md",
     "Technical Lemmas.md",
     "ML Theory/Markov Random Field.md",
-    "Information Theory/Relative Entropy.md",
     "Courses/Phase Transitions",
     "Statistical Physics",
     "Algebraic Geometry",
