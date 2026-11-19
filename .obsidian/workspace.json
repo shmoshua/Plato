@@ -92,12 +92,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technical Lemmas.md",
+                "file": "TA/AdvAlg/TimeSheet.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Technical Lemmas"
+              "title": "TimeSheet"
             }
           },
           {
@@ -142,8 +142,7 @@
               "title": "Relative Entropy"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -292,8 +291,10 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "efb3b605706d1c2c",
+  "active": "1d807cd45772d2aa",
   "lastOpenFiles": [
+    "Technical Lemmas.md",
+    "Information Theory/Relative Entropy.md",
     "Analysis/Cauchy Sequence.md",
     "Functional Analysis/Resolution of Identity.md",
     "Probability Theory/Martingale.md",
@@ -318,8 +319,6 @@
     "Functional Analysis/Hilbert Space Operator.md",
     "Functional Analysis/Examples/Spectral Theorem.md",
     "Projects/Local Stationary Distributions/Project Roadmap.md",
-    "Technical Lemmas.md",
-    "ML Theory/Markov Random Field.md",
     "Courses/Phase Transitions",
     "Statistical Physics",
     "Algebraic Geometry",
